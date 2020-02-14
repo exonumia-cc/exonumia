@@ -1,0 +1,25 @@
+{
+  "name": "exonumia.cc",
+  "version": "0.0.1",
+  "description": "The landing page for native African language speaker looking to learn about Bitcoin.",
+  "main": "exonumia.cc.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.sigidli.com/exonumia/exonumia.cc.git"
+  },
+  "keywords": [
+    "exonumia",
+    "bitcoin",
+    "africa"
+  ],
+  "author": "Sigidli",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.3.0"
+  }
+}
