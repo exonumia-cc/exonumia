@@ -11,6 +11,12 @@ module.exports = {
             title: 'Exonumia',
             description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
         },
+        '/ve/': {
+            lang: 've',
+            group: '🇿🇦 South Africa',
+            title: 'Exonumia',
+            description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
+        },
         '/ng/': {
             lang: 'ng',
             group: '🇳🇦 Namibia',
@@ -56,6 +62,78 @@ module.exports = {
                             '/explain-bitcoin-like-im-five/',
                             '/bitcoin-is-like/',
                             '/i-am-hodling/'
+                        ]
+                    }
+                ],
+            },
+            '/ve/': {
+                selectText: '🇿🇦 Languages',
+                label: 'IsiVenda',
+                ariaLabel: 'Languages',
+                editLinks: true,
+                editLinkText: "Improve Translation!",
+                nav: [
+                    { 
+                        text: 'Home', 
+                        link: '/ve/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/ve/translations/' 
+                    },
+                    { 
+                        text: 'Sigidli', 
+                        link: 'https://sigidli.com' 
+                    },
+                ],
+                sidebar: [
+                    '/ve/about/',
+                    {
+                        title: 'Translations',   // required
+                        path: '/ve/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/ve/',
+                            '/ve/explain-bitcoin-like-im-five/',
+                            '/ve/bitcoin-is-like/',
+                            '/ve/i-am-hodling/'
+                        ]
+                    }
+                ],
+            },
+            '/nr/': {
+                selectText: '🇿🇦 Languages',
+                label: 'Isindebele',
+                ariaLabel: 'Languages',
+                editLinks: true,
+                editLinkText: "Improve Translation!",
+                nav: [
+                    { 
+                        text: 'Home', 
+                        link: '/nr/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/nr/translations/' 
+                    },
+                    { 
+                        text: 'Sigidli', 
+                        link: 'https://sigidli.com' 
+                    },
+                ],
+                sidebar: [
+                    '/nr/about/',
+                    {
+                        title: 'Translations',   // required
+                        path: '/nr/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/nr/',
+                            '/nr/explain-bitcoin-like-im-five/',
+                            '/nr/bitcoin-is-like/',
+                            '/nr/i-am-hodling/'
                         ]
                     }
                 ],
