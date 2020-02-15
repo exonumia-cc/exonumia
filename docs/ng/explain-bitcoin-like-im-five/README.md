@@ -12,95 +12,97 @@ Paife owuna eyupela limwe, ngaye kandinasha.
 
 Kashishi oshinima oshipu shono?
 
-### Let’s look closely at what happened:
+### Tu konakone oshinima shi sha ningwapo:
 
-My apple was physically put into your hand.
+Eyapula ondeli tula palutu meke lyoye.
 
-You know it happened. I was there. You were there. You touched it.
+Owushishi kutya osha ningwa. Opo ndali. Opo wali. Oweshi nyenga.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Inatu pumbwa omuntu omutitatu etu kwathele okutuma eyapula. Inatu pumbwa okwiithana Tate Toma (omupanguli asimana/apyokoka) tu kalomutumba poshipundi akoleke kutya eyapula olya ya kungweye okuza kungame.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Eyapula ndino olyohe! Ite vulu okuku pa eyapula limwe natango sha shoka kandinapo we. Kandina we uuthemba washa we. Eyapula olya zamo miikesho yandje thilu thilu. Owuna uuthemba oku longitha eyapula ngashi wa hala. Oto vulu okulipa felende gwoye ngele osho wa hala, na felende gwoye ota vulu okulipa felende gwoye. Nosho wo.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Okutaambathana palutu osho hashikala. Oshiifa naashi andi ku pe oshiyimati she banana, embo, nenge othilinga, nenge oshimaliwa shefo.
 
-But I’m getting ahead of myself.
+Maala inatu endelela uunene.
 
-### Back to apples!
+### Galukila komayapula!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Paife, toti ondi na eyapula limwe lyopainterneta. Andikupe eyapula lyandje lyopainterneta.
+Sha ningi ne oshihokitha.
 
-Ah! Now it gets interesting.
+Otoshi shiwa ngiini kutya eyapula ndyono lyopointerneta ndi lyali lyandje, olyohe, nolyohe gwe mwene. Shii pula nga manga.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Osha dhigupala. Otoshi shiwa ngini kutya inandi tuma eyapula ndono ku Tate Toma mekwatethano lyontumwafo yoshinanena tango? Nenge ku felende gwoye Joseph? Nenge noku ku felende gwandje Lisa?
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Napamwe onda ninga eekopi odhindji dheyapula lyopainterneta komalungula (kompuita) gandje. 
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Napamwe ondeshi tula kointerneta ndele tashi kuthwako kaantu yeli omiliona.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Ngaashi wu wete, okutaambathana kointerenta oshina omiikundu nuudhigu. **Okutuma omayapula go painterneta inashi fa oku tuma omayapula gopalutu.**
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Aanuunongo miinima yokomalungula (eekompiuta) oya pe omiikundu dhino edhina: ohashithanwa [omikundu dhokufuta lwaali](http://blogs.cornell.edu/info4220/2013/03/29/bitcoin-and-the-double-spending-problem/).
 
-Until now.
+Maala inashi ku piyaganeka. Owuna ashike oku shiwa kutya osheya ngwangwanitha ethimbo eshupi maala natango inayeshi kandulapo. 
 
-But let’s try to think of a solution on our own.
+Sigo paife. 
 
-### Ledgers
+Tu kambadhale okudhiladhila ekandulepo lyomukundu se yene.
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+### Omambo goma yalulo
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Napamwe omayapula gokointerneta oga pumbwa oku landulwa **membo lyoma yalulo**. Membo ndino omo ho vulu oku landula omataambathana gomaliko agehe - embo liiyalulwa (accounting).
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Embo ndino, shaashi olyoko interneta, olya pumbwa okwiikalela nokutakamithwa komuntu. 
 
-### Problems
+Ngaashi ashike mobaanga. Mba ya tota obank’a oyena embo lyoma yalulo kointerneta kutya aantu yangapi yena iimaliwa yothike peni meeaccounta dhawo. Obank’a otayi vulu oku landula noku koleka omayapula getu gokointerneta.
 
-There’s a bit of a problem though:
+### Omikundu nuudhigu
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+Opena uudhigu uushona.
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+1. Ngashi omniilonga gwomobaanga okwa tota po iimaliwa ikwawo? Otavulu ashike okwii gwedhelamo omayapula gokointerneta mekutu lye uuna a hala!
+2. Inashifa shi twali twa kalomutumbaa meshala lyokuvulukwapo nomaunyanyudho esiku ndyo. Esiku ndiya otse ashike twali po. Oku tegelela omniilonga gwomobaanga eye pokati ketu owafa ashike Tate Toma (omubangi), omupanguli teya koleke omataambathano gomaliko getu kondje ho (court). Ite vulu okuku pa omayapula gandje ngashi shito.
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Opena omukalo gwoku tapa omataambathano gomaliko getu gokoshipundi shetu shomeshala lyomaunyanyudho, se ashike tuli yaali? Ashuulike oshidhigu.
 
-### The Solution
+### Ekandule po lyomukundu
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Ngele otwa pe **kehe gumwe** embo lyomayalulo? Peshala embo lyikale ike ko kompiuta yokombaanga, olili mboli keekompiuta dhaantu ayehe. Omataambathano gomaliko ageshe nga ga ningwa, ethimbo alihe omayapula gointerneta, oga shangelwamo.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Ito vulu okushi kengelela. Ite vulu okuku tumina omayapula kandigana, shashoka itashi kwatathana nosystem keekompiuta adhishe. Esystem odhigu oku dhenga. Noshowo ngele olya ningi enene.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Noho inashi kwatelwa komeho komuntu gumwe, tashiti ondi shishi kutya kapena omuntu ta vulu oku iigwedhelapo omayapula gokointerneta. Oompango dho system odha totwapo nale kuza ketameko. Eekuode neeprograma dho kompiuta yapatulukila aayehe, oshitya hashithanwa “[open source](https://en.wikipedia.org/wiki/Open_source)” moshiEnglisha. Oshili po opo aanuunongo ya gwedhepo, ya takamithe, ehumo komesho, noku shi tala.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Nangweye oto vulu oku kutha ombinga monetworka ndyino, to tsakanitha embo lyomayalulo ndele to shi koleke. Shashoka oto longo, oto vulu okupewa [omayapula gokointerneta geli omilongombali na ntano](http://www.weusecoins.com/en/mining-guide/) onga ofuto. Ogo ala omukalo guli po oku tota po omayapula omape mosystem.
 
-### I simplified quite a bit
+### Ondeshi ninga oshipu
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+Maala osystem ndji nda fatulula opo lili miilonga. Osha ithanwa omulandu gwo Bitcoin. Ee”Bitcoin” dhomo system odho omayapula gokointerneta. Inashi dhenga mbada? 
 
-So, did you see what happened? What does the public ledger enable?
+Oshinima shi sha ningwa oweshi mona? **Ohashi kwatha shike tukale tuna embo lyomayalulo lili kaantu ayehe?**
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1. Dhimbulukwa kutya osha patulukila aayehe. Omayapula ageshe nga geli mo system oga tulwapo membo lyomayalulo lyaantu ayehe kuza petameko. Otushishi kutya omuna omayapula ogethike peni koshinkwanu. **Meni lyo system ondishishi kutya oga pumba.**
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2. Sha nda taambathana paife ondishishi kutya eyapula lyokointerneta olya **zamo meke lyandje shili nolili meke lyoye thilthilu**. Ohashi vulu oku kolekwa membo lyomayalulo ndi lili kaantu ayehe.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3. Omolwashi embo lyomayalulo lili kaantu ayehe, **inatu pumbwa Tate Toma omubangi** atale kutya inatu ya kengelela, inandiiningila ekopi nenge oku tumina omuntu omayapela gaali nenge gatatu…
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+Meni lyosystem paife okutaambathana eyapula lyokointerneta olyafa ashike okutaambathana eyapula gopalutu. Owafa ashike watala eyapula lyopalutu tali zi penyala dhoye notaliyimekutu. Nongashi ashike poshipundi shopeshala lyomaunyanyudho, opwali ashike aantu yali. Ngwe, nangaye - inatu pumbwa Tate Toma eshi koleke.
 
-In other words, it behaves like a physical object.
+Ohashiihumbata shafa oshinima shopalutu.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Oshifuulithi osho shi: natango oshili kointeneta. Atu vulu okulandula omayapula geli eyovi, nenge omilliona nando omayapula geli 0.0000001. Andi vulu oku shi tuma nethindo lyokamouse kokompiuta, nonogo mekutu lyoye lyokointerneta nando wuli mo Windhoeka nondili mOshakati.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Otevulu oku tula iinima iikwayo yoko interneta kombanda yomayapula goko interneta. Oshoko interneta mos? Napamwe andi vulu oku tulako okatumwalaka kokointerneta. Nenge napamwe andi vulu oku kwatekekako iinima yina oshilonga yivulithepo, ngashi okontracta, nenge okapermita koku enditha iimuna nenge oka tse.
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Shino oshiwanawa! Paife “omayapula gokointerneta” natu ga kwate nokumeta ongushu yagwo momukalo gunipo? Aga vulu oku kala gena oshilonga neh? 
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Opena aantu oyendji hayuumana kombinga yasho paife. Opena eentamanana pokati koskola dhoekonomiksa ndjino naandjiya. Pokati kee aantu mba ha shanga elaka lypakompiuta neekuode. Pokati kaapolitika. Inoya pwakena ayehe. Aantu yamwe oyena uunongo. Yamwe oyena ehuveko lyapuka. Opena mbano taati kutya osystema oyina ongushu, yakwo taati kayinasha ongushu. Omati gumwe okwatulako ondando: [N$ 18710.25 keshe keyapula](https://www.forbes.com/sites/kashmirhill/2013/12/05/bank-of-america-analysts-say-bitcoins-value-is-1300/). Opena mbano taati oshingoli shoko interneta, yakwawo taati iimaliwa sho kointerneta. Yamwe otaati ashilundulula onkalo, yamwe otaati nashitu pitilile.
 
-I have my own opinion about it.
+Ngaye ondina [omayele gandje mwene](http://nikcustodio.tumblr.com/post/150500263430/why-blockchains-an-eli21) komabinga yasho.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Shono ehokololo lye siku ekwawo hapo. Maala, paife owushi kombinga yoBitcoin wu vule ooyakwawo.
 
 #### Recommend Reading (Updated 2017)
 
