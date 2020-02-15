@@ -7,6 +7,7 @@ module.exports = {
         },
         '/ng/': {
             lang: 'ng',
+            group: '🇳🇦 Namibia',
             title: 'Exonumia',
             description: 'Ke yona landing page for native African language speaker looking to learn about Bitcoin.'
         }
@@ -20,7 +21,7 @@ module.exports = {
         locales: {
             '/': {
                 selectText: '🇬🇧 Languages',
-                label: '🇬🇧 English',
+                label: 'English',
                 ariaLabel: 'Languages',
                 editLinkText: 'Improve Content',
                 nav: [
@@ -55,7 +56,7 @@ module.exports = {
             },
             '/ng/': {
                 selectText: '🇳🇦 Languages',
-                label: '🇳🇦 Oshiwambo',
+                label: 'Oshiwambo',
                 ariaLabel: 'Languages',
                 editLinks: true,
                 editLinkText: "Improve Translation!",
