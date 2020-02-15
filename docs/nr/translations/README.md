@@ -1,6 +1,6 @@
 # Exonumia Translations
 
-- [Welcome to Bitcoin](/)
-- [Explain Bitcoin Like I'm Five](/explain-bitcoin-like-im-five)
-- [Bitcoin Is Like](/bitcoin-is-like)
-- [I AM HODLING](/i-am-hodling)
+- [Welcome to Bitcoin](/nr/)
+- [Ngihlathululela i-Bitcoin Ngathi Ngineminyaka Emihlanu](/nr/explain-bitcoin-like-im-five)
+- [I-Bitcoin Ifana Njenge](/nr/bitcoin-is-like)
+- [I AM HODLING](/nr/i-am-hodling)
