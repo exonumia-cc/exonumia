@@ -6,6 +6,18 @@ module.exports = {
             title: 'Exonumia',
             description: 'The landing page for native African language speaker looking to learn about Bitcoin.'
         },
+        '/zu/': {
+            lang: 'zu',
+            group: '🇿🇦 South Africa',
+            title: 'Exonumia',
+            description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
+        },
+        '/st/': {
+            lang: 'st',
+            group: '🇿🇦 South Africa',
+            title: 'Exonumia',
+            description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
+        },
         '/nr/': {
             lang: 'nr',
             group: '🇿🇦 South Africa',
@@ -63,6 +75,78 @@ module.exports = {
                             '/explain-bitcoin-like-im-five/',
                             '/bitcoin-is-like/',
                             '/i-am-hodling/'
+                        ]
+                    }
+                ],
+            },
+            '/zu/': {
+                selectText: '🇿🇦 Izilimi',
+                label: 'IsiZulu',
+                ariaLabel: 'Izilimi',
+                editLinks: true,
+                editLinkText: "Thuthukisa Ukuhumusha",
+                nav: [
+                    { 
+                        text: 'Home', 
+                        link: '/zu/' 
+                    },
+                    { 
+                        text: 'Ukuhumusha', 
+                        link: '/zu/translations/' 
+                    },
+                    { 
+                        text: 'Sigidli', 
+                        link: 'https://sigidli.com' 
+                    },
+                ],
+                sidebar: [
+                    '/zu/about/',
+                    {
+                        title: 'Ukuhumusha',   // required
+                        path: '/zu/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/zu/',
+                            '/zu/explain-bitcoin-like-im-five/',
+                            '/zu/bitcoin-is-like/',
+                            '/zu/i-am-hodling/'
+                        ]
+                    }
+                ],
+            },
+            '/st/': {
+                selectText: '🇿🇦 Lipuo',
+                label: 'Sesotho',
+                ariaLabel: 'Lipuo',
+                editLinks: true,
+                editLinkText: "Improve Translation!",
+                nav: [
+                    { 
+                        text: 'Home', 
+                        link: '/st/' 
+                    },
+                    { 
+                        text: 'Fetolela', 
+                        link: '/st/translations/' 
+                    },
+                    { 
+                        text: 'Sigidli', 
+                        link: 'https://sigidli.com' 
+                    },
+                ],
+                sidebar: [
+                    '/st/about/',
+                    {
+                        title: 'Fetolela',   // required
+                        path: '/st/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/st/',
+                            '/st/explain-bitcoin-like-im-five/',
+                            '/st/bitcoin-is-like/',
+                            '/st/i-am-hodling/'
                         ]
                     }
                 ],
