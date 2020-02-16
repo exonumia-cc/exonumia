@@ -1,4 +1,5 @@
 # Welcome to Bitcoin, newcomers!
+
 <LanguageDropdown/>
 
 ### Here's your FAQ:

@@ -2,6 +2,8 @@
 
 by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
+<LanguageDropdown/>
+
 ### Arali na namusi ni sa talukanyi uri Bitcoin ndi mini…
 
 Nne na inwi ro dzula kha banga phakhani. Ndi duvha lavhudi.

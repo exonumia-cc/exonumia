@@ -2,6 +2,8 @@
 
 by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
 
+<LanguageDropdown/>
+
 **Bitcoin is like physical cash:** it is not reversible and you are responsible for handling it. If you lose your wallet, you lose your money. You can give bitcoins to someone to hold them for you, but it will be like with any bank: you have to trust them that they won’t run away with your money.
 
 **Bitcoin is unlike physical cash:** you can store as much as you want and it will not take any space. You can send it over the wire to anyone. It is impossible to counterfeit. You can’t give it in one second: to actually guarantee that transaction has happened, you have to wait 10-15 minutes for the cryptographic proof to be produced by the network.
