@@ -1,4 +1,6 @@
 # Welcome to Bitcoin, newcomers!
+<LanguageDropdown/>
+
 ### Here's your FAQ:
 
 Q: Who should I trust?  

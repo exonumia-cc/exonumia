@@ -2,6 +2,8 @@
 
 ngo Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
+<LanguageDropdown/>
+
 ### Nangabe nanje awazi bonyana i-Bitcoin yini …
 
 Sihlezi phezu kwebhanga ephageni. Ilanga lihle.

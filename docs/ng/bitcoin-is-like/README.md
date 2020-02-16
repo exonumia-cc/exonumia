@@ -2,6 +2,8 @@
 
 by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
 
+<LanguageDropdown/>
+
 **Bitcoin oya fa oshimaliwa shokoomuma:** Ihayi vulu okuningululwa, ongwee mwene wuna oshinakugwanitha shoku yi takamitha. Ngele owa kanitha ondjato yoye yiimaliwa, nena niimaliwa yoye oya kana. Oto vulu okugandja komuntu eku kwatele, ihe ngaashi ngele tosikilile nombaanga, omuntu owu na ku kala wemwiinekela kutya ita fadhuka po niimaliwa yoye. 
 
 **Bitcoin inayi fa oshimaliwa shokoomuma:** OoBitcoin oho vulu okudhisikilila odhindji ngaashi wa hala, ihe itadhi mana po ehala. Oho vulu wo okutumina kehe ngu wa hala to longitha omukalo ngoka gwapitikwa melongitho lyooBitcoin. "Iimaliwa" mbika ihayi vulu okuningwa iimaliwa yiifundja (counterfeit). Ihayi vulu so okugandjwa mosekonde yimwe, owuna manga oku tegelela oominute 10-15 Opo ewangandjo lininge uumbapila womafutilo, opo wuvule okukwashilipaleka ngele omafutilo/elanditho olya tumwa. 

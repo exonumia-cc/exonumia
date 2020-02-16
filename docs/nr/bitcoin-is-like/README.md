@@ -2,6 +2,8 @@
 
 by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
 
+<LanguageDropdown/>
+
 **I-Bitcoin ifana nemali ebonakalako:** akukghonakali ukuthi uyibusele emuva godu nguwe onesibopho sokuyitjheja. Nawulahla isikhwama sakho semali, ulahla imali yakho. Unganikela omunye umuntu ama-bitcoin ukuthi akubambele wona, kodwana kuzkufana nebhanga: kumele ubathembe ukuthi angekhe babaleke nemali yakho.
 
 **I-Bitcoin ayifani nemali ebonakalako:** ungayibulunga ngobunengi ofuna ngakho angekhe idle isikhala. Ungayithumela komunye nomunye umuntu. Akukghonakali ukuthi ibe sikhohliso. Angekhe uyinikele umzuzwana: ukwenza isiqiniseko ukuthi ithumelekile, kumele ulinde imizuzu elithjumi kufikela emizuzwini elitjhumi nahlanu ukuze uthole ubufakazi obukhiqizwa lithungelelwano.
