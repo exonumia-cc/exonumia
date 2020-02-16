@@ -228,7 +228,7 @@ module.exports = {
                 label: 'Oshiwambo',
                 ariaLabel: 'Languages',
                 editLinks: true,
-                editLinkText: "Improve Translation!",
+                editLinkText: "Toloka xwepo!",
                 nav: [
                     { 
                         text: 'Home', 
