@@ -1,21 +1,21 @@
-# Welcome to Bitcoin, newcomers!
+# Omwathika ko bitcoin, aaleshi aape naakulu!
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Mpaka otapu landula omapulo ngoka hagapulwa olundji:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Q: (Kombinga yo Bitcoin) Olye ndina okulineekela?  
+A: **Kapena gumwe.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Uunake ndina okulanditha (eeBitcoin dhandje)?  
+A: **Kapena lela ethimbo lyatulwapo, oto vulu oku landitha kehe ethimbo.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: O Bitcoin otaisipo molwa ____?  
+A: **Ahawe.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Ondiitula miikwashike mbino?  
+A: **Kapena ngu eshi tseya.**
 
 
-Q: How do I learn more?  
+Q: Ondina okwiilonga ngiini oshindji (kombinga yo Bitcoin)?  
 A: **We have a [wealth of content here](/translations).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
