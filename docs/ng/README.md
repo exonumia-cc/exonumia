@@ -1,5 +1,7 @@
 # Omwathika ko bitcoin, aaleshi aape naakulu!
 
+by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+
 <LanguageDropdown/>
 
 ### Mpaka otapu landula omapulo ngoka hagapulwa olundji:

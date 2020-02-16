@@ -1,5 +1,7 @@
 # Rea u amohela ka Bitcoin, ba sa tsoa fihla!
 
+by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+
 <LanguageDropdown/>
 
 ### Mona ke lipotso tsa hao tse botsoang khafetsa:
