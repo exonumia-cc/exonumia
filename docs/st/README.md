@@ -1,21 +1,21 @@
-# Welcome to Bitcoin, newcomers!
+# Rea u amohela ka Bitcoin, ba sa tsoa fihla!
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Mona ke lipotso tsa hao tse botsoang khafetsa:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Q: Ke mang eo ke lokelang ho mo tšepa?  
+A: **Ha ho motho.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Ke lokela ho rekisa neng?  
+A: **Le ka mohla.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Na Bitcoin e shoa hobane ____?  
+A: **Che.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Ke ikentse eng?  
+A: **Ha ho na motho ea tsebang.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/translations).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Q: Nka ithuta ho feta joang?  
+A: **Re na le [leruo la litaba tsa mona](/translations).** Kapa o ka etela [lopp.net](https://www.lopp.net/bitcoin-information.html)

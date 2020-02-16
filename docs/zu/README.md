@@ -1,21 +1,21 @@
-# Welcome to Bitcoin, newcomers!
+# Uyemukelwa kwi-Bitcoin, abasanda kufika!
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Nayi imibuzo ebuzwa njalo:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Q: Ngubani okufanele ngithembe?  
+A: **Akekho.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Kufanele ngithengise nini?  
+A: **akufanelanga**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Ngabe iBitcoin iyafa ngoba ____?  
+A: **Cha.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Yini engizitholele yona?  
+A: **Akekho owaziyo.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/translations).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Q: Ngifunda kanjani okwengeziwe?  
+A: **Sine [umcebo wokuqukethwe lapha](/translations).** Noma ungavakashela i- [lopp.net](https://www.lopp.net/bitcoin-information.html)

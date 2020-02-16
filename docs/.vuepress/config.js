@@ -120,7 +120,7 @@ module.exports = {
                 label: 'Sesotho',
                 ariaLabel: 'Lipuo',
                 editLinks: true,
-                editLinkText: "Improve Translation!",
+                editLinkText: "Ntlafatsa phetolelo!",
                 nav: [
                     { 
                         text: 'Home', 
