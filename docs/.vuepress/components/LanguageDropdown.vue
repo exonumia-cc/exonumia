@@ -27,7 +27,6 @@ export default {
 
   computed: {
     nav () {
-      console.log("Trying to load lang")
       const { locales } = this.$site
       if (locales && Object.keys(locales).length > 1) {
         const currentLink = this.$page.path
