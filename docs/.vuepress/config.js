@@ -41,6 +41,7 @@ module.exports = {
         repo: 'https://github.com/exonumia-cc/exonumia.git',
         repoLabel: 'CODE',
         editLinks: true,
+        docsDir: 'docs',
         searchPlaceholder: 'what goes up?',
         // i18n
         locales: {
