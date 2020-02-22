@@ -21,3 +21,12 @@ jobs:
     - run: npm run docs:build
       env:
         CI: true
+    - name: Deploy to Github Pages
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        target_branch: master
+        build_dir: dist
+        repo: https://github.com/exonumia-cc/exonumia-cc.github.io.git
+      env:
+        GITHUB_PAT: ${{ secrets.DEPLOYMENT_TOKEN }}
