@@ -38,7 +38,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        repo: 'https://github.com/exonumia-cc/exonumia.git',
+        repo: 'https://github.com/exonumia-cc/exonumia',
         repoLabel: 'CODE',
         editLinks: true,
         docsDir: 'docs',
