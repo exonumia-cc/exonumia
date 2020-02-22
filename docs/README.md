@@ -1,3 +1,8 @@
+---
+navbar: false
+sidebar: false
+---
+
 # Exonumia
 
 **🇳🇦 Namibia**

@@ -1,8 +1,3 @@
----
-navbar: false
-sidebar: false
----
-
 # Welcome to Bitcoin, newcomers!
 
 by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
@@ -25,4 +20,4 @@ A: **Nobody knows.**
 
 
 Q: How do I learn more?  
-A: **We have a [wealth of content here](/translations).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **We have a [wealth of content here](/en/translations).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
