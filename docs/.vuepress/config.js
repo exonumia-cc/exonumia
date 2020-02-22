@@ -38,7 +38,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        repo: 'https://code.sigidli.com/exonumia/exonumia.cc',
+        repo: 'https://github.com/exonumia-cc/exonumia.git',
         repoLabel: 'CODE',
         editLinks: true,
         searchPlaceholder: 'what goes up?',
