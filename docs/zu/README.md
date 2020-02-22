@@ -6,16 +6,16 @@ by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 ### Nayi imibuzo ebuzwa njalo:
 
-Q: Ngubani okufanele ngithembe?  
+Q: Ngubani okufanele ngimthembe?  
 A: **Akekho.**
 
 Q: Kufanele ngithengise nini?  
 A: **akufanelanga**
 
-Q: Ngabe iBitcoin iyafa ngoba ____?  
+Q: Ngabe iBitcoin ifa ngoba ____?  
 A: **Cha.**
 
-Q: Yini engizitholele yona?  
+Q: Yini le engizifake kuyo?  
 A: **Akekho owaziyo.**
 
 
