@@ -1,23 +1,18 @@
-# Welcome to Bitcoin, newcomers!
+# Exonumia
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+**🇳🇦 Namibia**
 
-<LanguageDropdown/>
+[Oshiwambo](/ng/)
 
-### Here's your FAQ:
+---
 
-Q: Who should I trust?  
-A: **Nobody.**
+**🇿🇦 South Africa**
 
-Q: When should I sell?  
-A: **Never.**
+[IsiZulu](/zu/)  
+[Sesotho](/st/)  
+[IsiNdebele](/nr/)  
+[TshiVenda](/ve/)  
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+---
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
-
-
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/translations).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+[English](/en/)

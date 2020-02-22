@@ -1,7 +1,7 @@
 module.exports = {
     dest: 'dist',
     locales: {
-        '/': {
+        '/en/': {
             lang: 'en-US',
             title: 'Exonumia',
             description: 'The landing page for native African language speaker looking to learn about Bitcoin.'
@@ -45,7 +45,7 @@ module.exports = {
         searchPlaceholder: 'what goes up?',
         // i18n
         locales: {
-            '/': {
+            '/en/': {
                 selectText: '🇬🇧 Languages',
                 label: 'English',
                 ariaLabel: 'Languages',
@@ -53,11 +53,11 @@ module.exports = {
                 nav: [
                     { 
                         text: 'Home', 
-                        link: '/' 
+                        link: '/en/' 
                     },
                     { 
                         text: 'Translations', 
-                        link: '/translations/' 
+                        link: '/en/translations/' 
                     },
                     { 
                         text: 'Sigidli', 
@@ -65,17 +65,17 @@ module.exports = {
                     }
                 ],
                 sidebar: [
-                    '/about/',
+                    '/en/about/',
                     {
                         title: 'Translations',   // required
-                        path: '/translations/',      // optional, which should be a absolute path.
+                        path: '/en/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/',
-                            '/explain-bitcoin-like-im-five/',
-                            '/bitcoin-is-like/',
-                            '/i-am-hodling/'
+                            '/en/',
+                            '/en/explain-bitcoin-like-im-five/',
+                            '/en/bitcoin-is-like/',
+                            '/en/i-am-hodling/'
                         ]
                     }
                 ],
