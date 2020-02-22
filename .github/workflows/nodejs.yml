@@ -27,6 +27,6 @@ jobs:
       with:
         target_branch: master
         build_dir: dist
-        repo: exonumia-cc/exonumia-cc.github.io.git
+        repo: exonumia-cc/exonumia-cc.github.io
       env:
         GITHUB_PAT: ${{ secrets.DEPLOYMENT_TOKEN }}
