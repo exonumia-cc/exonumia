@@ -75,6 +75,7 @@ module.exports = {
                             '/en/',
                             '/en/explain-bitcoin-like-im-five/',
                             '/en/bitcoin-is-like/',
+                            '/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/en/i-am-hodling/'
                         ]
                     }
@@ -111,6 +112,7 @@ module.exports = {
                             '/zu/',
                             '/zu/explain-bitcoin-like-im-five/',
                             '/zu/bitcoin-is-like/',
+                            '/zu/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zu/i-am-hodling/'
                         ]
                     }
@@ -147,6 +149,7 @@ module.exports = {
                             '/st/',
                             '/st/explain-bitcoin-like-im-five/',
                             '/st/bitcoin-is-like/',
+                            '/st/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/st/i-am-hodling/'
                         ]
                     }
@@ -183,6 +186,7 @@ module.exports = {
                             '/ve/',
                             '/ve/explain-bitcoin-like-im-five/',
                             '/ve/bitcoin-is-like/',
+                            '/ve/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/ve/i-am-hodling/'
                         ]
                     }
@@ -219,6 +223,7 @@ module.exports = {
                             '/nr/',
                             '/nr/explain-bitcoin-like-im-five/',
                             '/nr/bitcoin-is-like/',
+                            '/nr/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nr/i-am-hodling/'
                         ]
                     }
@@ -255,6 +260,7 @@ module.exports = {
                             '/ng/',
                             '/ng/explain-bitcoin-like-im-five/',
                             '/ng/bitcoin-is-like/',
+                            '/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/ng/i-am-hodling/'
                         ]
                     }
