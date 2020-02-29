@@ -2,7 +2,11 @@
 
 <LanguageDropdown/>
 
-**Africa** is home to over a billion people and a diverse set of ethnicity's. Regardless of it's rich history, a majority of the countries are still rural/developing countries. Almost all of Africa was colonized by Europe during the late 19th century (with only Ethiopia and Liberia maintaining their independence). The current lack of prosperity can be pinned on the constant state of war and the many independence and decolonization struggles being dealt with in post colonial Africa.
+Exonumia is a project looking to translate literary content that explains how Bitcoin works into native African languages. The project is open source and contributors/translators are invited to improve the quality of the content on the platform.
+
+## Why does the Exonumia Project exist?
+
+**Africa** is home to over a billion people and a diverse set of ethnicities. Regardless of its rich history, a majority of the countries are still rural/developing countries. Almost all of Africa was colonized by Europe during the late 19th century (with only Ethiopia and Liberia maintaining their independence). The current lack of prosperity can be pinned on the constant state of war and the many independence and decolonization struggles being dealt with in post colonial Africa.
 
 One of the many side effects that the era of colonization has had on Africans is that changes to how most countries are run were/are made effectively without the consultation or participation of the majority of the population. Many countries have legal and economic systems that use a language which is foreign to the natives of the country.
 
@@ -19,7 +23,7 @@ The **Exonumia** project understands the difficulties faced by native speakers o
 
 
 
-## Why the word Exonumia?
+## Why the name Exonumia?
 
 The wikipedia entry for Exonumia states that
 
