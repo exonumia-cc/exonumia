@@ -78,7 +78,8 @@ module.exports = {
                             '/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/en/i-am-hodling/'
                         ]
-                    }
+                    },
+                    '/en/contribution-guide/'
                 ],
             },
             '/zu/': {
