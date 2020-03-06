@@ -12,8 +12,8 @@
 </template>
 
 <script>
+import ContentList from '@theme/components/ContentList.vue'
 import ParentLayout from '@parent-theme/layouts/Layout.vue'
-import ContentList from './ContentList.vue'
 
 export default {
   name: 'ContentLayout',

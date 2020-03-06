@@ -1,5 +1,3 @@
 # Exonumia Translations
 
 <LanguageDropdown/>
-
-<ContentList/>

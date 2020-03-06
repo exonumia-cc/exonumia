@@ -28,6 +28,7 @@ export default {
             sidebarItems.forEach(sidebarItem => {
                 if (sidebarItem.type === "group") {
                     sidebarItem.collapsable = false
+                    sidebarItem.sidebarDepth = 0
                 }
             });
 
