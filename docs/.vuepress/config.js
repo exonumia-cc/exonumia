@@ -89,7 +89,7 @@ module.exports = {
                 ariaLabel: 'Izilimi',
                 editLinks: true,
                 editLinkText: "Thuthukisa Ukuhumusha",
-                continueReadingText: 'Continue Reading',
+                continueReadingText: 'Qhubeka ufunde',
                 nav: [
                     { 
                         text: 'Home', 
@@ -127,7 +127,7 @@ module.exports = {
                 ariaLabel: 'Lipuo',
                 editLinks: true,
                 editLinkText: "Ntlafatsa phetolelo!",
-                continueReadingText: 'Continue Reading',
+                continueReadingText: 'Tsoela Pele ho Bala',
                 nav: [
                     { 
                         text: 'Home', 
