@@ -43,6 +43,7 @@ module.exports = {
         editLinks: true,
         docsDir: 'docs',
         searchPlaceholder: 'what goes up?',
+        continueReading: false,
         // i18n
         locales: {
             '/en/': {
@@ -50,6 +51,8 @@ module.exports = {
                 label: 'English',
                 ariaLabel: 'Languages',
                 editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
@@ -88,6 +91,8 @@ module.exports = {
                 ariaLabel: 'Izilimi',
                 editLinks: true,
                 editLinkText: "Thuthukisa Ukuhumusha",
+                continueReading: true,
+                continueReadingText: 'Qhubeka ufunde',
                 nav: [
                     { 
                         text: 'Home', 
@@ -125,6 +130,8 @@ module.exports = {
                 ariaLabel: 'Lipuo',
                 editLinks: true,
                 editLinkText: "Ntlafatsa phetolelo!",
+                continueReading: true,
+                continueReadingText: 'Tsoela Pele ho Bala',
                 nav: [
                     { 
                         text: 'Home', 
@@ -162,6 +169,8 @@ module.exports = {
                 ariaLabel: 'Languages',
                 editLinks: true,
                 editLinkText: "Improve Translation!",
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
@@ -199,6 +208,8 @@ module.exports = {
                 ariaLabel: 'Languages',
                 editLinks: true,
                 editLinkText: "Improve Translation!",
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
@@ -236,6 +247,8 @@ module.exports = {
                 ariaLabel: 'Languages',
                 editLinks: true,
                 editLinkText: "Toloka xwepo!",
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
