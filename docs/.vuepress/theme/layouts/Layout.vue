@@ -20,7 +20,11 @@ export default {
 
   computed: {
     continueReadingText () {
-      return "Continue Reading"
+      return (
+        this.$themeLocaleConfig.continueReadingText
+        || this.$site.themeConfig.continueReadingText
+        || `Continue Reading`
+      )
     }
   },
 

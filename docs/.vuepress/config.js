@@ -50,6 +50,7 @@ module.exports = {
                 label: 'English',
                 ariaLabel: 'Languages',
                 editLinkText: 'Improve Content',
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
@@ -88,6 +89,7 @@ module.exports = {
                 ariaLabel: 'Izilimi',
                 editLinks: true,
                 editLinkText: "Thuthukisa Ukuhumusha",
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
@@ -125,6 +127,7 @@ module.exports = {
                 ariaLabel: 'Lipuo',
                 editLinks: true,
                 editLinkText: "Ntlafatsa phetolelo!",
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
@@ -162,6 +165,7 @@ module.exports = {
                 ariaLabel: 'Languages',
                 editLinks: true,
                 editLinkText: "Improve Translation!",
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
@@ -199,6 +203,7 @@ module.exports = {
                 ariaLabel: 'Languages',
                 editLinks: true,
                 editLinkText: "Improve Translation!",
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
@@ -236,6 +241,7 @@ module.exports = {
                 ariaLabel: 'Languages',
                 editLinks: true,
                 editLinkText: "Toloka xwepo!",
+                continueReadingText: 'Continue Reading',
                 nav: [
                     { 
                         text: 'Home', 
