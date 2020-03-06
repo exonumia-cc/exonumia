@@ -1,7 +1,6 @@
 ---
 navbar: false
 sidebar: false
-layout: PlainLayout
 ---
 
 # Exonumia

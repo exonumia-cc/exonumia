@@ -1,5 +1,6 @@
-<template #page-bottom>
-    <div class="content-list">
+<template>
+    <div
+      class="content-list">
         <SidebarLinks
             :depth="0"
             :items="sidebarItems"
@@ -17,23 +18,23 @@ export default {
     components: { SidebarLinks },
 
     computed: {
-        sidebarItems () {
-            const sidebarItems = resolveSidebarItems(
-                this.$page,
-                this.$page.regularPath,
-                this.$site,
-                this.$localePath
-            )
+      sidebarItems () {
+        const sidebarItems = resolveSidebarItems(
+          this.$page,
+          this.$page.regularPath,
+          this.$site,
+          this.$localePath
+        )
 
-            sidebarItems.forEach(sidebarItem => {
-                if (sidebarItem.type === "group") {
-                    sidebarItem.collapsable = false
-                    sidebarItem.sidebarDepth = 0
-                }
-            });
+        sidebarItems.forEach(sidebarItem => {
+          if (sidebarItem.type === "group") {
+            sidebarItem.collapsable = false
+            sidebarItem.sidebarDepth = 0
+          }
+        });
 
-            return sidebarItems
-        },
+        return sidebarItems
+      },
     }
 }
 </script>

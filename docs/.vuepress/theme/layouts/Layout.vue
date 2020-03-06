@@ -1,12 +1,13 @@
 <template>
   <ParentLayout>
-    <template #page-bottom>
+    <template 
+      v-if="continueReading"
+      #page-bottom>
       <div class="page-nav">
         <!-- get this from internationalized content -->
         <h3>{{ continueReadingText }}</h3>
-        <ContentList />
+        <ContentList  />
       </div>
-      
     </template>
   </ParentLayout>
 </template>
@@ -24,6 +25,14 @@ export default {
         this.$themeLocaleConfig.continueReadingText
         || this.$site.themeConfig.continueReadingText
         || `Continue Reading`
+      )
+    },
+
+    continueReading () {
+      return (
+        this.$themeLocaleConfig.continueReading
+        || this.$site.themeConfig.continueReading
+        || false
       )
     }
   },
