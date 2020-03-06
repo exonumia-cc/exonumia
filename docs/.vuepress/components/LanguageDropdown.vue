@@ -92,8 +92,8 @@ export default {
 
 <style lang="stylus">
 .nav-dropdown
-  top: auto 
-  right auto
+  top: auto !important
+  right auto !important
 .nav-links
   display inline-block
   a
