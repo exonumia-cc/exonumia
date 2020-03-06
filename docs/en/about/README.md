@@ -2,7 +2,7 @@
 
 <LanguageDropdown/>
 
-Exonumia is an open source platform that allows its contributors to translate and publish about Bitcoin into Native African languages.
+Exonumia is an open source platform that allows its contributors to translate and publish content about Bitcoin into Native African languages.
 
 ## Why does the Exonumia Project exist?
 
