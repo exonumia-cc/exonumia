@@ -82,6 +82,14 @@ module.exports = {
                             '/en/i-am-hodling/'
                         ]
                     },
+                    {
+                        title: 'Transifex Projects',   // required
+                        path: '/en/transifex/',
+                        children: [
+                            '/en/transifex/bitcoin-core/',
+                            '/en/transifex/btcpayserver/'
+                        ]
+                    },
                     '/en/contribution-guide/'
                 ],
             },
