@@ -20,4 +20,4 @@ A: **Akekho owaziyo.**
 
 
 Q: Ngifunda kanjani okwengeziwe?  
-A: **Sine [umcebo wokuqukethwe lapha](/translations).** Noma ungavakashela i- [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **Sine [umcebo wokuqukethwe lapha](/zu/translations).** Noma ungavakashela i- [lopp.net](https://www.lopp.net/bitcoin-information.html)
