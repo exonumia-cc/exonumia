@@ -5,12 +5,6 @@ sidebar: false
 
 # Exonumia
 
-**[🇳🇦 Namibia](/nam/)**
-
-[Oshiwambo](/nam/ng/)
-
----
-
 **[🇿🇦 South Africa](/zaf/)**
 
 [IsiZulu](/zaf/zu/)  

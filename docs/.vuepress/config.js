@@ -1,41 +1,41 @@
 module.exports = {
     dest: 'dist',
     locales: {
-        '/en/': {
+        '/int/en/': {
             lang: 'en-US',
             title: 'Exonumia',
             description: 'The landing page for native African language speaker looking to learn about Bitcoin.'
         },
-        '/zu/': {
+        '/nam/ng/': {
+            lang: 'ng',
+            group: '🇳🇦 Namibia',
+            title: 'Exonumia',
+            description: 'Ke yona landing page for native African language speaker looking to learn about Bitcoin.'
+        },
+        '/zaf/zu/': {
             lang: 'zu',
             group: '🇿🇦 South Africa',
             title: 'Exonumia',
             description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
         },
-        '/st/': {
+        '/zaf/st/': {
             lang: 'st',
             group: '🇿🇦 South Africa',
             title: 'Exonumia',
             description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
         },
-        '/nr/': {
+        '/zaf/nr/': {
             lang: 'nr',
             group: '🇿🇦 South Africa',
             title: 'Exonumia',
             description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
         },
-        '/ve/': {
+        '/zaf/ve/': {
             lang: 've',
             group: '🇿🇦 South Africa',
             title: 'Exonumia',
             description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
         },
-        '/ng/': {
-            lang: 'ng',
-            group: '🇳🇦 Namibia',
-            title: 'Exonumia',
-            description: 'Ke yona landing page for native African language speaker looking to learn about Bitcoin.'
-        }
     },
     themeConfig: {
         repo: 'https://github.com/exonumia-cc/exonumia',
@@ -46,7 +46,7 @@ module.exports = {
         continueReading: false,
         // i18n
         locales: {
-            '/en/': {
+            '/int/en/': {
                 selectText: '🇬🇧 Languages',
                 label: 'English',
                 ariaLabel: 'Languages',
@@ -56,11 +56,11 @@ module.exports = {
                 nav: [
                     { 
                         text: 'Home', 
-                        link: '/en/' 
+                        link: '/int/en/' 
                     },
                     { 
                         text: 'Translations', 
-                        link: '/en/translations/' 
+                        link: '/int/en/translations/' 
                     },
                     { 
                         text: 'Sigidli', 
@@ -68,32 +68,32 @@ module.exports = {
                     }
                 ],
                 sidebar: [
-                    '/en/about/',
+                    '/int/en/about/',
                     {
                         title: 'Translations',   // required
-                        path: '/en/translations/',      // optional, which should be a absolute path.
+                        path: '/int/en/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/en/',
-                            '/en/explain-bitcoin-like-im-five/',
-                            '/en/bitcoin-is-like/',
-                            '/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/en/i-am-hodling/'
+                            '/int/en/',
+                            '/int/en/explain-bitcoin-like-im-five/',
+                            '/int/en/bitcoin-is-like/',
+                            '/int/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/int/en/i-am-hodling/'
                         ]
                     },
                     {
                         title: 'Transifex Projects',   // required
-                        path: '/en/transifex/',
+                        path: '/int/en/transifex/',
                         children: [
-                            '/en/transifex/bitcoin-core/',
-                            '/en/transifex/btcpayserver/'
+                            '/int/en/transifex/bitcoin-core/',
+                            '/int/en/transifex/btcpayserver/'
                         ]
                     },
-                    '/en/contribution-guide/'
+                    '/int/en/contribution-guide/'
                 ],
             },
-            '/zu/': {
+            '/zaf/zu/': {
                 selectText: '🇿🇦 Izilimi',
                 label: 'IsiZulu',
                 ariaLabel: 'Izilimi',
@@ -104,11 +104,11 @@ module.exports = {
                 nav: [
                     { 
                         text: 'Home', 
-                        link: '/zu/' 
+                        link: '/zaf/zu/' 
                     },
                     { 
                         text: 'Ukuhumusha', 
-                        link: '/zu/translations/' 
+                        link: '/zaf/zu/translations/' 
                     },
                     { 
                         text: 'Sigidli', 
@@ -116,23 +116,23 @@ module.exports = {
                     },
                 ],
                 sidebar: [
-                    '/zu/about/',
+                    '/zaf/zu/about/',
                     {
                         title: 'Ukuhumusha',   // required
-                        path: '/zu/translations/',      // optional, which should be a absolute path.
+                        path: '/zaf/zu/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/zu/',
-                            '/zu/explain-bitcoin-like-im-five/',
-                            '/zu/bitcoin-is-like/',
-                            '/zu/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/zu/i-am-hodling/'
+                            '/zaf/zu/',
+                            '/zaf/zu/explain-bitcoin-like-im-five/',
+                            '/zaf/zu/bitcoin-is-like/',
+                            '/zaf/zu/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/zu/i-am-hodling/'
                         ]
                     }
                 ],
             },
-            '/st/': {
+            '/zaf/st/': {
                 selectText: '🇿🇦 Lipuo',
                 label: 'Sesotho',
                 ariaLabel: 'Lipuo',
@@ -143,11 +143,11 @@ module.exports = {
                 nav: [
                     { 
                         text: 'Home', 
-                        link: '/st/' 
+                        link: '/zaf/st/' 
                     },
                     { 
                         text: 'Fetolela', 
-                        link: '/st/translations/' 
+                        link: '/zaf/st/translations/' 
                     },
                     { 
                         text: 'Sigidli', 
@@ -155,23 +155,23 @@ module.exports = {
                     },
                 ],
                 sidebar: [
-                    '/st/about/',
+                    '/zaf/st/about/',
                     {
                         title: 'Fetolela',   // required
-                        path: '/st/translations/',      // optional, which should be a absolute path.
+                        path: '/zaf/st/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/st/',
-                            '/st/explain-bitcoin-like-im-five/',
-                            '/st/bitcoin-is-like/',
-                            '/st/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/st/i-am-hodling/'
+                            '/zaf/st/',
+                            '/zaf/st/explain-bitcoin-like-im-five/',
+                            '/zaf/st/bitcoin-is-like/',
+                            '/zaf/st/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/st/i-am-hodling/'
                         ]
                     }
                 ],
             },
-            '/ve/': {
+            '/zaf/ve/': {
                 selectText: '🇿🇦 Languages',
                 label: 'IsiVenda',
                 ariaLabel: 'Languages',
@@ -182,11 +182,11 @@ module.exports = {
                 nav: [
                     { 
                         text: 'Home', 
-                        link: '/ve/' 
+                        link: '/zaf/ve/' 
                     },
                     { 
                         text: 'Translations', 
-                        link: '/ve/translations/' 
+                        link: '/zaf/ve/translations/' 
                     },
                     { 
                         text: 'Sigidli', 
@@ -194,23 +194,23 @@ module.exports = {
                     },
                 ],
                 sidebar: [
-                    '/ve/about/',
+                    '/zaf/ve/about/',
                     {
                         title: 'Translations',   // required
-                        path: '/ve/translations/',      // optional, which should be a absolute path.
+                        path: '/zaf/ve/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/ve/',
-                            '/ve/explain-bitcoin-like-im-five/',
-                            '/ve/bitcoin-is-like/',
-                            '/ve/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/ve/i-am-hodling/'
+                            '/zaf/ve/',
+                            '/zaf/ve/explain-bitcoin-like-im-five/',
+                            '/zaf/ve/bitcoin-is-like/',
+                            '/zaf/ve/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/ve/i-am-hodling/'
                         ]
                     }
                 ],
             },
-            '/nr/': {
+            '/zaf/nr/': {
                 selectText: '🇿🇦 Languages',
                 label: 'Isindebele',
                 ariaLabel: 'Languages',
@@ -221,11 +221,11 @@ module.exports = {
                 nav: [
                     { 
                         text: 'Home', 
-                        link: '/nr/' 
+                        link: '/zaf/nr/' 
                     },
                     { 
                         text: 'Translations', 
-                        link: '/nr/translations/' 
+                        link: '/zaf/nr/translations/' 
                     },
                     { 
                         text: 'Sigidli', 
@@ -233,23 +233,23 @@ module.exports = {
                     },
                 ],
                 sidebar: [
-                    '/nr/about/',
+                    '/zaf/nr/about/',
                     {
                         title: 'Translations',   // required
-                        path: '/nr/translations/',      // optional, which should be a absolute path.
+                        path: '/zaf/nr/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/nr/',
-                            '/nr/explain-bitcoin-like-im-five/',
-                            '/nr/bitcoin-is-like/',
-                            '/nr/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/nr/i-am-hodling/'
+                            '/zaf/nr/',
+                            '/zaf/nr/explain-bitcoin-like-im-five/',
+                            '/zaf/nr/bitcoin-is-like/',
+                            '/zaf/nr/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/nr/i-am-hodling/'
                         ]
                     }
                 ],
             },
-            '/ng/': {
+            '/nam/ng/': {
                 selectText: '🇳🇦 Languages',
                 label: 'Oshiwambo',
                 ariaLabel: 'Languages',
@@ -260,11 +260,11 @@ module.exports = {
                 nav: [
                     { 
                         text: 'Home', 
-                        link: '/ng/' 
+                        link: '/nam/ng/' 
                     },
                     { 
                         text: 'Translations', 
-                        link: '/ng/translations/' 
+                        link: '/nam/ng/translations/' 
                     },
                     { 
                         text: 'Sigidli', 
@@ -272,18 +272,18 @@ module.exports = {
                     },
                 ],
                 sidebar: [
-                    '/ng/about/',
+                    '/nam/ng/about/',
                     {
                         title: 'Translations',   // required
                         path: '/ng/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/ng/',
-                            '/ng/explain-bitcoin-like-im-five/',
-                            '/ng/bitcoin-is-like/',
-                            '/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/ng/i-am-hodling/'
+                            '/nam/ng/',
+                            '/nam/ng/explain-bitcoin-like-im-five/',
+                            '/nam/ng/bitcoin-is-like/',
+                            '/nam/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/nam/ng/i-am-hodling/'
                         ]
                     }
                 ],
