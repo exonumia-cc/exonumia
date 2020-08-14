@@ -1,5 +1,6 @@
 module.exports = {
     dest: 'dist',
+    plugins: ['check-md'],
     locales: {
         '/int/en/': {
             lang: 'en-US',
