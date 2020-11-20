@@ -7,7 +7,8 @@ sidebar: false
 
 **[🇳🇦 Namibia](/nam/)**
 
-[Oshiwambo](/nam/ng/)
+[Oshiwambo](/nam/ng/)   
+[Khoekhoegowab](/nam/naq/)
 
 ---
 

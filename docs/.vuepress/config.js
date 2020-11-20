@@ -13,6 +13,12 @@ module.exports = {
             title: 'Exonumia',
             description: 'Ke yona landing page for native African language speaker looking to learn about Bitcoin.'
         },
+        '/nam/naq/': {
+            lang: 'naq',
+            group: '🇳🇦 Namibia',
+            title: 'Exonumia',
+            description: 'Ke yona landing page for native African language speaker looking to learn about Bitcoin.'
+        },
         '/zaf/zu/': {
             lang: 'zu',
             group: '🇿🇦 South Africa',
@@ -276,7 +282,7 @@ module.exports = {
                     '/nam/ng/about/',
                     {
                         title: 'Translations',   // required
-                        path: '/ng/translations/',      // optional, which should be a absolute path.
+                        path: '/nam/ng/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -285,6 +291,45 @@ module.exports = {
                             '/nam/ng/bitcoin-is-like/',
                             '/nam/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nam/ng/i-am-hodling/'
+                        ]
+                    }
+                ],
+            },
+            '/nam/naq/': {
+                selectText: '🇳🇦 Languages',
+                label: 'Khoekhoegowab',
+                ariaLabel: 'Languages',
+                editLinks: true,
+                editLinkText: "Improve Content!",
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                nav: [
+                    { 
+                        text: 'Home', 
+                        link: '/nam/naq/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/nam/naq/translations/' 
+                    },
+                    { 
+                        text: 'Sigidli', 
+                        link: 'https://sigidli.com' 
+                    },
+                ],
+                sidebar: [
+                    '/nam/ng/about/',
+                    {
+                        title: 'Translations',   // required
+                        path: '/nam/naq/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/nam/naq/',
+                            '/nam/naq/explain-bitcoin-like-im-five/',
+                            '/nam/naq/bitcoin-is-like/',
+                            '/nam/naq/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/nam/naq/i-am-hodling/'
                         ]
                     }
                 ],
