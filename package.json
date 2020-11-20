@@ -20,7 +20,7 @@
   "license": "CC-BY-NC-SA-4.0",
   "dependencies": {},
   "devDependencies": {
-    "vuepress": "^1.5.3",
+    "vuepress": "^1.7.1",
     "vuepress-plugin-check-md": "0.0.2"
   }
 }
