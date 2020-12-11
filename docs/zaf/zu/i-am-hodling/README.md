@@ -1,19 +1,19 @@
-# I AM HODLING
+# NGIYABAMBA
 
 by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Ngisithayiphe kabili lesi sihlokho ngoba bengazi ukuthi bekungalungile okokuqala. Akukalungi. w / e.
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+Ama-GF aphume endaweni yokucima ukoma yezithandani zobulili obubodwa, ukushayeka kwe-BTC KUNGANI NGISABAMBILE? Ngizokutshela ukuthi kungani.
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+Kungenxa yokuthi ngingumhwebi omubi futhi NGIYAZI UKUTHI NGINGUMHWEBI OMUBI. Yebo nina bahwebi abahle niyakwazi ukubona amathuba amahle namabi pitpiffy wing wong wang kanjalo nje futhi nenze isigidi sezimali akunankinga mfowethu. 
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Ngokunjalo nezandla ezibuthakathaka zifana no-OH CHA KUYA PHANSI NGIYATHENGISA he he he  bese bethi OH! NKULUNKULU lapho abahwebi ABAHLAKANIPHILE ABAZIYO UKUTHI BENZANI BAYABUYELA BATHENGE kodwa yazi ukuthini? Angiyona ingxenye yalelo qembu. Lapho abathengisi bethenga kabusha sengivele ngiyingxenye yemakethe ngakho-ke QANGELA UKHOHLISA UBANI abathengisi bosuku HHAYI MINA ~! 
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Leyomicu eklolodayo ethi "OHH BEKUFANELE UKUTHI UTHENGISE" EWEH NO SHIT. Cha ngabe ngidayise. BEKUFANELE NGITHENGISE IMIZUZWANA NGAPHAMBI KOKUTHI KUTHENGISWE FUTHI KUTHENGWE KODWA UYAZI UKUTHI AKUSIYE WONKE UMUNTU ONJENGAWE. 
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Uthengisa kuphela emakethe yebhele uma ungumthengisi omuhle wosuku noma i-noob ekhohlisayo. Abantu abaphakathi nendawo bayabamba.  
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Kumdlalo we-zero-sum ofana nalona, ​​abathengisi bangathatha imali yakho kuphela uma uthengisa.
