@@ -102,7 +102,7 @@ Sibheka isimo somhlaseli ozama ukukhiqiza enye iketanga ngokushesha kunechungech
 
 Umjaho ophakathi kochungechunge oluqotho nochungechunge lwabahlaseli ungabonakala njenge-Binomial Random Walk. Umcimbi wempumelelo uchungechunge oluqotho olunwetshwa ngebhulokhi elilodwa, lukhulisa ukuhola kwalo nge +1, futhi umcimbi wokwehluleka uchungechunge lomhlaseli lunwetshwa ngebhulokhi elilodwa, ukunciphisa igebe ngo -1.
 
-Amathuba okuba umhlaseli aqhamuke kokushodayo okunikeziwe afana nenkinga yeRumler's Ruin. Ake sithi umgembuli onekhredithi engenamkhawulo uqala lapho kusilela khona futhi adlale inani elingenamkhawulo lezilingo ukuzama ukufinyelela ekuphambaneni. Singabala ukuthi kungenzeka yini ukuthi afinyelele ekuqhekekeni, noma ukuthi umhlaseli uke ahlangane nochungechunge oluqotho, ngokulandelayo [8]:
+Amathuba okuba umhlaseli aqhamuke kokushodayo okunikeziwe afana nenkinga yeRumler's Ruin. Ake sithi umgembuli onekhredithi engenamkhawulo uqala lapho kusilela khona futhi adlale inani elingenamkhawulo lezilingo ukuzama ukufinyelela ekuphambaneni. Singabala ukuthi kungenzeka yini ukuthi afinyelele ekuqhekekeni, noma ukuthi umhlaseli uke ahlangane nochungechunge oluqotho, ngokulandelayo [8] :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
