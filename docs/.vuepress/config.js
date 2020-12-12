@@ -4,44 +4,37 @@ module.exports = {
     locales: {
         '/int/en/': {
             lang: 'en-US',
-            title: 'Exonumia',
-            description: 'The landing page for native African language speaker looking to learn about Bitcoin.'
+            title: 'Exonumia'
         },
         '/nam/ng/': {
             lang: 'ng',
             group: '🇳🇦 Namibia',
-            title: 'Exonumia',
-            description: 'Ke yona landing page for native African language speaker looking to learn about Bitcoin.'
+            title: 'Exonumia'
         },
         '/nam/naq/': {
             lang: 'naq',
             group: '🇳🇦 Namibia',
-            title: 'Exonumia',
-            description: 'Ke yona landing page for native African language speaker looking to learn about Bitcoin.'
+            title: 'Exonumia'
         },
         '/zaf/zu/': {
             lang: 'zu',
             group: '🇿🇦 South Africa',
-            title: 'Exonumia',
-            description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
+            title: 'Exonumia'
         },
         '/zaf/st/': {
             lang: 'st',
             group: '🇿🇦 South Africa',
-            title: 'Exonumia',
-            description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
+            title: 'Exonumia'
         },
         '/zaf/nr/': {
             lang: 'nr',
             group: '🇿🇦 South Africa',
-            title: 'Exonumia',
-            description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
+            title: 'Exonumia'
         },
         '/zaf/ve/': {
             lang: 've',
             group: '🇿🇦 South Africa',
-            title: 'Exonumia',
-            description: 'iLanding page for native african language speakers looking to learn about Bitcoin.'
+            title: 'Exonumia'
         },
     },
     themeConfig: {
