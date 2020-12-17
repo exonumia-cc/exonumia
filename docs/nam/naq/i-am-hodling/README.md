@@ -1,19 +1,19 @@
-# |ho-|ara-ha
+# !KHŌ/GARA TA HÂ
 
 by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-ti ta ge ||na mite |nam-!ara go di-tsa. #uro !nas ge go #hanu, tama-ha tsi nox-#hanu-tama.
+Tita ge ne xoa#amsa /gam!nara go dītsâ #guro !nasa-i go #hanu tama hâ i !khaisa ta a #an amaga.Noxopa-i #hanu tama hâ xawe.w/e.
 
-ti |hos-ge dare-hkoe-a-|khaib ama-ha BTC Ta-i !aroma ta ni khoa-||nasen tae-i-! Aroma tani ne xu-e !ho -|ara xawe-miba tsi tani! 
+Ti /hōtaras ge aorekhoedīsen-e ra !khaib dawa hâ,BTC ge ra //nā TARE-I !AROMA TA KHA !KHŌ/GARA HÂ?Mîba tsi/si tani !aromasa. 
 
-Tita a #awusa maxu ao amaga tsi ta ge #an tita-a ||ai maxu ao !aisa a sadu !ai #uga u ha du ge !awiu tsi #aman tsi nara mu pit pat piffy wing wang wong. ||nati |uits ge #ui !ui |oa disi marina ra guru. #hau xu-e |ai-ti-!å
+//Gai #harugu-ao ta a !khais !aromasa tsî //KHATI TA GE A #AN //GAI #HARUGU-AO TA A !KHAISA. Io sa !gâi #harugu-aodu ge /gawi tsî #am pit pat puffy wing wong wangna a mû#an //khā tsî //nāti /guis khami i !gomsi-i ose #gui/oadisi mariba ra guru.
 
-#awusa |omdi gera o ||oa-i-gera ||ama xu ta gera hehehe ai ta gera o-ti itse.
+Tsî //khā/gaub !nâ gu ge #hawusa !omga ra mî OH HÂ-Â //GÔA-I GE RA //AMAXU TA GE GA HÂ he he tsî ra mî OOH !KHŪTSE,TI TSOA TA gā-ai &quot;#Kharugu-aogu #an tare-e gu ra dī !khaisa hîna.Tita ge //nā !nāns do tama hâ.#Harogu-aogu ra //ama-oa //aeb ai ta ge tita /nai a #hagu//gâub !â,/AE RE TARI-E GU RA GAXA!NÂ !KHAISA tsē!gâ//aeb #harugu-aoga o TITA OSE~!
 
-Tsoa-tse ga ai |hama xu ao xuka !han ||xu ra di xu-e. ||ama-oa gabe ||an-tsa ti ta ge ||a. ||ama-gu do gu-ka ||ama oa o ti ta ge ||hei |haru-heib, di ti sats ge tse ||hama ao na ra !hari-ei ti ta ose.
+//Aib ti !aorosasib ge //nā //ae ra mî &quot;OO //AMAXUTS GE GA HÂ. IO AMAGO GO.HÎ-Î AMA //AMAXU TA GE GA HÂ.//AMAXUS //AEB NÎ HAS AI!GÂ TA GE /NAI GA //AMAXU HÂ TSÎ //KHATI //AMAS AI!GÂB //AEBA HÂ HÎNA GA //AMAXU HÂ XAWE #ANTS A MA KHOE-I HOA-I GE SATS !NOMSA KHAMI I TAMA HÂ.
 
-||ha ai-ai ||har se ra mi "oh ||ham gu te ge ga hia" ya go-i-|hei ||hama xu ta ge ga hia. ||ae-roba ta ge go ||hama-gu-a /hia ||hama goen aisi, tsi ||ae-rona xu ||ham ha. Gabe |han tsa hoa-khoen ge sats kama !khai-tama.
+Kai #harugu //gâub !nâts ge a //amaxu //khā !gâi #harugu-ao tamas ga i ots ga a aimû/garu-ao o.Khoen hîna //aegub !nâ hân ge ra !hō/khara.
 
-sats-tsin ge |ai |oa ||hama xu tera di sats ga a !ai ||hama-xu khoe-o of sats ga |hasa ao ||hae gu-a khoen ti !hobasen. |ai !na - !aru-i-|hama ||homa xu oan ge sa maris sa ni oo.
+/Khai!nâ/oa /hurub neb khama īb !nâ gu ge #harugu-aoga sa marisa nî ū //amaxuts gara o.
