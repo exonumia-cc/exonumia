@@ -79,6 +79,8 @@ module.exports = {
                             '/int/en/explain-bitcoin-like-im-five/',
                             '/int/en/bitcoin-is-like/',
                             '/int/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/int/en/museum/bitcoin-v0.1-released/',
+                            '/int/en/museum/re-bitcoin-v0.1-released/',
                             '/int/en/i-am-hodling/'
                         ]
                     },
