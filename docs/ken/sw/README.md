@@ -1,4 +1,4 @@
-# Karibu kwenye Bitcoin, wageni!
+# Karibu kwa Bitcoin, washiriki wapya!
 
 na Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
