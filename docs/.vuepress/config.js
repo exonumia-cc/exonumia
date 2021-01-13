@@ -6,6 +6,11 @@ module.exports = {
             lang: 'en-US',
             title: 'Exonumia'
         },
+        '/ken/sw/': {
+            lang: 'sw',
+            group: '🇰🇪 Kenya',
+            title: 'Exonumia'
+        },
         '/nam/ng/': {
             lang: 'ng',
             group: '🇳🇦 Namibia',
@@ -93,6 +98,55 @@ module.exports = {
                         ]
                     },
                     '/int/en/contribution-guide/'
+                ],
+            },
+            '/ken/sw/': {
+                selectText: '🇰🇪 Lugha',
+                label: 'English',
+                ariaLabel: 'Lugha',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                nav: [
+                    { 
+                        text: 'Home', 
+                        link: '/ken/sw/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/ken/sw/translations/' 
+                    },
+                    { 
+                        text: 'Sigidli', 
+                        link: 'https://sigidli.com' 
+                    }
+                ],
+                sidebar: [
+                    '/ken/sw/about/',
+                    {
+                        title: 'Translations',   // required
+                        path: '/ken/sw/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/ken/sw/',
+                            '/ken/sw/explain-bitcoin-like-im-five/',
+                            '/ken/sw/bitcoin-is-like/',
+                            '/ken/sw/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/ken/sw/museum/bitcoin-v0.1-released/',
+                            '/ken/sw/museum/re-bitcoin-v0.1-released/',
+                            '/ken/sw/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        title: 'Transifex Projects',   // required
+                        path: '/ken/sw/transifex/',
+                        children: [
+                            '/ken/sw/transifex/bitcoin-core/',
+                            '/ken/sw/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/ken/sw/contribution-guide/'
                 ],
             },
             '/zaf/zu/': {

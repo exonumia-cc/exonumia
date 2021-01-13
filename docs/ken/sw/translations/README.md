@@ -1,0 +1,5 @@
+# Exonumia Translations
+
+<LanguageDropdown/>
+
+<TranslatedContentList/>

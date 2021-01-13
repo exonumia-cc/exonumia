@@ -12,6 +12,12 @@ sidebar: false
 
 ---
 
+**[🇰🇪 Kenya](/ken/)**
+
+[Kiswahili](/ken/sw/)
+
+---
+
 **[🇿🇦 South Africa](/zaf/)**
 
 [IsiZulu](/zaf/zu/)  
