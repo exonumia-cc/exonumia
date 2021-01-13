@@ -1,4 +1,4 @@
-# //Khoro//kharesase tsâsen re /asa khoedo Bitcoinsa !oa
+# //Khore//kharesase tsâsen re Bitcoinsa !oa
 
 by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
@@ -6,18 +6,18 @@ by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 ### Neti ge !a#amsase ra dîhe dîdi tsî !ereamdi tsîna.:
 
-Q: Neti ge !a#amsase ra dîhe dîdi tsî !ereamdi tsîna?  
-A: **/Gui-i khoe-i tsîn ose.**
+Q: Tari-e ta a #gom!gâ //khā?  
+A: **/Gui khoe-i tsîn ose.**
 
-Q: Ma//ae ta ni //amaxū?  
+Q: Mâ//ae ta ni //amaxū?  
 A: **Tatsē.**
 
 Q: Bitcoinsa ra //ō #oa?  
 A: **Hî-î.**
 
 Q: Tare-i !nâ ta go #gasen? 
-A: **Khoe-i xare-i a /ū.**
+A: **Khoe-i xare-i tsîn a /ū.**
 
 
-Q: Mati ta !nâsases nes #namipe //khā//khāsen //khā?  
+Q: Mati ta !nâsases nes #namipe a //khā//khāsen //khā?  
 A: **[Nepa ta ge !khusib !khō#gaba ūhâ tamas ka](/nam/naq/translations) io nepa sari re [lopp.net](https://www.lopp.net/bitcoin-information.html)**
