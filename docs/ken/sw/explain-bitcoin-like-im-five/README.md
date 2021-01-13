@@ -1,108 +1,108 @@
-# Explain Bitcoin Like I’m Five
+# Eleza Bitcoin Kama nina miaka Mitano
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+na Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Ikiwa bado hauwezi kujua bitcoin ni nini...
 
-We’re sitting on a park bench. It’s a great day.
+Tunakaa kwenye benchi la bustani. Ni siku nzuri.
 
-I have one apple with me. I give it to you.
+Nina tufaha moja na mimi. Nakupa.
 
-You now have one apple and I have zero.
+Sasa una tufaha moja na mimi sina sufuri.
 
-That was simple, right?
+Hiyo ilikuwa rahisi, sivyo?
 
-### Let’s look closely at what happened:
+### Wacha tuangalie kwa karibu kile kilichotokea:
 
-My apple was physically put into your hand.
+Tufaha langu liliwekwa mkononi mwako.
 
-You know it happened. I was there. You were there. You touched it.
+Unajua ilitokea. Nilikuwepo. Ulikuwa hapo. Umeigusa.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Hatukuhitaji mtu wa tatu huko kutusaidia kufanya uhamisho. Hatukuhitaji kumvuta Mjomba Tommy (ambaye ni jaji maarufu) kukaa na sisi kwenye benchi na kudhibitisha kwamba tufaha liliondoka kwangu kwenda kwako.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Tufaha ni lako! Siwezi kukupa tufaha nyingine kwa sababu sina iliyobaki. Siwezi kuidhibiti tena. Tufaha liliondoka kwenye miliki yangu kabisa. Una udhibiti kamili juu ya tufaha hilo sasa. Unaweza kumpa rafiki yako ikiwa unataka, na kisha rafiki huyo anaweza kumpa rafiki yake. Nakadhalika.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Kwa hivyo ndivyo inavyoonekana kubadilishana kwa mtu. Nadhani ni sawa kabisa, ikiwa ninakupa ndizi, kitabu, au kusema robo, au muswada wa dola….
 
-But I’m getting ahead of myself.
+Lakini ninajitangulia.
 
-### Back to apples!
+### Rudi kwa tufaha!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Sasa sema, nina tufaha moja ya dijiti. Hapa, nitakupa tufaha langu la dijiti.
 
-Ah! Now it gets interesting.
+Ah! Sasa inavutia.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Unajuaje kwamba tufaha hiyo ya dijiti ambayo ilikuwa yangu, sasa ni yako, na ni yako tu? Fikiria juu yake kwa sekunde.
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Ni ngumu zaidi, sivyo? Je! Unajuaje kwamba sikutuma tufaha hiyo kwa Mjomba Tommy kama kiambatisho cha barua pepe kwanza? Au rafiki yako Joe? Au rafiki yangu Lisa pia?
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Labda nilifanya nakala kadhaa za tufaha hilo la dijiti kwenye kompyuta yangu. Labda niliiweka kwenye mtandao na watu milioni moja walipakua.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Kama unavyoona, ubadilishaji huu wa dijiti ni shida kidogo. Kutuma matufaha ya dijiti haionekani kama kutuma matufaha halisi.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Wanasayansi wengine wa kompyuta wenye akili kweli wana jina la shida hii: inaitwa shida ya matumizi mara mbili. Lakini usijali kuhusu hilo. Unachohitaji kujua ni kwamba, imewachanganya kwa muda mrefu na hawajawahi kuitatua.
 
-Until now.
+Mpaka sasa.
 
-But let’s try to think of a solution on our own.
+Lakini wacha tujaribu kufikiria suluhisho peke yetu.
 
-### Ledgers
+### Vitabu vya kuongoza
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Labda matufaha haya ya dijiti yanahitaji kufuatiliwa kwenye kitabu. Kimsingi ni kitabu ambacho unafuatilia shughuli zote - kitabu cha uhasibu.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Kitabu hiki, kwa kuwa ni dijiti, inahitaji kuishi katika ulimwengu wake mwenyewe na kuwa na mtu anayeisimamia.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Sema, kama Dunia ya Warcraft. Blizzard, wale ambao waliunda mchezo mkondoni, wana "kitabu cha dijiti" cha panga zote za moto zinazowaka ambazo ziko kwenye mfumo wao. Kwa hivyo, baridi, mtu kama wao anaweza kufuatilia matufaha yetu ya dijiti. Ya kushangaza - tuliitatua!
 
-### Problems
+### Matatizo
 
-There’s a bit of a problem though:
+Kuna shida kidogo ingawa:
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) Je! Ikiwa mtu mwingine huko Blizzard aliunda zaidi? Angeweza tu kuongeza matufaha kadhaa ya dijiti kwenye usawa wake wakati wowote anapotaka!
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) Sio sawa kabisa wakati tulikuwa kwenye benchi siku hiyo. Ilikuwa wewe na mimi tu basi. Kupitia Blizzard ni kama kuvuta Mjomba Tommy (mtu wa tatu) nje ya korti (je! Nilitaja yeye ni jaji maarufu?) Kwa shughuli zetu zote za benchi la bustani. Ninawezaje kukupa tufaha langu ya dijiti kwako, kama, unajua - njia ya kawaida?
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Je! Kuna njia yoyote ya kuiga benchi yetu ya bustani, wewe tu na mimi, manunuzi ya dijiti? Inaonekana kuwa ngumu sana…
 
-### The Solution
+### Suluhisho
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Je! Ikiwa tutampa kitabu hiki - kila mtu? Badala ya leja kuishi kwenye kompyuta ya Blizzard, itaishi kwenye kompyuta za kila mtu. Shughuli zote ambazo zimewahi kutokea, kutoka wakati wote, katika tofaa za dijiti zitarekodiwa ndani yake.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Huwezi kuidanganya. Siwezi kukutumia matufaha ya dijiti sina, kwa sababu basi haingeweza kusawazisha na kila mtu kwenye mfumo. Ingekuwa mfumo mgumu kupiga. Hasa ikiwa ilikuwa kubwa sana.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Isitoshe haidhibitwi na mtu mmoja, kwa hivyo najua hakuna mtu anayeweza kuamua kujipa tufaha zaidi za dijiti. Sheria za mfumo huo tayari zilikuwa zimefafanuliwa mwanzoni. Na kanuni na sheria ni chanzo wazi. Iko kwa watu wenye busara kuchangia, kudumisha, kupata salama, kuboresha, na kuangalia.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Unaweza kushiriki katika mtandao huu pia na usasishe leja na uhakikishe kuwa zote zinaangalia. Kwa shida, unaweza kupata kama tofaa 25 kama dijiti. Kwa kweli, hiyo ndiyo njia pekee ya kuunda maapulo zaidi ya dijiti kwenye mfumo.
 
-### I simplified quite a bit
+### Nilirahisisha kidogo
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… lakini mfumo huo niliouelezea upo. Inaitwa itifaki ya Bitcoin. Na matufaha hayo ya dijiti ni "bitcoins" ndani ya mfumo. Dhana!
 
-So, did you see what happened? What does the public ledger enable?
+Kwa hivyo, umeona kile kilichotokea? Je! Kitabu cha umma kinawezesha nini?
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) Ni chanzo wazi unakumbuka? Jumla ya matufaha yalifafanuliwa katika leja ya umma mwanzoni. Najua kiwango halisi kilichopo. Ndani ya mfumo, najua ni mdogo (adimu).
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) Wakati ninabadilishana sasa najua kwamba tufaha la dijiti kwa hakika iliacha milki yangu na sasa ni yako kabisa. Nilikuwa siwezi kusema hivyo juu ya vitu vya dijiti. Itasasishwa na kuthibitishwa na kitabu cha umma.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) Kwa sababu ni daftari la umma, sikuhitaji Mjomba Tommy (mtu wa tatu) kuhakikisha kuwa sikudanganya, au kujitengenezea nakala za ziada, au kutuma maapulo mara mbili, au mara tatu…
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+    Ndani ya mfumo, ubadilishaji wa tufaha la dijiti sasa ni kama kubadilishana ya mwili. Sasa ni nzuri kama kuona tufaha halisi likiacha mkono wangu na kuingia mfukoni mwako. Na kama kwenye benchi la bustani, ubadilishaji huo ulihusisha watu wawili tu. Mimi na wewe - hatukuhitaji Mjomba Tommy hapo kuifanya iwe halali.
 
-In other words, it behaves like a physical object.
+Kwa maneno mengine, ni tabia kama kitu cha mwili.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Lakini unajua ni nini kizuri? Bado ni ya dijiti. Sasa tunaweza kushughulikia matufaha 1,000, au tufaha milioni 1, au hata. Ninaweza kuituma kwa kubonyeza kitufe kimoja, na bado ninaweza kuiacha kwenye mfuko wako wa dijiti ikiwa ningekuwa Nikaragua na ungefika New York.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Ninaweza hata kufanya vitu vingine vya dijiti kupanda juu ya matufaha haya ya dijiti! Ni dijiti baada ya yote. Labda ninaweza kushikamana na maandishi juu yake — maandishi ya dijiti. Au labda naweza kushikamana na vitu muhimu zaidi; kama sema mkataba, au cheti cha hisa, au kitambulisho…
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Kwa hivyo hii ni nzuri! Je! Tunapaswa kutibu au kuthamini "matufaha haya ya dijiti"? Wanafaa kabisa sio?
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Kweli, watu wengi wanajadili juu yake sasa. Kuna mjadala kati ya hii na shule hiyo ya uchumi. Kati ya wanasiasa. Kati ya waandaaji programu. Usiwasikilize wote ingawa. Watu wengine ni werevu. Wengine wana habari isiyofaa. Wengine wanasema mfumo huo unastahili sana, wengine wanasema kweli una thamani ya sifuri. Mvulana fulani kweli huweka nambari ngumu: $ 1,300 kwa tufaha. Wengine wanasema ni dhahabu ya dijiti, wengine sarafu. Wengine wanasema ni kama tu tulips. Watu wengine wanasema itabadilisha ulimwengu, wengine wanasema ni mtindo tu.
 
-I have my own opinion about it.
+Nina maoni yangu mwenyewe juu yake.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Hiyo ni hadithi ya wakati mwingine ingawa. Lakini mtoto, sasa unajua zaidi kuhusu Bitcoin kuliko wengi.
 
 #### Recommend Reading (Updated 2017)
 
