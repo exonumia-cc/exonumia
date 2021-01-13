@@ -15,7 +15,7 @@ A: **Tatsē.**
 Q: Bitcoinsa ra //ō #oa?  
 A: **Hî-î.**
 
-Q: Tare-i !nâ ta go #gasen? 
+Q: Tare-i !nâ ta go #gasen?  
 A: **Khoe-i xare-i tsîn a /ū.**
 
 
