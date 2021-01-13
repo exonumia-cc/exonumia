@@ -102,7 +102,7 @@ module.exports = {
             },
             '/ken/sw/': {
                 selectText: '🇰🇪 Lugha',
-                label: 'English',
+                label: 'Kiswahili',
                 ariaLabel: 'Lugha',
                 editLinkText: 'Improve Content',
                 continueReading: true,
