@@ -1,23 +1,23 @@
-# Welcome to Bitcoin, newcomers!
+# Karibu kwenye Bitcoin, wageni!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+na Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Hapa kuna maswali yako yanayoulizwa mara kwa mara:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Q: Ninapaswa kumwamini nani?  
+A: **Hakuna mtu.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Ninapaswa kuuza lini?  
+A: **Kamwe.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Je! Bitcoin inakufa kwa sababu ya ____?  
+A: **Hapana.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Nimejiingiza mwenyewe ndani?  
+A: **Hakuna anayejua.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/ken/sw/translations).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Q: Je! Ninajifunzaje zaidi?  
+A: **Tuna [utajiri wa yaliyomo hapa](/ken/sw/translations).** Au unaweza kutembelea [lopp.net](https://www.lopp.net/bitcoin-information.html)
