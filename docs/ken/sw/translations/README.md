@@ -1,4 +1,4 @@
-# Exonumia Translations
+# Tafsiri za Exonumia
 
 <LanguageDropdown/>
 

@@ -104,16 +104,16 @@ module.exports = {
                 selectText: '🇰🇪 Lugha',
                 label: 'Kiswahili',
                 ariaLabel: 'Lugha',
-                editLinkText: 'Improve Content',
+                editLinkText: 'Boresha Yaliyomo',
                 continueReading: true,
-                continueReadingText: 'Continue Reading',
+                continueReadingText: 'Endelea kusoma',
                 nav: [
                     { 
                         text: 'Home', 
                         link: '/ken/sw/' 
                     },
                     { 
-                        text: 'Translations', 
+                        text: 'Tafsiri', 
                         link: '/ken/sw/translations/' 
                     },
                     { 
@@ -124,7 +124,7 @@ module.exports = {
                 sidebar: [
                     '/ken/sw/about/',
                     {
-                        title: 'Translations',   // required
+                        title: 'Tafsiri',   // required
                         path: '/ken/sw/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
