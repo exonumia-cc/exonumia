@@ -1,4 +1,8 @@
 module.exports = {
+    head: [
+        ['meta', { charset: "UTF-8"}],
+        ['meta', { name: "viewport", content: "width=device-width, initial-scale=1.0"}]
+    ],
     dest: 'dist',
     plugins: ['check-md'],
     locales: {
