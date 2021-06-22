@@ -3,7 +3,7 @@
     <template 
       v-if="continueReading"
       #page-bottom>
-      <div class="page-nav">
+      <div class="page-nav no-print">
         <!-- get this from internationalized content -->
         <h3>{{ continueReadingText }}</h3>
         <ContentList  />
