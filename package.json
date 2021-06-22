@@ -18,7 +18,6 @@
   ],
   "author": "Sigidli",
   "license": "CC-BY-NC-SA-4.0",
-  "dependencies": {},
   "devDependencies": {
     "vuepress": "^1.8.0",
     "vuepress-plugin-check-md": "0.0.2"
