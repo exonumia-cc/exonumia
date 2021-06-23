@@ -193,9 +193,9 @@ module.exports = {
                 ],
             },
             '/zaf/st/': {
-                selectText: '🇿🇦 dipuo',
+                selectText: '🇿🇦 maleme',
                 label: 'Sesotho',
-                ariaLabel: 'Dipuo',
+                ariaLabel: 'Maleme',
                 editLinks: true,
                 editLinkText: "Ntlafatsa phetolelo!",
                 continueReading: true,
