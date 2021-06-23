@@ -193,9 +193,9 @@ module.exports = {
                 ],
             },
             '/zaf/st/': {
-                selectText: '🇿🇦 Lipuo',
+                selectText: '🇿🇦 dipuo',
                 label: 'Sesotho',
-                ariaLabel: 'Lipuo',
+                ariaLabel: 'Dipuo',
                 editLinks: true,
                 editLinkText: "Ntlafatsa phetolelo!",
                 continueReading: true,
