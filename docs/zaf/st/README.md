@@ -4,7 +4,7 @@ by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Mona ke dipotso tsa hao tse botsoang ga ngata:
+### Mona ke dipotso tsa hao tse botsoang ha ngata:
 
 Q: Ke mang eo ke lokelang ho mo tšepa?  
 A: **Ha ho motho.**
