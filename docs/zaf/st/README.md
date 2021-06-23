@@ -1,10 +1,10 @@
-# Rea u amohela ka Bitcoin, ba sa tsoa fihla!
+# Rea u amohela ho Bitcoin, ba sa tsoa fihla!
 
 by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Mona ke lipotso tsa hao tse botsoang khafetsa:
+### Mona ke dipotso tsa hao tse botsoang ga ngata:
 
 Q: Ke mang eo ke lokelang ho mo tšepa?  
 A: **Ha ho motho.**
