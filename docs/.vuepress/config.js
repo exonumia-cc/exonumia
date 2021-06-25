@@ -211,14 +211,14 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
+                        title: 'Izincwadi',   // required
                         path: '/zaf/zu/books/',
                         children: [
                             '/zaf/zu/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Transifex Projects',   // required
+                        title: 'Amaphrojekthi weTransifex',   // required
                         path: '/zaf/zu/transifex/',
                         children: [
                             '/zaf/zu/transifex/bitcoin-core/',
