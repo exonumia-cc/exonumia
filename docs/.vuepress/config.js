@@ -155,6 +155,13 @@ module.exports = {
                         ]
                     },
                     {
+                        title: 'Books',   // required
+                        path: '/ken/sw/books/',
+                        children: [
+                            '/ken/sw/books/layered-money/'
+                        ]
+                    },
+                    {
                         title: 'Transifex Projects',   // required
                         path: '/ken/sw/transifex/',
                         children: [
@@ -202,7 +209,23 @@ module.exports = {
                             '/zaf/zu/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/zu/i-am-hodling/'
                         ]
-                    }
+                    },
+                    {
+                        title: 'Books',   // required
+                        path: '/zaf/zu/books/',
+                        children: [
+                            '/zaf/zu/books/layered-money/'
+                        ]
+                    },
+                    {
+                        title: 'Transifex Projects',   // required
+                        path: '/zaf/zu/transifex/',
+                        children: [
+                            '/zaf/zu/transifex/bitcoin-core/',
+                            '/zaf/zu/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/zaf/zu/contribution-guide/'
                 ],
             },
             '/zaf/st/': {
@@ -242,7 +265,23 @@ module.exports = {
                             '/zaf/st/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/st/i-am-hodling/'
                         ]
-                    }
+                    },
+                    {
+                        title: 'Books',   // required
+                        path: '/zaf/st/books/',
+                        children: [
+                            '/zaf/st/books/layered-money/'
+                        ]
+                    },
+                    {
+                        title: 'Transifex Projects',   // required
+                        path: '/zaf/st/transifex/',
+                        children: [
+                            '/zaf/st/transifex/bitcoin-core/',
+                            '/zaf/st/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/zaf/st/contribution-guide/'
                 ],
             },
             '/zaf/ve/': {
@@ -282,7 +321,23 @@ module.exports = {
                             '/zaf/ve/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/ve/i-am-hodling/'
                         ]
-                    }
+                    },
+                    {
+                        title: 'Books',   // required
+                        path: '/zaf/ve/books/',
+                        children: [
+                            '/zaf/ve/books/layered-money/'
+                        ]
+                    },
+                    {
+                        title: 'Transifex Projects',   // required
+                        path: '/zaf/ve/transifex/',
+                        children: [
+                            '/zaf/ve/transifex/bitcoin-core/',
+                            '/zaf/ve/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/zaf/ve/contribution-guide/'
                 ],
             },
             '/zaf/nr/': {
@@ -322,7 +377,23 @@ module.exports = {
                             '/zaf/nr/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/nr/i-am-hodling/'
                         ]
-                    }
+                    },
+                    {
+                        title: 'Books',   // required
+                        path: '/zaf/nr/books/',
+                        children: [
+                            '/zaf/nr/books/layered-money/'
+                        ]
+                    },
+                    {
+                        title: 'Transifex Projects',   // required
+                        path: '/zaf/nr/transifex/',
+                        children: [
+                            '/zaf/nr/transifex/bitcoin-core/',
+                            '/zaf/nr/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/zaf/nr/contribution-guide/'
                 ],
             },
             '/nam/ng/': {
@@ -362,7 +433,23 @@ module.exports = {
                             '/nam/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nam/ng/i-am-hodling/'
                         ]
-                    }
+                    },
+                    {
+                        title: 'Books',   // required
+                        path: '/nam/ng/books/',
+                        children: [
+                            '/nam/ng/books/layered-money/'
+                        ]
+                    },
+                    {
+                        title: 'Transifex Projects',   // required
+                        path: '/nam/ng/transifex/',
+                        children: [
+                            '/nam/ng/transifex/bitcoin-core/',
+                            '/nam/ng/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/nam/ng/contribution-guide/'
                 ],
             },
             '/nam/naq/': {
@@ -402,7 +489,23 @@ module.exports = {
                             '/nam/naq/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nam/naq/i-am-hodling/'
                         ]
-                    }
+                    },
+                    {
+                        title: 'Books',   // required
+                        path: '/nam/naq/books/',
+                        children: [
+                            '/nam/naq/books/layered-money/'
+                        ]
+                    },
+                    {
+                        title: 'Transifex Projects',   // required
+                        path: '/nam/naq/transifex/',
+                        children: [
+                            '/nam/naq/transifex/bitcoin-core/',
+                            '/nam/naq/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/nam/naq/contribution-guide/'
                 ],
             }
         }
