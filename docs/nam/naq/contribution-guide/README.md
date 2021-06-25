@@ -2,7 +2,7 @@
 
 The Exonumia project is an open source project and changes are welcome from anybody and anyone looking to assist in fulfilling the purpose of the project.
 
-If you would like to contribute changes via text or email DM [@exonumia280](https://twitter.com/Exonumia280) or email exonumia@sigidli.com.
+If you would like to contribute changes via text or email DM [@exonumia280](https://twitter.com/Exonumia280).
 
 ## Submit changes on the git repo
 
