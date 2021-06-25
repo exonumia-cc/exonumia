@@ -70,7 +70,7 @@ export default {
         })
 
         const languageDropdown = {
-          text: this.$themeLocaleConfig.selectText || 'Languages',
+          text: (this.$page.path.includes("/books/") ?  this.$themeLocaleConfig.freelyAvailableTranslationsText : this.$themeLocaleConfig.selectText) || 'Languages',
           ariaLabel: this.$themeLocaleConfig.ariaLabel || 'Select language',
           items: Object.values(groupedLangauges).concat(ungroupedLangauges)
         }

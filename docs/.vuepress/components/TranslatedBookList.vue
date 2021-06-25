@@ -13,7 +13,7 @@ import SidebarLinks from '@theme/components/SidebarLinks.vue'
 import { resolveSidebarItems } from '@parent-theme/util'
 
 export default {
-    name: 'ContentList',
+    name: 'TranslatedBookList',
 
     components: { SidebarLinks },
 
@@ -28,12 +28,12 @@ export default {
 
         sidebarItems.forEach(sidebarItem => {
           if (sidebarItem.type === "group") {
-            sidebarItem.collapsable = true
+            sidebarItem.collapsable = false
             sidebarItem.sidebarDepth = 0
           }
         });
 
-        return sidebarItems
+        return sidebarItems.filter(sidebarItem => sidebarItem.path.includes("/books/"))
       },
     }
 }

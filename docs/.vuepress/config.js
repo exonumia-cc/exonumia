@@ -59,6 +59,7 @@ module.exports = {
         locales: {
             '/int/en/': {
                 selectText: '🇬🇧 Languages',
+                freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
                 label: 'English',
                 ariaLabel: 'Languages',
                 editLinkText: 'Improve Content',
@@ -96,6 +97,13 @@ module.exports = {
                         ]
                     },
                     {
+                        title: 'Books',   // required
+                        path: '/int/en/books/',
+                        children: [
+                            '/int/en/books/layered-money/'
+                        ]
+                    },
+                    {
                         title: 'Transifex Projects',   // required
                         path: '/int/en/transifex/',
                         children: [
@@ -108,6 +116,7 @@ module.exports = {
             },
             '/ken/sw/': {
                 selectText: '🇰🇪 Lugha',
+                freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'Kiswahili',
                 ariaLabel: 'Lugha',
                 editLinkText: 'Boresha Yaliyomo',
@@ -157,6 +166,7 @@ module.exports = {
             },
             '/zaf/zu/': {
                 selectText: '🇿🇦 Izilimi',
+                freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'IsiZulu',
                 ariaLabel: 'Izilimi',
                 editLinks: true,
@@ -196,6 +206,7 @@ module.exports = {
             },
             '/zaf/st/': {
                 selectText: '🇿🇦 maleme',
+                freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'Sesotho',
                 ariaLabel: 'Maleme',
                 editLinks: true,
@@ -235,6 +246,7 @@ module.exports = {
             },
             '/zaf/ve/': {
                 selectText: '🇿🇦 Languages',
+                freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'IsiVenda',
                 ariaLabel: 'Languages',
                 editLinks: true,
@@ -273,9 +285,10 @@ module.exports = {
                 ],
             },
             '/zaf/nr/': {
-                selectText: '🇿🇦 Languages',
+                selectText: '🇿🇦 Izilimi',
+                freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'Isindebele',
-                ariaLabel: 'Languages',
+                ariaLabel: 'Izilimi',
                 editLinks: true,
                 editLinkText: "Improve Translation!",
                 continueReading: true,
@@ -313,6 +326,7 @@ module.exports = {
             },
             '/nam/ng/': {
                 selectText: '🇳🇦 Languages',
+                freelyAvailableTranslationsText: '🇳🇦 Freely Available Translations',
                 label: 'Oshiwambo',
                 ariaLabel: 'Languages',
                 editLinks: true,
@@ -352,6 +366,7 @@ module.exports = {
             },
             '/nam/naq/': {
                 selectText: '🇳🇦 Languages',
+                freelyAvailableTranslationsText: '🇳🇦 Freely Available Translations',
                 label: 'Khoekhoegowab',
                 ariaLabel: 'Languages',
                 editLinks: true,
