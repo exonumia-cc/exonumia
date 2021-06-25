@@ -55,6 +55,7 @@ module.exports = {
         docsDir: 'docs',
         searchPlaceholder: 'what goes up?',
         continueReading: false,
+        logo: '/exonumia-logo.png',
         // i18n
         locales: {
             '/int/en/': {
