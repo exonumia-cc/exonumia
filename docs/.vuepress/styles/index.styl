@@ -5,3 +5,32 @@
         display: none !important;
     }
 }
+
+// Here's what we did to get the navbar at the bottom of the screen on mobile
+@media (max-width: 719px) {
+    .navbar {
+        bottom: 0 !important;
+        top: unset;
+    }
+
+    h1 {
+        margin-top: unset !important;
+        padding-top: unset !important;
+    }
+
+    .sidebar {
+        top: 0;
+        padding-top: unset;
+        padding-bottom: 3.6rem;
+    }
+
+    .suggestions {
+        position: fixed !important;
+        bottom: 3.6rem;
+        top: unset !important;
+    }
+
+    .navbar .home-link span.can-hide {
+        display: contents;
+    }
+}
