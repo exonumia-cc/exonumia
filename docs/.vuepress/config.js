@@ -74,10 +74,6 @@ module.exports = {
                     { 
                         text: 'Translations', 
                         link: '/int/en/translations/' 
-                    },
-                    { 
-                        text: 'Sigidli', 
-                        link: 'https://sigidli.com' 
                     }
                 ],
                 sidebar: [
@@ -131,10 +127,6 @@ module.exports = {
                     { 
                         text: 'Tafsiri', 
                         link: '/ken/sw/translations/' 
-                    },
-                    { 
-                        text: 'Sigidli', 
-                        link: 'https://sigidli.com' 
                     }
                 ],
                 sidebar: [
@@ -190,10 +182,6 @@ module.exports = {
                         text: 'Ukuhumusha', 
                         link: '/zaf/zu/translations/' 
                     },
-                    { 
-                        text: 'Sigidli', 
-                        link: 'https://sigidli.com' 
-                    },
                 ],
                 sidebar: [
                     '/zaf/zu/about/',
@@ -245,10 +233,6 @@ module.exports = {
                     { 
                         text: 'Fetolela', 
                         link: '/zaf/st/translations/' 
-                    },
-                    { 
-                        text: 'Sigidli', 
-                        link: 'https://sigidli.com' 
                     },
                 ],
                 sidebar: [
@@ -302,10 +286,6 @@ module.exports = {
                         text: 'Translations', 
                         link: '/zaf/ve/translations/' 
                     },
-                    { 
-                        text: 'Sigidli', 
-                        link: 'https://sigidli.com' 
-                    },
                 ],
                 sidebar: [
                     '/zaf/ve/about/',
@@ -357,10 +337,6 @@ module.exports = {
                     { 
                         text: 'Translations', 
                         link: '/zaf/nr/translations/' 
-                    },
-                    { 
-                        text: 'Sigidli', 
-                        link: 'https://sigidli.com' 
                     },
                 ],
                 sidebar: [
@@ -414,10 +390,6 @@ module.exports = {
                         text: 'Translations', 
                         link: '/nam/ng/translations/' 
                     },
-                    { 
-                        text: 'Sigidli', 
-                        link: 'https://sigidli.com' 
-                    },
                 ],
                 sidebar: [
                     '/nam/ng/about/',
@@ -469,10 +441,6 @@ module.exports = {
                     { 
                         text: 'Translations', 
                         link: '/nam/naq/translations/' 
-                    },
-                    { 
-                        text: 'Sigidli', 
-                        link: 'https://sigidli.com' 
                     },
                 ],
                 sidebar: [

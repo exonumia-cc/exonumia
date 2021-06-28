@@ -2,11 +2,11 @@
 
 <LanguageDropdown/>
 
-Exonumia is a project looking to translate literary content that explains how Bitcoin works into native African languages. The project is open source and contributors/translators are invited to improve the quality of the content on the platform.
+Exonumia is an open source platform that allows its contributors to translate and publish content about Bitcoin into Native African languages. It is ran by the South African non-profit company of the same name and company registration number 2021/711041/08. It is ran by the South African non-profit company of the same name and company registration number 2021/711041/08.
 
 ## Why does the Exonumia Project exist?
 
-**Africa** is home to over a billion people and a diverse set of ethnicities. Regardless of its rich history, a majority of the countries are still rural/developing countries. Almost all of Africa was colonized by Europe during the late 19th century (with only Ethiopia and Liberia maintaining their independence). The current lack of prosperity can be pinned on the constant state of war and the many independence and decolonization struggles being dealt with in post colonial Africa.
+**Africa** is home to over a billion people who speak a diverse set of languages. Some estimates claim there being over 3000 dialects spoken by the many ethnicities of the continent. Regardless of its rich history, a majority of the countries are still rural/developing countries. Almost all of Africa was colonized by Europe during the late 19th century (with only Ethiopia and Liberia maintaining their independence). The current lack of prosperity can partly be pinned on the constant state of war and the many independence and decolonization struggles being dealt with in post colonial Africa.
 
 One of the many side effects that the era of colonization has had on Africans is that changes to how most countries are run were/are made effectively without the consultation or participation of the majority of the population. Many countries have legal and economic systems that use a language which is foreign to the natives of the country.
 
