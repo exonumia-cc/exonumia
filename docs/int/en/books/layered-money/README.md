@@ -14,6 +14,7 @@ In this fascinating deep dive into the evolution of monetary systems around the 
 
 Available in print, ebook, and audiobook worldwide!
 
-[https://www.layeredmoney.com/](https://www.layeredmoney.com)
-
-![https://www.layeredmoney.com/](/layered-money-cover.png)
+<figure>
+  <img src='/layered-money-cover.png'>
+  <figcaption><a href="https://www.layeredmoney.com/">Layered Money Cover</a></figcaption>
+</figure>
