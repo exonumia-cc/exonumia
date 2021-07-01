@@ -6,8 +6,19 @@ module.exports = {
         ['link', { rel: 'icon', href: '/exonumia-logo.png' }]
     ],
     dest: 'dist',
-    plugins: ['check-md'],
+    plugins: {
+        'check-md': {
+
+        },
+        'sitemap': {
+            hostname: 'https://exonumia.cc'
+        }
+    },
     locales: {
+        '/': {
+            lang: 'en-US',
+            title: 'Exonumia'
+        },
         '/int/en/': {
             lang: 'en-US',
             title: 'Exonumia'
