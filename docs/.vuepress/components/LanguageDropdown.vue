@@ -3,6 +3,7 @@
   <!-- user links -->
   <div class="nav-links">
     <div
+      class="nav-lang"
       v-for="item in userLinks"
       :key="item.link"
     >
