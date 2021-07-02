@@ -3,3 +3,4 @@
 <LanguageDropdown/>
 
 <TranslatedContentList/>
+<TranslatedBookList/>
