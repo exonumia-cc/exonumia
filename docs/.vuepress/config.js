@@ -112,8 +112,8 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Transifex Projects',   // required
-                        path: '/int/en/transifex/',
+                        title: 'Translation Projects',   // required
+                        path: '/int/en/open-source-translation-projects/',
                         children: [
                             '/int/en/transifex/bitcoin-core/',
                             '/int/en/transifex/btcpayserver/'
@@ -165,8 +165,8 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Transifex Projects',   // required
-                        path: '/ken/sw/transifex/',
+                        title: 'Translation Projects',   // required
+                        path: '/ken/sw/open-source-translation-projects/',
                         children: [
                             '/ken/sw/transifex/bitcoin-core/',
                             '/ken/sw/transifex/btcpayserver/'
@@ -218,7 +218,7 @@ module.exports = {
                     },
                     {
                         title: 'Amaphrojekthi weTransifex',   // required
-                        path: '/zaf/zu/transifex/',
+                        path: '/zaf/zu/open-source-translation-projects/',
                         children: [
                             '/zaf/zu/transifex/bitcoin-core/',
                             '/zaf/zu/transifex/btcpayserver/'
@@ -269,8 +269,8 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Transifex Projects',   // required
-                        path: '/zaf/st/transifex/',
+                        title: 'Translation Projects',   // required
+                        path: '/zaf/st/open-source-translation-projects/',
                         children: [
                             '/zaf/st/transifex/bitcoin-core/',
                             '/zaf/st/transifex/btcpayserver/'
@@ -321,8 +321,8 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Transifex Projects',   // required
-                        path: '/zaf/ve/transifex/',
+                        title: 'Translation Projects',   // required
+                        path: '/zaf/ve/open-source-translation-projects/',
                         children: [
                             '/zaf/ve/transifex/bitcoin-core/',
                             '/zaf/ve/transifex/btcpayserver/'
@@ -373,8 +373,8 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Transifex Projects',   // required
-                        path: '/zaf/nr/transifex/',
+                        title: 'Translation Projects',   // required
+                        path: '/zaf/nr/open-source-translation-projects/',
                         children: [
                             '/zaf/nr/transifex/bitcoin-core/',
                             '/zaf/nr/transifex/btcpayserver/'
@@ -425,8 +425,8 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Transifex Projects',   // required
-                        path: '/nam/ng/transifex/',
+                        title: 'Translation Projects',   // required
+                        path: '/nam/ng/open-source-translation-projects/',
                         children: [
                             '/nam/ng/transifex/bitcoin-core/',
                             '/nam/ng/transifex/btcpayserver/'
@@ -477,8 +477,8 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Transifex Projects',   // required
-                        path: '/nam/naq/transifex/',
+                        title: 'Translation Projects',   // required
+                        path: '/nam/naq/open-source-translation-projects/',
                         children: [
                             '/nam/naq/transifex/bitcoin-core/',
                             '/nam/naq/transifex/btcpayserver/'
