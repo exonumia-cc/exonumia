@@ -34,7 +34,9 @@ export default {
         const routes = this.$router.options.routes
         const themeLocales = this.$site.themeConfig.locales || {}
 
-        const langauges = Object.keys(locales).map(path => {
+        const langauges = Object.keys(locales)
+          .filter(path => path != "/")
+          .map(path => {
             const locale = locales[path]
             const text = themeLocales[path] && themeLocales[path].label || locale.lang
             let link
