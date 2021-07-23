@@ -5,6 +5,12 @@ sidebar: false
 
 # Exonumia
 
+**[🇦🇴 Angola](/ago/)**
+
+[Oshiwambo](/ago/ng/)
+
+---
+
 **[🇳🇦 Namibia](/nam/)**
 
 [Oshiwambo](/nam/ng/)   

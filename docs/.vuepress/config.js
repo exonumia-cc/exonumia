@@ -29,6 +29,11 @@ module.exports = {
             lang: 'en-US',
             title: 'Exonumia'
         },
+        '/ago/ng/': {
+            lang: 'ng-AO',
+            group: '🇦🇴 Angola',
+            title: 'Exonumia'
+        },
         '/int/en/': {
             lang: 'en-US',
             title: 'Exonumia'
@@ -39,7 +44,7 @@ module.exports = {
             title: 'Exonumia'
         },
         '/nam/ng/': {
-            lang: 'ng',
+            lang: 'ng-NA',
             group: '🇳🇦 Namibia',
             title: 'Exonumia'
         },
@@ -79,6 +84,58 @@ module.exports = {
         logo: '/exonumia-logo.png',
         // i18n
         locales: {
+            '/ago/ng/': {
+                selectText: '🇦🇴 Languages',
+                freelyAvailableTranslationsText: '🇦🇴 Freely Available Translations',
+                label: 'Oshiwambo',
+                ariaLabel: 'Languages',
+                editLinks: true,
+                editLinkText: "Toloka xwepo!",
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                nav: [
+                    { 
+                        text: 'Home', 
+                        link: '/ago/ng/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/ago/ng/translations/' 
+                    },
+                ],
+                sidebar: [
+                    '/ago/ng/about/',
+                    {
+                        title: 'Translations',   // required
+                        path: '/ago/ng/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/ago/ng/',
+                            '/ago/ng/explain-bitcoin-like-im-five/',
+                            '/ago/ng/bitcoin-is-like/',
+                            '/ago/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/ago/ng/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        title: 'Books',   // required
+                        path: '/ago/ng/books/',
+                        children: [
+                            '/ago/ng/books/layered-money/'
+                        ]
+                    },
+                    {
+                        title: 'Translation Projects',   // required
+                        path: '/ago/ng/open-source-translation-projects/',
+                        children: [
+                            '/ago/ng/transifex/bitcoin-core/',
+                            '/ago/ng/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/ago/ng/contribution-guide/'
+                ],
+            },
             '/int/en/': {
                 selectText: '🇬🇧 Languages',
                 freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
