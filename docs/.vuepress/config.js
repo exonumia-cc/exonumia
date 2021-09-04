@@ -114,6 +114,7 @@ module.exports = {
                             '/ago/ng/',
                             '/ago/ng/explain-bitcoin-like-im-five/',
                             '/ago/ng/bitcoin-is-like/',
+                            '/ago/ng/bitcoin-is-like-sports/',
                             '/ago/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/ago/ng/i-am-hodling/'
                         ]
@@ -169,6 +170,7 @@ module.exports = {
                             '/int/en/',
                             '/int/en/explain-bitcoin-like-im-five/',
                             '/int/en/bitcoin-is-like/',
+                            '/int/en/bitcoin-is-like-sports/',
                             '/int/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/int/en/museum/bitcoin-v0.1-released/',
                             '/int/en/museum/re-bitcoin-v0.1-released/',
@@ -226,6 +228,7 @@ module.exports = {
                             '/ken/sw/',
                             '/ken/sw/explain-bitcoin-like-im-five/',
                             '/ken/sw/bitcoin-is-like/',
+                            '/ken/sw/bitcoin-is-like-sports/',
                             '/ken/sw/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/ken/sw/museum/bitcoin-v0.1-released/',
                             '/ken/sw/museum/re-bitcoin-v0.1-released/',
@@ -284,6 +287,7 @@ module.exports = {
                             '/zaf/zu/',
                             '/zaf/zu/explain-bitcoin-like-im-five/',
                             '/zaf/zu/bitcoin-is-like/',
+                            '/zaf/zu/bitcoin-is-like-sports/',
                             '/zaf/zu/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/zu/i-am-hodling/'
                         ]
@@ -340,6 +344,7 @@ module.exports = {
                             '/zaf/st/',
                             '/zaf/st/explain-bitcoin-like-im-five/',
                             '/zaf/st/bitcoin-is-like/',
+                            '/zaf/st/bitcoin-is-like-sports/',
                             '/zaf/st/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/st/i-am-hodling/'
                         ]
@@ -396,6 +401,7 @@ module.exports = {
                             '/zaf/ve/',
                             '/zaf/ve/explain-bitcoin-like-im-five/',
                             '/zaf/ve/bitcoin-is-like/',
+                            '/zaf/ve/bitcoin-is-like-sports/',
                             '/zaf/ve/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/ve/i-am-hodling/'
                         ]
@@ -452,6 +458,7 @@ module.exports = {
                             '/zaf/nr/',
                             '/zaf/nr/explain-bitcoin-like-im-five/',
                             '/zaf/nr/bitcoin-is-like/',
+                            '/zaf/nr/bitcoin-is-like-sports/',
                             '/zaf/nr/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/nr/i-am-hodling/'
                         ]
@@ -508,6 +515,7 @@ module.exports = {
                             '/nam/ng/',
                             '/nam/ng/explain-bitcoin-like-im-five/',
                             '/nam/ng/bitcoin-is-like/',
+                            '/nam/ng/bitcoin-is-like-sports/',
                             '/nam/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nam/ng/i-am-hodling/'
                         ]
@@ -564,6 +572,7 @@ module.exports = {
                             '/nam/naq/',
                             '/nam/naq/explain-bitcoin-like-im-five/',
                             '/nam/naq/bitcoin-is-like/',
+                            '/nam/naq/bitcoin-is-like-sports/',
                             '/nam/naq/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nam/naq/i-am-hodling/'
                         ]
