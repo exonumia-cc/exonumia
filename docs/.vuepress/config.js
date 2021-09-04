@@ -126,6 +126,10 @@ module.exports = {
                         ]
                     },
                     {
+                        title: 'Tools',
+                        path: '/ago/ng/tools/'
+                    },
+                    {
                         title: 'Translation Projects',   // required
                         path: '/ago/ng/open-source-translation-projects/',
                         children: [
@@ -177,6 +181,10 @@ module.exports = {
                         children: [
                             '/int/en/books/layered-money/'
                         ]
+                    },
+                    {
+                        title: 'Tools',
+                        path: '/int/en/tools/'
                     },
                     {
                         title: 'Translation Projects',   // required
@@ -232,6 +240,10 @@ module.exports = {
                         ]
                     },
                     {
+                        title: 'Tools',
+                        path: '/ken/sw/tools/'
+                    },
+                    {
                         title: 'Translation Projects',   // required
                         path: '/ken/sw/open-source-translation-projects/',
                         children: [
@@ -282,6 +294,10 @@ module.exports = {
                         children: [
                             '/zaf/zu/books/layered-money/'
                         ]
+                    },
+                    {
+                        title: 'Tools',
+                        path: '/zaf/zu/tools/'
                     },
                     {
                         title: 'Amaphrojekthi weTransifex',   // required
@@ -336,6 +352,10 @@ module.exports = {
                         ]
                     },
                     {
+                        title: 'Tools',
+                        path: '/zaf/st/tools/'
+                    },
+                    {
                         title: 'Translation Projects',   // required
                         path: '/zaf/st/open-source-translation-projects/',
                         children: [
@@ -386,6 +406,10 @@ module.exports = {
                         children: [
                             '/zaf/ve/books/layered-money/'
                         ]
+                    },
+                    {
+                        title: 'Tools',
+                        path: '/zaf/ve/tools/'
                     },
                     {
                         title: 'Translation Projects',   // required
@@ -440,6 +464,10 @@ module.exports = {
                         ]
                     },
                     {
+                        title: 'Tools',
+                        path: '/zaf/nr/tools/'
+                    },
+                    {
                         title: 'Translation Projects',   // required
                         path: '/zaf/nr/open-source-translation-projects/',
                         children: [
@@ -492,6 +520,10 @@ module.exports = {
                         ]
                     },
                     {
+                        title: 'Tools',
+                        path: '/nam/ng/tools/'
+                    },
+                    {
                         title: 'Translation Projects',   // required
                         path: '/nam/ng/open-source-translation-projects/',
                         children: [
@@ -542,6 +574,10 @@ module.exports = {
                         children: [
                             '/nam/naq/books/layered-money/'
                         ]
+                    },
+                    {
+                        title: 'Tools',
+                        path: '/nam/naq/tools/'
                     },
                     {
                         title: 'Translation Projects',   // required
