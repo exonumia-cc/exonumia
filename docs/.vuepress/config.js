@@ -22,6 +22,9 @@ module.exports = {
         },
         'sitemap': {
             hostname: 'https://exonumia.cc'
+        },
+        '@vuepress/google-analytics': {
+            ga: 'G-GDFND36NLP'
         }
     },
     locales: {
