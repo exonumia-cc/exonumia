@@ -2,6 +2,8 @@
 
 by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
+<LanguageDropdown/>
+
 Satoshi Nakamoto writes:
 
 > Announcing the first release of Bitcoin, a new electronic cash
