@@ -24,7 +24,7 @@ module.exports = {
             hostname: 'https://exonumia.cc'
         },
         '@vuepress/google-analytics': {
-            ga: 'G-GDFND36NLP'
+            ga: 'UA-207139170-1'
         }
     },
     locales: {
