@@ -61,13 +61,13 @@ module.exports = {
             lang: 'en',
             title: 'Exonumia'
         },
+        '/int/en/': {
+            lang: 'en-US',
+            title: 'Exonumia'
+        },
         '/ago/ng/': {
             lang: 'ng-AO',
             group: '🇦🇴 Angola',
-            title: 'Exonumia'
-        },
-        '/int/en/': {
-            lang: 'en-US',
             title: 'Exonumia'
         },
         '/ken/sw/': {
@@ -119,6 +119,65 @@ module.exports = {
         locales: {
             '/': {
                 selectLanguageName: '🌍 Languages',
+            },
+            '/int/en/': {
+                selectText: '🇬🇧 Languages',
+                selectLanguageName: '🇬🇧 English',
+                freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
+                label: 'English',
+                ariaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/int/en/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/int/en/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/int/en/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/int/en/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/int/en/',
+                            '/int/en/explain-bitcoin-like-im-five/',
+                            '/int/en/bitcoin-is-like/',
+                            '/int/en/bitcoin-is-like-sports/',
+                            '/int/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/int/en/museum/bitcoin-v0.1-released/',
+                            '/int/en/museum/re-bitcoin-v0.1-released/',
+                            '/int/en/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/int/en/books/',
+                        children: [
+                            '/int/en/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/int/en/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/int/en/open-source-translation-projects/',
+                        children: [
+                            '/int/en/transifex/bitcoin-core/',
+                            '/int/en/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/int/en/contribution-guide/'
+                ],
             },
             '/ago/ng/': {
                 selectText: '🇦🇴 Languages',
@@ -178,65 +237,6 @@ module.exports = {
                         ]
                     },
                     '/ago/ng/contribution-guide/'
-                ],
-            },
-            '/int/en/': {
-                selectText: '🇬🇧 Languages',
-                selectLanguageName: '🇬🇧 English',
-                freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
-                label: 'English',
-                ariaLabel: 'Languages',
-                editLinkText: 'Improve Content',
-                continueReading: true,
-                continueReadingText: 'Continue Reading',
-                navbar: [
-                    { 
-                        text: 'Home', 
-                        link: '/int/en/' 
-                    },
-                    { 
-                        text: 'Translations', 
-                        link: '/int/en/translations/' 
-                    }
-                ],
-                sidebar: [
-                    '/int/en/about/',
-                    {
-                        text: 'Translations',   // required
-                        link: '/int/en/translations/',      // optional, which should be a absolute path.
-                        // collapsable: false, // optional, defaults to true
-                        // sidebarDepth: 3,    // optional, defaults to 1
-                        children: [
-                            '/int/en/',
-                            '/int/en/explain-bitcoin-like-im-five/',
-                            '/int/en/bitcoin-is-like/',
-                            '/int/en/bitcoin-is-like-sports/',
-                            '/int/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/int/en/museum/bitcoin-v0.1-released/',
-                            '/int/en/museum/re-bitcoin-v0.1-released/',
-                            '/int/en/i-am-hodling/'
-                        ]
-                    },
-                    {
-                        text: 'Books',   // required
-                        link: '/int/en/books/',
-                        children: [
-                            '/int/en/books/layered-money/'
-                        ]
-                    },
-                    {
-                        text: 'Tools',
-                        link: '/int/en/tools/'
-                    },
-                    {
-                        text: 'Translation Projects',   // required
-                        link: '/int/en/open-source-translation-projects/',
-                        children: [
-                            '/int/en/transifex/bitcoin-core/',
-                            '/int/en/transifex/btcpayserver/'
-                        ]
-                    },
-                    '/int/en/contribution-guide/'
                 ],
             },
             '/ken/sw/': {
