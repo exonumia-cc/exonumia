@@ -19,7 +19,6 @@
   "author": "Sigidli",
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.8.2",
     "markdown-it-footnote": "^3.0.3",
     "vuepress": "^1.8.0",
     "vuepress-plugin-check-md": "0.0.2",
