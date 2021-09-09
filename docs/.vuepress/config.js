@@ -13,9 +13,7 @@ module.exports = {
         ['meta', { charset: "UTF-8"}],
         ['meta', { name: "viewport", content: "width=device-width, initial-scale=1.0"}],
         ['meta', { property: "og:image", content: "/exonumia-logo.png"}],
-        ['link', { rel: 'icon', href: '/exonumia-logo.png' }],
-        ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=UA-207139170-1', async: true }],
-        ['script', { src: '/analytics.js' }]
+        ['link', { rel: 'icon', href: '/exonumia-logo.png' }]
     ],
     dest: 'dist',
     plugins: {
