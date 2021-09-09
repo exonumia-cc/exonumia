@@ -1,13 +1,7 @@
 module.exports = {
-    markdown: {
-        // options for markdown-it-anchor
-        // anchor: { permalink: false },
-        // // options for markdown-it-toc
-        // toc: { includeLevel: [1, 2] },
-        extendMarkdown: md => {
-          // use more markdown-it plugins!
-          md.use(require('markdown-it-footnote'))
-        }
+    extendsMarkdown: md => {
+        // use more markdown-it plugins!
+        md.use(require('markdown-it-footnote'))
     },
     head: [
         ['meta', { charset: "UTF-8"}],
@@ -16,16 +10,16 @@ module.exports = {
         ['link', { rel: 'icon', href: '/exonumia-logo.png' }]
     ],
     dest: 'dist',
-    plugins: {
-        // 'check-md': {
-        // },
-        // 'sitemap': {
-        //     hostname: 'https://exonumia.africa'
-        // }
-    },
+    // plugins: {
+    //     // 'check-md': {
+    //     // },
+    //     // 'sitemap': {
+    //     //     hostname: 'https://exonumia.africa'
+    //     // }
+    // },
     locales: {
         '/': {
-            lang: 'en-US',
+            lang: 'en',
             title: 'Exonumia'
         },
         '/ago/ng/': {
@@ -50,7 +44,8 @@ module.exports = {
         '/nam/naq/': {
             lang: 'naq',
             group: '🇳🇦 Namibia',
-            title: 'Exonumia'
+            title: 'Exonumia',
+            selectLanguageName: '🇳🇦 Khoekhoegowab'
         },
         '/zaf/zu/': {
             lang: 'zu',
@@ -75,7 +70,7 @@ module.exports = {
     },
     themeConfig: {
         repo: 'https://github.com/exonumia-cc/exonumia',
-        repoLabel: 'CODE',
+        repoLabel: 'Open Source',
         editLinks: true,
         docsDir: 'docs',
         searchPlaceholder: 'what goes up?',
@@ -83,8 +78,12 @@ module.exports = {
         logo: '/exonumia-logo.png',
         // i18n
         locales: {
+            '/': {
+                selectLanguageName: '🌍 Languages',
+            },
             '/ago/ng/': {
                 selectText: '🇦🇴 Languages',
+                selectLanguageName: '🇦🇴 Oshiwambo',
                 freelyAvailableTranslationsText: '🇦🇴 Freely Available Translations',
                 label: 'Oshiwambo',
                 ariaLabel: 'Languages',
@@ -92,7 +91,7 @@ module.exports = {
                 editLinkText: "Toloka xwepo!",
                 continueReading: true,
                 continueReadingText: 'Continue Reading',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/ago/ng/' 
@@ -105,8 +104,8 @@ module.exports = {
                 sidebar: [
                     '/ago/ng/about/',
                     {
-                        title: 'Translations',   // required
-                        path: '/ago/ng/translations/',      // optional, which should be a absolute path.
+                        text: 'Translations',   // required
+                        link: '/ago/ng/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -121,19 +120,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
-                        path: '/ago/ng/books/',
+                        text: 'Books',   // required
+                        link: '/ago/ng/books/',
                         children: [
                             '/ago/ng/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/ago/ng/tools/'
+                        text: 'Tools',
+                        link: '/ago/ng/tools/'
                     },
                     {
-                        title: 'Translation Projects',   // required
-                        path: '/ago/ng/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/ago/ng/open-source-translation-projects/',
                         children: [
                             '/ago/ng/transifex/bitcoin-core/',
                             '/ago/ng/transifex/btcpayserver/'
@@ -144,13 +143,14 @@ module.exports = {
             },
             '/int/en/': {
                 selectText: '🇬🇧 Languages',
+                selectLanguageName: '🇬🇧 English',
                 freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
                 label: 'English',
                 ariaLabel: 'Languages',
                 editLinkText: 'Improve Content',
                 continueReading: true,
                 continueReadingText: 'Continue Reading',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/int/en/' 
@@ -163,8 +163,8 @@ module.exports = {
                 sidebar: [
                     '/int/en/about/',
                     {
-                        title: 'Translations',   // required
-                        path: '/int/en/translations/',      // optional, which should be a absolute path.
+                        text: 'Translations',   // required
+                        link: '/int/en/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -179,19 +179,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
-                        path: '/int/en/books/',
+                        text: 'Books',   // required
+                        link: '/int/en/books/',
                         children: [
                             '/int/en/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/int/en/tools/'
+                        text: 'Tools',
+                        link: '/int/en/tools/'
                     },
                     {
-                        title: 'Translation Projects',   // required
-                        path: '/int/en/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/int/en/open-source-translation-projects/',
                         children: [
                             '/int/en/transifex/bitcoin-core/',
                             '/int/en/transifex/btcpayserver/'
@@ -202,13 +202,14 @@ module.exports = {
             },
             '/ken/sw/': {
                 selectText: '🇰🇪 Lugha',
-                freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
+                selectLanguageName: '🇰🇪 Kiswahili',
+                freelyAvailableTranslationsText: '🇰🇪 Freely Available Translations',
                 label: 'Kiswahili',
                 ariaLabel: 'Lugha',
                 editLinkText: 'Boresha Yaliyomo',
                 continueReading: true,
                 continueReadingText: 'Endelea kusoma',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/ken/sw/' 
@@ -221,8 +222,8 @@ module.exports = {
                 sidebar: [
                     '/ken/sw/about/',
                     {
-                        title: 'Tafsiri',   // required
-                        path: '/ken/sw/translations/',      // optional, which should be a absolute path.
+                        text: 'Tafsiri',   // required
+                        link: '/ken/sw/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -239,19 +240,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
-                        path: '/ken/sw/books/',
+                        text: 'Books',   // required
+                        link: '/ken/sw/books/',
                         children: [
                             '/ken/sw/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/ken/sw/tools/'
+                        text: 'Tools',
+                        link: '/ken/sw/tools/'
                     },
                     {
-                        title: 'Translation Projects',   // required
-                        path: '/ken/sw/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/ken/sw/open-source-translation-projects/',
                         children: [
                             '/ken/sw/transifex/bitcoin-core/',
                             '/ken/sw/transifex/btcpayserver/'
@@ -262,6 +263,7 @@ module.exports = {
             },
             '/zaf/zu/': {
                 selectText: '🇿🇦 Izilimi',
+                selectLanguageName: '🇿🇦 IsiZulu',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'IsiZulu',
                 ariaLabel: 'Izilimi',
@@ -269,7 +271,7 @@ module.exports = {
                 editLinkText: "Thuthukisa Ukuhumusha",
                 continueReading: true,
                 continueReadingText: 'Qhubeka ufunde',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/zaf/zu/' 
@@ -282,8 +284,8 @@ module.exports = {
                 sidebar: [
                     '/zaf/zu/about/',
                     {
-                        title: 'Ukuhumusha',   // required
-                        path: '/zaf/zu/translations/',      // optional, which should be a absolute path.
+                        text: 'Ukuhumusha',   // required
+                        link: '/zaf/zu/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -298,19 +300,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Izincwadi',   // required
-                        path: '/zaf/zu/books/',
+                        text: 'Izincwadi',   // required
+                        link: '/zaf/zu/books/',
                         children: [
                             '/zaf/zu/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/zaf/zu/tools/'
+                        text: 'Tools',
+                        link: '/zaf/zu/tools/'
                     },
                     {
-                        title: 'Amaphrojekthi weTransifex',   // required
-                        path: '/zaf/zu/open-source-translation-projects/',
+                        text: 'Amaphrojekthi weTransifex',   // required
+                        link: '/zaf/zu/open-source-translation-projects/',
                         children: [
                             '/zaf/zu/transifex/bitcoin-core/',
                             '/zaf/zu/transifex/btcpayserver/'
@@ -321,6 +323,7 @@ module.exports = {
             },
             '/zaf/st/': {
                 selectText: '🇿🇦 maleme',
+                selectLanguageName: '🇿🇦 Sesotho',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'Sesotho',
                 ariaLabel: 'Maleme',
@@ -328,7 +331,7 @@ module.exports = {
                 editLinkText: "Ntlafatsa phetolelo!",
                 continueReading: true,
                 continueReadingText: 'Tsoela Pele ho Bala',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/zaf/st/' 
@@ -341,8 +344,8 @@ module.exports = {
                 sidebar: [
                     '/zaf/st/about/',
                     {
-                        title: 'Fetolela',   // required
-                        path: '/zaf/st/translations/',      // optional, which should be a absolute path.
+                        text: 'Fetolela',   // required
+                        link: '/zaf/st/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -357,19 +360,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
-                        path: '/zaf/st/books/',
+                        text: 'Books',   // required
+                        link: '/zaf/st/books/',
                         children: [
                             '/zaf/st/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/zaf/st/tools/'
+                        text: 'Tools',
+                        link: '/zaf/st/tools/'
                     },
                     {
-                        title: 'Translation Projects',   // required
-                        path: '/zaf/st/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/zaf/st/open-source-translation-projects/',
                         children: [
                             '/zaf/st/transifex/bitcoin-core/',
                             '/zaf/st/transifex/btcpayserver/'
@@ -380,6 +383,7 @@ module.exports = {
             },
             '/zaf/ve/': {
                 selectText: '🇿🇦 Languages',
+                selectLanguageName: '🇿🇦 Tshivenda',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'IsiVenda',
                 ariaLabel: 'Languages',
@@ -387,7 +391,7 @@ module.exports = {
                 editLinkText: "Improve Translation!",
                 continueReading: true,
                 continueReadingText: 'Continue Reading',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/zaf/ve/' 
@@ -400,8 +404,8 @@ module.exports = {
                 sidebar: [
                     '/zaf/ve/about/',
                     {
-                        title: 'Translations',   // required
-                        path: '/zaf/ve/translations/',      // optional, which should be a absolute path.
+                        text: 'Translations',   // required
+                        link: '/zaf/ve/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -416,19 +420,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
-                        path: '/zaf/ve/books/',
+                        text: 'Books',   // required
+                        link: '/zaf/ve/books/',
                         children: [
                             '/zaf/ve/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/zaf/ve/tools/'
+                        text: 'Tools',
+                        link: '/zaf/ve/tools/'
                     },
                     {
-                        title: 'Translation Projects',   // required
-                        path: '/zaf/ve/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/zaf/ve/open-source-translation-projects/',
                         children: [
                             '/zaf/ve/transifex/bitcoin-core/',
                             '/zaf/ve/transifex/btcpayserver/'
@@ -439,6 +443,7 @@ module.exports = {
             },
             '/zaf/nr/': {
                 selectText: '🇿🇦 Izilimi',
+                selectLanguageName: '🇿🇦 Isindebele',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
                 label: 'Isindebele',
                 ariaLabel: 'Izilimi',
@@ -446,7 +451,7 @@ module.exports = {
                 editLinkText: "Improve Translation!",
                 continueReading: true,
                 continueReadingText: 'Continue Reading',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/zaf/nr/' 
@@ -459,8 +464,8 @@ module.exports = {
                 sidebar: [
                     '/zaf/nr/about/',
                     {
-                        title: 'Translations',   // required
-                        path: '/zaf/nr/translations/',      // optional, which should be a absolute path.
+                        text: 'Translations',   // required
+                        link: '/zaf/nr/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -475,19 +480,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
-                        path: '/zaf/nr/books/',
+                        text: 'Books',   // required
+                        link: '/zaf/nr/books/',
                         children: [
                             '/zaf/nr/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/zaf/nr/tools/'
+                        text: 'Tools',
+                        link: '/zaf/nr/tools/'
                     },
                     {
-                        title: 'Translation Projects',   // required
-                        path: '/zaf/nr/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/zaf/nr/open-source-translation-projects/',
                         children: [
                             '/zaf/nr/transifex/bitcoin-core/',
                             '/zaf/nr/transifex/btcpayserver/'
@@ -498,6 +503,7 @@ module.exports = {
             },
             '/nam/ng/': {
                 selectText: '🇳🇦 Languages',
+                selectLanguageName: '🇳🇦 Oshiwambo',
                 freelyAvailableTranslationsText: '🇳🇦 Freely Available Translations',
                 label: 'Oshiwambo',
                 ariaLabel: 'Languages',
@@ -505,7 +511,7 @@ module.exports = {
                 editLinkText: "Toloka xwepo!",
                 continueReading: true,
                 continueReadingText: 'Continue Reading',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/nam/ng/' 
@@ -518,8 +524,8 @@ module.exports = {
                 sidebar: [
                     '/nam/ng/about/',
                     {
-                        title: 'Translations',   // required
-                        path: '/nam/ng/translations/',      // optional, which should be a absolute path.
+                        text: 'Translations',   // required
+                        link: '/nam/ng/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -534,19 +540,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
-                        path: '/nam/ng/books/',
+                        text: 'Books',   // required
+                        link: '/nam/ng/books/',
                         children: [
                             '/nam/ng/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/nam/ng/tools/'
+                        text: 'Tools',
+                        link: '/nam/ng/tools/'
                     },
                     {
-                        title: 'Translation Projects',   // required
-                        path: '/nam/ng/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/nam/ng/open-source-translation-projects/',
                         children: [
                             '/nam/ng/transifex/bitcoin-core/',
                             '/nam/ng/transifex/btcpayserver/'
@@ -557,6 +563,7 @@ module.exports = {
             },
             '/nam/naq/': {
                 selectText: '🇳🇦 Languages',
+                selectLanguageName: '🇳🇦 Khoekhoegowab',
                 freelyAvailableTranslationsText: '🇳🇦 Freely Available Translations',
                 label: 'Khoekhoegowab',
                 ariaLabel: 'Languages',
@@ -564,7 +571,7 @@ module.exports = {
                 editLinkText: "Improve Content!",
                 continueReading: true,
                 continueReadingText: 'Continue Reading',
-                nav: [
+                navbar: [
                     { 
                         text: 'Home', 
                         link: '/nam/naq/' 
@@ -577,8 +584,8 @@ module.exports = {
                 sidebar: [
                     '/nam/ng/about/',
                     {
-                        title: 'Translations',   // required
-                        path: '/nam/naq/translations/',      // optional, which should be a absolute path.
+                        text: 'Translations',   // required
+                        link: '/nam/naq/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
@@ -593,19 +600,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Books',   // required
-                        path: '/nam/naq/books/',
+                        text: 'Books',   // required
+                        link: '/nam/naq/books/',
                         children: [
                             '/nam/naq/books/layered-money/'
                         ]
                     },
                     {
-                        title: 'Tools',
-                        path: '/nam/naq/tools/'
+                        text: 'Tools',
+                        link: '/nam/naq/tools/'
                     },
                     {
-                        title: 'Translation Projects',   // required
-                        path: '/nam/naq/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/nam/naq/open-source-translation-projects/',
                         children: [
                             '/nam/naq/transifex/bitcoin-core/',
                             '/nam/naq/transifex/btcpayserver/'

@@ -57,13 +57,13 @@ Ngaphambi kokuqala isaga semali egqinsiwe, kungcono ukunikeza umfundi isibonelo 
 
 Ake sihumushe lesi sitatimende ngokusebenzisa amathemu agqinsiwe. Imali yesendlalelo sokuqala, uhlamvu lwegolide, ibanjelwe egumbini elingaphansi. Imali yesendlalelo sesibili, isitifiketi segolide, iyaphrintwa futhi isatshalaliswe esikhundleni semali yegolide. Leli phepha linenani kunoma ngubani ophethe ucezu lwalo iphepha, obizwa ngokuthi umphathi. Kokubili uhlamvu lwemali nesitifiketi kuyizindlela zemali, kepha ngokwehluka ngokwezinga kuzo. Lobu budlelwano obuphakathi kwezendlalelo ezimbili zemali (Umdwebo 2) kungenye indlela yokuchaza ibhalansi lezimpahla nezikweletu (Umdwebo 1).
 
+![](./svg/01-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/01-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 1</figcaption>
 </figure>
 
+![](./svg/02-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/02-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 2</figcaption>
 </figure>
 
@@ -143,13 +143,13 @@ Ngekhulu leshumi nanhlanu lweminyaka, uhlelo lwezezimali lwamazwe omhlaba ekugci
 
 Ake siqale ukuchaza ngokusemthethweni imali ngokwezigaba. Ukukhumbula isibonelo sohlamvu lwemali lwegolide kanye nesitifiketi segolide esivela Kwisingeniso, ake sibheke isibonelo esivela ku-_Renaissance Florence_ kanye nokubhanga kobukhosi obudumile baseMedici. Siqala le ndlela enezigaba ngokucabanga ngomehluko phakathi kohlamvu lwegolide nocezu lwephepha oluthi, &quot;Umndeni wasebhange lakwaMedici uzokhokha uhlamvu olulodwa lwegolide kulowo ophethe lapho edingeka.&quot; Uhlamvu lwemali lwegolide luyisigaba sokuqala kanye nesimo sokukhokha kokugcina. Ucezu lwephepha lukhona kuphela ngenxa yegolide eliyimele; kuyimali yesigaba sesibili, eyenziwe njengesikweletu kubhalansi lomunye umuntu. Zonke izimali zesigaba sesibili zingama-IOU (_I-owe-you_) noma zithembisa ukukhokha imali yesigaba sokuqala. Bonke banokuthile okubizwa ngokuthi yi-_counterparty risk_, noma ubungozi obuza nokubamba isithembiso esenziwe nguzakwabo. Ubungozi bokuphikisana kungumqondo obalulekile kwisayensi yezimali, ikakhulukazi ngoba zonke izinhlobo zemali ohlelweni lwezezimali lwanamuhla zinezinga elithile. Ukuthembela kuzakwethu kuyadingeka ukuze uhlelo lwethu lwezezimali lusebenze, uma kungenjalo sonke besizosebenzisa izinhlamvu zegolide nezesiliva kukho konke ukuthengiselana okukodwa. Izigaba zemali zaba khona ngenxa yokuthi abantu bathembela izinhlobo zemali ezazithwala ubungozi bomunye okhipha imali. Ziyindlela yokukhombisa ukuthi okokusebenza kwemali kuhlobene kanjani ngokuya ngobudlelwano obuphakathi kwamashidi ebhalansi ezikhungo zezezimali. Bheka Imidwebo 3 no-4, asibonisa kahle isibonelo seSandulela semali ngezigaba.
 
+![](./svg/03-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/03-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 3</figcaption>
 </figure>
 
+![](./svg/04-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/04-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 4</figcaption>
 </figure>
 
@@ -193,8 +193,8 @@ Uthenga ibhili kumbhange namuhla nge $98 engashintshelwa ku-$100 ngenyanga. Ukwe
 
 Ucezu lokugcina lwephazili empumelelweni yase-Antwerp yokwethula imakethe yemali yesimanje kwaba ukusungulwa kwamanothi ezethembiso. Amanothi ezethembiso aletha indilinga egcwele ekuguqulweni kwemakethe yemali kusuka njalo ngekota yonyaka kuya esimweni esiqhubekayo. E-_Bourse_, ukuze kukhokhwe noma yimaphi amabhalansi asele ekupheleni kosuku, amabhange akhipha enye indlela yesikweletu, imali entsha yesigaba sesibili ebizwa ngamanothi wesethembiso noma amanothi (_promissory notes_ or _note_). Lawa manothi ayeyizethembiso zokukhokhela lowo ophethe, okusho ukuthi noma ngubani ophethe ucezu lwephepha kwakufanele athembiswe. Lokhu bekungabanduleli ngqo kulokho esikubheka njengokheshi wamaphepha namuhla, amanothi emali. Bakuyinto ezange yabonwa; izinhlobo zangaphambilini zemali yesigaba sesibili zihlala zinamagama abantu kuzo. Amanothi, njengokheshi namuhla, abekhululekile ngokuphelele kulokhu kwakhiwa. Zasetshenziswa njengethuluzi lokuhlala kepha zaguqukela endimeni yazo engokwemvelo njengokheshi futhi zaba wusizo olukhulu njengezindlela zokushintshana. Umdwebo 5 ukhombisa izigaba zemali e-Antwerp phakathi nekhulu leshumi nesithupha leminyaka.
 
+![](./svg/05-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/05-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 5</figcaption>
 </figure>
 
@@ -222,8 +222,8 @@ Isidingo sehlelo leBoA lakhula lisuka eYurophu ngenkathi i-Amsterdam iphakamisa 
 
 Ohlelweni lweBhange lase-Amsterdam lwalungakaqukethi ukukhokhelwa kwezimali nje kuphela. Ukuhlola okusondele kusikisela ukuthi i-VOC yazibeka phezulu kwephiramidi lemali ukuze ikhiphe amandla nezinsizakusebenza. Kungekudala ngemuva kokusungulwa kwayo, iBhange lase-Amsterdam laboleka i-VOC imali futhi lahlukanisa izimalimboleko njengezimpahla kubhalansi lazo, inqubo ejwayelekile yokubalwa kwezimali yokungena kabili. I-BoA yanikela i-VOC ngamadiphozithi, empeleni yakha imali futhi yayikhipha kumbolekisi welungelo. Lezi zimali mboleko zifike eceleni kwezinhlamvu zegolide nezesiliva kusigaba sokuqala semali. Ukufanelwa kokubolekwa kwe-VOC kwakulingana nensimbi eyigugu uqobo. Imali edalwe kusigaba sesibili ibigodliwe kancane ngoba impahla yayo yesigaba sokuqala ibiyimboleko ku-VOC esikhundleni sensimbi eyigugu efakwe eBhange lase-Amsterdam. Ku-Mdwebo 6, bheka iphiramidi yemali ngaphansi komthelela weBhange le-Amsterdam, eveza imali ebolekwe ku-VOC kusigaba sokuqala semali. Lesi bekuyisikhathi esibucayi sokuthuthuka kwemali ngokwezibaba; ngokokuqala ngqa, izinsimbi eziyigugu zazingezodwa phezu kwephiramidi lemali.
 
+![](./svg/06-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/06-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 6</figcaption>
 </figure>
 
@@ -248,8 +248,8 @@ Upondo kube yinhlangano yemali yaseNgilandi kusukela ngo-1158 ngenkathi iNkosi u
 
 Nanoma isiliva zange lisatshenziswa eNgilandi ngemuva nje kokushintshwa kukaNewton, kwathatha isikhathi esingaphezu kwekhulu leminyaka ukuthola izinga eligcwele lwe-_gold standard_, lapho iphawundi lalinganiswa negolide kuphela, ukuba ngumthetho. Izinga legolide laseNgilandi laduma emhlabeni wonke futhi ekugcineni ladonsela yonke imali yezwe elikhulu emkhakheni ofanayo. Umdwebo 7 ukhombisa ukutolikwa ngokwezigaba kwezinga legolide lomhlaba jikelele ekuqaleni kwekhulu lamashumi amabili lweminyaka.
 
+![](./svg/07-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/07-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 7</figcaption>
 </figure>
 
@@ -257,13 +257,13 @@ Nanoma isiliva zange lisatshenziswa eNgilandi ngemuva nje kokushintshwa kukaNewt
 
 Kuze kube manje, sihlolisise kabanzi ubudlelwano phakathi kwesigaba semali sokuqala nesesibili nabantu bezezimali abangene phakathi kwabo, kepha manje kufanele sengeze esinye isigaba esinye sethu sokuqonda amasistimu emali. Amabhili wokushintshana, avela ezibonelweni zangaphambili zamaphiramidi emali, kwakuyizinsimbi zemali zesigaba sesibili ezazizuthembiso zokukhokha igolide lesigaba sokuqala. Ngesikhathi seBhange laseNgilandi, noma kunjalo, amabhili kwakuyizethembiso zokungakhokhi igolide kepha ukukhokha amaphawundi ngakho-ke wawekhona kusigaba sesithathu semali. Kule ncwadi sizosebenzisa igama elithi &quot;umkhakha ozimele&quot; (_private sector_) ukuchaza amabhange, amabhizinisi, kanye nosomabhizinisi okuyizinhlangano ezingekho ngaphansi kukahulumeni. Ku-Mdwebo 8, sibona izinkampani ezizimele zikhipha izethembiso zokukhokha imali yesigaba sesibili, ziyibeka esigabeni esodwa ngezansi kweBhange laseNgilandi esigabeni samashidi. Izikweletu zomkhakha ozimele ngakho-ke zikhona kusigaba sesithathu semali. Ku-Mdwebo 9, ukumelwa kwamashidi ebhalansi wendabuko kufakiwe ukukuqondisa kumodeli entsha enezigaba ezintathu. Imali yesigaba sesithathu ayikhonjelwe ekuhlukunyezweni okuningi kunemali yesigaba sesibili, kodwa empeleni ikude kakhulu nokuphepha kwempahla engenabalingani efana nezinhlamvu zemali zegolide. Isibonelo, uma owesifazane waseNgilandi esaba ukuthi ibhange lakhe lisengozini engokwezimali futhi afune izinhlamvu zemali zegolide esikhundleni samadiphosithi wamabhange angaphansi kwesigaba sesithathu, uzodinga ukuthengiselana okubili. Kuzofanele aguqule amadiphozithi akhe abe ngamanothi we-BoE ngaphambi kokuguqula lawo manothi abe yigolide. Uma enamaphepha we-BoE wesigaba sesibili, wayezosebenza kanye kuphela ukuthola izinhlamvu zemali zegolide ayezifuna.
 
+![](./svg/08-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/08-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 8</figcaption>
 </figure>
 
+![](./svg/09-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/09-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 9</figcaption>
 </figure>
 
@@ -347,8 +347,8 @@ Ekuqaleni, i-Federal Reserve yayingalawuli noma ihlose ukuba noMninimafa wase-U.
 
 Inqubo yokwakha iphothifoliyo enkulu yesikweletu sikahulumeni wase-U.S. yaba nomthelela omkhulu kwiphiramidi ye-dola. Umgcinimafa wse-US wajoyina igolide kusigaba sokuqala semali ngenxa yokwakheka kwempahla entsha ye-Fed: ekupheleni kweMpi Yezwe Yokuthoma (_World War 1_) ngo-1918, isilinganiso se-Fed sokumboza igolide sehle sisuka kuma-84% saya ngaphansi kuka-40%, njengoba ngaphezulu kwengxenye yezimpahla zeFed manje zase zigcinwe kwizibopho zikahulumeni wase-US. Kwakuyisibonakaliso sokuqala sokuthi uMgcinimafa wase-U.S. ekugcineni wayezogcina esethathe indawo yegolide ngokuphelele njengempahla yesigaba sokuqala kuphela. Umdwebo we-10 ukhombisa iphiramidi enezigaba ezinthathu zamadola ngemuva kweminyaka embalwa kudaliwe iFed.
 
+![](./svg/10-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/10-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 10</figcaption>
 </figure>
 
@@ -380,8 +380,8 @@ Ngo-1944, abaholi bomhlaba babuthana ehhotela eBretton Woods, eNew Hampshire fut
 
 Isivumelwano silethe umehluko obalulekile ebudlelwaneni phakathi kwezigaba zemali. Izimali zakwamanye amazwe zazisohlwini lwesithathu lwemali, kulokhu hhayi ngenxa yebhalansi lapho bevela khona, kepha ngenxa yobudlelwano babo bamanani namadola. KuMdwebo 11, sikhombisa i-USD kusigaba ngaphezu kwezinye zezimali ezifana ne-GBP (iPondo Ye-Britain) ne-CHF (_Swiss franc_). Ipondo ne-_franc_ zingaphansi kwedola kwizigaba zemali ngoba intengo yazo ilinganiswa ngamadola. Lokhu kusho ukuthi ukuya phambili, kukhona ubudlelwano obubili obukhona phakathi kwezinsimbi zemali ngaphakathi kohlaka olwehlisiwe: isigaba sabaphathi beshidi lokulinganisa kanye nokulandelana kwamanani entengo.
 
+![](./svg/11-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/11-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 11</figcaption>
 </figure>
 
@@ -407,8 +407,8 @@ Kwakudingeka amadola ngaphandle kwe-United States ukuze abambe iqhaza emnothweni
 
 Idola lase ligxile kakhulu njengohlelo lomnotho womhlaba: imiphongolo kawoyela yayithengiswa ngamadola, izivumelwano zokuhweba zashaywa ngamadola, futhi ezilinganisweni zamabhange zomhlaba wonke zafakwa ngamadola. Ngenxa yokufika kwe-Eurodollar, iphiramidi yemali yedola yashintsha. Njengoba iFed ingakwazi ukubona kahle, ukuxilonga, noma ukulawula umhlaba wamabhange aphesheya kanye nama-Eurodollars, akucaci ukuthi ama-Eurodollars ayisiphi isigaba semali. Ingabe beziwuhlobo lwemali lwesigaba sesithathu ngaphansi kwamanothi e-Federal Reserve? Ingabe beyiyimali yesigaba sesibili ngaphansi kwanoma yiziphi izibopho zikahulumeni kanye nezinsimbi ezahlukahlukene zesikweletu umkhiphi (issuer) anazo? Noma beyiyiphiramidi entsha, exhunywe kuleyo ekhona yedola? Le mibuzo ibingeke iphendulwe ngokugcwele kuze kube yinkinga enkulu yezezimali ka-2007-2009. Ku-Mdwebo 12, sikhombisa uhlelo lwe-Eurodollar olunophawu lombuzo ngaphezulu kwepiramidi ukukhombisa ukungacaci kwemali emabhange aphesheya akhipha i-USD.
 
+![](./svg/12-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/12-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 12</figcaption>
 </figure>
 
@@ -452,8 +452,8 @@ I-Money Market Fund yaduma kakhulu ngeminyaka yama-1970 kanye nokukhula kokunike
 
 Izabelo zeMoney Market Fund, ngokuya ngokwakhiwa ngqo kwezinsimbi zemali, zaba yizinhlobo zemali zesigaba sesibili nesesithathu zona ngokwazo. Isidingo samasheya e-MMF saqhubeka njengoba avumela indlela elula yokuthola ukuxubana kwezinsimbi zemali ekuphepheni okukodwa. Imali eyengeziwe ebanjwe abaphathi bezotshalomali evela emhlabeni wonke ishanele izimali njalo ntambama kumaMMFs ebezizothenga izinsimbi zemali. Lokhu kuguqule ikheshi lomhlaba laba yimali yokuphila ezinkampanini zamazwe aqala ukuthembela kakhulu ekuxhasweni ngemali kwephepha lokuhweba ngemisebenzi yazo. Uma, ngesizathu esinye, abanikazi bemali benquma ukuthengisa amasheya e-MMF ngamathuluzi emali anezinga eliphakeme, amabhange kanye nezinkampani ezithembele ekufuneni njalo kwezibopho zazo zesikhathi esifushane zingabhekana nenkinga yokwehluleka kwemali. Ngakho-ke, impumelelo yeZikhwama Zemakethe Yezimali nayo yaletha ubucayi obukhulu ohlelweni lwezezimali. Umdwebo we-13 ukhombisa ukuthi iphiramidi yamadola ibukeka kanjani ngenkathi siqonde ekhulwini lama-21 leminyaka nokuthi amasheya eMMF aba kanjani yindlela evelele yemali yokuthengisa. Kunamiphiramidi amabili, eyodwa ukumela uhlelo lwedola laseMelika enye ukumela uhlelo lwedola laseMelika langaphesheya.^[Uhlelo lwedola oluzemazweni angaphesheya lubandakanya wonke amabhange angaphandle kwe-United States nangaphandle kwegunya lohlelo lweFederal Reserve, hhayi lawa aseYurophu kuphela.] ^[Ku-Mdwebo 13, ama-Yurodola asezingeni eliphakeme afaka okokusebenza kwemali okukhishwa ohlelweni lwedola olusemazweni angaphesheya njengama-Yurodola, Izitifiketi Zediphozithi, kanye nePhepha Lezentengiso.]
 
+![](./svg/13-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/13-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 13</figcaption>
 </figure>
 
@@ -622,8 +622,8 @@ Kumele siqaphele ukuthi ngokwethulwa kwabagcini abakhulu be-BTC, amakhasimende a
 
 Manje sekunezinhlobonhlobo eziningi zezinhlobo zemali zesigaba sesibili se-BTC. Amanye amathuluzi afana nokuhlelwa kwezezimali kohlelo lwendabuko lwezezimali lwanamuhla, njengamadiphozi. Ezinye zisha futhi zinokwenzeka kuphela selokhu kwaqala iBitcoin. Izibonelo zokuqala ze-BTC yesigaba sesibili kwakungamadiphozithi akhishwe ukuhwebelana kwe-BTC / USD ku-Inthanethi, njengoba kukhonjisiwe ku-Mdwebo 14.
 
+![](./svg/14-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/14-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 14</figcaption>
 </figure>
 
@@ -665,8 +665,8 @@ Eqinisweni, i-Bitcoin ayifani nesiga se-_tulip_ yeDashi. Ama-_Bubbles_ awaqhumi 
 
 Ukudlondlobala kokuxhaswa kwandulele intengo ye-BTC / USD efinyelela phezulu ngaso sonke isikhathi ekuqaleni kuka-2021 njengoba inani eliphelele lemakethe lidlue i-$600 billion. Lokho okwake kwaba ithokheni yedijithali enamathiselwe kwihlelo lekhopyutha olubiza imali engaphansi kwepeni ngo-2010 isibe yizimpahla ezingama-$34,000 kuphela eminyakeni eyishumi kamuva. Ukuhweba nge-_Papa John&#39;s pizza_ okungama-$ 25 okudumile ngabe kubiza u- $340 million ngosuku lokuzalwa lwe-Bitcoin lweshumi nambili, uJanuwari 3, 2021. Umdwebo 15 ukhombisa ukukhuphuka kwesimo kumanani esewonke emakethe ye-BTC kusukela ngo-2010.
 
+![](./svg/15-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/15-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 15</figcaption>
 </figure>
 
@@ -712,8 +712,8 @@ Ngo-2016, lapho i-CME imemezela izinhlelo zokushicilela idatha yamanani eBitcoin
 
 Njengoba ukwamukelwa kweBitcoin emhlabeni jikelele njengemali futhi njengoba kuqhubeka isimo sengqondo semali, isigaba sesibili seBitcoin siqhakaza ngezethembiso ezahlukahlukene ezenzelwe i-BTC, amanye ama-cryptocurrency, kanye nezihlamvu zemali ezizinzile. Umdwebo 16 ukhombisa ukuthi iBitcoin iphezulu kwephiramidi yayo yemali entsha futhi engajwayelekile, enezimali ezithile zesigaba sesibili ezisuselwa kumashidi wokulinganisela kanti ezinye zivela ebudlelwaneni bamanani.
 
+![](./svg/16-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/16-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 16</figcaption>
 </figure>
 
@@ -773,8 +773,8 @@ Usihlalo wamanje weFederal Reserve uJerome Powell ukhulume neFedcoin engaba khon
 
 Noma zingekho izinhlelo zikakhonkolo ezikhona zeFedcoin, iFederal Reserve ngokusobala isendleleni yokuyakha ngesikhathi esifanele, uma kungenjalo ngenxa yempumelelo eqhubekayo yeBitcoin, ngenxa yokwazi okungazelelwe ukuthi kungaba yibhange elikhulu lokugcina emhlabeni ukukhipha eyodwa. IFed, ngokuya ngezinkomba ezivela eChina naseYurophu, isivele izofika sekwedlule isikhathi eqenjini le-CBDC. Akunakwenzeka ukuthi ukhiphe i-CBDC yokuthengisa engasetshenziswa umphakathi njengendlela yamanothi edijithali ngaso leso sikhathi; esikhundleni salokho, kuzodala ukuthi kube nohlobo lwezinqolobame lasebhange ledijithali ukuze kuvivinywe ubuchwepheshe ngaphambi kokugcina kwethulwe iFedcoin ebheke esidlangalaleni. Umdwebo 17 ukhombisa ukuthi iFedcoin ingaba kanjani yimali yesigaba sesibili eceleni kwezinqolobane nokheshi.
 
+![](./svg/17-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/17-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 17</figcaption>
 </figure>
 
@@ -786,8 +786,8 @@ Ithisisi eliyisisekelo lale ncwadi ukuthi i-BTC izoma yodwa kuhla lwemali lokuqa
 
 I-Bitcoin iyinqaba ngoba iyachuma ekuphazamisweni kwemali emhlabeni wonke ngaphakathi kwephiramidi yedola futhi iyakwazi ukumelana nezinsongo, ukunyundelwa, kanye nomthetho ovela ezinhlanganweni ezihlukumezayo. Iqiniso elisobala ngeBitcoin ukuthi akekho oyilawulayo. Ibe yimali yedijithali yokuqala ukungabi nohulumeni, etholakala emhlabeni wonke. Futhi ngalezi zizathu, zonke izimali ezisendaweni eyidijithali zizobhekana nokutholakala kwentengo ngokwemigomo ye-BTC. Lokhu kusho ukuthi zonke izimali zedijithali, kusuka kuma-_cryptocurrency_ kuya kuma-CBDC, zizolinganiswa nge-BTC, njengesivumelwano seBretton Woods ngo-1944 eyalela zonke izimali ukuthi zilinganiswe nge-USD. Umdwebo we-18 ucacisa ikusasa lapho i-BTC iyimali yenqolobane yomhlaba kanye nemali eyodwa yesigaba sokuqala.
 
+![](./svg/18-Pyramid-graphics-FIN.svg)
 <figure>
-  <img src='./svg/18-Pyramid-graphics-FIN.svg'>
   <figcaption>Umdwebo 18</figcaption>
 </figure>
 
