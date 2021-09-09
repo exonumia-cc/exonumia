@@ -17,12 +17,11 @@ module.exports = {
     ],
     dest: 'dist',
     plugins: {
-        'check-md': {
-
-        },
-        'sitemap': {
-            hostname: 'https://exonumia.africa'
-        }
+        // 'check-md': {
+        // },
+        // 'sitemap': {
+        //     hostname: 'https://exonumia.africa'
+        // }
     },
     locales: {
         '/': {

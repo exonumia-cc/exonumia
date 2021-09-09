@@ -4,8 +4,10 @@
   "description": "The landing page for native African language speaker looking to learn about Bitcoin.",
   "main": "exonumia.cc.js",
   "scripts": {
-    "docs:dev": "vuepress check-md docs && vuepress dev docs",
-    "docs:build": "vuepress check-md docs && NODE_ENV=production vuepress build docs"
+    "docs:dev-md": "vuepress check-md docs && vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build-md": "vuepress check-md docs && NODE_ENV=production vuepress build docs",
+    "docs:build": "NODE_ENV=production vuepress build docs"
   },
   "repository": {
     "type": "git",
