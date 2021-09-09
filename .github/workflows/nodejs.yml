@@ -31,6 +31,6 @@ jobs:
         target_branch: master
         build_dir: dist
         repo: exonumia-cc/exonumia-cc.github.io
-        fqdn: exonumia.cc
+        fqdn: exonumia.africa
       env:
         GITHUB_PAT: ${{ secrets.DEPLOYMENT_TOKEN }}
