@@ -1,4 +1,35 @@
+const customTags = [
+    'LanguageDropdown',
+    'TranslatedBookList',
+    'TranslatedContentList',
+    'math',
+    'mtable',
+    'mtr',
+    'mtd',
+    'mstyle',
+    'mi',
+    'mo',
+    'mtext',
+    'msub',
+    'mrow',
+    'mn',
+    'mspace',
+    'msup',
+    'mfrac',
+    'munderover'
+]
+
 module.exports = {
+    bundler: '@vuepress/webpack',
+	bundlerConfig: {
+		vue: {
+			compilerOptions: {
+				isCustomElement: tag => {
+					return customTags.includes(tag)
+				}
+			}
+		}
+	},
     extendsMarkdown: md => {
         // use more markdown-it plugins!
         md.use(require('markdown-it-footnote'))
