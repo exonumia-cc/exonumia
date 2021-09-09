@@ -22,8 +22,6 @@
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
     "markdown-it-footnote": "^3.0.3",
-    "vuepress": "^2.0.0-beta.25",
-    "vuepress-plugin-check-md": "0.0.2",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "vuepress": "^2.0.0-beta.25"
   }
 }
