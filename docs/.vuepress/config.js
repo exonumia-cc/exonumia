@@ -41,6 +41,14 @@ module.exports = {
         ['link', { rel: 'icon', href: '/exonumia-logo.png' }]
     ],
     dest: 'dist',
+    plugins: [
+        [
+          '@vuepress/plugin-google-analytics',
+          {
+            id: 'G-GDFND36NLP',
+          },
+        ],
+    ],
     // plugins: {
     //     // 'check-md': {
     //     // },
