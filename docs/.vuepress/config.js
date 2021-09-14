@@ -1,7 +1,6 @@
+const { path } = require('@vuepress/utils')
+
 const customTags = [
-    'LanguageDropdown',
-    'TranslatedBookList',
-    'TranslatedContentList',
     'math',
     'mtable',
     'mtr',
@@ -47,6 +46,12 @@ module.exports = {
           {
             id: 'G-NY2PV8B0BG',
           },
+        ],
+        [
+            '@vuepress/register-components',
+            {
+                componentsDir: path.resolve(__dirname, './components'),
+            },
         ],
     ],
     // plugins: {

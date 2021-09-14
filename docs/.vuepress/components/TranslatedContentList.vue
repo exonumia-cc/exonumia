@@ -1,78 +1,148 @@
 <template>
-    <div
-      class="content-list">
-        <SidebarLinks
-            :depth="0"
-            :items="sidebarItems"
-        />
-    </div>
+    <ul class="sidebar-links">
+        <SidebarChild
+            v-for="item in sidebarItems"
+            :key="item.link || item.text"
+            :item="item"
+            />
+    </ul>
 </template>
 
-<script>
-import SidebarLinks from '@theme/components/SidebarLinks.vue'
-import { resolveSidebarItems } from '@parent-theme/util'
-
-export default {
-    name: 'TranslatedContentList',
-
-    components: { SidebarLinks },
-
-    computed: {
-      sidebarItems () {
-        const sidebarItems = resolveSidebarItems(
-          this.$page,
-          this.$page.regularPath,
-          this.$site,
-          this.$localePath
-        )
-
-        sidebarItems.forEach(sidebarItem => {
-          if (sidebarItem.type === "group") {
-            sidebarItem.collapsable = false
-            sidebarItem.sidebarDepth = 0
-          }
-        });
-
-        return sidebarItems.filter(sidebarItem => sidebarItem.path.includes("translations"))
-      },
-    }
-}
+<script setup lang="ts">
+import { useSidebarItems } from '@vuepress/theme-default/lib/client/composables'
+import { SidebarChild } from '@vuepress/theme-default/lib/client/components/SidebarChild'
+const sidebarItems = useSidebarItems().value.filter(sidebarItem => sidebarItem.link?.includes("/translations/") == true)
 </script>
 
-<style lang="stylus">
-.content-list
-  ul
-    padding 0
-    margin 0
-    list-style-type none
-  a
-    display inline-block
-  .nav-links
-    display none
-    border-bottom 1px solid $borderColor
-    padding 0.5rem 0 0.75rem 0
-    a
-      font-weight 600
-    .nav-item, .repo-link
-      display block
-      line-height 1.25rem
-      font-size 1.1em
-      padding 0.5rem 0 0.5rem 1.5rem
-  & > .sidebar-links
-    padding 1.5rem 0
-    & > li > a.sidebar-link
-      font-size 1.1em
-      line-height 1.7
-      font-weight bold
-    & > li:not(:first-child)
-      margin-top .75rem
+<style lang="sass">
+@import '@vuepress/theme-default/lib/client/styles/_variables';
 
-@media (max-width: $MQMobile)
-  .sidebar
-    .nav-links
-      display block
-      .dropdown-wrapper .nav-dropdown .dropdown-item a.router-link-active::after
-        top calc(1rem - 2px)
-    & > .sidebar-links
-      padding 1rem 0
+.sidebar {
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  .navbar-links {
+    display: none;
+    border-bottom: 1px solid var(--c-border);
+    transition: border-color var(--t-color);
+    padding: 0.5rem 0 0.75rem 0;
+
+    a {
+      font-weight: 600;
+    }
+
+    .navbar-links-item {
+      display: block;
+      line-height: 1.25rem;
+      font-size: 1.1em;
+      padding: 0.5rem 0 0.5rem 1.5rem;
+    }
+  }
+
+  .sidebar-links {
+    padding: 1.5rem 0;
+
+    > li:not(:first-child) {
+      margin-top: 0.75rem;
+    }
+
+    .sidebar-sub-items {
+      padding-left: 1rem;
+      font-size: 0.95em;
+    }
+  }
+}
+
+@media (max-width: $MQMobile) {
+  .sidebar {
+    .navbar-links {
+      display: block;
+
+      .dropdown-wrapper
+        .nav-dropdown
+        .dropdown-item
+        a.router-link-active::after {
+        top: calc(1rem - 2px);
+      }
+    }
+
+    .sidebar-links {
+      padding: 1rem 0;
+    }
+  }
+}
+
+.sidebar-heading {
+  color: var(--c-text);
+  transition: color 0.15s ease;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 0.35rem 1.5rem 0.35rem 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border-left: 0.25rem solid transparent;
+
+  .arrow {
+    position: relative;
+    top: -0.12em;
+    left: 0.5em;
+  }
+}
+
+.sidebar-item:not(.sidebar-heading) {
+  font-size: 1em;
+  font-weight: 400;
+  display: inline-block;
+  color: var(--c-text);
+  border-left: 0.25rem solid transparent;
+  margin: 0;
+  padding: 0.35rem 1rem 0.35rem 2rem;
+  line-height: 1.4;
+  width: 100%;
+  box-sizing: border-box;
+
+  .sidebar-links > &:not(:first-child) {
+    margin-top: 0.75rem;
+  }
+
+  .sidebar-sub-items & {
+    padding: 0.25rem 1rem 0.25rem 1.75rem;
+  }
+}
+
+.sidebar-item {
+  cursor: default;
+}
+
+a.sidebar-item {
+  cursor: pointer;
+
+  &:hover {
+    color: var(--c-text-accent);
+  }
+
+  &.active {
+    font-weight: 600;
+    color: var(--c-text-accent);
+    border-left-color: var(--c-text-accent);
+  }
+
+  &.sidebar-heading.active {
+    font-weight: bold;
+    border-left-color: transparent;
+  }
+
+  .sidebar-sub-items &.active {
+    font-weight: 500;
+    border-left-color: transparent;
+  }
+}
 </style>
