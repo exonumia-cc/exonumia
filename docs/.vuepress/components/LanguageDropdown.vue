@@ -2,7 +2,7 @@
   <!-- user links -->
   <div class="nav-links">
     <div
-      class="navbar-links-item"
+      class="navbar-links-item lang-item"
       v-for="item in navbarLinks"
       :key="item.text"
     >
@@ -17,6 +17,14 @@
     </div>
   </nav> -->
 </template>
+
+<style lang="sass">
+  .lang-item .dropdown-wrapper .nav-dropdown {
+    list-style: none;
+    top: auto;
+    right: auto;
+  }
+</style>
 
 <script setup lang="ts">
 import { useRouteLocale, useSiteLocaleData } from '@vuepress/client'
