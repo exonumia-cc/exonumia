@@ -20,4 +20,4 @@ A: **Hakuna anayejua.**
 
 
 Q: Je! Ninajifunzaje zaidi?  
-A: **Tuna [utajiri wa yaliyomo hapa](/ken/sw/translations).** Au unaweza kutembelea [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **Tuna [utajiri wa yaliyomo hapa](/ken/sw/translations/).** Au unaweza kutembelea [lopp.net](https://www.lopp.net/bitcoin-information.html)

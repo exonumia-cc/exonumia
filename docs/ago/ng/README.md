@@ -20,4 +20,4 @@ A: **Kapena ngu eshi tseya.**
 
 
 Q: Ondina okwiilonga ngiini oshindji (kombinga yo Bitcoin)?  
-A: **We have a [wealth of content here](/ago/ng/translations).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **We have a [wealth of content here](/ago/ng/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)

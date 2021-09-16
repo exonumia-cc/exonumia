@@ -20,4 +20,4 @@ A: **Khoe-i xare-i tsîn a /ū.**
 
 
 Q: Mati ta !nâsases nes #namipe a //khā//khāsen //khā?  
-A: **[Nepa ta ge !khusib !khō#gaba ūhâ tamas ka](/nam/naq/translations) io nepa sari re [lopp.net](https://www.lopp.net/bitcoin-information.html)**
+A: **[Nepa ta ge !khusib !khō#gaba ūhâ tamas ka](/nam/naq/translations/) io nepa sari re [lopp.net](https://www.lopp.net/bitcoin-information.html)**

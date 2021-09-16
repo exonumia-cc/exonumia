@@ -20,4 +20,4 @@ A: **Akekho owaziko.**
 
 
 Q: Ngifunda njani ngokwandileko?  
-A: **[Sinelwazi elinengi lapha.](/zaf/nr/translations).** Nofana ungavakatjhela ku [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **[Sinelwazi elinengi lapha.](/zaf/nr/translations/).** Nofana ungavakatjhela ku [lopp.net](https://www.lopp.net/bitcoin-information.html)

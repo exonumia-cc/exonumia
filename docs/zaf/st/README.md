@@ -20,4 +20,4 @@ A: **Ha ho na motho ea tsebang.**
 
 
 Q: Nka ithuta ho feta joang?  
-A: **Re na le [leruo la litaba tsa mona](/zaf/st/translations).** Kapa o ka etela [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **Re na le [leruo la litaba tsa mona](/zaf/st/translations/).** Kapa o ka etela [lopp.net](https://www.lopp.net/bitcoin-information.html)
