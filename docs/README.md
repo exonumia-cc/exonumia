@@ -1,6 +1,7 @@
 ---
 navbar: false
 sidebar: false
+contributors: false
 ---
 
 # Exonumia
@@ -34,3 +35,15 @@ sidebar: false
 ---
 
 [English](/int/en/)
+
+---
+
+<center v-pre>
+
+### The Exonumia Project is partially supported by:
+
+![](./bitmex-logo.png)
+<figure>
+  <figcaption><a href="https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/">BitMEX</a></figcaption>
+</figure>
+</center>
