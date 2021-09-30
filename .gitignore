@@ -80,3 +80,4 @@ typings/
 /dist/
 .temp
 .cache
+.DS_Store
