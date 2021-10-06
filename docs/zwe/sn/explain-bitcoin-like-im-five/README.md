@@ -1,108 +1,110 @@
-# Explain Bitcoin Like I’m Five
+# Ngano ye Bitcoin kumwana ane makore mashanu
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+na Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Kana usati wakuziva kuti Bitcoin chii…
 
-We’re sitting on a park bench. It’s a great day.
+Chimboisa mupfungwa kuti takagara pachigaro mupark. Izuva rakanaka kwazvo.
 
-I have one apple with me. I give it to you.
+Ndakabta apuro rimwe muruoko.Ndakupa apuro randange ndakabata.
 
-You now have one apple and I have zero.
+Iwe wane apuro rimwe, inini ndasara ndisina chinhu.
 
-That was simple, right?
+Wazvinzwisisa here?
 
-### Let’s look closely at what happened:
 
-My apple was physically put into your hand.
+### Ngaticherechedze zvaitika:
 
-You know it happened. I was there. You were there. You touched it.
+Apuro iri ndatambidzwa muruoko.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Unoziva kuti zvaitika. Ndanga ndiripo.Iwewe wangauripowo. Waribata ukaritambira.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Panga pasina mumwe munhu anotibatsira kutambidzana apuro riya. Panga pasina sekuru kana maiguru (hapana chizivano) vagara nesu vakatiudza kuti apuro riya rabva kwandiri rikatambidzwa iwewe. 
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Apuro raarako! Handichakwanise kukupa rimwe nokuti inini handisisina apuro. Handisisina masimba pamusoro peapuro iroro. Apuro iri raarako zvichireva kuti  inini handisisina masimba pamusoro peapuro iri. Iwewe ndiwe wane masimba ese pamusoro peapuro iroro.
 
-But I’m getting ahead of myself.
+Unokwanisa kupa shamwari yako apuro iri kana uchida. Wakukwanisa kupa shamwari yako apuro iri, shamwari yako inokwanisa kupawo shamwari yayo.
 
-### Back to apples!
+Zvinouyerera zvichidaro shamwari dzichingopanana.
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Dudziro yekupanana inoratidza kupanana kunogona kuitika pakati pevanhu. Kupanana uku kwakangofanana nekupanana kunoitwa kana riri banana, bhuku remari, bond kana dollar…
 
-Ah! Now it gets interesting.
+Asi rega ndisanyanyo enda mberi!
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+### Ngatidzokere kumaapuro aye!
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Ngatiti ndine digital apuro rimwe.Ndakukupa digital apuro rimwe iroro.
+Ya! Zvakunakidza ka izvo.
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Ndoziva sei kuti digital apuro ranga riri rangu rarako?
+Chimbozvifunga zvekanguva kadiki?
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Zvakunetsa zvakare ka? Unoziva sei kuti handina kutumira digital apuro kuna sekuru kana maiguru vaye pa tsamba yemumhepo? Kana kuti kuna sahwira wako Joe? Kana kuti shamwari yako Lisa?
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Pamwe ndakopa madigital apuro mashoma pacomputer yangu.Pamwe ndaisa mumhepo vanhu gumi nefararira chatotora kubva ipapo pamhepo.
 
-Until now.
+Izvi zvinoratidza kuti kutumirana pamhepo kunoti netsei. Kutumira madigitial apuro kunoti netsei pane kupanana  maapuro mumaoko.
 
-But let’s try to think of a solution on our own.
+Dzimwe nyanzvi dze computer science dzine zita rekunetsa kwekutumira madigital apuro aya: kushandisa kaviri.Usanetsekana nazvo. Chako ndechekuziva kuti zvavanetsa nguva refu asi havasati vawana mhinduro panyaya iyoyo.
 
-### Ledgers
+### Mabhuku remari emari
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Pamwe madigital apuro aya anofanirwa kucherechedzwa mubhuku remari. Iri ibhuku remari raunonyora mashandisirwo emadigital apuro aya.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Bhuku remari iri zvariri digital rinofanira kugara kumwewo kune munhu anorichengetedza.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Pamwe, kunge World of Warcraft. Blizzard, vanhu vakaita mutambo wepamhepo uyu, vane “bhuku remari riri digital” pane zvese zviwanikwa zvemunharaunda yavo. Uye vanhu vakadaro vanokawnisa kuchengetdza mabhuku remari emadigital apuro aya. Ndizvozvo – pane mhinduro!
 
-### Problems
+### Zvinonetsa
 
-There’s a bit of a problem though:
+Pane chinonetsa apa:
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) Ko munhu wekuBlizzard akagadzira mamwe? Anokwanisa kungopamidzira madigital apuro kuhomwe yake paanodira!
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) Zvakusiyana nezuva ratakange takagara pachigaro mupark paye. Paye mupark paingova newe neni. Kushandisa Blizzard kwakangofanana nekushandisa sekuru kana maiguru vaye(munhu wechitatu anozikanwa) pakupanana kwese kwatinoita tiri mupark. 
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Zvino ndichakupa sei digital apuro riya sezvatinosiita kana tiri pamwe chete?
 
-### The Solution
+### Mhinduro yacho
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Ko tikapa bhuku remari iri – ku vanhu vese? Pane kuti bhuku remari iri richengetwe pacomputer yekuBlizzard. Torichengetera pamacoputer evanhu vese. Kutengeserana nekutenga kwese kwemadigital apuro kwakaitika nguva yese iyi kuchachengeterwa ipapo.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Haukwanise kuitsotsa. Handikwanise kukutumira madigital apuro andisina, nokuti hazvizoringana nevanhu vese varikushandisa bhuku remari riri pamacomputer avo. Zvinonetsa kutsotsa  bhuku remari iri kana zvadai. Kunyanya kana bhuku remari rawandirwa nevanhu.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Izvi zvinoreva kuti bhuku remari harichachengetwa nemunhu mumwe, uye zvakureva kuti hapana munhu anokwanisa kuzvipamidzira madigital apuro anopfurikidza arimo mubhuku remari. Mirairo wekushandisa bhuku remari iri waiswa kare. Mirairo yacho inowanikwa pese pamhepo. Vanhu vaneruzivo vanokwanisa kupamidzira, kuchengetedza nekucherechedza.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Iwewe unokwanisa kuva vamwe vevanhu vanoshandisa bhuku remari iri woongorora kuti zviri kuringana here. Kana wakwanisa kubatsira mashandisiro ebhuku remari iri ukabudirira unkwanisa kupihwa muripo we ma apuro makumi maviri neshanu. Iyi ndoyega nzira yekupamidzira ma apuro anotuyerwa kuvapo mubhuku remari.
 
-### I simplified quite a bit
+### Ndanyanyozviita kuti zvinzwisisike
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… asi bhuku remari randataura nezvaro ririko. Rinonzi mirairo yeBitcoin. Madigital apuro aya ndo ma “bitcoins” munhauranda iyi. Zvakarongeka ka!
 
-So, did you see what happened? What does the public ledger enable?
+Uye, waona zvaitika ka?Bhuku remari revanhu rinobatsirei?
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) Uchiri kurangarira kuti bhuku remari rinoshandiswa ne chero munhu anoda? Huwandu hwe maapuro aya akatonyorwa mubhuku remari pakutanga kwazvo. Ndinoziva huwandu hwemaapuro aya. Imomo munharaunda yacho. Ndinoziva kuti anosvika pai(haana kuwandisa)
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) Pandino chinjana newe ndozviziva kuti zviri pamirairo ipi nekuti iwe ndiwe wamuridzi wemadigital apuro andinenge ndakupa. Paiva nenguva yandaisakwanisa kudaro pazvinhu zviri digital. Zvicharatidzwa pacomputer yangu zvichibva zvaiswa mubhuku remari.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) Sezvo bhuku remari riri revanhu panga pasingadiwi munhu anotarisa kuti handina kuita hutsotsi kana kuti ndazvitumira madigital apuro akawanda.
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+    Munharaunda umu, kuchinjana kwe madigital apuro kwangofanana nekutambidzana kwe maapuro muruoko. Zvinongoda vanhu vaviri sevambopanana mupark. Panga pasingadi munhu wechitatu anenge sekuru kana maiguru vanoita kuti zvive zviri pamutemo.
 
-In other words, it behaves like a physical object.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Digital apuro yakungofanana ne apuro rinodyiwa navanhu.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Unoziva kuti zvakanakirei? Iri riri digital. Takukwanisa kuva ne mazana makumi(1000) kana kuti 1000 000 maapuro, kana 0.000001 apuro. Ndinokwanisa kutumira nekungodzvinya button ndichiisa muhomwe yako iri digital kunyangwe ndiri ku Nicaragua iwe uri ku New York.
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Ndinokwanisa kuwedzera zvimwe zvinhu pamusoro pe digital apuro !Sezvo riri digital. Pamwe ndinoisa katsamba karidigital. Zvimwe ndokwanisa kuisa tsamba ye wirirano, kana bepa re zvipfuwo, kana bepa rekuzvarwa kwangu…
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Zvakanaka izvi! Tinoisa huremu hwe madigital apuro aya sei?Anobatsira ka aya?
 
-I have my own opinion about it.
+Vanhu vakawanda varikuita makakatanwa pamusoro pawo. Pane zvikoro zvemashandisiro epfuma arikutoita makakatanwa pamusoro pawo. Kunogoti vatongi venyika, maprogrammer. Musanyanyovateerera. Vamwe vane ruzivo, vamwe havana ruzivo. Vamwe vanoti nharaunda iyi ine hupfumi vamwe vachiti nharaunda iyi haina kana mari zvachose. Mumwe ndiye akati apuro rimwe rionoita $ 1 300pa apuro rimwe. Vamwe ndovanoti idigital goridhe, vamwe vachiti imari. Vamwe vanoti zvakafanana ne matulips. Vamwe vanoti zvichashandura nyika, vamwe vachiti kutambisirana nguva ndezvenhando.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Ini ndine mafungiro anguwo.
+
+Inyaya yeimwe nguva. Asi iyezvino wane ruzivo runopfurikidza vazhinji.
 
 #### Recommend Reading (Updated 2017)
 

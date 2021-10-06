@@ -1,68 +1,40 @@
-# Bitcoin v0.1 released
+# Bitcoin v0.1 yakabuda
 
-by Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
+na Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
 
 <LanguageDropdown/>
 
-Announcing the first release of Bitcoin, a new electronic cash
-system that uses a peer-to-peer network to prevent double-spending.
-It's completely decentralized with no server or central authority.
+Pakataurwa zvekubuda kwe Bitcoin yekutanga, electronic cash system yekutanga yaishandisa peer-to peer network(shamwari ku shamawari) kuitira kuti kutenga kana kutengesa kaviri kusavapo. System iyi iri decentralized, hakuna ma server kana vatongi vanoona nezvemabitcoin(central authority).
 
 
-See bitcoin.org for screenshots.
+Enda ku bitcoin.org kuti uone mascreenshots.
 
 Download link:
 http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-Windows only for now.  Open source C++ code is included.
+Windows chete panguva ino. Vhura source C++ code iripo.
 
-- Unpack the files into a directory
+- Vhura mafaira aya mudirectory
 - Run BITCOIN.EXE
-- It automatically connects to other nodes
+- Inobva yaenda kune mamwe manodes
 
-If you can keep a node running that accepts incoming connections,
-you'll really be helping the network a lot.  Port 8333 on your
-firewall needs to be open to receive incoming connections.
+Kana uchikwanisa kurunner node inobvumira ma connections arikuuya, unenge wabatsira network zvikuru. Port 8333 iri pa firewall inoda kuvhurwa kuti iwane maconnections arikuuya.
 
-The software is still alpha and experimental.  There's no guarantee
-the system's state won't have to be restarted at some point if it
-becomes necessary, although I've done everything I can to build in
-extensibility and versioning.
+Software ichiri alpha and experimental. Hapana chatingavimba nacho kuti  system state haitange pakare kana zvirizvo zvichada kuitwa, asi ndaita zvese zvandokwanisa muextensibility neversioning.
 
-You can get coins by getting someone to send you some, or turn on
-Options->Generate Coins to run a node and generate blocks.  I made
-the proof-of-work difficulty ridiculously easy to start with, so
-for a little while in the beginning a typical PC will be able to
-generate coins in just a few hours.  It'll get a lot harder when
-competition makes the automatic adjustment drive up the difficulty.
-Generated coins must wait 120 blocks to mature before they can be
-spent.
+Unokwanisa kuwana macoins kana wakawana anokutumira, kana kuti unoenda ku Options->Generate Coins ku runner node nekugenerator mablocks. Chekutanga ndaita proof-of-work kuti inge yakapusa, zvekuti kwekanguva kadiki pakutanga PC ipi ne ipi inokkwanisa kugenerator macoins zvemaawa mashoma. Zvichazotanga kunetsa kana vanokwikwidza vaita automatic adjustment drive vaita kuti zvichitanga kunetsa. Magenerated coins anofanira kumira 120 blocks kuti asvike pankushandiswa.
 
-There are two ways to send money.  If the recipient is online, you
-can enter their IP address and it will connect, get a new public
-key and send the transaction with comments.  If the recipient is
-not online, it is possible to send to their Bitcoin address, which
-is a hash of their public key that they give you.  They'll receive
-the transaction the next time they connect and get the block it's
-in.  This method has the disadvantage that no comment information
-is sent, and a bit of privacy may be lost if the address is used
-multiple times, but it is a useful alternative if both users can't
-be online at the same time or the recipient can't receive incoming
-connections.
+Pane nzira mbiri dzekutumira mari. Kana arikutumirwa ari pamhepo (online), anokwanisa kuisa IP address obva aconnector, anowana public key itsva ozotumira transaction ine macomments. Kana arikutmirwa asipo pamhepo, unokwanisa kutumira kuBitcoin addres yake, iri chidimbu(hash) chepublic key yaanenge akupa. Awatumira anoona transaction paano connector owana block yairi. Nzira yekutumira munhu asiri pamhepo yakashatira kuti hapana comment inotumirwa, uye kuchengetedzwa kwezvatumirwa kunoita kuchiderera kana akaramba achitumira neaddress iyoyo, asi yakanakira kuti unokwanisa kutumira munhu asingakwanise kuvapo pamhepo paunotumira.
 
-Total circulation will be 21,000,000 coins.  It'll be distributed
-to network nodes when they make blocks, with the amount cut in half
-every 4 years.
+Macoins arimo musystem anenge ari 21 000 000, ichatumirwa kuma network nodes kana ave mablocks, huwandu uyu uchadimburwa nepakati pese panopfura makore mana.
 
-first 4 years: 10,500,000 coins
-next 4 years: 5,250,000 coins
-next 4 years: 2,625,000 coins
-next 4 years: 1,312,500 coins
-etc...
+Makore mana ekutanga(first 4 years): 10 500 000 coins
+makore mana anotevera: 5 250 000 coins
+makore mana anozotevera: 2 625 000 coins
+makore mana anozotevera: 1 312 500 coins
+nezvimwewo...
 
-When that runs out, the system can support transaction fees if
-needed.  It's based on open market competition, and there will
-probably always be nodes willing to process transactions for free.
+Kana zvisisipo, system inokwanisa kubhadhara transaction fees kana zvichidiwa. Izvi zvinoitwa ne open market competition, uye kuchave ne manodes anoita matransactions mahara.
 
 Satoshi Nakamoto
 

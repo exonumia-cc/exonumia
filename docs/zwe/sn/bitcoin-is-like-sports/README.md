@@ -1,30 +1,30 @@
-# Bitcoin Is Like Sports
+# Bitcoin Yakafanana neMitambo
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+na @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Ndanenguva yakareba ndichi tsanangura mashandiro e#bitcoin nekuti iri decentralized ndichishandisa mitambo kubatsira tsanangudzo iyi. Zvinobatsira kupindura mibvunzo inowanzo bvunzwa:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Q: Ndiani akagadzira mutambo webaseball?  
+A: Hazvina basa. Munhu anoda kutamba anongotamba. Hazvina basa kuti munhu akagadzira mutambo webaseball anozoda kuchinja mitemo yekutamba kana kuti achazozvipa mapoints kana zvimwe zvinhu. Hatina basa nekuti anofungei nemutambo wedu isusu.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Q: Ndiani anotonga mutambo weBitcoin?  
+A: Hakuna anotonga mutambo weBitcoin, takangoti tichautambawo. Tese tinoziva mitemo weBitcoin ,tese tinoona kuti vanhu varikuteedzera mitemo, uye kana munhu achida kubirira, tinomubvisa mumutambo wedu. Kana munhu akazvipa mapoints aasina kuwana tinenge tisisina basa naye.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Q: Toziva sei kuti mitemo hauchinje?  
+A: Tese takabvuma mitemo yakaiswa patakatanga kutamba, uye kana pane vanoda kuramba vachitamba vanoteedzera mitemo iyoyo, asi kana pane anoda kuchinja, vanofanira kuenda kunotamba kumwe.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Q: Hakuna anokwanisa kuba mutambo uyu?  
+A: Zvese zviri pachena. Tese tinokwanisa kuona nhandare nemagoho. Kana paine arikubirira, tinozviona tomuudza kuti abude mumutambo uyu.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Q: Sei zviine chiremera?  
+A: Tese takada kutamba, saka zvine basa kwatiri. Kana paine arikuda kutamba, anofanira kubvumirana nemapoints ne huwandu huripo.
 
-I value it, so it has value. Value is subjective.
+Chine basa kwandiri, saka chanebasa. Huremu unosiyana pavanhu.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+Q: Hazvizobviswa here nevakuru kana vane masimba?  
+A: Pamwe, asi mutambo unotambwa ne chimuti ne bhora, asi hapana arikurova mumwe, saka hurumende inokwanisa kuti musatambe, asi haigone kubvisa mutambo webaseball saka unoramba uchitambwa kune dzimwe nyika.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Q: Ndotambawo?  
+A: Ita zvaunoda. Ini ndiri kunakidzwa nemutambo webaseball uyu, unokwanisa kuutamba kana kusatamba.
