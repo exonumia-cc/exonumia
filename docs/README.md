@@ -34,6 +34,12 @@ contributors: false
 
 ---
 
+**[🇿🇼 Zimbabwe](/zwe/)**
+
+[Shona](/zwe/sn/)  
+
+---
+
 [English](/int/en/)
 
 ---
