@@ -26,7 +26,7 @@ jobs:
         CI: true
     - name: Deploy to Github Pages
       if: success()
-      uses: crazy-max/ghaction-github-pages@v1
+      uses: exonumia-cc/ghaction-github-pages@v1
       with:
         target_branch: master
         build_dir: dist
