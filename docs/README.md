@@ -12,16 +12,16 @@ contributors: false
 
 ---
 
+**[🇰🇪 Kenya](/ken/)**
+
+[Kiswahili](/ken/sw/)
+
+---
+
 **[🇳🇦 Namibia](/nam/)**
 
 [Oshiwambo](/nam/ng/)   
 [Khoekhoegowab](/nam/naq/)
-
----
-
-**[🇰🇪 Kenya](/ken/)**
-
-[Kiswahili](/ken/sw/)
 
 ---
 
