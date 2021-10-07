@@ -118,6 +118,7 @@ module.exports = {
         },
     },
     themeConfig: {
+        contributors: false,
         repo: 'https://github.com/exonumia-cc/exonumia',
         repoLabel: 'Open Source',
         editLinks: true,
