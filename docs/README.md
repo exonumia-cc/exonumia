@@ -12,16 +12,16 @@ contributors: false
 
 ---
 
+**[🇰🇪 Kenya](/ken/)**
+
+[Kiswahili](/ken/sw/)
+
+---
+
 **[🇳🇦 Namibia](/nam/)**
 
 [Oshiwambo](/nam/ng/)   
 [Khoekhoegowab](/nam/naq/)
-
----
-
-**[🇰🇪 Kenya](/ken/)**
-
-[Kiswahili](/ken/sw/)
 
 ---
 
@@ -31,6 +31,12 @@ contributors: false
 [Sesotho](/zaf/st/)  
 [IsiNdebele](/zaf/nr/)  
 [TshiVenda](/zaf/ve/)  
+
+---
+
+**[🇿🇼 Zimbabwe](/zwe/)**
+
+[Shona](/zwe/sn/)  
 
 ---
 
