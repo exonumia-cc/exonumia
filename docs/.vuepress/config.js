@@ -75,6 +75,16 @@ module.exports = {
             group: '🇦🇴 Angola',
             title: 'Exonumia'
         },
+        '/cod/ln/': {
+            lang: 'ln-CD',
+            group: '🇨🇩 Democratic Republic of the Congo',
+            title: 'Exonumia'
+        },
+        '/cog/ln/': {
+            lang: 'ln-CG',
+            group: '🇨🇬 Republic of the Congo',
+            title: 'Exonumia'
+        },
         '/ken/sw/': {
             lang: 'sw',
             group: '🇰🇪 Kenya',
@@ -248,6 +258,124 @@ module.exports = {
                         ]
                     },
                     '/ago/ng/contribution-guide/'
+                ],
+            },
+            '/cod/ln/': {
+                selectText: '🇨🇩 Languages',
+                selectLanguageName: '🇨🇩 Lingala',
+                freelyAvailableTranslationsText: '🇨🇩 Freely Available Translations',
+                label: 'Lingala',
+                ariaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/cod/ln/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/cod/ln/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/cod/ln/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/cod/ln/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/cod/ln/',
+                            '/cod/ln/explain-bitcoin-like-im-five/',
+                            '/cod/ln/bitcoin-is-like/',
+                            '/cod/ln/bitcoin-is-like-sports/',
+                            '/cod/ln/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/cod/ln/museum/bitcoin-v0.1-released/',
+                            '/cod/ln/museum/re-bitcoin-v0.1-released/',
+                            '/cod/ln/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/cod/ln/books/',
+                        children: [
+                            '/cod/ln/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/cod/ln/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/cod/ln/open-source-translation-projects/',
+                        children: [
+                            '/cod/ln/transifex/bitcoin-core/',
+                            '/cod/ln/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/cod/ln/contribution-guide/'
+                ],
+            },
+            '/cog/ln/': {
+                selectText: '🇨🇬 Languages',
+                selectLanguageName: '🇨🇬 Lingala',
+                freelyAvailableTranslationsText: '🇨🇬 Freely Available Translations',
+                label: 'Lingala',
+                ariaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/cog/ln/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/cog/ln/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/cog/ln/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/cog/ln/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/cog/ln/',
+                            '/cog/ln/explain-bitcoin-like-im-five/',
+                            '/cog/ln/bitcoin-is-like/',
+                            '/cog/ln/bitcoin-is-like-sports/',
+                            '/cog/ln/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/cog/ln/museum/bitcoin-v0.1-released/',
+                            '/cog/ln/museum/re-bitcoin-v0.1-released/',
+                            '/cog/ln/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/cog/ln/books/',
+                        children: [
+                            '/cog/ln/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/cog/ln/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/cog/ln/open-source-translation-projects/',
+                        children: [
+                            '/cog/ln/transifex/bitcoin-core/',
+                            '/cog/ln/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/cog/ln/contribution-guide/'
                 ],
             },
             '/ken/sw/': {

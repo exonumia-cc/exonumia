@@ -12,6 +12,18 @@ contributors: false
 
 ---
 
+**[🇨🇩 Democratic Republic of the Congo](/cod/)**
+
+[Lingala](/cod/ln/)
+
+---
+
+**[🇨🇬 Republic of the Congo](/cog/)**
+
+[Lingala](/cog/ln/)
+
+---
+
 **[🇰🇪 Kenya](/ken/)**
 
 [Kiswahili](/ken/sw/)
