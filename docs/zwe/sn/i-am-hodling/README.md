@@ -1,19 +1,19 @@
-# I AM HODLING
+# Ndichachengeta mabitcoin angu (I AM HODLING)
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+na GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Ndakanyora musoro wenyaya kaviri nokuti ndaiziva kuti ndainge ndanyora zvisirizvo pekutanga pacho. Ndizvo zvazvichiri.
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+Vasikana vari kubhawa, BTC irikudonha UYE NDAICHENGETEREI? NDICHAKUUDZAI.
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+Ini handigone zvetrading uye ndozviziva kuti handitogone. Ehe imimi vanogona kutrader munokwanisa kuona mitengo pauchakwira nepauchadzika pit pat piffy wing wong wang zvichidaro moita million bucks zvako hako wangu.  
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Ko isu vasingazive zvetrading totanga kunetsekana tichiti mitengo yakudzika ndichatengesa he he he woona vanoziva zvirikuitika vachitenga futi? Inini handisi umwe wevanoziva zvetrading. Panotenga matraders ndinenge ndatone mabitcoin, uye mukutsotsa ani, KWETE INI~!  
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Mathreads amunozotumira pamhepo makutipa yambiro muchiti “OHH MAIFANIRA KUTENGESA” NDAIFANIRA KUTENGESA KUTENGESA VANHU VASATI VATENGESA KANA KUTENGA ASI MOZVIZIVA KUTI HAASI WESE ANGAZIVE ZVAMUNOZIVA.  
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Unokwanisa kutengesa mubear market kana uchigona zvekutrader.Vamwe vese vari pakati nepakati vanongochengeta.  
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Mumutambo wezero-sum seuyu, matraders anogona kungotora mari yako kana wakatengesa.

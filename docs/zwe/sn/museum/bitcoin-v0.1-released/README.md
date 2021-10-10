@@ -6,7 +6,6 @@ na Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/http
 
 Pakataurwa zvekubuda kwe Bitcoin yekutanga, electronic cash system yekutanga yaishandisa peer-to peer network(shamwari ku shamawari) kuitira kuti kutenga kana kutengesa kaviri kusavapo. System iyi iri decentralized, hakuna ma server kana vatongi vanoona nezvemabitcoin(central authority).
 
-
 Enda ku bitcoin.org kuti uone mascreenshots.
 
 Download link:
@@ -22,7 +21,7 @@ Kana uchikwanisa kurunner node inobvumira ma connections arikuuya, unenge wabats
 
 Software ichiri alpha and experimental. Hapana chatingavimba nacho kuti  system state haitange pakare kana zvirizvo zvichada kuitwa, asi ndaita zvese zvandokwanisa muextensibility neversioning.
 
-Unokwanisa kuwana macoins kana wakawana anokutumira, kana kuti unoenda ku Options->Generate Coins ku runner node nekugenerator mablocks. Chekutanga ndaita proof-of-work kuti inge yakapusa, zvekuti kwekanguva kadiki pakutanga PC ipi ne ipi inokkwanisa kugenerator macoins zvemaawa mashoma. Zvichazotanga kunetsa kana vanokwikwidza vaita automatic adjustment drive vaita kuti zvichitanga kunetsa. Magenerated coins anofanira kumira 120 blocks kuti asvike pankushandiswa.
+Unokwanisa kuwana macoins kana wakawana anokutumira, kana kuti unoenda ku Options->Generate Coins ku runner node nekugenerator mablocks. Chekutanga ndaita proof-of-work kuti inge yakapusa, zvekuti kwekanguva kadiki pakutanga PC ipi ne ipi inokwanisa kugenerator macoins zvemaawa mashoma. Zvichazotanga kunetsa kana vanokwikwidza vaita  automatic adjustment drive vaita kuti zvichitanga kunetsa. Magenerated coins anofanira kumira 120 blocks kuti asvike pakushandiswa.
 
 Pane nzira mbiri dzekutumira mari. Kana arikutumirwa ari pamhepo (online), anokwanisa kuisa IP address obva aconnector, anowana public key itsva ozotumira transaction ine macomments. Kana arikutmirwa asipo pamhepo, unokwanisa kutumira kuBitcoin addres yake, iri chidimbu(hash) chepublic key yaanenge akupa. Awatumira anoona transaction paano connector owana block yairi. Nzira yekutumira munhu asiri pamhepo yakashatira kuti hapana comment inotumirwa, uye kuchengetedzwa kwezvatumirwa kunoita kuchiderera kana akaramba achitumira neaddress iyoyo, asi yakanakira kuti unokwanisa kutumira munhu asingakwanise kuvapo pamhepo paunotumira.
 

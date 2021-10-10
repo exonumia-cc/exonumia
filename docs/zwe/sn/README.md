@@ -9,7 +9,7 @@ na Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 Q: Ndiani andingavimba naye?  
 A: **Hakuna munhu aungavimba naye.**
 
-Q: Ndeipi nguva yakanaka kutengesa Bitcoin??  
+Q: Ndeipi nguva yakanaka kutengesa Bitcoin?  
 A: **Usatengese chero zvadi.**
 
 Q: Bitcoin ichanyangadika here ____?  
