@@ -1,55 +1,52 @@
-# Re: Bitcoin v0.1 released
+# Mayelana: Bitcoin v0.1 ikhishiwe 
 
-by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
+ngo Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
-Satoshi Nakamoto writes:
+U-Satoshi Nakamoto ubhala athi:
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
->
-> See bitcoin.org for screenshots.
->
-> Download link:
-> http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
+> Kumemezelwa ukukhishwa kokuqala kwe-Bitcoin, uhlelo olusha lwemali ye-
+> elekthronikhi olusebenzisa inethiwekhi yontanga ukuvimbela ukusetshenziswa 
+> kwemali kabili. Lizimele (uhlelo) ngokuphelele, alinaseva noma igunya elikhulu. 
+> Vakashela iwebhusayithi bitcoin.org ukubona izithombe. 
+> Thola i-Bitcoin v0.1 ku: http://downloads.sourceforge.net/bitcoin/bitcoin-
+> 0.1.0.rar 
 
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
+Halala kuSatoshi ngalokhu kukhishwa kokuqala (kwehlelo le-Bitcoin). Ngilangazelele 
+ukulizama lolu hlelo.
 
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
->
-> first 4 years: 10,500,000 coins
-> next 4 years: 5,250,000 coins
-> next 4 years: 2,625,000 coins
-> next 4 years: 1,312,500 coins
-> etc...
+> Ukusakazwa okuphelele kuzoba izinhlamvu zemali ezingama-21,000,000. 
+> Izosatshalaliswa kuma-nodi wenethiwekhi lapho enza amabhlogo, inani lisikwe 
+> phakathi nengxenye njalo eminyakeni emine. 
+> iminyaka emine yokuqala: izinhlamvu zemali eziyizi-10 500,000 eminyakeni 
+> emine ezayo: izinhlamvu zemali eziyizi-5 250,000 eminyakeni emine ezayo: 
+> Izinhlamvu zemali ezingama-2,625,000 eminyakeni emine ezayo: izinhlamvu 
+> zemali eziyi-1,312,500, njalo njalo. 
 
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
+Kuyaheha ukuthi uhlelo lungenziwa ukuthi livumele kuphela inani elithile eliphezulu 
+le-zemali ezake zakhiwe. Ngicabanga ukuthi umqondo ukuthi inani lomsebenzi 
+elidingekayo ukukhiqiza uhlamvu lwemali olusha luyoba nzima kakhulu njengoba 
+isikhathi siqhubeka.
 
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
+Inkinga eyodwa esheshayo nganoma ngiliphi ihlelo lwemali olutsha ukuthi ungalikala 
+kanjani. Ngisho nokuziba inkinga ebonakalayo yokuthi akekho noyedwa 
+ozoyamukela ekuqaleni, kusenobunzima bokuza nempikiswano ezwakalayo 
+ngokuvumelana nenani elithile lwezinhlamvu zemali.
 
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
+Njengokuzivocavoca kwengqondo, cabanga ngamehlo engqondo ukuthi i-Bitcoin 
+iyaphumelela futhi iba uhlelo lokukhokha olubusayo lusetshenziswa emhlabeni 
+wonke. Ngemuva kwalokho inani eliphelele lemali kufanele lilingane nenani 
+eliphelele lawo wonke umcebo emhlabeni. Izilinganiso zamanje eziphelele zomnotho 
+wasekhaya womhlaba engiyitholile isukela kuzigidigidi ezili-$100 kuya ku-zigidigidi 
+ezi-$300. Ngezinhlamvu zemali eziyizigidi ezingama-20, ezinikeza uhlamvu 
+ngalunye inani elingaba yizigidi ezingama-$10.
 
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Ngakho-ke ithuba lokukhiqiza izinhlamvu zemali namuhla ngamasenti ambalwa 
+lingahle libe ukubheja okuhle, ngenzuzo ethile efana nezigidi ezili-100 kuye ku-1! 
+Noma ngame amathuba okuthi i-Bitcoin iphumelele kulelizinga amancane, kungabe 
+ayizigidi ezi-100 ezibhekane nanye? Cabanga ngayo... 
 
 Hal
 
