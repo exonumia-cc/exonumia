@@ -197,7 +197,8 @@ module.exports = {
                             '/int/en/transifex/btcpayserver/'
                         ]
                     },
-                    '/int/en/contribution-guide/'
+                    '/int/en/contribution-guide/',
+                    '/int/en/contact/'
                 ],
             },
             '/ago/ng/': {
@@ -257,7 +258,8 @@ module.exports = {
                             '/ago/ng/transifex/btcpayserver/'
                         ]
                     },
-                    '/ago/ng/contribution-guide/'
+                    '/ago/ng/contribution-guide/',
+                    '/ago/ng/contact/'
                 ],
             },
             '/cod/ln/': {
@@ -316,7 +318,8 @@ module.exports = {
                             '/cod/ln/transifex/btcpayserver/'
                         ]
                     },
-                    '/cod/ln/contribution-guide/'
+                    '/cod/ln/contribution-guide/',
+                    '/cod/ln/contact/'
                 ],
             },
             '/cog/ln/': {
@@ -375,7 +378,8 @@ module.exports = {
                             '/cog/ln/transifex/btcpayserver/'
                         ]
                     },
-                    '/cog/ln/contribution-guide/'
+                    '/cog/ln/contribution-guide/',
+                    '/cog/ln/contact/'
                 ],
             },
             '/ken/sw/': {
@@ -436,7 +440,8 @@ module.exports = {
                             '/ken/sw/transifex/btcpayserver/'
                         ]
                     },
-                    '/ken/sw/contribution-guide/'
+                    '/ken/sw/contribution-guide/',
+                    '/ken/sw/contact/'
                 ],
             },
             '/nam/ng/': {
@@ -496,7 +501,8 @@ module.exports = {
                             '/nam/ng/transifex/btcpayserver/'
                         ]
                     },
-                    '/nam/ng/contribution-guide/'
+                    '/nam/ng/contribution-guide/',
+                    '/nam/ng/contact/'
                 ],
             },
             '/nam/naq/': {
@@ -556,7 +562,8 @@ module.exports = {
                             '/nam/naq/transifex/btcpayserver/'
                         ]
                     },
-                    '/nam/naq/contribution-guide/'
+                    '/nam/naq/contribution-guide/',
+                    '/nam/naq/contact/'
                 ],
             },
             '/zaf/zu/': {
@@ -616,7 +623,8 @@ module.exports = {
                             '/zaf/zu/transifex/btcpayserver/'
                         ]
                     },
-                    '/zaf/zu/contribution-guide/'
+                    '/zaf/zu/contribution-guide/',
+                    '/zaf/zu/contact/'
                 ],
             },
             '/zaf/st/': {
@@ -676,7 +684,8 @@ module.exports = {
                             '/zaf/st/transifex/btcpayserver/'
                         ]
                     },
-                    '/zaf/st/contribution-guide/'
+                    '/zaf/st/contribution-guide/',
+                    '/zaf/st/contact/'
                 ],
             },
             '/zaf/ve/': {
@@ -736,7 +745,8 @@ module.exports = {
                             '/zaf/ve/transifex/btcpayserver/'
                         ]
                     },
-                    '/zaf/ve/contribution-guide/'
+                    '/zaf/ve/contribution-guide/',
+                    '/zaf/ve/contact/'
                 ],
             },
             '/zaf/nr/': {
@@ -796,7 +806,8 @@ module.exports = {
                             '/zaf/nr/transifex/btcpayserver/'
                         ]
                     },
-                    '/zaf/nr/contribution-guide/'
+                    '/zaf/nr/contribution-guide/',
+                    '/zaf/nr/contact/'
                 ],
             },
             '/zwe/sn/': {
@@ -855,7 +866,8 @@ module.exports = {
                             '/zwe/sn/transifex/btcpayserver/'
                         ]
                     },
-                    '/zwe/sn/contribution-guide/'
+                    '/zwe/sn/contribution-guide/',
+                    '/zwe/sn/contact/'
                 ],
             },
         }
