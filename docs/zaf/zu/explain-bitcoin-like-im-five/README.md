@@ -1,108 +1,116 @@
-# Explain Bitcoin Like I’m Five
+# Chaza i-Bitcoin Ngathi Ngineminyaka Emihlanu
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+ngo Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Uma namanje ungakwazi ukuthola ukuthi yini i-bitcoin...
 
-We’re sitting on a park bench. It’s a great day.
+Sihleli ebhentshini lepaki. Usuku oluhle.
 
-I have one apple with me. I give it to you.
+Ngiphethe i-apula elilodwa. Ngiyakunika.
 
-You now have one apple and I have zero.
+Manje une-apula elilodwa mina anginalutho.
 
-That was simple, right?
+Lokho kwakulula, akunjalo?
 
-### Let’s look closely at what happened:
+### Ake sibhekisise okwenzekile:
 
-My apple was physically put into your hand.
+I-apula lami libekwe esandleni sakho.
 
-You know it happened. I was there. You were there. You touched it.
+Uyazi ukuthi kwenzekile. Bengilapho. Ubukhona. Ulithintile.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Besingadingi umuntu wesithathu lapho ozosisiza ekwenzeni ukudluliswa (kwe- apula). Besingadingi ukubiza umalume Tommy (oyijaji elidumile) ukuthi ahlale nathi ebhentshini futhi aqinisekise ukuthi i-apula lisuke kimi leza kuwe.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Elakho i-apula! Angikwazi ukukunika elinye i-apula ngoba anginalo elisele. Angisakwazi ukulilawula. I-apula lisuke kimi ngokuphelele. Nguwe olawula ngokugcwele lelo apula manje. Ungalinika umngani wakho uma ufuna, bese lowo mngani anganika umngani wakhe. Njalo njalo.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Ngakho-ke kubukeka kanjalo ukushintshana phakathi kwabantu ababili abasendaweni yinye ngalesosikhathi. Ngicabanga ukuthi kuyefana ngempela, noma ngabe ngikunikeza ubhanana, incwadi, noma uthi ikota, noma ibhili yedola....
 
-But I’m getting ahead of myself.
+Kepha sengizihambela mphampili.
 
-### Back to apples!
+### Asibuyele kuma-apula!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Manje yithi, ngine-apula elilodwa ledijithali. Lapha, ngizokunikeza i-apula lami ledijithali.
 
-Ah! Now it gets interesting.
+Ah! Manje kuyaheha.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Wazi kanjani ukuthi lelo apula ledijithali elalikade lingelami, manje selingelakho, futhi ngelakho kuphela?
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Cabanga ngakho umzuzwana.
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Kuyinkimbinkimbi ngokwengeziwe, akunjalo? Wazi kanjani ukuthi angilithumelanga kuMalume uTommy lelo apula nge-imeyili kuqala? Noma umngani wakho uJoe? Noma uLisa umngani wami?
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Mhlawumbe ngenze amakhophi ambalwa alelo apula ledijithali kwikhompyutha yami. Mhlawumbe ngilifake ku i-inthanethi nabantu abayisigidi balidawunilowuda.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Njengoba ubona, lokhu kushintshaniswa kwedijithali kuyinkinga kancane. Ukuthumela ama-apula edijithali akubukeki njengokuthumela ama-apula aphathekayo.
 
-Until now.
+Abanye ososayensi bekhompyutha abakhaliphile empeleni banegama lale nkinga: ibizwa ngokuthi i-inkinga yokusebenzisa imali kabili. Kodwa ungakhathazeki ngakho. Odinga ukukwazi yilokho, ibadide isikhathi eside impela futhi abakaze bayixazulule.
 
-But let’s try to think of a solution on our own.
+Kuze kube manje.
 
-### Ledgers
+Kepha ake sizame ukucabanga isixazululo sisodwa.
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+### Amaleja
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Mhlawumbe la ma-apula edijithali adinga ukulandelwa kwi-leja. Ileja yincwadi lapho ulandelela konke ukuthengiselana – yincwadi yokubalwa kwezimali.
 
-### Problems
+Leli bhuku, njengoba lidijithali, lidinga ukuhlala emhlabeni walo futhi libe nomuntu olilawulayo.
 
-There’s a bit of a problem though:
+Asithi, njenge World of Warcraft. I-Blizzard, abafana abenze umdlalo oku-inthanethi, bane-“Ieja ledijithali” lazo zonke izinkemba zomlilo ezingavamile ezivuthayo ezikhona ohlelweni lwabo. Ngakho-ke, umuntu ofana nabo angalalenda
+ama-apula ethu edijithali. Kuhle - sikuxazulule!
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+### Izinkinga
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+Yize kunenkinga ethile:
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+1. Kuthiwani uma omunye umfana ngale e-Blizzard edale okuningi? Angangeza nje ama-apula edijithali ambalwa kwibhalansi yakhe noma nini lapho ethanda!
 
-### The Solution
+2. Akufani ncamashi nangesikhathi sisebhentshini ngalola suku. Kwakunguwe nami nje lapho-ke. Ukudlula ku-Blizzard kufana nokufaka uMalume uTommy (umuntu wesithathu) ngaphandle kwe-nkantolo (ngishilo ukuthi uyijaji elidumile?) ngokuthengiselana kwethu kwebhentshi epaki. Ngingakunika kanjani nje i-apula lami ledijithali ngendlela ejwayelekile?
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+> Ngabe ikhona indlela yokulingisa ukuthengiselana kwethu kwebhentshini lepaki ngedijithali, wena-nami-kuphela? Kubonakala kunzima kakhulu...
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+### Isixazululo
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Uma singanikeza le ncwadi - sinikeze wonke umuntu? Esikhundleni sokuthi ileja ihlale kukhompyutha ye-Blizzard, lizohlala kumakhompyutha awo wonke umuntu. Konke ukuthengiselana okwenzekile, kusukela ngaso sonke isikhathi, ngama-apula edijithali kuzorekhodwa kilo.
 
-### I simplified quite a bit
+Awukwazi ukukhohlisa. Angikwazi ukukuthumela ama-apula edijithali engingenawo, ngoba ngaleso sikhathi bekungeke ivumelane nawo wonke umuntu ohlelweni. Kungaba uhlelo olunzima ukulehlula. Ikakhulukazi uma lilikhulu.
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+Futhi alilawulwa ngumuntu oyedwa, ngakho ngiyazi ukuthi akekho umuntu ongavele anqume ukuzinikela ama-apula edijithali. Imithetho yohlelo yayivele ichaziwe ekuqaleni.
 
-So, did you see what happened? What does the public ledger enable?
+Futhi ikhodi nemithetho kungumthombo ovulekile. Ilapho abantu abahlakaniphile abangasiza khona, bagcine, bavikele, bathuthukise futhi bahlole.
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+Ungabamba iqhaza nakule nethiwekhi futhi ubuyekeze ileja futhi uqiniseke ukuthi konke kuhamba ngomumo. Ungathola njengama-apula angama-25 edijithali njengomtlomelo. Eqinisweni, yileyo kuphela indlela yokwakha ama-apula amaningi edijithali ohlelweni.
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+### Ngenze lula kancane
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+... Kodwa lelo hlelo engilichazile likhona. Libizwa ngokuthi umthetho olandelwayo we-Bitcoin (Bictoin protocol). Futhi lawo ma-apula edijithali "ama-bitcoins" ngaphakathi kohlelo. Kuyakarisa!
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+Ngakho-ke, ukubonile okwenzekile? Yini okuvubyelwa ileja labantu bonke?
 
-In other words, it behaves like a physical object.
+1. Kungumthombo ovulekile, uyakhumbula? Inani eliphelele lama-apula lichazwe kwi leja lomphakathi ekuqaleni. Ngiyalazi inani eliqondile elikhona. Ngaphakathi kohlelo, ngiyazi ukuthi ayindlala (ama-apula edijithali).
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+2. Lapho ngishintshana khona sengiyazi ukuthi i-apula ledijithali lisukile kimi, ngelakho ngokuphelele. Ngangivame ukungakwazi ukusho lokho ngezinto zedijithali. Lizovuselelwa futhi liqinisekiswe ileja lomphakathi.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+3. Ngenxa yokuthi yileja yomphakathi, angizange ngidinge uMalume uTommy (umuntu wesithathu) ukuqinisekisa ukuthi angizange ngikhohlise, noma ngizenzele amanye amakhophi, noma ngithumele ama-apula kabili, noma kathathu...
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Ngaphakathi kohlelo, ukushintshaniswa kwe-apula ledijithali manje kufana nokushintshaniswa kwe-apula elibambekayo elilodwa. Manje sekufana nokubona i- apula elibambekayo lishiya isandla sami lingena ephaketheni lakho. Futhi njengasebhentshini lepaki, ukushintshaniswa kwakuphakathi kwabantu ababilikuphela. Mina nawe - besingamdingi uMalume uTommy lapho ukuze kusebenze.
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Ngamanye amagama, liziphatha (i-apula) njengento ebambekayo.
 
-I have my own opinion about it.
+Kepha uyazi ukuthi yini okuncomekayo? Kusese idijithali. Manje sesingabhekana nama-apula ayi-1 000, noma ama-apula ayiisigidi esisodwa, noma ngisho ama-apula ayi-.0000001. Ngingalithumela (i-apula) ngokuchofoza inkinobho, futhi ngisengakwazi ukulishiya ephaketheni lakho ledijithali ukube ngangise-Nicaragua wena use-New York.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Ngingenza ezinye izinto zedijithali zigibele ngaphezulu kwala ma-apula edijithali! Kuyinto yedijithali ngemuva kwakho konke. Mhlawumbe nginganamathisela umbhalo othile kuwo - inothi ledijithali. Noma mhlawumbe nginganamathisela izinto ezibaluleke kakhulu; njengenkontileka, noma isitifiketi sesitoko, noma umazisi...
+
+Ngakho-ke lokhu kuhle! Kufanele siwaphathe kanjani noma siwasebenzise kanjani la "ma-apula edijithali"? Awusizo impela angithi?
+
+Abantu abaningi baphikisana ngakho manje. Kunenkulumompikiswano phakathi kwalokhu naleso skolo somnotho. Phakathi kosopolitiki. Phakathi kososayensi bamkhomphyutha. Ungabalaleli bonke noma kunjalo. Abanye abantu bahlakaniphile. Abanye batshelwa okungeyikho. Abanye bathi uhlelo lubaluleke kakhulu, abanye bathi alukabaluleki. Omunye umuntu empeleni ubeke inombolo: $ 1,300 nge-apula ngalinye. Abanye bathi igolide ledijithali, abanye bathi imali. Abanye bathi afana
+nezimbali. Abanye abantu bathi kuzoshintsha umhlaba, abanye bathi kumane kuyimfashini.
+
+Nginombono wami ngakho.
+
+Leyo yindaba yesinye isikhathi nokho. Kepha mntwana, manje wazi okuningi nge-Bitcoin kunabaningi.
 
 #### Recommend Reading (Updated 2017)
 

@@ -1,6 +1,6 @@
 # Uyemukelwa kwi-Bitcoin, abasanda kufika!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+ngo Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 

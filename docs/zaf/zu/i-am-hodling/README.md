@@ -1,12 +1,12 @@
 # NGIYABAMBA
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+ngo GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-Ngisithayiphe kabili lesi sihlokho ngoba bengazi ukuthi bekungalungile okokuqala. Akukalungi. w / e.
+Ngisithayiphe kabili lesi sihlokho ngoba bengazi ukuthi bekungalungile okokuqala. Akukalungi. noma yini.
 
-Ama-GF aphume endaweni yokucima ukoma yezithandani zobulili obubodwa, ukushayeka kwe-BTC KUNGANI NGISABAMBILE? Ngizokutshela ukuthi kungani.
+Intombi yami yaya endaweni yokucima ukoma yezithandani, ngentengo yeBitcoin eyehlayo KUNGANI NGISABAMBILE? Ngizokutshela ukuthi kungani.
 
 Kungenxa yokuthi ngingumhwebi omubi futhi NGIYAZI UKUTHI NGINGUMHWEBI OMUBI. Yebo nina bahwebi abahle niyakwazi ukubona amathuba amahle namabi pitpiffy wing wong wang kanjalo nje futhi nenze isigidi sezimali akunankinga mfowethu. 
 

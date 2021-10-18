@@ -1,68 +1,42 @@
-# Bitcoin v0.1 released
+# I-Bitcoin v0.1 ikhishiwe
 
-by Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
+ngo Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
 
 <LanguageDropdown/>
 
-Announcing the first release of Bitcoin, a new electronic cash
-system that uses a peer-to-peer network to prevent double-spending.
-It's completely decentralized with no server or central authority.
+Kumemezelwa ukukhishwa kokuqala kwe-Bitcoin, uhlelo olusha lwemali ye- elekthronikhi olusebenzisa inethiwekhi yontanga ukuvimbela ukusetshenziswa kwemali kabili. Lizimele (uhlelo) ngokuphelele, alinaseva noma igunya elikhulu.
 
+Vakashela iwebhusayithi bitcoin.org ukubona izithombe.
 
-See bitcoin.org for screenshots.
-
-Download link:
+Thola i-Bitcoin v0.1 ku:
 http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-Windows only for now.  Open source C++ code is included.
+Lolu hlelo lukhambelana ne-Windows kuphela okwamanje. Ikhodi yomthombo ovulekile ye-C++ ifakiwe.
 
-- Unpack the files into a directory
-- Run BITCOIN.EXE
-- It automatically connects to other nodes
+- Khipha amafayela kwisikhombi
+- Qalisa BITCOIN.EXE
+- Ixhuma ngokuzenzakalela kwamanye ama-nodi
 
-If you can keep a node running that accepts incoming connections,
-you'll really be helping the network a lot.  Port 8333 on your
-firewall needs to be open to receive incoming connections.
+Uma ukwazi ukugcina i-nodi isebenza eyamukela ukuxhumana okungenayo, uzobe usiza inethiwekhi kakhulu. I-Port 8333 ku-firewall yakho idinga ukuvuleka ukwamukela ukuchumana okungenayo ukuxhumana.
 
-The software is still alpha and experimental.  There's no guarantee
-the system's state won't have to be restarted at some point if it
-becomes necessary, although I've done everything I can to build in
-extensibility and versioning.
+Lolu hlelo luseselusha futhi lisahlolwa. Akunasiqinisekiso sokuthi isimo sohlelo ngeke kufanele siqalwe phansi ngesikhathi esithile uma kudingeka, noma ngabe ngikwenze konke okusemandleni ukwakha ngokunwebeka nokwenza inguqulo.
 
-You can get coins by getting someone to send you some, or turn on
-Options->Generate Coins to run a node and generate blocks.  I made
-the proof-of-work difficulty ridiculously easy to start with, so
-for a little while in the beginning a typical PC will be able to
-generate coins in just a few hours.  It'll get a lot harder when
-competition makes the automatic adjustment drive up the difficulty.
-Generated coins must wait 120 blocks to mature before they can be
-spent.
+Ungathola izinhlamvu zemali ngokuthola umuntu ozokuthumelela ezinye, noma uvule Izinketho-> Khiqiza. Izinhlamvu zemali zokufaka inodi zokukhiqiza amabhlogo. Ngenze ubufakazi bomsembenzi baba lula kakhulu, ngakho isikhashana ekuqaleni, i-khomphyutha ejwayelekile izokwazi ukukhiqiza izinhlamvu zemali ngamahora ambalwa nje. Kuzoba nzima kakhulu lapho ukuncintisana kwenza kukhuphula ubunzima. Izinhlamvu zemali ezakhiwe kumele zilinde amabhlokhi ayi-120 avuthwe ngaphambi kokuba zisetshenziswe.
 
-There are two ways to send money.  If the recipient is online, you
-can enter their IP address and it will connect, get a new public
-key and send the transaction with comments.  If the recipient is
-not online, it is possible to send to their Bitcoin address, which
-is a hash of their public key that they give you.  They'll receive
-the transaction the next time they connect and get the block it's
-in.  This method has the disadvantage that no comment information
-is sent, and a bit of privacy may be lost if the address is used
-multiple times, but it is a useful alternative if both users can't
-be online at the same time or the recipient can't receive incoming
-connections.
+Zimbili izindlela zokuthumela imali. Uma umamukeli eku-inthanethi, ungafaka ikheli lakhe le-IP futhi izoxhuma, thola ukhiye omusha womphakathi bese uthumela ukuthengiselana namazwana. Uma ngabe umamukeli akekho ku-inthanethi, ungathumela kukheli lakhe le-Bitcoin, okuyi-hashi yabo yokhiye womphakathi abakunikeza wona. Bazothola ukuthengisalana ngesikhathi esizayo lapho bexhuma futhi bafake ibhulokhi. Le ndlela inenkinga yokuthi akukho mininingwane yamazwana ethunyelwe,futhi ubumfihlo obuncane bungalahleka uma ikheli lisetshenziswa kaningi, kepha liwusizo uma bobabili abasebenzisi bengekho ku-inthanethi ngasikhathi sinye noma umamukeli engakwazi ukwamukela ukuxhumana okungenayo.
 
 Total circulation will be 21,000,000 coins.  It'll be distributed
 to network nodes when they make blocks, with the amount cut in half
 every 4 years.
 
-first 4 years: 10,500,000 coins
-next 4 years: 5,250,000 coins
-next 4 years: 2,625,000 coins
-next 4 years: 1,312,500 coins
-etc...
+iminyaka emine yokuqala: 
+izinhlamvu zemali eziyizi-10 500 000 eminyakeni emine ezayo: 
+izinhlamvu zemali eziyizi-5 250 000 eminyakeni emine elandelayo: 
+izinhlamvu zemali ezingama-2,625,000 eminyakeni emine ezayo: 
+izinhlamvu zemali eziyi-1,312,500, 
+njalo njalo.
 
-When that runs out, the system can support transaction fees if
-needed.  It's based on open market competition, and there will
-probably always be nodes willing to process transactions for free.
+Lapho lokho sekuphelile, uhlelo lungaxhasa imali yokuthengiselana uma kudingeka. Kususelwa kumncintiswano wemakethe ovulekile, futhi cishe kuzohlala kunamanodi azimisele ukucubungula ukuthengiselana mahhala.
 
 Satoshi Nakamoto
 

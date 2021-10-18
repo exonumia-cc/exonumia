@@ -1,6 +1,6 @@
 # I-Bitcoin Ifana ne
 
-by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
+ngo Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
 
 <LanguageDropdown/>
 

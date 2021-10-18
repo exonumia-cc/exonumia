@@ -1,30 +1,29 @@
-# Bitcoin Is Like Sports
+# I-Bitcoin Ifana Nezemidlalo
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+ngo @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Kaningi bengilokhu ngichaza ukuthi i-Bitcoin isebenza kanjani futhi isatshalaliswa endaweni ethile ngokwesimo so-mdlalo wezemidlalo. Kuyasiza ukuphendula imibuzo eminingi ejwayelekile:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Q: Ngubani owasungula i-baseball?
+A: Akunandaba ngempela. Noma ngubani emhlabeni angadlala. Akunandaba ukuthi umsunguli ufuna ukushintsha imithetho noma aziklomelise ngamaphoyinti noma yini enye. Asinandaba ukuthi ucabangani ngomdlalo wethu.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Q: Ngubani ophethe umdlalo?
+A: Akekho ophethe, sonke nje sinqume ukudlala. Sonke siyazi futhi siyayiphoqelela imithetho, futhi uma umuntu asikhohlisa, uyakhishwa emdlalweni. Uma othile eziklomelisa amaphuzu angawazuzanga, siyamziba nje.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Q: Sazi kanjani ukuthi imithetho ngeke iguquke?
+A: Sonke savumelana nawo ngenkathi siqala ukudlala, nanoma ngubani ofuna ukuqhubeka nokudlala ngale mithetho uzoqhubeka, futhi uma umuntu efuna ukushintsha, kuzodingeka adlale kwenye indawo.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Q: Ayikwazi ukugqekezwa?
+A: Konke kubonakala esidlangalaleni. Sonke singabona yonke inkambu nazo zonke izikolo. Uma othile babesikhohlisa, sonke sizokwazi futhi sibatshele ukuthi basishiye.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Q: Kungani kubalulekile?
+A: Sonke sinqume ukudlala, ngakho-ke kubalulekile kithi. Uma othile efuna ukujoyina, kufanele bavume ukwamukela amaphuzu wethu nenani lethu.
+Kubalulekile. Ukubaluleka kuya ngomuntu. 
 
-I value it, so it has value. Value is subjective.
+Q: Ngeke ivinjelwe?
+A: Mhlawumbe, kepha kungabantu abathile abadlala ngenduku nangebhola, abangalimazi omunye umuntu, ngakho-ke uhulumeni mhlawumbe angakuyekisa ukuyidlala, kepha angeke akwazi ukuvimbela umqondo wokushaya induku ngebhola, umdlalo uzoqhubeka kwenye indawo.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
-
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Q: Kufanele ngijoyine?
+A: Yenza noma yini oyifunayo. Ngizijabulisa ngokudlala i-baseball, ungajoyina noma unga-HFSP.
