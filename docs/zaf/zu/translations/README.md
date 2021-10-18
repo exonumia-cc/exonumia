@@ -1,4 +1,4 @@
-# Exonumia Translations
+# Ukuhumusha kwe-Exonumia
 
 <LanguageDropdown/>
 
