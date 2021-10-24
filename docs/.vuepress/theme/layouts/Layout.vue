@@ -18,14 +18,13 @@
 import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
 import { usePageData } from '@vuepress/client'
 
-const frontmatter = usePageData().value.frontmatter
-
 export default {
   computed: {
     supportersText () {
       return "Supporters"
     },
     supporters() {
+      const frontmatter = usePageData().value.frontmatter
       return frontmatter.supporters
     }
   },
