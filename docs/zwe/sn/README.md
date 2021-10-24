@@ -1,3 +1,9 @@
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 # Tinokuchingamidzai ku Bitcoin!
 
 na Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)

@@ -1,45 +1,42 @@
 <template>
-  <ParentLayout>
-    <template 
-      v-if="continueReading"
-      #page-bottom>
-      <div class="page-nav no-print">
-        <!-- get this from internationalized content -->
-        <h3>{{ continueReadingText }}</h3>
-        <ContentList  />
+  <Layout>
+    <template #page-bottom v-if="supporters">
+      <div class="center-text">
+        <strong>{{supportersText}}</strong>
+        <br>
+        <div v-for="supporter in supporters" :key="supporter.name">
+          <a v-if="supporter.href" :href=supporter.href  target="_blank">{{supporter.name}}</a>
+          <a v-else-if="supporter.email" :href="'mailto:'+supporter.email">{{supporter.name}}</a>
+          <span v-else>{{supporter.name}}</span>
+        </div>
       </div>
     </template>
-  </ParentLayout>
+  </Layout>
 </template>
 
 <script>
-import ContentList from '@theme/components/ContentList.vue'
-import ParentLayout from '@parent-theme/layouts/Layout.vue'
+import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
+import { usePageData } from '@vuepress/client'
+
+const frontmatter = usePageData().value.frontmatter
 
 export default {
-  name: 'ContentLayout',
-
   computed: {
-    continueReadingText () {
-      return (
-        this.$themeLocaleConfig.continueReadingText
-        || this.$site.themeConfig.continueReadingText
-        || `Continue Reading`
-      )
+    supportersText () {
+      return "Supporters"
     },
-
-    continueReading () {
-      return (
-        this.$themeLocaleConfig.continueReading
-        || this.$site.themeConfig.continueReading
-        || false
-      )
+    supporters() {
+      return frontmatter.supporters
     }
   },
-
   components: {
-    ParentLayout,
-    ContentList
-  }
+    Layout,
+  },
 }
 </script>
+
+<style lang="css">
+.center-text {
+  text-align: center;
+}
+</style>

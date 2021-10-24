@@ -19,6 +19,7 @@ const customTags = [
 ]
 
 module.exports = {
+    theme: path.resolve(__dirname, './theme'),
     bundler: '@vuepress/webpack',
 	bundlerConfig: {
 		vue: {
@@ -142,6 +143,7 @@ module.exports = {
                 selectLanguageName: '🌍 Languages',
             },
             '/int/en/': {
+                supportersText: "Supporterss",
                 selectLanguageText: '🇬🇧 Languages',
                 selectLanguageName: '🇬🇧 English',
                 freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
