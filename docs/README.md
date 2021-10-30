@@ -30,6 +30,12 @@ contributors: false
 
 ---
 
+**[🇲🇼 Malawi](/mwi/)**
+
+[Chewa](/mwi/ny/)
+
+---
+
 **[🇳🇦 Namibia](/nam/)**
 
 [Oshiwambo](/nam/ng/)   
