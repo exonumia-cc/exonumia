@@ -1,6 +1,6 @@
-# Explain Bitcoin Like I’m Five
+# Fotokozani Bitcoin ngati ndili ndi zaka zisanu
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+Lolembedwa ndi Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 

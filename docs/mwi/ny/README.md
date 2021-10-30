@@ -1,23 +1,23 @@
-# Welcome to Bitcoin, newcomers!
+# Takulandilani ku Bitcoin, obwera kumene!
 
 by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Mafuso ofusidwa kawiri kawiri:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Q: Ndiyenera ku khulipira ndani? 
+A: **Palibe.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Ndiyenera ku gulitsa liti?  
+A: **Palibe.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Kodi bitcoin ikufa chifukwa ____?  
+A: **ayi.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Kodi ndazilowetsa mu chani?  
+A: **Palibe amene akudziwa.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Q: Ndiphuzira bwanji za mbiri?  
+A: **Tili ndi [chuma cha mbiri pano](/int/en/translations/).** Kapena mutha ku pita ku [lopp.net](https://www.lopp.net/bitcoin-information.html)
