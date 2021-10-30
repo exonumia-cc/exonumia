@@ -17,11 +17,12 @@
 <script>
 import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
 import { usePageData } from '@vuepress/client'
+import { useThemeLocaleData } from '@vuepress/theme-default/lib/client/composables'
 
 export default {
   computed: {
     supportersText () {
-      return "Supporters"
+      return useThemeLocaleData().value.supportersText ?? "Supporters"
     },
     supporters() {
       const frontmatter = usePageData().value.frontmatter

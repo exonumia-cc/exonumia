@@ -148,7 +148,7 @@ module.exports = {
                 selectLanguageName: '🌍 Languages',
             },
             '/int/en/': {
-                supportersText: "Supporterss",
+                supportersText: "Supporters",
                 selectLanguageText: '🇬🇧 Languages',
                 selectLanguageName: '🇬🇧 English',
                 freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
@@ -209,6 +209,7 @@ module.exports = {
                 ],
             },
             '/ago/ng/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇦🇴 Languages',
                 selectLanguageName: '🇦🇴 Oshiwambo',
                 freelyAvailableTranslationsText: '🇦🇴 Freely Available Translations',
@@ -270,6 +271,7 @@ module.exports = {
                 ],
             },
             '/cod/ln/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇨🇩 Languages',
                 selectLanguageName: '🇨🇩 Lingala',
                 freelyAvailableTranslationsText: '🇨🇩 Freely Available Translations',
@@ -330,6 +332,7 @@ module.exports = {
                 ],
             },
             '/cog/ln/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇨🇬 Languages',
                 selectLanguageName: '🇨🇬 Lingala',
                 freelyAvailableTranslationsText: '🇨🇬 Freely Available Translations',
@@ -390,6 +393,7 @@ module.exports = {
                 ],
             },
             '/ken/sw/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇰🇪 Lugha',
                 selectLanguageName: '🇰🇪 Kiswahili',
                 freelyAvailableTranslationsText: '🇰🇪 Freely Available Translations',
@@ -452,6 +456,7 @@ module.exports = {
                 ],
             },
             '/mwi/ny/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇲🇼 Zinenero',
                 selectLanguageName: '🇲🇼 Chewa',
                 freelyAvailableTranslationsText: '🇲🇼 Zomasulira Zopezeka Kwaulere',
@@ -512,6 +517,7 @@ module.exports = {
                 ],
             },
             '/nam/ng/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇳🇦 Languages',
                 selectLanguageName: '🇳🇦 Oshiwambo',
                 freelyAvailableTranslationsText: '🇳🇦 Freely Available Translations',
@@ -573,6 +579,7 @@ module.exports = {
                 ],
             },
             '/nam/naq/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇳🇦 Languages',
                 selectLanguageName: '🇳🇦 Khoekhoegowab',
                 freelyAvailableTranslationsText: '🇳🇦 Freely Available Translations',
@@ -634,6 +641,7 @@ module.exports = {
                 ],
             },
             '/zaf/zu/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇿🇦 Izilimi',
                 selectLanguageName: '🇿🇦 IsiZulu',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
@@ -695,6 +703,7 @@ module.exports = {
                 ],
             },
             '/zaf/st/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇿🇦 maleme',
                 selectLanguageName: '🇿🇦 Sesotho',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
@@ -756,6 +765,7 @@ module.exports = {
                 ],
             },
             '/zaf/ve/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇿🇦 Languages',
                 selectLanguageName: '🇿🇦 Tshivenda',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
@@ -817,6 +827,7 @@ module.exports = {
                 ],
             },
             '/zaf/nr/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇿🇦 Izilimi',
                 selectLanguageName: '🇿🇦 Isindebele',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
@@ -878,6 +889,7 @@ module.exports = {
                 ],
             },
             '/zwe/sn/': {
+                supportersText: "Supporters",
                 selectLanguageText: '🇿🇼 Mitauro',
                 selectLanguageName: '🇿🇼 Shona',
                 freelyAvailableTranslationsText: '🇿🇼 Dudziro Dzinowanika Pachena',
