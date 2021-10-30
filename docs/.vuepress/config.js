@@ -90,6 +90,11 @@ module.exports = {
             group: '🇰🇪 Kenya',
             title: 'Exonumia'
         },
+        '/mwi/ny/': {
+            lang: 'ny',
+            group: '🇲🇼 Malawi',
+            title: 'Exonumia'
+        },
         '/nam/ng/': {
             lang: 'ng-NA',
             group: '🇳🇦 Namibia',
@@ -442,6 +447,66 @@ module.exports = {
                     },
                     '/ken/sw/contribution-guide/',
                     '/ken/sw/contact/'
+                ],
+            },
+            '/mwi/ny/': {
+                selectLanguageText: '🇲🇼 Zinenero',
+                selectLanguageName: '🇲🇼 Chewa',
+                freelyAvailableTranslationsText: '🇲🇼 Zomasulira Zopezeka Kwaulere',
+                label: 'Chewa',
+                selectLanguageAriaLabel: 'Zinenero',
+                editLinkText: 'Konzani Zokhutira',
+                continueReading: true,
+                continueReadingText: 'Pitirizani Kuwerenga',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/mwi/ny/' 
+                    },
+                    { 
+                        text: 'Zomasulira', 
+                        link: '/mwi/ny/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/mwi/ny/about/',
+                    {
+                        text: 'Zomasulira',   // required
+                        link: '/mwi/ny/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/mwi/ny/',
+                            '/mwi/ny/explain-bitcoin-like-im-five/',
+                            '/mwi/ny/bitcoin-is-like/',
+                            '/mwi/ny/bitcoin-is-like-sports/',
+                            '/mwi/ny/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/mwi/ny/museum/bitcoin-v0.1-released/',
+                            '/mwi/ny/museum/re-bitcoin-v0.1-released/',
+                            '/mwi/ny/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        text: 'Mabuku',   // required
+                        link: '/mwi/ny/books/',
+                        children: [
+                            '/mwi/ny/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Zida',
+                        link: '/mwi/ny/tools/'
+                    },
+                    {
+                        text: 'Ntchito Zomasulira',   // required
+                        link: '/mwi/ny/open-source-translation-projects/',
+                        children: [
+                            '/mwi/ny/transifex/bitcoin-core/',
+                            '/mwi/ny/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/mwi/ny/contribution-guide/',
+                    '/mwi/ny/contact/'
                 ],
             },
             '/nam/ng/': {
