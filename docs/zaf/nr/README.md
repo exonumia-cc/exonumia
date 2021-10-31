@@ -1,3 +1,8 @@
+---
+translators: 
+    - 
+        name: "Happy Mahlangu"
+---
 # Siyanamukela ku-Bitcoin, nina abatjha!
 
 ngo Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)

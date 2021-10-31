@@ -1,3 +1,9 @@
+---
+translators: 
+    - 
+        name: "Happy Mahlangu"
+---
+
 # I-Bitcoin: Ihlelo lemali ye-elekthroni labalingani
 
 ngo Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
