@@ -1,30 +1,30 @@
-# Bitcoin Is Like Sports
+# Bitcoin ili ngati masewera
 
 by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Thawi zambiri ndakhala ndikulongosola momwe #bitcoin imagwirira ntchito ndipo imakhazikika pantchito yamasewera. Ndikuona kuti zimathandiza kuyakha mafuso a wamba.:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Q: Ndani anayambitsa basketball?  
+A: Palibe amene akudziwa. Koma aliyese pa dziko lapansi akhoza ku sewera. Zilibe kathu kuti wopangayo alufuna kusitha malamulo kapena kuzi patsa ma points kapena china chilichonse. Sitisamala  zomwe amaganiza pamasewera athu.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Q: ndani akuyang'anira ma sewerawa?  
+A: palibe amene akuyang'anira, tonse tinangoganiza zosewera. Tonse timadziwa. Ndikutsatila malamulo. Ndipo ngati wina wabera, amachotsedwa pamasewera ngati wina wapeza ma points ambiri sitimadanda ula
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Q: tiziwa bwanji kuti malamulo sasitha?  
+A: tonse tidavomereza nawo pomwe timayamba kusewera  ndipo aliyese amene akufuna kusewera ndi malamulowa atha kusewera, ndipo ngati wina akufuna kusintha afunika ku sewera kwina.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Q: kodi sizingabedwe?  
+A: chilichonse chimaomekera poyera. Tomse thitha kuona gawo lonse ndi zambiri zonse ngati wina amabela, tomse tinakadziwa ndikuwauza kuti atuluke.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Q: chifukwa chiyani ili ndi phindu lililonse?  
+A: tonse tinasanka kusewera chifukwa ndiyofunika kwa ife.ngati wina akufuna kulowa nawo, tiyenera kuvomeleza mfundo zathu ndi kufunika kwake 
+ 
+Ndimayi yamikira .kotero ili ndi phindu mtengo ndiwo khazikika
 
-I value it, so it has value. Value is subjective.
+Q: kodi sizinga letsedwe?  
+A: mwina koma pali athu ena we amatha kusewera ndi ndodo ndi mpira osa pweteka wina aliyese  mwina boma itha kukuletsani  kusewera koma sangathe kuletsa lingalilo lomenya mpira ndi ndido masewera atha kupitilila kwina kwake.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
-
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Q: ndiyenera kujoyina?  
+A: pangazi zomwe mukufuna, ndimasewra baseball, mutha kulowa nawo kapena mutha kulowa HFPS.

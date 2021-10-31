@@ -6,103 +6,108 @@ Lolembedwa ndi Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/expla
 
 ### If you still can’t figure out what the heck a bitcoin is…
 
-We’re sitting on a park bench. It’s a great day.
+Ngati simukudziwa kuti ndi chayani......
 
-I have one apple with me. I give it to you.
+Takhalani pa bench .Ndi tsiku lopambanana.
 
-You now have one apple and I have zero.
+Ndili ndi apple modzi ndi ine. Ndakupatsa.
 
-That was simple, right?
+Tsopano muli ndi apple modzi ime ndilibe kathu.
 
-### Let’s look closely at what happened:
+Izi ndi zophweka, sichoncho.
 
-My apple was physically put into your hand.
+### Tiyeni tione bwino zimene zinachitika:
 
-You know it happened. I was there. You were there. You touched it.
+Apple wanga anaikidwa mmanja mwanu.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Mukudziwa zimene zinachitika . Ndinaliko, munaliko , munagwila.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Sitinkafuna wachitatu pamenepo kuti atidzandize . sitimafunika kukoka malume tommy (omwe ndi oweruza otchuka) kuti akhale nafe pa benchi ndikutsimikizira kuti apple  anachoka kwa ine ndikupita kwa inu
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Apple ndi yanu! Sindingakupatseni apple wina chifukwa ndilibe zotsalira sindingathe kuzilamulira . apple inandisiya yathunthu. Muli ndi  ulamuliro wonse pa Apple uja tsopano. Mutha kumupatsa nzanu ngati mukufuna , kenako mnzanuyo akhoza kuperekanso kwa mnzake. Ndi zina zotero.
 
-But I’m getting ahead of myself.
+Kotero ndi momwe kusithana kwa-muthu kumawonekera. Ndikuganiza ndi zofanana kaya ndi kukupatsani nthochi , buku , kapena kunena kotala  , kapena ndalama ya dollar......
 
-### Back to apples!
+Koma ndikuziyang'anira ndekha.
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+### Tabwerela ku ma applezi
 
-Ah! Now it gets interesting.
+Tsopano nenani , ndili ndi apple limodzi la digital . pano ndikupatsani apple yanga  ya digital
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Ah! Pano zikuma sangalatsa
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Mukudziwa bwanji kuti apple  la digital lomwe kale linali langa, Tsopano ndi lanu , ndipo ndilanu lokha ? Ganizirani izi kachiwiri
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Ndizovuta kwambiri , si choncho? Mukudziwa bwanji kuti  sindinatumize apple wina kwa malume tommy ngati cholumikizira email poyamba? Kapena nzako joe? Kapena mzanga Lisa nayeso?
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Mwina mwake ndina panga makope angapo a apple la digital pa computer yanga . mwina ndina ika pa internet ndipo athu million anaona
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Monga mukuonera, kusithana kwa digital ndi mavuto pang'ono . kutumiza ma apple a digital sikuoneka ngati kutumiza ma apple eni eni
 
-Until now.
+A science ena anzeru pa computer ali ndi dzina la vutoli: liamatchedwa  vuto lowonongera kawiri. Koma musadandaule za izi zomwe muyenera kudziwa ndikuti zosokonezeka iwo kwa thawi thawi yayitali ndipo sanazithese. Mpaka pano.
 
-But let’s try to think of a solution on our own.
+Koma tiyeni tiyese kulingalila yanko patokha.
 
-### Ledgers
+### Ostogolera
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Mwina mwake ma apple a digital amafunika kuwatsata m'buku ndi buku lomwe mumayang'ana  zochitika zonse-buku lowerengera ndalama
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Buku ili  popeza ndi digital liyenera ndi wina  wowayanga'nira 
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Nenanu monga dziko la Warcraft . blizzard. Anyamata omwe adapanga masewerawa pa internet, ali ndi "buku la digital" la malupanga a moto osowa omwe amapezeka m'dongosolo lawo . chifukwa chake wina ngati iwo amatha kudziwa ma apple athu a digital . zodabwitsa! - tinazithetsa
 
-### Problems
+### Mavuto
 
-There’s a bit of a problem though:
+Pali vuto pango'ono ngakhale:
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) Nanga bwanji ngati muthu wina waku Blizzard adapanga zambiri? Amatha kungo onjezera ma digital angapo: ma apple kuri azikhala bwino thawi iliyonse yomwe angafune!
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) Sizofanana ndendende pomwe tidali pa bench tsiku limodzi. Tinali inu ndi ine basi ndiye. Kudutsa blizzard  kuli ngati kukoka malume tommy (kachitatu) kunja kwa khothi ( kodi ndinanena kuti ndi oweruza otchuka?) Pazogulitsa zathu zose pa bench ya paki. Kodi ndingangopereka apple yanga ya digital kwa inu, monga mukudziwa, mwanjira  ya thawi zonse
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Kodi pali njira iliyonse yotengera bench yathu ku paki, kungoti inu ndi ine  zomwe timachita za digital .zikuoneka ngati zovuta...
 
-### The Solution
+### Njira yothesera
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Bwanji ngati titapereka bukhu ili-kwa  aliyese m'malo  mokhala m'ma computer pa blizzard , izikhala m'ma computer a aliyense . zochitika  zonse zomwe zidachitikapo kuyambira thawi zonse m'ma  apple  a digie zidzajambulidwamo
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Simungathe kubera. sindingaku tumizileni ma apple a digital omwe ndilibe , chifukwa ndiye kuti samalumikizana ndi aliyese m'dongosolo. Kunga khale kovuta  kuti mu menye. Maka maka ngati yayamba kukula.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Kuphatikiza apo samayanga'niridwa ndi muthu m'modzi chifukwa  ndikudziwa kuti palibe amene angangodziperekela ma apple ena a digital. Malamulo a dongosololi anali atatchulidwa kale koyambirira. Ndipo malamulo ndi malamulo ndi otseguka. Alipo athu anzeru ena atithandizira mu chitetezo , kusitha ,ndikuwaunikiranso athu
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Mutha kutenga nawo mbali yapa  network iyi ndikusithaso zolembazo ndikuwonetsetsa kuti zonse zatuluka . pazovuta muthaka kukala ndi ma apple  a digital 25 ngati mphoto , ndipo ndi njira yomweyo yopangira ma apple a digital ambiri
 
-### I simplified quite a bit
+### Ndinachepetsa pango'no 
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… Koma njira imene ndinafotokozayo ilipo. Imatchedwa kuti bitcoin protocol . ma apple a digital aja nde "bitcoins " mkati mwa dongosolo. Zosangalatsa !
 
-So, did you see what happened? What does the public ledger enable?
+Kotero. Kodi mwaona zomwe zinachitika? Kodi zolembera pagulu zimathandizila chiyani? 
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) Ndi gwero otseguka mukumbukira? Chiwerengero chonse chama apple chimafotokozedwa pagulu mu bukhu kumayambiriro. Ndikudziwa kuchuluka komwe kulipo.mutjawi imeneyi ndikudziwa kuti ndiochepa (osowa).
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) Ndikasitha ndikudziwa kuti apple wa digital siwangaso pano ndiwanu. Sindinkatha kunena izi pa zithu za digital. idzasithidwa ndikutsimikiziridwa ndi buku lolembera 
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) Popeza ndi buku lowerengera athu. Sikufunika malume tommy(wachitatu) kuti atsimikizire kuti ine sindinabele, kaoena kuzipangira ndekha  kapena kutumiza ma apple kawiri kapena katatu
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+ 
 
-In other words, it behaves like a physical object.
+    Muthawi imeneyi ,kusinthana kwa apple wa digital pano kulingati kusithana apple wa pa manja.tsopano zilingati kuona apple akuchoka manja mwanga ndikugwa mu nthumba mwanu . ndipo ngati pa bench pa ku paki tinalipo athu awiri malume tommy masafunika kuti atsimikizere.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Mwanjira ina imakhala yapathupi
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Mukudziwa zomwe zilli zabwino? Zinakali digital. Tsopano thitha kuthana ndi ma apple 1,000 kapena 1 million apples kapena 0000001apples
+Nditha kutumiza podina batani ndipo ndithaso kuku ikirani mu thumba lanu ya digital olo muthakhala ku dziko lina ine ndili new York ndikoza kutumizaba.
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Nditha kupanga zithu zina za digital kukwera pa mwamba pa ma apple a digital wa poti nazoso ndi digital mwinaso nditha kulumikiza mawu. Ndithaso ku lumikiza zithu zofunika ngati nambala, kapena stock certificate ,kapena chiphaso...
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Kotero izi ndizabwino! Kodi ti gwiritsa ntchito bwanji ma apple a digital wa ndizothandiza kwambiri eti?
 
-I have my own opinion about it.
+Athu ambiri akutsutsana za izi . tsopano pali kutsutsana pakati pa izi ndi sukulu ya chuma pakati pa andale. Pakati pa opanga mapulogramu. Osamvera athu osewa.ngakhale athu ena ndi a nzeru. Ena amanamizidwa. Ena amati dongosololi lilofunika kwa mbiri. Ena amati sizofunika
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Nyamata wina anayika nambala yovuta:$ 1,300 pa apple. ena mati ndi golide wa digital, ena ndalama, ena amati alingati tulips, ena amati zisitha dziko lapansi, ena amati ndi chi zolowezi chabe
+
+Ndili ndi maganizo anga pa izi.
+
+Imeneyo ndi nkhani ya nthawi ina. Koma mwana, tsopano mukudziwa zambiri za Bitcoin kuposa ambiri.
 
 #### Recommend Reading (Updated 2017)
 
