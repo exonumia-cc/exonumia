@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "I-star Magagula"
+---
+
 # Bitcoin: A Peer-to-Peer Electronic Cash System
 
 by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)

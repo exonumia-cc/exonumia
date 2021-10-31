@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "I-star Magagula"
+---
+
 # Bitcoin ili ngati 
 
 Wolemba Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
