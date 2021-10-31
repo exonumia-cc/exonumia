@@ -1,3 +1,8 @@
+---
+translators: 
+    - 
+        name: "Maggie Nampweya"
+---
 # Bitcoin oya fa
 
 by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)

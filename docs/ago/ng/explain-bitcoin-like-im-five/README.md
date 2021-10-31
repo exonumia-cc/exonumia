@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Hilja Eelu"
+        href: "https://twitter.com/youngish_human"
+    -
+        name: "Lazarus Uusiku"
+        href: "https://twitter.com/ThisIsLarza"
+---
 # Fatulula Bitcoin ndafa ndina oomvula ntano
 
 by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
