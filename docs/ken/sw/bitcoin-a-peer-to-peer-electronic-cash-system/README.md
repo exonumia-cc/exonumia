@@ -1,109 +1,121 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+# Bitcoin: Peer-to-Peer Fedha za elektroniki Mfumo
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+na Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Kikemikali
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Toleo la rika-kwa-rika la pesa taslimu za elektroniki litaruhusu malipo ya mkondoni kutumwa moja kwa moja kutoka chama kimoja hadi kingine bila kupitia taasisi ya kifedha. Digital saini hutoa sehemu ya suluhisho, lakini faida kuu hupotea ikiwa mtu wa tatu anayeaminika ni bado inahitajika kuzuia matumizi mara mbili. Tunapendekeza suluhisho kwa matumizi mawili tatizo kutumia mtandao wa wenzao. Muhtasari wa muhuri wa miamala kwa kutumia hashing kuwaingiza kwenye mlolongo unaoendelea wa uthibitisho-wa-kazi, kutengeneza rekodi ambayo haiwezi kuwa ilibadilishwa bila kufanya tena uthibitisho wa kazi. Mlolongo mrefu zaidi sio tu unathibitisha mlolongo wa hafla zilizoshuhudiwa, lakini ushahidi kwamba ilitoka kwa dimbwi kubwa zaidi la nguvu ya CPU.Kama kwa muda mrefu kama nguvu nyingi za CPUzinadhibitiwa na nodi ambazo hazishirikiani kushambulia mtandao, watatoa mlolongo mrefu zaidi na washambuliaji wa nafasi. Mtandao wenyewe unahitaji muundo mdogo. Ujumbe hutangazwa kwa msingi bora wa juhudi, na nodi zinaweza kuondoka na jiunge tena na mtandao kwa mapenzi, ukikubali mnyororo mrefu zaidi wa uthibitisho wa kazi kama uthibitisho wa nini
+ilitokea wakati walikuwa wameenda.
 
-## Introduction
+## Utangulizi
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Biashara kwenye mtandao imekuwa ikitegemea karibu taasisi za kifedha kutumika kama wahusika wa tatu kusindika malipo ya elektroniki. Wakati mfumo unafanya kazi vizuri ya kutosha kwa shughuli nyingi, bado inakabiliwa na udhaifu wa asili wa uaminifu mfano. Shughuli zisizoweza kurejeshwa kabisa haziwezekani, kwani ni ya kifedha taasisi haziwezi kuzuia usuluhishi wa mabishano. Gharama ya upatanishi huongeza shughuli gharama, kupunguza kiwango cha chini cha ununuzi wa vitendo na kukata uwezekano wa ndogo shughuli za kawaida, na kuna gharama pana katika upotezaji wa uwezo wa kufanya isigeuke malipo ya huduma ambazo hazibadiliki. Pamoja na uwezekano wa kubadilika, hitaji la uaminifu huenea. Wafanyabiashara lazima wawe na wasiwasi na wateja wao, wakiwashtaki kwa habari zaidi kuliko vile wangehitaji. Asilimia fulani ya ulaghai inakubaliwa kuwa haiwezi kuepukika. Gharama hizi na kutokuwa na uhakika wa malipo kunaweza kuepukwa kwa kibinafsi kwa kutumia mwili sarafu, lakini hakuna utaratibu wowote wa kufanya malipo juu ya kituo cha mawasiliano bila chama cha kuaminika.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Kinachohitajika ni mfumo wa malipo wa elektroniki kulingana na uthibitisho wa cryptographic badala ya uaminifu, kuruhusu vyama vyovyote vyenye nia ya kufanya moja kwa moja na kila mmoja bila hitaji la mtu wa tatu anayeaminika. Uuzaji ambao hauwezekani kwa hesabu kugeuza ungekuwa kulinda wauzichadji kutoka kwa ulaghai, na mifumo ya kawaida ya escrow inaweza kutekelezwa kwa urahisi
+linda wanunuzi. Katika jarida hili, tunapendekeza suluhisho la shida ya matumizi mara mbili kwa kutumia rika-kwa-rika ilisambaza seva ya muhuri wa muda ili kutoa uthibitisho wa hesabu wa mpangilio wa shughuli. Mfumo huo uko salama ili mradi kama nodi za uamini kudhibiti kwa pamoja nguvu zaidi ya CPU kuliko kikundi chochote kinachoshirikiana cha nodi za washambuliaji.
 
-## Transactions
+## Miamala
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Tunafafanua sarafu ya elektroniki kama mlolongo wa saini za dijiti. Kila mmiliki huhamisha sarafu ijayo kwa kusaini dijiti hashi ya manunuzi ya awali na ufunguo wa umma wa mmiliki wa pili na kuongeza hizi hadi mwisho wa sarafu. Mlipaji anaweza kuthibitisha saini kwa thibitisha mlolongo wa umiliki.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Shida ni kwamba mpokeaji hawezi kudhibitisha kuwa mmoja wa wamiliki hakutumia mara mbili sarafu. Suluhisho la kawaida ni kuanzisha mamlaka kuu inayoaminika, au mnanaa, ambayo huangalia kila shughuli kwa matumizi mara mbili. Baada ya kila shughuli, sarafu lazima irudishwe mnara kutoa sarafu mpya, na sarafu tu zilizotolewa moja kwa moja kutoka kwa mnanaa zinaaminika sio tumia mara mbili. Shida na suluhisho hili ni kwamba hatima ya mfumo mzima wa pesa inategemea kampuni inayoendesha mnanaa, na kila shughuli inapaswa kupitia kama benki.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Tunahitaji njia ya mlipaji kujua kwamba wamiliki wa zamani hawakusaini mapema yoyote shughuli. Kwa madhumuni yetu, shughuli ya mwanzo ndio inayohesabiwa, kwa hivyo hatufanyi hivyo
+kujali juu ya majaribio ya baadaye ya kutumia mara mbili. Njia pekee ya kuthibitisha kutokuwepo kwa a
+shughuli ni kujua shughuli zote. Katika mtindo wa msingi wa mnanaa, mnanaa alikuwa akijuashughuli zote na kuamua ni yupi aliyefika kwanza. Kukamilisha hii bila chama cha kuaminika,
+shughuli lazima zitangazwe hadharani [1], na tunahitaji mfumo wa washiriki kukubali kwenye historia moja ya utaratibu ambao walipokelewa. Mlipaji anahitaji uthibitisho kuwa saa wakati wa kila shughuli, sehemu nyingi zilikubaliana kuwa ndio kwanza ilipokelewa.
 
 ## Timestamp Server
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Suluhisho tunalopendekeza linaanza na seva ya timestamp. Seva ya timestamp inafanya kazi na kuchukua hash ya kizuizi cha vitu kuwa na muhuri wa wakati na kuchapisha hashi, kama vile katika gazeti au chapisho la Usenet [2-5]. Timestamp inathibitisha kuma data lazima ilikuwapo wakati huo, ni wazi, ili kuingia kwenye hashi. Kila timestamp inajumuisha ya awali timestamp katika hash yake, kutengeneza mlolongo, na kila muhuri wa nyongeza unaimarisha hizo mbele yake
+.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Uthibitisho wa Kazi
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Ili kutekeleza seva iliyosambazwa ya timestamp kwa msingi wa rika-kwa-rika, tutahitaji kutumia mfumo wa uthibitisho wa kazi sawa na Hashcash ya Adam Back [6], badala ya gazeti au Usenet
+machapisho. Uthibitisho-wa-kazi unajumuisha skanning ya thamani ambayo inapoharibiwa, kama vile na SHA-256, hashi huanza na idadi ya sifuri. Kazi ya wastani inayohitajika ni ufafanuzi katika idadi ya bits sifuri inahitajika na inaweza kuthibitishwa kwa kutekeleza mojahash.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Kwa mtandao wetu wa timestamp, tunatekeleza uthibitisho-wa-kazi kwa kuongeza nonce katika block mpaka thamani ipatikane ambayo inapeana hashi ya block bits zinazohitajika sifuri. Mara CPU
+juhudi imetumika kuifanya itosheleze uthibitisho wa kazi, kizuizi hakiwezi kubadilishwa bila kufanya upya kazi. Kama vizuizi vya baadaye vimefungwa minyororo baada yake, kazi ya kubadilisha block ni pamoja na kufanya upya vitalu vyote baada yake.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Uthibitisho wa kazi pia hutatua tatizo la kuamua uwakilishi katika uamuzi wa wengi kutengeneza. Ikiwa wengi waliegemea kwenye-IP-anwani-kura-moja, inaweza kupotoshwa na
+mtu yeyote anayeweza kutenga IP nyingi. Uthibitisho wa kazi kimsingi ni CPU-kura moja. Uamuzi wa wengi unawakilishwa na mlolongo mrefu zaidi, ambao una uthibitisho mkubwa zaidi wa kazi
+juhudi zilizowekwa ndani yake. Ikiwa nguvu nyingi za CPU zinadhibitiwa na nodi za uaminifu, waaminifu mnyororo utakua kwa kasi zaidi na kupita minyororo yoyote inayoshindana. Ili kurekebisha kizuizi cha zamani, amshambulizi atalazimika kufanya tena uthibitisho wa kazi ya kizuizi na vizuizi vyote baada yake na kasha catch up na kuvuka kazi ya nodes waaminifu. Tutaonyesha baadaye kwamba. uwezekano wa mshambulizi polepole kupatana hupungua kwa kasi kama vizuizi vinavyofuata zinaongezwa.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Ili kufidia kuongeza kasi ya maunzi na maslahi tofauti ya kuendesha nodi wakati, ugumu wa uthibitisho wa kazi huamuliwa na wastani wa kusonga unaolenga wastani idadi ya vitalu kwa saa. Ikiwa zinazalishwa haraka sana, ugumu huongezeka.
 
 ## Network
 
-The steps to run the network are as follows:
+Hatua za kuendesha mtandao ni kama ifuatavyo:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Shughuli mpya zinatangazwa kwa nodi zote.
+2. Kila nodi inakusanya shughuli mpya kwenye kizuizi.
+3. Kila nodi inafanya kazi katika kutafuta uthibitisho mgumu wa kazi kwa kizuizi chake.
+4. Wakati nodi inapata uthibitisho wa kazi, inatangaza kizuizi kwa nodes zote.
+5. Nodes kukubali kuzuia tu kama shughuli zote ndani yake ni halali na si tayari kutumika.
+6. Nodi zinaonyesha kukubali kwao kwa kizuizi kwa kufanya kazi katika kuunda kizuizi kinachofuata mnyororo, kwa kutumia heshi ya kizuizi kilichokubaliwa kama heshi iliyotangulia.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Nodi kila wakati huzingatia mnyororo mrefu zaidi kuwa ndio sahihi na itaendelea kufanya kazi kuipanua. Ikiwa nodi mbili zitatangaza matoleo tofauti ya kizuizi kinachofuata kwa wakati mmoja, zingine nodi zinaweza kupokea moja au nyingine kwanza. Katika kesi hiyo, wanafanya kazi kwa kwanza wao imepokelewa,  lakini hifadhi tawi lingine ikiwa litakuwa refu. Tai itavunjwa lini uthibitisho unaofuata wa kazi unapatikana na tawi moja linakuwa refu; nodi zilizokuwa
+kufanya kazi kwenye branch lingine basi itabadilika kuwa refu zaidi. Matangazo mapya ya shughuli si lazima yafikie nodi zote. Ilimradi wao kufikia nodi nyingi, wataingia kwenye kizuizi kabla ya muda mrefu. 
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Matangazo ya kuzuia pia yanastahimili ya meseji zilizodondoshwa. Ikiwa nodi haipati kizuizi, itaomba wakati inapokea block inayofuata na kugundua ilikosa moja.
 
 ## Incentive
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Kwa makubaliano, shughuli ya kwanza katika block ni shughuli maalum ambayo huanza sarafu mpya inayomilikiwa na muundaji wa block. Hii inaongeza motisha kwa nodi kusaidia mtandao, na hutoa njia ya awali ya kusambaza sarafu katika mzunguko, kwa kuwa hakuna kati mamlaka ya kuzitoa. Aidha ya kutosha ya mara kwa mara ya kiasi cha sarafu mpya ni sawa na wachimbaji dhahabu wanaotumia rasilimali kuongeza dhahabu kwenye mzunguko. Kwa upande wetu, ni Muda wa CPU na umeme unaotumika.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Motisha pia inaweza kufadhiliwa na ada za muamala. Ikiwa thamani ya pato la shughuli nichini ya thamani yake ya ingizo, tofauti ni ada ya muamala ambayo huongezwa kwa motisha thamani ya kizuizi kilicho na shughuli. Mara baada ya predetermined idadi ya sarafu na
+aliingia katika mzunguko, motisha inaweza mpito kabisa kwa ada ya manunuzi na kuwa kabisa bila mfumuko wa bei.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Motisha inaweza kusaidia kuhimiza nodi kukaa waaminifu. Ikiwa mshambuliaji mwenye tamaa anaweza kukusanyika nguvu zaidi ya CPU kuliko nodi zote za uaminifu, angelazimika kuchagua kati yakuitumia kuwalaghai watu kwa kuiba malipo yake, au kuitumia kutengeneza sarafu mpya.Anapaswa kupata faida zaidi kucheza na sheria, sheria kama hizo ambazo zinampendelea zaidi sarafu mpya kuliko kila mtu mwingine pamoja, kuliko kudhoofisha mfumo na uhalali wa utajiri wake mwenyewe.
 
-## Reclaiming Disk Space
+## Kurudisha Nafasi ya Diski
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Mara baada ya shughuli ya hivi karibuni katika sarafu kuzikwa chini ya vitalu vya kutosha, shughuli zilizotumika kabla ya kutupwa ili kuhifadhi nafasi ya diski. Ili kuwezesha hili bila kuvunja block hashi, miamala huharakishwa katika Mti wa Merkle [7][2][5], na mzizi pekee umejumuishwa kwenye hash ya block. Blocks vya zamani vinaweza kuunganishwa kwa kukata matawi ya mti. The hashes za ndani hazihitaji kuhifadhiwa. 
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Kichwa cha kuzuia kisicho na miamala kitakuwa takriban baiti 80. Ikiwa tunadhani blocks yanayotokana kila dakika 10, 80 byte * 6 * 24 * 365 = 4.2MB kwa mwaka. Na kompyuta mifumo ya kawaida inauzwa na 2GB ya RAM kama ya 2008, na Sheria ya Moore inayotabiri sasa ukuaji wa 1.2GB kwa mwaka, hifadhi haipaswi kuwa tatizo hata kama vichwa vya kuzuia vinapashwa kuwekwa kwenye kumbukumbu.
 
-## Simplified Payment Verification
+## Uthibitishaji wa Malipo Uliorahisishwa
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Inawezekana kuthibitisha malipo bila kuendesha nodi kamili ya mtandao. Mtumiaji anahitaji tu weka nakala ya vichwa vya kuzuia vya mlolongo mrefu zaidi wa uthibitisho wa kazi, ambao anaweza kupata kuhoji nodi za mtandao hadi athibitishwe kuwa ana msururu mrefu zaidi, na kupata Merkle branch linalounganisha muamala kwenye kizuizi ambacho umetiwa muhuri wa wakati. Hawezi kuangalia muamala kwa ajili yake mwenyewe, lakini kwa kuiunganisha na mahali kwenye mlolongo, anaweza kuona kwamba node ya mtandao ina iliikubali, na vizuizi vilivyoongezwa baada ya kuthibitisha zaidi mtandao umeikubali.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Kwa hivyo, uthibitishaji ni wa kuaminika mradi tu nodi za uaminifu zidhibiti mtandao, lakini ni zaidi hatarini iwapo mtandao ukizidiwa nguvu na mshambulizi. Wakati nodi za mtandao zinaweza kuthibitisha shughuli zao wenyewe, njia iliyorahisishwa inaweza kudanganywa na mshambulizi iliyoundwa shughuli kwa muda mrefu kama mshambuliaji anaweza kuendelea kuushinda mtandao. Mkakati mmoja kulinda dhidi ya hii itakuwa kukubali arifa kutoka kwa nodi za mtandao wakati wanagundua kizuizi batili, kinachosababisha programu ya mtumiaji kupakua kizuizi kamili na kuarifiwa shughuli za kuthibitisha kutokwenda. Biashara zinazopokea malipo ya mara kwa mara zitapokealabda bado wanataka kuendesha nodi zao kwa usalama huru zaidi na haraka uthibitishaji.
 
-## Combining and Splitting Value
+## Kuchanganya na Kugawanya Thamani
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Ingawa itawezekana kushughulikia sarafu kibinafsi, itakuwa ngumu kutengeneza muamala tofauti kwa kila senti katika uhamisho. Ili kuruhusu thamani kugawanywa na kuunganishwa, miamala ina pembejeo na matokeo mengi. Kwa kawaida kutakuwa na pembejeo moja kutoka kwa muamala mkubwa wa awali au pembejeo nyingi zinazochanganya kiasi kidogo, na zaidi matokeo mawili: moja kwa ajili ya malipo, na moja kurudisha mabadiliko, kama yapo, kurudi kwa mtumaji.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Ikumbukwe kwamba shabiki-nje, ambapo shughuli inategemea shughuli kadhaa, na shughuli hizo zinategemea nyingi zaidi, sio shida hapa. Kamwe hakuna haja ya toa nakala kamili ya pekee ya historia ya muamala.
 
-## Privacy
+## Faragha
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Mtindo wa kitamaduni wa benki hufikia kiwango cha faragha kwa kuzuia ufikiaji wa habari kwa pande zinazohusika na mtu wa tatu anayeaminika. Umuhimu wa kutangaza shughuli zote inazuia hadharani njia hii, lakini faragha bado inaweza kudumishwa kwa kuvunja mtiririko wa habari mahali pengine: kwa kuweka funguo za umma bila majina. Umma unaweza kuona hilo mtu anatuma kiasi kwa mtu mwingine, lakini bila maelezo ya kuunganisha muamala kwa mtu yeyote. Hii ni sawa na kiwango cha habari iliyotolewa na hisa kubadilishana, ambapo muda na ukubwa wa biashara ya mtu binafsi, "mkanda", ni kwa umma, lakini bila kueleza vyama ni akina nani.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Kama ngome ya ziada, jozi mpya ya vitufe inapaswa kutumika kwa kila shughuli ili kuziweka kutoka kwa kuhusishwa na mmiliki wa kawaida. Baadhi ya kuunganisha bado hakuwezi kuepukika kwa pembejeo nyingi shughuli, ambazo lazima zifichue kwamba pembejeo zao zilimilikiwa na mmiliki mmoja. The hatari ni kwamba ikiwa mmiliki wa ufunguo utafichuliwa, kuunganisha kunaweza kufichua miamala mingine ambayo ilikuwa ya mmiliki mmoja.
 
-## Calculations
+## Mahesabu
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Tunazingatia hali ya mshambulizi anayejaribu kutengeneza msururu mbadala kwa haraka zaidi kuliko mlolongo wa uaminifu. Hata kama hii imekamilika, haitoi mfumo wazi kwa kiholela mabadiliko, kama vile kuunda thamani kutoka kwa hewa nyembamba au kuchukua pesa ambazo hazikuwa za mshambuliaji. Nodi hazitakubali muamala batili kama malipo, na nodi za uaminifu haitakubali kamwe kizuizi kilicho nazo. Mshambulizi anaweza tu kujaribu kubadilisha moja yake shughuli za kurejesha pesa alizotumia hivi karibuni. 
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Mbio kati ya mlolongo wa uaminifu na mnyororo wa washambuliaji inaweza kuwa na sifa kama Kutembea kwa nasibu kwa Binomial. Tukio la mafanikio ni mlolongo wa uaminifu unaopanuliwa na mmoja kuzuia, ikiongeza uongozi wake kwa +1, na tukio la kutofaulu ni mlolongo wa mshambuliaji unaopanuliwa kwa block moja, kupunguza pengo kwa -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Uwezekano wa mshambuliaji kupata nakisi fulani ni sawa na Mcheza kamari.Tatizo la uharibifu. Tuseme mcheza kamari aliye na mkopo usio na kikomo anaanza na upungufu na anacheza. uwezekano wa idadi isiyo na kikomo ya majaribio ya kujaribu kufikia uvunjaji. Tunaweza kuhesabu uwezekano atawahi kufikia uvunjaji, au kwamba mshambuliaji atawahi kupatana na waaminifu mlolongo, kama ifuatavyo[8] :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -118,7 +130,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
+        <mtext>&#xA0;uwezekano wa nodi ya uaminifu hupata block</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -132,7 +144,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
+        <mtext>&#xA0;uwezekano unaofuata mshambuliaji kupata inayofuata</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -150,7 +162,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
       </mtd>
       <mtd>
         <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
+          <mtext>&#xA0;uwezekano wa mshambuliaji atawahi kupata kutoka kwa vizuizi &#xA0;</mtext>
           <mrow class="MJX-TeXAtom-ORD">
             <mi>z</mi>
           </mrow>
@@ -214,7 +226,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Kwa kuzingatia dhana yetu kwamba
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
@@ -457,9 +469,11 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Hitimisho
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Tumependekeza mfumo wa miamala ya kielektroniki bila kutegemea uaminifu. Tulianza na mfumo wa kawaida wa sarafu zilizotengenezwa kutoka kwa saini za dijiti, ambayo hutoa nguvu udhibiti wa umiliki, lakini haujakamilika bila njia ya kuzuia matumizi ya mara mbili. Kusuluhisha hili, tulipendekeza mtandao wa rika-kwa-rika kwa kutumia uthibitisho wa kazi kurekodi historia ya umma miamala ambayo haraka inakuwa isiyowezekana kwa mvamizi kubadilisha ikiwa nodi za uaminifu hudhibiti nguvu nyingi za CPU. mtandao ni imara katika unstructured yake usahili. Nodi hufanya kazi zote mara moja na uratibu mdogo. Hawahitaji
+kutambuliwa,
+kwa kuwa ujumbe hauelezwi mahali fulani mahususi na unahitaji tu kuwasilishwa kwa msingi bora wa juhudi. Nodi zinaweza kuondoka na kujiunga na mtandao kwa hiari, kukubali uthibitisho wa kazimnyororo kama uthibitisho wa kile kilichotokea wakiwa wamekwenda. Wanapiga kura kwa nguvu zao za CPU, kueleza kukubali kwao vitalu halali kwa kufanyia kazi kuvirefusha na kukataa vitalu batili kwa kukataa kuvifanyia kazi. Sheria na motisha zozote zinazohitajika zinaweza kutekelezwa na utaratibu huu wa makubaliano.
 
 ## References
 

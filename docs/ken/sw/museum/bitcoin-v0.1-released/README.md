@@ -1,68 +1,43 @@
-# Bitcoin v0.1 released
+# Bitcoin v0.1 iliyotolewa
 
-by Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
+na Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
 
 <LanguageDropdown/>
 
-Announcing the first release of Bitcoin, a new electronic cash
-system that uses a peer-to-peer network to prevent double-spending.
-It's completely decentralized with no server or central authority.
+Kutangaza toleo la kwanza la Bitcoin, mfumo mpya wa pesa wa kielektroniki unaotumia mtandao wa rika-kwa-rika ili kuzuia matumizi ya mara mbili. Ni madaraka kabisa na hakuna seva au mamlaka kuu.
 
 
-See bitcoin.org for screenshots.
+Tazama bitcoin.org kwa picha za skrini.
 
-Download link:
+Pakua kiungo:
 http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-Windows only for now.  Open source C++ code is included.
+Windows pekee kwa sasa. Msimbo wa chanzo wazi wa C++ umejumuishwa.
 
-- Unpack the files into a directory
-- Run BITCOIN.EXE
-- It automatically connects to other nodes
+- Sanidi faili kwenye saraka
+- Endesha BITCOIN.EXE
+- Inaunganisha kiotomatiki kwa nodi zingine
 
-If you can keep a node running that accepts incoming connections,
-you'll really be helping the network a lot.  Port 8333 on your
-firewall needs to be open to receive incoming connections.
+Ikiwa unaweza kuweka nodi inayofanya kazi ambayo inakubali miunganisho inayoingia, utakuwa unasaidia sana mtandao sana. Bandari ya 8333 kwenye ngome yako inahitaji kufunguliwa ili kupokea zinazoingiamiunganisho. 
 
-The software is still alpha and experimental.  There's no guarantee
-the system's state won't have to be restarted at some point if it
-becomes necessary, although I've done everything I can to build in
-extensibility and versioning.
+Programu bado ni ya alpha na ya majaribio. Hakuna hakikisho kwamba hali ya mfumo haitafanya hivyo lazima ianzishwe tena wakati fulani ikiwa itahitajika, ingawa nimefanya kila kitu nilichofanya inaweza kujenga katika upanuzi na toleo.
 
-You can get coins by getting someone to send you some, or turn on
-Options->Generate Coins to run a node and generate blocks.  I made
-the proof-of-work difficulty ridiculously easy to start with, so
-for a little while in the beginning a typical PC will be able to
-generate coins in just a few hours.  It'll get a lot harder when
-competition makes the automatic adjustment drive up the difficulty.
-Generated coins must wait 120 blocks to mature before they can be
-spent.
+Unaweza kupata sarafu kwa kupata mtu wa kukutumia, au kuwasha Chaguo-> Tengeneza
+Sarafu za kuendesha nodi na kutoa vizuizi. Nilifanya ugumu wa uthibitisho wa kazi kuwa rahisi sana kuanza na, kwa hivyo kwa muda kidogo mwanzoni PC ya kawaida itaweza kutoa sarafu masaa machache tu. Itakuwa ngumu zaidi wakati ushindani utafanya kiendeshi cha urekebishaji kiotomatiki juu ya ugumu. Sarafu zinazozalishwa lazima zingoje vitalu 120 kukomaa kabla ya kutumika.
 
-There are two ways to send money.  If the recipient is online, you
-can enter their IP address and it will connect, get a new public
-key and send the transaction with comments.  If the recipient is
-not online, it is possible to send to their Bitcoin address, which
-is a hash of their public key that they give you.  They'll receive
-the transaction the next time they connect and get the block it's
-in.  This method has the disadvantage that no comment information
-is sent, and a bit of privacy may be lost if the address is used
-multiple times, but it is a useful alternative if both users can't
-be online at the same time or the recipient can't receive incoming
-connections.
+Kuna njia mbili za kutuma pesa. Ikiwa mpokeaji yuko mtandaoni, unaweza kuingiza anwani yake ya IP na itaunganisha, pata ufunguo mpya wa umma na utume shughuli hiyo na maoni. Ikiwa mpokeaji hayuko mtandaoni, inawezekana kutuma kwa anwani yao ya Bitcoin, ambayo ni heshi yao ufunguo wa umma ambao wanakupa. Watapokea muamala wakati ujao watakapounganisha na pata kizuizi kilichomo. Mbinu hii ina hasara kwamba hakuna maelezo ya maoni yanayotumwa, na faragha kidogo inaweza kupotea ikiwa anwani inatumiwa mara nyingi, lakini ni muhimu mbadala ikiwa watumiaji wote wawili hawawezi kuwa mtandaoni kwa wakati mmoja au mpokeaji hawezi kupokea
+miunganisho inayoingia.
 
-Total circulation will be 21,000,000 coins.  It'll be distributed
-to network nodes when they make blocks, with the amount cut in half
-every 4 years.
+Mzunguko wa jumla utakuwa sarafu 21,000,000. Itasambazwa kwa nodi za mtandao wakati wao tengeneza vizuizi, na kiasi kilichokatwa kwa nusu kila baada ya miaka 4.
 
-first 4 years: 10,500,000 coins
-next 4 years: 5,250,000 coins
-next 4 years: 2,625,000 coins
-next 4 years: 1,312,500 coins
-etc...
+miaka 4 ya kwanza: sarafu 10,500,000
+miaka 4 ijayo: sarafu 5,250,000
+miaka 4 ijayo: sarafu 2,625,000
+miaka 4 ijayo: sarafu 1,312,500
+nk...
 
-When that runs out, the system can support transaction fees if
-needed.  It's based on open market competition, and there will
-probably always be nodes willing to process transactions for free.
+Hilo likiisha, mfumo unaweza kuauni ada za muamala ikihitajika. Inategemea wazi
+ushindani wa soko, na pengine daima kutakuwa na nodi zilizo tayari kushughulikia shughuli kwa bure.
 
 Satoshi Nakamoto
 

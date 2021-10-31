@@ -1,23 +1,23 @@
-# Karibu kwa Bitcoin, washiriki wapya!
+# Karibu kwenye Bitcoin, wageni!
 
 na Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Hapa kuna maswali yako yanayoulizwa mara kwa mara:
+### Haya hapa Maswali Yanayoulizwa Mara kwa Mara:
 
-Q: Ninapaswa kumwamini nani?  
-A: **Hakuna mtu.**
+Swali: Je, nimwamini nani?  
+Jibu: **Hakuna mtu.**
 
-Q: Ninapaswa kuuza lini?  
-A: **Kamwe.**
+Swali: Ninapaswa kuuzicha saha ngapi?  
+Jibu: **Kamwe.**
 
-Q: Je! Bitcoin inakufa kwa sababu ya ____?  
-A: **Hapana.**
+Swali: Je, Bitcoin inakufa kwa sababu ____?  
+Jibu: **Hapana.**
 
-Q: Nimejiingiza mwenyewe ndani?  
-A: **Hakuna anayejua.**
+Swali: Nimejiingiza kwenye nini?  
+Jibu: **Hakuna anayejua.**
 
 
-Q: Je! Ninajifunzaje zaidi?  
-A: **Tuna [utajiri wa yaliyomo hapa](/ken/sw/translations/).** Au unaweza kutembelea [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Swali: Je! Ninajifunzaje zaidi?  
+Jibu: **Tuna [utajiri wa yaliyomo hapa](/ken/sw/translations/).** Au unaweza kutembelea [lopp.net](https://www.lopp.net/bitcoin-information.html)

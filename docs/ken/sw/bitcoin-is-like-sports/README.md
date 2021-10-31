@@ -1,30 +1,30 @@
-# Bitcoin Is Like Sports
+# Bitcoin Ni Kama Michezo
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+na @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Mara nyingi nimekuwa nikielezea jinsi #bitcoin inavyofanya kazi na inagawanywa katika muktadha wa mchezo . Ninaona kuwa inasaidia kujibu maswali mengi ya kawaida:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Swali: Ni nani aliyebuni baseball?  
+Jibu: Haijalishi. Mtu yeyote duniani anaweza kucheza. Haijalishi ikiwa asili mvumbuzi anataka kubadilisha sheria au kujipa zawadi mwenyewe au kitu kingine chochote. Hatujali anachofikiria mchezo wetu.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Swali: Ni nani anayesimamia mchezo huo?  
+Jibu: Hakuna anayehusika, sote tuliamua tu kucheza. Sote tunajua na kutekeleza sheria, na ikiwa mtu hudanganya, hufukuzwa nje ya mchezo. Ikiwa mtu hujipa thawabu alama ambazo hazijapatikana, tunazipuuza tu.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Swali: Je! Tunajuaje sheria hazitabadilika?  
+Jibu: Sote tulikubaliana nao wakati tulianza kucheza, na yeyote anayetaka kuendelea kucheza na sheria hizi zitaendelea, na ikiwa mtu anataka kubadilisha, atahitaji kucheza mahali pengine.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Swali:  Je! Haiwezi kudukuliwa?  
+Jibu: Kila kitu kinaonekana hadharani. Sote tunaweza kuona uwanja mzima na alama zote. Ikiwa mtu walikuwa wakidanganya, sote tungejua na kuwaambia wapotee.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Swali: Kwa nini ina thamani ya kitu chochote?  
+Jibu: Sote tuliamua kucheza, kwa hivyo tunastahili kitu. Ikiwa mtu anataka kujiunga, watafanya hivyo lazima tukubali kutambua alama na thamani yetu.
 
-I value it, so it has value. Value is subjective.
+Ninathamini, kwa hivyo ina thamani. Thamani ni ya kibinafsi.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+Swali: Je! Haitapigwa marufuku?  
+Jibu: Labda, lakini ni watu wengine tu wanaocheza kwa fimbo na mpira, wasiumize mtu mwingine yeyote, kwa hivyo serikali inaweza labda kukuzuia uicheze, lakini hawawezi kupiga marufuku dhana ya kupiga fimbo na mpira, mchezo utaendelea mahali pengine.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Swali: Je! Nijiunge?  
+Jibu: Fanya chochote unachotaka. Ninafurahiya kucheza baseball, unaweza kujiunga au unaweza HFSP.
