@@ -136,6 +136,7 @@ module.exports = {
     themeConfig: {
         contributors: false,
         repo: 'https://github.com/exonumia-cc/exonumia',
+        docsBranch: 'master',
         repoLabel: 'Open Source',
         editLinks: true,
         docsDir: 'docs',
