@@ -1,3 +1,8 @@
+---
+translators: 
+    - 
+        name: "Happy Mahlangu"
+---
 # I-Bitcoin Ifana ne
 
 ngo Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)

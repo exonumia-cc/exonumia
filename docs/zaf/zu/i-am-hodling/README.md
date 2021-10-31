@@ -1,3 +1,12 @@
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Happy Mahlangu"
+---
 # NGIYABAMBA
 
 ngo GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)

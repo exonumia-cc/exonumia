@@ -2,6 +2,9 @@
 title: Imali Ngokwezigaba
 metaTitle: "Layered Money: Kusuka kwiGolide NamaDola kuya ku-Bitcoin Nasezimalini Zedijithali Zebhange Elikhulu"
 lang: zu
+translators: 
+    - 
+        name: "Happy Mahlangu"
 ---
 
 # Imali Ngokwezigaba: Kusuka kwiGolide NamaDola kuya ku-Bitcoin Nasezimalini Zedijithali Zebhange Elikhulu
