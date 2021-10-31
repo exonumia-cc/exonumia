@@ -1,7 +1,17 @@
 <template>
   <Layout>
-    <template #page-bottom v-if="supporters">
-      <div class="center-text">
+    <template #page-bottom v-if="supporters||translators">
+      <div class="center-text" v-if="translators">
+        <strong>{{translatorsText}}</strong>
+        <br>
+        <div v-for="translator in translators" :key="translator.name">
+          <a v-if="translator.href" :href=translator.href  target="_blank">{{translator.name}}</a>
+          <a v-else-if="translator.email" :href="'mailto:'+translator.email">{{translator.name}}</a>
+          <span v-else>{{translator.name}}</span>
+        </div>
+      </div>
+      <br v-if="supporters&&translators">
+      <div class="center-text" v-if="supporters">
         <strong>{{supportersText}}</strong>
         <br>
         <div v-for="supporter in supporters" :key="supporter.name">
@@ -27,7 +37,14 @@ export default {
     supporters() {
       const frontmatter = usePageData().value.frontmatter
       return frontmatter.supporters
-    }
+    },
+    translatorsText () {
+      return useThemeLocaleData().value.translatorsText ?? "Translators"
+    },
+    translators() {
+      const frontmatter = usePageData().value.frontmatter
+      return frontmatter.translators
+    },
   },
   components: {
     Layout,
