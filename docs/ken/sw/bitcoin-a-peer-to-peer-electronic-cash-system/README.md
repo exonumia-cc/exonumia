@@ -1,3 +1,12 @@
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Johnson Masangu"
+---
 # Bitcoin: Peer-to-Peer Fedha za elektroniki Mfumo
 
 na Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)

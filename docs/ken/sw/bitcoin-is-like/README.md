@@ -1,3 +1,12 @@
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Johnson Masangu"
+---
 # Bitcoin Ni Kama
 
 by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
