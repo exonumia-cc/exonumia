@@ -30,4 +30,4 @@ A: **Hakuna anonyatsoziva.**
 
 
 Q: Zvidzidzo zveBitcoin zvinowanikwa kupi?  
-A: **Tine [denhe reruzivo apa](/int/en/translations/).** Unokwanisa kuenda palink iyi inotevera [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **Tine [denhe reruzivo apa](/zwe/sn/translations/).** Unokwanisa kuenda palink iyi inotevera [lopp.net](https://www.lopp.net/bitcoin-information.html)

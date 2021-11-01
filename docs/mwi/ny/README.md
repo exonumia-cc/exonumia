@@ -30,4 +30,4 @@ A: **Palibe amene akudziwa.**
 
 
 Q: Ndiphuzira bwanji za mbiri?  
-A: **Tili ndi [chuma cha mbiri pano](/int/en/translations/).** Kapena mutha ku pita ku [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **Tili ndi [chuma cha mbiri pano](/zwe/ny/translations/).** Kapena mutha ku pita ku [lopp.net](https://www.lopp.net/bitcoin-information.html)
