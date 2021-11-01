@@ -14,7 +14,7 @@ na @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349
 
 <LanguageDropdown/>
 
-Ndanenguva yakareba ndichitsanangura mashandiro e#bitcoin nekuti iri decentralized ndichishandisa mitambo kubatsira tsanangudzo iyi. Zvinobatsira kupindura mibvunzo inowanzo bvunzwa:
+Ndanenguva yakareba ndichitsanangura mashandiro e#bitcoin nekuti iri decentralized (haitongwe nebato kana munhu mumwe) ndichishandisa mitambo kubatsira tsanangudzo iyi. Zvinobatsira kupindura mibvunzo inowanzo bvunzwa:
 
 Q: Ndiani akagadzira mutambo webaseball?  
 A: Hazvina basa. Munhu anoda kutamba anongotamba. Hazvina basa kuti munhu akagadzira mutambo webaseball anozoda kuchinja mitemo yekutamba kana kuti achazozvipa mapoints kana zvimwe zvinhu. Hatina basa nekuti anofungei nemutambo wedu isusu.

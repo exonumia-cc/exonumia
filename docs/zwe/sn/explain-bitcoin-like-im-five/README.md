@@ -18,7 +18,7 @@ na Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-l
 
 Chimboisa mupfungwa kuti takagara pachigaro mupark. Izuva rakanaka kwazvo.
 
-Ndakabata apuro rimwe muruoko.Ndakupa apuro randange ndakabata.
+Ndakabata apuro rimwe muruoko.Ndakupa apuro frandange ndakabata.
 
 Iwe wane apuro rimwe, inini ndasara ndisina chinhu.
 
@@ -65,7 +65,7 @@ Pamwe madigital apuro aya anofanira kucherechedzwa mubhuku remari. Iri ibhuku re
 
 Bhuku remari iri zvariri digital rinofanira kugara kumwewo kune munhu anorichengetedza.
 
-Pamwe, kunge World of Warcraft.Blizzard, vanhu vakaita mutambo wepamhepo uyu,vane “bhuku remari riri digital” pane zvese zviwanikwa zvemunharaunda yavo. Uye vanhu vakadaro vanokawnisa kuchengetedza mabhuku emari emadigital apuro aya. Ndizvozvo – pane mhinduro!
+Pamwe, kunge World of Warcraft.Blizzard, vanhu vakaita mutambo wepamhepo uyu,vane “bhuku remari riri digital” pane zvese zviwanikwa zvemunharaunda yavo. Uye vanhu vakadaro vanokwanisa kuchengetedza mabhuku emari emadigital apuro aya. Ndizvozvo – pane mhinduro!
 
 ### Zvinonetsa
 
@@ -83,7 +83,7 @@ Ko tikapa bhuku remari iri – ku vanhu vese? Pane kuti bhuku remari iri richeng
 
 Haukwanise kuitsotsa. Handikwanise kukutumira madigital apuro andisina, nokuti hazvizoringana nevanhu vese varikushandisa bhuku remari riri pamacomputer avo. Zvinonetsa kutsotsa bhuku remari iri kana zvadai. Kunyanya kana bhuku remari rawandirwa nevanhu.
 
-Izvi zvinoreva kuti bhuku remari harichachengetwa nemunhu mumwe, uye zvakureva kuti hapana munhu anokwanisa kuzvipamidzira madigital apuro anopfurikidza arimo mubhuku remari. Mirairo wekushandisa bhuku remari iri waiswa kare. Mirairo yacho inowanikwa pese pamhepo. Vanhu vaneruzivo vanokwanisa kupamidzira, kuchengetedza nekucherechedza.
+Izvi zvinoreva kuti bhuku remari harichachengetwa nemunhu mumwe, uye zvakureva kuti hapana munhu anokwanisa kuzvipamidzira madigital apuro anopfurikidza arimo mubhuku remari. Mirairo wekushandisa bhuku remari iri waiswa kare. Mirairo yacho inowanikwa pese pamhepo. Vanhu vane ruzivo vanokwanisa kupamidzira, kuchengetedza nekucherechedza.
 
 Iwewe unokwanisa kuva vamwe vevanhu vanoshandisa bhuku remari iri woongorora kuti zviri kuringana here. Kana wakwanisa kubatsira mashandisiro ebhuku remari iri ukabudirira unokwanisa kupihwa muripo we maapuro makumi maviri neshanu(25). Iyi ndoyega nzira yekupamidzira maapuro anobvumidzwa kuvapo mubhuku remari.
 
