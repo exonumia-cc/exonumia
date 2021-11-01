@@ -2,6 +2,7 @@
 translators: 
     - 
         name: "Tebogo Makgakga"
+        href: "https://www.instagram.com/ngomayatebo/"
 supporters: 
     - 
         name: "BitMEX"
