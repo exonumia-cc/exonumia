@@ -1,4 +1,7 @@
 ---
+translators: 
+    - 
+        name: "Tebogo Makgakga"
 supporters: 
     - 
         name: "BitMEX"
