@@ -1,109 +1,113 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+# Bitcoin: System ye kupanana mari iri electronic pahushamwari (Peer-to-Peer Electronic Cash System)
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+na Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
 ## Abstract
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Kupanana kwe mari iri electronic pahushamwari kunoita kuti kubhadhara pamhepo kuitike kubva kune munhu mumwe zvichienda kune mumwe pasina kuenda kune bato rezvemari.Madigitial signatures anobatsira,asi tinorasikirwa nekunaka kwekuva nemunhu wechitatu anovimbika kutarisa kuti kushandisa mari kaviri hakuitike. Tinofunga kuti mhinduro yekunetsa kwekushandisa kaviri kunoitwa nekupanana nenzira yeshamwari-ku-shamwari(peer-to-peer).Network inoshandisa timestamps transaction nenzira yekumabatanidza kuita chain iri hash-based,ichigadzira record isingazoshandurwa pasina kuita proof-of-work zvakare. Chain yakareba kupfura ese ndoinomirira proof yezvese zvaitika uyezve inomirira kuti yakabva papool ikuru inobva paCPU.Kana simba rakanyanya richitongwa nemanodes asiri kushanda kuvhiringidza network,inogadzira chain yakareba kuti ikunde varikuedza kuikwadza.Network yacho inofanira kuva ne minimal structure.Tsamba dzinotumirwa pa best effort basis,manodes anobva achidzotserwa panetwork paanodira,achibvumira proof-of-work yakarebesa seproof yezvakaitika aenda.
 
-## Introduction
+## Mavambo
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Kutenga nekutengeserana(commerce) painternet inofanira kushandisa mapato anoona nezvemari(financial institutions) anoshanda sevanhu vakavimbika kuita kuti kubhadhara pamhepo kuitike.System iyi inoshanda pamatransactions akawanda zvakanaka,asi pachine matambudziko anouya nekushandisa trust based model.Matransactions asingadzoserwe (non-reversible) haakwanise kusavapo zvachose,sezvo mapato emari(financial institutions) haakwanise kurega kugadzirisa kusawirirana kungaitike.Kugadzirisa kusawirirana kungavapo kunokwidza mitengo yekuita matransactions,zvichiita kuti kuderera kwemitengo wematransactions kunetse,uye kuite kuti mikana wematransactions madiki asavapo.Kune kunetsekana kwakanyanya kunouya nekusavapo kwematransactions asingadzoserwe nemaservices asingadzoserwe.Mikana yekudzosera matransactions kunoreva kuti kuvimbika kunofanira kuvapo.Vanotengesa vanofanira kugamuchira kuti vatengi  vachavakumbira ruzivo runopfurikidza ravanofanira kunge vachipihwa.Pane chidimbu chehutsotsi hunotarisirwa kuitika,uye chinhu chatinofanira kugamuchira.Matambudziko akaita seaya haawanikwe kana wakatenga zvinhu panzvimbo nemari yebepa,asi hapana mechanism inoita kuti kutenga pacommunications channel pasina munhu akavimbika.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Chinodiwa isystem yekubhadhara pamhepo(electronic payment system) pa cryptographic proof pane kuregera vanhu vaviri vanoda havo kutenga kana kutengeserana pasina munhu wechitatu(third party).Matransactions asingakwanise kudzoserwa anobatsira vanotengesa kuti vasabirwe,uye maroutine escrow mechanisma anokwanisa kuiswa kuti vanotenga vasabirwewo.Mubepa rino,tinoedza kupa mhinduro kukushandisa kaviri(double-spending) tichishandisa shamwari-ku-shamwari(peer-to-peer) distributed timestamp server kuti igadzire computatitonal proof ye chronological order of transactions. System yakachengetedzeka chero paine mahonest nodes anoshanda pamwe kushandisa CPU power yakawanda pane chero bato remaattacker nodes.
 
-## Transactions
+## Matransactions (Kutenga nekutengerwa)
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Electronic coin ichain yemadigital signatures.Muridzi wega wega anotumira coin kune mumwe digitally nekusaina hash yetransaction yaitika ne public key yemuridzi achateera achizomapamidzira  kwekupedzisira kwecoin.Munhu abhadhara(payee) anokwanisa kuongorora masignatures aya nekutarisa chain yevaridzi vacho.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Dambudziko riripo nderekuti munhu abhadhara haakwanise kuona kuti mumwe wevaridzi haana kutenga kana kutengesa coin racho kaviri.Mhinduro inowanzo kushandiswa kuva nebato rakavimbika,bato rinogadzira macoins(mint),rinotarisa transaction yekushandisa kaviri kwese kunoitwa. Panopera transaction ipi ne ipi,coin inofanira kudzoserwa kunebato rinogadzira macoins(mint) kuti coin itsva ipihwe,zvichireva kuti macoins abva kubato rinogadzira macoins(mint) ndoanotarisirwa kuti haana kushandiswa kaviri(double-spent).Zvinonetsera mhinduro iyi ndezvekuti bato rezvemari rinovimba nebato rinogadzira macoins(mint),sezvo transaction yega yega ichifanira kutanga yaenda kwavari,sebhanga.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Tinofanira kuwana nzira yekuti munhu abhadhara azive kuti vaimbova varidzi havana kunge vasaina mamwe matransactions kumwe. Kuti zvisanetse,transaction yekutanga ndiyo inebasa, saka hatina basa neanozoshandiswa kaviri. Nzira yekuziva kuti pane transaction isipo,kuziva matransactions ese aripo.Mumint based model,bato rinogadzira macoins(mint) rangarichiziva matransactions ese aitika.Kuti matransactions aitwe pasina bato rakavimbika,matransactions anofanira kuziviswa kuvanhu vese [1],uye kunofanira kuva nesystem yekuti vanoita matransactions vabvumirane pane ruzivo rwekare rumwe(single history) maererano nekuuya kwazvikaita. Munhu abhadhara anofanira kunge aine zvinoratidza kuti panguva yetransaction ipi ne ipi, manodes mazhinji abvuma kuti ndiyo transaction yekutanga.
 
 ## Timestamp Server
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Mhinduro yatauya nayo inotanga netimestamp server.Timestamp server inoshanda nekutora hash yeblock yezvinhu zvichaiswa matimesamps nekuisa hash kwese,kunge mubepanhau kana Usenet post[2-5].Timestamp yega yega ine timestamp yekare muhash mayo,inozogadzira chain,netimestamp yese ichazoiswa kutsigira angaripo kare.
 
 ![](./timestamp-server.svg)
 
 ## Proof of Work
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Kuisa distributed timestamp server pa shamwari-ku-shamwari(peer-to-peer) basis,tinofanira kushandisa proof-of-work system yakafanana neAdam Back's Hashcash[6],kunze kwebepanhau kana maUsenet posts.Proof-of-work inosanganisira kuscanner hashed value,sekunge ne SHA-256,hash inotanga nemazero bits. Basa rinotarisirwa kuitwa rinoramba richiwedzera(exponential) mazero bits anodiwa uye kunoongororwa nekuexecuter single hash.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Patimestamp network,tinoisa proof-of-work nekupamidzira nonce mublock kusvikira value inopa mazero bits kuhash yeblock yawanikwa.Kana mabasa ese eCPU ashandiswa paproof-of-work,block haichakwanise kushandurwa pasina kugadzirwa basa(work) pakare. Kana mablocks anotevera  abatanidzwa, basa  rinozoitwa kushandura block rinoda kuti mablock ese agadzirwe patsva.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Proof-of-work inobatsira nyaya yekuwana kumiririrwa musarudzo yevazhinji.Kana vazhinji vari paone-IP-address-one-vote, inokwaniswa kuchinjwa nemunhu anokwanisa kupa maIPs akawanda. Proof-of-work itongori one-CPU-one-vote.Sarudzo yevazhinji inomiririrwa nechain yakareba pane ese, inova ndiyo inemabasa akawanda akaitwa pairi.Kana CPU power yakanyanya ichitongwa nemahonest nodes,honest chain ichakura nekukurumidza kupfura mamwe machain anokwikwidza.Kuti block yekare ishandurwe,attacker(mhandu) inofanira kugadzira proof-of-work yeblock pakare,nemablock ese anozotevera achipfurira basa remahonest nodes. Tichazoratidza kuti probability yemhandu inononoka kuti ibatane nevamwe inoderera zvakanyanya pese panopamidzirwa mablocks mamwe.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Kudzosera kukwira kwehardware speed neinterest inochinja mumanodes panopfura chinguva,kuoma kweproof-of-work kunobva pane moving average targeting tichitarisa huwandu hwemablocks pa awa. Kana achigadzirwa nekukurumidza,kuoma kwacho kunonyanya.
 
-## Network
+## Pamhepo (Network)
 
-The steps to run the network are as follows:
+Zvinhu zvekuita kuti network ishande:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Matransactions matsva anotumirwa kune manodes ese.
+2. Node yega yega inotora matransactions matsva oisa mublock itsva.
+3. Node yega yega inoshanda kutsvaga proof-of-work pablock yayo.
+4. Node painowana proof-of-work,inomatumira block kumanodes ese.
+5. Manodes anobvuma block kana matransactions ese arimairi ari echokwadi uye asina kumboshandiswa kare.
+6. Manodes anoratidza kuti abvuma block nekugadzira block rimwe muchain,ichishandisa hash yakabvumwa sehash yakare.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Manodes anoona chain yakareba pane ese kuva chaiyo yairi kutsvaga saka inoramba ichishanda kuiwedzera. Kana manodes maviri akatumira maversion eblock inotevera akasiyana panguva imwe,mamwe manodes anowana imwe kana imwe yacho pekutanga.Kana izvi zvaitika node inoshanda pane block yayatanga kuwana,ichizochengeta rimwe sanzu racho kuitira rikazoreba kupfura rarashandira.Kuenzana kwemasanzu aya kunopera apo panobuda proof-of-work inotevera poonekwa kuti sanzu rimwe rakareba kupfura rimwe; manodes angaachishanda pane sanzu rimwe racho anobva atanga kushanda pane rakareba racho.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Matransactions matsva anotumirwa haatarisirwe kusvika kumanodes ese.Chero akasvika kumanodes mazhinji,anozongoenda mublock.Mablock broadcasts anobvumira ma dropped messages(tsamba dzadonhedzwa).Kana node yakasawana block, inoikumbira kana yawana block inotevera yoona kuti yangaisina kupihwa imwe block munguva yapfura.
 
 ## Incentive
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Mumaitiro anowanzoitika, transaction yekutanga mublock yakakosha sezvo iriyo inogadzira coin itsva yemunhu anogadzira block itsva. Izvi zvinopa mukana kune manodes kuti atsigire network,achizopa nzira yekuti macoin achiiswa munharaunda iyi,sezvo pasina bato rinoita izvozvo.Kuiswa kwemacoins matsva apo neapo zvakangofanana nekuwedzera kwezvinhu zvinoshandiswa kuchera goridhe navanochera goridhe kuwedzera goridhe munharaunda yavo. Apa,inguva yeCPU nemagetsi ndozvinoshandiswa.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Nzira yekugadzira macoins matsva (Incentive) inobhadharwa nemitengo wekuita matransactions.Kana value yabuda patransaction iri shoma pane value yaiswa patransaction,musiyano wacho ndomutengo wekuita transaction unozoiswa paincentive value ye block inenge ine transaction yacho.Kana macoins anotarisirwa kuvapo amo munharaunda iyi,incentive inenge yakukwanisa kushandisirwa mitengo yekuita matransactions chete ,pasina kukwira kwemitengo yekuita matransactions acho.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Incentive inokwanisa kubatsira manodes kuti arambe achiita zvinhu pachokwadi. Kana attacker inokara yakawana CPU power kukunda manodes ari pachokwadi, inofanira kusarudza pakati pekushandisa simba iri kubira vanhu ichiba zvakabhadharwa,kana kuti inogadzira macoins matsva. Zvirinani kuti ione kuti zvinobatsira munhu wese kuita zviri pamutemo,sezvo mitemo iyi inozomupa macoins matsva akawanda kupfura emunhu wese akabatanidzwa,pane kusvora system nehuremu hwepfuma yayo.
 
-## Reclaiming Disk Space
+## Kutora Disk Space pakare
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Kana transaction yenguva iyoyi irimucoin yaiswa pasi pemablock angaachitarisirwa akwana, matransactions ekare anokwanisa kuchiraswa hawo kuitira kuti disk space iwande. Kuita izvi tisina kudambura hash yeblock,matransactions  anoitwa hashed muMerkle Tree[7][2][5],pachiiswa midzi chete muhash yeblock.Mablocks ekare anokwanisa  kuderedzwa(compacted) nekubviswa masanzu pamuti.Hazvina basa kana mahashes emukati akasachengetwa.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Block header isina matransactions ine 80 bytes. Tongoti mablocks anogadzirwa maminitsi makumi ega ega,80bytes*6*24*365 = 4.2MB pagore.Macomputer system anowanzotengeswa aine 2GB ye RAM kubva muna 2008,ne Moore's Law ichitarisira kuwedzera ne 1.2GB pagore,pekuchengetera hapanetse chero mablock headers achifanira kuchengetedzwa mundangariro(memory). 
 
-## Simplified Payment Verification
+## Kutarisa zvabhadharwa kwakareruka(Simplified Payment Verification)
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Zvirinyore kubvumira kuti chinhu chibhadharwe pasina kushandisa network node yakazara.Munhu anoshandisa network anofanira kungochengeta copy yemablock headers yeproof-of-work chain yakareba pane ese aripo,yaanokwanisa kuwana nekugadzira manetwork kusvikira aona kuti agadzira chain yakareba pane ese,achiwana sanzu reMerkle achizobatanidzatransaction kutimestamped block.Haakwanise kucherechedza transaction yake ega,asi pakubatanidza pachain,anoona kuti network node yaibvuma,uyezve mablocks anozopamidzirwa anoratidza kuti network yaibvuma.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Zvinoreva kuti verification yakavimbika kana mahonest nodes ariwo arikutonga zvenetwork,asi inononetsa kana yakakurirwa neattacker(mhandu). Sezvo manetwork nodes achikwanisa kuzvitarisirira manetwork nodes pachavo,nzira yakareruka yacho inokwanisa kutsotswa nematransactions ekunyepera eattacker kana attacker ichikwanisa kukurira network. Mhinduro inobatsira pakadai ndeye kugamuchira zviziviso zvemanetwork nodes panoonekwa kuti block nderekunyepera,zvichiita kuti munhu anoshandisa software atore full block nematransactions akaziviswa kucherechedza kusaerana kwacho.Mabhizimisi anowana mibhadharo yakawanda anenge achida kushandisa manodes awo kuitira kuzvitarisira kuti zvinhu zvaitwa nekukurumidza. 
 
-## Combining and Splitting Value
+## Kubatanidza nekupatsanura huremu (Combining and Splitting Value)
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Macoins anokwanisa kuchengetwa akapatsanurwa serimwe nerimwe,zvinozonetsa kuti transaction yecent imwe neimwe iiswe payo yega. Kuita kuti huremu hupatsanurwe nekubatanidzwa kuitike,matransactions ane mainputs ne maoutputs akawanda. Kazhinji pane input imwe inobva kune transaction ikuru pane iripo kana kuti mainputs madiki akabatanidzwa,zvichigumira pa mainputs maviri: imwe input inenge iri yekubhadharwa kwaitwa,imwe iri yezvasara pabhadharwa,kana paine zvasara,kudzosera atumira. 
+
+
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Zvinofanira kuziikanwa kuti fan-out, iyo ine transaction inotsigirwa nemamwe matransactions,matransactions iwayo achitsigirwa nemamwewo, hainetse  pakadai.Hapana chingaite kuti ruzivo rwese rwezvakaitika patransaction rutorwe.
 
-## Privacy
+## Kuchengetedzwa kweruzivo rwematransactions aitika
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Bhanga rinokwanisa kuchengetedza ruzivo rwematransactions anenge aitika,rinokwanisa kuita izvi nekungozivisa vanhu vaita matransactions aya chete nebato rakavimbika rechitatu.Kuzivisa vanhu vese matransactions aitwa kunofanira kuchiitwa kunonetsa kuzoita kana machengeterwe eruzivo rwematransactions kukaitwa nenzira yebhanga,asi kuchengetedzeka uku kunokwanisa kuitwa kana mafambiro eruzivo urwu ukapatsanurwa pamwe:kuita kuti mapublic keys asaziikanwe zvachose. Ruzhinji runokwanisa kuona kuti pane munhu akutumira mari kune mumwe,asi pasina ruzivo rwekuti ndiani  atumira kana kutumirwa.Izvi zvakangofanana neruzivo runoziikanwa kumastock exchanges,uko nguva nesize yekutenga kana kutengeswa ,"tape",inoziviswa ruzhinji,asi pasina kuiswa mazita evanhu vatenga kana kutengesa mastocks.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Kupamidzira kusimba kwekuchengetedza ruzivo, key pair itsva inofanira kushandiswa patransaction imwe ne mimwe kuitira kuti muridzi wayo asazozivikanwa. Kuziva muridzi wekey kunokwanisa kuzozivikanwa nemamulti-input transactions ayo anoratidza kuti mainputs aiva ani. Dambudziko riripo nderekuti kana muridzi wekey akuzivikanwa,kubatanidza kunoita kuti mamwe matransactions emunhu akuzivikanwa azivikanwe zvakare.
 
 ## Calculations
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Takutarisa chiitiko cheattacker(mhandu) irikuedza kugadzira chain imwewo inokurumidza  kudarika honest chain. Chero zvikaitika sekudaro, hazvirevi kuti system inokwanisa kungoshandurwa,sekungogadzira huremu hunongobva kusingaziikanwe kana kutora mari isina kumbobvira yave yeattacker.Manodes haagamuchire transaction yenhando semubhadharo,uyezve mahonest nodes haambo gamuchire block ine matrasanctions enhando.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Attacker inokwanisa kungochinja transaction yayo chete kutora mari yayakamboshandisa pasina nguva yakawanda yapfura. Makwikwi ari pakati peattacker chain nehonest chain yakangofanana ne Binomial Random Walk. Kubudirira kwechiitiko ndokupamidzirwa kwehonest chain neblock rimwe,ichienda mberi ne+1,kukundikana kwe chiitiko ndokupamidzirwa kwe attacker chain neblock rimwe,ichidzosera chain kumashure ne -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Mukana wekuti attacker iringane nemamwe machains kubva kumashure kwakangofanana ne Gambler's Ruin problem. Tongoti gambler ane chikwereti chisingaperi anotanga asina mari otamba kasingaperi kusvikira akwanisa kuwana mari yaakatamba.
+ 
+Tinogona kuongorora mukana wekuti haazombowane mari yaakabheja,kana kuti attacker inokwanisa kuzosvika panhanho yehonest chain,seizvi[8]::
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -118,7 +122,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
+        <mtext>&#xA0;mukana wekuti honest node inowana block inotevera</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -132,7 +136,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
+        <mtext>&#xA0;mukana wekuti attacker node inowana block inotevera</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -150,11 +154,11 @@ The probability of an attacker catching up from a given deficit is analogous to 
       </mtd>
       <mtd>
         <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
+          <mtext>&#xA0;mukana wekuti attacker node icharingana honest node ichibva kumashure ne z&#xA0;</mtext>
           <mrow class="MJX-TeXAtom-ORD">
             <mi>z</mi>
           </mrow>
-          <mtext>&#xA0;blocks behind</mtext>
+          <mtext>&#xA0;blocks</mtext>
         </mrow>
       </mtd>
     </mtr>
@@ -177,7 +181,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
           </mtd>
           <mtd>
             <mrow class="MJX-TeXAtom-ORD">
-              <mtext class="MJX-tex-mathit" mathvariant="italic">if</mtext>
+              <mtext class="MJX-tex-mathit" mathvariant="italic">kana</mtext>
             </mrow>
             <mspace width="thickmathspace" />
             <mi>p</mi>
@@ -200,7 +204,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
           </mtd>
           <mtd>
             <mrow class="MJX-TeXAtom-ORD">
-              <mtext class="MJX-tex-mathit" mathvariant="italic">if</mtext>
+              <mtext class="MJX-tex-mathit" mathvariant="italic">kana</mtext>
             </mrow>
             <mspace width="thickmathspace" />
             <mi>p</mi>
@@ -214,21 +218,20 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Zvichibva pakuti tati
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
 
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+, Mukana uyu unoderera nekukurumidza zvakanyanya apo mablocks ekuti attacker izoita kuti iringane nemahonest chains achipamidzirwa. Sezvo paine mukana mudiki chaizvo wekuti attacker node inozosvika pane mahonest nodes,kana ikasawana rombo rakanaka rwekuenda mberi pekutanga ,mukana uyu unoramba uchiita hudiki kuti ichazosvikako.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Takutarisa kuti munhu arikutumirwa transaction itsva anomira nguva yakareba sei kuti azoziva zvechokwadi kuti munhu atumira haachakwanise kuchinja transaction. Tinongotora kuti munhu atumira ndiye attacker irikuda kuti munhu arikutumirwa ave nechivimbo chekuti abhadharwa kwenguva irefu,ozozvichinja kuti azozvitumira pakare kana pane chinguva chapfura.Munhu atumirwa anozoziviswa kana zvazoitika,asi munhu atumira anongotarisira kuti zvinenge zvisisina basa.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
+Munhu atumirwa anogadzira key pair itsva opa public key kune munhu amutumira achizosaina kana apedza izvozvo. Izvi zvinoita kuti munhu atumira asazogadzira chain yemablocks nguva isati yakwana nekushanda paari kusvikira azokwanisa kuenda mberi, achizoita transaction panguva iyoyo.
 
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Kana transaction yatotumirwa,uyu anotumira asiri pachokwadi anotanga kushanda muchihwande pa parallel chain inenge ine transaction yake yenhando. Munhu anotumirwa anozomirira kuti transaction iyi ipamidzirwe kune rimwe block uye kuti ma blocks z azopamidzirwa pamusoro. Haazive mafambiro ekugadzira mablocks kwaitwa neattacker,asi kana tikati mahonest blocks atora nguva iri pakati pemashandiro anoitwa nemanodes ese kugadzira block,kubudirira kwe attacker kunoenderana ne value inotarisirwa ne Poisson distribution:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -242,7 +245,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Kuti tizowana mukana wekuti attacker ichazosvika pane mahonest nodes izvezvi,tino multiplier Poisson density ye mashandiro abudirira ese nemukana wekuti achasvika pane mahonest nodes panguva inoyi: 
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -457,9 +460,13 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Magumo
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Tataura nezve system ye maelectronic transactions tisingatarise kuvimbika kwawo. 
+Tatanga ne zvemacoins ane madigital signatures,anopa muridzi kuchengetedza kwemacoin kwakazara,asi hazvina kunyatsokwana kana pasina mhinduro yedambudziko rekushandisa kaviri(double spending).Mhinduro yatakapa kudambudziko rekushandisa kaviri ,yangairi network yehushamwari-ku-shamwari ichishandisa proof-of-work kuisa matransactions akaitika kare kuruzhinji zvichizodzivirira kushandurwa kwayo neattacker kana mahonest nodes aine masimba mazhinji pamusoro peCPU.
+
+Network yakasimba nemavakirwo akarareruka ayakaitwa.Manodes anoshanda pamwe chete pasina kurongwa kwakanyanya.Manodes aya haatarisirwe kuti azivikanwe,sezvo tsamba dzacho dzisingaendeswe kune nzvimbo imwe asi dzichifanira kuendeswa pabest effort basis. Manodes anokwanisa kubva achidzoka panetwork paadira,achigamuchira proof-of-work chain sechiitiko chezvaitika paangasisipo.Manodes anosarudza achishandisa simba reCPU yayo,achishandisa kugamuchira kwaaita  mablocks echokwadi nekushanda pakumapamidzira nekuramba mablocks enhando nenzira yekuramba kushanda paari.Mirairo inoda kuteedzerwa inokwanisa kuiswa nekubvumirana kweruzhinji kuripo.
+
 
 ## References
 
