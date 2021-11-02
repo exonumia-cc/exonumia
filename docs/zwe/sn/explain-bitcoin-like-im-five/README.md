@@ -20,7 +20,7 @@ na Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-l
 
 Chimboisa mupfungwa kuti takagara pachigaro mupark. Izuva rakanaka kwazvo.
 
-Ndakabata apuro rimwe muruoko.Ndakupa apuro frandange ndakabata.
+Ndakabata apuro rimwe muruoko.Ndakupa apuro randange ndakabata.
 
 Iwe wane apuro rimwe, inini ndasara ndisina chinhu.
 

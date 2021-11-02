@@ -53,7 +53,7 @@ Zvinhu zvekuita kuti network ishande:
 5. Manodes anobvuma block kana matransactions ese arimairi ari echokwadi uye asina kumboshandiswa kare.
 6. Manodes anoratidza kuti abvuma block nekugadzira block rimwe muchain,ichishandisa hash yakabvumwa sehash yakare.
 
-Manodes anoona chain yakareba pane ese kuva chaiyo yairi kutsvaga saka inoramba ichishanda kuiwedzera. Kana manodes maviri akatumira maversion eblock inotevera akasiyana panguva imwe,mamwe manodes anowana imwe kana imwe yacho pekutanga.Kana izvi zvaitika node inoshanda pane block yayatanga kuwana,ichizochengeta rimwe sanzu racho kuitira rikazoreba kupfura rarashandira.Kuenzana kwemasanzu aya kunopera apo panobuda proof-of-work inotevera poonekwa kuti sanzu rimwe rakareba kupfura rimwe; manodes angaachishanda pane sanzu rimwe racho anobva atanga kushanda pane rakareba racho.
+Manodes anoona chain yakareba pane ese kuva chaiyo yairi kutsvaga saka inoramba ichishanda kuiwedzera. Kana manodes maviri akatumira maversion eblock inotevera akasiyana panguva imwe,mamwe manodes anowana imwe kana imwe yacho pekutanga.Kana izvi zvaitika node inoshanda pane block yayatanga kuwana,ichizochengeta rimwe sanzu racho kuitira rikazoreba kupfura rarashandira.Kuenzana kwemasanzu aya kunopera apo panobuda proof-of-work inotevera poonekwa kuti sanzu rimwe rakareba kupfura rimwe; manodes anga achishanda pane sanzu rimwe racho anobva atanga kushanda pane rakareba racho.
 
 Matransactions matsva anotumirwa haatarisirwe kusvika kumanodes ese.Chero akasvika kumanodes mazhinji,anozongoenda mublock.Mablock broadcasts anobvumira ma dropped messages(tsamba dzadonhedzwa).Kana node yakasawana block, inoikumbira kana yawana block inotevera yoona kuti yangaisina kupihwa imwe block munguva yapfura.
 
@@ -79,7 +79,7 @@ Zvirinyore kubvumira kuti chinhu chibhadharwe pasina kushandisa network node yak
 
 ![](./simplified-payment-verification.svg)
 
-Zvinoreva kuti verification yakavimbika kana mahonest nodes ariwo arikutonga zvenetwork,asi inononetsa kana yakakurirwa neattacker(mhandu). Sezvo manetwork nodes achikwanisa kuzvitarisirira manetwork nodes pachavo,nzira yakareruka yacho inokwanisa kutsotswa nematransactions ekunyepera eattacker kana attacker ichikwanisa kukurira network. Mhinduro inobatsira pakadai ndeye kugamuchira zviziviso zvemanetwork nodes panoonekwa kuti block nderekunyepera,zvichiita kuti munhu anoshandisa software atore full block nematransactions akaziviswa kucherechedza kusaerana kwacho.Mabhizimisi anowana mibhadharo yakawanda anenge achida kushandisa manodes awo kuitira kuzvitarisira kuti zvinhu zvaitwa nekukurumidza. 
+Zvinoreva kuti verification yakavimbika kana mahonest nodes ariwo arikutonga zvenetwork,asi inonetsa kana yakakurirwa neattacker(mhandu). Sezvo manetwork nodes achikwanisa kuzvitarisirira manetwork nodes pachavo,nzira yakareruka yacho inokwanisa kutsotswa nematransactions ekunyepera eattacker kana attacker ichikwanisa kukurira network. Mhinduro inobatsira pakadai ndeye kugamuchira zviziviso zvemanetwork nodes panoonekwa kuti block nderekunyepera,zvichiita kuti munhu anoshandisa software atore full block nematransactions akaziviswa kucherechedza kusaerana kwacho.Mabhizimisi anowana mibhadharo yakawanda anenge achida kushandisa manodes awo kuitira kuzvitarisira kuti zvinhu zvaitwa nekukurumidza. 
 
 ## Kubatanidza nekupatsanura huremu (Combining and Splitting Value)
 
@@ -93,7 +93,7 @@ Zvinofanira kuziikanwa kuti fan-out, iyo ine transaction inotsigirwa nemamwe mat
 
 ## Kuchengetedzwa kweruzivo rwematransactions aitika
 
-Bhanga rinokwanisa kuchengetedza ruzivo rwematransactions anenge aitika,rinokwanisa kuita izvi nekungozivisa vanhu vaita matransactions aya chete nebato rakavimbika rechitatu.Kuzivisa vanhu vese matransactions aitwa kunofanira kuchiitwa kunonetsa kuzoita kana machengeterwe eruzivo rwematransactions kukaitwa nenzira yebhanga,asi kuchengetedzeka uku kunokwanisa kuitwa kana mafambiro eruzivo urwu ukapatsanurwa pamwe:kuita kuti mapublic keys asaziikanwe zvachose. Ruzhinji runokwanisa kuona kuti pane munhu akutumira mari kune mumwe,asi pasina ruzivo rwekuti ndiani  atumira kana kutumirwa.Izvi zvakangofanana neruzivo runoziikanwa kumastock exchanges,uko nguva nesize yekutenga kana kutengeswa ,"tape",inoziviswa ruzhinji,asi pasina kuiswa mazita evanhu vatenga kana kutengesa mastocks.
+Bhanga rinokwanisa kuchengetedza ruzivo rwematransactions anenge aitika,rinokwanisa kuita izvi nekungozivisa vanhu vaita matransactions aya chete nebato rakavimbika rechitatu.Kuzivisa vanhu vese matransactions aitwa kunofanira kuchiitwa kunonetsa kuzoita kana machengeterwo eruzivo rwematransactions kukaitwa nenzira yebhanga,asi kuchengetedzeka uku kunokwanisa kuitwa kana mafambiro eruzivo urwu ukapatsanurwa pamwe:kuita kuti mapublic keys asaziikanwe zvachose. Ruzhinji runokwanisa kuona kuti pane munhu akutumira mari kune mumwe,asi pasina ruzivo rwekuti ndiani  atumira kana kutumirwa.Izvi zvakangofanana neruzivo runoziikanwa kumastock exchanges,uko nguva nesize yekutenga kana kutengeswa ,"tape",inoziviswa ruzhinji,asi pasina kuiswa mazita evanhu vatenga kana kutengesa mastocks.
 
 ![](./privacy.svg)
 
