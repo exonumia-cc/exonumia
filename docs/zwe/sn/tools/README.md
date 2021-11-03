@@ -7,7 +7,7 @@
 
 Cost Averaging (Dollar Cost Averaging) Bitcoin is an accumulation strategy that involves buying a set value of Bitcoin Bitcoin at regular intervals over a long term period.
 
-The Exonumia project is working on a [cost averaging calculator](https://exonumia.cc/cabtc/) which uses historically available data on Bitcoins price vs currency pairs across the African continent.  
+The Exonumia project is working on a [cost averaging calculator](https://exonumia.africa/cabtc/) which uses historically available data on Bitcoins price vs currency pairs across the African continent.  
 
 ## Bitcoin Calendar
 

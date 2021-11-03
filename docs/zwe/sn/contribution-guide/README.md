@@ -8,7 +8,7 @@ If you would like to contribute changes via text or email DM [@exonumia280](http
 
 The [Exonumia repo is hosted on github](https://github.com/exonumia-cc/exonumia). If you would like to contribute you would need a github account to submit a Pull Request with the changes you would like to see.
 
-Once your pull request gets merged into the master branch your changes will get auto deployed to the [exonumia.cc](https://exonumia.cc) site.
+Once your pull request gets merged into the master branch your changes will get auto deployed to the [exonumia.africa](https://exonumia.africa) site.
 
 ### Note
 
