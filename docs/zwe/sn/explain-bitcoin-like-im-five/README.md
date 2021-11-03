@@ -20,7 +20,7 @@ na Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-l
 
 Chimboisa mupfungwa kuti takagara pachigaro mupark. Izuva rakanaka kwazvo.
 
-Ndakabata apuro rimwe muruoko.Ndakupa apuro randange ndakabata.
+Ndakabata apuro rimwe muruoko. Ndakupa apuro randange ndakabata.
 
 Iwe wane apuro rimwe, inini ndasara ndisina chinhu.
 
@@ -30,23 +30,23 @@ Wazvinzwisisa here?
 
 Apuro iri ndatambidzwa muruoko.
 
-Unoziva kuti zvaitika. Ndanga ndiripo.Iwewe wangauripowo. Waribata ukaritambira.
+Unoziva kuti zvaitika. Ndanga ndiripo. Iwewe wangauripowo. Waribata ukaritambira.
 
 Panga pasina mumwe munhu anotibatsira kutambidzana apuro iri. Panga pasina sekuru kana maiguru (hapana chizivano) vagara nesu vakatiudza kuti apuro riya rabva kwandiri rikapihwa iwewe. 
 
 Apuro raarako! Handichakwanise kukupa rimwe nokuti inini handisisina apuro. Handisisina masimba pamusoro peapuro iroro. Apuro iri raarako zvichireva kuti inini handisisina masimba pamusoro peapuro iri. Iwewe ndiwe wane masimba ese pamusoro peapuro iroro.
 
-Unokwanisa kupa shamwari yako apuro iri kana uchida. Wakukwanisa kupa shamwari yako apuro iri,shamwari yako inokwanisa kupawo shamwari yayo.
+Unokwanisa kupa shamwari yako apuro iri kana uchida. Wakukwanisa kupa shamwari yako apuro iri, shamwari yako inokwanisa kupawo shamwari yayo.
 
 Zvichienderera zvakadaro shamwari dzichingopanana.
 
-Dudziro yekupanana inoratidza kupanana kunogona kuitika pakati pevanhu. Kupanana uku kwakangofanana nekupanana kunoitwa kana riri banana,bhuku remari,bond note kana dhora…
+Dudziro yekupanana inoratidza kupanana kunogona kuitika pakati pevanhu. Kupanana uku kwakangofanana nekupanana kunoitwa kana riri banana, bhuku remari, bond note kana dhora…
 
 Asi rega ndisanyanyo enda mberi!
 
 ### Ngatidzokere kumaapuro aye!
 
-Ngatiti ndine digital apuro rimwe.Ndakukupa digital apuro rimwe iroro.
+Ngatiti ndine digital apuro rimwe. Ndakukupa digital apuro rimwe iroro.
 Ya! Zvakunakidza ka izvo.
 
 Ndoziva sei kuti digital apuro ranga riri rangu rarako?
@@ -59,7 +59,7 @@ Pamwe ndakopa madigital apuro mashoma pacomputer yangu. Pamwe ndaisa mumhepo van
 
 Izvi zvinoratidza kuti kutumirana pamhepo kunoti netsei. Kutumira madigitial apuro kunoti netsei pane kupanana  maapuro mumaoko.
 
-Dzimwe nyanzvi dze computer science dzine zita rekunetsa kwekutumira madigital apuro aya: kushandisa kaviri. Usanetsekana nazvo.Chako ndechekuziva kuti pane nguva refu zvichinetsa asi havasati vawana mhinduro panyaya iyoyo.
+Dzimwe nyanzvi dze computer science dzine zita rekunetsa kwekutumira madigital apuro aya: kushandisa kaviri. Usanetsekana nazvo. Chako ndechekuziva kuti pane nguva refu zvichinetsa asi havasati vawana mhinduro panyaya iyoyo.
 
 ### Mabhuku emari
 
@@ -67,7 +67,7 @@ Pamwe madigital apuro aya anofanira kucherechedzwa mubhuku remari. Iri ibhuku re
 
 Bhuku remari iri zvariri digital rinofanira kugara kumwewo kune munhu anorichengetedza.
 
-Pamwe, kunge World of Warcraft.Blizzard, vanhu vakaita mutambo wepamhepo uyu,vane “bhuku remari riri digital” pane zvese zviwanikwa zvemunharaunda yavo. Uye vanhu vakadaro vanokwanisa kuchengetedza mabhuku emari emadigital apuro aya. Ndizvozvo – pane mhinduro!
+Pamwe, kunge World of Warcraft. Blizzard, vanhu vakaita mutambo wepamhepo uyu, vane “bhuku remari riri digital” pane zvese zviwanikwa zvemunharaunda yavo. Uye vanhu vakadaro vanokwanisa kuchengetedza mabhuku emari emadigital apuro aya. Ndizvozvo – pane mhinduro!
 
 ### Zvinonetsa
 

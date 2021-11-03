@@ -42,7 +42,7 @@ na Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
 
 **Bitcoin haina kufanana nekutaura kwakasununguka:** Ngatiti pane chinoda kubhadharwa. Transaction inokupa macoins aunofanira  kuvanawo pekutanga. Zvinoreva kuti haasi munhu wese anobvumidzwa kudeedzera, kunze kwe uyo anotenderwa kuva nemacoins . Vanochera mabitcoin vanogona kuramba matransaction kana ari spammy kana isina mafees (mitengo wekuita matransactions) akakwana. Hapana anopa mumwe rusununguko kunge doro, asi munhu wese anoedza kuita mushandirapamwe kana achida.
 
-**Bitcoin yakafanana newirirano yemunharaunda(social contract):** Ndizvo zvaveko mazuva ano.Inoshanda semari kana vanhu vakaramba vachiibata semari,uye vakava nechivindi chekuichengeta nekuremekedza mirairo yayo. Technology ndiyo inoshandiswa kutsigira wirirano yacho.
+**Bitcoin yakafanana newirirano yemunharaunda(social contract):** Ndizvo zvaveko mazuva ano. Inoshanda semari kana vanhu vakaramba vachiibata semari, uye vakava nechivindi chekuichengeta nekuremekedza mirairo yayo. Technology ndiyo inoshandiswa kutsigira wirirano yacho.
 
 **Bitcoin haina kufanana newirirano yemunharaunda (social contract):** Wirirano iyi yakasiyana neinodzidziswa kuzvikoro. Haina kureruka, uye haina kuiswa nevatongi. Mirairo yakasarudzwa kuteedzerwa nevanhu pachavo, uye iwirarano yakabvumwa nemunhu wese.
 

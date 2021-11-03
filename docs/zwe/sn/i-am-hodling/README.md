@@ -24,6 +24,6 @@ Ko isu vasingazive zvetrading totanga kunetsekana tichiti mitengo yakudzika ndic
 
 Mathreads amunozotumira pamhepo makutipa yambiro muchiti “OHH MAIFANIRA KUTENGESA” NDAIFANIRA KUTENGESA KUTENGESA VANHU VASATI VATENGESA KANA KUTENGA ASI MOZVIZIVA KUTI HAASI WESE ANGAZIVE ZVAMUNOZIVA.  
 
-Unokwanisa kutengesa mubear market kana uchigona zvekutrader.Vamwe vese vari pakati nepakati vanongochengeta.  
+Unokwanisa kutengesa mubear market kana uchigona zvekutrader. Vamwe vese vari pakati nepakati vanongochengeta.  
 
 Mumutambo wezero-sum seuyu, matraders anogona kungotora mari yako kana wakatengesa.
