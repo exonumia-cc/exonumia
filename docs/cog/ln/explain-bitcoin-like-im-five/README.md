@@ -1,108 +1,104 @@
-# Explain Bitcoin Like I’m Five
+# Lakisa nga lokola mwan’a moke
 
 by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Soki ti lelo ozo yeba te pe oza komituna soki Bitkoin eza nini…
 
-We’re sitting on a park bench. It’s a great day.
+Tofandi na banc ya park. Mokolo malamu.
 
-I have one apple with me. I give it to you.
+Nga na naza na pombo moko. Napesi yo yango.
 
-You now have one apple and I have zero.
+Yo okomi na pombo moko nga natikali na eloko te.
 
-That was simple, right?
+Eza pete, boye te ?
 
-### Let’s look closely at what happened:
+### Totala nanu nini eleki wana malamu malamu:
 
-My apple was physically put into your hand.
+Napesaki yo pombo na ngai na maboko.
 
-You know it happened. I was there. You were there. You touched it.
+Yo moko oyebi ezalaki ndenge wana. Yo ozalaki wana. Nga pe nazalaki wana.Osimbaki yango na maboko.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Tozalaki na bosenga ya lisungi ya moto mosusu te po yo ozwa pombo yango. Tozalaki na posa Noko Thomas (po aza zuzi monene ayebana)aya kofandisa biso po tondima penza ‘te pombo wana elogwe epana ngai pe sikoyo eza na maboko nayo. 
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Pombo wana eza ya yo! Nakoki kopesa yo pombo mosusu te po natikali na eloko te. Nakoki pe lisus kosala eloko na pombo wana te. Eza lisus ya ngai te. Eza ya yo okoki kosala n’ango nyoso olingi sik’oyo.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Okoki kutu ko kabela moninga na yo soki olingi, moninga wana pe akoki kopesa moninga na ye, tii na tii.
 
-But I’m getting ahead of myself.
+Toloki na kati ya bato mibale ezalaka nde boye. Na kanisi eza ndenge moko, ata soki napesi yo etabe,to mokanda, to eteni soki ya eloko nini, 1 franc…
 
-### Back to apples!
+Kasi to koba se ko koba. To zonga nana na ba pombo! Toloba ‘te, naza na elilingi ya pombo. Awa, napesi yo Pombo ya elilingi. Ah! Ekomi elengi.ndenge nini okoki ndima penza penza ‘te elilingi ya pombo oyo ezalaki ya ngai, ekomi ya yo? Kanisa nanu mwa moke.
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Ekomi mwa kwokoso, boye te? Oko yeba ndenge nini soki natiaki pombo ango na mokanda oyo natindeli Noko Thomas te. To moninga nayo Joe? No Liza, moninga na ngai?
 
-Ah! Now it gets interesting.
+Tango mosusu nasalaki na ngai kaka bilili ebele ebele ya pombo’ango mashini ya odinatele. To pen a tiaki yango na inteleneti batu tuku na tuku ba zwi yango.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Omoni, toloki na bilili eza penza likambo. Kotinda elilingi ya pombo ekeseni na kopesa pombo na maboko.
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Batu ya mayele makasi na ba mashini ya odinatele baza na ndenge babengaka likamb’oyo: Babengi ya kofuta mbala mibale to pe double-depense. Kasi, omitungisa te.esengeli kaka oyeba ‘te etungisa bango mwa tango molayi, bayebaka te ndenge nini kopesa eyano na motuna oyo. Tii lelo.
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Kasi, tokanisa nanu biso moko.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+### Buku (Mikanda : makomi ya mimbongo)
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+To pe bilili y aba pombo oyo esengeli ebombama na buku. Ezali kaka mokanda to buku oyo bakomaka makambo nyoso, bat roc nyoso pona tang ape ko kokanisa na sima. Buku oyo, lokola yango pe eza kaka bilili na machine ya mashini ya odinatele, esengeli eza na esika na yango moko pe moto atalaka pe akengelaka yango.
 
-Until now.
 
-But let’s try to think of a solution on our own.
+Toloba ‘te ka lokola lisano ya bitumba bana basalaka na mashini ya odinatele. Tempête de neige, batu basalaka masano wana na net baza na “buku ya bilili” ba mbeli ya moto pona bitumba oyo emonanaka penza te na système na bango. Na boye, bato lokola bango bakoki kotalela pe kokengela bilili ya ba pombo na biso. Omoni – tokati likambo !
 
-### Ledgers
+### Mikakatano
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Mwa mikakatano eyali:
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+1) Sikoyo soki moto moko na Tempete de neige asali bilili ebele ebele? Akoki kaka komi bakisela mwa ndambo ya bilili pombo tango nyoso ako linga!
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+2) Eza ndenge moko te n’a mokolo wana tofandaki na banc ya park, ekeseni. Wana ezalaki kaka ngai n’a yo, biso mibale. Kosalela nzela lokola lisano ya Tempete de neige eza neti kobenga Noko Thomas (moto ya misato)lokola zuzi (nalobaki ‘te aza zuzi monene?) pona ba toloki nyoso toko linga kosala na banc ya park. Nakoki kosala ndenge nini pona na pesa yo bilili ya pombo ndenge tosala biso mibale?
 
-### Problems
 
-There’s a bit of a problem though:
+> Ndenge nini tokoki kosal’ango ndenge tosalaka, kaka biso moko, ngai n’a yo kasi na zela ya bilili? Eza mwa matata…
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+### Solusion
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+Soki topesi buku na moto nyoso? Na‘te ezala kaka epaya moko ya bato kuna ya Tempete de neige, ekoki kobombama na ba mashini ya odinatele ya moto n’a moto. Ba pombo nyoso oyo esi etekama kala kala,kobanda ebandeli eko komama wana.
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+Ndenge yako kokosa, to kosala kanyanka eyali te. Ndenge yako kotindela yo bilili ya eloko naza n’ango te ezali te po eko kokana te na makomi ya buku oyo moto nyoso aza n’ango. Ekomi kwokoso pona kosala kanyaka. Mingi mingi soki mombongo yango ekomi monene makasi. Pe lisusu, moto moko kaka te nde abombaka to pe akengelaka buku yango, nayebi ‘te mote akoki komipesa nyoso kaka ndenge alingi.
 
-### The Solution
+Mibeko etiama uta ebandeli ya makambo nyoso. Pe ezali polele pona moto nyoso. Moto nyoso ya mayele, oyo alingi, akoki ko bakisa makanisi naye, kobongisa, pe kobatela yango.
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Yo pe okoki ko sangana na bato nyoso wana, pona kobakisa makanisi na buku yango po mituna nyoso ezwa biyano, ata eloko moko etikala te.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Pona mosala nayo, okoki kozwa lifuta ya 25 bilili ya pombo. Kutu, wana nde eza lolenge moko kaka yako sala bilingi ya ba pombo na sistemi.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+###  Nakomisi yango mwa pete penza
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+… kasi esaleli wana nalobeli bino ezali. Babengi yangi yango Bitkoin protokole. Bilili ya pombo to’oko lobel’awa ezali “Bitkoins” nakati ya zando.
+Kitoko n’elengi!
 
-### I simplified quite a bit
+Na boye, omoni sikoyo nini eleki wana? Omoni nini buku oyo esimbami na bato nyoso efungoli pe ebongisi makambo?
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+1) Eza polele polele? Motango ya ba pombo nyoso eyebani na buku wana uta ebandeli ya masolo. Nga nayebi soki eza boni lel’oyo. Nayebi ‘te eza mingi te na sistemi, nayebi ‘te eza yako tanga pe emonanaka pamba pamba te.
 
-So, did you see what happened? What does the public ledger enable?
+2) Tango nasali toloki nayebi bilili ya pombo wana elogwe ya ngai pe ekomi ya yo, tembe eza kutu te. Nga pe nazalaka koboya kondima ‘te bilili to pe biloko ya motuya na mashini(odinatele) ekoki pe kosalema ndenge wana. Eko komama na buku pe moto nyoso akoki komon’ango.
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+3) Lokola buku oyo eza ya moto nyoso, naza na posa ya Noko Thomas (to pe moto mususu) te, po na ndimisama ‘te nasalali kanyaka te, to loboko malayi, to natekeli bato ebele eloko moko mbala na mbala…
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+    Nakati ya zando en ligne, bilili ya pombo ekomi kaka ndenge moke na ba pombo oyo ya kokauka. Sikoyo ekomi kaka lokola pombo ewuti na maboko na ngai, mbala moko epana yo. Neti kaka na park, toloki eza kaka n’a bato mibale. Ngai n’a yo – tina kutu ya Noko Thomas te po tondima ‘te makambo nyoso eleki malamu.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+Elingi koloba, bilili ya pombo eza kaka ndenge moko na o’ya kawuka.
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+Nini eza kitoko koleka? Eza kaka bilili. Tokoki kosala toloki na ba pombo 1 000, to 1 000.000, ata .0000001. Nakoki kofina na ekomeli moko pe na tindi’ango, to kotia yango na libenga nayo ata soki naza na Nicaragua pe yo oza mosika kuna na New York.
 
-In other words, it behaves like a physical object.
+Nakoki ata kosala ‘te bilili ya biloko mosusu ebele ebele etambola nzela moko n’a ba bilili ya pombo na ngai. Eza kaka bilili, elilingi.
+Nakoki kobakisa mwa makomi likolo n’ango. To pe eloko ya motuya penza; lokola kontala, to mokanda ya biloko mya ngai, to pea ta mokanda na ngai ya bonsomi…
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Omoni, oyo eza kitoko makasi! Ndenge nini tozo mona pe tozo salela bilili ya pombo oyo? Eza na tina monene, boye te?
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Sik’oyo, bato ebele ba’ako tia tembe tii lelo. Ko potama ezali makasi kati na makab’oyo na kelasi ya makambo matali nkita. Bayi politiki. Bayi mashini ya odinatele ya odinatele. Kolanda bango nyoso wana te. Bato mosus baza mayele mingi. Basus bazala na sango ya solo solo te. Bamoko balobi makamb’oyo eza na motuya mingi, basus balobi ezanga tina. Moko ya bato wana kutu apesa motuya na ye, pona ye $1,300 pona pombo moko. Basusu babengi yango bilili ya wolo, basusu balobi ezali misolo. Tii basusu bamoni yango lokola mopepe, eko mat ape na sima ekweyi lokola etikala kozala te. Pona basusu eko bongola mokili, pona basusu eza kaka bomengo yako kabola ya ofele.
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Nga Namoni Boye
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
-
-I have my own opinion about it.
-
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Mokolo mosusu nakolob’ango. Kasi ndeko na nga, y’oyebi Bitkoin koleka bato ebele.
 
 #### Recommend Reading (Updated 2017)
 

@@ -1,23 +1,23 @@
-# Welcome to Bitcoin, newcomers!
+# Boyei Malamu na Bitkoin!
 
 by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Mituna pe biyano MPB:
 
-Q: Who should I trust?  
-A: **Nobody.**
+M: Nandimela nani?  
+E: **Moto te.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Nakoteka mokolo nini?  
+A: **Ata mokolo moko te.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Bitkoin ekokufa _____?  
+A: **Te.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Nakomi awa ndenge nini?  
+A: **Nga moko kutu nayebi te.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Q: Ndenge nini nako yekola?  
+A: **Ebele ya [mikanda ya koyekola](/int/en/translations/).** eyali awa na awa [lopp.net](https://www.lopp.net/bitcoin-information.html)
