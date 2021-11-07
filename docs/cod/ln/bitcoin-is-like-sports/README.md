@@ -29,8 +29,6 @@ E: Banso tondimaki kosakana, na yango eyali na motuya pona biso. Soki moto aling
 
 Motuya ezalaka kaka ndenge moto na moto ayokaka to pe amonaka.
 
-I value it, so it has value. Value is subjective.
-
 M: Bako pekisa yango mokolo mosusu te?  
 E: Toyebi te, kasi eza kaka bato ba’ako sakana nan a ndembo na eteni ya nzete, ba’ako beta moto te to pe kosala mabe moko te, soki leta (bula matari) amoni ‘te akoki kopekisa yo lisano kasi atiki likanisi yako betaka ndembo na nzete, wana lisano eko koba se ko koba esika mosusu.
 
