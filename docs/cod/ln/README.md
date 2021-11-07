@@ -26,4 +26,4 @@ A: **Nga moko kutu nayebi te.**
 
 
 Q: Ndenge nini nako yekola?  
-A: **Ebele ya [mikanda ya koyekola](/int/en/translations/).** eyali awa na awa [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **Ebele ya [mikanda ya koyekola](/cod/ln/translations/).** eyali awa na awa [lopp.net](https://www.lopp.net/bitcoin-information.html)
