@@ -1,30 +1,38 @@
-# Bitcoin Is Like Sports
+---
+translators: 
+    - 
+        name: "Neo Simba"
+        href: "https://twitter.com/neolokosy"
+---
+# Bitkoin Eyali Lokola Lisano Ya Ndembo
 
 by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Nabandaki kolakisa pe kolimbola mbala na mbala ndeng #bitkoin etambolaka pe lipanda na yango lokola lisano ya ndembo. Nakanisi ekosunga kopesa biyano na mituna miye:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+M: Nani ango asalaka lisano ya ndembo ya maboko?  
+E: Eza na tina ata moke te koyeba nani abandisaka masano miye. Moto nyoso na molongo mobimba akoki kosakana. Eza na tin ate koyeba nani abandisaka yango, to pe soki moto’ango azwi mokano yako kobongola mibeko ya lisano to ko mipesa lifuti, to pe eloko mosusu. Eza na tina ata moke te, toza pen a tina ya koyeba makanisi naye lisusu te.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+M: Nani mokonzi ya lisano?  
+E: Moto moko aza mokonzi te, banso tozwi mokano yako sakana. Banso toyebi pe to tiaka mibeko, pe soki moto ya lokuta, balado to kanyaka akoti, took bengana ye. Soki moto amipesi lifuti oyo ya ye te, took kipe ye te.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+M: Ndenge nini took yeba ‘te mibeko mya lisano eko bongwana te?  
+E: Banso tondimaki na mibeko yambo ‘te masano mabanda, pe oyo nyoso andimi kokoba na lisano ako koba, pe soki moto alingi abongola mibeko ya masano, wana akoki kondende kosakana esika mosusu.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+M: Kanyaka pe mayele mabe eko kota te?  
+E : Nyoso eyali polele polele. Banso tokoki komona etando ya masano n’a mingete minso. Soki moto akosi to akotisi kanyaka, banso took yeba pe toko bengana moto ya ndenge wana.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+M: Po na nini talo na yango ezali ngenge moko n’eloko nyoso?  
+E: Banso tondimaki kosakana, na yango eyali na motuya pona biso. Soki moto alingi akota na lisano, ebongi ete andima lifuta na biso n’a motuya na yango. Napes’ango motuya, yango wana eza na motuya. 
+
+Motuya ezalaka kaka ndenge moto na moto ayokaka to pe amonaka.
 
 I value it, so it has value. Value is subjective.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+M: Bako pekisa yango mokolo mosusu te?  
+E: Toyebi te, kasi eza kaka bato ba’ako sakana nan a ndembo na eteni ya nzete, ba’ako beta moto te to pe kosala mabe moko te, soki leta (bula matari) amoni ‘te akoki kopekisa yo lisano kasi atiki likanisi yako betaka ndembo na nzete, wana lisano eko koba se ko koba esika mosusu.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+M: Nakoki ko kota?  
+E: Etali yo moko. Ngai natondi n’esengo na lisano’ango, okoki kokota pe okoki osala soki nini ango.
