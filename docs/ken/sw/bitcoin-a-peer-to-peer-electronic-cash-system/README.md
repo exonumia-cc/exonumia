@@ -6,6 +6,7 @@ supporters:
 translators: 
     - 
         name: "Johnson Masangu"
+        email: "johnsonmasangu@gmail.com"
 ---
 # Bitcoin: Peer-to-Peer Fedha za elektroniki Mfumo
 
