@@ -1,3 +1,9 @@
+---
+translators: 
+    - 
+        name: "Neo Simba"
+        href: "https://twitter.com/neolokosy"
+---
 # Bitkoin Eza Lokola
 
 by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)

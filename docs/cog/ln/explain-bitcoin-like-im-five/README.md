@@ -1,3 +1,9 @@
+---
+translators: 
+    - 
+        name: "Neo Simba"
+        href: "https://twitter.com/neolokosy"
+---
 # Lakisa nga lokola mwan’a moke
 
 by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)

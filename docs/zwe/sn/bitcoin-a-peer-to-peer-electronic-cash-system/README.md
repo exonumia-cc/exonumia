@@ -1,3 +1,13 @@
+---
+translators: 
+    - 
+        name: "Tebogo Makgakga"
+        href: "https://www.instagram.com/ngomayatebo/"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 # Bitcoin: System ye kupanana mari iri electronic pahushamwari (Peer-to-Peer Electronic Cash System)
 
 na Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
