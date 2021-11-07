@@ -10,15 +10,15 @@ by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349
 
 <LanguageDropdown/>
 
-Nabandaki kolakisa pe kolimbola mbala na mbala ndeng #bitkoin etambolaka pe lipanda na yango lokola lisano ya ndembo. Nakanisi ekosunga kopesa biyano na mituna miye:
+Nabandaki kolakisa pe kolimbola mbala na mbala ndenge #bitkoin etambolaka pe lipanda na yango lokola lisano ya ndembo. Nakanisi ekosunga kopesa biyano na mituna miye:
 
-M: Nani ango asalaka lisano ya ndembo ya maboko?  
+M: Nani ango asala lisano ya ndembo ya maboko?  
 E: Eza na tina ata moke te koyeba nani abandisaka masano miye. Moto nyoso na molongo mobimba akoki kosakana. Eza na tin ate koyeba nani abandisaka yango, to pe soki moto’ango azwi mokano yako kobongola mibeko ya lisano to ko mipesa lifuti, to pe eloko mosusu. Eza na tina ata moke te, toza pen a tina ya koyeba makanisi naye lisusu te.
 
 M: Nani mokonzi ya lisano?  
 E: Moto moko aza mokonzi te, banso tozwi mokano yako sakana. Banso toyebi pe to tiaka mibeko, pe soki moto ya lokuta, balado to kanyaka akoti, took bengana ye. Soki moto amipesi lifuti oyo ya ye te, took kipe ye te.
 
-M: Ndenge nini took yeba ‘te mibeko mya lisano eko bongwana te?  
+M: Ndenge nini toko yeba ‘te mibeko mya lisano miko bongwana te?  
 E: Banso tondimaki na mibeko yambo ‘te masano mabanda, pe oyo nyoso andimi kokoba na lisano ako koba, pe soki moto alingi abongola mibeko ya masano, wana akoki kondende kosakana esika mosusu.
 
 M: Kanyaka pe mayele mabe eko kota te?  
