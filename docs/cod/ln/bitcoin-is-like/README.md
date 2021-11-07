@@ -12,7 +12,7 @@ by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
 
 **Bitkoin eza lokola lokasa ya mbongo:** Bazongisaka yango te, esengeli yo moko obatela yango. Soki obungisi libenga nayo, obungisi mbongo nayo. Okoki kopesa moto mosusu mokumba yako bomba Bitkoin nayo kaka lokola banque: esengeli ondimisama penza penza ‘te akokima na misolo nayo te.
 
-**Bitkoin ekeseni mbongo:** okoki kobomba mipiko n’a mipiko ya Bitkoin kasi eko kanga esika ya monene te. Okoki kotindela moto nyoso na nzela ya singa ya lotiliki. Nzela yako bebisa yango ezali te. Okoki kopesa yango na mpwasa te, esengeli ozela miniti 10 – 15 po ‘te na nzela ya lotiliki, mashini ya odinatele esalela yo peleve kiliptogalafiki.
+**Bitkoin ekeseni na mbongo:** okoki kobomba mipiko n’a mipiko ya Bitkoin kasi eko kanga esika ya monene te. Okoki kotindela moto nyoso na nzela ya singa ya lotiliki. Nzela yako bebisa yango ezali te. Okoki kopesa yango na mpwasa te, esengeli ozela miniti 10 – 15 po ‘te na nzela ya lotiliki, mashini ya odinatele esalela yo peleve kiliptogalafiki.
 
 **Bitkoin eza lokola wolo:** okoki kosala yango to kozwa yango ndenge olingi te, motango n’ango eza yako tanga pe ekabolama na etando pe tango yako landana (mingi mingi tango). Pona kozwa yango, esengeli moto apesa yo yango, to yo moko otimola tii ozw’ango. Lokola wolo, Bitkoin engengaka: ebendaka bato pona lolenge ya makomi ya ingeniele, n’a ba poogalame ya kontala na yango kitoko pe likolo koleka, pe elaka ya bonsomi na oyo etali looma ya bato.
 
