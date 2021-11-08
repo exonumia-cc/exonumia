@@ -15,7 +15,7 @@ na Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/http
 
 <LanguageDropdown/>
 
-Pakataurwa zvekubuda kwe Bitcoin yekutanga, electronic cash system yekutanga yaishandisa peer-to peer network(shamwari ku shamwari) kuitira kuti kutenga kana kutengesa kaviri kusavapo. System iyi iri decentralized, hakuna maservers kana vatongi vanoona nezvemabitcoin(central authority).
+Pakataurwa zvekubuda kwe Bitcoin itsva, electronic cash system itsva ichashandisa peer-to peer network(shamwari ku shamwari) kuitira kuti kutenga kana kutengesa kaviri kusavapo. System iyi iri decentralized, hakuna maservers kana vatongi vanoona nezvemabitcoin(central authority).
 
 Enda ku bitcoin.org kuti uone mascreenshots.
 
