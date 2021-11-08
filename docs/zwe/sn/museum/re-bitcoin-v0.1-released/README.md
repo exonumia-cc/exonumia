@@ -1,6 +1,6 @@
 # Re: Bitcoin v0.1 yakabuda
 
-by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
+na Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
