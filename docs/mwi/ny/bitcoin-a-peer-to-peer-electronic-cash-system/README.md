@@ -44,34 +44,35 @@ The solution we propose begins with a timestamp server. A timestamp server works
 
 To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Pa netiweki yathu ya sitampu yanthawi, timagwiritsa ntchito umboni wa ntchitoyo powonjezera pang'ono mu block mpaka mtengo utapezeka womwe umapatsa block hash ziro bits zofunika. Khama la CPU litagwiritsidwa ntchito kuti likwaniritse umboni wa ntchito, chipikacho sichingasinthidwe popanda kuyambiranso ntchitoyo. Monga midadada pambuyo pake amamangidwa unyolo pambuyo pake, ntchito yosintha chipikacho ingaphatikizepo kukonzanso midadada yonse pambuyo pake.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Umboni wa ntchito umathetsanso vuto lodziyimira pawokha popanga zisankho zambiri. Ngati ambiri adatengera IP-adilesi-imodzi-voti, zitha kusokonezedwa ndi aliyense wokhoza kugawa IPS yambiri. Umboni-wa-ntchito kwenikweni ndi CPU-voti imodzi. Chisankho chochuluka chikuyimiridwa ndi unyolo wautali kwambiri, womwe uli ndi chitsimikiziro chachikulu cha ntchito yomwe idayikidwamo. Ngati mphamvu zambiri za CPU zikuwongoleredwa ndi mfundo zowona mtima, unyolo wowona mtima umakula mwachangu ndikupitilira unyolo uliwonse womwe ukupikisana nawo. Kuti asinthe chipika chapitachi, wowukirayo amayenera kubwerezanso umboni wa block ndi midadada yonse pambuyo pake ndikugwira ndikuposa ntchito zamanodi oona mtima. Tidzawonetsa pambuyo pake kuti
+kuthekera kwa wowukira pang'onopang'ono kugwira kumachepa kwambiri ngati midadada yotsatira awonjezedwa.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Kulipiritsa kuwonjezereka kwa liwiro la hardware ndi chidwi chosiyana choyendetsa ma node pakapita nthawi, vuto la umboni wa ntchito limatsimikiziridwa ndi chiŵerengero chosuntha cholunjika pa avareji. Chiwerengero cha midadada pa ola. Ngati apangidwa mwachangu kwambiri, zovuta zimawonjezeka.
 
 ## Network
 
-The steps to run the network are as follows:
+Njira zoyendetsera netiweki ndi izi:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Zochita zatsopano zimawulutsidwa ku node zonse. 
+2. Node iliyonse imasonkhanitsa zochitika zatsopano mu block.
+3. Node iliyonse imagwira ntchito pakupeza umboni wovuta wa ntchito.
+4. Node ikapeza umboni wa ntchito, imawulutsa chipika ku mfundo zonse block yake.
+5. Node amavomereza chipika pokhapokha ngati zonse zomwe zili mmenemo zili zovomerezeka ndipo sizinagwiritsidwe ntchito kale.
+6. Ma Node amasonyeza kuvomereza kwawo chipikacho pogwira ntchito popanga loko iunyolo, pogwiritsa ntchito hashi ya chipika chovomerezeka ngati hashi yapitayi.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Ma Node nthawi zonse amawona unyolo wautali kwambiri kukhala wolondola ndipo amayesetsa kuukulitsa. Ngati mfundo ziwiri zikuwulutsa mitundu yosiyanasiyana ya block yotsatira nthawi imodzi, ma node ena amatha kulandira imodzi kapena ina poyamba. Zikatero, amagwirirapo ntchito yoyamba imene analandira, koma nthambi inayo amasunga ngati ingatalike. Taye idzathyoledwa pamene umboni wotsatira wa ntchito ukupezeka ndipo nthambi imodzi imakhala yaitali, mfundo zomwe zinkagwira ntchito pa nthambi ina zidzasinthira ku yaitali. Kuwulutsa kwatsopano sikuyenera kufikira ma node onse. 
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Bola iwo akafika m'malo ambiri, amalowa mumdadada posakhalitsa. Mawayilesi a block nawonso amalolera za mauthenga ogwetsedwa. Ngati node sichilandira chipika, imapempha ikalandira chipika chotsatira ndikuzindikira kuti chinaphonya chimodzi.
 
-## Incentive
+## Chilimbikitso
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Mwamsonkhano, kugulitsa koyamba mu chipika ndikugulitsa kwapadera komwe kumayambitsa ndalama zatsopano za mlengi wa block. Izi zimawonjezera chilimbikitso kwa ma node kuti athandizire netiweki. ndipo imapereka njira yogawira ndalama zachitsulo poyambira, popeza palibe ulamuliro wapakati wozipereka. Kuwonjezeredwa kosalekeza kwa ndalama zachitsulo zatsopano ndizofanana ndi ochita migodi a golide omwe amawononga chuma kapena kuwonjezera golide pakuyenda. Kwa ife, ndi nthawi ya CPU ndi magetsi omwe amagwiritsidwa ntchito.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Chilimbikitso chingathenso kulipidwa ndi ndalama zogulira. Ngati mtengo wamtengo wapatali wa malondawo ndi wocheperapo kusiyana ndi mtengo wake wolowa, kusiyana kwake ndi ndalama zogulitsira zomwe zimawonjezeredwa kumtengo wolimbikitsa wa block yomwe ili ndi malondawo. Ndalama zodziwikiratu zikayamba kugwiritsidwa ntchito, chilimbikitsocho chikhoza kusinthiratu kupita ku chindapusa ndikukhala wopanda inflation.
 
 The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
 
@@ -89,31 +90,31 @@ It is possible to verify payments without running a full network node. A user on
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Momwemonso, chitsimikizirocho ndi chodalirika malinga ngati ma node owona mtima akuwongolera maukonde, koma amakhala pachiwopsezo kwambiri ngati maukonde agonjetsedwa ndi wowukira. Ngakhale ma netiweki atha kudzitsimikizira okha zomwe zachitika, njira yophweka imatha kupusitsidwa ndi zochitika zopeka za wowukirayo malinga ngati wowukirayo apitilize kugonjetsa netiweki. Njira imodzi yodzitetezera ku izi ingakhale kuvomereza zidziwitso kuchokera ku node zapaintaneti pamene awona chipika chosavomerezeka, zomwe zimachititsa kuti pulogalamu ya wosuta itulutse chipika chonse ndi kuchenjeza zochitika kuti zitsimikizire kusagwirizana. Mabizinesi omwe amalandila ndalama pafupipafupi adzafunabe kuyendetsa ma node awo kuti akhale odziyimira pawokha komanso kuti atsimikizire mwachangu.
 
-## Combining and Splitting Value
+## Kuphatikiza ndi Kugawa Mtengo
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Ngakhale kuti zingakhale zotheka kugwiritsa ntchito ndalama zachitsulo payokha, sikungakhale kovuta kupanga malonda osiyana pa senti iliyonse posamutsa. Kuti mtengo ugawidwe ndikuphatikizidwa, zochitika zimakhala ndi zolowetsa ndi zotuluka zingapo. Nthawi zambiri pamakhala kulowetsa kumodzi kuchokera kuzinthu zazikulu zam'mbuyomu kapena zolowetsa zingapo kuphatikiza ndalama zing'onozing'ono, komanso zotuluka ziwiri: imodzi yolipira, ndi ina yobwezera zosintha, ngati zilipo, kubwerera kwa wotumiza.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Tiyenera kudziwa kuti fan-out, pomwe kugulitsa kumadalira zochitika zingapo, ndipo zomwe zimachitika zimadalira zina zambiri, si vuto pano. Sipafunikanso kutulutsa mbiri yodziyimira yokha yambiri yamalonda.
 
-## Privacy
+## Zazinsinsi
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Mabanki achikhalidwe amakwaniritsa chinsinsi pochepetsa mwayi wopeza zidziwitso kwa omwe akukhudzidwa ndi anthu ena odalirika. Kufunika kolengeza zochitika zonse poyera kumalepheretsa njirayi, koma chinsinsi chikhoza kusungidwabe pophwanya kufalikira kwa chidziwitso kumalo ena: posunga makiyi a anthu onse mosadziwika. Anthu amatha kuwona kuti wina akutumiza ndalama kwa munthu wina, koma popanda chidziwitso cholumikizira: aliyense. Izi ndizofanana ndi kuchuluka kwa chidziwitso chomwe chimatulutsidwa ndi kusinthanitsa katundu, kumene nthawi ndi kukula kwa malonda a munthu payekha, "tepi", amapangidwa poyera, koma osauza omwe maphwandowo anali.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Monga chowotcha chowonjezera chowonjezera, makiyi atsopano ayenera kugwiritsidwa ntchito pazochita zilizonse kuchokera pakulumikizidwa ndi eni ake wamba. Kulumikizana kwina sikungalephereke ndi zolowetsa zambiri, zomwe zimawonetsa kuti zolowa zawo zinali za eni ake. Choopsa ndi chakuti ngati mwini wake wa kiyi awululidwa, kulumikiza kungavumbulutse zochitika zina zomwe zinali za mwiniwakeyo.
 
-## Calculations
+## Kuwerengera
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Timalingalira zochitika za wowukira akuyesera kupanga unyolo wina mwachangu kuposa unyolo wowona mtima, Ngakhale izi zitakwaniritsidwa, sizimatsegula dongosolo kuti lisinthe mosasamala, monga kupanga phindu kuchokera kumlengalenga kapena kutenga ndalama zomwe sizinali zake. t wowukira. Ma Node sangavomereze kugulitsa kosavomerezeka ngati malipiro, ndipo ma node oona mtima sangavomereze chipika chomwe chili nawo. Wowukira atha kungoyesa kusintha chimodzi mwazomwe adachita kuti abweze ndalama zomwe adawononga posachedwa.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Mpikisano pakati pa unyolo wowona mtima ndi unyolo wowukira ukhoza kudziwika ngati Binomial Random Walk. Chochitika chopambana ndi unyolo wowona mtima womwe ukukulitsidwa ndi chipika chimodzi, ndikuwonjezera kutsogola kwake ndi +1, ndipo cholephera ndi unyolo wa owukirawo womwe umakulitsidwa ndi chipika chimodzi, kuchepetsa kusiyana ndi -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Kuthekera kwa wowukirayo kutengera kupereŵera komwe kwapatsidwa kumafanana ndi a Gambler kuwononga vuto. Tiyerekeze kuti wotchova njuga yemwe ali ndi ngongole zopanda malire amangoyamba kupereŵera ndipo amaseŵera mwina chiwerengero chosawerengeka cha mayesero kuti ayesetse kuti GB awonongeke. Titha kuwerengera mwayi womwe angakumane nawo, kapena kuti wowukirayo angakumane ndi owona mtima unyolo, motere[8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -128,7 +129,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
+        <mtext>&#xA0; mwayi wowona mtima upeza block</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -142,7 +143,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
+        <mtext>&#xA0;kutheka kuti wowukirayo apeza mwayi wotsatira wa block</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -160,7 +161,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
       </mtd>
       <mtd>
         <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
+          <mtext>&#xA0; kuti wowukirayo apeze &#xA0;</mtext>
           <mrow class="MJX-TeXAtom-ORD">
             <mi>z</mi>
           </mrow>
@@ -224,21 +225,20 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Poganizira maganizo athu kuti
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
 
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+, kuthekera kumatsika mokulirapo pomwe kuchuluka kwa midadada yomwe wowukirayo akuyenera kuthana nayo pakuwonjezeka. Ndizovuta zotsutsana naye, ngati sapanga mwayi wopita patsogolo, mwayi wake umakhala wochepa kwambiri pamene akugwera kumbuyo.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Tsopano tikuganizira utali woti wolandira ntchito yatsopano adikire nthawi yayitali asanatsimikize kuti wotumizayo sangasinthe ntchitoyo. Tikuganiza kuti wotumizayo ndi wachiwembu yemwe akufuna kupangitsa wolandirayo kukhulupirira kuti adamulipira kwakanthawi, kenako nkusintha kuti abweze kwa iye pakapita nthawi. Wolandira adzachenjezedwa izi zikachitika, koma wotumizayo akuyembekeza kuti kuchedwa.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
+Wolandirayo amapanga makiyi atsopano ndipo amapereka kiyi yapagulu kwa wotumiza posachedwa kusaina. Izi zimalepheretsa wotumizayo kukonzekera midadada yambiri pasadakhale pogwira ntchito pa izo mosalekeza mpaka iye ali ndi mwayi wokwanira kuti apite patsogolo mokwanira, ndiyeno kupha transaction panthawiyo. Ntchitoyo ikatumizidwa, wotumiza wachinyengo amayamba chinsinsi chogwira ntchito pa unyolo wofanana womwe uli ndi mtundu wina wamalonda ake.
 
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Wolandirayo amadikirira mpaka malonda awonjezedwe ku block ndipo z blocks akhala olumikizidwa pambuyo pake. Sakudziwa kuchuluka kwake komwe wowukirayo wapanga, koma poganiza kuti midadada yowona mtima idatenga nthawi yomwe ikuyembekezeka pa block iliyonse, kupita patsogolo kwa wowukirayo kudzakhala kugawa kwa Poisson komwe kumayembekezeredwa:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -252,7 +252,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Kuti tipeze mwayi woti wowukirayo atha kugwirabe, timachulukitsa kuchuluka kwa Poisson pakupita patsogolo kulikonse komwe akanatha kuchita ndi mwayi womwe adatha mfundo imeneyo:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -339,7 +339,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Kukonzekeranso kupewa kufotokoza mwachidule mchira wopandamalire wa kugawa...
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -402,7 +402,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Kusintha kukhala C kodi....
 
 ```c
 #include 
@@ -423,7 +423,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Potsatira zotsatira zina, titha kuwona kutsika kwakukulu ndi z.
 
 ```
 q=0.1
@@ -467,9 +467,9 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Mapeto
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Takonza dongosolo la zochitika pakompyuta popanda kudalira chidaliro. Tinayamba ndi ndondomeko yanthawi zonse ya ndalama zopangidwa kuchokera ku siginecha za digito, zomwe zimapereka ulamuliro wamphamvu wa umwini, koma ndi zosakwanira popanda njira yopewera kuwononga kawiri. Kuti tithane ndi izi, tidakonza zoti pakhale ma netiweki a anzawo ndi anzawo pogwiritsa ntchito umboni wa ntchito kuti alembe mbiri yapagulu ya zochitika zomwe zimachitika mwachangu kuti woukirayo asinthe. Node oona mtima amawongolera mphamvu zambiri za CPU. Netiweki ndi yolimba mu kuphweka kwake kosapangidwira. Node zimagwira ntchito zonse mwakamodzi popanda kulumikizana pang'ono. Iwo safunikira kuzindikiridwa, popeza kuti mauthenga samatumizidwa kumalo enaake ndipo amangofunikira kuperekedwa kokha mwa khama. Ma Node amatha kuchoka ndikujowinanso maukonde pakufuna kwawo, kuvomereza unyolo wotsimikizira ntchito ngati umboni wa zomwe zidachitika atapita. Amavota ndi mphamvu zawo za CPU, kuwonetsa kuvomereza kwawo midadada yovomerezeka poyesetsa kukulitsa ndikukana midadada yosavomerezeka pokana kuigwira. Malamulo ndi zolimbikitsa zilizonse zofunika zitha kutsatiridwa ndi mgwirizanowu.
 
 ## References
 
