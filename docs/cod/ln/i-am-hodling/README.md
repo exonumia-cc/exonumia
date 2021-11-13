@@ -1,19 +1,19 @@
-# I AM HODLING
+# NAKO BOMB’ANGO (Nako Teka Te)
 
 by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Nakomi titre mbala mibale po nayebi nakomaki’ango mabe. Eza kaka mabe. Ezala ndeng’wana. 
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+PONA NINI NAZO BOMBA? NAKO YEBISA YO.
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+Eza po nayebi eloko te pe NAYEBI NAZA TRADER YA MABE.
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Oyebi bino ba trader ya malonga boyebi mingi, bokoki komona ba mbonge ya likolo ya se ya mozindo ya pene ya boye na boye patati patata pe na mbala lokola lisano boteki pe bozwi ba millio, n likambo te.
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Yango wana pe ba'oya bolole bazalaka kaka ooo EZO KWEYA NATEKA KAKA nasima eee ngaiiii tango ba trader ya MAYELE BAYEBI NINI BAZO SALA bazo somba lisusu, omoni? 
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Naza na ngulupa wana kutu te. Tango ba trader basombaka lisusu po bazonga na wenze, bako kuta nga nakati ya kapitale ya wenze sikoyo MITUNA NANU, NANI AZA KOMIKOSA? Ba trader, ngai te! Bilobela  ezalaka neti, ooo “MBELE OTEKA NA YO” “ TE EEE" “NGAI EEE, MBELE NATEKAKI NA NGAI" “ MBELE NATEKAKI LIBOSO BASOMBA, MBELE NASOMBAKI LIBOSO BATEKA, KASI,  KASI OYEBI BISO NYOSO TOZA BA NGANGA LOKOLA YO TE. 
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Okoki koteka na wenze ya bitula kaka soki oza trader ya makasi penza to soki mutu na yo ezosala malamu te.  Bato nyoso mosusu babombaka nanu. Nalisan'oyo ba trader bakoki kozwa to pe kolia mbongo nayo kaka soki oteki.

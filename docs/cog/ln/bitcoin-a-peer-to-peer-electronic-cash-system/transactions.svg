@@ -203,11 +203,11 @@
            x="506.73477"
            y="76.120262"
            id="tspan2997-06-6"
-           style="text-align:center;text-anchor:middle">Owner 1's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef Publique</tspan><tspan
            x="506.73477"
            y="88.620262"
            id="tspan2999-9-2"
-           style="text-align:center;text-anchor:middle">Public Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 1's</tspan></text>
       <rect
          width="60.143658"
          height="34.132225"
@@ -225,11 +225,11 @@
            x="506.22971"
            y="166.02385"
            id="tspan3801-1-3"
-           style="text-align:center;text-anchor:middle">Owner 0's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Signature</tspan><tspan
            x="506.22971"
            y="178.52385"
            id="tspan3806-8-2"
-           style="text-align:center;text-anchor:middle">Signature</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 0's</tspan></text>
       <rect
          width="36.596325"
          height="19.17119"
@@ -247,7 +247,7 @@
            x="506.22971"
            y="127.38551"
            id="tspan3783-9-3"
-           style="text-align:center;text-anchor:middle">Hash</tspan></text>
+           style="text-align:center;text-anchor:middle">Hachage</tspan></text>
       <rect
          width="73.741135"
          height="32.829956"
@@ -265,11 +265,11 @@
            x="507.06851"
            y="227.8271"
            id="tspan2997-0-4-2"
-           style="text-align:center;text-anchor:middle">Owner 3's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef privée</tspan><tspan
            x="507.06851"
            y="240.3271"
            id="tspan2999-5-4-8"
-           style="text-align:center;text-anchor:middle">Private Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 3's</tspan></text>
       <rect
          width="84.547424"
          height="150.7124"
@@ -332,11 +332,11 @@
            x="506.73477"
            y="76.120239"
            id="tspan2997-03-2-7"
-           style="text-align:center;text-anchor:middle">Owner 3's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef Publique</tspan><tspan
            x="506.73477"
            y="88.620239"
            id="tspan2999-0-2-7"
-           style="text-align:center;text-anchor:middle">Public Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 3's</tspan></text>
       <rect
          width="60.143658"
          height="34.132225"
@@ -354,11 +354,11 @@
            x="506.22971"
            y="166.02382"
            id="tspan3801-7-6-7"
-           style="text-align:center;text-anchor:middle">Owner 2's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Signature</tspan><tspan
            x="506.22971"
            y="178.52382"
            id="tspan3806-4-5-2"
-           style="text-align:center;text-anchor:middle">Signature</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 2's</tspan></text>
       <rect
          width="36.596325"
          height="19.17119"
@@ -376,7 +376,7 @@
            x="506.22971"
            y="127.38548"
            id="tspan3783-2-6-6"
-           style="text-align:center;text-anchor:middle">Hash</tspan></text>
+           style="text-align:center;text-anchor:middle">Hachage</tspan></text>
       <path
          d="m 593.50263,157.69008 -57.83123,-31.31473 0,-30.557115"
          id="path4415-7-4"
@@ -447,11 +447,11 @@
            x="386.73477"
            y="76.120262"
            id="tspan2997-06"
-           style="text-align:center;text-anchor:middle">Owner 1's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef Publique</tspan><tspan
            x="386.73477"
            y="88.620262"
            id="tspan2999-9"
-           style="text-align:center;text-anchor:middle">Public Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 1's</tspan></text>
       <rect
          width="60.143658"
          height="34.132225"
@@ -469,11 +469,11 @@
            x="386.22971"
            y="166.02385"
            id="tspan3801-1"
-           style="text-align:center;text-anchor:middle">Owner 0's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Signature</tspan><tspan
            x="386.22971"
            y="178.52385"
            id="tspan3806-8"
-           style="text-align:center;text-anchor:middle">Signature</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 0's</tspan></text>
       <rect
          width="36.596325"
          height="19.17119"
@@ -491,7 +491,7 @@
            x="386.22971"
            y="127.38551"
            id="tspan3783-9"
-           style="text-align:center;text-anchor:middle">Hash</tspan></text>
+           style="text-align:center;text-anchor:middle">Hachage</tspan></text>
       <rect
          width="73.741135"
          height="32.829956"
@@ -509,11 +509,11 @@
            x="387.06851"
            y="227.8271"
            id="tspan2997-0-4"
-           style="text-align:center;text-anchor:middle">Owner 2's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef privée</tspan><tspan
            x="387.06851"
            y="240.3271"
            id="tspan2999-5-4"
-           style="text-align:center;text-anchor:middle">Private Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 2's</tspan></text>
       <rect
          width="84.547424"
          height="150.7124"
@@ -576,11 +576,11 @@
            x="386.73477"
            y="76.120239"
            id="tspan2997-03-2"
-           style="text-align:center;text-anchor:middle">Owner 2's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef Publique</tspan><tspan
            x="386.73477"
            y="88.620239"
            id="tspan2999-0-2"
-           style="text-align:center;text-anchor:middle">Public Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 2's</tspan></text>
       <rect
          width="60.143658"
          height="34.132225"
@@ -598,11 +598,11 @@
            x="386.22971"
            y="166.02382"
            id="tspan3801-7-6"
-           style="text-align:center;text-anchor:middle">Owner 1's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Signature</tspan><tspan
            x="386.22971"
            y="178.52382"
            id="tspan3806-4-5"
-           style="text-align:center;text-anchor:middle">Signature</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 1's</tspan></text>
       <rect
          width="36.596325"
          height="19.17119"
@@ -620,7 +620,7 @@
            x="386.22971"
            y="127.38548"
            id="tspan3783-2-6"
-           style="text-align:center;text-anchor:middle">Hash</tspan></text>
+           style="text-align:center;text-anchor:middle">Hachage</tspan></text>
       <path
          d="m 189.15106,31.855574 -1.53093,-2.651651 -1.53093,-2.65165 3.06186,0 3.06186,0 -1.53093,2.65165 z"
          transform="matrix(-1,0,0,-1,662.55713,185.79436)"
@@ -723,11 +723,11 @@
            x="266.73477"
            y="76.120262"
            id="tspan2997"
-           style="text-align:center;text-anchor:middle">Owner 1's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef Publique</tspan><tspan
            x="266.73477"
            y="88.620262"
            id="tspan2999"
-           style="text-align:center;text-anchor:middle">Public Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 1's</tspan></text>
       <rect
          width="60.143658"
          height="34.132225"
@@ -745,11 +745,11 @@
            x="266.22971"
            y="166.02385"
            id="tspan3801"
-           style="text-align:center;text-anchor:middle">Owner 0's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Signature</tspan><tspan
            x="266.22971"
            y="178.52385"
            id="tspan3806"
-           style="text-align:center;text-anchor:middle">Signature</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 0's</tspan></text>
       <rect
          width="36.596325"
          height="19.17119"
@@ -767,7 +767,7 @@
            x="266.22971"
            y="127.38551"
            id="tspan3783"
-           style="text-align:center;text-anchor:middle">Hash</tspan></text>
+           style="text-align:center;text-anchor:middle">Hachage</tspan></text>
       <rect
          width="73.741135"
          height="32.829956"
@@ -785,11 +785,11 @@
            x="267.06851"
            y="227.8271"
            id="tspan2997-0"
-           style="text-align:center;text-anchor:middle">Owner 1's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef privée</tspan><tspan
            x="267.06851"
            y="240.3271"
            id="tspan2999-5"
-           style="text-align:center;text-anchor:middle">Private Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 1's</tspan></text>
       <rect
          width="84.547424"
          height="150.7124"
@@ -852,11 +852,11 @@
            x="266.73477"
            y="76.120239"
            id="tspan2997-03"
-           style="text-align:center;text-anchor:middle">Owner 1's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Clef Publique</tspan><tspan
            x="266.73477"
            y="88.620239"
            id="tspan2999-0"
-           style="text-align:center;text-anchor:middle">Public Key</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 1's</tspan></text>
       <rect
          width="60.143658"
          height="34.132225"
@@ -874,11 +874,11 @@
            x="266.22971"
            y="166.02382"
            id="tspan3801-7"
-           style="text-align:center;text-anchor:middle">Owner 0's</tspan><tspan
+           style="text-align:center;text-anchor:middle">Signature</tspan><tspan
            x="266.22971"
            y="178.52382"
            id="tspan3806-4"
-           style="text-align:center;text-anchor:middle">Signature</tspan></text>
+           style="text-align:center;text-anchor:middle">Bénéficiare 0's</tspan></text>
       <rect
          width="36.596325"
          height="19.17119"
@@ -896,7 +896,7 @@
            x="266.22971"
            y="127.38548"
            id="tspan3783-2"
-           style="text-align:center;text-anchor:middle">Hash</tspan></text>
+           style="text-align:center;text-anchor:middle">Hachage</tspan></text>
       <path
          d="m 189.15106,31.855574 -1.53093,-2.651651 -1.53093,-2.65165 3.06186,0 3.06186,0 -1.53093,2.65165 z"
          transform="matrix(-1,0,0,-1,542.55713,185.79436)"

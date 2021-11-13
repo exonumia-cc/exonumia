@@ -1,28 +1,41 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+---
+translators: 
+    - 
+        name: "Neo Simba"
+        href: "https://twitter.com/neolokosy"
+---
+# Bitkoin: Sisteme Ya Kofutana Misolo Na Kati Baninga 
 
 by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Rezume
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Kanisa lolenge ya misolo elektroniki oyo eko leka na entelneti mbala moko na kati ya banginga epai wapi bosenga ya baye babombaka misolo to pe bankeee eyali te. Ba nkoma dizitale eyali na ndambo ya solisio, kasi litomba ya monene ebungisami tango toluki moto ya misato atako ayali moto ya limemia pe ya bokonde pona kolongola libaku yako futa mbala mibale.
+Tomemeli bino solisio na likamb’oyo lisanga ya opesi nagi napesi yo. Liboke ya makomi nyoso ya mimbongo nyoso tosangisi esika moko na lokola na sheni pona kolakisa mosala oyo esalami, ekomi peleve makasi, pona kobongola yango esengeli obandela mosala nyoso. Sheni ya molai koleka elaki penza ndenge misala esalemaki, pe lisusu ete ewutaki na liziba monene ya CPU ya lotiliki ya odinatele.  Soki eteni ya monene ya CPU esimbami ba mazita oyo endimi kanyaka te po na kobongola makomi pe ba sango oyo ekotaki na nzela ya inteleneti, bako sala pe kobimisa sheni ya molai oyo eko leka mbango ya banguna mosika penza. Rezo yango moko esengaka mosala ebele ebele te.  
+Basango nayango epanzanaka na bompikiliki na yango, pe ba mazita bakoki kobima na rezo pe kozonga ndenge balingi, na bozongi bwa bango, bandimaka pe bazwaka ba sheni ya sango n’a makomi oyo eleki molai lokola yango nde penza basango ya solo solo na tina na nyoso oyo esamaki tango babimaki na rezo.
 
-## Introduction
+## Ebandeli
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Na ebandeli ya mimbongo ya inteneti bateki n’a basombi nyoso batalelaka kaka ba banke neti moto ya katikati pona kofuta na nzela mashini. Sisteme oyo eza n’ango mabe te, kasi makasi n’ango efandi nde na modele n’a esaleli wana ya kala oyo tango mosusu esimbaka te. Na modele wana ba troki oyo ekoki kozonga sima to kobwangana te ezalaka te, po ba banke mosala na yango eza kokataka makambo oyo etali kolekaleka ya misolo na kati ya bato. 
+Kofutaka pona lisungi ya kokataka makambo yango nde ematisaka talo ya mosala ba banke basasaka, soki ozongisi motango ya ba troki oyo esalami pe olongoli mwa ba troki ya mike mike, wana kofuta pona makambo wana ebele ebele tango ndenge ya kosala ba troki oyo babongolaka te pona mosala to lisungi oyo ebongwanaka te. Soki ndenge ya kobandela to ko zongisa ezali, wana tina kondima ekomi lisus makasi.
+Esengeli ete bateki bakeba na basombi, kotuna bango mwa mituna ebele koleka oyo bakolinga kopesa bango moko. Mwa kanyaka ata ya moke kaka eko salema na yango kaka ndenge pe yako boya yango eza te. Okoki kolongala bambongo ebele ebele yako kfuta soki ofuta na mbongo na maboko (yako kawuka), soki te nzela mosusu yako futa eza te esengeli kaka oleka na ba banke po esalema.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Oyo penza mokili ezo zanga ezali ndenge yako futaka to kolekisaka misoslo na kondima kaka te, kasi na sisteme ya peleve ya kiliptogalafi, wana nde bato mibale oyo bandimi, bakoki kosala troki bango mibale kaka, tina ya banke to moto mosusu ezali te. Ba troki na nzela ya mashini ya odinatele oyo ebongwanaka te eko bomba moteki pe kobatela ye na bato ya kanyaka pe maboko milayi, ndenge yako batela mosombi na oyo babengi mekanizme ya entiercement ekoki pe kotiama. 
+Na mokanda oyo, totalisi bino solusio na likambo yako futaka mbala na mbala na nzela ya lisanga ya baninga opesi nga napesi yo n’a makomi ya tango oyo ebombami malalu pona kolakisa peleve ‘te ba troki nyoso esalemaki na molongo ya esika pe moko na moko na tango na yango. Sisteme oyo eko batelama tango nyoso soki ba oyo babengi mazita ya malamu eko kengela ba CPU ya odinatele na bomoko koleka ba mazita ya bato ya maboko malayi pe kanyaka.
 
-## Transactions
+## Mombongo (Troki)
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Oyo tobengi mabanga to mabende (jeton) ezali singa to sheni ya ba nkoma (signatire) digitale. Moteki moko akoki kotindala mosusu ebende tango ati nkoma digitale na ye na hash ya troki oyo esalemaki liboso na fungola ya wenze ya mosombi, akozwa ba numelo wana abakisi yango na suka na libanga. 
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Likambo eza awa moto ba futi akoki verifier soki moko ya bateki afuti libanga naye mbala mibale. Solisio pona bato nyoso ezali ko kotisa mokambi moko na katikati, oyo ako kengela pona ko kebisa ko futa mbala na mbala.
+Na sima ta troki nyoso, libanga ezongi na liziba po libanga mosusu ebima, pe lisusu, tokoki kindemela kaka mabanga oyo ebimi na liziba ‘te ekoki ko salelama mbala mibale te. Likambo ezali awa eza boye, avenir ya sisteme ya misolo oyo nyoso ekomi na maboko ya société oyo ezo kengela, ba troki nyoso elaka epana bango, kaka lokola banke. Esengeli mofutami avala na ndenge yako ‘te mokolo linganga atekaki liboso te. 
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Pona biso pe makambo tozali kosalala, troki oya liboso, yango nde troki ya motuya penza, toza na tina te pona ba troki ya sima to pe soki moto alukaki ko salela libende to koin na ye mbala mibale. Pona koyeba ‘te troki esalamaki, esengeli koyeba ba troki nyoso oyo asalemaki.
+Na modele ya kofuta oyo, oko yeba ba troki nyoso pe oyo wapi esalemaki liboso. Po na kosala yango, pe kolongola banke to moto ya kati kati, esengeli kosala ete ba troki nyoso ezala polele polele na miso ya bato nyoso, pe esengeli tozala na sisteme moko epai wapi bato nyoso bako ndima buku ya makomi moko wapi mimbongo nyoso esalamaki pe na molongo na yango. Moto oyo azo zwa esngeli alakisa ‘te na tango troki moko na moko esalamaki, maboke to mazita nyoso endimi ‘te ba resi emonisi été  wana nde troki ya liboso.
 
 ## Timestamp Server
 
