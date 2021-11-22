@@ -1,23 +1,50 @@
-# Welcome to Bitcoin, newcomers!
+---
+layout: RTLLayout
+---
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+# أهلًا بكم في البتكوين، أيها القادمون الجدد!
+
+كتبه جيمسن لوب في<a href="https://twitter.com/lopp/status/932350908461133825"> 2017/11/19</a>
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
-
-Q: Who should I trust?  
-A: **Nobody.**
-
-Q: When should I sell?  
-A: **Never.**
-
-Q: Is Bitcoin dying because ____?  
-A: **No.**
-
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+**ههنا أسئلتكم الشائعة:**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+س: بمن عليّ أن أثق؟
+
+
+<p dir="rtl">
+ج: <strong>لا أحد.</strong></p>
+
+
+<p dir="rtl">
+س: متى عليّ أن أبيع؟</p>
+
+
+<p dir="rtl">
+ج: <strong>لا تبع أبدًا.</strong></p>
+
+
+<p dir="rtl">
+س: هل سيموت البتكوين بسبب ___؟</p>
+
+
+<p dir="rtl">
+ج: <strong>لا.</strong></p>
+
+
+<p dir="rtl">
+س: إلى أيّ شيءٍ أدخلتُ نفسي؟</p>
+
+
+<p dir="rtl">
+ج: <strong>لا أحد يعلم.</strong></p>
+
+
+<p dir="rtl">
+س: كيف أتعلّم أكثر؟</p>
+
+
+<p dir="rtl">
+ج: <strong>عندنا <a href="https://exonumia.cc/int/en/translations">ثروة من المحتوى هنا</a>.</strong> <strong>أو زُرْ موقع</strong> <a href="https://www.lopp.net/bitcoin-information.html">lopp.net</a>.</p>

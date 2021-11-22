@@ -1,4 +1,5 @@
 ---
+layout: RTLLayout
 translators: 
     - 
         name: "Happy Mahlangu"
