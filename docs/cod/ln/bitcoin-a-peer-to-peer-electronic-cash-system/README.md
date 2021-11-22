@@ -37,62 +37,128 @@ Na sima ta troki nyoso, libanga ezongi na liziba po libanga mosusu ebima, pe lis
 Pona biso pe makambo tozali kosalala, troki oya liboso, yango nde troki ya motuya penza, toza na tina te pona ba troki ya sima to pe soki moto alukaki ko salela libende to koin na ye mbala mibale. Pona koyeba ‘te troki esalamaki, esengeli koyeba ba troki nyoso oyo asalemaki.
 Na modele ya kofuta oyo, oko yeba ba troki nyoso pe oyo wapi esalemaki liboso. Po na kosala yango, pe kolongola banke to moto ya kati kati, esengeli kosala ete ba troki nyoso ezala polele polele na miso ya bato nyoso, pe esengeli tozala na sisteme moko epai wapi bato nyoso bako ndima buku ya makomi moko wapi mimbongo nyoso esalamaki pe na molongo na yango. Moto oyo azo zwa esngeli alakisa ‘te na tango troki moko na moko esalamaki, maboke to mazita nyoso endimi ‘te ba resi emonisi été  wana nde troki ya liboso.
 
-## Timestamp Server
+## Servere ya horodatage
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Solusio oyo tomemi ebandi na severe ya horodatage (makomi ya mokolo pe tango likambo esalemaki).
+Servere ya horodatage esalaka boye ezwi bilembo ya etuluku ya makomi ya makambo nyoso oyo elekaki
+na zando pe epanzi yango bipai na bipai, lokola na lokasa ya sango to inteleneti. Horodate elongolaka
+tembe ete ba sango ezalaki na tango kaka likambo ekomamaki, boye nde pona kozwa makomi numerike
+na yango. Horodate nyoso ezalaka n’a horodate 2 Hachage Signature Bénéficiaire 0 Clef privée
+Bénéficiaire 1 Transaction Clef Publique Bénéficiaire 1 Signe Vérifie Hachage Signature Bénéficiaire 1
+Clef privée Bénéficiaire 2 Transaction Clef Publique Bénéficiaire 2 Vérifie Hachage Signature Bénéficiaire
+2 Clef privée Bénéficiaire 3 Transaction Clef Publique Bénéficiaire 3 Signe ya liboso na makomi na yango,
+oyo esalaka sheni, n’a horodate pona ko lendisa ba oyo ya liboso. (Ndenge omoni na bilili oyo ezali
+likolo).
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Peleve ya Mosala
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Po servere ya horotage esala mosala ya ko kabola na kati ya bato oyo tobengi pair-a-pair, esengeli tozala
+na peleve ya mosala lokola ya Adam Back « Hashcash », n’esika ya loakasa ba sango oyo epesami pe
+epanzami na nzela ya enteleneti. Pona kozwa peleve ya mosala, esengeli koluka litomba pe ko timola
+yango po soki emonani, lokola SHA 256, wana nde ba nkoma numelike kobanda na motango songo ya ba
+bit tii na libungutulu. Mosala ya mwa kati kati emataka kolandisama na ba bit ya libungutulu oyo
+esengeli pe ekoki komonana na ndenge ya kotimola ya yango penza. 
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Pona rezo na biso ya horotage, topesi nzela na peleve ya mosala na kobakisa bakisa motuya to pe valere ya bokokisi na esika na yango
+tii tozwa valere ya nkoma n’a motago ya mabungutulu oyo esengeli. Soki bokasi ya CPU ekoki na
+bosenga peleve ya mosala, bloki oyo ekoki kokotisa lisusu te tii mosala ekobandelama. Po ba bloki oyo
+ekangama pe elendanaka lokola na sheni, mosala ya kobongola bloki ekosenga ete tobandela ba bloki
+nyoso ya liboso.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Peleve ya mosala ekataka pe likambo ya mokano etuluku. Soki etuluku efandaki na addresse-IP n’a vote moko, moto nyoso n’a makoki ya tia ba IP ebele akoki ko bungisa to kokotisa kanyaka na kati na yango.
+Peleve ya mosala eza penza CPU-moko-vote. Mokano ya etuluku to ya majorite etalisamaka na sheni oyo eleki molai, oyo ezwui pe peleve ya mosala yo epikami penza. Soki etuluku to pe ebele ya nguya ya CPU esimbami na mazita oya bosembo, sheni oyo ya bosembo eko kola mbango penza pe ekoleka ba
+sheni nyoso oyo ezo telemela yango. Pona kobongola bloki ya kala, esengeli monguna abandela peleve
+ya mosala ya bloki n’a ba bloki nyoso na sima na yango, na sima kolanda, kokanga pe koleka misala
+nyoso esalema na mazita ya bosemba. Toko lakisa na sima ndenge tokoki kolanda pe kokomisa mosala
+ya banguna pete tango tobakisi ba bloki ya kolandisama.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Pona kozongisa pe kokolisa biloko ya mosala kobongisa na lombangu penza bosenga ya tango pona
+kosalela mazita, kokoso ya peleve ya mosala emonanaka mwa mosala oyo ekoleka leka pona kokokisa
+motango ya ba bloki oyo ezwami na mbala. Soki ebimi na lombango, mikakatano pe emati lisusu koleka.
 
-## Network
+## Rezo (Netiwek)
 
-The steps to run the network are as follows:
+Bitapi ya kolanda pona rezo esala ezali boye:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Mimbongo (kotaka pe kosomba) nyoso ya sika eleki pe epanzani na mazita nyoso.
+2. Lizita moko na moko esangisi mimbongo nyoso na liboke moko.
+3. Mazita moko na moko elukaka peleve ya mosala oya makasi pona bloki to liboke.
+4. Tango lizita moko ezwi peleve ya mosala, eko kabola yango na mazita nyoso.
+5. Mazita endimaka liboke kaka soki nyoso ezali malamu pe endimami ete esalelami nanu te.
+6. Mazita elakisaka kondima ‘te eleki bloki tango ebakisaka liboke ya sika na kati ya sheni, tango esaleli
+empreinte numérique ya bloki oyo endimami na empreinte oya liboso.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Ba nœud etalaka ba sheni oya
+molayi lokola sheni oyo ya tina penza pe esalaka nyoso pona kokolisa yango. Soki mazita mibale epanzi
+basango ya bloki ya sika na mbala moko, mazita nyoso misusu ekoki koyamba moko to mosusu. Na
+ndenge wana, ekosalela oyo ekozwa liboso, kasi mingi mingi ekoki kosalela oyo mosusu tango yango
+ekokoma molayi koleka. Singa eko katana tango pele ya mosala mosusu ebimi pe ekomi molayi koleka ;
+mazita nyoso oyo esalaki mosala na bitapi misusu ekotaka na oyo eleki molayi. 
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Kopanza ba sango ya mimbongo nyoso ya sika eza natina ya yako koma na mazita nyoso te. Soki ekomi na mwa ndambo ya
+mazita, eko bakisama na na bloki moko mwa noki noki. Basango wana epesaka ndingisa na ndambo
+mwa ndambo ya sango oyo ebungaka na nzela. Soki lizita moko eyambi bloki te, eko senga yango tango
+ekozua bloki ya sima tango ekomona ‘te ezo zanga bloki moko.
 
-## Incentive
+## Matabisi
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Mingi mingi, troki ya liboso na kati ya bloki ezala na tina mingi po esimba na moto oyo asalaki bloki
+wana. Yango nde etindaka mazita esimba rezo, na kopesaka nzela yako panza ba sango nyoso po eloko
+mosusu eza na bokonzi ya kobimisa pe kopanza misolo te.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Kobakisa motango songolo tango na tango ekokani na lolenge ba timoli wolo basalelaka bozwi mya
+bango po ‘te wolo ebele pe ya kokoka ezala na bisika ya basombi pe bateki oyo tobengi zando to
+comptoir. Pona biso, eza nde tango ya CPU na lotiliki oyo tosaleli. Matabisi ya litomba ekoki pe
+kobakisama na talo ya troki. 
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Soki motango oyo ebimi eleki oyo ekotaki, motango oyo ekotikala ezali talo
+ya troki oyo ekobakisama lokola matabisi na bloki bipai wapi troki wana esalamaki. Tango motango
+songolo ya bitkoin ekoti na zando, matabisi ekoki ko bongwana na talo ya troki kasi ekoki kotepatepa
+soki moke te. Matabis ekoki pe ko sunga ba nœuds etikala na bosembo. Soki moto ya lokoso azali ta
+makoki ya kosangisa nguya na CPU koleka mazita (nœud) ya bosembo, akopona soki akokosa bato nako
+zwaka lifuta mya bango, to pe kobimisa mabanga ya sika. Esengeli amona kosala mosala na bosembo pe
+alima ezali na litomba koleka, soki akofuluka na mabanga koleka mokili mobimba, na esika abebisa
+sisteme na mosala pe bomengo na ye moko.
 
-## Reclaiming Disk Space
+## Bosenga Ya Etando Ya Diske
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Tango troki ya libanga ya suka ebombami na se ya ba bloki ebele, ba troki nyoso oyo esalamaki liboso
+ekoki kobwakama pona kofungola etando ya diske. Po ‘te esalema pe emprente numerike ya bloki
+ekatana te, ba troki eko bombama na oyo babengi na lopoto arbre de Merkel[7][2][5], n’a mosisa oyo
+epikami na empreinte numerike ya bloki. Etuluku ya ba bloki ekofinama na kokataka batape ya nzete na
+yango. Tina yako bomba ba empreinte oya kati ya nzete ezali te.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Ebandeli ya troki esengeli ezala pene pene ya 80 octets. Soki tomoni ‘te ba bloke ekoki kobima na sima
+minuti zomi, 80 octets * 6 * 24 * 365 = 4,2 MOctets na mobu moko. Naba odinatele oyo etekamaka
+mingimingi pe ezalaka 2 GOctets de RAM en 2008, pe mobeko ya Moore eloba ete kofuluka esengeli
+ezala ya 1, 2 GOctets na mobu moko, kobomba ekozala kwokoso te atako tobombi ebandeli yaba bloke
+nyoso.
 
-## Simplified Payment Verification
+## Kolandela Ndenge Yako Kofuta Ya Pete
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Eza na ndenge yako landela ndenge kofutama esalemaki atako osaleli mazita nyoso ya rezo te. Oza kaka
+na posa ya lokasa ya ba entete ya bloki oyo eleki molayi na sheni ya pelve ya mosala, soki otuni mazita
+ya rezo oko mona nini eleki molayi pe mbala moko ozwi etape ya Merkel oyo ezo sangisa mimbongo
+nyoso na horodatage. Ekoki ko tala mombongo pona yango moko te, kasi soki osangisi ya nakati ya
+sheni, oko mona ‘te rezo ndima yango, na sima ya kolandela yango malamu malamu.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Na yango, kolendela nyoso ekozala sembo ka soki mazita ya bosemba nde ezali ko kengela rezo, kasi
+mwa mbilinga mbilinga eko kota soki reso ebebisami na nguya ya bato ya maboko milai. Soki mazita
+ekoki ko landela mombongo yango moko, ndenge yako landela pe ko kengela ya pete eko koma pe pete
+po ‘te lokuta pe kanyaka ya bato ya maboko milai ekota soki nguya na bango eleki makasi. Mayele pona
+komi batela ezali kondima sisteme ya ngonga to pe kelelo kouta epai na mazita ya rezo soki emoni bloki
+ya mopaya, soki eko luka kokotisa mimbongo ya lokuta uta na mashini ya mosaleli na yango pona
+kondimisa lokuta na yango. Ba kompanyi oyo basalaka mimbongo ya mituya minene minene, pene pene,
+pe mingi mingi balukaka kobakisa mazita ebele ebele pona ko lendisa bokengeli mya bango na bonsomi
+nyoso.
 
 ## Combining and Splitting Value
 
