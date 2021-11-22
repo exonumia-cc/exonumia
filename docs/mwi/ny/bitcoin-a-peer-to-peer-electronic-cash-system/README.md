@@ -74,19 +74,19 @@ Mwamsonkhano, kugulitsa koyamba mu chipika ndikugulitsa kwapadera komwe kumayamb
 
 Chilimbikitso chingathenso kulipidwa ndi ndalama zogulira. Ngati mtengo wamtengo wapatali wa malondawo ndi wocheperapo kusiyana ndi mtengo wake wolowa, kusiyana kwake ndi ndalama zogulitsira zomwe zimawonjezeredwa kumtengo wolimbikitsa wa block yomwe ili ndi malondawo. Ndalama zodziwikiratu zikayamba kugwiritsidwa ntchito, chilimbikitsocho chikhoza kusinthiratu kupita ku chindapusa ndikukhala wopanda inflation.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Chilimbikitso chingathandize kulimbikitsa ma node kukhala oona mtima. Ngati wachiwembu wadyera angathe kusonkhanitsa mphamvu zambiri za CPU kuposa ma node onse oona mtima, ayenera kusankha pakati pa kuzigwiritsa ntchito pobera anthu malipiro ake, kapena kuzigwiritsa ntchito popanga ndalama zatsopano. Ayenera kuona kukhala kopindulitsa kwambiri kusewera ndi malamulo, malamulo oterowo omwe amam'patsa ndalama zachitsulo zatsopano kuposa wina aliyense ataphatikizidwa, kusiyana ndi kuwononga dongosolo ndi kudalirika kwa chuma chake.
 
-## Reclaiming Disk Space
+## Kubwezeretsanso malo a Disk
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Zomwe zachitika posachedwa mu ndalama zimakwiriridwa pansi pa midadada yokwanira, zomwe zidagwiritsidwa ntchito zisanatayidwe kuti zisunge malo a disk. Kuti izi zitheke popanda kuthyola hashi ya chipikacho, zogulitsa zimathamangitsidwa mu Mtengo wa Merkle [7] [2] [5], ndi muzu wokhawo womwe umaphatikizidwa mu hashi ya chipikacho. midadada yakale ikhoza kupangidwa podula nthambi za mtengo. Ma hashes amkati safunikira kusungidwa.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Mutu wa block wopanda zosintha ungakhale pafupifupi ma 80 byte. Ngati tikuganiza kuti midadada imapangidwa mphindi 10 zilizonse, ma byte 80 * 6* 24 * 365 = 4.2MB pachaka. Ndi makina apakompyuta omwe amagulitsidwa ndi 2GB ya RAM kuyambira 2008, ndi Malamulo a Moore akulosera za kukula kwa 1.2GB pachaka, kusungirako sikuyenera kukhala vuto ngakhale mitu ya block iyenera kukumbukiridwa.
 
-## Simplified Payment Verification
+## Kutsimikizira Malipiro Osavuta
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Ndizotheka kutsimikizira zolipira popanda kugwiritsa ntchito node yonse ya netiweki. Wogwiritsa amangofunika kusunga zolemba zam'ma block za unyolo wautali kwambiri wotsimikizira ntchito, womwe atha kuupeza pofunsa ma node a netiweki mpaka atatsimikiza kuti ali ndi unyolo wautali kwambiri, ndikupeza nthambi ya Merkle yolumikiza malondawo ndi chipikacho. ndi timestamped mu. Iye sangathe fufuzani ndikuchita yekha, koma kugwirizana ndi malo mu unyolo, iye akhoza kuona kuti maukonde mfundo wavomereza izo, ndi midadada anawonjezera pambuyo zina kutsimikizira maukonde walandira izo.
 
 ![](./simplified-payment-verification.svg)
 
@@ -469,7 +469,7 @@ q=0.45   z=340
 
 ## Mapeto
 
-Takonza dongosolo la zochitika pakompyuta popanda kudalira chidaliro. Tinayamba ndi ndondomeko yanthawi zonse ya ndalama zopangidwa kuchokera ku siginecha za digito, zomwe zimapereka ulamuliro wamphamvu wa umwini, koma ndi zosakwanira popanda njira yopewera kuwononga kawiri. Kuti tithane ndi izi, tidakonza zoti pakhale ma netiweki a anzawo ndi anzawo pogwiritsa ntchito umboni wa ntchito kuti alembe mbiri yapagulu ya zochitika zomwe zimachitika mwachangu kuti woukirayo asinthe. Node oona mtima amawongolera mphamvu zambiri za CPU. Netiweki ndi yolimba mu kuphweka kwake kosapangidwira. Node zimagwira ntchito zonse mwakamodzi popanda kulumikizana pang'ono. Iwo safunikira kuzindikiridwa, popeza kuti mauthenga samatumizidwa kumalo enaake ndipo amangofunikira kuperekedwa kokha mwa khama. Ma Node amatha kuchoka ndikujowinanso maukonde pakufuna kwawo, kuvomereza unyolo wotsimikizira ntchito ngati umboni wa zomwe zidachitika atapita. Amavota ndi mphamvu zawo za CPU, kuwonetsa kuvomereza kwawo midadada yovomerezeka poyesetsa kukulitsa ndikukana midadada yosavomerezeka pokana kuigwira. Malamulo ndi zolimbikitsa zilizonse zofunika zitha kutsatiridwa ndi mgwirizanowu.
+Takonza dongosolo la zochitika pakompyuta popanda kudalira chidaliro. Tinayamba ndi ndondomeko yanthawi zonse ya ndalama zopangidwa kuchokera ku siginecha za digito, zomwe zimapereka ulamuliro wamphamvu wa umwini, koma ndi zosakwanira popanda njira yopewera kuwononga kawiri. Kuti tithane ndi izi, tidakonza zoti pakhale ma netiweki a anzawo ndi anzawo pogwiritsa ntchito umboni wa ntchito kuti alembe mbiri yapagulu ya zochitika zomwe zimachitika mwachangu kuti woukirayo asinthe. Node oona mtima amawongolera mphamvu zambiri za CPU. Maukonde ndi olimba mu kuphweka kwake kosakonzedwa Node zimagwira ntchito zonse mwakamodzi popanda kulumikizana pang'ono. Iwo safunikira kuzindikiridwa, popeza kuti mauthenga samatumizidwa kumalo enaake ndipo amangofunikira kuperekedwa kokha mwa khama. Ma Node amatha kuchoka ndikujowinanso maukonde pakufuna kwawo, kuvomereza unyolo wotsimikizira ntchito ngati umboni wa zomwe zidachitika atapita. Amavota ndi mphamvu zawo za CPU, kuwonetsa kuvomereza kwawo midadada yovomerezeka poyesetsa kukulitsa ndikukana midadada yosavomerezeka pokana kuigwira. Malamulo ndi zolimbikitsa zilizonse zofunika zitha kutsatiridwa ndi mgwirizanowu.
 
 ## References
 

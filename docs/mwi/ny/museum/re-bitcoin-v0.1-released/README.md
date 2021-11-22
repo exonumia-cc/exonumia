@@ -1,55 +1,43 @@
-# Re: Bitcoin v0.1 released
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "I-star Magagula"
+---
+# Re: Bitcoin v0.1 yatulutsidwa
 
-by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
+ndi Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
-Satoshi Nakamoto writes:
+Satoshi Nakamoto analemba kuti:
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
+> Kulengeza kutulutsidwa koyamba kwa Bitcoin, njira yatsopano yamagetsi  yomwe imagwiritsa ntchito intaneti ya anzawo oteteza kuwononga kawiri. Ndi kwathunthu decentralized popanda seva chapakati ulamuliro.
 >
-> See bitcoin.org for screenshots.
+> Onani bitcoin.org pazithunzi.
 >
-> Download link:
+> Tsitsani ulalo:
 > http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
+Zabwino zonse kwa Satoshi pakumasulidwa koyamba kwa alpha. Ndikuyembekezera kuyesera. 
 
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
+> Chiwerengero chonse chidzakhala ndalama za 21,000,000. Idzagawidwa ku node za netiweki pamene iwo pangani midadada, ndikudula pakati pazaka zinayi zilizonse.
 >
-> first 4 years: 10,500,000 coins
-> next 4 years: 5,250,000 coins
-> next 4 years: 2,625,000 coins
-> next 4 years: 1,312,500 coins
+> zaka 4 zoyamba: ndalama za 10,500,000  
+> zaka 4 zotsatira: ndalama za 5,250,000  
+> zaka 4 zotsatira: ndalama za 2,625,000  
+> zaka 4 zotsatira: ndalama za 1,312,500  
 > etc...
 
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
+Ndizosangalatsa kuti dongosololi likhoza kukhazikitsidwa kuti lilole kuchuluka kwa ndalama zomwe zingapangidwe. Ndikuganiza kuti lingaliro ndiloti kuchuluka kwa ntchito yofunikira kupanga a ndalama zatsopano zidzakhala zovuta kwambiri pamene nthawi ikupita. Vuto limodzi lachangu la ndalama iliyonse yatsopano ndi momwe mungakulitsire mtengo wake. Ngakhale kunyalanyaza vuto lenileni lomwe palibe amene angalivomereze poyamba, pamakhalabe vuto kuti abwere ndi mkangano wololera wokomera mtengo wina wopanda ziro wa ndalamazo.
 
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
+Monga kuyesera kosangalatsa, yerekezani kuti Bitcoin yachita bwino ndipo imakhala njira yayikulu yolipira yomwe imagwiritsidwa ntchito padziko lonse lapansi. Ndiye mtengo wandalama uyenera kukhala wofanana ndi mtengo wachuma chonse padziko lapansi. Kuyerekeza kwapano kwa chuma chapadziko lonse lapansi chomwe ndapeza chikuchokera pa $100 thililiyoni mpaka $300 thililiyoni. Ndi ndalama zokwana 20 miliyoni, zomwe zimapangitsa kuti ndalama iliyonse ikhale yamtengo wapatali pafupifupi $10 miliyoni.
 
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
-
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Chifukwa chake kuthekera kopanga makobidi lero ndi masenti ochepa a nthawi yowerengera kungakhale kubetcha kwabwino, ndi phindu la china chake ngati 100 miliyoni mpaka 1! Ngakhale zovuta za Bitcoin kuti zikwaniritse digiri iyi ndizochepa, kodi zilidi 100 miliyoni kwa wina wotsutsa? Zomwe mukuganiza.....
 
 Hal
 
