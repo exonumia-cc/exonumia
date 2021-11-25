@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :style="styling">
     <template #page-bottom v-if="supporters||translators">
       <div class="center-text" v-if="translators">
         <strong>{{translatorsText}}</strong>
@@ -45,9 +45,14 @@ export default {
       const frontmatter = usePageData().value.frontmatter
       return frontmatter.translators
     },
+    styling() {
+      return {
+        direction: "rtl"
+      }
+    }
   },
   components: {
-    Layout,
+    Layout
   },
 }
 </script>
@@ -58,12 +63,12 @@ export default {
 }
 
 .navbar .navbar-links-wrapper {
-  right: var(--navbar-padding-h);
-  left: unset;
+  right: unset !important;
+  left: var(--navbar-padding-h) !important;
 }
 
 .navbar .logo {
-    margin-left: unset;
-    margin-right: var(--navbar-padding-v);
+    margin-left: var(--navbar-padding-v) !important;
+    margin-right: unset !important;
 }
 </style>

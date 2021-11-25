@@ -5,5 +5,6 @@ module.exports = {
   extends: '@vuepress/theme-default',
   layouts: {
     Layout: path.resolve(__dirname, 'layouts/Layout.vue'),
+    RTLLayout: path.resolve(__dirname, 'layouts/RTLLayout.vue'),
   },
 }
