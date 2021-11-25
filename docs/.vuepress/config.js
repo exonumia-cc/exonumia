@@ -154,6 +154,7 @@ module.exports = {
                 selectLanguageName: '🌍 Languages',
             },
             '/int/en/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Supporters",
                 translatorsText: "Translators",
                 selectLanguageText: '🇬🇧 Languages',
@@ -216,6 +217,7 @@ module.exports = {
                 ],
             },
             '/ago/ng/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Supporters",
                 translatorsText: "Translators",
                 selectLanguageText: '🇦🇴 Languages',
@@ -279,6 +281,7 @@ module.exports = {
                 ],
             },
             '/cod/ln/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Supporters",
                 translatorsText: "Translators",
                 selectLanguageText: '🇨🇩 Languages',
@@ -341,6 +344,7 @@ module.exports = {
                 ],
             },
             '/cog/ln/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Supporters",
                 translatorsText: "Translators",
                 selectLanguageText: '🇨🇬 Languages',
@@ -403,6 +407,7 @@ module.exports = {
                 ],
             },
             '/egy/ar/': {
+                lastUpdatedText: "التحديث الاخير",
                 supportersText: "أنصار",
                 translatorsText: "مترجمين",
                 selectLanguageText: '🇪🇬 اللغات',
@@ -465,6 +470,7 @@ module.exports = {
                 ],
             },
             '/ken/sw/': {
+                lastUpdatedText: "Ilisasishwa mwisho",
                 supportersText: "Wafuasi",
                 translatorsText: "Wafasiri",
                 selectLanguageText: '🇰🇪 Lugha',
@@ -529,6 +535,7 @@ module.exports = {
                 ],
             },
             '/mwi/ny/': {
+                lastUpdatedText: "Zasinthidwa komaliza",
                 supportersText: "Othandizira",
                 translatorsText: "Omasulira",
                 selectLanguageText: '🇲🇼 Zinenero',
@@ -591,6 +598,7 @@ module.exports = {
                 ],
             },
             '/nam/ng/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Supporters",
                 translatorsText: "Translators",
                 selectLanguageText: '🇳🇦 Languages',
@@ -654,6 +662,7 @@ module.exports = {
                 ],
             },
             '/nam/naq/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Supporters",
                 translatorsText: "Translators",
                 selectLanguageText: '🇳🇦 Languages',
@@ -717,6 +726,7 @@ module.exports = {
                 ],
             },
             '/zaf/zu/': {
+                lastUpdatedText: "Kugcine ukubuyekezwa",
                 supportersText: "Abasekeli",
                 translatorsText: "Abahumushi",
                 selectLanguageText: '🇿🇦 Izilimi',
@@ -780,6 +790,7 @@ module.exports = {
                 ],
             },
             '/zaf/st/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Batšehetsi",
                 translatorsText: "Bafetoleli",
                 selectLanguageText: '🇿🇦 maleme',
@@ -843,6 +854,7 @@ module.exports = {
                 ],
             },
             '/zaf/ve/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Supporters",
                 translatorsText: "Translators",
                 selectLanguageText: '🇿🇦 Languages',
@@ -906,6 +918,7 @@ module.exports = {
                 ],
             },
             '/zaf/nr/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Supporters",
                 translatorsText: "Translators",
                 selectLanguageText: '🇿🇦 Izilimi',
@@ -969,6 +982,7 @@ module.exports = {
                 ],
             },
             '/zwe/sn/': {
+                lastUpdatedText: "Last Updated",
                 supportersText: "Vatsigiri",
                 translatorsText: "Vashanduri",
                 selectLanguageText: '🇿🇼 Mitauro',
