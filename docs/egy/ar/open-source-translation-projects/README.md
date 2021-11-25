@@ -1,3 +1,6 @@
+---
+layout: RTLLayout
+---
 # Open Source Translation Projects
 
 <LanguageDropdown/>

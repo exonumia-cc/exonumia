@@ -1,3 +1,6 @@
+---
+layout: RTLLayout
+---
 # Exonumia Translations
 
 <LanguageDropdown/>

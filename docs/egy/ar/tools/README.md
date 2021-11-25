@@ -1,3 +1,6 @@
+---
+layout: RTLLayout
+---
 # Tools
 
 <LanguageDropdown/>

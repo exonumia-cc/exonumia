@@ -1,30 +1,73 @@
-# Bitcoin Is Like Sports
+---
+layout: RTLLayout
+---
+# البتكوين مثل الرياضة
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+
+<p dir="rtl">
+كتبه thebitcoinrabb في  <a href="https://twitter.com/thebitcoinrabbi/status/1349445548500262916">2021/01/13</a></p>
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+<p dir="rtl">
+لطالما شرحت عمل البتكوين ولامركزيته بتشبيهه بلعبة رياضة. أعتقد أن هذا التشبيه يساعد على إجابة كثيرة من الأسئلة الشائعة:</p>
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+<p dir="rtl">
+س: من اخترع البيسبول؟</p>
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+<p dir="rtl">
+ج: لا يهم فعلًا. يمكن لكل إنسان في العالم أن يلعب. لا يهم إذا أراد المخترع الأول تغيير القوانين أو مكافأة نفسه أو أي شيء آخر. لا يهمنا رأيه في لعبتنا.</p>
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
 
-I value it, so it has value. Value is subjective.
+<p dir="rtl">
+س: من يحكم اللعبة؟</p>
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+<p dir="rtl">
+ج: لا حاكم هنا، بل كلنا قررنا أن نلعب. كلنا نعرف القوانين ونفرضها، وإذا غشّ أحدٌ طردناه من اللعبة. إذا أراد أحد أن يضيف إلى نفسه نقاطًا غير مستحقّة، تجاهلناه.</p>
+
+
+<p dir="rtl">
+س: كيف نعرف أن القوانين لن تتغير؟</p>
+
+
+<p dir="rtl">
+ج: كلّنا وافقنا على هذه القوانين قبل بدء اللعبة، وكل من يريد أن يستمر في اللعب بهذه القوانين سيستمر، فإذا أراد أحد أن يغير القوانين، فعليه أن يجد مكانًا آخر ليلعب فيه.</p>
+
+
+<p dir="rtl">
+س: ألا يمكن اختراقها؟</p>
+
+
+<p dir="rtl">
+ج: كل شيء واضح للعموم. يمكننا جميعًا أن نرى الملعب كاملًا وجميع النتائج. إذا غشّ أحد، سنعرف كلنا ونطرده.</p>
+
+
+<p dir="rtl">
+س: لمَ كان لها قيمة؟</p>
+
+
+<p dir="rtl">
+ج: كلنا قررنا أن نلعب، فهي لها قيمة عندنا. إذا قرر أحد أن يلعب، فعليه أن يقرّ بنقاطنا وقيمتنا.</p>
+
+
+<p dir="rtl">
+أنا أقيّمها، لذا فلها قيمة. القيمة ذاتيّة.</p>
+
+
+<p dir="rtl">
+س: ألا يمكن حظرها؟</p>
+
+
+<p dir="rtl">
+ج: ربما، ولكن اللعبة ما هي إلا بضعة لاعبين يلعبون بعصًا وكرة، من دون أن يؤذوا أحدًا، قد تستطيع الحكومة إيقاف لعبك، ولكنها لا تستطيع حظر مفهوم ضرب الكرة بالعصا، لذا فاللعبة نفسها ستستمر في مكان آخر.</p>
+
+
+<p dir="rtl">
+س: هل عليّ أن أنضم؟</p>
+
+
+<p dir="rtl">
+ج: افعل ما تريد. أنا أحب لعب البيسبول، اركب معنا أو تمتّع وأنت فقير.</p>

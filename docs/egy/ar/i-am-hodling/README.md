@@ -1,3 +1,6 @@
+---
+layout: RTLLayout
+---
 # I AM HODLING
 
 by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
