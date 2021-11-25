@@ -1,4 +1,5 @@
 ---
+layout: RTLLayout
 title: Layered Money
 metaTitle: "Layered Money: From Gold and Dollars to Bitcoin and Central Bank Digital Currencies"
 lang: en-US

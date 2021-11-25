@@ -1,75 +1,89 @@
 ---
 layout: RTLLayout
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "The ₿itcoin Translator"
+        href: "https://twitter.com/BTCTranslator"
 ---
-# Bitcoin v0.1 released
+# إطلاق البتكوين (الإصدار 0.1)
 
-by Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
+
+<p dir="rtl">
+كتبه ساتوشي ناكاموتو في <a href="https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html">2009/01/09</a></p>
+
 
 <LanguageDropdown/>
 
-Announcing the first release of Bitcoin, a new electronic cash
-system that uses a peer-to-peer network to prevent double-spending.
-It's completely decentralized with no server or central authority.
+<p dir="rtl">
+إطلاق أول إصدار من البتكوين، نظام نقدٍ إلكتروني جديد يستعمل شبكة نظير إلى نظير لمنع الاستهلاك المضاعف. إنه نظام لامركزي تماما وليس فيه خادم ولا سلطة مركزية.</p>
 
 
-See bitcoin.org for screenshots.
+<p dir="rtl">
+انظر موقع bitcoin.org للقطات الشاشة.</p>
 
-Download link:
-http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-Windows only for now.  Open source C++ code is included.
+<p dir="rtl">
+رابط التحميل: http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar</p>
 
-- Unpack the files into a directory
-- Run BITCOIN.EXE
-- It automatically connects to other nodes
 
-If you can keep a node running that accepts incoming connections,
-you'll really be helping the network a lot.  Port 8333 on your
-firewall needs to be open to receive incoming connections.
+<p dir="rtl">
+للويندوز فقط الآن. كود c++ مفتوح المصدر موجود في الرابط.</p>
 
-The software is still alpha and experimental.  There's no guarantee
-the system's state won't have to be restarted at some point if it
-becomes necessary, although I've done everything I can to build in
-extensibility and versioning.
 
-You can get coins by getting someone to send you some, or turn on
-Options->Generate Coins to run a node and generate blocks.  I made
-the proof-of-work difficulty ridiculously easy to start with, so
-for a little while in the beginning a typical PC will be able to
-generate coins in just a few hours.  It'll get a lot harder when
-competition makes the automatic adjustment drive up the difficulty.
-Generated coins must wait 120 blocks to mature before they can be
-spent.
 
-There are two ways to send money.  If the recipient is online, you
-can enter their IP address and it will connect, get a new public
-key and send the transaction with comments.  If the recipient is
-not online, it is possible to send to their Bitcoin address, which
-is a hash of their public key that they give you.  They'll receive
-the transaction the next time they connect and get the block it's
-in.  This method has the disadvantage that no comment information
-is sent, and a bit of privacy may be lost if the address is used
-multiple times, but it is a useful alternative if both users can't
-be online at the same time or the recipient can't receive incoming
-connections.
+<p dir="rtl">
+●        استخرج الملفات في مجلد</p>
 
-Total circulation will be 21,000,000 coins.  It'll be distributed
-to network nodes when they make blocks, with the amount cut in half
-every 4 years.
 
-first 4 years: 10,500,000 coins
-next 4 years: 5,250,000 coins
-next 4 years: 2,625,000 coins
-next 4 years: 1,312,500 coins
-etc...
 
-When that runs out, the system can support transaction fees if
-needed.  It's based on open market competition, and there will
-probably always be nodes willing to process transactions for free.
+<p dir="rtl">
+●        شغّل BITCOIN.EXE</p>
 
-Satoshi Nakamoto
 
----------------------------------------------------------------------
-The Cryptography Mailing List
-Unsubscribe by sending "unsubscribe cryptography" to majord...@metzdowd.com
+
+<p dir="rtl">
+●        سيتصل البرنامج تلقائيًّا بالعقد الأخرى.</p>
+
+
+<p dir="rtl">
+إذا استطعت إبقاء العقدة مشغلة لتقبل الحوالات الآتية، فأنت تساعد الشبكة كثيرًا. يجب فتح المنفذ 8333 في جدارك الناري ليقبل الاتصالات الواردة.</p>
+
+
+<p dir="rtl">
+البرنامج لم يزل في طور ألفا وهو تجريبي. لا ضمان بعدم إعادة ضبط وضع النظام إذا اضطر الأمر، ولو أنني فعلت كل ما في وسعي لبناء التوسّع والتصدير.</p>
+
+
+<p dir="rtl">
+يمكنك الحصول على العملات بأن تجعل أحدًا يرسلها إليك، أو اختر من قائمة إعدادات -> توليد عملات، لتشغيل عقدة وتوليد كتل. جعلتُ صعوبة برهان العمل سهلة جدًّا مبدئيًّا، لذا سيستطيع في أول الأمر أي حاسوب عادي توليد عملات في بضع ساعات. ستزداد هذه الصعوبة كثيرًا عندما يدفع التنافس التعديل التلقائي إلى رفع الصعوبة. يجب أن تنتظر العملات المولدة 120 كتلة لتنضج قبل أن يمكن صرفها.</p>
+
+
+<p dir="rtl">
+يمكن إرسال المال بطريقتين. إذا كان المتلقّي متصلًا، يمكنك إدخال عنوانه IP وستتصل بعقدته وتحصل على عنوان عام جديد وترسل الحوالة مع تعليقات. إذا لم يكن المتلقي متصلًا، يمكن إرسال البتكوين إلى عنوانه، وهو هاش لمفتاحه العام يعطيك إياه. سيتلقّى الحوالة عندما يتصل ويحصل على الكتلة. بهذه الطريقة لا يمكن إرسال تعليقات، وقد تضيع بعض الخصوصية إذا استعمل العنوان نفسه عدة مرات، ولكنه بديل نافع إذا لم يستطع الطرفان الاتصال في الوقت نفسه أو كان المتلقي غير قادر على استقبال الاتصالات الواردة.</p>
+
+
+<p dir="rtl">
+سيكون إجمالي العملات المتداولة 21 مليون عملة. ستتوزع على عقد الشبكة عندما تصنع كتلًا، وسيتنصّف المقدار الموزّع كل 4 سنوات.</p>
+
+
+<p dir="rtl">
+أول 4 سنوات: 10,500,000 عملة، في السنين الأربع التالية: 5,250,000 عملة، في السنين الأربع التالية: 2,625,000 عملة، في السنين الأربع التالية: 1,312,500 عملة، إلخ...</p>
+
+
+<p dir="rtl">
+عندما تنفد العملات، يمكن أن يعتمد النظام على أجور الحوالات إذا احتاج. النظام قائم على المنافسة في سوق مفتوحة، وستكون دائمًا على الأرجح بعض العقد المستعدة لمعالجة الحوالات مجانًا.</p>
+
+
+<p dir="rtl">
+ساتوشي ناكاموتو</p>
+
+
+
+---
+
+<p dir="rtl">
+قائمة التشفير البريدية، ألغ اشتراكك بإرسال "unsubscribe cryptography" إلى majord...@metzdowd.com</p>
 

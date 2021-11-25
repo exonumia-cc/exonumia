@@ -1,5 +1,13 @@
 ---
 layout: RTLLayout
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "The ₿itcoin Translator"
+        href: "https://twitter.com/BTCTranslator"
 ---
 # البتكوين مثل
 

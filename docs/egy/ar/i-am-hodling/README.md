@@ -1,22 +1,46 @@
 ---
 layout: RTLLayout
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "The ₿itcoin Translator"
+        href: "https://twitter.com/BTCTranslator"
 ---
-# I AM HODLING
+# أنا ممكس HODLING
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+
+<p dir="rtl">
+كتبه غيمكيوبي في <a href="https://bitcointalk.org/index.php?topic=375643.0">2013/12/18</a></p>
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+<p dir="rtl">
+لقد كتبت هذا العنوان مرتين لأنني عرفت أنه خطأ في المرة الأولى. لم يزل خطأ. لا يهم.</p>
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+<p dir="rtl">
+صديقتي في ملهى السحاقيات، وسعر البتكوين ينهار. فعلامَ أنا ممسك؟ سأقول لك.</p>
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+<p dir="rtl">
+لأنني سيئ في المتاجرة وأعلم أنني سيئ في المتاجرة. نعم أنتم المتاجرون العالمون تعرفون القمم والأقعار وتصنعون مليون دولار كأنكم لم تفعلوا شيئًا.</p>
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+
+<p dir="rtl">
+يقول أصحاب الأيدي الضعيفة كذلك: أوه إن السعر ينخفض عليّ أن أبيع هي هي هي، ثم مرة أخرى يشتري هؤلاء المتاجرون الأذكياء الذين يعرفون ماذا يفعلون مرة أخرى. ولكن أتعرف؟ أنا لست من هذه المجموعة. عندما يشتري المتاجرون مرة أخرى أكون أنا جزءًا من رأس مال السوق، لذا فهؤلاء المتاجرون المياومون لا يخادعونني.</p>
+
+
+<p dir="rtl">
+سلاسل التغريدات هذه التي تقول «كان عليك أن تبيع» نعم قل والله. نعم والله كان علي أن أبيع. كان علي أن أبيع قبل لحظة من كل بيع وأن أشتري قبل لحظة من كل شراء ولكن أتعرف؟ ليس كل الناس أذكياء مثلك.</p>
+
+
+<p dir="rtl">
+لا يبيع المرء في سوق نازل إلا إذا كان متاجرًا مياومًا ذكيًّا أو مبتدئًا موهومًا. أما الذين في المنتصف فيمسكون.</p>
+
+
+<p dir="rtl">
+في لعبة صفرية المجموعة مثل هذه، لا يأخذ المتاجرون مالك إلا إذا بعت.</p>
