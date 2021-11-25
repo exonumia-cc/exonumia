@@ -24,6 +24,12 @@ contributors: false
 
 ---
 
+**[🇪🇬 مصر](/egy/)**
+
+[العربية](/egy/ar/)
+
+---
+
 **[🇰🇪 Kenya](/ken/)**
 
 [Kiswahili](/ken/sw/)

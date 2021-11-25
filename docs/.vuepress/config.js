@@ -86,6 +86,11 @@ module.exports = {
             group: '🇨🇬 Republic of the Congo',
             title: 'Exonumia'
         },
+        '/egy/ar/': {
+            lang: 'ar',
+            group: '🇪🇬 مصر',
+            title: 'Exonumia'
+        },
         '/ken/sw/': {
             lang: 'sw',
             group: '🇰🇪 Kenya',
@@ -395,6 +400,68 @@ module.exports = {
                     },
                     '/cog/ln/contribution-guide/',
                     '/cog/ln/contact/'
+                ],
+            },
+            '/egy/ar/': {
+                supportersText: "أنصار",
+                translatorsText: "مترجمين",
+                selectLanguageText: '🇪🇬 اللغات',
+                selectLanguageName: '🇪🇬 العربية',
+                freelyAvailableTranslationsText: '🇪🇬 الترجمات المتاحة بحرية',
+                label: 'العربية',
+                selectLanguageAriaLabel: 'اللغات',
+                editLinkText: 'تحسين المحتوى',
+                continueReading: true,
+                continueReadingText: 'أكمل القراءة',
+                navbar: [
+                    { 
+                        text: 'الصفحة الرئيسية', 
+                        link: '/egy/ar/' 
+                    },
+                    { 
+                        text: 'الترجمات', 
+                        link: '/egy/ar/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/egy/ar/about/',
+                    {
+                        text: 'الترجمات',   // required
+                        link: '/egy/ar/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/egy/ar/',
+                            '/egy/ar/explain-bitcoin-like-im-five/',
+                            '/egy/ar/bitcoin-is-like/',
+                            '/egy/ar/bitcoin-is-like-sports/',
+                            '/egy/ar/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/egy/ar/museum/bitcoin-v0.1-released/',
+                            '/egy/ar/museum/re-bitcoin-v0.1-released/',
+                            '/egy/ar/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        text: 'كتب',   // required
+                        link: '/egy/ar/books/',
+                        children: [
+                            '/egy/ar/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'أدوات',
+                        link: '/egy/ar/tools/'
+                    },
+                    {
+                        text: 'مشاريع الترجمة',   // required
+                        link: '/egy/ar/open-source-translation-projects/',
+                        children: [
+                            '/egy/ar/transifex/bitcoin-core/',
+                            '/egy/ar/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/egy/ar/contribution-guide/',
+                    '/egy/ar/contact/'
                 ],
             },
             '/ken/sw/': {
