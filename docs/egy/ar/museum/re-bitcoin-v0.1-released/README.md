@@ -16,6 +16,8 @@ translators:
 كتبه هال فيني في <a href="https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html">2009/01/11</a></p>
 
 
+<LanguageDropdown/>
+
 <p dir="rtl">
 كتب ساتوشي ناكاموتو:</p>
 
