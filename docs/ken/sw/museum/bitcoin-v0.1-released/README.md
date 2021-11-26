@@ -40,10 +40,10 @@ miunganisho inayoingia.
 
 Mzunguko wa jumla utakuwa sarafu 21,000,000. Itasambazwa kwa nodi za mtandao wakati wao tengeneza vizuizi, na kiasi kilichokatwa kwa nusu kila baada ya miaka 4.
 
-miaka 4 ya kwanza: sarafu 10,500,000
-miaka 4 ijayo: sarafu 5,250,000
-miaka 4 ijayo: sarafu 2,625,000
-miaka 4 ijayo: sarafu 1,312,500
+miaka 4 ya kwanza: sarafu 10,500,000  
+miaka 4 ijayo: sarafu 5,250,000  
+miaka 4 ijayo: sarafu 2,625,000  
+miaka 4 ijayo: sarafu 1,312,500  
 nk...
 
 Hilo likiisha, mfumo unaweza kuauni ada za muamala ikihitajika. Inategemea wazi

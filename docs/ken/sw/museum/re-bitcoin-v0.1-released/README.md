@@ -26,10 +26,10 @@ Hongera Satoshi kwa toleo hili la kwanza la alpha. Ninatazamia kuijaribu.
 
 > Mzunguko wa jumla utakuwa sarafu 21,000,000. Itasambazwa kwa nodi za mtandao wakati wao tengeneza vizuizi, na kiasi kilichokatwa kwa nusu kila baada ya miaka 4.
 >
-> miaka 4 ya kwanza: sarafu 10,500,000
-> miaka 4 ijayo: sarafu 5,250,000
-> miaka 4 ijayo: sarafu 2,625,000
-> miaka 4 ijayo: sarafu 1,312,500
+> miaka 4 ya kwanza: sarafu 10,500,000  
+> miaka 4 ijayo: sarafu 5,250,000  
+> miaka 4 ijayo: sarafu 2,625,000  
+> miaka 4 ijayo: sarafu 1,312,500  
 > nk...
 
 Inafurahisha kwamba mfumo unaweza kusanidiwa kuruhusu tu idadi fulani ya juu zaidi sarafu milele kuzalishwa. Nadhani wazo ni kwamba idadi ya kazi inayohitajika kutoa sarafu mpya itakuwa ngumu zaidi kadri muda unavyosonga. 

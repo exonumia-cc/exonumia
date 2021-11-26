@@ -54,10 +54,10 @@ Total circulation will be 21,000,000 coins.  It'll be distributed
 to network nodes when they make blocks, with the amount cut in half
 every 4 years.
 
-first 4 years: 10,500,000 coins
-next 4 years: 5,250,000 coins
-next 4 years: 2,625,000 coins
-next 4 years: 1,312,500 coins
+first 4 years: 10,500,000 coins  
+next 4 years: 5,250,000 coins  
+next 4 years: 2,625,000 coins  
+next 4 years: 1,312,500 coins  
 etc...
 
 When that runs out, the system can support transaction fees if

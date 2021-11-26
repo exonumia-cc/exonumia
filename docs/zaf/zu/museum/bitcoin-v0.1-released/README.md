@@ -39,10 +39,10 @@ to network nodes when they make blocks, with the amount cut in half
 every 4 years.
 
 iminyaka emine yokuqala: 
-izinhlamvu zemali eziyizi-10 500 000 eminyakeni emine ezayo: 
-izinhlamvu zemali eziyizi-5 250 000 eminyakeni emine elandelayo: 
-izinhlamvu zemali ezingama-2,625,000 eminyakeni emine ezayo: 
-izinhlamvu zemali eziyi-1,312,500, 
+izinhlamvu zemali eziyizi-10 500 000 eminyakeni emine ezayo:  
+izinhlamvu zemali eziyizi-5 250 000 eminyakeni emine elandelayo:  
+izinhlamvu zemali ezingama-2,625,000 eminyakeni emine ezayo:  
+izinhlamvu zemali eziyi-1,312,500,  
 njalo njalo.
 
 Lapho lokho sekuphelile, uhlelo lungaxhasa imali yokuthengiselana uma kudingeka. Kususelwa kumncintiswano wemakethe ovulekile, futhi cishe kuzohlala kunamanodi azimisele ukucubungula ukuthengiselana mahhala.
