@@ -1,4 +1,8 @@
 ---
+supporters: 
+    - 
+        name: "@rkirubi"
+        href: "https://twitter.com/rkirubi"
 translators: 
     - 
         name: "Neo Simba"
