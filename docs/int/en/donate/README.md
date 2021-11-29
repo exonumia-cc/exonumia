@@ -10,7 +10,7 @@ Or feel free to send some Bitcoins to bc1q0d047dmnn3hwseeffx3f97r43gvxzw7x57pruu
 
 To make recurring donations feel free to join our [Exonumia Patreon campaign](https://www.patreon.com/exonumia).
 
-## Bank Transfer
+## Archaic Bank Transfer
 
 To donate via EFT use the following details
 
