@@ -112,11 +112,6 @@ module.exports = {
             title: 'Exonumia',
             selectLanguageName: '🇳🇦 Khoekhoegowab'
         },
-        '/zaf/zu/': {
-            lang: 'zu',
-            group: '🇿🇦 South Africa',
-            title: 'Exonumia'
-        },
         '/zaf/st/': {
             lang: 'st',
             group: '🇿🇦 South Africa',
@@ -127,8 +122,18 @@ module.exports = {
             group: '🇿🇦 South Africa',
             title: 'Exonumia'
         },
+        '/zaf/ts/': {
+            lang: 'ts',
+            group: '🇿🇦 South Africa',
+            title: 'Exonumia'
+        },
         '/zaf/ve/': {
             lang: 've',
+            group: '🇿🇦 South Africa',
+            title: 'Exonumia'
+        },
+        '/zaf/zu/': {
+            lang: 'zu',
             group: '🇿🇦 South Africa',
             title: 'Exonumia'
         },
@@ -725,68 +730,131 @@ module.exports = {
                     '/nam/naq/contact/'
                 ],
             },
-            '/zaf/zu/': {
-                lastUpdatedText: "Kugcine ukubuyekezwa",
-                supportersText: "Abasekeli",
-                translatorsText: "Abahumushi",
+            '/zaf/nr/': {
+                lastUpdatedText: "Last Updated",
+                supportersText: "Supporters",
+                translatorsText: "Translators",
                 selectLanguageText: '🇿🇦 Izilimi',
-                selectLanguageName: '🇿🇦 IsiZulu',
+                selectLanguageName: '🇿🇦 Isindebele',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
-                label: 'IsiZulu',
+                label: 'Isindebele',
                 selectLanguageAriaLabel: 'Izilimi',
                 editLinks: true,
-                editLinkText: "Thuthukisa Ukuhumusha",
+                editLinkText: "Improve Translation!",
                 continueReading: true,
-                continueReadingText: 'Qhubeka ufunde',
+                continueReadingText: 'Continue Reading',
                 navbar: [
                     { 
                         text: 'Home', 
-                        link: '/zaf/zu/' 
+                        link: '/zaf/nr/' 
                     },
                     { 
-                        text: 'Ukuhumusha', 
-                        link: '/zaf/zu/translations/' 
+                        text: 'Translations', 
+                        link: '/zaf/nr/translations/' 
                     },
                 ],
                 sidebar: [
-                    '/zaf/zu/about/',
+                    '/zaf/nr/about/',
                     {
-                        text: 'Ukuhumusha',   // required
-                        link: '/zaf/zu/translations/',      // optional, which should be a absolute path.
+                        text: 'Translations',   // required
+                        link: '/zaf/nr/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/zaf/zu/',
-                            '/zaf/zu/explain-bitcoin-like-im-five/',
-                            '/zaf/zu/bitcoin-is-like/',
-                            '/zaf/zu/bitcoin-is-like-sports/',
-                            '/zaf/zu/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/zaf/zu/museum/bitcoin-v0.1-released/',
-                            '/zaf/zu/museum/re-bitcoin-v0.1-released/',
-                            '/zaf/zu/i-am-hodling/'
+                            '/zaf/nr/',
+                            '/zaf/nr/explain-bitcoin-like-im-five/',
+                            '/zaf/nr/bitcoin-is-like/',
+                            '/zaf/nr/bitcoin-is-like-sports/',
+                            '/zaf/nr/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/nr/museum/bitcoin-v0.1-released/',
+                            '/zaf/nr/museum/re-bitcoin-v0.1-released/',
+                            '/zaf/nr/i-am-hodling/'
                         ]
                     },
                     {
-                        text: 'Izincwadi',   // required
-                        link: '/zaf/zu/books/',
+                        text: 'Books',   // required
+                        link: '/zaf/nr/books/',
                         children: [
-                            '/zaf/zu/books/layered-money/'
+                            '/zaf/nr/books/layered-money/'
                         ]
                     },
                     {
                         text: 'Tools',
-                        link: '/zaf/zu/tools/'
+                        link: '/zaf/nr/tools/'
                     },
                     {
-                        text: 'Amaphrojekthi weTransifex',   // required
-                        link: '/zaf/zu/open-source-translation-projects/',
+                        text: 'Translation Projects',   // required
+                        link: '/zaf/nr/open-source-translation-projects/',
                         children: [
-                            '/zaf/zu/transifex/bitcoin-core/',
-                            '/zaf/zu/transifex/btcpayserver/'
+                            '/zaf/nr/transifex/bitcoin-core/',
+                            '/zaf/nr/transifex/btcpayserver/'
                         ]
                     },
-                    '/zaf/zu/contribution-guide/',
-                    '/zaf/zu/contact/'
+                    '/zaf/nr/contribution-guide/',
+                    '/zaf/nr/contact/'
+                ],
+            },
+            '/zaf/ts/': {
+                lastUpdatedText: "Last Updated",
+                supportersText: "Supporters",
+                translatorsText: "Translators",
+                selectLanguageText: '🇿🇦 Languages',
+                selectLanguageName: '🇿🇦 Isitsonga',
+                freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
+                label: 'Isitsonga',
+                selectLanguageAriaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/zaf/ts/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/zaf/ts/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/zaf/ts/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/zaf/ts/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/zaf/ts/',
+                            '/zaf/ts/explain-bitcoin-like-im-five/',
+                            '/zaf/ts/bitcoin-is-like/',
+                            '/zaf/ts/bitcoin-is-like-sports/',
+                            '/zaf/ts/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/ts/museum/bitcoin-v0.1-released/',
+                            '/zaf/ts/museum/re-bitcoin-v0.1-released/',
+                            '/zaf/ts/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/zaf/ts/books/',
+                        children: [
+                            '/zaf/ts/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/zaf/ts/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/zaf/ts/open-source-translation-projects/',
+                        children: [
+                            '/zaf/ts/transifex/bitcoin-core/',
+                            '/zaf/ts/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/zaf/ts/contribution-guide/',
+                    '/zaf/ts/contact/'
                 ],
             },
             '/zaf/st/': {
@@ -917,68 +985,68 @@ module.exports = {
                     '/zaf/ve/contact/'
                 ],
             },
-            '/zaf/nr/': {
-                lastUpdatedText: "Last Updated",
-                supportersText: "Supporters",
-                translatorsText: "Translators",
+            '/zaf/zu/': {
+                lastUpdatedText: "Kugcine ukubuyekezwa",
+                supportersText: "Abasekeli",
+                translatorsText: "Abahumushi",
                 selectLanguageText: '🇿🇦 Izilimi',
-                selectLanguageName: '🇿🇦 Isindebele',
+                selectLanguageName: '🇿🇦 IsiZulu',
                 freelyAvailableTranslationsText: '🇿🇦 Freely Available Translations',
-                label: 'Isindebele',
+                label: 'IsiZulu',
                 selectLanguageAriaLabel: 'Izilimi',
                 editLinks: true,
-                editLinkText: "Improve Translation!",
+                editLinkText: "Thuthukisa Ukuhumusha",
                 continueReading: true,
-                continueReadingText: 'Continue Reading',
+                continueReadingText: 'Qhubeka ufunde',
                 navbar: [
                     { 
                         text: 'Home', 
-                        link: '/zaf/nr/' 
+                        link: '/zaf/zu/' 
                     },
                     { 
-                        text: 'Translations', 
-                        link: '/zaf/nr/translations/' 
+                        text: 'Ukuhumusha', 
+                        link: '/zaf/zu/translations/' 
                     },
                 ],
                 sidebar: [
-                    '/zaf/nr/about/',
+                    '/zaf/zu/about/',
                     {
-                        text: 'Translations',   // required
-                        link: '/zaf/nr/translations/',      // optional, which should be a absolute path.
+                        text: 'Ukuhumusha',   // required
+                        link: '/zaf/zu/translations/',      // optional, which should be a absolute path.
                         // collapsable: false, // optional, defaults to true
                         // sidebarDepth: 3,    // optional, defaults to 1
                         children: [
-                            '/zaf/nr/',
-                            '/zaf/nr/explain-bitcoin-like-im-five/',
-                            '/zaf/nr/bitcoin-is-like/',
-                            '/zaf/nr/bitcoin-is-like-sports/',
-                            '/zaf/nr/bitcoin-a-peer-to-peer-electronic-cash-system/',
-                            '/zaf/nr/museum/bitcoin-v0.1-released/',
-                            '/zaf/nr/museum/re-bitcoin-v0.1-released/',
-                            '/zaf/nr/i-am-hodling/'
+                            '/zaf/zu/',
+                            '/zaf/zu/explain-bitcoin-like-im-five/',
+                            '/zaf/zu/bitcoin-is-like/',
+                            '/zaf/zu/bitcoin-is-like-sports/',
+                            '/zaf/zu/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/zu/museum/bitcoin-v0.1-released/',
+                            '/zaf/zu/museum/re-bitcoin-v0.1-released/',
+                            '/zaf/zu/i-am-hodling/'
                         ]
                     },
                     {
-                        text: 'Books',   // required
-                        link: '/zaf/nr/books/',
+                        text: 'Izincwadi',   // required
+                        link: '/zaf/zu/books/',
                         children: [
-                            '/zaf/nr/books/layered-money/'
+                            '/zaf/zu/books/layered-money/'
                         ]
                     },
                     {
                         text: 'Tools',
-                        link: '/zaf/nr/tools/'
+                        link: '/zaf/zu/tools/'
                     },
                     {
-                        text: 'Translation Projects',   // required
-                        link: '/zaf/nr/open-source-translation-projects/',
+                        text: 'Amaphrojekthi weTransifex',   // required
+                        link: '/zaf/zu/open-source-translation-projects/',
                         children: [
-                            '/zaf/nr/transifex/bitcoin-core/',
-                            '/zaf/nr/transifex/btcpayserver/'
+                            '/zaf/zu/transifex/bitcoin-core/',
+                            '/zaf/zu/transifex/btcpayserver/'
                         ]
                     },
-                    '/zaf/nr/contribution-guide/',
-                    '/zaf/nr/contact/'
+                    '/zaf/zu/contribution-guide/',
+                    '/zaf/zu/contact/'
                 ],
             },
             '/zwe/sn/': {
