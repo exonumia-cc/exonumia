@@ -49,6 +49,12 @@ contributors: false
 
 ---
 
+**[🇳🇬 Nigeria](/nga/)**
+
+[Hausa](/nga/ha/)   
+
+---
+
 **[🇿🇦 South Africa](/zaf/)**
 
 [IsiNdebele](/zaf/nr/)  

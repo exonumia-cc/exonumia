@@ -112,6 +112,12 @@ module.exports = {
             title: 'Exonumia',
             selectLanguageName: '🇳🇦 Khoekhoegowab'
         },
+        '/nga/ha/': {
+            lang: 'ha',
+            group: '🇳🇬 Nigeria',
+            title: 'Exonumia',
+            selectLanguageName: '🇳🇬 Hausa'
+        },
         '/zaf/st/': {
             lang: 'st',
             group: '🇿🇦 South Africa',
@@ -726,6 +732,69 @@ module.exports = {
                     },
                     '/nam/naq/contribution-guide/',
                     '/nam/naq/contact/'
+                ],
+            },
+            '/nga/ha/': {
+                lastUpdatedText: "An sabunta ta ƙarshe",
+                supportersText: "Magoya bayansa",
+                translatorsText: "Masu Fassara",
+                selectLanguageText: '🇳🇬 Harsuna',
+                selectLanguageName: '🇳🇬 Hausa',
+                freelyAvailableTranslationsText: '🇳🇬 Akwai Fassara Kyauta',
+                label: 'Hausa',
+                selectLanguageAriaLabel: 'Harsuna',
+                editLinkText: 'Inganta Abun ciki',
+                continueReading: true,
+                continueReadingText: 'Ci gaba Karatun',
+                navbar: [
+                    { 
+                        text: 'Gida', 
+                        link: '/nga/ha/' 
+                    },
+                    { 
+                        text: 'Fassara', 
+                        link: '/nga/ha/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/nga/ha/about/',
+                    {
+                        text: 'Fassara',   // required
+                        link: '/nga/ha/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/nga/ha/',
+                            '/nga/ha/explain-bitcoin-like-im-five/',
+                            '/nga/ha/bitcoin-is-like/',
+                            '/nga/ha/bitcoin-is-like-sports/',
+                            '/nga/ha/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/nga/ha/museum/bitcoin-v0.1-released/',
+                            '/nga/ha/museum/re-bitcoin-v0.1-released/',
+                            '/nga/ha/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        text: 'Littattafai',   // required
+                        link: '/nga/ha/books/',
+                        children: [
+                            '/nga/ha/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Kayan aiki',
+                        link: '/nga/ha/tools/'
+                    },
+                    {
+                        text: 'Ayyukan Fassara',   // required
+                        link: '/nga/ha/open-source-translation-projects/',
+                        children: [
+                            '/nga/ha/transifex/bitcoin-core/',
+                            '/nga/ha/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/nga/ha/contribution-guide/',
+                    '/nga/ha/contact/'
                 ],
             },
             '/zaf/nr/': {
