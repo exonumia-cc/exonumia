@@ -1,108 +1,104 @@
-# Explain Bitcoin Like I’m Five
+---
+translators: 
+    - 
+        name: "Prudence Mbatsane"
+        href: "https://www.instagram.com/Misprue/"
+---
+# Nhlamuselo wa Bitcon unge ndzi na malembe ya ntlhanu
 
 by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Loko unga switivi leswaku i yini Bitcoin…
 
-We’re sitting on a park bench. It’s a great day.
+Ahi tshamile eka xitshama sale park iri siku ra kahle ndzi khome apula eka mina. Ndzi ku nyika yona, sweswi ukhome apula yingwe, mina ndzi hava nchumu
 
-I have one apple with me. I give it to you.
+### Ahi langutiseni kahle leswaku ku humelela yini:
 
-You now have one apple and I have zero.
+Apula ra mina ndzi ku nyike rona  a vokweni ra wena, wa swi tiva leswaku ndzi ku nyikile. A ndzi ri kona. A wu ri kona. Uyi khomile
 
-That was simple, right?
+A hi lavanga munhu wa vanharhu leswaku a ta pfuna ku hi khomisa loko hi nyikana apula. A hi vitananga malume Tommy letswaku ata tshama na hina loko hi nyikana apula kumbe ata langutisa leswaku apula yi suke eka mina ndzi yi nyika wena.
 
-### Let’s look closely at what happened:
+Apula leyi i ya wena! A ndzi nga swikoti leswaku ndzi ku nyika apula ri n’wani hi mhaka ya kuri ndzi hava. Ndzi nge ku byeli leswaku u yendla yini hi rona. Eka mina yi humile i ya wena sweswi. Unga yi nyika munghana wa wena loko i swilava, na swona munghana wa wena a nga yi nyika munghana wayena,swi ya mahlweni hi sweswo.
 
-My apple was physically put into your hand.
+Leswi swi kombeta ncincisano wa nyama leswaku wu njani. Na tshemba leswaku swa fana na loko a ndzi ku nyike a banana, buku, xiphemu kumbe mali ya phepha ya le America.
 
-You know it happened. I was there. You were there. You touched it.
+Ndza ti nyungubyisa.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+### Hi vuyela eka apula!
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Sweswi ndzi byeli, ndzi khome apulaya swa gezi. Sweswani ndzi ta ku nyika apula ra mina ra gezi.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Ah. Swesi swi ya swi tsakisa.
 
-But I’m getting ahead of myself.
+U swi tiva njani leswaku apula ra gezi,hi nkarhi wun’wani a kuri ra mina.Kambe sweswi i ra wena, ene i ra wena ntsena? Swi ehleketisi kambe
 
-### Back to apples!
+Swi ya swi ku hlangahlanganisa, aniri? U swi tiva njani leswaku andzi rhumelangi malume Tommy ku sungula email? Kumbe munghana wa wena Joe,kumbe na yena munghana wa wena Lisa?
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Kumbe xani  ndzi endle maphepha yo karhi hi apula ra gezi eka khomphyta ya mina. Kumbe ndzi yi veke eka xinhlanganisa va mayiko leswaku di ya magidi ya vanhu va yi kuma wa swi vona leswaku ncincisano hi gezi i nkinga ku rhumela apula ra gezi aswi fani na loko ndzi ku nyika apula hi voko.
 
-Ah! Now it gets interesting.
+Swi n’wani swa ti khomphytara vutivi sayense u na vito hi swa  nkinga leyi. Yi vitiwa nkinga yo hoxa havumbiri. Unga vileli hi swona. Leswi u fanele ku swi tiva i leswaku ya va pfilunganya hi nkarhi nyana na swona va vuya va nga yi lungisi.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Na sweswi
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
-
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
-
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
-
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
-
-Until now.
-
-But let’s try to think of a solution on our own.
+Kambe a hi ringeti ku ta na xintshuxo xa hina
 
 ### Ledgers
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Kumbexani swi kona swi n’wani swa apula ra gezi leswaku hi swi kuma eka ledger. Kahle kahle i buku leyi i kumaka kona ti transactions hinwato - i book ya va swa accounting 
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Ledger leyi, hi mhaka ya kuri i ya gezi fanele yi hanya etikweni ya yona ntsena ene yi va na munhu loyi a nga ta yi langutisa.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Hi vula leswo fana na World of Warcraft Blizzard, na vanhu va yena va endle ntlangu wa le ka interneti. U va vona “ledge ra gezi” wa le ka Rare Flamming Fire Sword leyi yi nga kona eka sisitimi. Hi swona . Munhu un’wani wo fana na vona a nga ku loko a swi tiva leswaku apula ra gezi ri le kwini.
 
-### Problems
+### Nkinga
 
-There’s a bit of a problem though:
+Ku kona ti nkinga nyana:
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) Swi nga endleka yini loko munhu wa le ka Blizzard a yendla swo tala? A nga hoxa ma apula ya gezi yo tala eka xiphemu xa yena loko a swi lava!
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) A swi fana na nkarhi luya a hi ri a phakeni siku leri ya kuri kona mina na wena hi hoxa malume Tommy ( munhu wa vunharhu) eka xitokisi ( Ndzi vurile leswaku i Muahluri wo tivakala). Leswi ndzi nga ku nyika e phakini. 
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Ndzi nga ku nyika njani apula ra gezi loko u switiva , wa switiva swi fana na hi minkarhi?
 
-### The Solution
+### Xintshumo
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+A ku ta endlakala yini loko hi nyike vanhu hinkwavo ledger? Loko ledger ayi ngari endzeni ka khomphyuta ya Blizzard, yiri ndzeni ka khomphyuta ya vanhu hinkwavo. Hinkwaso leswi swa yi transactions swa minkarhi hinkwayo swi nga tsariwa eka sona.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+U nge yi xisi. Ungr rhumeli ma apula ya gezi uri hava nchumu, hi mhaka ya kuri yi tava yi hlanganisiwile tabti khomphyuta ta vanhu hinkwavo. Yi ta tika leswaku u nga yi kota. Kulukumba loko yi va yi kulu..
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Na swona ayi lawuli hi munhu wun’we, Na switiva leswaku a kuna munhu loyi anga ti nyiketaka ma apula ya gezi yo tala, Nawu loyi u vekiwe e masungulweni. Na khodi na na nawu wa hinkwavo. Swi kona leswaku vanhu vo tlhariha va nga va na xihoxo,tlhogomela,sirhela,inya mahlweni yi kambiwa.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Unga ngenela network leyi leswaku u ta kota ku cinca ledger u endla leswa hinkwavo swi olova. Hi ti nkinga, loko u kuma 25 wa ma apula ya gezi kuri hakelo ra wena. Na swona i yona ndlela yo endla ma apula ya gezi yo tala eka sisitimi.
 
-### I simplified quite a bit
+### Ndzi endle leswaku swi olova ka ntsongo
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… Kambe matirhelo lawa ndzi nga wa hlamusela ya kona. Swi vitiwa Bitcoin Protocol. Ene ma apula ya gezi i wona “bitcoin” endzeni ka matirhelo. Swa dura!
 
 So, did you see what happened? What does the public ledger enable?
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) I pfuleriwile vanhu hinkwavo. Ti nomboro ta ma apula ti endilwe eka ledger ya vnhu hinkwavo a ma sungulweni. Ndzi tiva nomboro hinkwayo leyi nga kona. Eka matirhelo na switiva leswaku swi kha swi pfumaleka
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) Loko ndzi enda cincano ndza switiva leswaku apula ra gezi ri suke ka mina kambe sweswi ri le ka wena hinkwaro. Andzi nga swi koti vula leswo hi swilo swa gezi. Vata hoxa leswi ntshwa ivi vanhu hinkwavo eka ledger va swi pfumala.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) Eka leger ya vanhu hinkwavo. A hi vitananga malume Tommy (munhu wa vunharhu) leswaku a ta hi langula leswaku a hi robhani kumbe ndzi endla swo tala, kumbe ndzi ti rhumela ma kopisi ka mbiri,kumbe ka nharhu.
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+    Eka matirhelo ya cicano wa apula ra gezi swifana na cicano wa nyama. Swi kahle ku vona apula yi suka emavokweni ndzi yi hoxa exikhwameni. Ene swifana na le phakeni, cicano wu endliweni hi vanhu va mbiri. Mina na wena- A hi vitanangi malume Tommy ata langutisa 
 
-In other words, it behaves like a physical object.
+Hi marito man’wani swi fana na swa nyama
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Wa switiva leswaku swi kahle? Swa hari swa gezi. Sweswi hi nga tirha i 1,000 wa ma apula, kumbe i miliyoni wa ma apula, kumbe xani i 0000001 wa ma apula. Ndzi nga yi rhumela hi ku tshikela ka bhatheni. Ndzi nga yi rhumela eka apula ra wena ra gezi loko ndzi ri a Nicaragua, ene wena uri le New York.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Ndzi nga endla leswa gezi swi khandziya eka leswi swa apula ra gezi. I swa gezi. Kumbe ndzi nga woxa tsalwa ka xona. Tsalwa ra gezi. Kumbe ndzi nga hoxa swilo swa nkoka, swo fana na contract, xitoko xa setifikheti, kumbe ID buku.
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Se swi kahle! Hi nga swi khoma njani leswi swa “apula ra gezi”? Swi tirhiseka kahle aniri?
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Vanhu vo tala va phikisana hi swona. Ku na njekanjekisano ka leswi na le ka xikolo xa Economy. E xikarhi ka va ti polotiki na ti programmers. Unga va yingiseli. Vanhu van’wani va tlharihile. Van’wana ava switivi. Van’wani vaku matirhelo ya vitana, van’wani va wu hoxi ncumu. Jaha rin’wana u hoxe nomboro yi kulu kumba ya ma apula yo ringana na $1,300 rin’we. Van’wani vaku i nsuku, kumbe kharensi. Van’wani vaku swifana na tulips. Vanhu van’wani va ta cinca tiko, van’wani va taku i ntlangu ntsena.
 
-I have my own opinion about it.
+Ndzi na vonelo hi Bitcoin.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Yi tava xitori xa siku rin’wani. Kambe vana va sweswi va tiva swo tala hi Bitcoin.
 
 #### Recommend Reading (Updated 2017)
 
