@@ -511,8 +511,6 @@ module.exports = {
                             '/ken/sw/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/ken/sw/museum/bitcoin-v0.1-released/',
                             '/ken/sw/museum/re-bitcoin-v0.1-released/',
-                            '/ken/sw/museum/bitcoin-v0.1-released/',
-                            '/ken/sw/museum/re-bitcoin-v0.1-released/',
                             '/ken/sw/i-am-hodling/'
                         ]
                     },
