@@ -164,29 +164,56 @@ kondimisa lokuta na yango. Ba kompanyi oyo basalaka mimbongo ya mituya minene mi
 pe mingi mingi balukaka kobakisa mazita ebele ebele pona ko lendisa bokengeli mya bango na bonsomi
 nyoso.
 
-## Combining and Splitting Value
+## Kosangisa Pe Kokabola Motuya(valeur)
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Atako okoki kokotisa mwa mbilinga mbilinga na ba piece moko na moko, eza malamu te koteka sengi na
+sengi nakati ya transaction moko. Pona kopesa ndingisa na ba valeurs nyoso yako sangisa to ya ko
+kabola, ba transaction ezalaka zela yako kokota na ya kobima ebele ebele. Esengeli kozala na ekotiseli
+moko kaka epai wapi transaction ya suka pe ya monene koleka to pe liboke ya motuya ya monene oya
+ba transaction ya mike mike ebimeli to bibimeli mobale kaka : moko pona kofuta, mosusu pona mashini
+ya echange, pona mofuti.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Toyeba ‘te kokabola pe ko panzapanza, to pe transaction moko etalelaka ba transacation misusu, pe
+banog nyoso batalelaka makambo misusu, eza moto ya likambo na biso awa te. Bosenga ya mokanda
+mobimba epai wapi ba tranction nyoso ekomama ezalaka te pe eza na tina te.
 
-## Privacy
+## Sekele (Vie privée)
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Ba banke ya kala bazalaka na ndenge na bango yako batela to kobomba ba ssekele ya bato kaka pona
+bango moko n’a mwa bato oyo ya motema na ndenge na bango. Bosenga yako panza basango yaba
+transaction nyoso polele polele pona bato nyoso elongo tina ya sekele elongoli modele wana, kasi sekele
+ya bsango ya moto ekoki kobombama nako kataka ba nzela kili kili yako panza sango : na ko bombaka ba
+fungola nyoso ezanga kombo. Moto nyoso akoki komona nani azo tinda motsango pe motuya songo na
+nani mosusu, kasi moto moko akoki komona masolo ya sekele oyoa kati te. Eza lokola ndenge esalemaka
+na bourse (Zando ya misolo), epai wapi tango n’a talo, mimbongo nyoso na carnet d’ordres, eza polele
+polele kasi epanzaka ba sekele te.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Lokola pare-feu (lolenge yako batela rezo) mosusu, na transction nyoso okoki pe kosalela ba fungola ya
+sika po ‘te ekangama to eyabana te soki nani nde aza kolo na yango. Atako, ekoyebana kaka soki ezo
+salelama mingi mingi, wana eko yebana ‘te ewuti na esika moko. Eza likama soki mokolo ya fungola
+ayebani, na kolandela singa ya ba transaction nyoso asala eko yebana.
 
-## Calculations
+## Kalkil
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Toloba ‘te monguna azo meka ko fungola sheni mosusu na lombango penza koleka sheni ya solo. Atako
+soki ekokisami, eko fungola nzela te pona kobongola makambo nyoso na nko, eza lokola kosala misolo
+to mbongo ex nihilo (ko uta na eloko te, kaka na pwasa) to kozwa misolo oyo etikala kozala ya monguna
+te. Mzita (ba nœuds) bakondima kofutama na transaction ya lokuta soki moke te, pe lisusu mazita ya
+malamu (bosembo) ekondimaka te kokota na bloki ya boye. Monguna akoki kaka komeka kobongola
+moko ya ba transaction naye pona kozwa misolo oyo ye moko abimisaki. 
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Momekano katikati na sheni ya bosembo na oya lokuta ekoki kobima nzela oyo babengi binomiale aleatoire (na pwasa). Oyo epesaka
+elonga ezale ‘te sheni ya bosemba etandamaka na loboke moko, emi tiaka liboso +1 pe likama soki
+monguna akotisi ekoki pe kozongisa sheni sima na -1. 
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Ndenge ‘te monguna alonga soki azalaki na sima
+tango sheni ebandaki ekokani na ko beba ya mosali na yango. Toloba moto aza na etuluku ya kredit kasi
+abandi na sima pe ameki meki mbala na mbala po atelema ngwi. Tokoki koloba ‘te mokolo moko
+akotelema penza penza ngwi, to pe monguna akanga sheni ya bosembo, boye [8] :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -201,7 +228,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
+        <mtext>&#xA0;probabilité qu’un nœud honnête trouve le prochain bloc</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -215,7 +242,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
+        <mtext>&#xA0;probabilité que l’attaquant trouve le prochain bloc.</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -233,11 +260,11 @@ The probability of an attacker catching up from a given deficit is analogous to 
       </mtd>
       <mtd>
         <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
+          <mtext>&#xA0;probabilité que l’attaquant rattrape un jour en partant avec&#xA0;</mtext>
           <mrow class="MJX-TeXAtom-ORD">
             <mi>z</mi>
           </mrow>
-          <mtext>&#xA0;blocks behind</mtext>
+          <mtext>&#xA0;blocs de retard</mtext>
         </mrow>
       </mtd>
     </mtr>
@@ -297,21 +324,29 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Ndenge tolobi ‘te
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
+, ekoki pe kokweya soki obakisi motango ya ba bloki oyo monguna esengeli
+alanda pe akanga. Soki aza na libaku malamu te to pe atamboli na yango te uta ebandeli, ekomi silela na
+yango moko, tango ako zonga sima. Totala sikoyo tango boni ekosenga pona moto oyo batindeli azela
+po ayeba penza penza ‘te moto oyo atindeli ye ako bongwana te. Toloba ‘te motindi aza moto ya lokuta
+pe alingi awumela po moto atindeli andima ‘te afutaki penza, na sima, soki mwa tango eleki azongisa
+transaction epana ye moko. Kelelo ekobeta epaya moto atindelaki tango ekokoma, kasi motindi ako
+kanisa ‘te eko simba te.
 
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+Moto batindeli ako bimisa ba fungola mibale ya sika pe akopesa yango na polele na motindi yambo ‘te
+atia nkoma naye. Esalemaka boye po motindi abongisa sheni ya ba bloki po akenda mosika penza liboso
+koleka, po akokisa transaction. Soki transaction etindami, motindi ya lokuta ako banda kosalela sheni na
+kobatama epai wapi ndambo ya basango ya transaction naye ya mabe ebombami.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
-
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
-
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Moto atindelaki akozela tii transaction wana ebakisama na bloki moko pe bloki z esangani na sima.
+Lokola ayebi malamu malamu te ‘te monguna akomi mosika liboso, kasi na kondimaka ‘te ba bloki ya
+malamu ezwi tango esengeli po na yango, kokende liboso ya monguna ekolanda nzela ya mobeka ya
+mbisi na motuya na yango :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -325,7 +360,8 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Pona koyeba soki monguna akoki kokanga, to matisi makisi ya mobeko ya mbisi po na motuya moko na
+moko ya avancement oyo akoki kozala n’ango, na likanisi ete asi akomaki na esika yango :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -412,7 +448,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Nako bongisaka noki serie ya bokaboli nyoso ebeba...
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -475,7 +511,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Soki tobongoli na code C...
 
 ```c
 #include 
@@ -496,7 +532,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Soki mwa ndambo ya litomba emonani, toko mona ‘te noyoso eko bongwana makasi n’a z.
 
 ```
 q=0.1
@@ -526,7 +562,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Soki tobongisi pona P na se na 0,1%...
 
 ```
 P < 0.001
@@ -540,9 +576,22 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Pona Kosukisa
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Totalisi sistemi ya mombongo to pe transactions elektroniki (to pe na nzela ya lotiliki) oyo ekipaka
+kotiela motema to pe confiance te. Tobandisi yango na esaleli ya se ndenge moko na lokas aya mbongo
+oyo etiami na makomi to signature elektroniki, oyo ebombaka pe ebatelaka misala nyoso makasi, kasi
+ekoki kopekisaka kofuta mbala mibale te. Po na kokata likambo oyo, totalisi ‘te rezo pair-a-pair (na kati
+kati ya baninga) oyo ekosalela peleve ya mosala pona kokoma pe kobomba ba sango nyoso ya
+mimbongo to pe ba transaction, na lombango penza eko koma matat pona monguna abongola makomi
+soki mazita (nœud) ya bosembo e’ko tambwisa etuluku ya nguya ya ba CPU. Rezo atako etiami na alima
+te, ezali monene pe makasi na bompondo nyoso. Mazita nyos ekosala mosala na bomoko atako
+motamwisi azali te. Tina pe ‘te bayebana ezali te, po masolo nakati na bango nyoso etindamaka na esika
+songolo te pe po esengeli kaka ete epesa sango na tango na yango. Mazita ekoki kobima pe kozonga na
+rezo ndenge elingi, pe ekondima lokola sheni ya mosala oyo esalemaki tango bango bazalaki te.
+Maponami mya bango esalemaka na nguya ya CPU na bango, pona kondima ba bloki ya solo pe kosala
+nyoso pona kokutana na yang ope koboya ba bloki ya mabe pe ya lokuta. Mibeko nyoso pe lifuta
+esengeli pona mosala etiamaka pe etelima na esaleli oyo na lisanaga pe boyokani.
 
 ## References
 

@@ -1,55 +1,50 @@
-# Re: Bitcoin v0.1 released
+# Re: Bitkoin v0.1 Ebimi
 
 by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
-Satoshi Nakamoto writes:
+Satoshi Nakamoto akomi boye:
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
+> Bitkoin ebimi, sisteme yako tambwisa misolo na kati ya baninga (pair-a-pair) na nzela ya lotiliki pe
+> inteleneti pona kopekisa kanyaka pe kofutisama mbala na mbala. Bonsomi na yango eyebana, eza na
+> servere n’a mokambi to mokonzi (mokambi/motambwisi) te.
 >
-> See bitcoin.org for screenshots.
+> Tala bitcoin.org pona bilili.
 >
-> Download link:
+> Nzela n’ango ezali awa:
 > http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
+Longonya na Satoshi po na ndenge kobimisa version alpha oyo. Nako meka yango na lombango penza.
 
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
+> Motango nyoso ya mabanga ya Bitkoin ekozala 21 000 000 piece. Eko kabolama na
+ba noeud ya rezo tango eko sala maboke maboke, pe motango wana eko kita na
+kati kati na sima ya mibu 4.
 >
-> first 4 years: 10,500,000 coins  
-> next 4 years: 5,250,000 coins  
-> next 4 years: 2,625,000 coins  
-> next 4 years: 1,312,500 coins  
-> etc...
+> Na mibu 4 ya liboso: ba piece 10 500 000  
+> mibu 4 oyo ezo landa: 5 250 000  
+> mibu 4 oyo ezo landa: 2 625 000  
+> mibu 4 oyo ezo landa: 1 312 500 bongo na bongo… 
 
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
+Eza na tina monene koyeba ‘te sistemi oyo ekelami pona kondima kosala kaka motango songolo ya
+mabanga ya Bitkoin po na libela na libela. Emonani penza ‘te mikolo ezoya ekozala mwa pasi pona
+kozwa ata libanga moko kaka.
 
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
+Likama pona misolo nyoso oyo ebimi sika ezali koluka ndenge nini yako pesa yango motuya. Ata soki
+tokangi miso na ndenge ‘te na ebandeli bato ebele bako boya kondima kosalela yango, ezalaka kaka pasi
+kozwa tina yako ndimisa bato motuya oyo eza ya pamba te pona na libanga moko na moko.
 
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
+Neti kaka mwa likanisi ya maseki, kanisa ‘te Bitkoin esimbi pe ekomi sisteme makasi oyo mokili mobimba
+bako salela pona kofuta (kosomba pe koteka). Na sima, soki osangisi motuya na yango nyoso esika moko
+pe ekokani na motuya ya m=nkita ya molongo mobimba. Na likolo likolo, baloka ‘te bomengo nyoso ya
+mabota nyoso ya mokili ezali kobanda 100 000 tii 300 000 milliars ya ba dollars ya Amerika. Na ba
+mabanga 20 000 000 pamba, motuya ya libanga moko eko koma 10 000 000 ya dollars ya Ameka.
 
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Na boye, ndenge yako bimisa mabanga lelo na mwa tango ya moke kaka na nzela ya mashini ya
+odinatele eza libaku malamu, n’a matabisi ya 100 000 000 po na moko (1) kaka! Atako eza pasi pona
+Bitkoin esimba pee longa na ndenge wana, ekozala nde 100 000 000 kotelemela 1? Kanisa malamu
+malamu…
 
 Hal
 
