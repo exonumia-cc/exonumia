@@ -1,23 +1,33 @@
-# Welcome to Bitcoin, newcomers!
+---
+translators: 
+    - 
+        name: "Better Langauge Company"
+        href: "https://www.blc.co.za"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Barka da zuwa Bitcoin, sababbin zuwa!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+daga Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Ga FAQ ɗin ku:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Tambaya: Wanene zan amincewa?  
+Amsa: **Babu kowa.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Yaushe zan sayar?  
+A: **Ba za’a taɓa ba.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Shin Bitcoin yana mutuwa saboda ____?  
+A: **A&#39;a.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Me na samu kaina a ciki?  
+A: **Babu wanda ya sani.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Q: Ta yaya zan ƙara koyo?  
+A: **Muna da [wadataccen bayani a nan](/nga/ha/translations/).** Ko ka ziyarci [lopp.net](https://www.lopp.net/bitcoin-information.html)

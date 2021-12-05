@@ -1,30 +1,52 @@
-# Bitcoin Is Like Sports
+---
+translators: 
+    - 
+        name: "Better Langauge Company"
+        href: "https://www.blc.co.za"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Bitcoin Kamar Wasanni ne
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+daga @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Yawancin lokaci ina yin bayanin yadda #bitcoin ke aiki kuma an raba shi cikin mahallin wasan
+wasanni. Na ga cewa yana taimakawa da yawa wajen amsa yawancin tambayoyi gama gari:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Q: Wanene ya ƙirƙira wasan ƙwallon baseball?  
+A: Gaskiya ba abun damuwa bane. Kowa a duniya yana iya wasa. Ba komai idan ainihin wanda
+ya ƙirƙira yana son canja ƙa’idojin ko sakawa kansa maki ko wani abu. Ba mu damu da abun da
+yake tunani game da wasanmu ba.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Q: Wanene yake kula da wasan?  
+A: Babu wanda yake kula, duka mun yanke shawarar yin wasa ne kawai. Dukanmu mun sani
+kuma muna aiwatar da dokoki, kuma idan wani ya yi maguɗi, za’a kore shi daga wasan. Idan
+wani ya bawa kansa ladan maki da bai samu ba, sai mu yi watsi da su.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Q: Ta yaya muka san dokokin ba za su canja ba?  
+A: Duka mun amince da su lokacin da muka fara wasa, kuma duk wanda ke son ya ci gaba da
+wasa da waɗannan dokokin zai ci gaba, kuma idan wani yana son ya canja su, sai dai ya buga
+a wani wuri.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Q: Ba za’a iya kutse ba?  
+A: Komai a bayyane yake. Dukanmu muna iya ganin dukkan filin da dukkan maki. Idan wani
+yana magudi, mu duka mun sani kuma mu zamu gaya musu su ɓace.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Q: Me yasa ya cancanci wani abu?  
+A: Dukanmu mun yanke shawarar yin wasa, don haka yana da wata daraja a garemu. Idan wani
+yana son shiga, dole ne su yarda su amince da dalilanmu da ƙimarmu.
 
-I value it, so it has value. Value is subjective.
+Ina daraja shi, don haka yana da daraja. Ƙimar abu ne na zahiri.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+Q: Ba za’a hana shi ba?  
+A: Watakila, amma wasu ne kawai suke wasa da sanda da kwallo, ba su cutar da kowa ba, don
+haka gwamnati za ta iya hana ku bugawa, amma ba za su iya hana manufar buga sanda da
+kwallo ba, wasan zai ci gaba a wani wuri.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Q: Shin zan iya shiga?  
+A: Yi duk abun da kuke so. Ina jin daɗin yin wasan ƙwallon baseball, kuna iya shiga ko kuna iya
+HFSP.

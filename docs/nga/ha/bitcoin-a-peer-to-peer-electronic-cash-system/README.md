@@ -1,109 +1,271 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+---
+translators: 
+    - 
+        name: "Better Langauge Company"
+        href: "https://www.blc.co.za"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Bitcoin: Tsarin Kuɗi na Laturoni na Tsara-da-tsara
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+daga Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Tsokaci
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Sigar tsara-da-tsara na tsabar kuɗi na laturoni zai ba da damar aika biyan kuɗi ta kan layi kai
+tsaye daga wannan ƙungiya zuwa wata ba tare da shiga cikin cibiyar kuɗi ba. Sa hannu na
+dijital yana bayar da wani ɓangare na mafita, amma muhimman fa&#39;idoji sun ɓace idan har yanzu
+ana buƙatar wani amintaccen ɓangare na uku don hana kashe kuɗi sau biyu. Muna ba da
+shawarar mafita ga matsalar kashe kuɗi sau biyu ta hanyar amfani da sadarwa ta tsara-zuwa-
+tsara. Ƙididdiga na lokaci na hanyar sadarwa yana ɗaukar mu&#39;amaloli ta hanyar sanya su cikin
+jerin abubuwan da ke ci gaba da tabbatar da aikin tsani, suna yin rikodin da ba za a iya canja
+shi ba tare da sake tabbatar da aikin ba. Sarƙar mafi tsayi ba wai kawai ta zama hujja na jerin
+abubuwan da aka shaida ba, amma tabbacin cewa ya fito ne daga mafi girman tafkin ƙarfin
+CPU. Matuƙar ana sarrafa yawancin ƙarfin CPU ta cibiya waɗanda ba sa haɗin kai don kai hari
+kan hanyar sadarwar, za su haifar da mafi tsayin sarƙa da wuce gona da iri ga mahara. Cibiyar
+sadarwar kanta tana buƙatar tsari kaɗan. Ana watsa saƙon akan ƙoƙari mafi kyawu, kuma
+cibiyar yana iya barin su su koma hanyar sadarwar yadda ake so, suna karɓar sarƙar hujjar-aiki
+mafi tsayi a matsayin tabbacin abun da ya faru yayin da ba sa nan.
 
-## Introduction
+## Gabatarwa
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Ciniki a kan intanet ya zo ya dogara kusan na keɓance ga cibiyoyin kuɗi waɗanda ke aiki a
+matsayin wata amintacciyar ƙungiya don aiwatar da biyan kuɗi na laturoni. Duk da yake tsarin
+yana aiki da kyau ga yawancin mu’amaloli, har yanzu yana fama da rauni na asali na ƙirar
+dogara. Cikakkun mu’amalar da ba za’a iya juyarwa ba ba za ta yiwu ba, tunda cibiyoyin kuɗi ba
+za su iya gujewa sasanta jayayya ba. Farashin sasanci yana ƙara farashin mu’amala, yana
+iyakance mafi ƙarancin ƙimar mu’amala mai amfani da yanke yiwuwar ƙananan mu&#39;amaloli na
+yau da kullum, kuma akwai babban farashi a cikin asarar ikon yin biyan kuɗin da ba za’a iya
+juyarwa ba don ayyukan da ba za’a iya juyarwa ba. Tare da yiwuwar juyawa, buƙatar amana ta
+bazu. Dole ne &#39;yan kasuwa su yi hattara da abokan cinikayyar su, suna ɓata musu rai don ƙarin
+bayani fiye da yadda za su buƙata. An karɓi wani kaso na zamba a matsayin wanda ba za’a iya
+gujewa ba. Ana iya gujewa waɗannan farashin da rashin tabbas na biyan kuɗi ta hanyar amfani
+da kuɗin zahiri, amma babu wata hanyar biyan kuɗi ta hanyar sadarwa ba tare da amintacciyar
+ƙungiya ba.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Abun da ake buƙata shine tsarin biyan kuɗi na laturoni wanda ya dogara da bayanan sirri
+maimakon amana, wanda ke ba da damar kowane bangare biyu masu son yin mu&#39;amala da
+juna kai tsaye ba tare da buƙatar wani amintaccen ɓangare na uku ba. Juyar da mu&#39;amalolin da
+ba su da inganci domin kare masu siya daga zamba, kuma ana iya aiwatar da hanyoyin ƙetare
+na yau da kullun don kare masu siya. A cikin wannan takarda, muna ba da shawarar mafita ga
+matsalar kashe kuɗi sau biyu ta amfani da sabar tambarin lokaci da aka raba tsakanin ɗan-tsari
+don samar da shaidar ƙididdiga na tsarin mu&#39;amaloli na lokaci-lokaci a tsakanin tsara-da-tsara.
+Tsarin yana da aminci idan dai cibiyar na gaskiya suna tare kan sarrafa ƙarin ƙarfin CPU fiye da
+kowane rukunin haɗin gwiwar cibiyar na mahari.
 
-## Transactions
+## Mu&#39;amaloli
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Muna bayyana kuɗin laturoni azaman sarƙar sa hannun dijital. Kowane mai shi yana canja
+wurin tsabar kuɗin zuwa na gaba ta hanyar sanya hannu kan tsani na cinikin da ya gabata da
+maɓallin jama&#39;a na mai mallaka gaba da ƙara waɗannan zuwa ƙarshen tsabar kuɗin. Mai karɓar
+kuɗi zai iya tabbatar da sa hannun don tabbatar da sarƙar mallaka.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Matsalar ita ce mai karɓar kuɗi ba zai iya tabbatar da cewa ɗaya daga cikin masu mallakar kuɗi
+bai kashe tsabar kuɗi sau biyu ba. Magani na gama gari shine gabatar da ahukumar buga kuɗi
+na tsabaacciyar hukuma ta tsakiya, ko hukumar buga kuɗi na tsaba, wacce ke bincikar kowace
+mu&#39;amala don kashewa sau biyu. Bayan kowace mu&#39;amala, tsabar kuɗin dole ne a mayar da shi
+zuwa ga hukumar buga kuɗi na tsaba don fitar da sabon tsabar kuɗi, kuma tsabar kuɗi da aka
+bayar kai tsaye daga hukumar buga kuɗi na tsaba kawai aka amince cewa ba za’a kashe su
+sau biyu ba. Matsalar wannan mafita ita ce, makomar tsarin kuɗin gaba ɗaya ya dogara ne
+akan kamfanin da ke tafiyar da hukumar buga kuɗi na tsaba, tare da kowane ciniki sai yabi ta
+wajen su, kamar banki.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Muna buƙatar hanya don mai karɓar kuɗi ya san cewa masu mallakar da suka gabata ba su
+sanya hannu kan wata mu&#39;amala ta farko ba. Domin dalilanmu, cinikin da ya gabata shine
+wanda yake da ƙima, don haka ba mu damu da yunƙurin kashewa sau biyu ba. Hanya guda
+don tabbatar da rashin ciniki shine sanin duk mu&#39;amaloli. A cikin tsarin hukumar buga kuɗi na
+tsaba, ya san duk mu&#39;amaloli kuma ya yanke shawarar wanda ya fara zuwa. Don cim ma
+wannan ba tare da kungiyar da aka gasgata ba, dole ne a sanar da mu&#39;amaloli a bainar
+jama&#39;a[1], kuma muna buƙatar tsarin don mahalarta su amince da tarihi guda ɗaya na tsarin da
+aka karɓa. Mai karɓar kuɗi yana buƙatar tabbacin cewa a lokacin kowane ciniki, yawancin
+cibiyoyin sun yarda cewa shine na farko da aka karɓa.
 
-## Timestamp Server
+## Sabar Tambarin Lokaci
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Mafitar da muke ba da shawara tana farawa da sabar tambarin lokaci. Sabar tambarin lokaci
+tana aiki ta ɗaukar tsani na tubalin abubuwan da za’a yiwa tambarin lokaci da bayyana buga
+tsani, kamar a cikin jarida ko adireshin Usenet[2-5]. Tambarin lokaci yana tabbatar da cewa
+dole ne bayanan sun tabbata a lokacin, a fili, don shiga cikin tsani. Kowane tambarin lokaci ya
+haɗe da tambarin lokaci da ya gabata a cikin tsaninsa, yana yin sarka, tare da kowane ƙarin
+tambarin lokaci yana ƙarfafa wanda suka gabace shi.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Tabbacin Aiki
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Don aiwatar da sabar tambarin lokaci da aka rarraba akan tsarin tsara-zuwa-tsara, za mu
+buƙaci yin amfani da tsarin hujja-na-aiki mai kama da Adam Back&#39;s Hashcash[6], maimakon
+jaridu ko adireshin Usenet. Tabbacin-aiki ya ƙunshi dubawa don ƙimar da lokacin tsani, kamar
+tare da SHA-256, tsani yana farawa da adadi na sifili. Matsakaicin aikin da ake buƙata yana da
+ƙima a cikin adadin sifili da ake buƙata kuma ana iya tabbatarwa ta hanyar aiwatar da tsani
+ɗaya.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Don cibiyar sadarwar mu ta tambarin lokaci, muna aiwatar da hujja-na-aiki ta hanyar ƙara ƙima
+a cikin tubali har sai an sami ƙimar da ke bawa tsani ƙimar da ake buƙata. Da zarar an
+ƙaddamar da bunƙasa ƙoƙarin CPU don ya gamsar da hujja-na-aiki, ba za’a iya canja tubali ba
+tare da sake yin aikin ba. Kamar yadda daga baya aka ɗaure tubalan bayansa, aikin canja tubali
+zai haɗa da sake yin duk tubalan bayansa.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Hujja-na-aiki kuma yana magance matsalar ƙayyadaddun wakilci a cikin yanke shawara mafi
+yawa. Idan mafi rinjaye sun dogara ne akan ɗaya-IP-adireshi-ɗaya-zaɓi, duk wanda zai iya
+rarraba IPs da yawa zai iya jujjuya shi. Hujja-na-aiki shine ainihin ɗaya-CPU-ɗaya-zaɓi. Mafi
+yawan yanke shawara ana wakilta ta mafi tsayin sarƙa, wanda yake da mafi girman ƙoƙarin
+hujja-na-aiki da aka saka a ciki. Idan yawancin ƙarfin CPU ana sarrafa su ta hanyar cibiya na
+gaskiya, sarƙar gaskiya za ta yi girma cikin sauri kuma ta zarce kowane sarƙoƙi masu fafatawa.
+Don gyara tubalan da suka gabata, mai hari dole ne ya sake tabbatar da hujja-na-aiki ga tubulin
+da duk tubalan bayan sa sannan ya tarar har ya zarce aikin cibiya na gaskiya. Za mu nuna daga
+baya cewa yiwuwar mai kai hari a hankali yana tararwa yana raguwa sosai yayin da aka ƙara
+tubalan na gaba.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Domin daidaito da haɓaka saurin kayan masarufi da ra&#39;ayoyi daban-daban don gudanar da
+cibiya akan lokaci, wahalar hujja-na-aiki yana ƙayyade matsakaita masu motsi wanda ke niyyar
+samun matsakaicin adadin tubalan a cikin awa ɗaya. Idan an ƙirƙire su da sauri, wahalar tana
+ƙaruwa.
 
-## Network
+## Hanyar sadarwa
 
-The steps to run the network are as follows:
+Matakan tafiyar da hanyar sadarwar sune kamar haka:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Sababbin mu&#39;amaloli ana watsa su zuwa duk cibiyoyi.
+2. Kowace cibiya tana karbar sababbin mu’amaloli a cikin tubali.
+3. Kowace cibiya tana aiki akan nemo hujja-na-aiki mai wahala don tubalinta.
+4. Lokacin da cibiya ta sami hujja-na-aiki, tana watsa tubalin zuwa duk cibiyoyi.
+5. Cibiyoyi suna karɓar tubalin kawai idan duk mu’amaloli a cikinsa suna da inganci kuma ba a
+riga an kashe su ba.
+6. Cibiyoyi suna bayyana yarda da tubalin ta hanyar yin aiki don ƙirƙirar tubali na gaba a cikin
+sarƙar, ta yin amfani da tsani na tubalin da aka karɓa kamar tsanin da ya gabata.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Cibiyoyi ko da yaushe suna la&#39;akari da mafi tsayin sarƙa ta zama mafi inganci kuma za su ci
+gaba da yin aiki akan tsawaita ta. Idan cibiyoyi biyu suna watsa samfuri daban-daban na tubalin
+da zai gabata a lokaci guda, wasu cibiyoyin na iya karɓar ɗaya ko ɗayan farko. A wannan
+yanayin, suna aiki a kan na farko da suka karɓa, amma suna ajiye wani reshe idan ya yi tsayi.
+Za’a karya ƙullin lokacin da aka sami hujja-na-aiki na gaba kuma reshe ɗaya ya daɗe; cibiyoyin
+da ke aiki a ɗaya reshe za su canja zuwa wanda ya fi tsayi.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Sababbin watsa shirye-shiryen mu’amaloli baya buƙatar zuwa ga duk cibiyoyi. Muddin sun kai
+zuwa ga cibiyoyi da yawa, za su shiga cikin tubali ba da daɗewa ba. Tubalan watsa shirye-
+shirye kuma suna da jurewa sauke saƙonni. Idan cibiya bata karɓi tubali ba, zata buƙace shi
+lokacin da ta karɓi tubali na gaba kuma za ta gane ta rasa ɗaya.
 
-## Incentive
+## Tukwuici
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Ta hanyar al&#39;ada, mu&#39;amala ta farko a cikin tubali ita ce mu&#39;amala ta musamman wacce ke fara
+sabon tsabar kuɗi mallakar wanda ya ƙirƙiri tubalin. Wannan yana ƙara ƙwarin gwiwa ga cibiyoyi
+don tallafawa hanyar sadarwa, kuma yana ba da hanyar da za’a fara rarraba tsabar kuɗi zuwa
+wurare daban-daban, tunda babu wata babbar hukuma dake bayar da su. Ci gaba da gyare-
+gyaren adadin sababbin tsabar kuɗi daidai yake da masu haƙar zinare da ke kashe albarkatu
+don ƙara yawan zinaren da yake yawo. A wajenmu, lokaci ne na CPU da wutar laturoni da ake
+kashewa.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Hakanan za&#39;a iya samar da tukwuici ta hanyar kuɗin ciniki. Idan ƙimar fitarwar mu’amala tayi
+ƙasa da ƙimar shigarwarsa, bambancin shine kuɗin mu’amala wanda aka ƙara zuwa ga ƙimar
+tukwuici na tubalin mai ɗauke da mu’amala. Da zarar an ƙididdige adadin tsabar kuɗi sun shiga
+wurare daban-daban, abun tukwuicin zai iya canjawa gaba ɗaya zuwa kuɗin mu’amala kuma ya
+zama gaba ɗaya babu hauhawar farashi.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Tukwuici na iya taimakawa wajen bada ƙwarin gwiwa ga cibiyoyi don tsayawa akan gaskiya.
+Idan maharin mai haɗama zai iya tara ƙarin ƙarfin CPU fiye da duk cibiyoyin gaskiya, dole ne ya
+zaɓi tsakanin amfani da shi don damfarar mutane ta hanyar satar kuɗinsa, ko amfani da su don
+samar da sababbin tsabar kuɗi. Ya kamata ya ga cewa yafi riba yabi dukkan ƙa’idoji, irin
+waɗannan ƙa’idojin waɗanda ke fifita shi da sababbin tsabar kuɗi fiye da kowa idan aka haɗa,
+fiye da raunana tsarin da kuma lalata ingancin dukiyarsa.
 
-## Reclaiming Disk Space
+## Maido da Sararin Faifai
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Da zarar an binne sabuwar mu’amalar tsabar kuɗi a ƙarƙashin isassun tubalan, mu’amalar da
+aka kashe kafin wannan za’a iya jefar da ita don adana sararin faifai. Don sauƙaƙe wannan ba
+tare da karya tsanin tubalin ba, ana sanya tsanin mu’amala a cikin Bishiyar Merkle [7] [2] [5],
+tare da tushen kawai an haɗa shi a cikin tsanin tubalin. Ana iya haɗa tsofaffin tubalan ta hanyar
+soke rassan bishiyar. Tsanuka na ciki basa buƙatar adanawa.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Kan tubalin ba tare da ciniki ba zai zama kusan bytes 80. Idan muka ɗauka ana samar da
+tubalan duk bayan minti 10, 80 bytes * 6 * 24 * 365 = 4.2MB a kowace shekara. Tare da tsarin
+kwamfuta yawanci ana siyar da 2GB na RAM kamar a 2008, kuma Dokar Moore tana hasashen
+haɓaka 1.2GB a halin yanzu a kowace shekara, bai kamata ajiya ta zama matsala ba koda
+kuwa ya zama dole a adana kan tubalan a cikin ƙwaƙwalwar ajiya.
 
-## Simplified Payment Verification
+## Sauƙaƙaƙen Tabbacin Biyan Kuɗi
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Yana yiwuwa a tabbatar da biyan kuɗi ba tare da gudanar da cikakken ƙullin hanyar sadarwa
+ba. Mai amfani kawai yana buƙatar adana kwafin kan tubalin na sarƙa mafi tsayi ta hujja-na-aiki,
+wanda zai iya samu ta hanyar tambayar cibiyoyin sadarwa har sai ya tabbata yana da mafi
+tsayin sarƙar, kuma ya sami reshen Merkle da ke haɗa mu’amala zuwa tubalin da aka yiwa
+tambarin lokaci a ciki. Ba zai iya bincika mu’amalar da kansa ba, amma ta hanyar haɗa shi
+zuwa wani wuri a cikin sarƙar, zai iya ganin cewa cibiyar hanyar sadarwa ya karbe shi, kuma an
+ƙara tubalan bayan ya ƙara tabbatar da hanyar sadarwar ta karɓe shi.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+ADon haka, tabbacin abun dogaro ne muddin cibiyoyin gaskiya suna sarrafa hanyar sadarwar,
+amma ya fi rauni idan maharin ya rinjayi hanyar sadarwar. Yayin da cibiyoyin sadarwa na iya
+tabbatar da mu’amaloli da kansu, hanyar da aka sauƙaƙa maharin zai iya yaudareta ta hanyar
+ƙirƙira mu’amaloli na karan kansa muddin maharin na iya ci gaba da mamaye hanyar sadarwar.
+Dabara ɗaya don kare wannan ita ce karɓar faɗakarwa daga cibiyoyi na cibiyar sadarwa lokacin
+da suka gano tubali mara inganci, wanda yasa software mai amfani zazzage cikakken tubalin
+da faɗakar da mu’amaloli don tabbatar da rashin daidaituwa. Kasuwancin da ke karɓar biyan
+kuɗi akai-akai wataƙila har yanzu suna son gudanar da nasu cibiyoyin don ƙarin tsaro mai
+zaman kansa da saurin tabbatarwa.
 
-## Combining and Splitting Value
+## Haɗawa da Rarrabe Ƙima
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Ko da yake yana yiwuwa kowane mutum ɗaya ya sarrafa tsabar kuɗi, ba zai zama da wahala a
+yi mu’amala daban ga kowane cent a cikin canja wuri ba. Don ba da izinin raba ƙima da haɗin
+kai, mu’amaloli sun ƙunshi abubuwa da yawa na shigarwa da fitarwa. A al&#39;ada za’a sami ko dai
+shigarwa guda ɗaya daga cikin mu’amalar da ta gabata mafi girma ko kuma shigarwa da yawa
+waɗanda ke haɗa ƙananan adadi, kuma aƙalla nau&#39;i biyu na fitarwa: ɗaya don biyan kuɗi, ɗaya
+kuma mai mayar da canji, idan akwai, komawa ga mai aikowa.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Ya kamata a lura cewa fanka-waje, inda ciniki ya dogara da mu’amaloli da yawa, kuma
+waɗannan mu’amaloli sun dogara da yawa, ba matsala a nan. Ba za’a taɓa buƙatar cire
+cikakken kwafin tarihin mu’amala ba.
 
-## Privacy
+## Keɓanta Sirri
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Tsarin banki na gargajiya yana samun matakin sirri ta hanyar iyakance damar samun bayanai
+ga ɓangarorin da abun ya shafa da amintaccen bangare na uku. Wajabcin sanar da duk
+mu’amaloli a bainar jama&#39;a yana hana wannan hanyar, amma har yanzu ana iya kiyaye sirri ta
+hanyar karya kwararar bayanai a wani wuri: ta hanyar ɓoye maɓallan jama&#39;a ba tare da an san
+su ba. Jama&#39;a na iya ganin cewa wani yana aika adadi zuwa wani, amma ba tare da bayanin da
+ke haɗa ciniki da kowa ba. Wannan ya yi kama da matakin bayanan da aka fitar ta hanyar
+musayar hannayen jari, inda ake bayyana lokaci da girman kasuwancin mutum, &quot;kaset&quot; ɗin ana
+futo dashi bainar jama’a, amma ba tare da bayyana su wanene bangarorin ba.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+A matsayin ƙarin tacewar zaɓi, ya kamata a yi amfani da sabon maɓalli guda biyu don kowace
+mu’amala don kiyaye su daga haɗa su da gama garin mai shi. Wasu haɗin kan har yanzu ba zai
+yiwu ba tare da mu’amalar shigarwa da yawa ba, wanda dole ne ya bayyana cewa shigarwar da
+suka samu na mai su ɗaya ne. Haɗarin shine idan an bayyana mai maɓalli, haɗawa zai iya
+bayyana wasu mu’amaloli waɗanda na mai shi ɗaya ne.
 
-## Calculations
+## Lissafi
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Mun yi la&#39;akari da yanayin maharin da ke ƙoƙarin samar da wata sarƙa ta dabam cikin sauri fiye
+da sarƙar gaskiya. Ko da an cim ma hakan, ba zai jefa tsarin a buɗe ga sauye-sauye na son rai
+ba, kamar ƙirƙirar ƙima daga siririyar iska ko ɗaukar kuɗin da ba na maharin ba. Cibiyoyi ba za
+su karɓi mu’amala mara inganci a matsayin biyan kuɗi ba, kuma cibiyoyi na gaskiya ba za su
+taɓa karɓar tubalin mai ɗauke da su ba. Mai hari zai iya ƙoƙarin canja ɗaya daga cikin tasa
+mu&#39;amalar don ɗaukar kuɗin da ya kashe kwanan nan.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Za a iya siffanta tseren dake tsakanin sarƙar gaskiya da sarƙar mahari a matsayin Binomial
+Random Walk. Lamarin nasara shine sarƙar gaskiya da aka tsawaita ta ɗaya tubalin, yana ƙara jagorancinsa da +1, kuma abun da ya faru na rashin nasara shine ƙara sarƙar maharin ta hanyar tubali ɗaya, yana rage tazarar da -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Yiwuwar mahari ya kama daga gibin da aka bayar yayi daidai da Matsalar Rushewar Dan caca.
+Tsammanin dan wasan da ke da bashi mara iyaka ya fara kuma ya yi gwaji mara iyaka don
+ƙoƙarin kaiwa ga karya. Za mu iya ƙididdige yiwuwar da ya taɓa kai wa ga ƙarya, ko kuma cewa
+maharin ya taɓa samun sarƙar gaskiya, kamar haka[8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -118,7 +280,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
+        <mtext>&#xA0;yiwuwar cibiyar gaskiya ya sami na gaba tubali</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -132,7 +294,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
+        <mtext>&#xA0;yiwuwar maharin ya sami na gaba tubali</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -150,11 +312,11 @@ The probability of an attacker catching up from a given deficit is analogous to 
       </mtd>
       <mtd>
         <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
+          <mtext>&#xA0;yiwuwar maharin zai iya riske shi daga tubalin z&#xA0;</mtext>
           <mrow class="MJX-TeXAtom-ORD">
             <mi>z</mi>
           </mrow>
-          <mtext>&#xA0;blocks behind</mtext>
+          <mtext>&#xA0;baya</mtext>
         </mrow>
       </mtd>
     </mtr>
@@ -214,21 +376,33 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Idan muka yi la&#39;akari da cewa
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
+, yiwuwar ta ragu sosai yayin da adadin tubalan da maharin yake so ya cim ma suka ƙaru. Tare
+da rashin daidaituwa a kansa, idan bai yi sa&#39;a a gaba da wuri ba, damarsa ta zama kadan yayin
+da ya kara faduwa a baya.
 
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+Yanzu muna la&#39;akari da tsawon lokacin da mai karɓar sabuwar mu’amala ke buƙatan jira kafin
+ya ishe shi ya tabbatar mai aikawa ba zai iya canja mu’amala ba. Muna ɗauka cewa mai aikawa
+mahari ne wanda yake so ya sa wanda aka karɓa ya yarda cewa ya riga ya biya shi a ɗan
+tsawon lokaci, sannan ya canja shi don mayar wa kansa bayan wani lokaci ya wuce. Za’a
+faɗakar da mai karɓa lokacin da hakan ya faru, amma mai aikawa yana fatan zai yi latti.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Mai karɓa yana samar da sabon maɓalli biyu kuma yana ba da maɓallin jama&#39;a ga mai aikawa
+jim kaɗan kafin sa hannu. Wannan yana hana mai aikawa shirya jerin tubalan kafin lokaci ta
+hanyar yin aiki akansa akai-akai har sai ya yi sa&#39;a ya yi nisa sosai, sannan aiwatar da mu’amala
+a lokacin. Da zarar an aika da mu’amala, mai aikawa mara gaskiya zai fara aiki a asirce akan
+sarƙar layi ɗaya mai dauke da wani nau&#39;i na mu&#39;amalarsa.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
-
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Mai karɓa yana jira har sai an ƙara mu’amala zuwa tubalin kuma an haɗa tubalin z a bayansa.
+Bai san ainihin adadin ci gaban da maharin ya samu ba, amma zai ɗauka cewa tubalan masu
+gaskiya sun ɗauki matsakaicin lokacin da ake tsammanin kowane tubalin ya dauka akan
+kowane tubali ɗaya, yiwuwar ci gaban maharin zai zama rarraba Poisson tare da ƙimar da ake
+sa rai:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -242,7 +416,9 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Don samun yiwuwar wanda maharin zai iya kamawa a yanzu, muna ninka yawan Poisson ga
+kowane adadin ci gaban da zai iya samu ta hanyar yiwuwar da zai iya kamawa daga wannan
+lokacin:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -329,7 +505,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Sake tsarawa don guje wa taƙaita wutsiya mara iyaka na rarrabawa…
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -392,7 +568,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Juyawa zuwa C code…
 
 ```c
 #include 
@@ -413,7 +589,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Tafiyar da wasu sakamako, za mu iya ganin yiwuwar ta ragu sosai tare da z.
 
 ```
 q=0.1
@@ -443,7 +619,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Sarrafa P kasa da 0.1%...
 
 ```
 P < 0.001
@@ -457,9 +633,22 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Kammalawa
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Mun ba da shawarar tsarin mu’amalar laturoni ba tare da dogaro da amana ba. Mun fara da
+tsarin yau da kullum na tsabar kuɗi da aka yi daga sa hannu na dijital, wanda ke ba da iko mai
+ƙarfi na ikon mallaki, amma bai cika ba ba tare da hanyar hana kashe kuɗi biyu ba. Don
+magance wannan, mun ba da shawarar hanyar sadarwar tsara-da-tsara ta hanyar amfani da
+hujja-na-aiki don nadar bayanan tarihin mu’amala na jama&#39;a wanda da sauri ya zama ba zai
+yiwu ba ga mai hari ya canja idan cibiyoyi na gaskiya suna sarrafa yawancin ƙarfin CPU. Cibiyar
+sadarwa tana da ƙarfi a cikin sauƙi mara tsari. Cibiyoyi suna aiki gaba ɗaya tare da daidaitawa
+kaɗan. Ba sa buƙatar a gano su, tunda ba a tura saƙon zuwa wani wuri na musamman kuma
+kawai ana buƙatar isar da su ne bisa kyakkyawan ƙoƙari. Cibiyoyi na iya tafiya kuma su sake
+shiga hanyar sadarwar yadda ake so, suna karɓar sarƙar hujja-na-aiki azaman hujja na abun da
+ya faru yayin da suka tafi. Suna zaba da ƙarfin CPU ɗin su, suna bayyana yarda da ingantattun
+tubalan ta hanyar yin aiki kan tsawaita su da ƙin tubalan da ba su da inganci ta hanyar ƙin yin
+aiki a kansu. Ana iya aiwatar da duk wasu ƙa’idoji da abubuwan ƙarfafawa tare da wannan
+hanyar haɗin gwiwa.
 
 ## References
 
