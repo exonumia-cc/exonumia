@@ -84,7 +84,7 @@ So, did you see what happened? What does the public ledger enable?
 
 3) Eka leger ya vanhu hinkwavo. A hi vitananga malume Tommy (munhu wa vunharhu) leswaku a ta hi langula leswaku a hi robhani kumbe ndzi endla swo tala, kumbe ndzi ti rhumela ma kopisi ka mbiri,kumbe ka nharhu.
 
-    Eka matirhelo ya cicano wa apula ra gezi swifana na cicano wa nyama. Swi kahle ku vona apula yi suka emavokweni ndzi yi hoxa exikhwameni. Ene swifana na le phakeni, cicano wu endliweni hi vanhu va mbiri. Mina na wena- A hi vitanangi malume Tommy ata langutisa 
+>  Eka matirhelo ya cicano wa apula ra gezi swifana na cicano wa nyama. Swi kahle ku vona apula yi suka emavokweni ndzi yi hoxa exikhwameni. Ene swifana na le phakeni, cicano wu endliweni hi vanhu va mbiri. Mina na wena- A hi vitanangi malume Tommy ata langutisa 
 
 Hi marito man’wani swi fana na swa nyama
 

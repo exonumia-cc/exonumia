@@ -55,4 +55,4 @@ translators:
 
 
 <p dir="rtl">
-ج: <strong>عندنا <a href="https://exonumia.cc/int/en/translations">ثروة من المحتوى هنا</a>.</strong> <strong>أو زُرْ موقع</strong> <a href="https://www.lopp.net/bitcoin-information.html">lopp.net</a>.</p>
+ج: <strong>عندنا <a href="/egy/ar/translations/">ثروة من المحتوى هنا</a>.</strong> <strong>أو زُرْ موقع</strong> <a href="https://www.lopp.net/bitcoin-information.html">lopp.net</a>.</p>
