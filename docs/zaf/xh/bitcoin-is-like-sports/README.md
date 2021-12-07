@@ -1,30 +1,50 @@
-# Bitcoin Is Like Sports
+# I-Bitcoin ifana neMidlalo
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+ngu @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
-
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
-
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
-
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
-
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
-
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
-
-I value it, so it has value. Value is subjective.
-
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
-
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Ndinezihlandlo ezininzi ndizama ukucacisa ukuba isebenza njani na i-#bitcoin kwaye 
+ayilawulwa endaweni enye njengomdlalo. Ndiye ndafumanisa ukuba kuyabanceda abantu 
+abaninzi ukuphendula imibuzo emininzi ebuzwa rhoqo: 
+ 
+Q: Waqalwa ngubani umdlalo we-baseball? 
+ 
+A: Akubalulekanga ukuba waqalwa ngubani lo mdlalo. Nabani ofunayo angawudlala. 
+Akukhathaliseki nokuba lo wawuqalayo ufuna ukutshintsha imigaqo yawo okanye ukuzinika 
+amanqaku okanye ukwenza enye into. Asinaxesha lazimvo zakhe ngalo mdlalo 
+siwuthandayo. 
+ 
+Q: Ulawulwa ngubani lo mdlalo? 
+A: Akukho mntu uwulawulayo, thina sasuke sazicingela ukuba masiwudlale. Sonke siyayazi 
+imigaqo yawo futhi siyaqinisekisa ukuba iyathotyelwa, kwaye ukuba kukho umntu ofuna 
+ukuyaphula, siyamkhupha emdlaleni. Ukuba umntu othile uzinika amanqaku 
+angawasebenzelanga, sisuka simshiye apho. 
+ 
+Q: Sazi njani ukuba le migaqo ayinakutshintsha? 
+A: Sonke savumelana ngayo ngethuba siqala ukuwudlala, kwaye nabani na ofuna ukudlala 
+lo mdlalo uza kuthobela le migaqo, ukuba kukho umntu ofuna ukuyitshintsha, kuza kufuneka 
+ayokuzihlalela yedwa. 
+ 
+Q: Akukho mntu unokungena kuwo ngaphandle kwemvume, enze umonakalo? 
+A: Yonke into yenzelwa elubala. Ibala ekudlalwa kulo lisemehlweni ethu kwaye namanqaku 
+afakwayo abonwa ngumntu wonke. Ukuba umntu wophula imigaqo yokuwudlala, sonke siza 
+kumbona size simkhuphe.  
+ 
+Q: Kutheni unexabiso nje? 
+A: Sonke sathatha isigqibo sokuba siwudlale, ke ngoko ubalulekile kuthi. Ukuba kukho umntu 
+ 
+ 
+ofuna ukudlala kufuneka avume ukuba uza kuwamkela la manqaku sele sinawo futhi awazi 
+nokuba abala kangakanani na. Kum ixabisekile, ke ngoko inexabiso. Ixabiso ke 
+liyaxhomekeka. 
+ 
+Q: Ingaba awunakubhangiswa? 
+A: Mhlawumbi, kodwa lo mdlalo udlalwa ngabantu abazonwabisayo babe bengahluphi mntu, 
+ke ngoko urhulumente angazama ukuwuvala kodwa akanakuwuphelisa nya, kuba sele 
+usaziwa futhi uthandwa ngabaninzi, ke ngoko ukuba uvaliwe kwenye indawo uza kuphinda 
+uvumbuluke kwenye.  
+ 
+Q: Ndingangena ndibe yinxalenye yawo? 
+A: Yenza nantoni na oyifunayo. Mna ndiwuthanda kakhulu, nawe ungeza uzodlala okanye ke 
+uzihlalele endlaleni, thina sibe sisitya.  

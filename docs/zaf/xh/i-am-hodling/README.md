@@ -1,19 +1,38 @@
-# I AM HODLING
+# NDISASEZELA UMOYA 
 
 by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
-
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
-
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
-
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
-
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
-
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
-
-In a zero-sum game such as this, traders can only take your money if you sell.
+Bendingayiva nam intsingiselo yesi sihloko ngethuba ndisibhala. Kodwa ngokusihlalutye 
+kakuhle, nokwazi le nyo ndifuna ukuyithetha ngoku ndiyasiqonda ukuba sithi ndisajonga 
+umoya ukuba ubheka ngaphi na. 
+ 
+Umntu wam usazikhuphile, ixabiso le-Bitcoin liyehla. KUTHENI NDIYINKONYILE EYAM, 
+NDINGAYITHENGISI? MAMELA NDIKUXELELE ISIZATHU. 
+ 
+Kungenxa yokuba andingomrhwebi nge-Bitcoin ohlakaniphileyo futhi NAM NDIYAZAZI 
+UKUBA ANDINGOMRHWEBI UHLAKANIPHILEYO. Ndiyayiqonda into yokuba abarhwebi 
+abahlakaniphileyo bayakwazi ukubona xa i-bitcoin inokubenzela imali futhi bazenzele izigidi 
+zerandi ngokulula. 
+ 
+Kunjalo, abarhwebi abangahlakaniphanga uyakubeva besithi HEYI, ZIYABUYA NGOKU, 
+NDIZA KUYITHENGISA EYAM I-BITCOIN baphinde bazisole bekhuza umntu umve sele 
+ezibuza nokuba YINTONI LE IMBI KANGAKA NDIYENZILEYO, YHINI UKUZIBETHA 
+KANGA xa oomakhwekhwetha, IZINTO EZIHLAKANIPHILEYO ZIBONISA 
+UBUKRELE-KRELE NOLWAZI OLUNZULU NGOLU HLOBO LORHWEBO ngokusuka 
+zingabhuduzeli, zibhayize. Zizole qha zilindele amathole wazo eziwafumene ngokurhweba 
+ngobuhlakani. Mna ke andifani nabo bantu. Xa abarhwebi bethenga nam sele ndiphakathi, 
+futhi ndiyaxhamla ke ngoku UKUBA BACINGA UKUBA BAQHATHA MNA BAYAPHAZAMA, 
+ANDIWENZIWA NJALO.  
+ 
+Abo ubabonayo bebhala kumakhasi onxibelwano besithi YHOO UPHAZAMILE, 
+NGOWULISEBENZISILE ELA THUBA. NDAZE NDABENZA UBUDENGE, 
+ANDATHENGISA. YHINI UKUZIPHOSANISA NEZIGUBHA. UKUBA NJE KHANGE 
+NDILIBAZISE, NGENDISISINHANHA NGOKU. 
+ 
+Kufuneka uthengise xa imarike zezimali zikwimeko embi ukuba uhlakaniphile okanye 
+usisidenge esingazinto. Abanye abantu bona bayazibamba ii-bitcoin zabo, balinde.  
+ 
+Kolu hlobo lorhwebo, apho utshayelwa uphele okanye uthathe zonke, abarhwebi benza imali 
+xa wena uthe wathengisa. 

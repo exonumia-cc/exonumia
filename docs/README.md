@@ -58,9 +58,10 @@ contributors: false
 **[🇿🇦 South Africa](/zaf/)**
 
 [IsiNdebele](/zaf/nr/)  
-[Isitsonga](/zaf/ts/)  
+[IsiTsonga](/zaf/ts/)  
 [Sesotho](/zaf/st/)  
 [TshiVenda](/zaf/ve/)  
+[IsiXhosa](/zaf/xh/)  
 [IsiZulu](/zaf/zu/)  
 
 ---

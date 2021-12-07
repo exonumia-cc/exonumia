@@ -1,109 +1,332 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+# I-Bitcoin: Imali ye-intanethi yabarhwebi
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+nguSatoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Ingabula-zigcawu
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Imali eluhlobo olungangxengwanga lweletronikhi yabarhwebi iyabavumela abantu ukuba 
+babhatalane besebenzisa i-intanethi bengakhangange baye ebhankini okanye kwiziko 
+leenkonzo zezimali. Umzila ebihamba kuwo kwi-intanethi uluncedo, kodwa eyona nzuzo 
+yokusebenzisa olu hlobo lorhwebo iye ilahleke ukuba kusafuneka umntu ongomnye 
+othembekileyo ukuba ibe nguye ekufuneka athintele inkqatho yokusetyenziswa kwemali 
+ye-bitcoin izihlandlo ezibini. Sicebisa ukuba ukusombulula le ngxaki yokusetyenziswa kabini 
+sisebenzisa ubuchwepheshe bonxibelelwano babarhwebi abasebenzisanayo. Obu 
+buchwepheshe buza kubhala iinkcukacha zonke zonaniselwano kwisixokelelwano 
+esinamakhonkco-lwazi buze buziphawule ngophawu oluthile oluyimfihho, uphawu olo luza 
+kuba bubungqina bomsebenzi owenziweyo obungenakutshintshwa nangubani na 
+ngaphandle kokuba lo msebenzi wenziwe kwakhona. Esi sixokelelwano samakhonkco 
+olwazi asisebenzi njengobungqina omsebenzi owenziweyo kunye nobulandelelana ngawo 
+kuphela koko nobokuba olu lwazi luphuma emathunjini ekhompyutha engenakuqhekezwa 
+yonakaliswe. Ukuba nje iikhompyutha ezinolu lwazi zilawula kwizitishi ezincinci 
+ezingasebenzi kunye zizama ukuyonakalisa, ziza kuvelisa isixokolelwano solwazi eside 
+kangangokuba sinokwahlula nabo bafuna ukusonakalisa. Esi sixokelelwano solwazi sona 
+nje sisodwa asifuni bubuxhaka-xhaka bungako bobuchwepheshe. Imiyalezo ipapashwa 
+phantsi kononophelo oluphezulu, futhi nezi zitishi zincinci (ii-nodes) zisetyenziselwa 
+ukusilawula zingamana ziphuma ziphinde zibuye ngokuthanda kwazo, futhi naxa zibuya ziza 
+kufika umsebenzi owenziweyo ngoku bezingekho ukho qha ke ngoko umthamo wawo 
+umkhulu kakhulu ngoku. 
 
-## Introduction
+## Intshayelelo
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Urhwebo oluqhutywa nge-intanethi sele luxhomekeke kumaziko ezezimali odwa ngoku 
+wona asebenza njengequmrhu lesithathu elithembakeleyo lokwamkela nokukhupa 
+iintlawulo ezenziwa nge-intanethi. Nangona le nkqubo isebenza kakuhle kwiimeko ezininzi, 
+kodwa isasekelwe kwinto enye ekukuthembeka. Awukwazi ukwenza intlawulo 
+engenakuphinda ijikwe, kuba amaziko ezimali ayayazi into yokuba kuza kufuneka 
+engenelele rhoqo xa kukho uxambuliswano. Indleko zokuhlalela iindibano zokusombulula 
+iimbambano zinyusa umrhumo ohlawulwayo ngokuphatha izimali, into leyo eyenza 
+kubenzima ukuthumela imali encinci, oko ke kubangela ukuba kungabikho lula ukuthumela 
+nje imalana encinci engabalulekanga nganto, futhi baninzi abalahlekelwayo yile ngxaki 
+yokungakwazi ukuthumela imali engenakuphinda ijikwe yeenkonzo nazo ezingajikwayo xa 
+sele zenziwe. Xa kukho amathuba okuba into eyenziweyo ingaphinda ijikwe, loo nto 
+inyanzelisa ukuba kukhokeliswe phambili ukuthembana. Abarhwebi kufuneka babalumkele 
+abathengi, babacele ukuba banike ubucukubhede obuninzi ngaphezu kobu 
+bebenokufunwa ukuba bekungenje. Buyaziwa bona ubuqhetseba ukuba bakuhlala bukho 
+futhi wamkelwe umyinge othile wabo. Ezi ndleko kunye neentlawulo ezinokuphindwa 
+zijikwe zingathintelwa ngokuthi kusetyenziswa imali ebambekayo, kodwa ayikho indlela 
+yokwenza oku kungekho qela lithenjiweyo kula ananiselanayo. 
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Into efunekayo yindlela yokuhlawula imali esebenzisa i-intanethi kuze kuthunyelwe 
+ubungqina ngendlela efihlakeleyo endaweni yokuxhomekeka kumba wokuthembana 
+kuphela, into leyo eza kuvumela ukuba bantu ababini bakwazi ukuhlawulana ngqo bodwa 
+kungekho mfuneko yomnye umntu wesithathu othembekileyo. Izimali ezibhatalweyo 
+ekungelulanga ukuzijika nge-intanethi zikhusela abarhwebi abathengisayo ekubeni 
+ngamaxhobo obuqhetseba, futhi iinkqubo zokumana kuphicothwa ii-akhawunti zikhusela 
+abarhwebi abathengayo. Kule ngxelo yophando siza nesisombululo kule ngxaki 
+yokusetyenziswa kwe-bitcoin izihlandlo ezibini kusetyenziswa ubuchwepheshe 
+bekhompyutha bokuphawula iinkcukacha zeentlawulo ngendlela ezilandelelene ngayo 
+iintlawulo obuthi bukhuphe nobungqina ngekhompyutha obuchaza kanye indlela iintlawulo 
+ezilandelelene ngayo.  Le nkqubo ikhuseleke kuphela ukuba izitishi ezincinci zogcino-lwazi 
+(ii-nodes) ezilawula amathumbu ekhompyutha zilawula ubuninzi boqobo nolwazi 
+olukwikhompyutha zibambisene ngendlela engaphezulu kwale inokusetyenziswa 
+ngamanye amaziko amancinci wona ahlasela aze onakalise ulwazi olukwiikhompyutha. 
 
-## Transactions
+## Iintlawulo
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Ingqekembe e-elektronikhi siyichaza njengomzia ohanjwe lunaniselwano kwi-intanethi. 
+Umntu ngamnye uthumela i-bitcoin komnye nge-intanethi ngokuthi atyikitye umzila wale 
+ntlawulo yangaphambili kunye neqhosha likawonke-wonke lalo mntu ulandelayo ize yonke 
+le nto idityaniswe. Lo ubhatalayo uye aqinisekise wonke umzila we-intanethi ohanjwe yile 
+ntlawulo ngokuthi ajonge ukuba ngoobani na abebethatha inxaxheba kolu naniselwano, 
+ngamanye amazwi iinkcukacha zabo bonke abanikazi bangaphambili bale bitcoin.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Ingxaki ke inye yeyokuba lo ubhatalwayo akakwazi ukuzifumana iinkcukacha zokuba 
+omnye wabo bebekhe bangabanikazi bale ngqekembe inye khange ayisebenzise na 
+ngaphambili. Isisombululo esilula kule ngxaki kukuba kubekho elinye iqumrhu 
+elithembekileyo, okanye iziko lokwenza imali, eliza kuphica zonke iintlawulo ezenziweyo 
+ukujonga ukuba khange isetyenziswe kwenye into ngaphambili le bitcoin. Emva 
+kwentlawulo nganye, i-bitcoin kufuneka ibuyiselwe kumzi wokwenza imali ukuze wona 
+ukhuphe imali entsha, ngolo hlobo ke iza kuba yimali evela kwiziko lokwenza imali kuphela 
+eza kuthathwa ngokuba ithembakele kwaye khange isetyenziselwe enye into ngaphambili. 
+Ingxaki ngesi sisombululo kukuba lonke olu hlobo lorhwebo luza kuxhomekeka kule 
+nkampani yenza imali, yonke intlawulo yenziwe yiyo, kanye ngolu hlobo iibhanki zenza 
+ngalo.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Sifuna indlela eza kwenza lo mntu uhlawulayo azi ukuba lo mntu ebengumnikazi wale mali 
+ngaphambili khange ahlawule ngayo kwenye into. Kolu phando lwethu, sijonga la ntlawulo 
+yokuqala ngqa, asizihluphi ngamalinge ebesandula ukwenziwa okusebenzisa le mali inye 
+kabini. Inye indlela yokwazi ukuba khange kwenziwe linge lamgunyathi, kukuphanda ngazo 
+zonke iintlawulo ebezenziwe. Kule nkqubo yokusetyenziswa kweziko lokwenza imali, eli 
+ziko belizazi zonke iintlawulo ezenziweyo yaze yalilo nelikwaziyo ukubona ukuba yeyiphi 
+eyokuqala intlawulo.  Ukuze sikwazi ukwenza oku kungekho qumrhu lesithathu 
+lithembakeleyo, zonke iintlawulo zonaniselwano kufuneka zibhengezwe esidlangalaleni [1], 
+kufuneka kukho inkqubo apho abantu abachaphazelekayo bezakuvumelana ngendlela 
+ezilandelelene ngayo iintlawulo zonaniselwano ukususela kweyokuqala ukuza kutsho 
+kweyokugqibela. Lo mntu uhlawulwayo ufuna ubungqina bokuba ngethuba kusenziwa 
+intlawulo, uninzi lwamaziko alawulo ikhompyutha ayavumelana ukuba iyaqala ukwenziwa. 
 
-## Timestamp Server
+## Ubuxhaka-xhaka bokugximfiza ixesha
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Isisombululo esiza naso siqala ngobuxhaka-xhaka bekhompyutha obugximfiza ixesha. Obu 
+buxhaka-xhaka busebenza ngokuthi kuthathwe isixa samasuntswana olwazi aza 
+kugximfizwa luze olu phawu lusetyenziselwe ukugximfiza amasuntswana lupapashwe 
+kwiqonga lokusasaza ulwazi kuwonke-wonke elifana nephephandaba okanye ulwazi 
+olupapashwa kwi-intanethi [2-5]. Esi sixhobo sokugximfiza ulwazi siluphawula 
+njengobungqina bokuba olu lwazi luyaziwa. Isigximfizo ngasinye siba nesigximfizo 
+sangaphambili kwi-hash yaso, into leyo ethi yenze isixokelelwano, apho isigximfizo 
+sangaphambili kufuneka sihambelana nesi sitsha silandelayo.   
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Ubungqina bomsebenzi owenziweyo
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Ukuze kuqaliswe inkqubo yobuxhaka-xhaka bokugximfiza ngabantu abasebenza kunye, 
+kuza kufuneka kusetyenziswe inkqubo ekhokelisa ukubaluleka kobungqina efanayo 
+ne-Hashcash ka-Adam Back [6], endaweni yephephandaba okanye ulwazi olupapashwe 
+kwi-intanethi. Ubungqina bomsebenzi owenziweyo buquka ukukhuphela ixabiso lolwazi 
+obeselenziwe i-hash, ngokusebenzisa into efana ne-SHA-256, ize i-hash iqale 
+ngesuntswana lolwazi elingu-0. Mninzi kakhulu umsebenzi onokwenziwa ngesuntswana 
+lolwazi elingu-0 oku kungaqinisekiswa ngokuthi kusetyenziswe i-hash enye.  
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Kwinkqubo yethu yokugximfiza siye sisebenzise inkqubo yobungqina bomsebenzi 
+owenziwiyo ngokwandisa inani elisetyenziswa kanye lalo msebenzi (i-nonce) kwibloko 
+kude kufumaneke inani eliza kunika uphawu olufihlakeleyo lwebloko kude kufumaneke 
+ulwazi olwaneleyo olungu-0 lwamasuntswana olwazi . Yakuba i-CPU isetyenziwe ukuze 
+ikwazi ukubonisa ubungqina bomsebenzi owenziweyo, ibloko ayinakutshintshwa 
+kungakhange kuphindwe kuqalelwe phantsi. Ngenxa yokuba iibloko ethubeni ziye 
+zidityaniswe zibe sisixokolelelwano, ukutshintsha ibloko nganye kuza kufuna ukuba 
+kuqaliswe phantsi umsebenzi ngokutsha kwenziwe iibloko ngokutsha.  
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Ubungqina bomsebenzi owenziweyo busombulula nengxaki yokubona izimvo zabantu xa 
+iinkqubo yokuthatha isigqibo ixhomekeka kwisininzi. Ukuba isininzi besibalwa ngokuba 
+kuthiwe idilesi ye-IP nganye mayivote kube kanye, le ndlela yokubala isininzi ingaqhatheka 
+lula ngokuba umntu abe nee-IP ezininzi. Inkqubo ekhokelisa ubungqina bomsebenzi 
+owenziweyo yona ithi kuvotwa ngokwe-CPU. Isigqibo sesininzi siza kubonwa ngezona bloko 
+zininzi, ezinobungqina bomsebenzi omninzi owenziweyo. Ukuba ubuninzi be-CPU 
+bulawulwa kwizitishi ezincinci (ii-nodes) ezithembekileyo, kuza kukhula isixokolelwano 
+esingenazikroba esikhawulezileyo ngesantya esiza kubangaphezulu kwesezinye 
+izixokelelwano esikhuphisana nazo. Ukuze akwazi ukwenza ubuqhetseba kwibloko 
+engaphambili, lo nqalintloko wenza umonakalo kuza kufuneka aqale abe nobungqina 
+bomsebenzi ubuwenziwe kule bloko kunye nezinye iibloko ezilandela yona aze akhawuleze 
+ngesantya esiphezulu esiza kumenza ade agqithe kwesi asebenza ngaso amazikwana 
+amancinci alawula olu rhwebo. Siza kubonisa kwalapha ethubeni ukuba mancinci kakhulu 
+amathuba okuba isela elingenileyo kuba lifuna ukwenza umonakalo lihambe ngesantya 
+esiza kwenza ukuba likwazi ukude liyokufika entloko, kule ndawo sele kukuyo ngoku. 
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Ukuzama ukuthintela umonakalo onokwenziwa zezi khompyutha zintsha zihamba 
+ngesanya esiphezulu kakhulu kunye nokuphelelwa ngumdla nokuzinikela kwabo 
+basebenza kwezi zitishana zincinci zilawulwayo, umthamo olindelekileyo nofunekayo 
+wubungqina bomsebenzi owenziweyo uza kutshintshwa. Ukuba isantya sinyuswe 
+kakhulu, kuza kuba nzima nokuba kwenziwe umonakalo ngonqali-ntloko. 
 
-## Network
+## Isixokelelwano seekhompyutha
 
-The steps to run the network are as follows:
+Amanqanaba okuphatha isixokelelwnao seekhompyutha ngala alandelayo:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Iintlawulo zonaniselwano ezintsha zipapashwa kuzo zonke izitishi ezincinci zolwazi.
+2. Isitishi esincinci ngasinye siqokelela iinkcukacha zentlawulo entsha siyifake kwibloko.
+3. Isitishi esincinci ngasinye sizama ukukhangela ubungqina bomsebenzi owenziweyo 
+obusitheleyo kwibloko nganye. 
+4. Xa isitishi esincinci sifumana ubungqina bomsebenzi owenziweyo, siyabupapasha 
+kuzo zonke izitishi ezincinci zolwazi. 
+5. Isitishi siyamkela ibloko kuphela xa zonke iintlawulo zisemthethweni futhi ingezizo 
+ezemali esele isetyenzisiwe ngaphambili. 
+6. Izitishi ezincinci zolawulo-lwazi zicaca ukuba ziyamkele ubloko ngokuthi ziqalise 
+ukwakha ibloko elandelayo, zisebenzisa i-hash yebloko esele yamkelwe 
+njenge-hash yangaphambili.  
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Izitishi ezincinci zolawulo-lwazi zizithatha ngokuba azinazimpazamo izixokelelwano 
+zeebloko ezizezona zide kwaye ziyaqhuba zizama ukuzandisa. Ukuba izitishi ezibini 
+zipapasha iibloko ezimbini ezingafaniyo ngexesha elinye, izitishi zingafumanisa nokuba 
+yeyiphi ibloko kuqala. Xa kunjalo, ziza kusebenzisa le ifunyenwe kuqala, zize ziyibeke 
+elugcinweni enye ukulungiselela xa kunokwenzeka ikhule, nayo ibe sisixokelelwano eside. 
+Le ngxaki iza kusonjululwa xa kufunyanwa ubungqina obulandelayo bomsebenzi 
+owenziweyo size esinye isixokelelwano sibe side ngaphezu kwesinye, izitishi ebezisebenza 
+kwesinye isixokelelwano besilisetyana ziza kutshintshela kwesi sixokelelwano side.  
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Upapasho lweentlawulo zonaniselwano ezintsha akunyanzelekanga ukuba lufike kuzo 
+zonke izitishi ezincinci. Ukuba nje lufike kwizitishi ezincinci ezininzi, luza kufika kwibloko 
+kungekudala. Inkqubo yokupapasha yeebloko iyakwazi ukuyibona imiyalezo ethunyelwe 
+ngempazamo. Ukuba isitishi esincinci asifumani bloko, siza kuyicela xa sifumana ibloko 
+elandelayo size sibone ukuba kukho ibloko esingayifumenanga. 
 
-## Incentive
+## Umvuzo
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Ngokomthetho, intlawulo yokuqala kwibloko yintlawulo yonaniselwano eyodwa ethi izale 
+i-bitcoin entsha yengcali leyo iqale ibloko. Oku kungumvuzo okhuthaza izitishi ukuba 
+zincedise abarhwebi, kwaye yindlela yokuqalisa ukukhupha ii-bitcoin ziye ebantwini abafuna 
+ukurhweba ngazo, njengoko kungekho qumrhu lingundlunkulu olawula olu hlobo lorhwebo. 
+Ukuthi gqolo kusongezwa i-bitcoin ezintsha kufana nabasebenzi-mgodini abomba igolide 
+ngenjongo zokuba iye ebantwini abarhweba ngayo. Kolu uhlobo lorhwebo, yikhompyutha 
+nombane izinto ezisebenzayo. 
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Umvuzo ungafumaneka nakwimirhumo yokwenza iintlawulo zonaniselwano. Ukuba ixabiso 
+lomsebenzi wokuyila i-bitcoin lingaphantsi kwixabiso elifunyanwayo ngokurhweba ngayo, le 
+mali itsaliweyo yile yokwenza intlawulo yonaniselwano. Zakuba ziyiliwe zaze zakhutshelwa 
+abantu abarhwebayo ii-bitcoin ezilinani elithile elicetywe kwangaphambili, umvuzo 
+ungayimirhumo yokwenza iintlawulo zonaniselwano ungadibani nokudibana nomrhumo 
+oxhomekeka kumaxabiso ezinto ngelo xesha. 
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Lo mvuzo ungenza nezitishi ezincinci zithembakale. Ukuba unqali-ntloko ofuna ukwenza 
+umonakalo uyakwazi ukuba ne-CPU enesantya esingaphezulu kuzo ezi zezitishi ezincinci 
+zolawulo-lwazi, kuza kunyanzeleka ukuba akhethe ukuba enze ubuqhetseba bokuthi ebe 
+ebantwini la ntlawulo ebesele eyenzile okanye enze i-bitcoin ezintsha. Angakhetha ukuba 
+angaphuli mthetho kuba le mithetho inceda kwayena ngenxa yokuba uza kufumana 
+ii-bitcoin ezininzi ngaphezu komntu wonke, kunokuba aphazamise ubuxhaka-xhaka 
+bokuqhuba olu rhwebo kunye nemeko apho ubutyebi bakhe nabo ebubeka 
+emngciphekweni.  
 
-## Reclaiming Disk Space
+## Ukusebenzisa isithuba esincinci kwikhompyutha
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Yakuba intlawulo yokugqibela yenziwe, yaza yafakwa ezincwadini, iintlawulo ebezenziwe 
+phambi kwayo zingacinywa ukwenzela ukuba zingatyi indawo. Oku kwenziwa ngokuthi 
+kusetyenziswa i-Merkle Tree [7][2][5] ngolu hlobo luboniswe ngezantsi apho kushiywa 
+ingcambu yodwa ye-hash yebloko. Iibloko ezindala ziye zisongwe ngokuba kuqhawule 
+amasebe alo mthi. Ii-hash ezingaphakathi akunyanzelekanga ukuba zigcinwe.  s
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Ibloko eyintloko 
+ekungakhange 
+kwenziwe ntlawulo 
+kuyo ingazi-bytes 
+ezingama-80. Ukuba 
+siyavumelana ukuba 
+ibloko yenziwe rhoqo 
+emva kwemizuzu 
+eli-10, i-80 bytes * 6 * 
+24 * 365 = 4.2MB 
+ngonyaka. Njengokuba, 
+ukususela ngo-2008, 
+sekuthengiswa 
+iikhompyutha ezine-RAM eyi-2GB futhi xa sijonga kwinkqubo kaMoore yoqikelelo, i-RAM 
+yeekhompyutha iza kukhula nge-1.2GB ngonyaka, ke ngoko iikhompyutha azizikuba 
+nangxaki ngendawo yokugcina iifayile ezinkulu nokuba ibloko eziyintloko zingagcinwa. s
 
-## Simplified Payment Verification
+## Indlela eLula yokuChaza iNtlawulo
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Ungakwazi ukuziqinisekisa iintlawulo ungakhange ude ungene kuzo zonke izitishi ezincinci 
+zogcino-lwazi (ii-nodes). Umntu kufuneka nje agcine ikopi yeebloko ezizintloko zesona 
+sixokelelwano side sobungqina bomsebenzi owenziweyo, anokuzifumana ngokujonga 
+kwizitishi zonke zogcino-lwazi ade naye aqiniseke ukuba ngenene eso sesona 
+sixokelelwano side sobungqina bomsebenzi owenziweyo, aze ajonge kula Merkle isebe 
+elihambelana nentlawulo ekwibloko egximfizwe iinkcukacha. Nangona engazikukwazi 
+ukuzijongela ngokwakhe intlawulo eyenziweyo, kodwa ngokuyijonga ukuba ibisuka kweyiphi 
+indawo kwesi sixokelelwano angasibona isitishi esincinci ibingene ngaso, kunye nebloko 
+ezongezelelweyo emva kwaso emva kokuba ivumile ukuba yamkelwe yikhompyutha. 
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Ngamanye amazwi, inkqubo yokuqinisekisa intlawulo ungayithemba ukuba nje izitishi 
+ezincinci zogcino-lwazi izizo ezilawula ubuxhaka-xhaka obusetyenziselwa urhwebo, kodwa 
+iye ithande ukugungqa xa kuvele oonqali-ntloko abafuna ukwenza umonakalo kuyo. 
+Nangona izitishi zogcinolwazi zikwazi ukuqinisekisa ngokwazi ukuba iintlawulo 
+zezokwenyani ngenene, le ndlela ilawulwayo yokuhlawula ingaphazanyiswa zintlawulo 
+zomgunyathi ezenziwe ngoonqalintloko abafuna ukwenza umonakalo ukuba nje bangakwazi 
+ukuyoyisa baze bayilawule. Enye indlela yokuthintela oku kukuyithathela ingqalelo imiyalezo 
+engxamisekileyo emifutshane ethunyelwa zizitishi zogcino-lwazi xa zibona ibloko 
+yomgunyathi, zize ngolo hlobo ziyalele umntu ukuba akhuphele yonke ibloko kunye 
+neentlawula azikhonjiswayo ukuchaza ukuba ikhona ngenene into engahambi kakuhle. 
+Amashishini afumana iintlawulo angafuna ukuba asebenzise ezawo iinkqubo ezizimeleyo 
+nezikwaziyo ukuqinisekisa ngokukhawuleza.  
 
-## Combining and Splitting Value
+## Ukudibanisa nokwahlula ixabiso 
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Nangona unokwazi ukusebenza nge-bitcoin uwedwa, akunakubalula ukwenza intlawulo 
+yesenti nganye xa ubhatala. Ukuze imali yahlulwe okanye idityaniswe, iintlawulo ziyaphuma 
+ezinye ziyangena. Kuqhele ukuba kubekho intlawulo enye engenayo esisixa esikhulu esivela 
+kwintlawulo enkulu yangaphambili okanye iintlawulo ezininzi ezingenayo zemali encinci, kuze 
+kubekho ezimbini eziphumayo: enye iyintlawulo eqhelekileyo, ize enye ibe yintsalela 
+ebuyiswayo, ukuba ikhona kulowo ebeyithumele. 
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Kufuneka wazi ukuba ukuzisasaza iintlawulo, apho 
+intlawulo ixhomekeke kwiintlawulo ezahlukeneyo, 
+zize zona ezo ntlawulo zixhomekeke kwezinye 
+ezininzi, akuyongxaki. Akukho mfuneko yokuba 
+ube nekopi ezimeleyo yazo zonke iintlawulo 
+ezazenziwe. 
 
-## Privacy
+## Imfihlo
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Iibhanki zesiqhelo zenza iintlawulo zonaniselwano zibe yimfihlo ngokuthi zenze ukuba 
+ulwazi ngazo lungasasazwa, luphelele nje kwabo bantu bachaphazelekayo kunye 
+nequmrhu elingelinye lesithathu elithembakeleyo. Iimeko apho kufuneka ezi ntlawulo 
+zibhengezwe esidlangalaleni zona azibalwa kolu hlobo lonaniselwano kodwa iinkcukacha 
+zingagcinwa ziyimfihlo ngenye indlela: ngokugcina iinkcukacha eziyimfihlo zingaziwa. 
+Uluntu lungabona ukuba kukho umntu othumela isixa semali esithile komnye umntu, kodwa 
+lungayazi ukuba le mali ihlawulwa kubani na. Oku kufana nqwa nendlela olupapashwa 
+ngayo ulwazi ngamaziko orhwebo ngezabelo, apho ixesha kunye nomthamo worhwebo 
+ubhengezwayo, kodwa kungachazwa ukuba ngoobani abebeqhuba urhwebo.  
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Njengesinye sezixhobo zokhuselo, kufuneka kusetyenziswe iikhowudi eziyimfihlo 
+kwintlawulo nganye ukwenzela ukuba bangaziwa aba bananiselanayo. Lubakhona 
+unxulumano phakathi kweentlawulo ezivela kwiindawo ezahlukeneyo, ezithi zivele ukuba 
+zenziwe ngumntu omnye. Ingxaki yenzeka xa isitshixo-mfihlo sithe sachazwa, lo nto 
+ingabangela ukuba kuvele ukuba nezinye iintlawulo zezomntu omnye.  
 
-## Calculations
+## Ukubala
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Sicinga ngemeko apho unqalintloko ofuna ukwenza umonakalo ezakufuna ukudala esinye 
+isixokolelwano somgunyathi phambi kokuba esi sokwenyani siyilwe. Nokuba ingenzeka le 
+nto, ayibangeli ukuba kwenzeke umonakalo apho abantu bazenzela utshintsho 
+bengagqithanga mntwini, umzekelo bazenzele imali engasuki ndawo okanye bathathe imali 
+engeyoyabo. Izitishi zogcino-lwazi azizikuyamkela intlawulo engumgunyathi, kwaye 
+azinakuthatha kwankcukacha zinento yokwenza nayo. Loo nqalintloko uzama ukwenza 
+umonakalo angenza utshintsho kwiintlawulo ebezenziwe nguye kuphela azibuyisele imali 
+ebesanda kuyihlawula.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Olu kruthakruthwano phakathi kwesixokelelwano sokwenyani kunye nesomgunyathi 
+lungafaniswa ne-Binomial Random Walk. Zithi zeziphumelele ezi zixokolelwano zokwenyani 
+ziqale zande ngebloko enye, loo nto izenze zibe phambili ngo: +1, size esi somgunyathi 
+sibesemva ngebloko enye, lonto yenze ukuba kuthiwe umgama phakathi kwazo ngu: -1. s
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Amathuba okuba lo nqalintloko ade aleqe angabi semva angafaniswa nala nto kuthiwa 
+yi-Gambler’s Ruin Problem. Masithi umntu ongcakazayo onemali eyaneleyo ayibolekileyo 
+uqala ukungcakaza sele esetyaleni aze adlale izihlandlo ezininzi ezama ukuba aphume 
+etyaleni abanemali ekhoyo. Singabala amathuba okuba ade afikelele kwiqondo lokuba 
+angabinatyala, okanye unqalintloko ozama ukwenza umonakalo uza kuthatha ixesha 
+elingakanani ukuze afikelele kule ndawo sikuyo isixokelelwano sokwenyani, ngolu hlobo 
+lulandelayo[8]: 
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -118,7 +341,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
+        <mtext>&#xA0;ngamathuba aza kuthathwa sisitishi sogcino-lwazi phambi kokuba sifumane enye i-block</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -132,7 +355,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
+        <mtext>&#xA0;amathuba okuba unqalintloko afumane i-block</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -150,7 +373,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
       </mtd>
       <mtd>
         <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
+          <mtext>&#xA0;amathuba okuba unqalintloko afikelele kwibloko eziku-&#xA0;</mtext>
           <mrow class="MJX-TeXAtom-ORD">
             <mi>z</mi>
           </mrow>
@@ -214,21 +437,36 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Ngenxa yokuba besiqikelele ukuba u
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
+, la mathuba ehla kakhulu njengokuba inani 
+leebloko unqalintloko ekufuneka efike kuzo lisanda. Kuba ke ngoku amathuba embalwa 
+kakhulu, ukuba akazikufumana ntlahla enze umtsi omkhulu, amathuba akhe aye encipha 
+kakhulu kwaye uye eshiyekela kakhulu.  
 
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
-
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
-
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
-
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Ngoku masikhe siqwalasele ixesha ekufuneka lo ufakelwe imali alilinde phambi kokuba 
+aqiniseke ukuba umntu ebethumele imali akazikuphinda ayijike. Sithatha ngokuba lo 
+uthumele imali ngunqalintloko ofuna ukuqhatha lo uza kuyifumana acinge ukuba 
+ubhatelwe, aze asuke ayijike ayibuyisele kuye ukuhamba kwexsha. Lo ufumene imali uza 
+kuxelelwa ngoko nangoko xa le nto isenzeka, kodwa yena la nqalintloko uza kucinga 
+ukuba lo ebemthumele imali uza kothuka sekophulwe.  
+ 
+Lo ufumana imali uza kuyila isitshixo-mfihlo esitsha aze anike isitshixo-mfihlo 
+sikawonke-wonke kulo ebeyithumele phambi kokuba atyikitye. Oku kuthintela lo 
+ebethumele ukuba enze isixokolelewano seebloko phambi kwexesha ngokuthi ahlale kuyo 
+angayeki ade abe nentlahla yokuba agqithe ibe nguye ophambili, aze enze intlawulo ngalo 
+mzuzu. Yakuba yenziwe intlawulo, unqalintloko uqalisa ukusebenza ngondlela-mnyama 
+kwesinye isixokelelwano esingesinye esinezinye iinkcukacha zale ntlawulo. 
+ 
+Lo uhlawulwayo yena uza kulinda ide intlawulo ibe kanti yenzekile kwibloko futhi nebloko 
+ezingu: z zidityanisiwe emva koko. Akayazi indima esele ihanjwe ngunqalintloko, kodwa 
+sisithi ke le bloko inyanisekileyo ithathe eli xesha liqhelekileyo ukusebenza kwibloko enye, 
+umgama osele uhanjwe ngunqalintloko ungachazwa ngokwethiyori ye-Poisson Distribution 
+kwaye iziphumo zingakhangeleka ngolu hlobo: 
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -242,7 +480,10 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Ukuze sikwazi ukubala amathuba anawo unqalintloko phambi kokuba afike kule ndawo 
+sikuyo, siphinda-phinda eli nani lixhaphakileyo libalwe ngokwe-Poisson ngesixa somgama 
+ngamnye osele ewuhambile unqalintloko ngamathuba anawo okufika kule ndawo zikuyo ezi 
+bloko zokwenyani:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -329,7 +570,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Ukuwalandelelanisa ngokutsha ukuthintela ukuba amathuba abe linani elingenasiphelo…
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -392,7 +633,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Xa kuthe kwatshintshelwa kwikhowudi engu-C…
 
 ```c
 #include 
@@ -413,7 +654,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Xa sithe sahlalutya iziphumo, siyabona ukuba amathuba ehla kakhulu ngo: z. 
 
 ```
 q=0.1
@@ -443,7 +684,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Ukusombulula isibalo si-P esingaphantsi ko: 0.1%... 
 
 ```
 P < 0.001
@@ -457,9 +698,29 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Isiqukumbelo
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Siphakamise ukuba kusetyenziswe inkqubo ye-intanethi kungaxhomekekwa kumba 
+wokuthembana. Siqale ngokucacisa esi sicwangciso siqheliweyo sendlela etyhutyha ngayo 
+i-bitcoin ku-intanethi, into leyo yenza ukuba xa ungumnikazi we-bitcoin akekho omnye oza 
+kuba nebango kuyo, kodwa lonto ayincedi ukuba akhona amathuba okuba ubanjiswe 
+umgunyathi kuthi kanti le mali ucinga ukuba unayo sele isetyenzisiweyo, qha wena loo nto 
+awuyazi. Ukusombulula le ngxaki, siye sacebisa ukuba kusetyenziswe ubuxhaka-xhaka 
+obuza kulawulwa ngabarhwebi bonke apho kuza kusetyenziswa ubungqina bomsebenzi 
+owenziweyo ukuze kubhalwe zonke iinkcukacha zeentlawulo ezenziweyo esidlangalaleni 
+into leyo eza kubangela ukuba kungabi lula kwaphela ukuba unqalintloko enze utshintsho 
+engagunyaziswanga ukuba izitishi zogcino-lwazi ezinyanisekileyo ziza kulawula umthamo 
+omkhulu we-CPU. Obu buxhaka-xhaka bukhangeleka bulula kakhulu kodwa kunzima 
+ukuba bube lixhoba lokuxhatshazwa. Izitishi zogcino-lwazi ziyasebenzisana kungekho bani 
+uzimele ngasemva. Akunyanzelekanga ukuba zaziwe njengoko imiyalezo ingathunyelwa 
+kwindawo ethile enye qha xa ithunyelwa kufuneka kuqinisekiswe ukuba akukho ndlela 
+yakwenza utshintsho olungaziwayo. Izitishi zingamane ziphuncuka kodwa ziphinde zibuye, 
+zixhomekeka nje kubungqina bomsebenzi owenziweyo njengelona xhadi lilithemba xa 
+zifuna ulwazi xa ziphinda zibuya emva kokuba bezikhe zaqhawuka. Zixhomekeke kulwazi 
+olukwi-CPU, apho zithi zizamkele iibloko njengokuba zisisixhobo sorhwebo 
+esithambekeleyo zize zisebenzele ukuzandisa zize zizikhabe iibloko zomgunyathi 
+ngokwala ukusebenza ngazo. Nayiphina imithetho nemigaqo efunekayo kunye nemivuzo 
+efumanekayo ingalula xa kusetyenziswa le ndlela yokusebenzisana.  
 
 ## References
 

@@ -1,55 +1,53 @@
-# Re: Bitcoin v0.1 released
+# Umba: Ukukhutshwa kwe-Bitcoin v0.1
 
-by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
+nguHal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
-Satoshi Nakamoto writes:
+USatoshi Nakamoto wabhala wathi: 
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
->
-> See bitcoin.org for screenshots.
->
-> Download link:
-> http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
+> Ukubhengezwa kokukhutshwa kokuqala kwe-Bitcoin, uhlobo olutsha lwemali ye-intanethi 
+> olusebenzisa ubuxhaka-xhaka borhwebo babarhwebi ukuthintela ukuba ingasetyenziswa 
+> kabini. Ayinaziko linye ilawulwa kulo futhi ayinankqubo yekhompyutha yayo okanye iqumrhu 
+> eliphetheyo. 
+> 
+> Khangela imifanekiso efotwe kwiselula ku-bitcoin.org. 
+> 
+> Yiya ku: http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar 
 
+Sikuqwabela izandla Satoshi, ngokukhupha ubuxhaka-xhaka obutsha bokurhweba 
+nge-bitcoin. Ndiyathemba ukuba buza kuba luncedo kakhulu. 
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
+> I-bitcoin esele zikhutshiwe ngoku ziyi-21,000,000. Ziza kuthunyelwa kwizitishi ezincinci 
+> zogcino-lwazi kubuxhaka-xhaka beekhompyutha xa ziqalisa ukwenza iibloko, nexabiso 
+> lazo liphungulwa ngesiqingatha rhoqo emva kweminyaka emi-4. 
+> 
+> iminyaka emi-4 yokuqala: 10,500,000 yee-bitcoins 
+> iminyaka emi-4 elandelayo: 5,250,000 yee-bitcoins 
+> iminyaka emi-4 elandelayo: 2,625,000 yee-bitcoins 
+> iminyaka emi-4 elandelayo: 1,312,500 yee-bitcoins
+> njl njl... 
 
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
->
-> first 4 years: 10,500,000 coins  
-> next 4 years: 5,250,000 coins  
-> next 4 years: 2,625,000 coins  
-> next 4 years: 1,312,500 coins  
-> etc...
+Siyayibona nento yokuba obu buchwepheshe benziwe ngendlela eyenza ukuba bukhuphe 
+inani eliqingqiweyo lee-bitcoins. Inokuba injongo yoku kukuba umsebenzi ekufuneka umntu 
+awenze xa eza kwenza i-bitcoin entsha uza kuya usiba nzima ngokuhamba kwexesha.  
 
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
+Ingxaki engamandla ngemali efikayo entsha kukuyibeka ixabiso. Nangona nayo ingxaki 
+yokuba abantu bezakuqala babemathidala ngayo, akululanga ukucacisela abantu ngexabiso 
+ekugqitywe kulo ngemali entsha engekabekwa xabiso.  
 
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
+Masikhe sithi i-Bitcoin iye yakwazi ukufumana udumo yaze yayiyona imali isetyenziswayo 
+kwihlabathi liphela. Ixabiso lee-bitcoin zonke ezikhoyo kufuneka lilingane nexabiso 
+lobutyebi obukhoyo kwihlabathi. Iinkcukacha-manani ezikhoyo ngokwangoku zithi ubutyebi 
+bamakhaya edibene wonke kwihlabathi buphakathi kwe-$100 trillion ne-$300 trillion. Xa 
+kukho ii-bitcoin ezizigidi ezingama-20, lo nto yenza ukuba i-bitcoin inye ixabise imali eyi-$10 
+million. 
 
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
-
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Ke ngoku ungazuza lukhulu ukuba ungaqalisa ukuvelisa ii-bitcoin namhlanje ube ungachithi 
+namali ingako ukwenza lo msebenzi, amathuba okuphumelela ayi-100 million lize libe yi-1 
+elinokubangela ukuba ungaphumeleleli. Nokuba amathuba okuba uphumelele ngolu hlobo 
+mancinci, kodwa ingaba okuphumelela ayi-100 million kweliyi-1 lokungaphumeleli? 
+Khawuyihlafune nawe… 
 
 Hal
 
