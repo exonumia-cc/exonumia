@@ -1,3 +1,8 @@
+---
+translators: 
+    - 
+        name: "Phakamani Dadlana"
+---
 # I-Bitcoin ifana neMidlalo
 
 ngu @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)

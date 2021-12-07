@@ -1,3 +1,8 @@
+---
+translators: 
+    - 
+        name: "Phakamani Dadlana"
+---
 # Iphumile i-Bitcoin v0.1
 
 nguSatoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)

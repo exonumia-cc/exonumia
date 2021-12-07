@@ -1,3 +1,8 @@
+---
+translators: 
+    - 
+        name: "Phakamani Dadlana"
+---
 # I-Bitcoin: Imali ye-intanethi yabarhwebi
 
 nguSatoshi Nakamoto [2008/10/31](/bitcoin.pdf)

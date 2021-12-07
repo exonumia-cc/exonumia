@@ -1,3 +1,8 @@
+---
+translators: 
+    - 
+        name: "Phakamani Dadlana"
+---
 # I-Bitcoin Ifana
 
 by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)

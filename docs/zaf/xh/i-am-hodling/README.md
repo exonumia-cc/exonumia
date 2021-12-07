@@ -1,3 +1,8 @@
+---
+translators: 
+    - 
+        name: "Phakamani Dadlana"
+---
 # NDISASEZELA UMOYA 
 
 by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
