@@ -138,6 +138,11 @@ module.exports = {
             group: '🇿🇦 South Africa',
             title: 'Exonumia'
         },
+        '/zaf/xh/': {
+            lang: 'xh',
+            group: '🇿🇦 South Africa',
+            title: 'Exonumia'
+        },
         '/zaf/zu/': {
             lang: 'zu',
             group: '🇿🇦 South Africa',
@@ -1050,6 +1055,70 @@ module.exports = {
                     },
                     '/zaf/ve/contribution-guide/',
                     '/zaf/ve/contact/'
+                ],
+            },
+            '/zaf/xh/': {
+                lastUpdatedText: "Igqityelwe ukuhlaziywa",
+                supportersText: "Abaxhasi",
+                translatorsText: "Abaguquleli",
+                selectLanguageText: '🇿🇦 Iilwimi',
+                selectLanguageName: '🇿🇦 IsiXhosa',
+                freelyAvailableTranslationsText: '🇿🇦 Iinguqulelo Ezifumaneka Ngokukhululekileyo',
+                label: 'IsiXhosa',
+                selectLanguageAriaLabel: 'Iilwimi',
+                editLinks: true,
+                editLinkText: "Phucula Inguqulelo!",
+                continueReading: true,
+                continueReadingText: 'Qhubeka ufunda',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/zaf/xh/' 
+                    },
+                    { 
+                        text: 'Ukuhumusha', 
+                        link: '/zaf/xh/translations/' 
+                    },
+                ],
+                sidebar: [
+                    '/zaf/xh/about/',
+                    {
+                        text: 'Ukuhumusha',   // required
+                        link: '/zaf/xh/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/zaf/xh/',
+                            '/zaf/xh/explain-bitcoin-like-im-five/',
+                            '/zaf/xh/bitcoin-is-like/',
+                            '/zaf/xh/bitcoin-is-like-sports/',
+                            '/zaf/xh/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/xh/museum/bitcoin-v0.1-released/',
+                            '/zaf/xh/museum/re-bitcoin-v0.1-released/',
+                            '/zaf/xh/i-am-hodling/'
+                        ]
+                    },
+                    {
+                        text: 'Izincwadi',   // required
+                        link: '/zaf/xh/books/',
+                        children: [
+                            '/zaf/xh/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/zaf/xh/tools/'
+                    },
+                    {
+                        text: 'Amaphrojekthi weTransifex',   // required
+                        link: '/zaf/xh/open-source-translation-projects/',
+                        children: [
+                            '/zaf/xh/transifex/bitcoin-core/',
+                            '/zaf/xh/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/zaf/xh/contribution-guide/',
+                    '/zaf/xh/contact/'
                 ],
             },
             '/zaf/zu/': {
