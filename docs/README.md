@@ -80,8 +80,19 @@ contributors: false
 
 ### The Exonumia Project is partially supported by:
 
+![](./HRF-logo.png)
+<figure>
+  <figcaption><a href="https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects">HRF</a></figcaption>
+</figure>
+
 ![](./bitmex-logo.png)
 <figure>
   <figcaption><a href="https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/">BitMEX</a></figcaption>
 </figure>
+
+![](./galoy-logo.svg)
+<figure>
+  <figcaption><a href="https://twitter.com/GaloyMoney/status/1477375671991259139">Galoy</a></figcaption>
+</figure>
+
 </center>
