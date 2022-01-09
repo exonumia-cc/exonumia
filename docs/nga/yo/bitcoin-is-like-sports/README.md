@@ -1,30 +1,52 @@
-# Bitcoin Is Like Sports
+---
+translators: 
+    - 
+        name: "Cryptico"
+        href: "https://twitter.com/Melanpso"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# Bítkọìnì Dà Bi Eré-ìdárayá
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+látọwọ @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Mo ún sábà ṣe àlàyé bí #bitkoini ṣe ún ṣiṣẹ́ àti bó ṣe jẹ́ aláìkòsójúkan nípa lílo àpẹrẹ ìdíje
+eré-ìdárayá. Mo ti ríi pé èyí únṣe ìrànlọ́wọ́ láti dáhùn àwọn ìbéèrè tó wọ́ pọ̀:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Ìbéèrè: Ta ni ó dá eré bọ́ọ̀lù-àfẹsẹ̀gbá sílẹ̀?  
+Ìdáhùn: Ìbéèrè yìí kò ṣe pàtàkì. Ẹnikẹ́ni tó bá wù lóle kópa nínú eré yìí. Ká sọ pé ẹni tó dá
+eré náa sílẹ̀ fẹ́ yí òfin erè tàbí pé ó fẹ́ fún ara rẹ̀ ní ẹ̀bún eré tàbí ohun mírán. Kó sí èyí tó kàn
+wá nípá ohun tó bá rò lórí eré wa.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Ìbéèrè: Ta ni ó ún sàkóso eré náà?  
+Ìdáhùn: Ẹnìkankan kò ṣe àkóso, gbogbo wa lé pinu láti kópa nínú eré náà. Gbogbo wa la mọ̀
+òfin rẹ̀, tí a sì tẹ̀ le. Bẹ́ ẹ̀ sì ni tí ẹnì kan bá fẹ́ ṣe òjóró, a ó lé wọn kúrò nínú erè náà. Tí ẹnì
+kan bá fún ara rẹ̀ ní ẹ̀bùn eré tí kò bá ìlànà mú, a kò ní kọ bi ara sí wọn.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Ìbéèrè: Bá wo ni a ṣe mọ pé àwọn òfin eré kò ní yípadà?  
+Ìdáhùn: Gbogbo wa lati gbà láti tẹlé wọn nígbà tí a bẹrẹ eré. Ẹnikẹni tó bá fẹ kópa pẹlú àwọn
+òfin eré náà lé tẹsíwájú pẹlú eré náà. Tí ẹnikẹni bá fẹ ṣe àyípadà àwọn òfin yìí, yí ò lọ dá eré
+tì ẹ sílẹ ni.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Ìbéèrè: Ṣé ó ṣe é jà ní jìbìtì?  
+Ìdáhùn: Gbogbo ohun tó ún ṣẹlẹ lojú le rí. Ojú wa rí gbogbo orí pápá ìdíje àti ẹbùn eré. Tí ẹni
+kan bá ún ṣe òjóró, a le bá wọn wí.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Ìbéèrè: Kí lódé tó ṣe níye lórí?  
+Ìdáhùn: Nítorí pé a ti pinu láti kópa nínú ìdíje eré náà, o níye síwa. Ẹnikẹni tó bá fẹ kópa
+gbọdọ gbà láti tẹlé iye àti ẹbùn eré wa.
 
-I value it, so it has value. Value is subjective.
+Ó níye nítorípé mo díye le. Ọwọ wa ló kù sí.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+Ìbéèrè: Wọn mọ le fòfin dè é?  
+Ìdáhùn: Ó ṣe é ṣe. Ṣe bí a kàn fẹsẹ gbá bọọlù ni. A à ba ùnkankan jẹ ẹ. Ìjọba le pinu láti dí
+enìyàn lọnà láti ṣe eré yìí sùgbọn wọn kò le dínà àgbékalẹ rẹ, elòmíràn níbòmíràn yíò
+tẹsíwájú pẹlú eré náà.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Ìbéèrè: Ṣé kí un kópa níbẹ?  
+Ìdáhùn: Ẹ ṣe ohun tóbá wù yín. Mò ún gbádùn ará mí pẹlú bọọlù-àfẹsẹgbá, ẹ le kópa níbẹ
+tàbí ẹ le gbádùn ara yín nínú òsi.

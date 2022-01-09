@@ -1,19 +1,40 @@
-# I AM HODLING
+---
+translators: 
+    - 
+        name: "Cryptico"
+        href: "https://twitter.com/Melanpso"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# MO ÙN HODL
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+látọwọ GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Mo kọ akọlé ùn ní ẹmẹjì nítorípé mo mọ pé mi ò kọ dáadáa láákọkọ. Aṣìṣe náà tún ni. Kò rí
+kó ṣe rí.  
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+Ọmọge mi wà ní ilé otí, iye owó Bitkoini ti jábọ. KÍ NI ÌDÍ Ẹ TÍ MO ṢE ÚN HODL? MÀ Á SỌ
+FÚN YÍN.
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+Oníìnádúrà burúkú ni mí, mo sì MỌ PÉ ONÍÌNÁDÚRÀ BURÚKÚ NI MÍ. Bẹẹni ẹyin
+onníìnádúrà gidi tí ẹ mọ ìgbà tó lewó at’ìgbà tó dínwó ràá gbàá tàá tí ẹ mọ owó pa, ó dáà
+bẹẹ.  
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Bẹẹ náà sì ni àwọn tọwọ wọn kò yá ún sọ pé MÓ GBÉ Ó TÍ ÚN DÍNWÓ MO GBỌDỌ TÀÁ
+he he he, tí wọn bá ti táá wọn ó tún sọ pé OLÚWA O KÍLÓDÉ TÍ MO FI TÀÁ nígbà tí àwọn
+onníìnádúrà ỌLỌPỌLỌ tí WỌN MỌ OHUN TÍ WỌN ÙNṢE ràá lọwọ wọn, sùgbọn mọ fẹ kí
+ẹ mọ ùnkankan? Ẹmi ò sí ní àrin wọn. Nígbàtí àwọn onníìAYÉ nádúrà bá ràá padà èmi ti wà
+nínú ọjà, KÍ Ẹ MỌ TA NI Ẹ ÚN TÚ JẸ ÀWỌN onníìnádúrà ẸMI KỌ~!  
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Àwọn ẹjọ yẹyẹ pé “Ò BÁ MỌ KÍ O TI TÀÁ” ÙN BÁ MỌ KỌ. ÙN BÁ MỌ KÍ UNTI TÀÁ. ÙN BÁ
+MỌ KÍ UNTI TÀÁ KÓ TÓ DI PÉ WỌN TÀÁ, ÀTI KÍ UNTI TÀÁ KÓ TÓ DI PÉ WỌN RÀÁ
+ṢUGBỌN KÌ Í ṢE GBOGBO AYÉ LÓ GBỌN BÍ I YÍN.  
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Nígbà ọjà ọwọn nìkan ni ẹ ti le tàá tó bá se pé onníìnádúrà dáadáa lẹ jẹ tàbí aláàlá. Àwọn tó
+kú gbọdọ dìímú.  
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Nínú gbágàgìdì ọjà bí èyí, àwọn onníìnádúrà le gba owó lọwọ yín tí ẹ bá tàá nìkan.

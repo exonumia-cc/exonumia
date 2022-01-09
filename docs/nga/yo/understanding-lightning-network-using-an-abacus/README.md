@@ -1,40 +1,65 @@
-# Understanding Lightning Network using an Abacus
+---
+translators: 
+    - 
+        name: "Cryptico"
+        href: "https://twitter.com/Melanpso"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# ÀLÀYÉ LIGHTNING NETWORK PẸLÚ PÁTÁKÓ ÌṢÈṢIRÒ
 
-by Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
+látọwọ Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
 
 <LanguageDropdown/>
 
 
-I’ve received a lot of positive feedback following my previous article, [Lighting Network is the Future of Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). However, while reading some of the feedback, it became clear to me that some people don’t fully understand how Lightning Network (LN) actually works. In this article, I will try to demystify the concept behind LN and its payment channels using an abacus analogy, without getting into the technical specifics of LN implementation.
+Mo ti gba ìdáhùn ìwúrí nítorí àyọkà mi tẹlẹ, [Lighting Network ni Ọjọọla Bítkọìnì](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). Sùgbọn bí
+mò ṣe ún ka ọpọ nínú àwọn ìdáhùn náà, ó hàn sí mi kedere pé ọpọ ènìyàn ni kò ní òye bí
+Lightning Network (LN) se ún ṣiṣẹ gangan. Nínú àyọkà yìí, un ó gbìyànjú láti ṣe ojúùtú ìtumọ
+LN àti àwọn ọnà ajara ìsanwó wọn nípa àfiwé pátákó ìṣèṣirò, láì fàsìkò sòfò pẹlú àlàyé ọrọ
+onígbàjámú ìṣiṣẹ LN.
 
-This is an abacus:
+Pátákó ìṣèṣirò nìyí:
 
 ![](./abacus.png)
 
-Now, think of an [LN’s payment channel](https://cointelegraph.com/explained/lightning-network-explained#block-5) like one wire of an abacus, where the beads represent the bitcoins inside the channel. When Alice and Bob create a payment channel between them, Alice deposit bitcoins from the Blockchain inside the channel. For now, these bitcoins (e.g. 10 bits or 0.00001 BTC) belong to Alice. In this example, each bead equals one bit:
+Óyá, ẹ fojú [wo ọnà àjàrà ìsanwó LN](https://cointelegraph.com/explained/lightning-network-explained#block-5) bíi wáyà pátákó ìṣèṣirò, bíi pé àwọn ìlẹ̀kẹ̀ dúró fún àwọn
+bítkọìnì nínú ọnà àjàrà. Nígbàtí Alice àti Bob bá dá ọnà àjàrà ìsanwó sílẹ láàrin ara wọn,
+Alice ó kó àwọn bítkọìnì láti ori Blockchain sí nú ọnà àjàrà. Níbẹrẹ àwọn bítkọìnì yìí (f.a. 10
+bits tàbí 0.00001 BTC) jẹ ti Alice. Nínú àpẹrẹ yìí, ìlẹ̀kẹ̀ kọọkan dọgba mọ bit ẹyọọkan:
 
 ![](./alice-bob-1.png)
 
-An abacus wire and a payment channel have shared characteristics:
+Wáyà pátákó ìṣèṣirò àti ọnà àjàrà ìsanwó ní àwọn ẹyà tó báramu wọnyí:   
 
-- **Bidirectional:** like beads on an abacus wire can be moved from left to right and vice-versa, bitcoins can be moved from Alice to Bob and vice-versa.
-- **Ownership:** in an abacus, beads can be either on the left or on the right, never in the middle of a wire. In the same manner, bitcoins in a payment channel can either belong to Alice or Bob.
-- **Fixed:** similar to the way beads cannot be added or removed from a wire, Alice and Bob can exchange bitcoins between them, up to the number that was set when opening the payment channel. If they want to exchange a larger number of bitcoins, they will have to perform another on-chain transaction.
+- **Ọnà-àlọbọ (Bidirectional):** bó ṣe jẹ pé bí àwọn ìlẹ̀kẹ̀ orí pátákó ìṣèṣirò ṣe le fọwọ sún láti ósì sí ọtún àti padà, bẹẹ náà ni bítkọìnì ṣe é sún látọdọ Alice sí Bob àti padà.
+- **Ohun-ìní:** lórí pátákó ìṣeṣirò, àwọn ìlẹ̀kẹ̀ le wà ní apá òsi tàbí ní apá ọtún, wọn kò lè sí ní ààrin wáyà. Bíi báakan náà, àwọn bítkọìnì nínú ọnà àjàrà ìsanwó le jẹ ti Alice tàbí Bob. Kò lè jẹ ti àwọn méjéèjì lẹẹkan náà.
+- **Iye kan náà:** boṣe jẹ pé àwọn ìlẹ̀kẹ̀ orí wáyà pátákó ìṣèṣirò kò ṣe é fikún tàbí yọkúrò, bẹẹ náà ni Alice àti Bob le ṣe pasípàrọ bìtkọìnì láàrin ara wọn títí dé iye nọmbà tí wọn ti pèsè sílẹ láti bẹrẹ nígbà tí wọn sí ọnà àjàrà ìsanwó. Tí wọn bá fẹ ṣe pàsípàrọ iye bítkọìnì tó pọ ju èyun lọ wọn gbọdọ sí ọna àjàrà ìsanwó míràn.
 
-This is how the payment channel looks like after Alice sends 2 bits to Bob:
+Báyìí ni bí ọnà àjàrà ìsanwó yíò ṣe tí lẹyìn tí Alice fi 2 bits ránṣẹ sí Bob:
 
 ![](./alice-bob-2.png)
 
-Alice now has 8 beads and Bob has 2 beads. Now, let’s say that Bob is also connected in LN to Carol using a 10 bit payment channel:
+Lẹyìn náà iyè ìlẹ̀kẹ̀ tó kù fún Alice jẹ 8, Bob sí ní méjì. Káwá sọ pé Bob tún ní ìbásepọ mọ
+Carol nínú LN pẹlú ọnà àjàrà ìsanwó 10 bit:
 
 ![](./alice-bob-carol-1.png)
 
-With LN, Alice can pay Carol via Bob. In the abacus analogy, if Alice wants to send 2 bits to Carol, she moves 2 beads in Alice-Bob wire to the right (to Bob), and Bob moves 2 beads in Bob-Carol wire to the right (to Carol). This is how it looks like after Alice sends Carol 2 bits:
+Pẹlú LN, Alice le sanwó fún Carol látọdọ Bob. Nínú àpẹrẹ pátákó ìṣèṣirò, tí Alice bá fẹ fi 2
+bits ránṣẹ sí Carol, yíò sún ìlẹ̀kẹ̀ 2 lórí wáyà Alice-Bob sí ọtún (sí Bob), bẹẹ sì ni Bob yíò sún
+ìlẹ̀kẹ̀ 2 lórí wáyà Bob-Carol sí ọtún (sí Carol). Báàyí ni yíò ṣe rí lẹyìn tí Alice bá fi 2 bits ránṣẹ
+sí Carol:
 
 ![](./alice-bob-carol-2.png)
 
-It’s important to mention that if Bob agrees to participate in this transaction, he can’t accept Alice’s beads without moving the same number of beads to Carol.
+Ó ṣe pàtàkì kí á tẹnú mọ pé tí Bob bá gbà láti ṣe ìnádúrà yìí, kọ gbọdọ gba ìlẹ̀kẹ̀ lọwọ Alice
+láì fí ìye ìlẹ̀kẹ̀ kan náà ránṣẹ sí Carol.
 
-Using the abacus analogy, it’s easy to explain the nature of off-chain LN transactions in general, and specifically what are the requirements a payment channel needs to meet in order to process a transaction. For example, it’s easy to see how Alice can’t send Carol more beads than Bob can handle. Then again, maybe in the future she would be able to do it using [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), but that’s a story for another article…
+Nípa lílo àpẹrẹ pátákó ìṣeṣirò, ó rọrùn láti ṣe àlàyé ìdúnádúrà orí LN ní gbogbogbòò, àti ní
+pàtó àwọn ohun tó gbọdọ̀ wà kí ọ̀nà àjàrà ìsanwó ó tó kópa nínú ìdúnádúrà lórí LN. Fún
+àpẹrẹ, ó rọrùn láti ri pé Alice kò le fi iye ìlẹ̀kẹ̀ ránṣẹ sí Bob ju iye tí ó ti pètò sílẹ lọ. Bóyá ní
+ọjọ iwájú Alice yíò le ṣe èyí tó bá lo [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), sùgbọn ọrọ ọjọ míràn lè yun...
 
-**If you found this article helpful, please don’t forget to add claps (long press to add multiple claps) and share it.**
+**Tí àyọkà yìí bá ṣe ìrànlọ́wọ́ fún yín, ẹ jọwọ́ ẹ mọ́ gbàgbé láti fún ní àtẹ́wọ́ (ẹ tẹ̀ẹ́ pípẹ́ láti fún ní àtẹ́wọ́ púpọ̀) kí ẹ sì pin kiri.**
