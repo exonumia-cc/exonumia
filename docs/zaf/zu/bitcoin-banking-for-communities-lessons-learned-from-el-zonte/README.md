@@ -1,307 +1,600 @@
-# Bitcoin Banking for Communities: Lessons Learned from Bitcoin Beach
+# Ukubhanga Kwe-Bitcoin Komphakathi: Izifundo Ezifundwa ku-Bitcoin Beach
 
-by Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
+ngo Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
 
 <LanguageDropdown/>
 
-## Foreword
+## Isandulelo
 
-Revolutionary change is usually sparked by those that are too young and naïve to understand that their undertaking is doomed to fail. While I cannot claim the excuse of youth, when Bitcoin Beach launched, thankfully I had not yet spent enough time on Twitter to “know” that Bitcoin would never be used by people to buy a cup of coffee. Had we done the prudent research or started with standard feasibility studies, we would have realized our folly. Thankfully most of you can now find El Salvador on a map because we were too stupid to know better.
+Uguquko olukhulu luvamise ukuvuswa yilabo abasebancane kakhulu nabangenalwazi
+lokuthi baqonde ukuthi loku ebafuna ukukwenza kuzohluleka. Nakuba ngingeke ngikwazi
+ukucela isizathu zolusha, lapho i-Bitcoin Beach yethulwa, ngiyabonga ukuthi
+ngangingakachithi isikhathi esanele ku-Twitter ukuze "ngazi" ukuthi i-Bitcoin ngeke
+isetshenziswe abantu ukuthenga inkomishi yekhofi. Ukube senze ucwaningo oluhlakaniphile
+noma siqale ngezifundo ezijwayelekile zokungenzeka, besiyobona ubuwula bethu.
+Siyabonga iningi lenu manje selingakwazi ukuthola i-El Salvador kumephu ngoba
+besiyiziphukuphuku ukuthi sazi kangcono.
 
-In the case of Bitcoin Beach, truth really is often stranger than fiction. Nobody would have imagined that the first true Bitcoin economy would find its genesis in a small rural village in El Salvador. Led by a middle-aged expat that still uses Earthlink email, partnered with a young Salvadoran community leader who barely finished 6th grade.
+Endabeni ye-Bitcoin Beach, iqiniso livame ukungaziwa kunenganekwane. Akekho
+owayengacabanga ukuthi umnotho wokuqala we-Bitcoin weqiniso ungathola imvelahpi
+endaweni encane yasemaphandleni e-El Salvador. Iholwa umhambi osekhulile
+osasebenzisa i-imeyili ye-Earthlink, esebenzisana nomholi womphakathi osemncane wase-
+Salvador ongazange aliqede ibanga lesithupha. 
 
-In retrospect, the outcome was obvious: a population that struggles with poverty and lack of financial inclusion was always destined to see the value of Bitcoin before wealthy communities in Singapore or Silicon Valley. It seems divinely fitting – those who paved the first path started out so laughably unqualified that no community who follows needs to feel intimidated.
+Uma sibheka emuva, umphumela wawusobala: inani labantu elilwa nobumpofu nokuntuleka
+kokufakwa kwezimali lalihlale lihloselwe ukubona ukubaluleka kwe-Bitcoin ngaphambi
+kwemiphakathi ecebile e-Singapore noma e-Silicon Valley. Kubukeka kufaneleka
+ngokwaphezulu - labo abavula indlela yokuqala baqale ngokuhlekisayo bengenakufaneleka
+kangangokuthi awukho umphakathi olandelayo odinga ukwethuka.
 
-In El Salvador, Bitcoin is the money of the poor and financially excluded. For Salvadorans that are living in poverty, the debates between the digital gold and digital cash camps seem out of touch, and without practical relevance. For those who need Bitcoin most, it is both how they buy their daily bread and how they save for the future. They see no need to choose one or the other.
+E-El Salvador, i-Bitcoin iyimali yabampofu futhi ayibaliwe ngokwezimali. Kubantu base-
+Salvador abaphila ngobumpofu, izimpikiswano phakathi kwamakhepu emali yedijithali
+negolide yedijithali zibonakala zixakile, futhi ngaphandle kokuhambisana okungokoqobo.
+Kulabo abadinga i-Bitcoin kakhulu, kuyindlela abathenga ngayo isinkwa sabo sansuku
+zonke nokuthi balibulungela kanjani ikusasa. Abasiboni isidingo sokukhetha okukodwa
+noma okunye.
 
-So here in 2021 we see a small impoverished nation showing the world how Bitcoin levels the playing field for the poor. We know Bitcoin Beach is just a glimpse. But we hope it will be the spark that sets off fires around the world. We invite you to come visit El Zonte, and help us spread this vision of community Bitcoin Banking that is enabling financial inclusion around the world.
+Ngakho-ke lapha ngo-2021 sibona isizwe esincane esimpofu sibonisa umhlaba ukuthi i-
+Bitcoin ibhalansa kanjani inkundla yabampofu. Siyazi ukuthi i-Bitcoin Beach iwumbono nje.
+Kodwa sithemba ukuthi kuzoba yinhlansi evutha umlilo emhlabeni jikelele. Sikumema ukuthi
+uvakashele i-El Zonte, futhi usisize ukusabalalisa lo mbono womphakathi we-Bitcoin
+Banking (ukubanga kwe-Bitcoin) ovumela ukufakwa kwezezimali emhlabeni jikelele.
 
 – Mike Peterson ([@bitcoinbeach](http://twitter.com/bitcoinbeach))
 
-## From Local Project to Legal Tender in Two Years
+## Ukusuka Kuphrojekthi Yendawo Kuya Kuthenda Elisemthethweni Eminyakeni Emibili
 
-The Bitcoin Beach project started with a simple yet aspirational question: Can we build a sustainable circular economy on Bitcoin?
+Iphrojekthi ye-Bitcoin Beach iqale ngombuzo olula nokho olangazelelayo: Singakwazi yini
+ukwakha umnotho oyindilingizi osimeme ku-Bitcoin?
 
-The answer is a resounding yes. What started as a community project in a remote town has evolved into a story about six million people showcasing to the world that Bitcoin is money.
+Impendulo inguyebo oqinile. Okwaqala njengephrojekthi yomphakathi edolobheni elikude
+sekuguquke kwaba yindaba emayelana nabantu abayizigidi eziyisithupha abakhombisa
+umhlaba ukuthi i-Bitcoin iyimali.
 
-In this guide we cover six lessons learned developing the Bitcoin Beach Wallet and the underlying open source infrastructure that powers it. Our aim is to help communities around the world accelerate their own learning and adoption of Bitcoin and the Lightning Network.
+Kulo mhlahlandlela sihlanganisa izifundo eziyisithupha ezifundwe ukuthuthukisa isikhwama
+se-Bitcoin Beach (Bitcoin Beach Wallet) kanye nengqalasizinda yomthombo ovulekile
+eyinika amandla. Inhloso yethu ukusiza imiphakathi emhlabeni wonke ukuthi isheshise
+ukufunda kwayo nokusebenzisa i-Bitcoin kanye ne-Lightning Network (inethiweki
+esheshayo).
 
-## What is Bitcoin Beach?
+## Iyini i-Bitcoin Beach?
 
-On the Pacific Coast of El Salvador sits El Zonte, a small surf town with a population of 3,000. Its residents have been left out of the traditional banking system and have grappled with gang violence and a lack of financial inclusion for decades. Over the past ten years, a small group of individuals have been working to ignite change and bring hope back to El Zonte.
+Ogwini lwase-Pacific lwase-El Salvador kuhlezi i-El Zonte, idolobhana elincane lokuntweza
+emanzini elinabantu abangu-3,000. Izakhamizi zakhona zishiywe ngaphandle ohlelweni
+lwamabhange olujwayelekile futhi zibhekane nodlame lwamaqembu ezigelekeqe kanye
+nokuntuleka kokufakwa kwezimali amashumi eminyaka. Kule minyaka eyishumi edlule,
+iqembu elincane labantu belisebenzela ukuthungela izinguquko futhi libuyisele ithemba ku-El
+Zonte.
 
-Jorge Valenzuela, Roman “Chimbera” Martinez and Mike Peterson began running youth programs around 2009 to give El Zonte’s kids the opportunity to play, learn and dream. From surf “para todo” (surf for everyone) to computer classes to paid community service projects, the programs have breathed new possibilities into a place that once felt like a dead end.
+U-Jorge Valenzuela, u-Roman “Chimbera” Martinez noMike Peterson baqale ukuqhuba
+izinhlelo zentsha cishe ngo-2009 ukuze banikeze izingane ze-El Zonte ithuba lokudlala,
+ukufunda nokuphupha. Kusuka kukusefa "para todo" (ukusefa kwawo wonke umuntu) kuya
+kumakilasi ekhompyutha kuya kumaphrojekthi wesevisi yomphakathi akhokhelwayo,
+izinhlelo ziphefumule amathuba amasha endaweni eyake yazwakala sengathi iphelile.
 
 ![](./bitcoin-beach-workouts.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Jorge, Chimbera and team have put fitness, education and community service at the center of daily life in El Zonte. (Source: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
+  <figcaption>UJorge, uChimbera kanye nethimba babeke ukuqina, imfundo kanye nomsebenzi
+womphakathi enkabeni yempilo yansuku zonke e-El Zonte. (Umthombo: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-In 2019, Mike was approached by an individual who wanted to support their programs through a bitcoin donation. There was a catch, however: the donation must be spent within the community, instead of sold into fiat. The goal would be to create a sustainable circular Bitcoin economy where merchants and community members can exchange goods, services and labor for sats. Jorge and Mike accepted the challenge, and Bitcoin Beach was born.
+Ngo-2019, uMike wathintwa umuntu owayefuna ukusekela izinhlelo zabo ngomnikelo we-
+Bitcoin. Nokho, kwakukhona okwakuhlosiwe: umnikelo kufanele usetshenziswe
+emphakathini, esikhundleni sokudayiswa ku-fiat (imali kahulumeni). Umgomo kungaba
+ukwakha umnotho osimeme oyisiyingi we-Bitcoin lapho abathengisi namalungu omphakathi
+bengashintshanisa izimpahla, izinsizakalo kanye nomsebenzi ngama-sats. UJorge noMike
+bamukele inselele, futhi i-Bitcoin Beach yazalwa
 
-From the start, it was clear that this project would challenge preconceived notions about Bitcoin:
+Kusukela ekuqaleni, kwaba sobala ukuthi le phrojekthi izokuceda imibono engasiyo ebikade
+icatshangwa nge-Bitcoin:
 
-1. **Bitcoin is a speculative asset for the wealthy.** If you tune into business news channels and sites, you’ll hear constant discussion about price, volatility, and comparison to other assets and investments like gold and stocks. You’ll hear about how banks are offering exposure to their high net worth clients. What you won’t hear is how Bitcoin is enabling economic empowerment in some of the poorest parts of the world.
+1. **I-Bitcoin iyimpahla yokuqagela yabacebile.** Uma ulalela iziteshi zezindaba
+zamabhizinisi namasayithi, uzozwa ingxoxo eqhubekayo mayelana nenani, ukuguquguquka,
+nokuqhathanisa nezinye izimpahla nokutshalwa kwezimali njengegolide nezitoko. Uzozwa
+ukuthi amabhange anikezela kanjani ukuchayeka kumakhasimende awo anenani
+eliphakeme. Ongeke ukuzwe ukuthi i-Bitcoin inika amandla kanjani kwezomnotho kwezinye
+zezindawo ezimpofu kakhulu emhlabeni.
 
-2. **Bitcoin is a store of value, not a medium of exchange.** While Bitcoin’s utility as a store of value is widely accepted, Bitcoin as a medium of exchange is a hotly contested topic to this day. The rationale goes; “If the price of bitcoin keeps growing at the current rate, nobody will ever want to spend it on goods and services.”
+2. **I-Bitcoin iyisitolo senani, hhayi indlela yokuhwebelana.** Nakuba ukusetshenziswa
+kwe-Bitcoin njengesitolo senani kwamukelwa kabanzi, i-Bitcoin njengendlela yokuhwebelana
+iyisihloko esiphikisana kakhulu kuze kube namuhla. Isizathu sihamba; "Uma intengo ye-
+Bitcoin iqhubeka nokukhula ngesilinganiso samanje, akekho ozofuna ukuyisebenzisa
+ezimpahleni nasensizakalweni."
 
-As the project turned from idea into action, the growing team of Bitcoin Beach coordinators and students took note of the problems that Bitcoin might solve for their community:
+Njengoba iphrojekthi ishintsha embonweni yaba isenzo, ithimba elikhulayo labaxhumanisi
+nabafundi be-Bitcoin Beach laqaphela izinkinga i-Bitcoin engazixazulula emphakathini wabo:
 
 
-1. **Traditional banks don’t do business in the poorest communities.** El Salvador has been on the US Dollar system since 2001, which makes their financial sector subject to US regulations. The high cost of compliance imposed by these regulations disincentivizes banks from catering to people in poorer countries. For instance when the owner of [Garten Hotel](https://www.gartenzonte.com/garten) tried setting up employees with bank accounts and direct deposit, [he learned](https://youtu.be/RhoiOzhuBG4?t=1438) it would cost $50 per month, per employee. That amounts to more than 10% the monthly income of a person working on minimum wage.
+1. **Amabhange endabuko awenzi ibhizinisi emiphakathini empofu kakhulu.** I-El
+Salvador isohlelweni lwe-US Dollar kusukela ngo-2001, okwenza umkhakha wabo
+wezezimali ube ngaphansi kwemithetho yase-US. Izindleko eziphezulu zokuthobela
+imithetho ezibekwa yile mithetho zenza amabhange angakuniki ukuphakela abantu
+emazweni ampofu. Isibonelo nje lapho umnikazi we[Garten Hotel](https://www.gartenzonte.com/garten) ezama ukumisa
+abasebenzi ngama-akhawunti asebhange kanye nediphozithi eqondile, [wafunda ukuthi](https://youtu.be/RhoiOzhuBG4?t=1438)
+kuzobiza u-$50 ngenyanga, isisebenzi ngasinye. Lokho kubalelwa ngaphezu kuka-10%
+wemali engenayo yanyanga zonke yomuntu osebenza ngeholo elincane.
 
-2. **Getting remittance payments to people in El Zonte is expensive and time consuming.** Cross-border remittance payments into El Salvador made up [23% of the country’s GDP](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html) in 2020. It costs more than $3 in fees for somebody to receive $10 from a family member abroad. There is no Western Union in El Zonte so it can take hours and multiple bus rides for residents to get to an office where they can receive the remittance. This is in addition to the days it can take for the money to arrive in El Salvador from the person who initiated the transfer.
+2. **Ukuthola izinkokhelo ze-emittance kubantu base-El Zonte kuyabiza futhi kudla isikhathi.** Izinkokhelo ezithunyelwa kwamanye amazwe e-El Salvador zenze u-[23% we-GDP yezwe ngo-2020](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html). Kubiza ngaphezu kuka-$3 ezinkokhelweni ukuze othile athole u-$10
+elungeni lomndeni phesheya. Ayikho i-Western Union e-El Zonte ngakho kungathatha
+amahora nokugibela amabhasi kaningi ukuze izakhamuzi zifike ehhovisi lapho zingathola
+khona imali ethunyelwayo. Lokhu kungaphezu kwezinsuku engazithatha ukuze imali ifike e-
+El Salvador isuka kumuntu oqale ukudluliswa.
 
-3. **It’s hard to save without access to the banking system.** Being “unbanked” doesn’t just prevent somebody from having a bank account. It also excludes them from accessing the type of investments and assets that can protect them against inflation. An unanticipated impact of introducing Bitcoin was the number of people who began saving a meaningful portion of their income for the first time in their lives.
+3. **Kunzima ukonga ngaphandle kokufinyelela ohlelweni lwamabhange.** “Ukungabi
+nebhange" akuvimbeli nje ukuthi umuntu abe ne-akhawunti yasebhange kuphela. Kuphinde
+kubavimbele ekufinyeleleni uhlobo lokutshalwa kwezimali kanye nezimpahla ezingabavikela
+ekukhuphukeni kwamandla emali. Umthelela owawungalindelekile wokwethulwa kwe-Bitcoin
+kwakuyinani labantu abaqala ukonga ingxenye ebonakalayo yeholo labo okokuqala ngqa
+ezimpilweni zabo.
 
 ![](./bitcoin-beach-team.jpg)
 <center v-pre>
 <figure>
-  <figcaption>The Bitcoin Beach team dedicated themselves to helping their community transact digitally using Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1401672924092841984?s=20">Twitter</a>)</figcaption>
+  <figcaption>Ithimba le-Bitcoin Beach lizinikele ekusizeni umphakathi walo uthengiselane ngedijithali
+ngokusebenzisa i-Bitcoin. (Umthombo: <a href="https://twitter.com/romanmartinezc/status/1401672924092841984?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-With bitcoin to fuel the growth of their project the team got to work. They began to onboard the community one person at a time to the Bitcoin network. They learned, educated and adapted along the way. The pandemic’s arrival in early 2020 served as an accelerant for Bitcoin adoption. Residents in El Zonte who needed support were able to get bitcoin donations provided by the Bitcoin Beach project.
+Ukuze iBitcoin ithuthukiswe ukukhula kwephrojekthi yabo, iqembu laqala ngokusebenza.
+Baqala ukungena emphakathini umuntu oyedwa ngesikhathi kunethiwekhi ye-Bitcoin.
+Bafunda, bafundisa futhi bazivumelanisa nendlela. Ukufika kwalolu bhubhane ekuqaleni
+kuka-2020 kwasebenza njengokusheshisa ukwamukelwa kwe-Bitcoin. Izakhamuzi zase-El
+Zonte ezazidinga ukusekelwa zakwazi ukuthola iminikelo ye-Bitcoin ehlinzekwe yiphrojekthi
+ye-Bitcoin Beach.
 
-A 2020 [Forbes article](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) thrust Bitcoin Beach into the spotlight and began attracting the support of other Bitcoiners who wanted to help. One of these Bitcoiners was Nicolas Burtey, co-founder of Galoy, who offered to come to El Zonte to develop a wallet tailored to the needs of Bitcoin Beach. Before long, the Bitcoin Beach Wallet was born and the Bitcoin Beach project was picking up momentum towards realizing its vision.
+[I-athikili ye-Forbes](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) yango-2020 yafaka i-Bitcoin Beach endaweni obala futhi yaqala ukuheha
+ukusekelwa abanye abasebenzisi nabembi be-Bitcoin ababefuna ukusiza. Omunye walaba
+kwakungu-Nicolas Burtey, umsunguli we-Galoy, ozinikele ukuza e-El Zonte ukuze
+athuthukise isikhwama semali esifanelana nezidingo ze-Bitcoin Beach. Kungakabiphi, i-
+Bitcoin Beach Wallet yazalwa futhi iphrojekthi ye-Bitcoin Beach yayikhula ngamandla
+ekufezeni umbono wayo.
 
-By now most people know the end of the story: El Salvador President Nayib Bukele announced on June 5, 2021 that Bitcoin would become legal tender in the country. Bukele related in a Twitter Spaces that the government was inspired by the Bitcoin Beach project and that the law’s goal was to replicate what had happened in El Zonte for the entire country. He specifically mentioned that financial inclusion of the poorest members of Salvadoran society was the driving motivation. On September 7 2021, La Ley Bitcoin (the “Bitcoin Law”) went into effect. Bitcoin Beach has since become a central part of the global Bitcoin adoption story. It has attracted Bitcoiners from around the world who want to see what it’s like to spend sats on coffee, surf lessons, and steak. It has also become a model for other communities to replicate.
+Njengamanje iningi labantu seliyasazi isiphetho sendaba: UMongameli wase-El Salvador
+uNayib Bukele umemezele ngoJuni 5, 2021 ukuthi i-Bitcoin izoba ithenda esemthethweni
+ezweni. U-Bukele ulandise kuZinkundla ze-Twitter (Twitter Spaces) ukuthi uhulumeni
+ugqugquzelwe iphrojekthi ye-Bitcoin Beach nokuthi inhloso yomthetho
+kwakuwukuphindaphinda okwenzeka e-El Zonte ezweni lonke. Ubalule ngokuqondile ukuthi
+ukufakwa kwezimali kwamalungu ampofu kakhulu omphakathi waseSalvador kwaba
+yisisusa esishukumisayo. NgoSepthemba 7 2021, i-La Ley Bitcoin (“uMthetho weBitcoin”)
+yaqala ukusebenza. I-Bitcoin Beach selokhu yaba yingxenye eyinhloko yendaba yokutholwa
+kwe-Bitcoin emhlabeni jikelele. Ihehe abantu abemba nabasebenzisa i-Bitcoin abavela
+emhlabeni wonke abafuna ukubona ukuthi kunjani ukusebenzisa ama-sat ukuthenga
+ikhofini, ezifundweni ze-sefu, kanye ne-steki. Sekuphinde kwaba yisibonelo sokuthi eminye
+imiphakathi yenze ngokufanayo.
 
-Most importantly, Bitcoin Beach has created a community where the kids of El Zonte can dream and build their future.
+Okubaluleke kakhulu, i-Bitcoin Beach idale umphakathi lapho izingane zase-El Zonte
+zingaba namaphipho futhi zakhe ikusasa lazo.
+## I-Bitcoin Beach Wallet (Isikwhama se-Bitcoin Beach)
 
-## The Bitcoin Beach Wallet
-
-The Bitcoin Beach Wallet is an open source Bitcoin community banking solution. One that was designed to meet the needs of the merchants and community members in El Zonte. It utilizes a multisig shared custody model that offers an alternative to the standard non-custodial and custodial solutions that are most widely available today.
+I-Bitcoin Beach Wallet ingumthombo ovulekile wesixazululo sebhange lomphakathi we-
+Bitcoin. Eyakhelwe ukuhlangabezana nezidingo zabathengisi namalungu omphakathi e-El
+Zonte. Isebenzisa imodeli yokugcinwa okwabelwana ngayo ngama-multisig enikeza ezinye
+indlela ezipenene nezitholakalayo.
 
 ![](./bitcoin-beach-wallet-soaps.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Cristina uses the Bitcoin Beach Wallet to sell handmade soaps. Customers can pay her via username, by scanning an invoice on her phone, or by visiting her <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Source: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
+  <figcaption>U-Cristina usebenzisa i-Bitcoin Beach Wallet ukuze athengise izinsipho ezenziwe
+ngezandla. Amakhasimende angamkhokhela ngegama lomsebenzisi, ngokuskena i-invoyisi
+ocingweni lwakhe, noma ngokuvakashela <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">ikhasi lakhe le-invoyisi</a>. (Umthombo: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Within the Bitcoin Beach Wallet, capital is pooled and managed by the community. This provides benefits to all members within the community:
+Ngaphakathi kwe-Bitcoin Beach Wallet, imali eyinhloko ihlanganiswa futhi iphathwe
+umphakathi. Lokhu kunikeza izinzuzo kuwo wonke amalungu ngaphakathi komphakathi:
 
-- Lightning channels are managed for members; there is no cost to open/close channels
-- Free and instant “intra ledger” transactions are made available within the community
-- Efficient use of online servers means lower costs per user compared to the alternative of each merchant having to have their own server
-- Fees can be reduced by batching on-chain transactions
+- Amashaneli asheshayo aphethwe amalungu; azikho izindleko zokuvula noma
+ukuvala amashaneli.
+- Imisebenzi yamahhala nesheshayo ye-intra ledger (ileja langaphakathi) yenziwa
+itholakale phakathi komphakathi
+- Ukusebenzisa kahle iziphakeli eziku-inthanethi kuwehlisa izindleko ngomsebenzisi
+ngamunye uma kuqhathaniswa nokuhlukile kokuthi umthengisi ngamunye abe
+neseva yakhe.
+- Izindleko zingancishiswa ngokuhlanganisa imisebenzi ye-on-chain
 
-Additional features in the app help support efforts towards a sustainable Bitcoin economy:
+Izici ezengeziwe kuhlelo lokusebenza zisiza imizamo yokusekela umnotho we-Bitcoin
+esimeme:
 
-- Ability to pay via Bitcoin address, Lightning invoice or individual username
-- A unified balance of on-chain and Lightning, showing the balance in USD and sats
-- A transaction log displays a history of payments between users
-- The mobile friendly map displays all local businesses that accept Lightning payments
-- A web address users can share to receive bitcoin from anybody with a Lightning supported wallet (see: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
+- Ikhono lokukhokha ngekheli le-Bitcoin, i-invoyisi esheshayo noma igama
+lomsebenzisi
+- Ibhalansi ehlanganisiwe ye-on-chain kanye nokushesha, ebonisa ibhalansi ngama-
+Dola nama-sats
+- Ilogi yokuthengiselana ibonisa umlando wezinkokhelo phakathi kwabasebenzisi
+- Imephu yeselula enobungane ibonisa wonke amabhizinisi endawo amukela
+izinkokhelo ezisheshayo
+- Abasebenzisi bekheli lewebhu bangabelana ukuze bathole i-Bitcoin kunoma ubani
+onesikhwama semali esisheshayo (bona: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
 
-If you’re interested in building a front end mobile application like the Bitcoin Beach Wallet you can access the [galoy-mobile](https://github.com/GaloyMoney/galoy-mobile) repository on GitHub.
+Uma ungathanda ukwakha uhlelo lokusebenza lweselula olungaphambili njenge-Bitcoin
+Beach Wallet ungafinyelela inqolobane ye-[galoy-mobile](https://github.com/GaloyMoney/galoy-mobile) ku-GitHub.
 
-Without further ado, here are the top lessons Galoy learned from building in El Zonte.
+Ngaphandle kokuchitha isikhathi, nazi izifundo eziphezulu uGaloy azifunde ngokwakha e-El
+Zonte.
 
-## Lesson 1: Education is Paramount
+## Isifundo sokuthoma: Imfundo Ibalulekile
 
-Bitcoin is a difficult thing to understand. It cuts across computer science, economics, history, cryptography, monetary policy and more. Luckily, somebody does not need to fully grasp Bitcoin to use and benefit from it. How many people who have used fiat their entire lives actually understand how money works?
+I-Bitcoin yinto enzima ukuyiqonda. Inqamula isayensi yekhompyutha, ezomnotho, umlando,
+i-khriphuthographi, inqubomgomo yezimali nokunye. Ngenhlanhla, othile akadingi ukubamba
+i-Bitcoin ngokugcwele ukuze ayisebenzise futhi azuze kuyo. Bangaki abantu abasebenzise i-
+fiat impilo yabo yonke abaqonda ngempela ukuthi imali isebenza kanjani?
 
 ![](./bitcoin-beach-teaching.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Showing Salvadorans how to use Bitcoin is an ongoing process for Jorge and the Bitcoin Beach team. (Source: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
+  <figcaption>Ukubonisa abantu be El-Salvador ukuthi isetshenziswa kanjani i-Bitcoin kuyinqubo
+eqhubekayo ka-Jorge kanye neqembu le-Bitcoin Beach. (Umthombo: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are five tips to consider when educating your community:
+Nawa amathiphu amahlanu okufanele uwacabangele lapho ufundisa umphakathi wakho:
 
-1. **Community organizers are key to the onboarding process.** Having an in-person onboarding team ensures people start off on the right foot. This is especially important in communities where Bitcoin presents the opportunity to transact digitally for the first time.
-2. **It’s more effective to show people how to use Bitcoin than to tell them about it.** Helping people download and interact with a wallet, and having them send and receive sats is more effective than trying to orange pill them with ideas.
-3. **Teach the kids. They will onboard their parents.** The kids of El Zonte were quick to learn how to use Bitcoin. They in turn helped their parents on board at home.
-4. **Bitcoin ATMs help connect the mental dots between Bitcoin and fiat.** A Bitcoin ATM turned out to be a helpful asset to the onboarding process. When people are able to exchange bitcoin in their mobile wallet for their local currency, they build a stronger relationship with the idea of Bitcoin as money.
-5. **Help people expect and plan for short term volatility.** Set expectations so your community can be prepared for drops in the Bitcoin price. Consider a program that compensates merchants whose account balance drops due to price fluctuations for an initial onboarding period until their comfort with Bitcoin is established.
+1. **Abahleli bomphakathi bangokhiye kunqubo yokwazisa.** Ukuba nethimba lokwazisa
+mathupha kuqinisekisa ukuthi abantu baqala ngendlela elungile. Lokhu kubaluleke kakhulu
+emiphakathini lapho i-Bitcoin iveza khona ithuba lokusebenzisa idijithali okokuqala ngqa.
+2. **Kusebenza kahle kakhulu ukukhombisa abantu indlela yokusebenzisa i-Bitcoin kunokuba ubatshele ngayo.** Ukusiza abantu ukuthi badawunilode futhi basebenzisane
+nesikhwama semali, nokuthi bathumele futhi bamukele ama-sats kusebenza kangcono
+kunokuzama ukubaphakela ngemibono.
+3. **Fundisa izingane. Bazofundisa abazali babo.** Izingane ze-El Zonte zashesha ukufunda
+ukusebenzisa i-Bitcoin. Nabo basiza abazali babo ukuthi bafunde ekhaya.
+4. **Ama-ATM e-Bitcoin asiza ukuxhuma amachashazi engqondo phakathi kwe-Bitcoin ne-fiat.** I-ATM ye-Bitcoin ibonakale iyimpahla ewusizo enqubweni yokufundisa. Lapho
+abantu bekwazi ukushintshanisa i-Bitcoin esikhwameni sabo semali yeselula ngemali yabo
+yasendaweni, bakha ubudlelwano obuqinile nombono we-Bitcoin njengemali.
+5. **Siza abantu balindele futhi bahlelele ukuguquguquka kwesikhashana.** Setha
+okulindelekile ukuze umphakathi wakho uzilungiselele ukwehla kwenani le-Bitcoin.
+Cabangela uhlelo olunxephezela abathengisi ababhalansi ye-akhawunti yehla ngenxa
+yokuguquguquka kwentengo ngesikhathi sokuqala sokugibela kuze kube yilapho
+ukunethezeka kwabo nge-Bitcoin sekuqinisekisiwe.
 
-As you build your community, take the time to connect with and learn from the people of [Bitcoin Beach](http://bitcoinbeach.com/). They are giants on whose shoulders you can stand. Their dedication to service existed before Bitcoin, and it transcends Bitcoin. Bitcoin has now become a medium through which they can bring opportunity and hope for the future of El Salvador.
+Njengoba wakha umphakathi wakho, zinike isikhathi sokuxhumana nokufunda kubantu
+base-[Bitcoin Beach](http://bitcoinbeach.com/). Bayimidondoshiya ongakwazi ukuma emahlombe abo. Ukuzinikela
+kwabo enkonzweni bekukhona ngaphambi kwe-Bitcoin, futhi kudlula i-Bitcoin. I-Bitcoin
+manje isiphenduke indlela abangaletha ngayo ithuba nethemba ngekusasa lase-El Salvador.
 
-## Lesson 2: Lightning is an Accelerant for Bitcoin as Money
+## Isifundo sesibili: Umbani uyisisheshi seBitcoin njengeMali
 
-The Lightning Network is the most underestimated protocol in the world. Just two years ago it was a #reckless way to transact. Now it’s being used by McDonalds, Starbucks and Pizza Hut in El Salvador. Growth of nodes, channels and capacity is happening at a mind-blowing pace. The recent Arcane Research report “[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)” provides a glimpse into some of the growth metrics and expectations.
+I-Lightning Network (Inethiweki Esheshayo) iyiphrothokholi ebukelwa phansi kakhulu
+emhlabeni. Eminyakeni emibili nje edlule bekuyindlela #engenangqondo yokwenza. Manje
+isisetshenziswa ngabakwa-McDonalds, i-Starbucks ne-Pizza Hut e-El Salvador. Ukukhula
+kwamanodi, namandla okuphatha kwenzeka ngokushesha okukhulu. Umbiko wakamuva
+we-Arcane Research "[Isimo Senethiwekhi Yombani](https://www.research.arcane.no/the-state-of-lightning)" unikeza amazwibela kwamanye
+amamethrikhi okukhula nokulindelwe.
 
-Bitcoin Beach initially used on-chain transactions to distribute bitcoin within the community. While on-chain worked for educational settings and to transfer sats to members of the community, its limitations became a barrier to progressing towards a circular economy.
+I-Bitcoin Beach ekuqaleni yasebenzisa ukuthengiselana kwe-on-chain ukusabalalisa i-
+Bitcoin emphakathini. Ngenkathi i-on-chain isebenzela izilungiselelo zemfundo futhi idlulisele
+ama-sats kumalungu omphakathi, ukulinganiselwa kwayo kwaba isithiyo ekuthuthukeleni
+emnothweni oyindilinga.
 
-Salvadorans experienced how the utility of Bitcoin as a medium of exchange is limited without layer two networks like Lightning:
+Abantu base-Salvador babone ukuthi ukusetshenziswa kwe-Bitcoin njengendlela
+yokushintshana kunomkhawulo kanjani ngaphandle kwamanethiwekhi amabili afana
+nombani:
 
-1. **On-chain fees were too expensive to facilitate daily spending.** Residents of El Zonte need to be able to spend small dollar amounts, such as 50 cents for pupusas.
-2. **Using on-chain bitcoin for retail transactions creates “dust.”** Bitcoin Beach experienced the “[dust transactions problem](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)” firsthand. Unspent transaction outputs (UTXOs) record how value is moved on the timechain. When the value of a UTXO becomes less than the cost of spending it, the bitcoin is considered unspendable “dust.”
-3. **In the retail setting, anything less than instant settlement creates friction for both the business and the consumer.** Bitcoin is built for security and incorruptibility on layer one. It is not meant for speed and transaction throughput.
+1. **Izindleko ze-on-chain zazimba eqolo ukuze kube lula ukusetshenziswa kwansuku zonke.**
+Izakhamizi zase-El Zonte zidinga ukusebenzisa amadola amancane, njengamasenti
+angama-50 ama-pupusa (pupusas).
+2. **Ukusebenzisa i-Bitcoin ye-on-chain ekuthengiseni okudayisa kudala “uthuli.”** I-Bitcoin Beach yazibonela mathupha "[inkinga yokuthengiselana ngothuli](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)". Imiphumela yokwenziwe engasetshenzisiwe (ama-UTXO) irekhoda ukuthi inani
+lihanjiswa kanjani kuchungechunge lwesikhathi. Lapho inani le-UTXO liba ngaphansi
+kwezindleko zokuyisebenzisa, i-Bitcoin ibhekwa njengengenamsebenzi "uthuli".
+3. **Esimeni sokuthengisa, noma yini engaphansi kokukhokha ngokushesha kudala ukungezwani kokubili kwebhizinisi nomthengi.** I-Bitcoin yakhelwe ukuphepha nokungonakali
+kungqimba lokuqala. Ayenzelwanga isivinini nokuphuma kokwenziwayo.
 
 ![](./merchant-lightning-payments.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Lightning enables the fast, easy-to-use and inexpensive payments that merchants require in a retail setting. (Source: Galoy)</figcaption>
+  <figcaption>Umbani unika amandla izinkokhelo ezisheshayo, ezisebenziseka kalula nezingabizi
+ezidingwa abathengisi endaweni yokudayisa. (Umthombo: Galoy)</figcaption>
 </figure>
 </center>
 
-The layer two Lightning Network is the technology that could upend the legacy retail system and bring the promise of Bitcoin as money to the world. Our co-founders wrote about this in the 2020 article “[Lightning as a Retail Payment System?](https://galoy.io/lightning-as-a-retail-payment-system/)”
+Isendlalelo sesibili se-Lightning Network ubuchwepheshe obungaphakamisa uhlelo
+lokuthengisa ifa futhi bulethe isithembiso se-Bitcoin njengemali emhlabeni. Abasunguli bethu
+babhale ngalokhu embhalweni ka-2020 othi "[Umbani Njengohlelo Lokukhokha Lokudayisa?](https://galoy.io/lightning-as-a-retail-payment-system/)"
 
-The Lightning Network served as an accelerant and an enabler of the vision of the Bitcoin Beach project. Without it, using Bitcoin as money in El Salvador would be more difficult and more expensive; it may have even derailed or at least delayed the project.
+I-Lightning Network isebenze njengesisheshisi futhi inike amandla umbono wephrojekthi ye-
+Bitcoin Beach. Ngaphandle kwayo, ukusebenzisa i-Bitcoin njengemali e-El Salvador
+kungaba nzima futhi kubize kakhulu; kungenzeka ukuthi iphazamise noma okungenani
+ibambezele iphrojekthi.
 
-Lightning Network integration has become table stakes for any wallet or financial services being built on Bitcoin. It unlocks vast potential for close-to-free, global, real-time, permissionless transactions.
+Ukuhlanganiswa kwe-Lightning Network sekuphenduke izigxobo zetafula zanoma yisiphi
+isikhwama semali noma izinsizakalo zezezimali ezakhiwa ku-Bitcoin. Ivula amathuba
+amakhulu okuthenga okuseduze-kuya-mahhala, okusemhlabeni wonke, kwesikhathi
+sangempela, nokungenamvume.
 
-## Lesson 3: Merchant Onboarding is Necessary to Foster a Local Circular Economy
+## Isifundo 3: Ukufundiswa Komthengisi Kuyadingeka Ukuze Kuthuthukiswe Umnotho Wasendaweni Oyindilinga
 
-Standing up a circular Bitcoin economy presents a “chicken and egg” problem. Residents need places to use it, and merchants need customers who will spend it. Making it easy and desirable to accept Bitcoin is an important step in stimulating local community adoption.
+Ukuma komnotho we-Bitcoin oyindilinga kuveza inkinga "yenkukhu neqanda". Izakhamuzi
+zidinga izindawo zokuyisebenzisa, futhi abathengisi badinga amakhasimende
+azozisebenzisa. Ukwenza kube lula futhi kufiseleke ukwamukela i-Bitcoin kuyisinyathelo
+esibalulekile ekugqugquzeleni ukutholwa komphakathi wendawo.
 
-The ultimate goal is to make receiving bitcoin faster, easier, and cheaper than any other currency or means of payment.
+Umgomo omkhulu uwukwenza ukuthola i-Bitcoin kusheshe, kube lula, futhi kushibhe
+kunanoma iyiphi enye imali noma izindlela zokukhokha.
 
 ![](./first-merchant.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Mama Rosa (pictured with her son Jorge) was the first merchant in El Zonte to accept Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
+  <figcaption>UMama Rosa (osesithombeni nendodana yakhe uJorge) wayengumthengisi wokuqala e-El
+Zonte ukwamukela i-Bitcoin. (Umthombo: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are some experiences that shaped how we design for merchants:
+Nakhu okunye ukuzizwisa okulolonge indlela esidizayina ngayo abathengisi:
 
-1. **Don’t make merchants think about currency conversion.** Reduce the mental load required to calculate prices by showing both dollar (or local currency) amounts and bitcoin amounts across balances, invoices and transaction history screens.
-2. **Enable multiple ways for merchants to get paid.** Merchants should not have to create invoices for each transaction. Using the Bitcoin Beach Wallet, customers can pay via username, printed QR code, selecting the merchant on a map, or using the invoice pages that each user can share at ln.bitcoinbeach.com/[username].
-3. **Make the process require less time, attention and clicks.** The turning point for El Zonte merchants came when Galoy enabled customers to set the invoice amount. Merchants no longer have to stop what they are doing to create an invoice. They can simply look at the alert on their phone to verify a payment came in. Bitcoin is now easier to accept than cash or credit.
-4. **Create merchant incentives to help encourage adoption early on.** In El Zonte, there was a “cash back” program for a few weeks, where merchants earned 20% back on their bitcoin. This type of promotion helps drive trials and stimulate early growth of the circular economy.
+1. **Ungenzi abathengisi bacabange ngokuguqulwa kwemali.** Yehlisa umthwalo
+wengqondo odingekayo ukuze ubale amanani ngokubonisa kokubili amanani edola (noma
+imali yendawo) kanye namanani we-Bitcoin kuwo wonke amabhalansi, ama-invoyisi nezikrini
+zomlando wokwenziwe.
+2. **Nika amandla izindlela eziningi zokuthi abathengisi bakhokhelwe.** Abathengisi
+akufanele badale ama-invoyisi okwenziwayo ngakunye. Ngokusebenzisa i-Bitcoin Beach
+Wallet, amakhasimende angakhokha ngegama lomsebenzisi, ikhodi ye-QR ephrintiwe,
+ekhetha umthengisi kumephu, noma esebenzisa amakhasi we-invoyisi umsebenzisi
+ngamunye angabelana ngawo kokuthi ln.bitcoinbeach.com/[igama lomsebenzisi].
+3. **Yenza inqubo idinge isikhathi esincane, ukunakwa nokuchofoza.** Ushintsho
+lwabathengisi be-El Zonte lufike lapho i-Galoy inika amakhasimende amandla okusetha
+inani le-invoyisi. Abathengisi akusadingeki bayeke abakwenzayo ukuze bakhe i-invoyisi.
+Bangavele babheke isixwayiso esisefonini yabo ukuze baqinisekise ukuthi inkokhelo
+ingenile. I-Bitcoin manje sekulula ukwamukela kunokheshi noma isikweletu.
+4. **Dala izikhuthazo zomthengisi ukusiza ukukhuthaza ukutholwa kusenesikhathi.** E-El
+Zonte, kwakukhona uhlelo lwe-“cash back" amasonto ambalwa, lapho abathengisi bathola
+isiphulelo se-20% ku-Bitcoin yabo. Lolu hlobo lokunyuswa lusiza ukushayela izivivinyo futhi
+lukhuthaze ukukhula kwangaphambi kwesikhathi komnotho oyindilinga.
 
-Don’t lose focus on the important role that merchants play in supporting a Bitcoin economy. The needs of merchants across each community will be different, so be sure to spend time understanding and designing for them early on.
+Ungalahlekelwa ukugxila endimeni ebalulekile edlalwa abathengisi ekusekeleni umnotho we-
+Bitcoin. Izidingo zabathengisi kumphakathi ngamunye zizohluka, ngakho-ke qiniseka ukuthi
+uchitha isikhathi uqonda futhi uziklamele kusenesikhathi.
 
-## Lesson 4: User Experience Must be Developed Within the Context of the Community
+## Isifundo Sesine: Ulwazi Lomsebenzisi Kufanele Luthuthukiswe Ngaphakathi Kokuqukethwe Komphakathi
 
-Bitcoin Beach exists at the frontier of Lightning Network adoption. As Mike often says “There are little kids in El Zonte who make more Lightning transactions than most OG Bitcoiners.”
+I-Bitcoin Beach ikhona emngceleni wokutholwa kwe-Lightning Network. Njengoba uMike
+evame ukuthi "Kunezingane ezincane e-El Zonte ezenza ukuthengiselana okuningi ukudlula
+labo abasenalwazi elouningi lwe-Bitcoin (OG Bitcoiners)."
 
-As the Bitcoin economy grew, the team took note of unmet needs and desired functionality that would help make life easier for the residents and merchants. Being on the ground in El Zonte provided invaluable insight to Nicolas as he was building the Bitcoin Beach Wallet.
+Njengoba umnotho we-Bitcoin ukhula, ithimba laqaphela izidingo ezingafinyeleleki kanye
+nokusebenza okufiswayo okungasiza ukwenza ukuphila kube lula kubahlali nabathengisi.
+Ukuba semphakathini e-El Zonte kunikeze ukuqonda okubalulekile kuNicolas njengoba akha
+i-Bitcoin Beach Wallet.
 
 ![](./bitcoin-insights.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Watching people use Bitcoin at merchants across El Zonte surfaced helpful insights for product and service design. (Source: Galoy)</figcaption>
+  <figcaption>Ukubuka abantu basebenzisa i-Bitcoin kubathengisi kuyo yonke i-El Zonte kuveze
+imininingwane ewusizo yokwakhiwa komkhiqizo nesevisi. (Umthombo: Galoy)</figcaption>
 </figure>
 </center>
 
-Note: Remember that it’s important to test your apps and services within the community for whom they’re intended. Do your own research.
+Qaphela: Khumbula ukuthi kubalulekile ukuhlola izinhlelo zakho zokusebenza namasevisi
+ngaphakathi komphakathi ezihloselwe wona. Zenzele olwakho ucwaningo.
 
-Six user experience learnings from testing the Bitcoin Beach Wallet in the wild:
+Ukufundiwe okuyisithupha komsebenzisi ekuhloleni i-Bitcoin Beach Wallet:
 
-1. **Don’t take a strong internet connection for granted.** Developing for areas with spotty connectivity may require optimization and fault tolerance at the network level that would typically not be needed in the United States.
-2. **App onboarding presents a perfect window for education.** The Bitcoin Beach Wallet has a built-in quiz that walks users through a brief introduction to Bitcoin. Each question rewards the user with sats to get them off zero from the very start.
-3. **“Sats is the standard,” but USD is still the unit of account.** People think in their local currency, not sats, when onboarding to Bitcoin. The transition to thinking in sats is gradual, the local currency should be the unit of account when bringing a new community onto the network.
-4. **Add interactions that connect customers to merchants.** The map tab in the Bitcoin Beach Wallet helps customers find places where they can spend Bitcoin. It also enables quick and easy transactions by allowing the customer to create and pay invoices.
-5. **Payment notes help with record keeping.** Both customers and merchants can benefit from being able to add notes to transactions. Based on community input the feature has evolved from private (at the user level) to shared. Now the sender and receiver can both see the note attached to the transaction.
-6. **Stay on top of how lightning payment formats are evolving.** New payment formats such as Lightning Address, static invoices and BOLT 12 are emerging at a rapid pace. Selecting which formats to adopt will depend on the use case. The Bitcoin Beach Wallet initially launched with a printed QR code that led to an invoice page (such as ln.bitcoinbeach.com/mamarosa). New formats are now being considered in order to reduce friction and improve interoperability.
+1. **Ungakuthathi kalula uxhumano lwe-inthanethi oluqinile.** Ukuthuthukela izindawo
+ezinoxhumo olunamabala kungase kudinge ukuthuthukiswa nokubekezelela amaphutha
+kuleveli yenethiwekhi ngokuvamile engeke idingeke e-Melika.
+2. **Ukungena kohlelo lokusebenza kuveza iwindi elifanele lemfundo.** I-Bitcoin Beach
+Wallet inombuzo owakhelwe ngaphakathi ohambisa abasebenzisi ngesingeniso esifushane
+se-Bitcoin. Umbuzo ngamunye uklomelisa umsebenzisi ngama-sats ukuze athome kuhle
+ekucaleni.
+3. **I-Sats iyindinganiso,” kodwa i-USD iseyiyunithi ye-akhawunti.** Abantu bacabanga
+ngemali yabo yendawo, hhayi ama-sats, lapho bethoma ku-Bitcoin. Inguquko yokucabanga
+ngama-sats ihamba kancane, imali yasendaweni kufanele kube iyunithi ye-akhawunti lapho
+iletha umphakathi omusha kunethiwekhi.
+4. **Engeza ukusebenzisana okuxhumanisa amakhasimende kubathengisi.** Ithebhu
+yemephu ku-Bitcoin Beach Wallet isiza amakhasimende ukuthi athole izindawo lapho
+angasebenzisa khona i-Bitcoin. Iphinde inikeze amandla okwenziwayo okusheshayo
+nokulula ngokuvumela ikhasimende ukuthi lidale futhi likhokhe ama-invoyisi.
+5. **Amanothi okukhokha asiza ekugcineni amarekhodi.** Kokubili amakhasimende
+nabathengisi bangazuza ngokukwazi ukungeza amanothi kokwenziwe. Ngokusekelwe
+kokufakwayo komphakathi isici siguqukile sisuka kokuyimfihlo (kuleveli yomsebenzisi) ukuze
+sabiwe. Manje umthumeli nomamukeli bangakwazi ukubona kokubili inothi elinamathiselwe
+kumsebenzi.
+6. **Hlala unolwazi lokuthi amafomu okukhokha ombani avela kanjani.** Amafomethi
+okukhokha amasha afana nekheli lombani, ama-invoyisi amile kanye ne-BOLT 12 avela
+ngesivinini esisheshayo. Ukukhetha ukuthi yiziphi izakhiwo ozozisebenzisa kuzoncika
+esimweni sokusebenzisa. I-Bitcoin Beach Wallet ekuqaleni yethulwe ngekhodi ye-QR
+ephrintiwe eholela ekhasini le-invoyisi (njenge-ln.bitcoinbeach.com/mamarosa). Amafomethi
+amasha manje ayacatshangelwa ukuze kwehliswe ukuklwebhana futhi kuthuthukiswe
+ukusebenzisana.
 
-## Lesson 5: Community Custody is a Bridge to Self-custody
+## Isifundo 5: Ukugcinwa Komphakathi Kuyibhuloho lokuzigcina wena ngokwakho
 
-Self custody is the desired end state for every person holding wealth in bitcoin. The number one rule of Bitcoin custody is “Not your keys, not your coins.”
+Ukuzigcina kuyisimo esifiselekayo sawo wonke umuntu ophethe ingcebo ku-Bitcoin.
+Umthetho wokuqala wokugcinwa kwe-Bitcoin uthi "Akuwona okhiye bakho, akuzona
+izinhlamvu zemali zakho."
 
-Self custody is not the only way, nor the most appropriate way to onboard communities to the concept and practice of using Bitcoin.
+Ukuzigcina ngokwakho akuyona ukuphela kwendlela, futhi akuyona indlela efaneleke
+kakhulu eya emiphakathini esemgwaqweni emcabangweni nasekwenzeni ukusebenzisa i-
+Bitcoin.
 
-> “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.” – Mike Peterson on [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
+> “Kufanele uthathe izinyathelo ezincane. Uma ubeka zonke lezi zingqinamba ekuqaleni, abantu abasoze bangena kumphakathi. " – UMike Peterson ku [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
 
-### The spectrum of Bitcoin custody
+### Izigaba zokugcinwa kwe-Bitcoin
 
-Bitcoin custody models sit along a spectrum not unlike the convenience/privacy spectrum. On one side, you have simple UX, easy access to funds and integration across the fiat banking ecosystem. On the other, you have hand-stamped metal, sharded seed phrases and multi-signature custody models that require multiple steps or multiple people to move funds.
+Amamodeli okugcinwa kwe-Bitcoin ahlala eduze kwengaba ngokungafani nesigaba esilula /
+sefihlo. Ngakolunye uhlangothi, une-UX elula, ukufinyelela okulula kwezimali
+nokuhlanganiswa kuyo yonke i-fiat
+yasebhange. Ngakolunye uhlangothi, unensimbi egxivizwe ngesandla, imishwana yembewu
+ehlukanisiwe kanye namamodeli okugcinwa kwamasignesha amaningi adinga izinyathelo
+eziningi noma abantu abaningi ukuhambisa izimali.
 
-Different use cases have different risk scenarios that make trade-offs acceptable. For example, storing wealth in a bank account is generally considered safer than carrying it around as cash in a wallet, but carrying around small amounts of cash for daily purchases provides convenience.
+Izimo ezihlukene zokusetshenziswa zinezimo zinobungozi obuhlukene ebenza
+ukuhwebelana kwamukeleke. Isibonelo, ukugcina ingcebo ku-akhawunti yasebhange
+ngokuvamile kuthathwa njengokuphephile kunokuhamba nayo njengokheshi esikhwameni,
+kodwa ukuphatha imali encane uma uthenge nsuku zonke kunikeza lula.
 
 ![](./bitcoin-custody-self-shared-community-1024x384.png)
 
 <center v-pre>
 <figure>
-  <figcaption>The Bitcoin Beach Wallet provides a shared custody option where funds can be stored within a community.</figcaption>
+  <figcaption>I-Bitcoin Beach Wallet inikeza inketho yokugcinwa okwabelwana ngayo lapho izimali
+zingagcinwa khona emphakathini.</figcaption>
 </figure>
 </center>
 
-Every model has value, so long as 1) it is used for a fitting purpose and 2) it guides people further to the right as they accumulate more of their wealth in bitcoin.
+Yonke imodeli inenani, inqobo nje uma kokuthoma: isetshenziselwa injongo efanelekile futhi
+kwesibili: iqondisa abantu baye kwesokudla njengoba beqongelela umcebo wabo omningi
+ku-Bitcoin.
 
-### Community custody: harkening back to the days of union banks
+### Ukugcinwa komphakathi: ukukhumbula emuva ezinsukwini zamabhange ezinyunyana
 
 The custody model that we landed on for Bitcoin Beach is what Galoy refers to as “community custody.” It is a multi signature solution where the keys for the funds in cold storage are held by established members of the local community. This model reduces reliance on centralized companies outside of the community while also reducing friction of onboarding members to the network.
 
-### A note on community banking
+### Inothi ekubhangeni komphakathi
 
-Community banks have existed around the world for hundreds of years. Their core purpose is to support the socio-economic needs of a group of people with a shared interest. Often the shared interest is centered around a geographic location. Funds held by community banks are sourced from and loaned to people within the community in a more relationship-driven manner than the typical universal bank.
+Amabhange omphakathi abekhona emhlabeni wonke amakhulu eminyaka. Inhloso yabo
+eyinhloko ukusekela izidingo zenhlalo-mnotho zeqembu labantu abanentshisekelo efanayo.
+Ngokuvamile intshisekelo eyabiwe igxile endaweni. Izimali eziphethwe amabhange
+omphakathi zitholwa futhi zibolekwe kubantu emphakathini ngendlela eqhutshwa
+ubudlelwano kunebhange elivamile lomhlaba wonke.
 
-Community banks are especially important to communities like El Zonte because they enable decisions to be made locally with the best interests of community members in mind. The Galoy [open source Bitcoin banking solution](https://galoy.io/products/) is built to enable any community or institution around the world to self organize in this manner.
+Amabhange omphakathi abaluleke kakhulu emiphakathini efana no-El Zonte ngoba enza
+ukuthi izinqumo zithathwe endaweni kucatshangwa ngamalunga omphakathi. Isixazululo sebhange se-Galoy se-Bitcoin sakhelwe ukunika amandla noma yimuphi umphakathi noma isikhungo emhlabeni wonke ukuthi sizihlelele ngale ndlela.
 
-For more insight into the intersection between Bitcoin and community banking, see the Fulgur Ventures article “[The role of Bitcoin for community banking.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
+Ukuze uthole ulwazi olwengeziwe mayelana nokuhlangana phakathi kwe-Bitcoin
+namabhange omphakathi, bheka umbhalo we-Fulgur Ventures othi [“Indima yeBitcoin yamabhange omphakathi” (The role of Bitcoin community banking)](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882).
 
-### Bitcoin Beach Wallet as a community Bitcoin bank
+### I-Bitcoin Beach Wallet njengebhange lomphakathi le-Bitcoin
 
-Bitcoin Beach Wallet funds are managed by members within the community, providing a frictionless and cost-effective means of payment designed to support the local economy.
+Izimali ze-Bitcoin Beach Wallet ziphathwa amalungu ngaphakathi komphakathi, zinikeza
+izindlela zokukhokha ezingenazingxabano nezingabizi eziklanyelwe ukusekela umnotho
+wendawo.
 
-Here’s why community custody works for Bitcoin Beach:
+Nakhu ukuthi kungani ukugcinwa komphakathi kusebenzela i-Bitcoin Beach:
 
-1. **Removing friction is the most important step to creating the network effects required for circularity in the economy.** Humans are naturally resistant to change and quick to reject new ideas or revert to old habits. As Mike Peterson said in his June 2020 interview with Marty Bent: “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.”
-2. **It can be hard to securely and reliably store seed phrases in remote and emerging communities.** For people that live in houses with dirt floors and tin roofs, there are not secure places to store written seed phrases. Using seed phrases also presents issues for people who can’t read or write, which is not uncommon in many parts of the world.
-3. **People who use Bitcoin become more comfortable with it over time.** Residents of El Zonte are now sending bitcoin over the Lightning Network on a daily basis. Some have begun stacking sats and have accumulated more wealth than they ever would have with US Dollars. This is an inspiring trend that Bitcoin Beach is supporting through education and training about self-custody. UX improvements will also continue to make self-custody more accessible to more users around the world.
+1. **Ukususa ukungqubuzana kuyisinyathelo esibaluleke kakhulu sokudala imiphumela yenethiwekhi edingekayo ukuze kube nokujikeleza emnothweni.** Abantu bayenqaba
+ngokwemvelo ukushintsha futhi bayashesha ukwenqaba imibono emisha noma babuyele
+emikhubeni emidala. Njengoba uMike Peterson esho engxoxweni yakhe noMarty Bent
+ngoJuni 2020: “Kufanele uthathe izinyathelo ezincane. Uma ubeka zonke lezi zingqinamba
+ekuqaleni, abantu abasoze bangena ku-mphakathi."
+2. **Kungaba nzima ukugcina ngokuvikelekile nangokuthembekile imishwana yembewu emiphakathini ephumelele nesafufusa.** Kubantu abahlala ezindlini ezinephansi
+elinobhuqu nezifulelwe ngothayela, azikho izindawo ezivikelekile zokugcina imishwana
+yembewu ebhaliwe. Ukusebenzisa imishwana yembewu nakho kuveza izinkinga kubantu
+abangakwazi ukufunda noma ukubhala, okuyinto evamile ezingxenyeni eziningi zomhlaba.
+3. **Abantu abasebenzisa i-Bitcoin bakhululeka ngayo ngokuhamba kwesikhathi.**
+Izakhamizi zase-El Zonte manje zithumela i-Bitcoin nge-Lightning Network nsuku
+zonke. Abanye sebeqalile ukunqwabelanisa ama-sats futhi baqongelele ingcebo engaphezu
+kwaleyo ababengaba nayo ngamaDola aseMelika. Lona umkhuba okhuthazayo i-Bitcoin
+Beach ewusekelayo ngemfundo nokuqeqeshwa mayelana nokuzigcina. Ukuthuthukiswa
+kwe-UX kuzoqhubeka nokwenza ukuzigcina kufinyeleleke kakhudlwana kubasebenzisi
+abaningi emhlabeni jikelele.
 
-Open source community custody solutions have emerged as a valuable model for onboarding communities to Bitcoin. We believe they will play a significant role in bringing Bitcoin to the first billion users.
+Izixazululo zemithombo evulekile yokugcinwa komphakathi sezivele njengemodeli
+ebalulekile yokufaka imiphakathi ku-Bitcoin. Sikholelwa ukuthi bazodlala indima ebalulekile
+ekuletheni i-Bitcoin kubasebenzisi abayizigidi eziyizinkulungwane zokuqala.
 
-## Lesson 6: Start Small and Build Momentum Before Expanding
+## Isifundo Sesithupha: Qala Kancane Futhi Wakhe Umfutho Ngaphambi Kokunweba
 
-It is exciting to see the groundswell of communities around the world working to connect their towns and cities to the Bitcoin network. [Bitcoin Lake](https://twitter.com/LakeBitcoin) in Guatemala and [Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) are two early examples. Some Bitcoiners have started calling Tonga “Bitcoin Island” after hearing [Lord Fusitu’a’s](https://twitter.com/LordFusitua) four-part plan to bring Bitcoin to his country.
+Kuyajabulisa ukubona ukwanda kwemiphakathi emhlabeni jikelele isebenza ukuxhuma
+amadolobha namadolobhakazi kunethiwekhi ye-Bitcoin. I-[Bitcoin Lake](https://twitter.com/LakeBitcoin) e-Guatemala kanye
+ne-[Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) yizibonelo ezimbili zakuqala. Abanye abasebenzisi be-Bitcoin baye
+baqala ukubiza iTonga ngokuthi "Isiqhingi saseBitcoin" ngemva kokuzwa uhlelo lwe[Lord Fusitu’a](https://twitter.com/LordFusitua) olunezingxenye ezine lokuletha i-Bitcoin ezweni lakhe.
 
 ![](./education-roman-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>One-on-one education is an ongoing part of the process of onboarding a community. (Source: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
+  <figcaption>Imfundo yomuntu oyedwa iyingxenye eqhubekayo yenqubo yokufaka umphakathi ku-Bitcoin. (Umthombo: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-To those just starting out we’d offer two main thoughts on scaling from an idea to an economy:
+Kulabo abasanda kuqala sizonikeza imibono emibili ebalulekile ekukhuphuleni usuka
+embonweni uye emnothweni:
 
-1. **Starting with a defined community helps to build a strong foundation.** Bitcoin Beach benefited from serving a population of 3,000 that was geographically separated from other villages. This narrow focus allowed us to capture and adapt to learnings in real time that prepared us for the exponential growth that followed.
-2. **Growth happens “gradually, then suddenly.”** When bringing a community onto Bitcoin, expect to spend as much effort and time onboarding the first 50 people than the next thousand. Because Bitcoin is a network, general rules of network effects will apply. Luckily, Bitcoin developers, educators and companies around the world are making tools to help any community get started.
+1. **Ukuqala ngomphakathi ochaziwe kusiza ukwakha isisekelo esiqinile.** I-Bitcoin Beach
+ihlomule ngokusebenzela umphakathi wezinkulungwane ezintathu owawuhlukaniswe
+ngokwendawo kwamanye amadolobhana. Lokhu kugxila okuncane kusivumele ukuthi
+sithwebule futhi sizijwayeze ukufunda ngesikhathi sangempela okusilungiselele ukukhula
+okunamandla okwalandela.
+2. **Ukukhula kwenzeka “kancane kancane, kungazelelwe.”** Lapho uletha umphakathi ku-
+Bitcoin, lindela ukuchitha umzamo nesikhathi esiningi ufundisa abantu bokuqala
+abangamashumi amahlanu kunenkulungwane elandelayo. Ngenxa yokuthi i-Bitcoin
+iyinethiwekhi, kuzosebenza imithetho evamile yemiphumela yenethiwekhi. Ngenhlanhla,
+abathuthukisi be-Bitcoin, othisha nezinkampani emhlabeni jikelele benza amathuluzi ukusiza
+noma yimuphi umphakathi ukuthi uqalise.
 
-Many people first heard about Bitcoin Beach in 2021, but the project has been years in the making. The Bitcoin Beach team who have dedicated thousands of hours teaching the basics, answering questions and troubleshooting issues are the linchpin of this entire project. Without them, Bitcoin Beach would not be the success story you read about today.
+Abantu abaningi baqala ukuzwa nge-Bitcoin Beach ngo-2021, kodwa iphrojekthi
+isineminyaka eminingi yenziwa. Ithimba le-Bitcoin Beach elizinikele izinkulungwane
+zamahora lifundisa izinto eziyisisekelo, ukuphendula imibuzo kanye nezinkinga zokuxazulula
+izinkinga lubaluleke khulu kule phrojekthi. Ngaphandle kwabo, i-Bitcoin Beach ngeke ibe
+yindaba yempumelelo oyifundayo namuhla.
 
-### Considerations for Starting a Bitcoin Bank
+### Ukucatshangelwa Kokuqala Ibhange le-Bitcoin
 
-Build a strong foundation with the right team, technology and training.
+Yakha isisekelo esiqinile neqembu elilungile, ubuchwepheshe nokuqeqeshwa.
 
 ![](./team-meeting-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>“We are a big family with a big dream.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
+  <figcaption>Ukucatshangelwa Kokuqala Ibhange le-Bitcoin
+Yakha isisekelo esiqinile neqembu elilungile, ubuchwepheshe nokuqeqeshwa.
+"Siwumndeni omkhulu onephupho elikhulu." - <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
 </figure>
 </center>
 
 
-1. **Assemble your team.** Identify people who have the spirit, grit and passion to lead your community through the system change that Bitcoin represents. There are two primary angles to consider from the start:
-    - **Community engagement:** To understand what this level of community organizing looks like, simply follow and learn from [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), and [Mike](https://twitter.com/Bitcoinbeach).
-    - **Technology:** There are many factors to consider when choosing the technology solutions on which to build your Bitcoin Bank. Having access to somebody who can guide you through decisions around the spectrum of Bitcoin custody, Lightning node and liquidity management, hot and cold wallet usage and other factors will help you lay a strong foundation for growth.
-2. **Find a source of funding.** Securing access to funding is an important step for onboarding a new community to Bitcoin, especially in poorer countries where residents do not have savings or disposable income. Having funds available to pay for materials and services will help to stand up operations, and distributing sats within the community at the outset will be required to stimulate circularity in the economy.
-3. **Find a technological solution.** The tools for providing financial services on top of Bitcoin are still emerging. Galoy [open source Bitcoin banking infrastructure](https://galoy.io/products/) is one solution that aims to make it easy for communities and institutions to offer financial services on Bitcoin and Lightning.
-4. **Define your custody model and plan for a multi-signature (multisig) setup.** Custody is a foundational topic that deserves attention to detail and understanding of your audience. For communities of experienced Bitcoiners, enabling self-custody is a must. When you’re onboarding an unbanked population, you may decide that a community custody model like the one designed for Bitcoin Beach is the appropriate starting point. Either way, be sure to plan to hold reserve funds within a multisig setup.
-5. **Develop a plan for community training and support.** The Bitcoin community is incredibly generous with educational materials and other resources, so look and ask around first. There may be no place better than “Bitcoin Twitter” to be connected with the videos, articles and assets you need to begin onboarding your community. Keep in mind that the usage of Twitter may be very low in the communities for which you are building.
-6. **Hit the streets!** Onboarding happens one person at a time, by getting out into the community and giving people the opportunity to receive and send their first sats.
+1. **Hlanganisa iqembu lakho.** Khomba abantu abanomoya, isibindi nothando lokuhola
+umphakathi wakho ngoshintsho lwesistimu olumele i-Bitcoin. Kunama-engeli amabili
+ayinhloko okufanele acatshangelwe kusukela ekuqaleni:
+  - **Ukusebenzelana nomphakathi:** Ukuze uqonde ukuthi leli zinga lokuhlela umphakathi libukeka kanjani, vele ulandele futhi ufunde ku-[Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), kanye [Mike](https://twitter.com/Bitcoinbeach).
+  - **Ubuchwepheshe:** Kunezici eziningi okufanele uzicabangele lapho ukhetha
+izixazululo zobuchwepheshe ongakhela kuzo i-Bitcoin Bank. Ukufinyelela kumuntu
+ongakuqondisa ngezinqumo eziphathelene nokugcinwa kwe-Bitcoin, indawo yombani
+kanye nokuphathwa kokushintjheka, ukusetshenziswa kwesikhwama semali
+esishisayo nesibandayo nezinye izici kuzokusiza ubeke isisekelo esiqinile sokukhula.
+2. **Thola umthombo wemali.** Ukuthola ukufinyelela kwezimali kuyisinyathelo esibalulekile
+sokufaka umphakathi omusha ku-Bitcoin, ikakhulukazi emazweni ampofu lapho izakhamuzi
+zingenayo imali eyongiwe noma imali engenayo. Ukuba nemali yokukhokha ngezinto
+zokwakha kanye nezinkonzo kuzosiza ukumisa ukusebenza, futhi ukusabalalisa ama-sats
+phakathi komphakathi ekuqaleni kuzodingeka ukugqugquzela ukujikeleza emnothweni.
+3. **Thola isixazululo sezobuchwepheshe.** Amathuluzi okuhlinzeka ngezinsizakalo
+zezezimali ngaphezulu kwe-Bitcoin asavela. Umthombo ovulekile we-Galoy Ingqalasizinda
+yebhange ye-Bitcoin iyisixazululo esisodwa esihlose ukwenza kube lula emiphakathini
+nasezikhungweni ukuthi zinikeze izinsizakalo zezezimali nge-Bitcoin kanye nombani.
+4. **Chaza imodeli yakho yokugcina futhi uhlele ukusethwa kwamasignesha amaningi (multisig).** Ukugcinwa kwezingane kuyisihloko esiyisisekelo esifanele ukunakwa
+kwemininingwane nokuqonda kwababukeli bakho. Emiphakathini yabasebenzisi be-Bitcoin
+abanolwazi, kunika amandla ukuzibamba kuyadingeka. Uma ufaka abantu
+abangabhanganga, ungase unqume ukuthi imodeli yokugcina umphakathi njengaleyo
+eyenzelwe i-Bitcoin Beach iyisiqalo esifanele. Noma iyiphi indlela, qiniseka ukuthi uhlela
+ukubamba izimali ezibekiwe ngaphakathi kokusethwa kwama-multisig.
+5. **Yenza uhlelo lokuqeqeshwa nokusekelwa komphakathi.** Umphakathi we-Bitcoin
+uphana ngendlela emangalisayo ngezinto zokufundisa nezinye izinsiza, ngakho bheka bese
+ubuza kuqala. Kungase kube khona indawo engcono kune- "Bitcoin Twitter" ukuze
+uxhumeke namavidiyo, izindatshana kanye nempahla oyidingayo ukuze uqale ukufaka
+umphakathi wakho. Khumbula ukuthi ukusetshenziswa kwe-Twitter kungase kube phansi
+kakhulu emiphakathini oyakhela yona.
+6. **Yiya emigwaqeni!** Ukufaka umphakathi kwenzeka ngomuntu oyedwa ngesikhathi,
+ngokuphumela emphakathini futhi anikeze abantu ithuba lokwamukela nokuthumela ama-
+sats abo okuqala.
 
 ![](./jorge-bitcoin-beach-el-zonte-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Follow <a href="https://twitter.com/jorgebitcoinES">Jorge</a> (pictured), <a href="https://mobile.twitter.com/romanmartinezc">Chimbera</a> and Mike Peterson (<a href="https://twitter.com/Bitcoinbeach">@bitcoinbeach</a>) to stay connected to El Zonte’s journey.</figcaption>
+  <figcaption>Landela u-<a href="https://twitter.com/jorgebitcoinES">Jorge</a> (osesithombeni), u-<a href="https://mobile.twitter.com/romanmartinezc">Chimbera</a> noMike Peterson (@<a href="https://twitter.com/Bitcoinbeach">@bitcoinbeach</a>) ukuze uhlale uxhumekile ohambweni le-El Zonte.</figcaption>
 </figure>
 </center>
 
-## Conclusion
+## Isiphetho
 
-It is inspiring to see communities and institutions around the world working alongside each other to bring Bitcoin to the first Billion people. We hope that this guide helps accelerate learning and encourage good discussion.
+Kuyakhuthaza ukubona imiphakathi nezikhungo emhlabeni wonke zisebenza ndawonye
+ukuletha i-Bitcoin kubantu bokuqala abasigidi sezigidi. Sithemba ukuthi lo mhlahlandlela
+usiza ukusheshisa ukufunda futhi ukhuthaze ingxoxo enhle.
 
-Galoy is also organizing [Adopting Bitcoin: A Lightning Summit in El Salvador](https://adoptingbitcoin.org/) on November 16-18 as an additional way to support Bitcoin adoption and celebrate the success of the Bitcoin Beach team. We are humbled to be in the company of people like Jorge, Chimbera, Mike and countless others who brought the vision of a circular Bitcoin economy to life.
+UGaloy uphinde ahlele i-[Adopting Bitcoin: A Lightning Summit e-El Salvador](https://adoptingbitcoin.org/) ngoNovemba
+16 kuya ku 18 njengendlela eyengeziwe yokusekela ukutholwa kwe-Bitcoin nokugubha
+impumelelo yeqembu le-Bitcoin Bea0ch. Sithobekile ngokuba senkampanini yabantu
+abafana noJorge, Chimbera, Mike kanye nabanye abangenakubalwa abaphilise umbono
+womnotho oyindilinga we-Bitcoin.
 
-If you’d like to see and use our code, it’s free and open source on [GitHub](https://github.com/GaloyMoney/).
+Uma ungathanda ukubona nokusebenzisa ikhodi yethu, imahhala futhi ingumthombo
+ovulekile ku-[GitHub](https://github.com/GaloyMoney/).
 
-You can also reach out on twitter [@galoymoney](https://twitter.com/GaloyMoney) and our [public Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).
+Ungakwazi futhi ukufinyelela ku-Twitter [@galoymoney](https://twitter.com/GaloyMoney) kanye ne-[Slack
+yethu yomphakathi](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).
