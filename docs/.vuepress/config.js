@@ -118,6 +118,12 @@ module.exports = {
             title: 'Exonumia',
             selectLanguageName: '🇳🇬 Hausa'
         },
+        '/nga/yo/': {
+            lang: 'yo',
+            group: '🇳🇬 Nigeria',
+            title: 'Exonumia',
+            selectLanguageName: '🇳🇬 Yoruba'
+        },
         '/zaf/st/': {
             lang: 'st',
             group: '🇿🇦 South Africa',
@@ -820,6 +826,71 @@ module.exports = {
                     },
                     '/nga/ha/contribution-guide/',
                     '/nga/ha/contact/'
+                ],
+            },
+            '/nga/yo/': {
+                lastUpdatedText: "Imudojuiwọn to kẹhin",
+                supportersText: "Olufowosi",
+                translatorsText: "Awọn onitumọ",
+                selectLanguageText: '🇳🇬 Awọn ede',
+                selectLanguageName: '🇳🇬 Yoruba',
+                freelyAvailableTranslationsText: '🇳🇬 Awọn Itumọ ti o Wa Ni Ọfẹ',
+                label: 'Yoruba',
+                selectLanguageAriaLabel: 'Languages',
+                editLinkText: 'Mu akoonu dara si',
+                continueReading: true,
+                continueReadingText: 'Tesiwaju Kika',
+                navbar: [
+                    { 
+                        text: 'Ile', 
+                        link: '/nga/yo/' 
+                    },
+                    { 
+                        text: 'Awọn itumọ', 
+                        link: '/nga/yo/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/nga/yo/about/',
+                    {
+                        text: 'Awọn itumọ',   // required
+                        link: '/nga/yo/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/nga/yo/',
+                            '/nga/yo/explain-bitcoin-like-im-five/',
+                            '/nga/yo/bitcoin-is-like/',
+                            '/nga/yo/bitcoin-is-like-sports/',
+                            '/nga/yo/understanding-lightning-network-using-an-abacus',
+                            '/nga/yo/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/nga/yo/museum/bitcoin-v0.1-released/',
+                            '/nga/yo/museum/re-bitcoin-v0.1-released/',
+                            '/nga/yo/i-am-hodling/',
+                            '/nga/yo/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                        ]
+                    },
+                    {
+                        text: 'Awọn iwe ohun',   // required
+                        link: '/nga/yo/books/',
+                        children: [
+                            '/nga/yo/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Awọn irinṣẹ',
+                        link: '/nga/yo/tools/'
+                    },
+                    {
+                        text: 'Awọn iṣẹ Itumọ',   // required
+                        link: '/nga/yo/open-source-translation-projects/',
+                        children: [
+                            '/nga/yo/transifex/bitcoin-core/',
+                            '/nga/yo/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/nga/yo/contribution-guide/',
+                    '/nga/yo/contact/'
                 ],
             },
             '/zaf/nr/': {
