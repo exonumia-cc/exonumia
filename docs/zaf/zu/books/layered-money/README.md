@@ -5,6 +5,7 @@ lang: zu
 translators: 
     - 
         name: "Happy Mahlangu"
+        href: "https://twitter.com/SabeniHappy"
 ---
 
 # Imali Ngokwezigaba: Kusuka kwiGolide NamaDola kuya ku-Bitcoin Nasezimalini Zedijithali Zebhange Elikhulu

@@ -1,3 +1,13 @@
+---
+translators: 
+    - 
+        name: "Happy Mahlangu"
+        href: "https://twitter.com/SabeniHappy"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
 # Ukubhanga Kwe-Bitcoin Komphakathi: Izifundo Ezifundwa ku-Bitcoin Beach
 
 ngo Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)

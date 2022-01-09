@@ -2,6 +2,7 @@
 translators: 
     - 
         name: "Happy Mahlangu"
+        href: "https://twitter.com/SabeniHappy"
 ---
 # I-Bitcoin: Uhlelo lwe-mali ye-elektronikhi lontanga
 

@@ -1,3 +1,13 @@
+---
+translators: 
+    - 
+        name: "Happy Mahlangu"
+        href: "https://twitter.com/SabeniHappy"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
 # Ukuqonda i-Lightning Network ngokusebenzisa i-Abacus (uhlelo lokubala)
 
 ngo-Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)

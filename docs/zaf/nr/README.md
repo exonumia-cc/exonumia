@@ -2,6 +2,7 @@
 translators: 
     - 
         name: "Happy Mahlangu"
+        href: "https://twitter.com/SabeniHappy"
 ---
 # Siyanamukela ku-Bitcoin, nina abatjha!
 

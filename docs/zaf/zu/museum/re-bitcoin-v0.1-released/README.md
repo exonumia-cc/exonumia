@@ -6,6 +6,7 @@ supporters:
 translators: 
     - 
         name: "Happy Mahlangu"
+        href: "https://twitter.com/SabeniHappy"
 ---
 # Mayelana: Bitcoin v0.1 ikhishiwe 
 

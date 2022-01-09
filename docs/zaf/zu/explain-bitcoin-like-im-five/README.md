@@ -6,6 +6,7 @@ supporters:
 translators: 
     - 
         name: "Happy Mahlangu"
+        href: "https://twitter.com/SabeniHappy"
 ---
 # Chaza i-Bitcoin Ngathi Ngineminyaka Emihlanu
 
