@@ -5,4 +5,5 @@ sidebar: false
 
 # Exonumia
 
-[Hausa](/nga/ha/)
+[Hausa](/nga/ha/)   
+[Yoruba](/nga/yo/)   
