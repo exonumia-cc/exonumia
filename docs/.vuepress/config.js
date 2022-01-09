@@ -203,10 +203,12 @@ module.exports = {
                             '/int/en/explain-bitcoin-like-im-five/',
                             '/int/en/bitcoin-is-like/',
                             '/int/en/bitcoin-is-like-sports/',
+                            '/int/en/understanding-lightning-network-using-an-abacus',
                             '/int/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/int/en/museum/bitcoin-v0.1-released/',
                             '/int/en/museum/re-bitcoin-v0.1-released/',
-                            '/int/en/i-am-hodling/'
+                            '/int/en/i-am-hodling/',
+                            '/int/en/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -267,10 +269,12 @@ module.exports = {
                             '/ago/ng/explain-bitcoin-like-im-five/',
                             '/ago/ng/bitcoin-is-like/',
                             '/ago/ng/bitcoin-is-like-sports/',
+                            '/ago/ng/understanding-lightning-network-using-an-abacus',
                             '/ago/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/ago/ng/museum/bitcoin-v0.1-released/',
                             '/ago/ng/museum/re-bitcoin-v0.1-released/',
-                            '/ago/ng/i-am-hodling/'
+                            '/ago/ng/i-am-hodling/',
+                            '/ago/ng/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -330,10 +334,12 @@ module.exports = {
                             '/cod/ln/explain-bitcoin-like-im-five/',
                             '/cod/ln/bitcoin-is-like/',
                             '/cod/ln/bitcoin-is-like-sports/',
+                            '/cod/ln/understanding-lightning-network-using-an-abacus',
                             '/cod/ln/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/cod/ln/museum/bitcoin-v0.1-released/',
                             '/cod/ln/museum/re-bitcoin-v0.1-released/',
-                            '/cod/ln/i-am-hodling/'
+                            '/cod/ln/i-am-hodling/',
+                            '/cod/ln/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -393,10 +399,12 @@ module.exports = {
                             '/cog/ln/explain-bitcoin-like-im-five/',
                             '/cog/ln/bitcoin-is-like/',
                             '/cog/ln/bitcoin-is-like-sports/',
+                            '/cog/ln/understanding-lightning-network-using-an-abacus',
                             '/cog/ln/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/cog/ln/museum/bitcoin-v0.1-released/',
                             '/cog/ln/museum/re-bitcoin-v0.1-released/',
-                            '/cog/ln/i-am-hodling/'
+                            '/cog/ln/i-am-hodling/',
+                            '/cog/ln/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -456,10 +464,12 @@ module.exports = {
                             '/egy/ar/explain-bitcoin-like-im-five/',
                             '/egy/ar/bitcoin-is-like/',
                             '/egy/ar/bitcoin-is-like-sports/',
+                            '/egy/ar/understanding-lightning-network-using-an-abacus',
                             '/egy/ar/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/egy/ar/museum/bitcoin-v0.1-released/',
                             '/egy/ar/museum/re-bitcoin-v0.1-released/',
-                            '/egy/ar/i-am-hodling/'
+                            '/egy/ar/i-am-hodling/',
+                            '/egy/ar/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -519,10 +529,12 @@ module.exports = {
                             '/ken/sw/explain-bitcoin-like-im-five/',
                             '/ken/sw/bitcoin-is-like/',
                             '/ken/sw/bitcoin-is-like-sports/',
+                            '/ken/sw/understanding-lightning-network-using-an-abacus',
                             '/ken/sw/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/ken/sw/museum/bitcoin-v0.1-released/',
                             '/ken/sw/museum/re-bitcoin-v0.1-released/',
-                            '/ken/sw/i-am-hodling/'
+                            '/ken/sw/i-am-hodling/',
+                            '/ken/sw/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -582,10 +594,12 @@ module.exports = {
                             '/mwi/ny/explain-bitcoin-like-im-five/',
                             '/mwi/ny/bitcoin-is-like/',
                             '/mwi/ny/bitcoin-is-like-sports/',
+                            '/mwi/ny/understanding-lightning-network-using-an-abacus',
                             '/mwi/ny/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/mwi/ny/museum/bitcoin-v0.1-released/',
                             '/mwi/ny/museum/re-bitcoin-v0.1-released/',
-                            '/mwi/ny/i-am-hodling/'
+                            '/mwi/ny/i-am-hodling/',
+                            '/mwi/ny/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -646,10 +660,12 @@ module.exports = {
                             '/nam/ng/explain-bitcoin-like-im-five/',
                             '/nam/ng/bitcoin-is-like/',
                             '/nam/ng/bitcoin-is-like-sports/',
+                            '/nam/ng/understanding-lightning-network-using-an-abacus',
                             '/nam/ng/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nam/ng/museum/bitcoin-v0.1-released/',
                             '/nam/ng/museum/re-bitcoin-v0.1-released/',
-                            '/nam/ng/i-am-hodling/'
+                            '/nam/ng/i-am-hodling/',
+                            '/nam/ng/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -710,10 +726,12 @@ module.exports = {
                             '/nam/naq/explain-bitcoin-like-im-five/',
                             '/nam/naq/bitcoin-is-like/',
                             '/nam/naq/bitcoin-is-like-sports/',
+                            '/nam/naq/understanding-lightning-network-using-an-abacus',
                             '/nam/naq/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nam/naq/museum/bitcoin-v0.1-released/',
                             '/nam/naq/museum/re-bitcoin-v0.1-released/',
-                            '/nam/naq/i-am-hodling/'
+                            '/nam/naq/i-am-hodling/',
+                            '/nam/naq/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -773,10 +791,12 @@ module.exports = {
                             '/nga/ha/explain-bitcoin-like-im-five/',
                             '/nga/ha/bitcoin-is-like/',
                             '/nga/ha/bitcoin-is-like-sports/',
+                            '/nga/ha/understanding-lightning-network-using-an-abacus',
                             '/nga/ha/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/nga/ha/museum/bitcoin-v0.1-released/',
                             '/nga/ha/museum/re-bitcoin-v0.1-released/',
-                            '/nga/ha/i-am-hodling/'
+                            '/nga/ha/i-am-hodling/',
+                            '/nga/ha/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -837,10 +857,12 @@ module.exports = {
                             '/zaf/nr/explain-bitcoin-like-im-five/',
                             '/zaf/nr/bitcoin-is-like/',
                             '/zaf/nr/bitcoin-is-like-sports/',
+                            '/zaf/nr/understanding-lightning-network-using-an-abacus',
                             '/zaf/nr/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/nr/museum/bitcoin-v0.1-released/',
                             '/zaf/nr/museum/re-bitcoin-v0.1-released/',
-                            '/zaf/nr/i-am-hodling/'
+                            '/zaf/nr/i-am-hodling/',
+                            '/zaf/nr/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -900,10 +922,12 @@ module.exports = {
                             '/zaf/ts/explain-bitcoin-like-im-five/',
                             '/zaf/ts/bitcoin-is-like/',
                             '/zaf/ts/bitcoin-is-like-sports/',
+                            '/zaf/ts/understanding-lightning-network-using-an-abacus',
                             '/zaf/ts/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/ts/museum/bitcoin-v0.1-released/',
                             '/zaf/ts/museum/re-bitcoin-v0.1-released/',
-                            '/zaf/ts/i-am-hodling/'
+                            '/zaf/ts/i-am-hodling/',
+                            '/zaf/ts/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -964,10 +988,12 @@ module.exports = {
                             '/zaf/st/explain-bitcoin-like-im-five/',
                             '/zaf/st/bitcoin-is-like/',
                             '/zaf/st/bitcoin-is-like-sports/',
+                            '/zaf/st/understanding-lightning-network-using-an-abacus',
                             '/zaf/st/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/st/museum/bitcoin-v0.1-released/',
                             '/zaf/st/museum/re-bitcoin-v0.1-released/',
-                            '/zaf/st/i-am-hodling/'
+                            '/zaf/st/i-am-hodling/',
+                            '/zaf/st/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -1028,10 +1054,12 @@ module.exports = {
                             '/zaf/ve/explain-bitcoin-like-im-five/',
                             '/zaf/ve/bitcoin-is-like/',
                             '/zaf/ve/bitcoin-is-like-sports/',
+                            '/zaf/ve/understanding-lightning-network-using-an-abacus',
                             '/zaf/ve/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/ve/museum/bitcoin-v0.1-released/',
                             '/zaf/ve/museum/re-bitcoin-v0.1-released/',
-                            '/zaf/ve/i-am-hodling/'
+                            '/zaf/ve/i-am-hodling/',
+                            '/zaf/ve/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -1092,10 +1120,12 @@ module.exports = {
                             '/zaf/xh/explain-bitcoin-like-im-five/',
                             '/zaf/xh/bitcoin-is-like/',
                             '/zaf/xh/bitcoin-is-like-sports/',
+                            '/zaf/xh/understanding-lightning-network-using-an-abacus',
                             '/zaf/xh/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/xh/museum/bitcoin-v0.1-released/',
                             '/zaf/xh/museum/re-bitcoin-v0.1-released/',
-                            '/zaf/xh/i-am-hodling/'
+                            '/zaf/xh/i-am-hodling/',
+                            '/zaf/xh/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -1156,10 +1186,12 @@ module.exports = {
                             '/zaf/zu/explain-bitcoin-like-im-five/',
                             '/zaf/zu/bitcoin-is-like/',
                             '/zaf/zu/bitcoin-is-like-sports/',
+                            '/zaf/zu/understanding-lightning-network-using-an-abacus',
                             '/zaf/zu/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zaf/zu/museum/bitcoin-v0.1-released/',
                             '/zaf/zu/museum/re-bitcoin-v0.1-released/',
-                            '/zaf/zu/i-am-hodling/'
+                            '/zaf/zu/i-am-hodling/',
+                            '/zaf/zu/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
@@ -1219,10 +1251,12 @@ module.exports = {
                             '/zwe/sn/explain-bitcoin-like-im-five/',
                             '/zwe/sn/bitcoin-is-like/',
                             '/zwe/sn/bitcoin-is-like-sports/',
+                            '/zwe/sn/understanding-lightning-network-using-an-abacus',
                             '/zwe/sn/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/zwe/sn/museum/bitcoin-v0.1-released/',
                             '/zwe/sn/museum/re-bitcoin-v0.1-released/',
-                            '/zwe/sn/i-am-hodling/'
+                            '/zwe/sn/i-am-hodling/',
+                            '/zwe/sn/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
                         ]
                     },
                     {
