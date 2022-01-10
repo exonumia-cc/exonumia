@@ -15,7 +15,7 @@ ngo-Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding
 <LanguageDropdown/>
 
 
-Ngithole izimpendulo eminingi emihle ngokulandela umbhalo wami wangaphambilini
+Ngithole izimpendulo eziningi emihle ngokulandela umbhalo wami wangaphambilini
 onesihlolo esithi, Lightning Network is the Future of Bitcoin (Inethiwekhi Esheshayo Ikusasa
 lwe ceze yenhlamvu yemali). Kodwa-ke, ngenkathi ngifunda ezinye zezimpendulo,
 kwangicacela ukuthi abanye abantu abaqondi ngokugcwele ukuthi i-Lightning Network (LN)
@@ -79,4 +79,4 @@ ukuthi u-Alice akakwazi kanjani ukuthumelela uCarol ubuhlalu obuningi obudlula u
 angakwazi ukubuphatha. Bese futhi, mhlawumbe esikhathini esizayo uzokwazi ukukwenza
 esebenzisa ama-[AMP](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), kodwa leyo indaba yomunye umbhalo.
 
-**Uma uthole lombhlo uwuyisizo, sicela ungakhohlwa ukwengeza ukushaya izandla (cindezela isikhathi eside ukuze wengeze ukushaya izandla okuningi) futhi wabelane ngakho.**
+**Uma uthole lombhalo uwuyisizo, sicela ungakhohlwa ukwengeza ukushaya izandla (cindezela isikhathi eside ukuze wengeze ukushaya izandla okuningi) futhi wabelane ngakho.**

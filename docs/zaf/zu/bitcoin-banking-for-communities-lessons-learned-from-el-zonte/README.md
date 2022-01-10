@@ -315,7 +315,7 @@ isikhwama semali noma izinsizakalo zezezimali ezakhiwa ku-Bitcoin. Ivula amathub
 amakhulu okuthenga okuseduze-kuya-mahhala, okusemhlabeni wonke, kwesikhathi
 sangempela, nokungenamvume.
 
-## Isifundo 3: Ukufundiswa Komthengisi Kuyadingeka Ukuze Kuthuthukiswe Umnotho Wasendaweni Oyindilinga
+## Isifundo Sesithatu: Ukufundiswa Komthengisi Kuyadingeka Ukuze Kuthuthukiswe Umnotho Wasendaweni Oyindilinga
 
 Ukuma komnotho we-Bitcoin oyindilinga kuveza inkinga "yenkukhu neqanda". Izakhamuzi
 zidinga izindawo zokuyisebenzisa, futhi abathengisi badinga amakhasimende
@@ -412,7 +412,7 @@ ephrintiwe eholela ekhasini le-invoyisi (njenge-ln.bitcoinbeach.com/mamarosa). A
 amasha manje ayacatshangelwa ukuze kwehliswe ukuklwebhana futhi kuthuthukiswe
 ukusebenzisana.
 
-## Isifundo 5: Ukugcinwa Komphakathi Kuyibhuloho lokuzigcina wena ngokwakho
+## Isifundo Sesihlanu: Ukugcinwa Komphakathi Kuyibhuloho lokuzigcina wena ngokwakho
 
 Ukuzigcina kuyisimo esifiselekayo sawo wonke umuntu ophethe ingcebo ku-Bitcoin.
 Umthetho wokuqala wokugcinwa kwe-Bitcoin uthi "Akuwona okhiye bakho, akuzona
@@ -599,7 +599,7 @@ usiza ukusheshisa ukufunda futhi ukhuthaze ingxoxo enhle.
 
 UGaloy uphinde ahlele i-[Adopting Bitcoin: A Lightning Summit e-El Salvador](https://adoptingbitcoin.org/) ngoNovemba
 16 kuya ku 18 njengendlela eyengeziwe yokusekela ukutholwa kwe-Bitcoin nokugubha
-impumelelo yeqembu le-Bitcoin Bea0ch. Sithobekile ngokuba senkampanini yabantu
+impumelelo yeqembu le-Bitcoin Beach. Sithobekile ngokuba senkampanini yabantu
 abafana noJorge, Chimbera, Mike kanye nabanye abangenakubalwa abaphilise umbono
 womnotho oyindilinga we-Bitcoin.
 
