@@ -1,23 +1,33 @@
-# Welcome to Bitcoin, newcomers!
+---
+translators: 
+    - 
+        name: "Oladele Falese"
+        href: "https://twitter.com/olladave"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# Ẹkáàbọ̀ sí Bitkoini, ẹ̀yin tí ẹ n bẹ̀wá wò!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+Láti ọwọ́ Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Àwọn wọ̀n yín ni ohun tí ẹ ma n bèèrè jùlọ(FAQ):
 
-Q: Who should I trust?  
-A: **Nobody.**
+Ìbéèrè: Ìbéèrè: Tani kín fi ọkàn tán?  
+Èsì: **Kò sẹ́nìkan.**
 
-Q: When should I sell?  
-A: **Never.**
+Ìbéèrè: Nígbàwo ni ó yẹ kí n tàá?  
+Èsì: **Kí a má ri.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Ìbéèrè: Ṣé Bitkoini ń kú nítorí ______?  
+Èsì: **Rárá.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Ìbéèrè: Irú ètò wo ni mo ti ara mi bọ̀?  
+Èsì: **Kò sí ẹni tí ó mọ̀.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Ìbéèrè: Báwo ni mo ṣe lè kọ́ nípa rẹ̀ si?  
+Èsì: **A ní ọ̀pọ̀lọpọ̀ [àwọn àkóónú](/int/en/translations/).** Tàbí kí o lọ sí [lopp.net](https://www.lopp.net/bitcoin-information.html)

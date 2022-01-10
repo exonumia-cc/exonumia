@@ -1,108 +1,116 @@
-# Explain Bitcoin Like I’m Five
+---
+translators: 
+    - 
+        name: "Oladele Falese"
+        href: "https://twitter.com/Melanpso"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# Àlàyé Bitkoini bí ọmọ ọdún márùń
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+Láti ọwọ́ Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Tí ohun tí Bitkoini jẹ́ kò bá tí yé ẹ…
 
-We’re sitting on a park bench. It’s a great day.
+Ka wò wípé, a jọ jóko sí ibi ìgbafẹ́.
 
-I have one apple with me. I give it to you.
+Mo mún èso ápù kan dání. Mo wá fún ẹ ní èso náà.
 
-You now have one apple and I have zero.
+Níbáyìí ìwọ ti ní èso ápù kan, èmi sì ní òdo.
 
-That was simple, right?
+Ṣèbí, óyé ẹ?
 
-### Let’s look closely at what happened:
+### Jẹ́ kí a farabalẹ́ wo ohun tí ó ṣẹlẹ̀:
 
-My apple was physically put into your hand.
+A ò nílò ẹnì kẹta láti mu fún ara wa. 
 
-You know it happened. I was there. You were there. You touched it.
+A ò nílò láti pe Uncle Tommy (tí ó jẹ́ olókìkí adájọ́) láti jóko tí wa kí ó lè ri dájú pé èso ápù náà wá láti ọwọ́ mi sí tì ẹ.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Tì é ni èso ápù náà! Mi ò lè fún ẹ ni èso ápù míràn mọ́ torí mi ò ni ìmíì mọ́. Kò sí ní ìkáyọ́ mi mọ́. Èso ápù náà ti kúrò lọ́wọ́ mi pátápátá. Níbáyìí o ti ní gbogbo àṣẹ lórí èso ápù náà. Tí o bá fẹ́ o lè fún ọ̀rẹ́ rẹ, bẹ́ẹ̀ni ọ̀rẹ́ rẹ lè fún ọ̀rẹ́ ti rẹ náà pèlú. Àti bẹ́ẹ̀bẹ́ẹ̀lọ.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Nítorí bẹ̀ bi pàṣípàrọ̀ ojú kojú ṣe rí nì yẹn. Mo rò ó wípé bá kan náà lórí, bóyá ògẹ̀dẹ̀ ni mò ń fún ẹ ni, ìwé ni, bóyá ìdá mẹ́rin tàbí odindin owó dollar kan…
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Ṣùgbọ́n ó dà bi wípé mo tín kánjú.
 
-But I’m getting ahead of myself.
+### Ká padà sí orí ọ̀rò èso ápù!
 
-### Back to apples!
+Níbáyìí ká ní pé, mo ní èso ápù ti orí ẹ̀rọ kòmpútà. Mo ma fún ẹ ní èso ápù ti orí ẹ̀rọ kòmpútà ti tèmi.
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Ẹn o! Ibi awí ladé yìí. 
 
-Ah! Now it gets interesting.
+Dàárò fún ìṣéjú kan ná. Báwo ni o ṣe ma mọ̀ pé èso ápù ti orí ẹ̀rọ kòmpútà ti ó fi ìgbà kan jẹ́ tèmi, ti wá di tì ẹ àti pé ṣé tì ẹ nìkan ni?
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Ó ti ń dojúrú, àbí? Báwo ni o ṣe ma mọ̀ wípé mí ò tí kọ́kọ́ so èso ápù náà mọ́ àtẹ̀jíṣẹ́ lórí ayélujára sí Uncle Tommy? Tàbí sí Joe, ọ̀rẹ́ mìi tàbí sí Lisa ọ̀rẹ́ mìi náà?
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Bóyá mo sì ní àwọn àdàkọ sí orí ẹ̀rọ kòmpútà tèmi. Bóyá mo fi sí orí ayélujára tí àwọn ènìyàn mílíọ́nù ti gbàá sílẹ̀.
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Gẹ́gẹ́ bí o ti ri, pàṣípàrọ̀ ti orí ẹ̀rọ kòmpútà ó jẹ́ ìṣòro dí ẹ̀. Fí èso ápù ti orí ẹ̀rọ kòmpútà ránṣẹ́ kò dàbí ká fi èso ápù gangan ránṣẹ́.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Àwọn ọ̀jọ̀gbọ́n onímọ̀ ìjìnlẹ̀ ti kòmpútà kan tilẹ̀ ní orúkọ fún ìṣòro yìí. Òun ni wán pè ní ìṣòro ìnáwó onílọ́po méjì. Ṣùgbọ́n kò tó ìyọnu. Ǹkan tí mo fẹ́ ko mọ̀ ni wípé, ó ti tó ìgbà dí ẹ̀ tí ó ti ń rúwọn lójú. Síbẹ̀ wọn ò tí ri yanjú.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Títí di báyìí.
 
-Until now.
+Sùgbọ́n ẹ jẹ́ ka gbìyànjú fún rara wa láti wá ọ̀nà àbáyọ.
 
-But let’s try to think of a solution on our own.
+### Ìwé àkọsílẹ̀ t'ìnáwó
 
-### Ledgers
+Bóyá a ní láti ṣe àbójútó àwọn èso ápù ti orí ẹ̀rọ kòmpútà nínú ìwé àkọsílẹ̀ t’ìnáwó kan. Èyí jẹ́ ìwé tí a fi má n mójútó gbogbo ìdúnàdúrà wa - Ìwé ìsirọ́ owó.
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Ìwé àkọsílẹ̀ t'ìnáwó yìí, ní láti wà ní àyè ara ẹ̀, kí ó sì wà ní ìkápá ẹnìkan, níwọ̀n ìgbà tí ó jẹ́ ti orí ẹ̀rọ kòmpútà ni.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Kání, bi Blizzard, ilé iṣẹ́ tí wọ́n ṣẹ̀dá eré ìdárayá ti orí ayélujára tí a mọ̀ sí World of Warcraft, ni gbogbo àwọn idà inọ́ wan tí ó ṣọ̀wán tí wón ti ṣe láti láíláí nínú “ìwé àkọsílẹ̀ ti orí ẹ̀rọ kòmpútà” ti won. Ó da bẹ́ẹ̀! Báyìí a ti yanjú ẹ̀, Irú ènìyàn bí ti wọn èso ápù ti orí ẹ̀rọ kòmpútà wa.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+### Àwọn ìṣòro
 
-### Problems
+Bótilẹ̀jẹ́pé ìṣòro dí ẹ̀ wà:
 
-There’s a bit of a problem though:
+1) Tí èyàn kan láti ilé iṣẹ́ Blizzard wá lọ ṣe àwọn òmíràn si? Ó kọ̀ lè fi kún èso ápù ti orí ẹ̀rọ kòmpútà ti ẹ̀ tó ní sílẹ̀ nígbàkigbà tí ó bà wùú!
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+2) Kò dà bí ìgbà tí a jọ jókòó ní ọjọ́ kìníí ànọ́. Nígbà yẹn, èmi àti ìwọ nìkan ni. Lílọ nípasẹ̀ Blizzard dà bi pé a lọ mú Uncle Tommy (ẹnì kẹta) kúro ní ilé ẹjọ́ (ṣé mo sọ fún ẹ pé olókìkí ni) láti wá dásí gbogbo ìdúnàádúrà tí a bá ṣe lójúkojú. Báwo ni mo ṣe lè fún ẹ ní èso ápù ti orí ẹ̀rọ kòmpútà bí, ṣo mọ̀ - ìgbà tí à ń fún ra wa ní ojúkojú?
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+> ǹjẹ́ ọ̀nà tilẹ̀ wà tó fẹ́ farapẹ́ ìdúnàádúrà ìjóòkó tèmi n'tìrẹ lórí ẹ̀rọ kòmpútà bí? Ìyẹn fẹ́ le dí ẹ̀…
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+### Ònà Àbáyọ Náà
 
-### The Solution
+Ká wá ní ati pín ìwé àkọsílẹ̀ t’ìnáwó yìí- fún gbogbo ènìyàn? Kàkà kí ìwé àkọsílẹ̀ t’ìnáwó náà wà ní orí kòmpútà Blizzard nìkan, ó ma wà ni orí  kòmpútà gbogbo ènìyàn.  Gbogbo ìdúnàádúrà  èso ápù ti orí ẹ̀rọ kòmpútà tí ó ti ṣẹlẹ̀ rí láti ìbẹ̀rẹ̀ pẹ̀pẹ̀ wá ni ó ma wà ní kíkọ sílẹ̀ nínú ẹ̀.
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Kò ṣé yàn jẹ. Mi ò lè fi èso ápù ti orí ẹ̀rọ kòmpútà tí mi ò ní ránṣẹ́ sí ẹ, nítorí ètò náà kò ní ṣiṣẹ́ papọ̀ pẹ̀lú ti gbogbo àwọn ènìyàn tókù. Á le láti ṣèrú pèlú ẹ̀. Á jẹ́ ètò tó le láti lé bá. Pàápàá tí ó ba tóbi gan.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Pẹ̀lú kò kín ṣe èyàn kan ló n ṣe àkóso ẹ̀, nítorí bẹ̀, mo mọ̀ pé kò sí ẹni kẹ́ni tí ò kàn lè pinnu láti fún ra ẹ̀ ní  èso ápù ti orí ẹ̀rọ kòmpútà si. Àti ìbẹ̀rẹ̀ ni wọ́n ti sọ òfin ètò náà sílẹ̀. Àti pé ìlànà àti òfin ẹ̀ wà ní àrọ́wọ́tó gbogbo àwọn akọètò. 
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Ó wà níbẹ̀ fún àwọn olóye láti fi ti wọn kun, ṣètọ́jú ẹ̀, dá ààbò òó, mu dára si, àti láti bójúto. Ìwọ náà lè kópa nínú ètò yí, kí o mú ìwé àkọsílẹ̀ t’ìnáwó dé ojúìwọ́n àti kí gbogbo ẹ̀ má a ṣe dede, o lè rí èso  áruńdílọ́gbọ̀n ti orí ẹ̀rọ kòmpútà  bí èrè. Ní pàtó, nínú ètò náà ọ̀nà kan ṣoṣo tí ó wa làti ṣe àwọn èso ápù ti orí ẹ̀rọ kòmpútà míràn sílẹ̀ nìyẹn.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+### Mo mu rọrùn dí ẹ̀
 
-### I simplified quite a bit
+… ṣùgbọ́n ètò tí mo ṣàlàyé yìí wà. Òhun ni à ń pè ní ìlànà Bitkoini. Bẹ́èni àwọn èso ápù ti orí ẹ̀rọ kòmpútà ni “bitcoin” tó wà nínú ètò náà
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+Nítoríbẹ̀, ṣé o rí nkan tí ó ṣẹlẹ̀? Kíni Ìwé àkọsílẹ̀ t’ìnáwó ti gbangban gbà láàyé?
 
-So, did you see what happened? What does the public ledger enable?
+1) Ṣé o rántí pé ìlanà ètò ẹ̀ wà ní àrọ́wọ́tọ́ gbogbo ènìyàn? Gbogbo oye èso ápù náà lápapọ̀ tí ó wà nínú ìwé àkọsílẹ̀ t’ìnáwó gbangba ni wọ́n ti sọ láti ìbẹ̀rẹ̀. Mo mọ iye gangan tí ó wà. Mo mọ̀ wípé oye tó wà nínú ètò náà kò pọ̀.
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+2) Tí mo bá ṣe pàsípàrọ̀ mo ti mọ̀ báyìí wípé èso ápù ti orí ẹ̀rọ kòmpútà tí ó kúrò ní ìkáwọ́ mi ti di tì ẹ pátápátá. Tẹ́lẹ̀ mi ò kín lè sọ nípa àwọn ǹkan bẹ́ẹ̀. Ìwé àkọsílẹ̀ t’ìnáwó gbangba ni ó ma mu dójúìwọ̀n àti láti rí dájú.
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+3) Nítorí pé ó jẹ́ ìwé àkọsílẹ̀ t’ìnáwó gbangba, mi ò nílo Uncle Tommy láti rí pé mi ò ṣe èrú tàbí tẹ díẹ̀ si fúnramí tàbí fi ránṣé lẹ́mẹ̀jì tàbí lẹ́mẹta…
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+    Nínú ètò náà, pàṣípàrọ̀ èso ápù ti orí ẹ̀rọ kòmpútà ti wà dàbí ti ojúkojú. Àfi bí wípé mo mú èso ápù gangan láti ọwọ́ mi si inú àpò ẹ. Àti bí ti ìgbà tí ajọ jókó sí ibi ìgbafẹ́, pàṣípàrọ̀ náà wáyé ní àrín ènìyàn méjì péré. Ìwọ àti èmi- a ò nílò Uncle Tommy níbẹ̀ láti báwa fi òntẹ̀ tẹ̀ ẹ́.
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+Ní ọ̀rọ̀ kan, ó dàbí ǹkan tí a lè fi ojú rí.
 
-In other words, it behaves like a physical object.
+Ṣùgbọ́n, ṣé ẹ mọ ǹkan tí ó dára níbẹ̀? Ti orí ẹ̀rọ kòmpútà náà ṣì ni. A lè ma wá ma sòwò pẹ̀lu ẹgbẹ̀rún èso ápù tàbí ní mílíọ́nù kan ápù, tàbí pàápàá ní ápù tí ó kéré sí ẹyọ̀kan. Mo lè fi ránṣẹ́ ní ìṣẹ́jú àáyá, mo tún le fi sínú àpò orí ẹ̀rọ kòmpútà ẹ, bóyá mo wà ní orílẹ̀-èdè Nicaragua tí ìwọ dẹ̀ wà ní ìlú New York.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Mo ti ẹ tún lè jẹ́ kí àwọn ǹkan ti orí ẹ̀rọ kòmpútà ìmíì gbáralé àwọn èso ápù ti orí ẹ̀rọ kòmpútà wònyí! Ti orí ẹ̀rọ kòmpútà kúkú ni. Bóyá mo lè so ọ̀rọ̀ tí mo kọ mọ tàbí bóyá kí n so àwọn ǹkan pàtàkì òmíràn mọ; bí ìwé àdéhun, tàbí ìwé-ẹ̀rí ìṣura, tabi ìwé ìdánimọ̀.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Nítorínà èyí dára púpọ̀! Báwo ni a ṣe maṣe mọ ọwọ́ tí a fi mú tàbi mọ iye tí a ma gbélé àwọn “èso ápù ti orí ẹ̀rọ kòmpútà” yìí? Wọ́n wúlò púpọ̀, àbí bẹ́ẹ̀kọ́?
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Ọ̀pọ̀lọpọ̀ àwọn ènìyàn ló ń jiyàn lórí ẹ̀ bàyìí. Àríyànjiyà náà ń lọ l’àárín oríṣiríṣi àwọn onímọ̀ ti ọrọ̀ ajé. L’àárín àwọn olóṣèlú. L’àárín àwọn akọètò ẹ̀rọ kòmpútà. O nílò láti tẹ́tí sí wọn. Àwọn kan ní ọgbọ́n. Wọ́n ti ṣi àwọn kan lọ́nà. Àwọn kan sọ wípé ètò náà gbé oye lórí gan, bẹ́ẹ̀ni àwọn sọ wípé kò já mọ́ ǹkankan. Ẹnìkan ti ẹ̀ fi oye kan pàtó si: ó ní èso ápù kan jẹ́ ẹgbẹ̀rún lọ́nà ọgọ́rùń dọ́là. Àwọn kan sọ wípé wúrà orí ẹ̀rọ kòmpútà ni, àwọn kan ní owó ni. Àwọn kan náà tún ní ó dàbí òdòdó. Àwọn kan ní ó ma yí ayé yìí padà. Àwon kan náà ní kò lè pẹ́, á tó kúrò nílẹ̀.
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Mo ní èrò tèmi nípa ẹ̀.
 
-I have my own opinion about it.
-
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Ìyẹn dẹ̀ di ọ́jọ míràn. Sùgbọ́n ní báyìí, o ti mọ̀ nípa Bitkoini ju ti tẹ́lẹ̀ lọ.
 
 #### Recommend Reading (Updated 2017)
 
