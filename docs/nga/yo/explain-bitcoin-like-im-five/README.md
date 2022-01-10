@@ -5,8 +5,8 @@ translators:
         href: "https://twitter.com/Melanpso"
 supporters: 
     - 
-        name: "HRF"
-        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
 ---
 # Àlàyé Bitkoini bí ọmọ ọdún márùń
 
