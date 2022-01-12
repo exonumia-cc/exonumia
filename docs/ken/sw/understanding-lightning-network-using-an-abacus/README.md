@@ -1,40 +1,62 @@
-# Understanding Lightning Network using an Abacus
+# Kuelewa Mtandao wa Umeme kwa kutumia na Abacus
 
 by Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
 
 <LanguageDropdown/>
 
 
-I’ve received a lot of positive feedback following my previous article, [Lighting Network is the Future of Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). However, while reading some of the feedback, it became clear to me that some people don’t fully understand how Lightning Network (LN) actually works. In this article, I will try to demystify the concept behind LN and its payment channels using an abacus analogy, without getting into the technical specifics of LN implementation.
+Nimepokea maoni mengi chanya kufuatia nakala yangu iliyopita, Mtandao wa Taa ndio
+Mustakabali wa Bitcoin. Hata hivyo, nikisoma baadhi ya maoni, ilinidhihirikia hilo baadhi ya watu
+hawaelewi kikamilifu jinsi Mtandao wa Umeme (LN) unavyofanya kazi. Katika hili makala,
+nitajaribu kufichua dhana ya LN na njia zake za malipo kwa kutumia mlinganisho wa abacus, bila
+kuingia katika maelezo ya kiufundi ya utekelezaji wa LN.
 
-This is an abacus:
+Hii ni abacus:
 
 ![](./abacus.png)
 
-Now, think of an [LN’s payment channel](https://cointelegraph.com/explained/lightning-network-explained#block-5) like one wire of an abacus, where the beads represent the bitcoins inside the channel. When Alice and Bob create a payment channel between them, Alice deposit bitcoins from the Blockchain inside the channel. For now, these bitcoins (e.g. 10 bits or 0.00001 BTC) belong to Alice. In this example, each bead equals one bit:
+Sasa, fikiria [njia ya malipo ya LN](https://cointelegraph.com/explained/lightning-network-explained#block-5) kama waya moja ya abacus, ambapo shanga kuwakilisha bitcoins
+ndani ya chaneli. Alice na Bob wanapounda kituo cha malipo kati yao, Alice huweka bitcoins
+kutoka kwa Blockchain ndani ya chaneli. Kwa sasa, hizi bitcoins (k.m. biti 10 au 0.00001 BTC) ni
+mali ya Alice. Katika mfano huu, kila shanga ni sawa kidogo:
 
 ![](./alice-bob-1.png)
 
-An abacus wire and a payment channel have shared characteristics:
+Waya ya abacus na kituo cha malipo vina sifa zinazoshirikiwa:
 
-- **Bidirectional:** like beads on an abacus wire can be moved from left to right and vice-versa, bitcoins can be moved from Alice to Bob and vice-versa.
-- **Ownership:** in an abacus, beads can be either on the left or on the right, never in the middle of a wire. In the same manner, bitcoins in a payment channel can either belong to Alice or Bob.
-- **Fixed:** similar to the way beads cannot be added or removed from a wire, Alice and Bob can exchange bitcoins between them, up to the number that was set when opening the payment channel. If they want to exchange a larger number of bitcoins, they will have to perform another on-chain transaction.
+- **Mielekeo miwili:** kama ushanga kwenye waya wa abacus unaweza kuhamishwa kutoka kushoto
+kwenda kulia na kinyume chake, bitcoins zinaweza kuhamishwa kutoka Alice hadi Bob na
+kinyume chake.
+- **Umiliki:** kaƟka abacus, shanga zinaweza kuwa upande wa kushoto au kulia, kamwe kaƟka
+katikati ya waya. Vivyo hivyo, bitcoins kwenye njia ya malipo zinaweza pia mali ya Alice au Bob.
+- **Imewekwa:** sawa na njia ya shanga haiwezi kuongezwa au kuondolewa kutoka kwa waya, Alice
+na Bob anaweza kubadilishana bitcoins kati yao, hadi nambari ambayo iliwekwa wakati kufungua
+njia ya malipo. Ikiwa wanataka kubadilishana idadi kubwa ya bitcoins, watalazimika kufanya
+shughuli nyingine ya mtandaoni.
 
-This is how the payment channel looks like after Alice sends 2 bits to Bob:
+Hivi ndivyo njia ya malipo inavyoonekana baada ya Alice kutuma biti 2 kwa Bob:
 
 ![](./alice-bob-2.png)
 
-Alice now has 8 beads and Bob has 2 beads. Now, let’s say that Bob is also connected in LN to Carol using a 10 bit payment channel:
+Alice sasa ana shanga 8 na Bob ana shanga 2. Sasa, hebu tuseme kwamba Bob pia ameunganishwa
+katika LN kwa Carol kwa kutumia njia ya malipo ya biti 10:
 
 ![](./alice-bob-carol-1.png)
 
-With LN, Alice can pay Carol via Bob. In the abacus analogy, if Alice wants to send 2 bits to Carol, she moves 2 beads in Alice-Bob wire to the right (to Bob), and Bob moves 2 beads in Bob-Carol wire to the right (to Carol). This is how it looks like after Alice sends Carol 2 bits:
+Akiwa na LN, Alice anaweza kumlipa Carol kupitia Bob. Katika mlinganisho wa abacus, ikiwa Alice
+anataka kutuma bits 2 kwa Carol, anasogeza shanga 2 kwenye waya wa Alice-Bob kwenda kulia
+(kwa Bob), na Bob anasogeza shanga 2 ndani Bob-Carol waya kulia (kwa Carol). Hivi ndivyo
+inavyoonekana baada ya Alice kutuma Carol 2 bits:
 
 ![](./alice-bob-carol-2.png)
 
-It’s important to mention that if Bob agrees to participate in this transaction, he can’t accept Alice’s beads without moving the same number of beads to Carol.
+Ni muhimu kutaja kwamba ikiwa Bob anakubali kushiriki katika shughuli hii, hawezi kukubali shanga za
+Alice bila kuhamisha idadi sawa ya shanga kwa Carol.
 
-Using the abacus analogy, it’s easy to explain the nature of off-chain LN transactions in general, and specifically what are the requirements a payment channel needs to meet in order to process a transaction. For example, it’s easy to see how Alice can’t send Carol more beads than Bob can handle. Then again, maybe in the future she would be able to do it using [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), but that’s a story for another article…
+Kwa kutumia mlinganisho wa abacus, ni rahisi kueleza asili ya shughuli za LN za nje ya mnyororo
+katika jumla, na hasa ni mahitaji gani ambayo kituo cha malipo kinahitaji kutimiza ili kushughulikia
+muamala. Kwa mfano, ni rahisi kuona jinsi Alice hawezi kutuma Carol shanga nyingi kuliko Bob
+anaweza kushughulikia. Halafu tena, labda katika siku zijazo angeweza kuifanya kwa kutumia
+[AMP](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), lakini hiyo ni hadithi ya makala nyingine...
 
-**If you found this article helpful, please don’t forget to add claps (long press to add multiple claps) and share it.**
+**Ikiwa umepata nakala hii kuwa ya msaada, tafadhali usisahau kuongeza makofi (bonyeza kwa muda mrefu ili kuongeza makofi mengi) na ushiriki.**
