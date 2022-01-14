@@ -4,7 +4,7 @@ To donate to the Exonumia project reach out to us on Twitter [@Exonumia280](http
 
 ## Bitcoin Onchain Donations
 
-Or feel free to send some Bitcoins to bc1qp56rj355t8x8x89skr46gjxwqed57je6wwlxz7.
+Or feel free to send some Bitcoins to bc1qlhqyrl59pu74m76jke0vx9j0crrpvc3ety2kqd.
 
 ## Patreon
 
