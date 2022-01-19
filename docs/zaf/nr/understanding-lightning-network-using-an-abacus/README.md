@@ -1,40 +1,69 @@
-# Understanding Lightning Network using an Abacus
+# Ukuzwisisa i-Lightning Network ngokusebenzisa i-Abacus (ifremu yokubala)
 
-by Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
+ngo Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
 
 <LanguageDropdown/>
 
 
-I’ve received a lot of positive feedback following my previous article, [Lighting Network is the Future of Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). However, while reading some of the feedback, it became clear to me that some people don’t fully understand how Lightning Network (LN) actually works. In this article, I will try to demystify the concept behind LN and its payment channels using an abacus analogy, without getting into the technical specifics of LN implementation.
+Sengithole umbiko obuyako omnengi omuhle ngemva komtlolo-ndaba omfitjhani wami wesihloko esithi,
+Lightning Network is the Future of Bitcoin (Inethiwekhi emsinya ilikusasa le-Bitcoin). Kodwana, ngithe
+ngisafunda eminye yombiko obuyako, kubonakele kimi ukuthi abantu abanye abazwisisi ngokuzeleko
+ukuthi isebenza njani i-Lightning Network (LN) kuhle kuhle. Kulo mtlolo-ndaba omfitjhani, ngizokulinga
+ukuhlathulula ihloso ye-LN neendlela zayo zokubhadala ngokuberegisa isifaniselano se-abacus,
+ngaphandle kokungenelela khulu ekuphumelelisweni ngokwehlelo elibekiweko le-LN elinqophileko.
 
-This is an abacus:
+Le yi-Abacus:
 
 ![](./abacus.png)
 
-Now, think of an [LN’s payment channel](https://cointelegraph.com/explained/lightning-network-explained#block-5) like one wire of an abacus, where the beads represent the bitcoins inside the channel. When Alice and Bob create a payment channel between them, Alice deposit bitcoins from the Blockchain inside the channel. For now, these bitcoins (e.g. 10 bits or 0.00001 BTC) belong to Alice. In this example, each bead equals one bit:
+Manjesi, cabanga umsele wokubhadala we-LN njengedarada yinye ye-abacus, lapho umncamo ujamele
+i-bitcoin engaphakathi komsele.
+U-Alice bano-Bob nabavula ihlelo lokubhadala phakathi kwabo, u-Alice ufaka ama-bitcoin abuya kwi-
+Blockchain (irekhodi lokuthengiselana) ngaphakathi kwehlelo. Okwanjesi, ama-bitcoins la (isb. ama-bits
+ayi-10 nanyana i- 0.00001 BTC) ngewaka-Alice. Kulesi sibonelo, umncamo ngamunye ulingana necezu
+linye:
 
 ![](./alice-bob-1.png)
 
-An abacus wire and a payment channel have shared characteristics:
+Idarada ye-abacus kunye nehlelo lokubhadala zinemikghwa efanako:
 
-- **Bidirectional:** like beads on an abacus wire can be moved from left to right and vice-versa, bitcoins can be moved from Alice to Bob and vice-versa.
-- **Ownership:** in an abacus, beads can be either on the left or on the right, never in the middle of a wire. In the same manner, bitcoins in a payment channel can either belong to Alice or Bob.
-- **Fixed:** similar to the way beads cannot be added or removed from a wire, Alice and Bob can exchange bitcoins between them, up to the number that was set when opening the payment channel. If they want to exchange a larger number of bitcoins, they will have to perform another on-chain transaction.
+- **Iberega amahlangothi wombili:** njengoba umncamu edaradeni ye-abacus ukghona ukutjhidela
+kwesincele uye kwesokudla uphinde kodu usuke kwesokudla uye kwesincele, ama-bitcoin nawo
+ayakgona ukusuka ku-Alice adlulele ku-Bob bese asuke ku-Bob adlulele ku-Alice.
+- **Ubunikazi:** kwi-abacus, umncamu ungaba kwesincele namkha kwesokudla, ngeze wawuthola uhleli
+phakathi wedarada. Ngokufanako, ama-bitcoin asehlelweni lokubhadala angaba ngewaka-Alice namkha
+u-Bob.
+- **Aqinisweko:** njengokufana nomcamu awungezeleleki namkha ususwe edaradeni, u-Alice bano-Bob
+bayakghona ukutjhintjhelana ama-bitcoin phakathi kwabo, ukufikela enomborweni ebekiweko
+nabathoma ukuvula ihlelo lokubhadala. Nakibe bafuna ukutjhintjhelana inomboro ekhudlwana yama-
+bitcoin, kuyofanele ukuthi benze ukuthengiselana okunye kwe-on-chain.
 
-This is how the payment channel looks like after Alice sends 2 bits to Bob:
+Le yindlela ihlelo lokubhadala lingakhona ngemva kokuthi u-Alice athumele amacezu ayi-2 ku-Bob:
 
 ![](./alice-bob-2.png)
 
-Alice now has 8 beads and Bob has 2 beads. Now, let’s say that Bob is also connected in LN to Carol using a 10 bit payment channel:
+Kwanjesi u-Alice unemincamu eyi-8 bese u-Bob unemincamu eyi-2. Nje, asithi u-Bob naye uhlangene ne-
+LN ku-Carol asebenzisa ihlelo lokubhadala le-10 bit:
 
 ![](./alice-bob-carol-1.png)
 
-With LN, Alice can pay Carol via Bob. In the abacus analogy, if Alice wants to send 2 bits to Carol, she moves 2 beads in Alice-Bob wire to the right (to Bob), and Bob moves 2 beads in Bob-Carol wire to the right (to Carol). This is how it looks like after Alice sends Carol 2 bits:
+Nge-LN, u-Alice uyakghona ukubhadala u-Carol ngo-Bob. Esifanisweni se-abacus, nakibe u-Alice ufuna
+ukuthumela amacezu ayi-2 ku-Carol, ususa imincamu eyi-2 edaradeni ka-Alice-Bob ayise ngesokudla (ku-
+Bob), bese u-Bob ususa imincamu eyi-2 edaradeni ka-Bob-Carol ngesokudla (ku-Carol). Le yindlela
+eqaleka ngakhona ngemva kokuthi u-Alice athumele amacezu ayi-2 ku-Carol:
 
 ![](./alice-bob-carol-2.png)
 
-It’s important to mention that if Bob agrees to participate in this transaction, he can’t accept Alice’s beads without moving the same number of beads to Carol.
+Kubalulekile ukutjho ukuthi nangabe u-Bob uyavuma ukuhlanganyela kulokhu kuthengiselana, akakwazi
+ukwamukela imincamu ka-Alice ngaphandle kokukhambisa inomboro efanako ku-Carol.
 
-Using the abacus analogy, it’s easy to explain the nature of off-chain LN transactions in general, and specifically what are the requirements a payment channel needs to meet in order to process a transaction. For example, it’s easy to see how Alice can’t send Carol more beads than Bob can handle. Then again, maybe in the future she would be able to do it using [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), but that’s a story for another article…
+Ngokuberegisa isifaniselano se-abacus, kulula ukuhlathulula imvelo yokuthengiselana ye-off-chain LN
+ngokuvamileko, begodu khulukhulu ngikuphi okufunekako okufanele ihlelo lokubhadala libenakho ukuze
+likwazi ukuthengiselana. Ngesibonelo, kulula ukubona ukuthi u-Alice ngeze akghona ukuthumela u-
+Carol imincamu eminengi endlula le U-Bob angakghona ukuyiphatha. Bese godu, mhlambe ekuyeni
+kwesikhani uzokghona ukukwenza lokhu ngokusebenzisa ama-[AMP](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), kodwana leyo yindaba yomtlolo-
+ndaba omfitjhani omunye...
 
-**If you found this article helpful, please don’t forget to add claps (long press to add multiple claps) and share it.**
+**Nangabe, ufumane umtlolo –ndaba omfitjhani lo ulirhelebho, ngibawa ungalibali ukungezelela
+ukubetha izandla (gandelela isikhatjhana ukuze ukwazi ukungezelela ukubetha izandla kanenginengi )
+bese wabelane yona.**
