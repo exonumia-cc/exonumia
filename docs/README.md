@@ -56,6 +56,12 @@ contributors: false
 
 ---
 
+**[🇸🇴 Somalia](/som/)**
+
+[Somali](/som/so/)   
+
+---
+
 **[🇿🇦 South Africa](/zaf/)**
 
 [IsiNdebele](/zaf/nr/)  

@@ -124,6 +124,12 @@ module.exports = {
             title: 'Exonumia',
             selectLanguageName: '🇳🇬 Yoruba'
         },
+        '/som/so/': {
+            lang: 'so',
+            group: '🇸🇴 Somalia',
+            title: 'Exonumia',
+            selectLanguageName: '🇸🇴 Somali'
+        },
         '/zaf/st/': {
             lang: 'st',
             group: '🇿🇦 South Africa',
@@ -891,6 +897,71 @@ module.exports = {
                     },
                     '/nga/yo/contribution-guide/',
                     '/nga/yo/contact/'
+                ],
+            },
+            '/som/so/': {
+                lastUpdatedText: "Markii ugu dambeysay ee la cusbooneysiiyay",
+                supportersText: "Taageerayaasha",
+                translatorsText: "Turjubaanad",
+                selectLanguageText: '🇸🇴 Luuqadaha',
+                selectLanguageName: '🇸🇴 Somali',
+                freelyAvailableTranslationsText: '🇸🇴 Tarjumaadaha bilaashka ah ee la heli karo',
+                label: 'Somali',
+                selectLanguageAriaLabel: 'Luuqadaha',
+                editLinkText: 'Hagaajinta waxa ku jira',
+                continueReading: true,
+                continueReadingText: 'Sii wad akhriska',
+                navbar: [
+                    { 
+                        text: 'Guri', 
+                        link: '/som/so/' 
+                    },
+                    { 
+                        text: 'Tarjumaad', 
+                        link: '/som/so/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/som/so/about/',
+                    {
+                        text: 'Tarjumaad',   // required
+                        link: '/som/so/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/som/so/',
+                            '/som/so/explain-bitcoin-like-im-five/',
+                            '/som/so/bitcoin-is-like/',
+                            '/som/so/bitcoin-is-like-sports/',
+                            '/som/so/understanding-lightning-network-using-an-abacus',
+                            '/som/so/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/som/so/museum/bitcoin-v0.1-released/',
+                            '/som/so/museum/re-bitcoin-v0.1-released/',
+                            '/som/so/i-am-hodling/',
+                            '/som/so/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                        ]
+                    },
+                    {
+                        text: 'Buugaag',   // required
+                        link: '/som/so/books/',
+                        children: [
+                            '/som/so/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Qalab',
+                        link: '/som/so/tools/'
+                    },
+                    {
+                        text: 'Mashaariicda turjumaadda',   // required
+                        link: '/som/so/open-source-translation-projects/',
+                        children: [
+                            '/som/so/transifex/bitcoin-core/',
+                            '/som/so/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/som/so/contribution-guide/',
+                    '/som/so/contact/'
                 ],
             },
             '/zaf/nr/': {
