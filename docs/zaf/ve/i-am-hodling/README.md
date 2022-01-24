@@ -1,19 +1,43 @@
-# I AM HODLING
+---
+translators: 
+    - 
+        name: "Molewa Phathutshedzo"
+        href: "https://twitter.com/pha2niser"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# NDO FARA
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+nga GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Ndo thaipha thoho luvhili ngauri ndo zwiḓivha uri a si zwone ubva mathomoniI. Zwi kha ḓivha
+zwo khakheaho. Na hone zwo lungwa.  
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+GF's nnḓa ha bara ya vhafunani vha vhafumakadzi, mutengo wa Bitcoin u khou tsa. ZWINO
+NDI NGANI NDO FARA? NDI ḒO NI VHUDZA URI NDINGANI.
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+Ndi ngauri a thi koni u renigsa na NA URI NDI A ZWIḒVHA URI A HTI KONI U RENGISA. Ndi
+zwone vhoiwe vharengisi vha konaho vha kona u vhona u gonya na utsa pit pat piffy wing wong
+wang uya ngauralo na u ita miḽioni dza masheleni a huna thaidzo bro.  
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Ngauralo vha zwanḓa zwi songo khwaṱhaho vha mbo ḓiri HAI A IYI FHASI VHA MBO ḒI
+RENGISA, he he he vha dovha hafhu vhari MUDZIMU! NYESE WANGA musi vharengisi
+VHOṰALIFHAHO vhane VHA ḒIVHA ZWINE VHA KHOU ITA vha tshi renga murahu ngomu,
+fhedzi ni a ḓivha ndi mini? A thiho tshipiḓa tsha tshigwada . Musi vharengisi vha tshi renga
+murahu nne ndivha ndo novha kha tshipiḓa tsha masheleni a makete zwino ZWINO
+HUMBULANI URI NI KHOU FHURA NNYI vharengisi vha ḓuvha HAI NNE~!  
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Iḽa milaedza ya u goḓa ine yari “AH NOVHA NO TEA NO RENGISA” EE NDI MATSHIMBA.
+HAI NDI MATSHIMBA HU TEA NDO RENGISA. NDOVHA NDO TEA NDO RENGISA TSHI
+SAATHU U SWIKA TSHA U RENGISA HOṰE NA U RENGA FHEDZI NI A ḒIVHA URI NDI
+MINI A SI VHATHU VHOṰHE VHO ṰALIFHAHO SA INWI.  
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Ni nga rengisa kha makete muthihi kharali ni murengisi wa makone wa ḓuvha kana sa mutambi
+muswa. Vhathu vhare vhukati ha u fara.  
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Kha mutambo wa zero-sum sa izwi, vharengisi vhan nga kona u dzhia tshelede yanu kharali no
+rengisa.

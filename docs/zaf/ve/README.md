@@ -1,23 +1,33 @@
-# Welcome to Bitcoin, newcomers!
+---
+translators: 
+    - 
+        name: "Molewa Phathutshedzo"
+        href: "https://twitter.com/pha2niser"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# Vhathu vhaswa vho ṱanganezwa kha Bitcoin!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+nga Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Mbudziso dzi dzulelaho u fhudziswa khedzi:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Q: Vha nga fulufhela nnyi?  
+A: **A huna.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Vha rengise lini?  
+A: **Vha so ngo vhuya vha thoma..**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Iyi Bitcoin i khou fa nga nṱhani ha ____?  
+A: **Hai.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Ndo ḓi dzhenisa kha mini?  
+A: **A huna ane a ḓvha.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/zaf/ve/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Q: Ndi nga guda zwinzhi hani?  
+A: **Ri na [lupfumo lu fushaho hafha](/zaf/ve/translations/).** Kana vha dalele [lopp.net](https://www.lopp.net/bitcoin-information.html)
