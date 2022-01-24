@@ -26,7 +26,7 @@ Q: Iyi Bitcoin i khou fa nga nṱhani ha ____?
 A: **Hai.**
 
 Q: Ndo ḓi dzhenisa kha mini?  
-A: **A huna ane a ḓvha.**
+A: **A huna ane a ḓivha.**
 
 
 Q: Ndi nga guda zwinzhi hani?  

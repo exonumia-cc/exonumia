@@ -14,7 +14,7 @@ nga GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-Ndo thaipha thoho luvhili ngauri ndo zwiḓivha uri a si zwone ubva mathomoniI. Zwi kha ḓivha
+Ndo thaipha thoho luvhili ngauri ndo zwiḓivha uri a si zwone ubva mathomoni. Zwi kha ḓivha
 zwo khakheaho. Na hone zwo lungwa.  
 
 GF's nnḓa ha bara ya vhafunani vha vhafumakadzi, mutengo wa Bitcoin u khou tsa. ZWINO

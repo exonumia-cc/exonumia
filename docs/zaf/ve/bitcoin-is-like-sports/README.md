@@ -14,8 +14,8 @@ nga @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/134
 
 <LanguageDropdown/>
 
-Tshifinga tshnzhi ndo ṱalutshedza nga ha uri #bitcoin i shuma hani na uri i hashiwa ndila ya
-mitambo. Ndoi wana uri I thusa nga maanḓa mbudziso dzo ḓoweleyaho:
+Tshifhinga tshinzhi ndo ṱalutshedza nga ha uri #bitcoin i shuma hani na uri i hashiwa nga nḓila
+ya mitambo. Ndo i wana uri I thusa nga maanḓa mbudziso dzo ḓoweleaho:
 
 Q: Ndi nnyi o thomaho bola ya milenzhe?  
 A: A si zwa ndeme. Muthu munwe na munwe kha dzhango a nga tamba. A si zwa ndeme zwa
@@ -29,12 +29,12 @@ phointhi dzi songo teaho, ri a murwisa nga muya.
 
 Q: Ri ḓivha hani uri milayo a i nga shanduki?  
 A: Roṱhe ro tendelana musi ri tshi thoma u tamba na uri ane a ṱoḓa u isa phanḓa na u tamba
-nga tevhedza milayo u ḓisa phanḓa na uri kharali munwe a tshi ṱoḓa u shandukisa u ḓo tea u ḓo
+nga tevhedza milayo u ḓisa phanḓa na uri kharali munwe a tshi ṱoḓa u shandukisa u ḓo
 tea u tamba hunwe fhethu.
 
 Q: Ndi nga si hekhiwe?  
 A: Zwithu zwoṱhe zwi khagala. Roṱhe ri a kona u vhona mudavhi woṱhe na zwikoro zwoṱhe.
-Kharali muwne a wanala a khou fhurela ri ḓo dzwiḓivha ra muvhudza uri a ṱuwe.
+Kharali muwne a wanala a khou fhurela ri ḓo zwi ḓivha ra muvhudza uri a ṱuwe.
 
 Q: Ndi ngani zwi zwa ndeme?  
 A: Roṱhe ro khetha u tamba , zwino ndi zwa ndeme kha kha rine. Kharali muthu a tshi ṱoḓa
@@ -43,9 +43,9 @@ dzhenelela, u ḓo tea tendelana na u ḓivha phointhi dzashu na vhundeme.
 Ndi zwi dzhiela nzhele zwino zwi na vhundeme. Vhundeme vhu a khetha.
 
 Q: A inga thivheliwi?  
-A: Ṱhamusi, fhedzi ndi vhathu vhanwe vhane vhatamba nga thanda na bola, I sa huvhadzi
+A: Ṱhamusi, fhedzi ndi vhathu vhanwe vhane vhatamba nga thanda na bola, i sa huvhadzi
 munwe muthu, zwino muvhuso u nga thivhela u i tamba, fhedzi u nga si kone u thivhela urwa
-bola nga thanda, mutambo u ḓo bvelaphanḓa hunwe fhethu.s
+bola nga thanda, mutambo u ḓo bvelaphanḓa hunwe fhethu.
 
 Q: Ndi zhenelele?  
 A: Itani zwine na funa. Ndi khou ḓiphina nga u tamba bola ya milenzheIe, ni nga dzhenelela
