@@ -1,7 +1,7 @@
 ---
 translators: 
     - 
-        name: "Better Langauge Company"
+        name: "Better Language Company"
         href: "https://www.blc.co.za"
 supporters: 
     - 
