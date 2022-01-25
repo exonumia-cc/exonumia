@@ -30,4 +30,4 @@ A: **Qofna ma yaqaanno.**
 
 
 Q: Sidee baan more bartaan?  
-A: **Waanu heysana [wealth of content here](/int/en/translations/).** Mase booqan kartaa [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **Waanu heysana [wealth of content here](/som/so/translations/).** Mase booqan kartaa [lopp.net](https://www.lopp.net/bitcoin-information.html)
