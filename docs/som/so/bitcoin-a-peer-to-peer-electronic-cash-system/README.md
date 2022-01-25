@@ -1,109 +1,289 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+---
+translators: 
+    - 
+        name: "Better Langauge Company"
+        href: "https://www.blc.co.za"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Bitcoin: Habka Lacagta Kaashka Ah Ee Peer-Ka
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+waxaa qoray Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Abstrees
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Nooca is-af-abuurka ah ee kaashka ah ee kaashka elektiroonigga ah ayaa u oggolaanaya
+lacagaha internetka in si toos ah loogu diro qaybo ka mid ah dhinac kale iyada oo aan la marin
+hay'ad maaliyadeed. Saxiixyada Dijital ah waxay bixiyaan qayb ka mid ah xalka, laakiin
+faa'iidooyinka ugu weyn ayaa lumaya haddii dhinac saddexaad oo aamin ah uu wali looga
+baahan yahay inuu ka hortago laba-laab. Waxaan soo jeedineynaa xalka dhibaatada laba-
+saamayntu ku badan tahay annagoo adeegsanayna shabakad aasooga ah. Shabakadda
+Waqtiga Toodestamps Macaamilka ayaa ku kacaya silsilad socda oo ah silsilad socda oo ah oo
+ah shaqo-ku-ool-shaqo, sameynta diiwaan aan la beddeli karin iyada oo aan dib loo soo celin
+caddaynta-shaqa-la'aanta. Silsiladda ugu dheer ma aha oo keliya caddeyn muujineysa isku
+xigxiga dhacdooyinka marqaati ah, laakiin caddeeyay inay ka timid barkadda ugu weyn ee
+awoodda CPU. Ilaa inta badan awooda Awoodda CPU ay ka taliso noodes oo aan iskaashi
+laheyn in la weeraro shabakadda, waxay abuuri doonaan silsiladda ugu dheer iyo kuwa
+weerarada ka soo horjeeday. Shabakada lafteeda waxay u baahan tahay qaab yar. Farriimaha
+ayaa loo baahiyaa si ku saleysan dadaallada ugu wanaagsan, oo qanjirradu way ka baxaan oo
+ku farxi karaan shabakadda ee dardaaranka, aqbalaadda silsiladda ugu dheer ee caddaaladda
+u ah waxa dhacay markii ay dhaafeen.
 
-## Introduction
+## Hordhac
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Ganacsiga internetka ee internetka ayaa u yimid inay si gaar ah ugu tiirsan tahay hay'adaha
+maaliyadeed ee u adeegaya iyada oo lagu aaminay dhinac saddexaad oo lagu kalsoon yahay si
+ay uga baaraandegaan lacagaha elektiroonigga ah. In kasta oo nidaamku sifiican ugu shaqeeyo
+wax ku filan macaamil ganacsiyada, weli waxaa ku dhaca daciifnimada dhaxalka ah ee
+hannaanka ku saleysan aaminaadda. Gunnada aan la is-eedeyn oo aan la beddeli karin runtii
+suurtagal maahan, maadaama hay'adaha maaliyadeed aysan ka fogaan karin dhexdhexaadinta
+khilaafaadka. Qiimaha dhexdhexaadintu waxay kordhisaa qarashka macaamilku, xaddidaya
+cabirka macaamil ganacsi ee ugu yar oo goynta suurtagalnimada macaamil ganacsi oo yar yar,
+oo waxaa ku jira kharash ballaaran oo ku saabsan luminta bixinta lacagaha aan la is-waafajin
+karin ee adeegyada aan la beddeli karin. Suurtagalnimada dib-u-noqoshada, baahida loo qabo
+aaminaadda ayaa faafiya. Ganacsatada waa inay ka digtoonaadaan macaamiishooda, iyaga oo
+ku dhisi doona macluumaad ka badan inta ay haddii kale u baahan lahaayeen. Boqolkiiba
+khayaanada qaarkood ayaa loo aqbalaa inay yihiin mid aan laga maarmi karin.
+Kharashaadkaan iyo qiimahan aan la xakameyn waa laga fogaan karaa qof ahaan iyadoo la
+adeegsanayo lacag jir ahaaneed, laakiin qaab ma jiro si lacag looga bixiyo kanaalada
+isgaarsiinta iyada oo aan xisbi la aaminin.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Waxa loo baahan yahay waa nidaam lacageed elektiroonig ah oo ku saleysan caddeynta
+conpptographic halkii ay ku kalsoon tahay, taasoo u oggolaanaysa laba dhinac oo diyaar ah inay si
+toos ah isula wareegaan dhinac saddexaad oo aan loo baahnayn. Macaamilada kumbuyuutarrada
+kumbuyuutarrada si macquul ah loo beddelo waxay ka difaaci doonaan iibiyaasha khayaanada, iyo
+qaababka qaab-dhismeedka caadiga ah ayaa si fudud looga hirgalin karaa si loo ilaaliyo
+iibsadayaasha. Waraaqdan, waxaan u soo jeedineynaa xalka mushkiladda laba-geesoodka ah
+iyadoo la adeegsanayo isu-qaybinta server-ka jeer ee 'Timestamp server' si loo abuuro caddeyn
+kombuyuutar ah oo ku saabsan nidaamka takoorka ee xawaaladaha. Nidaamku waa aamin illaa inta
+noodyada daacad ah ay si wada jir ah u xakameeyaan awoodda 'CPU' oo ka badan koox kasta oo
+iskaashi ah oo qandaraasyada weerarka ah.
 
-## Transactions
+## Macaamil
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Waxaan qeexnaa muucoin elektarooniga ah sida silsilad saxeexyo dhijitaal ah. Milkiilaha kasta oo
+wareejinta xeebta si ay xiga by sharaf saxiixayo hash ah ee macaamil ganacsi hore iyo furaha
+dadweynaha ee milkiilaha xiga iyo ku daray, kuwaas oo ay u dhamaadka xeebta. Lacag bixinta A
+xaqiijin karaa saxiixyada si loo xaqiijiyo silsiladda lahaanshaha.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Dhibaatada dabcan waa mushaharka ma xaqiijin karo in mid ka mid ah milkiilayaasha aysan
+labanlaabnay lacagta qadaadiicda. Xallaab caan ah ayaa ah in la soo bandhigo maamul udub
+dhexaad u leh, ama mint, taas oo hubinaysa macaamil kasta oo ku saabsan laba-laab. Dareer
+kasta oo ka dib, qadaadiicda waa in lagu celiyaa mint si ay u soo saarto qadaadiic cusub, oo
+kaliya qadaadiic toos ah ayaa laga soo saaray miraha laguma aaminin in aanu labanlaabin.
+Dhibaatada xalkaan ayaa ah in masiirka nidaamka lacagta oo dhami ay kuxirantahay shirkadda
+ku shaqeysa militariga, oo ay la socdaan macaamil kasta oo ay ku jiraan, sida bangiga oo kale.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Waxaan u baahan nahay hab mushaharka ah si aan u ogaano in milkiilayaashii hore aysan
+saxeexin wax lacag ah oo macaamil hore ah. Ujeeddadeena, macaamilkii ugu horreeyay waa
+kan tirinta, sidaa darteed dan kama lihin isku dayga dambe ee laba-qalin. Sida kaliya ee lagu
+xaqiijinayo maqnaanshaha macaamil ganacsi waa in laga warqabo dhammaan macaamil
+ganacsi. Qaabka ugu sareeya ee ku saleysan mint-ka, mint ayaa ka warqabay dhammaan
+macaamil ganacsi oo dhan wuxuuna go'aansaday kaas oo markii hore yimid. Si tan loo gaaro
+iyada oo aan laheyn koox aan la aaminayn, macaamil xawilaadda waa in si cad loogu
+dhawaaqo [1], waxaanan u baahanahay nidaam kaqeybgaleyaasha si ay ugu heshiiyaan hal
+taariikh oo ah amarkii lagu helay. Lacagta bixiyaha waxay u baahan tahay caddeyn taas oo ah
+waqtiga macaamil kasta oo macaamil kasta, inta badan magacyada ay ku heshiiyeen waxay
+ahayd kii ugu horreeyay ee la helay.
 
-## Timestamp Server
+## Wakhtiga serverka
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Xalka aan soo jeedinay wuxuu ku bilaabaa serverka jadwal. Server Time shaqeeya by
+qaadashada hash of block ah alaabta la la garab iyo ballaaran daabacayo hash ah, sida
+wargeys ama post Usenet [2-5]. Waa in waqtigii caddeyneysaa in xogta waa in ay ka jirey
+waqtiga, iska cad, si aad u hesho galay hash ah. Shaabad kasta oo mar ka mid ah shaabad
+xilliyadii hore ee hash ay, la xirrira silsilad, oo leh kasta oo wakhti dheeraad ah ay xoojinta kuwa
+ka hor.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Caddeynta shaqada
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Si loo hirgaliyo server-ka 'Timestamp' ee loo qaybiyey si sahlan fac-u-dhigga, waxaan u baahan
+nahay inaan u isticmaalno nidaam-caddeyn-shaqo oo la mid ah Adam dib-u-dhigga Lacagta
+'Adam's Report's Cash [6], halkii qoraallada loo yaqaan' onenet '. Shaqo-u-shaqaynta ayaa ku
+lug leh iskaanka si loogu qiimeeyo markii la xareeyay, sida
+SHA-256, Hash wuxuu ku bilaabmayaa dhowr laab oo eber ah. Celcelis ahaan shaqada loo
+baahan yahay waa mid loo qurxiyo tirada tirada xeryaha eber ee loo baahan yahay waxaana la
+xaqiijin karaa iyadoo la fulinayo hal xashiish.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Waayo, nidaamka jadwalka shabakad, waxaan hirgelin caddaynta-of-shaqo by kordhinta hal
+mar ee block ah ilaa qiimaha la helo in siinayaa hash block ee meesha loo baahan yahay eber.
+Marka dadaal CPU ayaa la filayaa in ay u dherjiyo caddaynta-of-shaqo, block ma la beddeli
+karo iyada oo aan sameynaaya shaqada. Sida aagag dambe yihiin xiraa kadib, shaqada si loo
+beddelo block ka mid ah falnay lahaa dhammaan aagag ka dib waxa.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Waxa kale oo caddeynta-ka-shaqo la xalinayo dhibaatada go'aaminta wakiilnimo ee go'aan
+qaadashada intooda badan. Haddii intooda badan waxay ku salaysnaayeen mid-IP cinwaanka-
+ka mid ah-cod, waxaa wareejin karto by qof kasta oo awoodaan si loo qoondeeyo badan IPs.
+Caddaynta-of-shaqo muhiimad ahaan waa mid-CPU-mid cod. Go'aan intooda badan waa wakiil
+by silsiladda ugu dheer, taas oo uu leeyahay dadaalka ugu weyn ee caddaynta-of-shaqo ku
+maalgelisay it in. Haddii aqlabiyadda ah ee awood CPU waxaa gacanta ku tolayaa daacad ah,
+silsiladda daacad ah kori doono ugu dhaqsaha badan iyo Xawliga wax kasta oo silsiladaha ku
+tartamaya. Si aad u habeeyo block a ee la soo dhaafay, weeraryahanka ah lahaa Shaqadu ay u
+hesho caddeynta-of shaqada ee block ah iyo dhammaan baloog ka dib markii ay qaadi ilaa leh
+iyo ka dul mari shaqada of odayada daacad ah. Waxaan mar dambe ku tusi doonaa in itimaalka
+ah oo weeraryahanka ah gaabta kor ku dhacdo in ay hoos u siyaadin sida aagag xiga waxaa
+lagu daray.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Si aad magdhowga xawaaraha qalabka kuwa iyo danta kala duwan ee orodka ka badan waqti,
+dhibaato caddaynta-of-shaqo la go'aamiyo celcelis ahaan u dhaqaaqaya oo lagu beegsanayo
+tiro celcelis ahaan aagag halkii saac. Haddii ay aad u dhakhso dhab ah, dhibaatada ay
+kordhisaa.
 
-## Network
+## Shabakadda
 
-The steps to run the network are as follows:
+Tallaabooyinka lagu maamulayo shabakadda waa sida soo socota:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Hawshan waxa New waxaa la warbaahin dhammaan dhinacyada.
+2. Mid kasta oo ka mid ah soo ururiya macaamil cusub galay block ah.
+3. Mid kasta oo ka shaqeeya on raadinta caddaynta-of-shaqo adag ay block ah.
+4. Marka Node a helaa caddayn-of-shaqo, waxaa ku baahisaa block ah in ay sanka oo dhan.
+5. Qofna aqbalaan block ah oo kaliya haddii dhammaan macaamil ganacsi waxaa aan dhicin iyo hore u bixisay.
+6. November muujiyaan aqbalaada ee block ah by la shaqeeya on abuuraya block xiga ee silsiladda, iyadoo la isticmaalayo hash ee ku block ah kuwa la aqbalay sida hash hore.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Qofna mar walba tixgeliyaan silsiladda ugu dheer in uu noqdo mid sax ah iyo hayn doonaa
+shaqada on dheeraynaysa. Haddii laba oday warbaahin qoraalkii ka kala duwan ee block soo
+socda isku mar, qaar ka mid ah waxaad heli kartaa mid ama kii kale ee ugu horeeyay. Sidaas
+daraaddeed waxay ku shaqeeyaan tii koowaad ee la helay, laakiin laanta kale ee kiiskan ha sii
+ahaato. Wakhtiga shaqada la qabanayo waa la jabi doonaa oo laan walba mar dambe dib ayuu
+u furnaan doonaa; dirir ah in shaqeeya on laanta kale ka dibna is beddel doonaa mid ka dheer.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Broadcasts turjumaan New uma baahna in ay gaaraan dhammaan sanka. Intay gaaraan sanka
+badan, ayaa si fiican u qabsan doonaa. Baahiyeyaasha Block sidoo kale dulqaad of farriimaha
+hoos u. Haddaan qof isku barbaarin ah la helin wuxuu u codsan doonaa markuu qaabilo
+dhagaha xigta oo uu ogaado in ay geshay.
 
-## Incentive
+## Dhiirigelin
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+By shir, macaamil ganacsi ee ugu horeeyay ee block ah waa macaamil ganacsi gaar ah in uu
+bilaabo coin cusub leeyahay abuuraha block ah. Tani waxay ku darayaa niyad ah ee maskaxda
+si ay u taageeraan shabakadda, waxayna bixisaa hab si marka hore u qeybinaya Shilimaad
+galay wareegga, tan iyo ma jirto maamulka dhexe si ay u soo saari. Intaa waxaa dheer joogta
+ah ee qadar joogto ah iyo Shilimaad cusub oo ah tarjumaysaa dahabka macdan qodayaasha
+ballaarinta khayraadka si ay dar dahab ah si ay wareegga. Xaaladdeenna, waa waqti un iyo
+korontada la filayo.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Niyad waxaa sidoo kale lagu maalgelin karaa lacag macaamil ganacsi. Haddii qiimaha wax soo
+saarka ee macaamil ganacsi uu ka yar yahay qiimaha ay aqbasho, farqiga waa lacag macaamil
+ganacsi in lagu daray qiimaha niyad of block ka kooban macaamil ganacsi ah. Marka tiro aan
+cayimin oo Shilimaad u galay wareegga, niyad-guurka gebi ahaan ku gudbi kartaa oo gebi
+ahaanba kharashka macaamil ganacsi iyo in si buuxda sicir-bararka lacag la'aan ah.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Niyad wuxuu kaa caawin karaa dhiiri-galinta ka waddo in ay ka sii daacad ah. Haddii
+weeraryahanka damaaci awoodaan in ay soo shiriso awood badan CPU ka badan dhammaan
+midihii daacad ah, wuxuu lahaa inuu doorto inta u dhaxaysa isticmaalaya waa in ay dib u caayo
+dadka by lacagaha uu, ama u isticmaalaya in ay dhalin Shilimaad cusub. Waa inuu helaa
+faa'iido dheeraad ah si ay u ciyaaraan by xeerarka, sida in isaga raalli shilimaad ka badan qof
+kasta oo kale oo la isku daray, ka badan in ay wiiqdo nidaamka iyo ansax ah ee maalkiisa u
+gaar ah.
 
-## Reclaiming Disk Space
+## Dib U Helidda Cuntada
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Marka macaamil ganacsi ugu dambeeyay ee sariir waxaa lagu aasay meel ka yar geeridi ku
+filan, macaamil wax la kharash gareeyey ka hor waxaa lagu tuuri karaa si ay u badbaadiyaan
+meel bannaan oo. Si loo fududeeyo this iyada oo aan jebinta hash block ee, xawaalad waxaa
+lagu daadshay in Geed Merkle [7] [2]], oo leh kaliya xididka ay ka mid yihiin hash block ah ee.
+Cimaarado duugoobay ayaa ka dibna waxaa lagu lammaaniyaa karaa bal adeygii iyo laamaha
+geedka. Arrimaha gudaha waxay ku degdegina uma baahna in la keydiyo.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Header block A with macaamil xawaalad jirin noqon lahaa oo ku saabsan 80 bytes. Haddii aan
+u malaynayaa in dhul yihiin guud ahaan 10 daqiiqo kasta, 80 bytes * 6 * 24 * 365 = 4.2MB
+sanadkiiba. Iyada oo nidaamyada kombiyuutarka caadi ahaan iibinta 2GB ee RAM sida of 2008,
+iyo Moore ee Sharciga saadaalinta koritaanka ee hadda 1.2GB sanadkiiba, kaydinta waa in aan
+noqon dhibaato xitaa haddii madaxda block waa in la hayaa xasuusta.
 
-## Simplified Payment Verification
+## Caddeymo Lacag Bixinta
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Waxaa suurtagal ah in lagu xaqiijiyo lacagaha iyadoon la sameyn shabakad buuxda. Kaliya qof
+isticmaala waa inuu nuqul ka mid ah madax-bannaanida block ee silsiladda ugu dheer ee
+cadeynta dadka, oo uu ka heli karo shabakadda lagu xiranayo ilaa uu ka dhaadhiciyay silsiladda
+ugu dheer, iyo helitaanka laanta Merkle ee ku xira bullaacadaha si ay u gudubto. Wuxuu kuma
+hubin karo macaamil ganacsi isaga nafsaddiisa, laakiin by it to meel ka soo silsilad, waxa uu
+arki karaa in shabakad halkii ayaa u aqbalay, iyo baloog ku daray ka dib waxa dheeraad ah
+xaqiijiyo shabakadda ayaa u aqbalay.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Sida sida, xaqiijinta waa lagu kalsoonaan karo ilaa inta daacad Galoble xakameeyo
+shabakadda, laakiin waa nugul haddii shabakad way xoog batay by weeraryahanka ah. Iyadoo
+shabakad ma xaqiijin karaa macaamil ganacsi isu for, habka ugu fududeeyey in lagu dhayax
+kara by macaamil ganacsi ah weeraryahanka ah ee Been abuurto ilaa inta weerarka sii wadi
+karaan inay awood shabakadda. Mid ka mid ah istiraatiijiyad si loo ilaaliyo this noqon lahayd in
+ay aqbalaan hel ka yimid shabakadda sanka marka ay ogaan block aan eryin, isla markiiba
+software user ee si dejisan block buuxa iyo shafeedhay si loo xaqiijiyo is cajabin ay.
+Ganacsiyada in ay helaan lacagaha soo noqnoqda laga yaabo in weli doonayaan in ay
+maamulaan sanka ah ee ammaanka madax-bannaan dheeraad ah iyo xaqiijinta dhakhso
+badan.
 
-## Combining and Splitting Value
+## Isku-darka Iyo Qiimaha Neefsashada
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Inkasta oo ay noqon lahayd suurto gal ah in siddo shilimaad shaqsi, waxay noqon lahayd
+unwieldy si ay u sameeyaan macaamil ganacsi oo gaar ah ee boqolkiiba kasta ee kala iibsiga
+ah. Si loo suurtogeliyo in qiimaha loo kala go'ay oo la isku daray, macaamil ganacsi waxaa ku
+jira dhawr iyo qawl. Sida caadiga ah waxaa jiri doona labada aqbasho hal ka soo macaamil
+ganacsi hore ka weyn ama kala duwan oo la isku daraa xaddi yar yar, iyo ugu labada qaybood:
+mid ka mid ah lacag-bixinta, iyo mid ka soo laabanaya isbedelka, haddii ay wax kasta oo, dib u
+soo dirtay diraha.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Waa in la ogaadaa in taageere-out, halkaas oo macaamil ganacsi ku xiran tahay macaamil
+ganacsi dhowr ah, iyo macaamil-kuwa ku xiran badan oo dheeraad ah, ma aha dhibaato halkan.
+Marna waxaa jira baahida loo qabo in laga saaro nuqul ka mid ah oo dhamaystiran oo
+taariikhda macaamil-ee.
 
-## Privacy
+## Asturaad
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Habkaa soo jireenka ah hanata heer of asturnaanta by xadidaysa helitaanka macluumaadka si
+labada dhinac ku lug iyo xisbiga ku kalsoon tahay saddexaad. Baahida loo qabo in ay ku
+dhawaaqaan dhamaan macaamil furan meel fagaare ah ka dhigi habka this, laakiin asturnaanta
+weli waxaa lagu maamuli karaa by jebinta socodka macluumaadka meel kale: by haysashada
+furaha dadweynaha si qarsoodi ah. Waxaad dadweynaha u arkeysaa in qof kale lacag u
+dirsanayo, laakiin aanu jirin war qofkaasi ku xiriirinayo wuxuu khaas u yahay. Tani waxay la mid
+tahay heerka macluumaadka la sii daayay by is-weydaarsiga stock, halkaas oo waqtiga iyo size
+ee caado shaqsi, "cajalad", waxaa lagu sameeyey dadweynaha, laakiin aan sheegaya kuwa ay
+labada dhinac ay ahaayeen.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Sida dab damiye oo dheeraad ah, labo muhiim ah oo cusub waa in la isticmaalaa macaamil
+ganacsi kasta si ay iyaga ka ilaaliso lala milkiilaha caadi ah. Qaar isku xira weli waa laga hortegi
+karin macaamil maalyo kala duwan-aqbasho, kuwaas oo daruuri u muujiyo in sir ah ayaa laga
+leeyahay mulkiilaha isku. Khatarta meesha ay leedahay haddii milkiilaha furaha lagu shaaciyo,
+waxaa la muujin karaa lacag kale oo taas ka tirsanaa mulkiilaha isku.
 
-## Calculations
+## Xisaabinta
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Waxaan ka fiirsan abuurey oo ah weeraryahanka isku dayaya in ay dhalin silsilad ah beddelid
+ka dhaqso badan silsiladda daacad ah. Xitaa haddii uu jidkan dhaco, ma tuurin nidaamka u
+furan isbedel aan loo aabo yeelin, sida inuu qiimeyn ka bixiyo hawada khafiif ah ama lacag
+madax u ah oo aan waligeed horay u jirin ayaa loo yiri: Qofna ma inay aqbalaan macaamil
+ganacsi aan sax ahayn sida lacag bixinta, iyo madax daacad ah marnaba aqbali doono block ah
+iyaga oo ka kooban. Weeraryahanka isku dayi kartaa oo kaliya in la beddelo mid ka mid ah
+isaga u gaar ah macaamil ganacsi si lacag dib uu dhawaan ku bixisay qaadan.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Jinsiyad The u dhexeeya silsiladda oo daacad ah iyo silsilad weeraryahanka ah waxaa lagu
+gartaa sida Nagula Soco Binomial. Dhacdada guusha waa silsiladda daacad ah lagu kordhin by
+hal block, sii kordhaya ay hogaanka by +1, iyo dhacdo guuldarada yahay silsiladda
+weeraryahanka ee lagu kordhin by hal block, yaraynta farqiga by -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Itimaalka weeraryahanka ah ilaa qaadaan ka soo hoos u dhaca ah a la siiyey, waxa ay ka
+tarjumaysaa dhibaatada baabba'a Gambler ee. Ka soo qaad khamaarkii leh deyn aan xad
+lahayn ay bilaabataa at hoos u dhaca ah iyo ciyaartaa Tanoo tiro aan koobi karayn of
+jirrabaaddaha inay isku dayaan in ay gaaraan horumar ah. Waxaan xisaabo kartaa siday
+suurtogal ku uu abid gaaro horumar degdeg ah, ama in weeraryahanka ah abid ku wajahan leh
+silsiladda daacad ah, sida soo socota [8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -214,21 +394,34 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Marka la eego our sifoobo in
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
+, itimaalka aan faqiirsan sida tirada baloog weerarka uu leeyahay in ay ku qabsadaan leh
+korodhka. Iyada oo xumaatee ku isaga ka gees ah, haddii uusan sameeyo sambabada a nasiib
+hore on, fursadaha uu noqdo kuwo baabi'i yar yar sidii uu u sii daba dhaco.
 
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+Hadda waxaan ka fiirsan inta qaataha ah ee macaamil ganacsi oo cusub oo u baahan yahay in
+ay sugaan ka hor inta ku filan oo soo dirtay oo aan ka beddeli karo turjumidda. Waxaan u
+qaadan diraha waa weeraryahanka ah oo doonaya inuu sameeyo qaataha ah aaminsan wuxuu
+isaga bixisay in muddo ah, ka dibna waxa u beddelato inaad dib u bixiso si naftiisa muddo ka
+dib ayaa ka gudbay. Qaateyaasha wuxuu la socoto digniinaha doonaa marka ay taasi dhacdo,
+laakiin amaahiya waxay rajaynaysaa inay goor dambe noqon doono.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Qaateyaasha Guud labo muhiim ah oo cusub oo ku siinayaa furaha dadweynaha in ay soo
+dirtay wax yar ka hor saxiixa. Tani waxay ka hortagtaa amaahiya ka soo diyaarinta silsilad ah
+aagag ka hor waqtiga by shaqeeya waxa on joogto ah ilaa uu waa nasiib ku filan si aad u hesho
+meel fog ka hor, ka dibna toogashadiisa macaamilka ganacsi ee xilligan in. Marka macaamil
+ganacsi waxaa loo diraa, diraha aan daacad ahayn bilaabo ka shaqeeya qarsoodi ah on silsilad
+isku midka ah ka kooban version beddelid of uu macaamil ganacsi.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
-
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Qaataha waxa uu sugaa ilaa macaamil ganacsi ayaa lagu daray in ay block ah iyo baloog
+waxay leeyihiin lala it ka dib. Ma garanayo tirada saxda ah ee horumarka weerarka uu
+sameeyay, laakiin heerna isa ku dekedda daacad qaatay waqti celcelis ahaan la filayaa block,
+horumarka iman kara weeraryahanka ayaa noqon doona Sun qaybinta kula qiimaha filayaa:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -242,7 +435,8 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Si loo helo itimaalka weerarka weli ku qaadi kara ilaa hadda, waxaan u tarmin, Sun cufnaanta
+for qadar kasta oo horumar ah uu u samayn karay by itimaalka uu ku qaadi kara ilaa dhibic in:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -329,7 +523,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Reqabanqaabinaya in ay iska ilaaliyaan lagaala badhidii aan la koobi karayn of qaybinta ...
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -392,7 +586,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Badalashada C code ...
 
 ```c
 #include 
@@ -413,7 +607,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Running natiijada qaar ka mid ah, waxaan ka arki kartaa dhibic dhici kara ee ku filin ay la z.
 
 ```
 q=0.1
@@ -443,7 +637,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Xalinta for P ka yar 0.1% ...
 
 ```
 P < 0.001
@@ -457,9 +651,23 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Natiijooyinka
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Waxaan soo jeediyey nidaam for macaamil xawaalad elektaroonik ah oo aan ku tiirsan trust.
+Waxaan ku bilaabay qaabka caadiga ah ee shilimaad laga sameeyey saxiixyada dhijitaalka,
+kaas oo bixiya ay gacanta xoog leh lahaanshaha, laakiin waxa aan dhamaystirnayn si looga
+hortago qarashyada laba-dhaca. Si taa loo xaliyo, waxaan soo jeedinay shabakad dad wadal-ka
+kooban oo isticmaalaya cadeyn-of-shaqo si loo qoro taariikh ganacsi oo sida ugu dhaqsiyaha
+badan kombiyuutarka u hirgali karo oo ah qofka soo weeraray si loo badalo hadii daacad ah
+nodes xukunka awooda CPU ay badanyihiin. Shabakaddu waa mid xoogan ee ay xog la'aan u
+habaysan. Qofna shaqeeyaan oo dhan hal mar la isuduwidda yar. Waxay uma baahna in la
+aqoonsaday, tan iyo farriimaha aan loo adkeeyaa meel kasta oo gaar ah oo kaliya u baahan in
+la gacangeliyey ku saleysan dadaal ugu wanaagsan. Qofna ka bixi kartaa oo naqdi doontaan
+shabakadda at doono, aqbalayaan silsiladda caddayn-of-shaqo sida caddaynta wixii dhacay
+halka ay ka baxeen. Waxay u codeeyaan ay awood CPU, oo loo muujiyo aqbalaada ee ansax
+ah by shaqeeya on iyaga u kordhin iyo diidayeen aagag aan sax ahayn by diiday in ay iyaga ka
+shaqeeyaan on. Sharciyo kasta oo loo baahan yahay iyo dhiirrigelin lagu dhaqangelin karaa
+farsamo la isla oggolaansho this.
 
 ## References
 

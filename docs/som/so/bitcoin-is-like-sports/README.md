@@ -1,30 +1,54 @@
-# Bitcoin Is Like Sports
+---
+translators: 
+    - 
+        name: "Better Langauge Company"
+        href: "https://www.blc.co.za"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Bitcoin Waa Sida Ciyaaraha
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+waxaa qoray @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Marar badan waxaan la sharxaya sida #bitcoin u shaqeeyo oo waxaa baahsan ee macnaha
+guud ee ciyaarta isboortiga ah. Ayaan in ay ka caawisaa in ay ka jawaabaan badan oo
+su'aalaha caadiga ah:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Q: Yaa ikhtiraacay baseball?  
+A: Runtii waxba ma laha. Qof kasta oo dunida ka ciyaari karaan. Micno ma laha haddii hindisa
+asalka ah uu doonayo in uu beddelo xeerarka ama abaal isaga dhibcood ama wax kale. Ma
+daryeelo waxa uu u maleeyo in of our ciyaarta.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Q: Yaa ka masuul ah ee ciyaarta?  
+A: Qofna waa in lacag, waxaan oo dhan go'aansaday inu ka ciyaaro. Waxaan dhamaanteen
+ognahay oo la hirgeliyo xeerarka, iyo haddii qof calyanaqsiga, waxay heli haraatinayaan out of
+ciyaarta. Haddii qof iyaga abaal-marin ah naftooda dhibco, waxaan kaliya oo iyaga iska indha.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Q: Sidee ku ogaan sharciyada ma beddeli doonaa?   
+A: Kulligeen waxaan isku raacnay intii aan billownay ciyaaraha, cidkasta oo doonaysa inay ku
+sii ciyaarayso xeerarkaas waa sii socon doona, haddii cidi is badeli rabto, waxay u baahan
+tahay inay meel kale ku ciyaarto.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Q: Lama baangad karaa?  
+A: Wax walba waa meel fagaare ah la arki karo. Waxaan oo dhan ka arki kartaa duurka oo dhan
+iyo dhibcaha oo dhan. Haddii qof khiyaamayaan waan ognahay oo u sheeg in la lunsan doono.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Q: Maxay u qalantaa wax?  
+A: Waxaan dhamaanteen go'aansaday inay ciyaaraan, sidaas darteed waa wax inoo qalanta.
+Haddii qof doonayo inuu ku biiro, waxay yeelan doonaan inay ku heshiiyaan in ay garowsadaan
+dhibcood iyo qiimaha our.
 
-I value it, so it has value. Value is subjective.
+Waan qiimeeyaa, Marka waxay leedahay qiimo. Qiimuhu waa shakhsi.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+Q: Ma heli doonaa mamnuucay?  
+A: Balse waa laga yaabaa, dadka qaar ul ciyaaraya iyo kubbad oo aan cidna dhibin, sidaas
+darteed dowladu way ku baasan kartaa in ay ku baahato diinta, balse waxay ku mamnuuci kari
+waayeen fikradda ah in qori uu xidhiidh la yeeshay, ciyaartu waxay ku sii socon doontaa meel.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Q: Miyaan ku biiraa?  
+A: Samee waxaad rabto. Waxaan madadaalo kubadda iska ciyaarista, oo aad ku biiri karto ama
+aad HFSP karin.
