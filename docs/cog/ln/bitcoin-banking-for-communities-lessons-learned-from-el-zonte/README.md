@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Neo Simba"
+        href: "https://twitter.com/neolokosy"
+---
 # Banke ya Bitcoin pona Lisanga ya Bato: Nyoso Toyekoli epai ya Bitcoin Beach
 
 na Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
