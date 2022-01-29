@@ -140,6 +140,11 @@ module.exports = {
             group: '🇿🇦 South Africa',
             title: 'Exonumia'
         },
+        '/zaf/nso/': {
+            lang: 'nso',
+            group: '🇿🇦 South Africa',
+            title: 'Exonumia'
+        },
         '/zaf/ts/': {
             lang: 'ts',
             group: '🇿🇦 South Africa',
@@ -1028,6 +1033,71 @@ module.exports = {
                     },
                     '/zaf/nr/contribution-guide/',
                     '/zaf/nr/contact/'
+                ],
+            },
+            '/zaf/nso/': {
+                lastUpdatedText: "E Qetetsoe ho ntlafatsoa",
+                supportersText: "Batšehetsi",
+                translatorsText: "Bafetoleli",
+                selectLanguageText: '🇿🇦 Dipuo',
+                selectLanguageName: '🇿🇦 Sepedi',
+                freelyAvailableTranslationsText: '🇿🇦 Diphetolelo Tse Fumanehang Ka Ho Fetisisa',
+                label: 'Sepedi',
+                selectLanguageAriaLabel: 'Dipuo',
+                editLinkText: 'Ntlafatsa Ditaba',
+                continueReading: true,
+                continueReadingText: 'Tsoela Pele ho Bala',
+                navbar: [
+                    { 
+                        text: 'Lehae', 
+                        link: '/zaf/nso/' 
+                    },
+                    { 
+                        text: 'Diphetolelo', 
+                        link: '/zaf/nso/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/zaf/nso/about/',
+                    {
+                        text: 'Diphetolelo',   // required
+                        link: '/zaf/nso/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/zaf/nso/',
+                            '/zaf/nso/explain-bitcoin-like-im-five/',
+                            '/zaf/nso/bitcoin-is-like/',
+                            '/zaf/nso/bitcoin-is-like-sports/',
+                            '/zaf/nso/understanding-lightning-network-using-an-abacus',
+                            '/zaf/nso/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/nso/museum/bitcoin-v0.1-released/',
+                            '/zaf/nso/museum/re-bitcoin-v0.1-released/',
+                            '/zaf/nso/i-am-hodling/',
+                            '/zaf/nso/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                        ]
+                    },
+                    {
+                        text: 'Dibuka',   // required
+                        link: '/zaf/nso/books/',
+                        children: [
+                            '/zaf/nso/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Disebedisoa',
+                        link: '/zaf/nso/tools/'
+                    },
+                    {
+                        text: 'Merero ea Phetolelo',   // required
+                        link: '/zaf/nso/open-source-translation-projects/',
+                        children: [
+                            '/zaf/nso/transifex/bitcoin-core/',
+                            '/zaf/nso/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/zaf/nso/contribution-guide/',
+                    '/zaf/nso/contact/'
                 ],
             },
             '/zaf/ts/': {
