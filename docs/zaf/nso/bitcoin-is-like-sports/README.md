@@ -1,30 +1,45 @@
-# Bitcoin Is Like Sports
+# Bitcoin e swana le dipapadi
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+Mongwadi ke @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Ka dinako tše dingwe ke fela ke  hlaloša  gore #bitcoin e šoma bjang ebile e fetotšwe go kamano ya 
+go thaloko ya dipapadi. Ke hweditše gore go e a thuša mo go arabeng dipotšišo tše dintšhi tšeo di 
+tlwaelegilego: 
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Potšišo: Ke mang a tlilego ka papadi ya kgwele ya maoto?   
+Karabo: Seo ga se naplie se le bohlokwa. Motho mang le mang mo lefaseng a ka kgona go e raloka. Ga go 
+na taba ge mothomi wa yona a ka nyaka go fetola melao goba go ipha meputso goba ka tsela efe 
+goba efe. Ga re na taba le gore o nagana eng ka papadi ya rena. 
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Potšišo:  Ke mang a laolago papadi?  
+Karabo: Ga se motho, ka moka ga rena re dio ikgethela go e raloka. Ka moka ga rena re tseba le go šomiša 
+melao, ebile ge yo mongwe a re hlalefetša, re kgona go ba ntšha mo papading. Ge yo mongwe a ipha 
+meputso yeo e sa mo swanelago, re e dira eke ga re mmone.  
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Potšišo: Re tseba bjang gore melao e ka se fetoge?   
+Karabo: Ka moka ga rena re dumelelane ka yona ge re thoma go raloka, le motho mang le mang yo a 
+nyakago go tšwela pele ka go raloka ka melao ye o sa tlile go tšwela pele ka go raloka, ebile ge yo 
+mongwe a nyaka go e fetola, go tlile go hlokega gore ba ye go ralokela ko gongwe.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Potšišo: E ka kgona go tsenega ka moo go sego molaong?  
+Karabo: Se sengwe le se sengwe se phatlaladitšwe go setšhaba gore se bonwe. Ka moka re kgona go bona 
+lebala le lohle le dino ka moka. Ge go na le yo a be a hlalefetša ba bangwe, re tlile go tseba gomme ra 
+mo raka.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Potšišo: Gobaneng e le bohlokwa?  
+Karabo: Ka moka re tšere sephetho sa go raloka, se se a bontšha gore e bohlokwa go rena ka tsela yeo e 
+itšego. Ge yo mongwe a nyaka go raloka le rena, ba tlile go swanelwa ke go dumelelana le  go 
+amogela mohola le dintlha tša rena. 
 
-I value it, so it has value. Value is subjective.
+Ke a o bona mohola wa yona, bjale ke a dumela gore e na le mohola. Mohola o kgetha lehlakore.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+Potšišo: E ka se thibelwe?   
+Karabo: Mohlomongwe, eupša e dio ba batho fela bao ba ithalokelago kgwele ka maoto, ebile ga ba kweše 
+motho bohloko, ke mmušo fela wo o ka ba emišago gore ba tlogele go e raloka, eupša ba ka se 
+thibele kgopolo ya go raga kgwele ka maoto, papadi e tlile go tšwela pele ko gongwe.   
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Potšišo: Nka raloka le lena?   
+Karabo: Dira seo o se nyakago. Ke a ipšhina ka go raloka kgwele ya maoto, o ka raloka le rena goba wa 
+Ipšhina ka Dula o Sokola. 

@@ -1,23 +1,23 @@
-# Welcome to Bitcoin, newcomers!
+# Bao ba sa tšwago go fihla go Bitcoin, le amogetšwe go! 
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+Mongwadi ke Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Ke tše Dipotšišo tša tšeo di Botšišwago Gantši (FAQ):
 
-Q: Who should I trust?  
-A: **Nobody.**
+Potšišo: Ke mang yo nka mo tshepago?  
+Karabo: **Ga se motho.**
 
-Q: When should I sell?  
-A: **Never.**
+Potšišo: Nka rekiša neng?  
+Karabo: **O se ke wa rekiša.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Potšišo: E ka ba Bitcoin ya hwella ka gobane ____?  
+Karabo: **Aowa.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Potšišo: Ke itoketše ka gare ga eng?  
+Karabo: **Ga go yo a tsebago.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Potšišo: E ka ba ke oketša bjang tsebo ya ka?  
+Karabo: **Re na le [tšhedimošo ya lehumo mo](/zaf/nso/translations/).** Goba o ka etela [lopp.net](https://www.lopp.net/bitcoin-information.html)

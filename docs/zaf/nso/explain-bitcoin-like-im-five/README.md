@@ -1,108 +1,168 @@
-# Explain Bitcoin Like I’m Five
+# Ntlhalosetše ka Bitcoin eke ke na le mengwaga ye mehlano
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+Mongwadi ke Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Ge e le gore ga se o kwešiše gore bitcoin ke eng... 
 
-We’re sitting on a park bench. It’s a great day.
+Ga re re dutše mo pankeng ko phakeng. Ke letšatši le le botse kudu. 
 
-I have one apple with me. I give it to you.
+Ke na le apolo ye tee. Ke go fa yona.   
 
-You now have one apple and I have zero.
+Gonabjale o na le apolo ye tee gomme nna ga ka šala ka selo.  
 
-That was simple, right?
+Seo se be se le bonolo, ga go bjalo?  
 
-### Let’s look closely at what happened:
+### Ga re lebelele ka šedi gore go diragetše eng: 
 
-My apple was physically put into your hand.
+Apolo ya ka e beilwe ka sebele letsogong la gago.   
 
-You know it happened. I was there. You were there. You touched it.
+Gomme o a tseba gore seo diragetše. Ke be ke le gona. Le wena o be o gona. O e swere. 
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Re be re sa hloke motho wa boraro gore a re thuše ka khudugo ye. Ga se ra hloka Malome Tommy 
+(yoo e lego moahlodi wa go tuma) gore a dule le rena mo pankeng le gore a kgone go netefatša gore 
+apolo yela e tlogile mo go nna gomme ya išwa go wena. 
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Apolo ye ke ya gago! Ga ke kgone go go fa apolo ye nngwe ka gobane ga ke sana tše dingwe. Ga ke sa 
+e laola. Apolo ye e tšwile ka tlase ga taolo ya ka. Gonabjale ke wena o nago le taolo godimo ga apolo 
+yeo. O ka efa mogwera ya gago ge o nyaka, ebile mogwera wa gago a ka efa mogwera wa gagwe yo 
+mongwe. Bjalo le bjalo.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Bjale ke ka mokgwa woo go rekiša ka sebele go lego ka gona. Ke nagana gore go dio swana, ge eba ke 
+go fa panana, puku goba ga re re kotara ya dolara goba letlakala la go lekana le dolara….
 
-But I’m getting ahead of myself.
+Eupša ke iketa pele.
 
-### Back to apples!
+### Ga re boele go diapolo!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Gonabjale ga re re, ke na le apolo ye tee ya titšithale. A še, ke tlile go go fa apolo ya ka ya titšithale.
 
-Ah! Now it gets interesting.
+Agaa! Gonabjale e thoma go kgahliša.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+O tseba bjang gore apolo ya titšithale yeo e  bego e le ya ka, e setše e le ya gago, ya gago o le nnoši? E 
+naganišiše gabotse. 
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+E hlakahlakane le go feta, ga go bjalo? O tseba bjang gore ga se ka romela apolo yela go Malome 
+Tommy bjalo ka sekgomaganywa sa imeile pele? Goba mogwera wa gago Joe? Goba mogwera wa ka 
+Lisa? 
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Mohlomongwe ke dirile dikhophi tša apolo yeo ya titšithale go khomphuthara ya ka. Mohlomongwe 
+ke e beile ithaneteng gomme batho ba ba milione ba setše ba e taoneloutile.   
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Ka ge o bona, go rekiša ka titšithale ke bothata nyana. Go romela diapolo tša titšithale ga go swane le 
+go romela diapolo tša nnete.  
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Boramahlale ba go ba le mabjoko a dikhomphuthara ba file bothata bjo leina: bo bitšwa gore ke 
+bothata bja go diriša mahlakoreng a mabedi (double-spending problem). Eupša o se swenyege ka se. 
+Seo o hlokago go se tseba ke gore, ke lebakanyana e ba kopantšhitše hlogo le bona ebile ga se ba 
+kgona go e rarabolla. 
 
-Until now.
+Go fihla gonabjale.
 
-But let’s try to think of a solution on our own.
+Eupša ga re leke go hwetša tharollo ya rena. 
 
-### Ledgers
+### Pukwana ya diakhaonto tša ditšhelete (Ledgers) 
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Mohlomongwe diapolo tše tša titšithale di hloka gore di beiwe leihlo ka gare ga pukwana ya 
+diakhanto tša ditšhelete. E dio ba pukwana ya go go botša gore thekišetšano (transactions) ka moka 
+e beilwe leihlo – pukwana ya tšhupaletlotlo (accounting).   
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Pukwana ye ya diakhaonto tša ditšhelete, ka ge e le ya titšhithale, e hloka go phela lefaseng la yona 
+gomme go be le motho yo a e hlokometšego.   
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Ga re re, bjalo ka World of Warcraft. Blizzard, baisa bao ba thomilego papadi ya inthanete, ba na le 
+“pukwana ya diakhaonto ya ditšhelete ya titšhithale” ya marumo a go tuka mollo ao a sa 
+hwetšagalego bonolo ao a lego gona mo lenaneong la bona. Bjale, seo se a kgahliša, motho wa go 
+swana le bona a ka kgona go bea diapolo tša rena tša titšithale leihlo. Agaa – re e rarabolotše! 
 
-### Problems
+### Mathata
 
-There’s a bit of a problem though:
+Eupša go na le bothatanyana: 
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) Go tla direga eng ge moisa yo mongwe wa Blizzard a ka dira tše dingwe tše dintšhi? A ka dio 
+oketša diapolo tša titšithale tše pedi fela go tša gagwe nako efe goba efe ge a nyaka! 
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) Ga go swane le nako yela re be re dutše ko pankeng letšatši lela. Ka nako yela e be e le nna le 
+wena fela. Go šomiša Blizzard go dio swana le go lokela Malome Tommy (e lego motho wa 
+boraro) kantle ga go ya kgorotsheko (ke go boditše gore ke moahlodi wa go tuma?)  gore a 
+thuše ka dithekišetšano tša rena ka moka tša pankeng ya ko phakeng. Nka go fa bjang apolo 
+ya ka ya titšithale, go swana le, o a tseba – ka tsela yeo e tlwaelegilego?
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> E ka ba e gona tsela efe goba efe ya go ekiša panka ya phakeng, e dio ba nna-le-wena, thekišetšano ya setitšithale?  Go bontšha go le boima... 
 
-### The Solution
+### Tharollo
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Go ka direga eng ge re ka fa batho ka moka – pukwana ye? Go na le gore pukwana ya thekišetšano e 
+dule go khomphuthara ya Blizzard, e dule ka gare ga dikhomphuthara tša batho ka moka. 
+Dithekišetšano ka moka tšeo diragetšego, ka di nako tše ka moka, go diapolo tša titšithale di tlile go 
+gatišwa go yona.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+O ka se e hlalefetše. Nka se kgone go go romela diapolo tša titšithale tšeo ke se nago tšona, ka 
+gobane seo se ka se sepedišane le batho ka moka mo lenaneong. E tlile go ba lenaneo le boima gore 
+o e hlalefetše. Kudukudu ge e ka gola.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Godimo ga moo ga e laole ke motho yo motee, ke ka fao ke tsebago gore ga go yo a ka tšeago 
+sephetho sa go ipha diapolo tša titšithale tše ntšhi. Melao ya lenaneo e be e setše e hlalositšwe ge go 
+thongwa. Ebile khoutu le melao ke mothopo wa lenaneo leo le buletšwego motho mang le mang 
+(open source). E gona gore batho ba ba bohlale ba ka kgatha tema go yona, boloka, šireletša, 
+matlafatša, le go e hlokomela.  
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Le wena o ka tšea karolo go dikgokagano tše gomme wa mpšhafatša pukwana ya diakhanto tša 
+ditšhelete go  netefatša gore dilo ka moka di sepela gabotse.  Ka boikgafo bja gago, o ka hwetša 
+diapolo tše 25 tša titšithale bjalo ka moputso. Ge re ya nneteng, ye ke yona fela tsela ya go okotša 
+diapolo tša titšithale mo lenaneong.  
 
-### I simplified quite a bit
+### Ke e nolofaditše gannyane  
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… eupša lenaneo lela ke le hlalošitšego le gona. Le bitšwa lenaneotshepedišwa  la Bitcoin. Gomme 
+diapolo tša titšithale ke “dibitcoin” ka gare ga lenaneo. Ke tša maemo a godimo!
 
-So, did you see what happened? What does the public ledger enable?
+Bjale ge, o bone gore go diragetše eng?  Pukwana ya diakhanto tša ditšhelete ya mang le mang e 
+dumelela gore o dire eng? 
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) O sa gopola gore ke mothopo wa lenaneo leo le buletšwego motho mang le mang (open 
+source)? Palomoka ya diapolo e hlalositšwe ka gare ga pukwana ya diakhanto tša ditšhelete 
+tša setšhaba mo mathomong.  Ke a tseba gore palomoka ya nnete e gona. Ka gare ga lenaneo, 
+ke a tseba gore di lekaneditšwe (ga di hwetšagale).
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) Ge ke rekišetšana ke a tseba gonabjale gore apolo ya titšithale e tšwile semmušo ka gare ga 
+dithoto tša ka gomme setše e le ya gago. Ke be ke sa kgone go realo ka dilo tša titšithale. E 
+tlile go mpšhafatšwa le go netefatšwa ke pukwana ya diakhanto tša ditšhelete ya setšhaba.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) Ka gobane ke pukwana ya diakhanto tša ditšhelete ya setšhaba, ke be ke sa hloke Malome 
+Tommy (motho wa boraro) go netefatša gore ga ke le hlalefetše, goba ka iterela dikhophi tše 
+dingwe, goba go romela diapolo gabedi, goba gararo… 
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+    Ka gare ga lenaneo, dithekišetšano tša apolo ya titšithale e swana le thekišetšano ya nnete. Gonabjale go dio swana le ge o bona apolo ya nnete e tloga letsogong la ka gomme e tsena ka gare ga pokoto ya gago. Go dio swana le pankeng ya ko phakeng, thekišetšano e akaretša batho ba babedi fela. Nna le wena – re be re sa hloke Malome Tommy gore a e netefatše. 
 
-In other words, it behaves like a physical object.
+Ka mantšu a mangwe, e itshwere bjalo ka selo sa nnete.   
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Eupša o a tseba gore ke eng seo se kgahlišago ka se? E sa le titšithale.  Gonabjale ge re tla kgona go 
+iša šedi go diapolo tše 1000, goba diapolo tše million, goba diapolo tše .0000001.  Nka kgona go e 
+romela ka go dio kgotla kunupi fela, ebile nka kgona go e lahlela ka gare ga pokoto ya gago ya 
+titšithale le ge ke be ke le Nicaragua gomme wena o le New York. 
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Nka dira dilo tše dingwe tša titšithale godimo ga diapolo tša titšithale tše! Gape le ke lefase la 
+titšithale. Mohlomongwe nka kgona go tlemaganya sengwalwa se sengwe go yona – lengwalwana la 
+titšithale. Goba nka tlemaganya dilo tše bohlokwa le go feta; bjalo ka kontraka, goba setifikeiti sa 
+dimaraka, goba karata ya Boitsebišo (ID card)... 
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Tše ke taba tše di botse kudu! Se swanetše gore re sware goba re hlokomele bjang “diapolo tša 
+titšithale” tše? Di bohlokwa kudu, ga go bjalo? 
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Gabotsebotse, batho ba bantši ba kgogagokgana ka se gonabjale. Go na le dingangišano magareng ga 
+thuto ya sekolo se le sela sa ikonomi. Magareng ga boradipolotiki. Magareng ga ditsebi tša 
+dikhomphuthara. Eupša o se ke wa batheeletša ka moka ga bona. Batho ba bangwe ba bohlale. Ba 
+bangwe ga ba na tsebo. Ba bangwe ba re lenaneo le na le tšhelete ye ntšhi kudu, mola ba bangwe ba 
+re ga e lekane le selo. Moisa yo mongwe o ile a bea palo go yona: a re $1,300 e lekana le apolo ye tee. 
+Ba bangwe ba re ke gauta ya titšithale, ba bangwe ba re ke kharentshi. Ba bangwe ba re di no swana 
+le matšobana. Ba bangwe ba re e tlile go fetola lefase, mola ba bangwe ba re e tsene fešeneng.  
 
-I have my own opinion about it.
+Ke na le kakanyo ya ka ka ga se. 
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Ke tla e anega mo nakong yeo e tlago. Eupša mofsa, gonabjale o tseba ka ga Bitcoin go feta batho ba 
+bantšhi.
 
 #### Recommend Reading (Updated 2017)
 
