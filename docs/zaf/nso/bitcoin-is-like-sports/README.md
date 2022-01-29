@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Nobuhle Ratlhagana"
+        href: "https://twitter.com/NRatlhagana"
+---
 # Bitcoin e swana le dipapadi
 
 Mongwadi ke @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)

@@ -1037,8 +1037,8 @@ module.exports = {
             },
             '/zaf/nso/': {
                 lastUpdatedText: "E Qetetsoe ho ntlafatsoa",
-                supportersText: "Batšehetsi",
-                translatorsText: "Bafetoleli",
+                supportersText: "Supporters",
+                translatorsText: "Translators",
                 selectLanguageText: '🇿🇦 Dipuo',
                 selectLanguageName: '🇿🇦 Sepedi',
                 freelyAvailableTranslationsText: '🇿🇦 Diphetolelo Tse Fumanehang Ka Ho Fetisisa',

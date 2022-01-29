@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Nobuhle Ratlhagana"
+        href: "https://twitter.com/NRatlhagana"
+---
 # Go kwešiša Lightning Network go šomišwa sedirišwa sa go hlakantšha sa dipheta (Abacus)
 
 Mongwadi ke Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)

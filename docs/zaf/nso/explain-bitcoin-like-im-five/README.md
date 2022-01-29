@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Nobuhle Ratlhagana"
+        href: "https://twitter.com/NRatlhagana"
+---
 # Ntlhalosetše ka Bitcoin eke ke na le mengwaga ye mehlano
 
 Mongwadi ke Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)

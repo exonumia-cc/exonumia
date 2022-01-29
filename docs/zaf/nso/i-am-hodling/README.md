@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Nobuhle Ratlhagana"
+        href: "https://twitter.com/NRatlhagana"
+---
 # KE A SWARELELA
 
 Mongwadi ke GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
