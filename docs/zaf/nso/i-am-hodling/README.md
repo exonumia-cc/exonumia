@@ -8,7 +8,7 @@ translators:
         name: "Nobuhle Ratlhagana"
         href: "https://twitter.com/NRatlhagana"
 ---
-# KE A SWARELELA
+# KE A SWRAELELA
 
 Mongwadi ke GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
@@ -22,8 +22,8 @@ SWARELETŠE? KE TLO GO BOTŠA GORE GOBANENG.
 
 Ke ka lebaka la gore ke mokgwebi wa mebaraka yo e sego wa maleba ebile KE A TSEBA GORE KE 
 MOKGWEBI WA MEBARAKA YO E SEGO WA MALEBA. Ee, ke nnete gore lena bakgwebi ba mebaraka 
-le kgona go bona ge theko ya mebaraka ge e tlo ya fase le godimo bo-pit pat piffy wing wong wang 
-bonolo fela gomme la dira dimilione kantle le bothata, thaka.  
+le kgona go bona ge theko ya mebaraka ge e tlo ya fase le godimo di-pit pat piffy wing 
+wong wang bonolo fela gomme la dira dimilione kantle le bothata, thaka.  
 
 Go dio swana le ba matsogo a boleatana ba tlo re AOWI, E YA FASE GA KE DIREKIŠE hehehe, ebile ba 
 re MODIMO WA KA, ge bakgwebi ba mebaraka bao BAHLALEFILEGO bao ba TSEBAGO GORE SEO BA 
@@ -36,7 +36,7 @@ SA RALOKE. KA NNETE, NKABE KE REKIŠITŠE. NKABE KE REKIŠITŠE PELE THEKIŠO YE
 LE YE NNGWE EBILE KE REKILE PELE GO REKWA EUPŠA O A TSEBA GORE GA SE MANG GOBA 
 MANG YO A IPŠHINAGO BJALO KA WENA.    
 
-O rekiša fela mo mmarakeng wo e ka kgonago go o kgotlelela, ge o le mokgwebi wa mebaraka wa 
+O rekiša fela mo mmarakeng wo o ka kgonago go o kgotlelela, ge o le mokgwebi wa mebaraka wa 
 maleba goba woo a iphelelago lefaseng la gagwe a nnoši. Batho ba magareng ba dio swarelela.   
 
 Mo papading ya go fa palomoka ya lefela bjalo ka se, bakgwebi ba mebaraka ba kgona go tšea 

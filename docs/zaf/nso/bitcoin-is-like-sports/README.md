@@ -14,16 +14,15 @@ Mongwadi ke @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/st
 
 <LanguageDropdown/>
 
-Ka dinako tše dingwe ke fela ke  hlaloša  gore #bitcoin e šoma bjang ebile e fetotšwe go kamano ya 
-go thaloko ya dipapadi. Ke hweditše gore go e a thuša mo go arabeng dipotšišo tše dintšhi tšeo di 
-tlwaelegilego: 
+Ka dinako tše dingwe ke fela ke  hlaloša  gore #bitcoin e šoma bjang ebile e fetotšwe go kamano ya moraloko ya dipapadi. Ke hweditše gore se se thuša go araba dipotšišo tše dintšhi tšeo di 
+tlwaelo: 
 
 Potšišo: Ke mang a tlilego ka papadi ya kgwele ya maoto?   
 Karabo: Seo ga se naplie se le bohlokwa. Motho mang le mang mo lefaseng a ka kgona go e raloka. Ga go 
 na taba ge mothomi wa yona a ka nyaka go fetola melao goba go ipha meputso goba ka tsela efe 
 goba efe. Ga re na taba le gore o nagana eng ka papadi ya rena. 
 
-Potšišo:  Ke mang a laolago papadi?  
+Potšišo:  Ke mang a laolago moraloko?  
 Karabo: Ga se motho, ka moka ga rena re dio ikgethela go e raloka. Ka moka ga rena re tseba le go šomiša 
 melao, ebile ge yo mongwe a re hlalefetša, re kgona go ba ntšha mo papading. Ge yo mongwe a ipha 
 meputso yeo e sa mo swanelago, re e dira eke ga re mmone.  
@@ -31,11 +30,11 @@ meputso yeo e sa mo swanelago, re e dira eke ga re mmone.
 Potšišo: Re tseba bjang gore melao e ka se fetoge?   
 Karabo: Ka moka ga rena re dumelelane ka yona ge re thoma go raloka, le motho mang le mang yo a 
 nyakago go tšwela pele ka go raloka ka melao ye o sa tlile go tšwela pele ka go raloka, ebile ge yo 
-mongwe a nyaka go e fetola, go tlile go hlokega gore ba ye go ralokela ko gongwe.
+mongwe a nyaka go e fetola, go tlile go hlokega gore a ye go ralokela ko gongwe.
 
 Potšišo: E ka kgona go tsenega ka moo go sego molaong?  
-Karabo: Se sengwe le se sengwe se phatlaladitšwe go setšhaba gore se bonwe. Ka moka re kgona go bona 
-lebala le lohle le dino ka moka. Ge go na le yo a be a hlalefetša ba bangwe, re tlile go tseba gomme ra 
+Karabo: Se sengwe le se sengwe se phatlaladitšwe gore setšhaba se se bone. Ka moka re kgona go bona 
+molala le lohle le dino ka moka. Ge go na le yo a be a hlalefetša ba bangwe, re tlile go tseba gomme ra 
 mo raka.
 
 Potšišo: Gobaneng e le bohlokwa?  
@@ -47,9 +46,9 @@ Ke a o bona mohola wa yona, bjale ke a dumela gore e na le mohola. Mohola o kget
 
 Potšišo: E ka se thibelwe?   
 Karabo: Mohlomongwe, eupša e dio ba batho fela bao ba ithalokelago kgwele ka maoto, ebile ga ba kweše 
-motho bohloko, ke mmušo fela wo o ka ba emišago gore ba tlogele go e raloka, eupša ba ka se 
+motho bohloko, ke mmušo fela woo o ka ba emišago gore ba tlogele go e raloka, eupša ba ka se 
 thibele kgopolo ya go raga kgwele ka maoto, papadi e tlile go tšwela pele ko gongwe.   
 
 Potšišo: Nka raloka le lena?   
 Karabo: Dira seo o se nyakago. Ke a ipšhina ka go raloka kgwele ya maoto, o ka raloka le rena goba wa 
-Ipšhina ka Dula o Sokola. 
+Ipšhina ka go phela o Sokola. 
