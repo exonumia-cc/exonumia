@@ -1037,13 +1037,13 @@ module.exports = {
             },
             '/zaf/nso/': {
                 lastUpdatedText: "E Qetetsoe ho ntlafatsoa",
-                supportersText: "Supporters",
-                translatorsText: "Translators",
-                selectLanguageText: '🇿🇦 Dipuo',
+                supportersText: "Bathekgi ka tša ditšhelete",
+                translatorsText: "Bafetoledi", // Mofetoledi
+                selectLanguageText: '🇿🇦 Maleme',
                 selectLanguageName: '🇿🇦 Sepedi',
                 freelyAvailableTranslationsText: '🇿🇦 Diphetolelo Tse Fumanehang Ka Ho Fetisisa',
                 label: 'Sepedi',
-                selectLanguageAriaLabel: 'Dipuo',
+                selectLanguageAriaLabel: 'Maleme',
                 editLinkText: 'Ntlafatsa Ditaba',
                 continueReading: true,
                 continueReadingText: 'Tsoela Pele ho Bala',
