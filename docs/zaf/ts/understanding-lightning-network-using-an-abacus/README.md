@@ -1,40 +1,40 @@
-# Understanding Lightning Network using an Abacus
+# Ku Twisisa Netiweke ya Rihati hi ku tirhisa Abakhasi
 
-by Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
+hi Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
 
 <LanguageDropdown/>
 
 
-I’ve received a lot of positive feedback following my previous article, [Lighting Network is the Future of Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). However, while reading some of the feedback, it became clear to me that some people don’t fully understand how Lightning Network (LN) actually works. In this article, I will try to demystify the concept behind LN and its payment channels using an abacus analogy, without getting into the technical specifics of LN implementation.
+Ndzi kume mavonelo ma kahle endzhak ka atikili leyi nga hundza, [Lighting Network is the Future of Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). Hambiswiritano, loko ndzi ri karhi ndzi hlaya mavonelo, swi ve erivaleni eka mina leswaku vanhu van'wana a va twisisi hi ku hetiseka leswaku Netiweke ya Rihati (LN) yi tirha njhani. Eka atikili leyi, ndzi ta ringeta ku komba leswaku nongoti ya LN i yini na tichanele to hakela ta yona hi ku tirhisa abakhasi, handle ko nghena eka swihlawulekisi swa xithekinikali swa masimekiwelo ya LN.
 
-This is an abacus:
+Leyi i abakhasi:
 
 ![](./abacus.png)
 
-Now, think of an [LN’s payment channel](https://cointelegraph.com/explained/lightning-network-explained#block-5) like one wire of an abacus, where the beads represent the bitcoins inside the channel. When Alice and Bob create a payment channel between them, Alice deposit bitcoins from the Blockchain inside the channel. For now, these bitcoins (e.g. 10 bits or 0.00001 BTC) belong to Alice. In this example, each bead equals one bit:
+Sweswi, ehleketa hi [Chanele yo hakela ya LN](https://cointelegraph.com/explained/lightning-network-explained#block-5) tanihi ntabu yin'we ya abakhasi, laha vuhlalu byi nga yimela tibitcoin endzeni ka chanele. Loko Alice na Bob va endla chanele exikarhi ka tona, Alice u diphozita tibitcoin ku suka eka Chayini ya buloko endzeni ka chanele. Eka nkarhi wa sweswi, tibitcoin (xik. 10 bits kumbe 0.00001 BTC) ta Alice. Eka xikombiso lexi, rihlalu rin'wana na rin'wana ri ringan na bit yin'we:
 
 ![](./alice-bob-1.png)
 
-An abacus wire and a payment channel have shared characteristics:
+Wayere ya abakhasi na chanele yo hakela swi na swihlawulekisi swo fana:
 
-- **Bidirectional:** like beads on an abacus wire can be moved from left to right and vice-versa, bitcoins can be moved from Alice to Bob and vice-versa.
-- **Ownership:** in an abacus, beads can be either on the left or on the right, never in the middle of a wire. In the same manner, bitcoins in a payment channel can either belong to Alice or Bob.
-- **Fixed:** similar to the way beads cannot be added or removed from a wire, Alice and Bob can exchange bitcoins between them, up to the number that was set when opening the payment channel. If they want to exchange a larger number of bitcoins, they will have to perform another on-chain transaction.
+- **Mathlelomambirhi:** ku fana na vuhlalu eka wayere ya abakhasi yi nga famba ku suka eximatsini ku ya exineneni no vuya, tibitcoin ti nga famba ku suka eka Alice ku ya eka Bob no vuya.
+- **Vun'winyi:** eka abakhasi, vuhlalu byi nga va eximatsini kumbe exineneni, ku nga ri exikarhi ka wayere. Hi ndlela ya leyo, tibitcoin eka chanele yo hakela ti nga va ta Alice kumbe ta Bob.
+- **Leyi nga Cinciki:** hi ndlela leyi vuhlalu byi nga ka byi nga ngeteriwi kumbe ku susiwa eka wayere, Alice na Bob va nga cincana tibitcoin vona, ku fikela eka nhlayo leyi a yi vekiwile loko ku pfuriwa chanele yo hakela. Loko va lava ku cinca nhlayo leyikulu ta ya tibitcoin, va fanele ku endla thiranzakixini ya le ka chayeni yin'wana.
 
-This is how the payment channel looks like after Alice sends 2 bits to Bob:
+Chanele yo hakela yi langutekisa xileswi endzhaku ka loko Alice a rhumele 2 bits eka Bob:
 
 ![](./alice-bob-2.png)
 
-Alice now has 8 beads and Bob has 2 beads. Now, let’s say that Bob is also connected in LN to Carol using a 10 bit payment channel:
+Alice sweswi u na vuhlalu bya 8 naswona Bob u na vuhlalu byi 2. Se, a hi nge Bob na yena u konekete eka LN eka Carol hiku tirhisa chanele yo hakela ya 10 bit:
 
 ![](./alice-bob-carol-1.png)
 
-With LN, Alice can pay Carol via Bob. In the abacus analogy, if Alice wants to send 2 bits to Carol, she moves 2 beads in Alice-Bob wire to the right (to Bob), and Bob moves 2 beads in Bob-Carol wire to the right (to Carol). This is how it looks like after Alice sends Carol 2 bits:
+Hi LN, Alice a nga hakela Carol hi ku tirhisa Bob. Eka endlelo ra abakhasi, loko Alice a lava ku rhumela 2 eka Carol, u fambisa vuhlalu byi 2 eka ntambu ya Alice-Bob ku ya exineneni (eka Bob), naswona Bob u fambisa vuhlalu byi 2 eka wayere ya Bob-Carol ku ya exineneni (eka Carol). Yi langutekisa xileswi endzhaku ka loko Alice a rhumele Carol tiits ti 2:
 
 ![](./alice-bob-carol-2.png)
 
-It’s important to mention that if Bob agrees to participate in this transaction, he can’t accept Alice’s beads without moving the same number of beads to Carol.
+I swa nkoka ku vula leswaku loko Bob o pfumela ku nghenelela eka thiranzakixini leyi, a nge amukeli vuhlalu bya Alice handle ko fambisa nhlayo yo ringana ya vuhlalu eka Carol.
 
-Using the abacus analogy, it’s easy to explain the nature of off-chain LN transactions in general, and specifically what are the requirements a payment channel needs to meet in order to process a transaction. For example, it’s easy to see how Alice can’t send Carol more beads than Bob can handle. Then again, maybe in the future she would be able to do it using [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), but that’s a story for another article…
+Hi ku tirhisa tirhelo ra abakhasi, swa olova ku hlamusela muxaka wa tithiranzakixini ta le handle ka chayeni ya LN hi ku angarhela, ngopfungopfu leswi swilaveko swa chanele yo hakela leswi faneleke ku fikeleriwa ku endlela leswaku ku va na thiranzakixini. Xikombiso, swa olova ku vona hilaha Alice a nga ta ka a nga swi koti ku rhumela Carol vuhlalu byo tlula lebyi Bob a nga byi khomaka. Nakambe, kumbe nkarhi lowu taka a nga kota ku swi endla hi ku tirhisa [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), kambe xitori lexi i xa atikili yin'wana…
 
-**If you found this article helpful, please don’t forget to add claps (long press to add multiple claps) and share it.**
+**Loko u kuma atikili leyi yi pfuna, u nga rivali ku yi phokotelela (tshikelela nkarhi wo leha ku andzisa ku phokotela) na ku yi rhumela van'wana.**
