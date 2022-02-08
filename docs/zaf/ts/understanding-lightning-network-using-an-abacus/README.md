@@ -1,3 +1,9 @@
+---
+translators: 
+    - 
+        name: "Tirhani Mabasa"
+        href: "https://twitter.com/TirhaniMabasa"
+---
 # Ku Twisisa Netiweke ya Rihati hi ku tirhisa Abakhasi
 
 hi Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)

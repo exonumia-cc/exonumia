@@ -1,3 +1,9 @@
+---
+translators: 
+    - 
+        name: "Tirhani Mabasa"
+        href: "https://twitter.com/TirhaniMabasa"
+---
 # Mabangelo ya Bitcoin Banking ya Vaakindhawu: Tidyondzo leti Dyondziweke eka Bichi ya Bitcoin
 
 hi Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)

@@ -1,3 +1,10 @@
+---
+translators: 
+    - 
+        name: "Tirhani Mabasa"
+        href: "https://twitter.com/TirhaniMabasa"
+---
+
 # Bitcoin: Sisteme ya Khexe ya Tintangha ya Xielekitironiki
 
 hi Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
