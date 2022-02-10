@@ -2,6 +2,8 @@
 
 by Michael Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
 
+<LanguageDropdown/>
+
 This is the notice by the Central Bank of Nigeria 🇳🇬 barring regulated financial instiututions from facilitating payments from cryptocurrency exchanges 
 
 dated February 5, 2021

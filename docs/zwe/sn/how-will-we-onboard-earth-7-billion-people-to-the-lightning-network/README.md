@@ -2,6 +2,8 @@
 
 by John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
 
+<LanguageDropdown/>
+
 I ran the numbers, let’s see how we can onboard the entire population of Earth onto the Lightning Network, how long it might take, and what we can do to speed the process up.
 
 To onboard onto the lightning network it requires sending btc into a 2-of-2 multisig funding transaction with your channel partner.  To optimize space in this transaction we want 1 native segwit input and a single channel funding output.  This produces a tx of roughly 121vbytes.
