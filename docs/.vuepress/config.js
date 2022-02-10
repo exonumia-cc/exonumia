@@ -220,12 +220,14 @@ module.exports = {
                             '/int/en/explain-bitcoin-like-im-five/',
                             '/int/en/bitcoin-is-like/',
                             '/int/en/bitcoin-is-like-sports/',
-                            '/int/en/understanding-lightning-network-using-an-abacus',
+                            '/int/en/understanding-lightning-network-using-an-abacus/',
                             '/int/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/int/en/museum/bitcoin-v0.1-released/',
                             '/int/en/museum/re-bitcoin-v0.1-released/',
                             '/int/en/i-am-hodling/',
-                            '/int/en/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/int/en/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/int/en/bitcoin-and-kenyan-government-history',
+                            '/int/en/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
