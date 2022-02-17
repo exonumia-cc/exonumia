@@ -299,10 +299,6 @@ keys.
 
 Bitcoin taught me that locality is a tricky business.
 
----
-
-{% include links.html lesson=3 %}
-
 --- 
 ### Lesson 4: The problem of identity
 
@@ -346,10 +342,6 @@ value-transfer exist.
 
 Bitcoin taught me that decentralization contradicts identity.
 
----
-
-{% include links.html lesson=4 %}
-
 --- 
 ### Lesson 5:  An immaculate conception
 
@@ -388,10 +380,6 @@ know who the gods of development and maintenance are: people all over
 the world, anonymous or not.
 
 Bitcoin taught me that narratives are important.
-
----
-
-{% include links.html lesson=5 %}
 
 --- 
 ### Lesson 6: The power of free speech
@@ -432,10 +420,6 @@ As long as there is a part of the world where speech is free as in
 Bitcoin taught me that in a free society, free speech and free software
 are unstoppable.
 
----
-
-{% include links.html lesson=6 %}
-
 --- 
 ### Lesson 7: The limits of knowledge
 
@@ -465,10 +449,6 @@ people have already built the second layer and are working on the third.
 
 Bitcoin taught me that I know very little about almost anything. It
 taught me that this rabbit hole is bottomless.
-
----
-
-{% include links.html lesson=7 %}
 
 ## Chapter II: Economics
 
@@ -592,10 +572,6 @@ anyone](https://github.com/bitcoin/bitcoin).
 
 Bitcoin taught me to look behind the curtain and face my financial
 ignorance.
-
----
-
-{% include links.html lesson=8 %}
 
 --- 
 ### Lesson 9: Inflation
@@ -724,10 +700,6 @@ matter the outcome.
 Bitcoin taught me about the hidden tax of inflation and the catastrophe
 of hyperinflation.
 
----
-
-{% include links.html lesson=9 %}
-
 --- 
 ### Lesson 10: Value
 
@@ -768,10 +740,6 @@ individuals to store their wealth independent of banks and governments,
 just to name two.
 
 Bitcoin taught me that value is subjective but not arbitrary.
-
----
-
-{% include links.html lesson=10 %}
 
 --- 
 ### Lesson 11:  Money
@@ -850,10 +818,6 @@ educational effort to correct this corruption remains to be seen. I pray
 to the gods of sound money that it will be the latter.
 
 Bitcoin taught me what money is.
-
----
-
-{% include links.html lesson=11 %}
 
 ---
 ### Lesson 12: The history and downfall of money
@@ -1021,10 +985,6 @@ paper in itself is precious.
 Bitcoin taught me about the history of money and the greatest sleight of
 hand in the history of economics: fiat currency.
 
----
-
-{% include links.html lesson=12 %}
-
 --- 
 ### Lesson 13: Fractional Reserve Insanity
 
@@ -1122,10 +1082,6 @@ join the ever-growing internet of money. Nobody can stop them if they
 choose to do so.
 
 Bitcoin taught me that fractional reserve banking is pure insanity.
-
----
-
-{% include links.html lesson=13 %}
 
 --- 
 ### Lesson 14: Sound money
@@ -1304,10 +1260,6 @@ produce more of.
 
 Bitcoin taught me that sound money is essential.
 
----
-
-{% include links.html lesson=14 %}
-
 ## Chapter III: Technology
 
 <br>
@@ -1461,7 +1413,7 @@ walls of bitcoin will defeat brute force attacks. Even if you come at it
 with the force of a thousand suns. Literally.
 
 This fact and its implications were poignantly summarized in the [call
-to cryptographic arms][]: "*No amount of coercive force will ever solve
+to cryptographic arms](https://cryptome.org/2012/12/assange-crypto-arms.htm): "*No amount of coercive force will ever solve
 a math problem."*
 
 > "It isn't obvious that the world had to work this way. But somehow the
@@ -1509,15 +1461,6 @@ modern world boils down to the improbability of finding a needle in an
 unfathomably large haystack. I am now more aware of this fact than ever.
 
 Bitcoin taught me that there is strength in numbers.
-
----
-
-{% include links.html lesson=15 %}
-
-[xkcd \#1125]: https://xkcd.com/1225/
-
-<!-- Wikipedia -->
-
 
 
 --- 
@@ -1662,12 +1605,6 @@ compromised.
 
 Bitcoin taught me not to trust, but to verify.
 
----
-
-{% include links.html lesson=16 %}
-
-[Emmanuel Boutet]: https://commons.wikimedia.org/wiki/User:Emmanuel.boutet
-
 --- 
 ### Lesson 17: Telling time takes work
 
@@ -1741,10 +1678,6 @@ Validation, not computation. Time, not blocks.
 
 Bitcoin taught me that telling the time is tricky, especially if you are
 decentralized.
-
----
-
-{% include links.html lesson=17 %}
 
 --- 
 ### Lesson 18: Move slowly and don't break things
@@ -1844,10 +1777,6 @@ in the first place.
 
 Bitcoin taught me that moving slowly is one of its features, not a bug.
 
----
-
-{% include links.html lesson=18 %}
-
 --- 
 ### Lesson 19: Privacy is not dead
 
@@ -1868,7 +1797,7 @@ Japanese male, which is why I don't assume but respect his chosen gender
 and refer to him as *he*.
 
 ![](/images/21-lessons/nope.png)
-<center>I am not Dorian Nakamoto.</center>
+[I am not Dorian Nakamoto.](http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008%3AComment%3A52186)
 
 Whatever his real identity might be, Satoshi was successful in hiding
 it. He set an encouraging example for everyone who wishes to remain
@@ -1892,12 +1821,6 @@ this has the potential to change the world for the better.
 We should all remember that privacy is a [fundamental human right](http://www.un.org/en/universal-declaration-human-rights/). And
 as long as people exercise and defend these rights the battle for
 privacy is far from over. Bitcoin taught me that privacy is not dead.
-
----
-
-{% include links.html lesson=19 %}
-
-["I am not Dorian Nakamoto."]: http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008%3AComment%3A52186
 
 --- 
 ### Lesson 20: Cypherpunks write code
@@ -1966,14 +1889,6 @@ yourself that you can actually solve the problems, and implement the
 solutions. We should all aim to be a bit more cypherpunk.
 
 Bitcoin taught me that cypherpunks write code.
-
----
-
-{% include links.html lesson=20 %}
-
-[mail-announcement]: http://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html
-
-
 
 --- 
 ### Lesson 21: Metaphors for Bitcoin's future
@@ -2102,10 +2017,6 @@ it.
 
 Bitcoin taught me that understanding the past is essential to
 understanding its future. A future which is just beginning.
-
----
-
-{% include links.html lesson=21 %}
 
 ## Conclusion: Lessons Learned
 
