@@ -1,3 +1,14 @@
+---
+translators: 
+    - 
+        name: "Cryptico"
+        href: "https://twitter.com/Melanpso"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+
 # Bítkọìnì: Sístẹ́mù Owó Ẹlẹktróníìkì Peer-to-Peer
 
 látọwọ́ Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
