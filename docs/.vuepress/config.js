@@ -220,12 +220,14 @@ module.exports = {
                             '/int/en/explain-bitcoin-like-im-five/',
                             '/int/en/bitcoin-is-like/',
                             '/int/en/bitcoin-is-like-sports/',
-                            '/int/en/understanding-lightning-network-using-an-abacus',
+                            '/int/en/understanding-lightning-network-using-an-abacus/',
                             '/int/en/bitcoin-a-peer-to-peer-electronic-cash-system/',
                             '/int/en/museum/bitcoin-v0.1-released/',
                             '/int/en/museum/re-bitcoin-v0.1-released/',
                             '/int/en/i-am-hodling/',
-                            '/int/en/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/int/en/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/int/en/bitcoin-and-kenyan-government-history',
+                            '/int/en/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -291,7 +293,9 @@ module.exports = {
                             '/ago/ng/museum/bitcoin-v0.1-released/',
                             '/ago/ng/museum/re-bitcoin-v0.1-released/',
                             '/ago/ng/i-am-hodling/',
-                            '/ago/ng/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/ago/ng/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/ago/ng/bitcoin-and-kenyan-government-history',
+                            '/ago/ng/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -356,7 +360,9 @@ module.exports = {
                             '/cod/ln/museum/bitcoin-v0.1-released/',
                             '/cod/ln/museum/re-bitcoin-v0.1-released/',
                             '/cod/ln/i-am-hodling/',
-                            '/cod/ln/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/cod/ln/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/cod/ln/bitcoin-and-kenyan-government-history',
+                            '/cod/ln/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -421,7 +427,9 @@ module.exports = {
                             '/cog/ln/museum/bitcoin-v0.1-released/',
                             '/cog/ln/museum/re-bitcoin-v0.1-released/',
                             '/cog/ln/i-am-hodling/',
-                            '/cog/ln/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/cog/ln/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/cog/ln/bitcoin-and-kenyan-government-history',
+                            '/cog/ln/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -486,7 +494,9 @@ module.exports = {
                             '/egy/ar/museum/bitcoin-v0.1-released/',
                             '/egy/ar/museum/re-bitcoin-v0.1-released/',
                             '/egy/ar/i-am-hodling/',
-                            '/egy/ar/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/egy/ar/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/egy/ar/bitcoin-and-kenyan-government-history',
+                            '/egy/ar/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -551,7 +561,9 @@ module.exports = {
                             '/ken/sw/museum/bitcoin-v0.1-released/',
                             '/ken/sw/museum/re-bitcoin-v0.1-released/',
                             '/ken/sw/i-am-hodling/',
-                            '/ken/sw/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/ken/sw/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/ken/sw/bitcoin-and-kenyan-government-history',
+                            '/ken/sw/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -616,7 +628,9 @@ module.exports = {
                             '/mwi/ny/museum/bitcoin-v0.1-released/',
                             '/mwi/ny/museum/re-bitcoin-v0.1-released/',
                             '/mwi/ny/i-am-hodling/',
-                            '/mwi/ny/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/mwi/ny/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/mwi/ny/bitcoin-and-kenyan-government-history',
+                            '/mwi/ny/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -682,7 +696,9 @@ module.exports = {
                             '/nam/ng/museum/bitcoin-v0.1-released/',
                             '/nam/ng/museum/re-bitcoin-v0.1-released/',
                             '/nam/ng/i-am-hodling/',
-                            '/nam/ng/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/nam/ng/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/nam/ng/bitcoin-and-kenyan-government-history',
+                            '/nam/ng/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -748,7 +764,9 @@ module.exports = {
                             '/nam/naq/museum/bitcoin-v0.1-released/',
                             '/nam/naq/museum/re-bitcoin-v0.1-released/',
                             '/nam/naq/i-am-hodling/',
-                            '/nam/naq/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/nam/naq/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/nam/naq/bitcoin-and-kenyan-government-history',
+                            '/nam/naq/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -813,7 +831,9 @@ module.exports = {
                             '/nga/ha/museum/bitcoin-v0.1-released/',
                             '/nga/ha/museum/re-bitcoin-v0.1-released/',
                             '/nga/ha/i-am-hodling/',
-                            '/nga/ha/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/nga/ha/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/nga/ha/bitcoin-and-kenyan-government-history',
+                            '/nga/ha/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -878,7 +898,9 @@ module.exports = {
                             '/nga/yo/museum/bitcoin-v0.1-released/',
                             '/nga/yo/museum/re-bitcoin-v0.1-released/',
                             '/nga/yo/i-am-hodling/',
-                            '/nga/yo/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/nga/yo/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/nga/yo/bitcoin-and-kenyan-government-history',
+                            '/nga/yo/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -943,7 +965,9 @@ module.exports = {
                             '/som/so/museum/bitcoin-v0.1-released/',
                             '/som/so/museum/re-bitcoin-v0.1-released/',
                             '/som/so/i-am-hodling/',
-                            '/som/so/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/som/so/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/som/so/bitcoin-and-kenyan-government-history',
+                            '/som/so/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -1009,7 +1033,9 @@ module.exports = {
                             '/zaf/nr/museum/bitcoin-v0.1-released/',
                             '/zaf/nr/museum/re-bitcoin-v0.1-released/',
                             '/zaf/nr/i-am-hodling/',
-                            '/zaf/nr/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/zaf/nr/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/zaf/nr/bitcoin-and-kenyan-government-history',
+                            '/zaf/nr/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -1074,7 +1100,9 @@ module.exports = {
                             '/zaf/nso/museum/bitcoin-v0.1-released/',
                             '/zaf/nso/museum/re-bitcoin-v0.1-released/',
                             '/zaf/nso/i-am-hodling/',
-                            '/zaf/nso/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/zaf/nso/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/zaf/nso/bitcoin-and-kenyan-government-history',
+                            '/zaf/nso/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -1139,7 +1167,9 @@ module.exports = {
                             '/zaf/ts/museum/bitcoin-v0.1-released/',
                             '/zaf/ts/museum/re-bitcoin-v0.1-released/',
                             '/zaf/ts/i-am-hodling/',
-                            '/zaf/ts/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/zaf/ts/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/zaf/ts/bitcoin-and-kenyan-government-history',
+                            '/zaf/ts/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -1205,7 +1235,9 @@ module.exports = {
                             '/zaf/st/museum/bitcoin-v0.1-released/',
                             '/zaf/st/museum/re-bitcoin-v0.1-released/',
                             '/zaf/st/i-am-hodling/',
-                            '/zaf/st/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/zaf/st/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/zaf/st/bitcoin-and-kenyan-government-history',
+                            '/zaf/st/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -1271,7 +1303,9 @@ module.exports = {
                             '/zaf/ve/museum/bitcoin-v0.1-released/',
                             '/zaf/ve/museum/re-bitcoin-v0.1-released/',
                             '/zaf/ve/i-am-hodling/',
-                            '/zaf/ve/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/zaf/ve/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/zaf/ve/bitcoin-and-kenyan-government-history',
+                            '/zaf/ve/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -1337,7 +1371,9 @@ module.exports = {
                             '/zaf/xh/museum/bitcoin-v0.1-released/',
                             '/zaf/xh/museum/re-bitcoin-v0.1-released/',
                             '/zaf/xh/i-am-hodling/',
-                            '/zaf/xh/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/zaf/xh/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/zaf/xh/bitcoin-and-kenyan-government-history',
+                            '/zaf/xh/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -1403,7 +1439,9 @@ module.exports = {
                             '/zaf/zu/museum/bitcoin-v0.1-released/',
                             '/zaf/zu/museum/re-bitcoin-v0.1-released/',
                             '/zaf/zu/i-am-hodling/',
-                            '/zaf/zu/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/zaf/zu/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/zaf/zu/bitcoin-and-kenyan-government-history',
+                            '/zaf/zu/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
@@ -1468,7 +1506,9 @@ module.exports = {
                             '/zwe/sn/museum/bitcoin-v0.1-released/',
                             '/zwe/sn/museum/re-bitcoin-v0.1-released/',
                             '/zwe/sn/i-am-hodling/',
-                            '/zwe/sn/bitcoin-banking-for-communities-lessons-learned-from-el-zonte'
+                            '/zwe/sn/bitcoin-banking-for-communities-lessons-learned-from-el-zonte',
+                            '/zwe/sn/bitcoin-and-kenyan-government-history',
+                            '/zwe/sn/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
                         ]
                     },
                     {
