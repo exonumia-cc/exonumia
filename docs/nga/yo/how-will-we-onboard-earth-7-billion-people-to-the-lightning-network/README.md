@@ -1,25 +1,35 @@
-# How Will We Onboard Earth’s 7.753 Billion People To The Lightning Network?
+---
+translators: 
+    - 
+        name: "Learn Yoruba Easily"
+        href: "https://twitter.com/EasilyYoruba"
+supporters: 
+    - 
+        name: "Galoy Money"
+        href: "https://twitter.com/GaloyMoney/status/1477375671991259139"
+---
+# Báwo ni a ṣe ma jẹ́ kí àwọn èèyàn Bílíọ̀nù 7.753 mọ̀ nípa ' lightning Network' (Nẹ́tíwọ́kì onírọ́rùn tó yára bíi mọ̀nàmọ́ná)?
 
-by John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
+Nípasẹ̀ John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
 
 <LanguageDropdown/>
 
-I ran the numbers, let’s see how we can onboard the entire population of Earth onto the Lightning Network, how long it might take, and what we can do to speed the process up.
+Mo wo iye wa, jẹ́ ká wo bí a ṣelè   jẹ́ kí gbogbo ará ayé mọ̀ nípa 'Lightning Network', iye ìgbà tí o lè gbà, àti ǹkan tí a lè ṣe láti jẹ́ kí  ìlànà náà yá
 
-To onboard onto the lightning network it requires sending btc into a 2-of-2 multisig funding transaction with your channel partner.  To optimize space in this transaction we want 1 native segwit input and a single channel funding output.  This produces a tx of roughly 121vbytes.
+láti ní ìmọ̀ nípa 'Lightning Network', ó nílò láti fi btc ránṣẹ sí ìdúnàdúrà ìgbéowósílẹ̀ ti ìbuwọ́lù púpọ̀ oní 2-of-2 pẹ̀lú alábaṣepọ̀ ojú ọ̀nà e. Láti lo ànfàní àyè nínú ìdúnàdúrà yìí, a nílò àgbéwọlé segwit àbínibí kan (1)  àti ìṣàgbéjáde  ojú ọ̀nà ìgbówósílẹ̀ kan (1).  Èyí á pèsè tx tí á fẹ́ẹ̀ tó 121vbytes.
 
-If 100% of the transactions in a block were these channel opening txs we could onboard about 8,264 people to lightning per block.  With a global population of 7.753 billion people it would take roughly 938,166 blocks or 17.8 YEARS for everyone on Earth to have a channel.
+Tí 100% àwọn ìdúnàdúrà nínú blọ́ọ́kì náà bá jẹ́ àwọn ojú ọ̀nà txs, a lè ṣí ojú àwọn bíi 8,264 sí  'Lightning' sí blọ́ọ́kì kan. Pẹ̀lú iye ènìyàn àgbáyé ti Bílíọ̀nù 7.753, ó ma gbà tó àwọn blọ́ọ́kì 938,166 tàbí iye ọdún 17.8 fún gbogbo ènìyàn lórí ayé láti ní ojú ọ̀nà
 
-Can we do any better? Thankfully, we have a couple options. One option that is possible today is to use batching! Batching means we can open more than one channel in a single transaction.  This means each additional channel can be represented by another output in the funding tx.
+ṣé a lè ṣe dáadáa si? adúpẹ́ a ní àwọn àṣàyàn méjì. Àṣàyàn kan tí ó ṣe ńṣe ni láti lo 'Batching'. Batching túmọ̀ sí pé a lè ṣí ju ọ̀nà kan nínú ìdúnàdúrà kan. Èyí túmọ̀ sí pé ìṣàgbéjáde òmíràn nínú ìgbówósílẹ̀ tx  lé ṣe aṣojú ọ̀nà àfikún kànkan
 
-Each additional output we add consumes roughly 32vbytes.  With batching the best-case scenario is to fill the block with 1 transaction with 1 input and as many outputs as we can fit.  At 32vbytes per output this means we could open 31,247 channels per block!
+Àfikún ìṣàgbéjáde kànkan tí a fikun lò bíi 32vbytes. Pẹ̀lú Batching, ìṣẹ̀lẹ̀ tí ó dára jù ní kí á kún blọ́ọ́kì náà pẹ̀lú ìdúnàdúrà kan (1) pẹ̀lú àgbàwọlé kan (1) àti iye ọ̀pọ̀lọpọ̀ ìṣàgbéjáde tí ó lè bamu. Ní 32vbytes sí ìṣàgbéjáde kan, èyí túmọ̀ sí pé a lè ṣí àwọn ojú ọ̀nà 31,247 sí blọ́ọ́kì kan!
 
-Batching gets us a 3.78x improvement and drops the time to onboard the entire Earth to just 4.7 years. This isn’t terrible but it assumes we can use 100% of the block space for almost 5 years.  In reality it will happen slower over a longer time period.  Can we do even better?
+Batching fún wa ní ìlọsíwájú  3.78x, ó sì fa ìgbà láti ṣàlàyé fún gbogbo ayé sílẹ̀ di ìgbà ọdún 4.7.  Èyí ò banilẹ́rù ṣùgbọ́n ó gbà wípé a lè lo 100% ti àyè blọ́ọ́kì náà fún ìgbà ọdún tó fẹ́ẹ tó ọdún márùn (5). Ní tòótọ́, o ma ṣẹlẹ̀ díẹ̀díẹ̀ fún iye ìgbà tó máa pẹ́. ṣé a lè ṣe dáadáa si?
 
-It turns out we can, just not (easily) today.  The next optimization would be to support more than two people per channel and use signature aggregation to keep the output size small.  A Multiparty Channel extends the 2-of-2 multisig to a larger N-of-N multisig.
+Ó yí jáde sí pé a lè ṣe é, bóti lẹ̀ jẹ́ wí pé kòlè (rọrùn) jẹ́ èní. Àṣedárasi tó kàn ni láti ṣe àtìlẹ́yìn èèyàn tó ju méjì lọ sí ojú ònà kan àti láti lo àpapọ̀ ìbuwọ́lù láti jẹ́ kí ìwọ̀n ìṣàgbéjáde náà kéré. Ojú ọ̀nà ẹlẹ́gbẹ́ ọ̀pọ̀ jẹ́ kí ìbuwọ́lù ọ̀pọ̀ 2-of-2 gbòòrò si sí N-of-N ìbuwọ́lù ọ̀pọ̀ tó tóbi si
 
-In theory this N could be 10, 100, maybe even 1000. At 10 people per channel we could onboard 312,470 people per block and the entire earth in just 172 days.  While batching gave us a modest improvement in efficiency, multiparty channels allow us to scale in orders of magnitude.
+Nínú tíọ́rì, "N" yìí lè jẹ́ 10, 100, ótúlè jẹ́ 1000. Ní àwọn èèyàn 10 sí ojú ònà kan, a lè fi yé àwọn èèyàn 312,470 sí blọ́ọ́kì kan àti gbogbo ayé ní ìgbà ọjọ́ 172. Nígbàtí Batching fún wa ní ìlọsíwájú oní wọ̀nba nínú ṣíṣe, ojú ọ̀nà ẹlẹ́gbẹ́ ọ̀pọ̀ gbà wá lá yè láti ṣe ìwọ̀n ní ìpele bí wọn ṣe tóbi sí.
 
-Theoretically they could be built today without any changes to Bitcoin but would require a massive engineering effort because of the complexities of lightning’s penalty mechanism.  Eltoo’s symmetric settlement txs greatly simplify the implementation of multiparty channels.
+Ní ti oní tíọ́rì, wọn lè kọ́ wọn ní èní, láìsí ìyàtọ̀ kankan sí Bítkọìnì sùgbọ́n á nílò akitiyan iṣẹ́ àwọn ẹlẹ́rọ tí ó pọ̀, nítorí àwọn ìdíjú ìṣètò ìjìyà 'Lightning'.  Sẹ́tútmẹ́tì aláfarawé  txs ti 'Eltoo' ṣe ìrọ̀rùn púpọ̀ fún ṣíṣe ti àwọn ojú ọ̀nà ẹlẹ́gbẹ́ ọ̀pọ̀.
 
-So can we onboard the entire population to lightning in a reasonable amount of time? It seems like the answer is yes, eventually we will get there. Will everyone on Earth want to be on lightning and need their own channel(s)? That’s not certain but I sure hope so!
+Ṣé a lè jẹ́kí àwọn èèyàn gbogbo àgbáyé mọ̀ nípa 'Lightning' ní iye ìgbà tó tọ́?. ó dàbí pé ìdáhùn yẹn jẹ́ bẹ́ẹ̀ni. Níkẹyìn a máa dé bẹ̀. Ǹjẹ́ gbogbo ènìyàn lórí ayé fẹ́ wà lórí 'Lightning' àti nílò ojú ọ̀nà wọn bí? kò dájú ṣùgbọ́n mo ní ìrètí pé á rí bẹ́ẹ̀!
