@@ -26,9 +26,9 @@ Nou, dink aan 'n [LN se betalingskanaal](https://cointelegraph.com/explained/lig
 
 ![](./alice-bob-1.png)
 
-n Telraamdraad en 'n betalingskanaal het gedeelde karaktereienskappe
+'n Telraamdraad en 'n betalingskanaal het gedeelde karaktereienskappe
 
--**Tweerigting:** soos krale op 'n telraamdraad van links na regs geskuif kan word en vice-versa kan bitcoins van Alice na Bob geskuif word en vice-versa.
+- **Tweerigting:** soos krale op 'n telraamdraad van links na regs geskuif kan word en vice-versa kan bitcoins van Alice na Bob geskuif word en vice-versa.
 - **Eiendomsreg:** in 'n telraam kan krale óf aan die linkerkant óf aan die regterkant wees, nooit in die middel van 'n draad nie. Op dieselfde manier kan bitcoins in 'n betalingskanaal aan Alice of Bob behoort.
 - **Vasgestel:** soortgelyk aan die manier waarop krale nie bygevoeg of verwyder kan word van 'n draad nie, kan Alice en Bob bitcoins tussen hulle uitruil. As hulle 'n groter aantal bitcoins wil ruil, sal hulle nog 'n transaksie aan die ketting moet uitvoer.
 
