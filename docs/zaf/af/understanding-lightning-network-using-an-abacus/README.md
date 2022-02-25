@@ -1,40 +1,51 @@
-# Understanding Lightning Network using an Abacus
+---
+translators: 
+    - 
+        name: "Armand Cronje"
+        href: "https://www.linkedin.com/in/armandcro/"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
 
-by Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
+# Verstaan Lightning Network met behulp van 'n Telraam
+
+deur Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
 
 <LanguageDropdown/>
 
 
-I’ve received a lot of positive feedback following my previous article, [Lighting Network is the Future of Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). However, while reading some of the feedback, it became clear to me that some people don’t fully understand how Lightning Network (LN) actually works. In this article, I will try to demystify the concept behind LN and its payment channels using an abacus analogy, without getting into the technical specifics of LN implementation.
+Ek het baie positiewe terugvoer ontvang na aanleiding van my vorige artikel, [Lighting Network is die toekoms van Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). Terwyl ek van die terugvoer gelees het, het dit vir my duidelik geword dat sommige mense nie ten volle verstaan ​​hoe Lightning Network (LN) eintlik werk nie. In hierdie artikel sal ek probeer om die konsep agter LN en sy betalingskanale meer duidelik te maak deur 'n telbord-analogie te gebruik, sonder om in die tegniese spesifiekheid van LN-implementering in te gaan.
 
-This is an abacus:
+Hierdie is 'n telraam:
 
 ![](./abacus.png)
 
-Now, think of an [LN’s payment channel](https://cointelegraph.com/explained/lightning-network-explained#block-5) like one wire of an abacus, where the beads represent the bitcoins inside the channel. When Alice and Bob create a payment channel between them, Alice deposit bitcoins from the Blockchain inside the channel. For now, these bitcoins (e.g. 10 bits or 0.00001 BTC) belong to Alice. In this example, each bead equals one bit:
+Nou, dink aan 'n [LN se betalingskanaal](https://cointelegraph.com/explained/lightning-network-explained#block-5) soos een draad van 'n telraam, waar die krale die bitcoins binne die kanaal voorstel. Wanneer Alice en Bob 'n betalingskanaal tussen hulle skep, deponeer Alice bitcoins vanaf die Blokketting binne die kanaal. Vir nou behoort hierdie bitcoins (bv. 10 bits of 0,00001 BTC) aan Alice. In hierdie voorbeeld is elke kraal gelyk aan een bit:
 
 ![](./alice-bob-1.png)
 
-An abacus wire and a payment channel have shared characteristics:
+n Telraamdraad en 'n betalingskanaal het gedeelde karaktereienskappe
 
-- **Bidirectional:** like beads on an abacus wire can be moved from left to right and vice-versa, bitcoins can be moved from Alice to Bob and vice-versa.
-- **Ownership:** in an abacus, beads can be either on the left or on the right, never in the middle of a wire. In the same manner, bitcoins in a payment channel can either belong to Alice or Bob.
-- **Fixed:** similar to the way beads cannot be added or removed from a wire, Alice and Bob can exchange bitcoins between them, up to the number that was set when opening the payment channel. If they want to exchange a larger number of bitcoins, they will have to perform another on-chain transaction.
+-**Tweerigting:** soos krale op 'n telraamdraad van links na regs geskuif kan word en vice-versa kan bitcoins van Alice na Bob geskuif word en vice-versa.
+- **Eiendomsreg:** in 'n telraam kan krale óf aan die linkerkant óf aan die regterkant wees, nooit in die middel van 'n draad nie. Op dieselfde manier kan bitcoins in 'n betalingskanaal aan Alice of Bob behoort.
+- **Vasgestel:** soortgelyk aan die manier waarop krale nie bygevoeg of verwyder kan word van 'n draad nie, kan Alice en Bob bitcoins tussen hulle uitruil. As hulle 'n groter aantal bitcoins wil ruil, sal hulle nog 'n transaksie aan die ketting moet uitvoer.
 
-This is how the payment channel looks like after Alice sends 2 bits to Bob:
+Dit is hoe die betalingskanaal lyk nadat Alice 2 bits na Bob gestuur het:
 
 ![](./alice-bob-2.png)
 
-Alice now has 8 beads and Bob has 2 beads. Now, let’s say that Bob is also connected in LN to Carol using a 10 bit payment channel:
+Alice het nou 8 krale en Bob het 2 krale. Nou, kom ons sê dat Bob ook in LN aan Carol gekoppel is deur 'n 10-bit-betalingskanaal te gebruik:
 
 ![](./alice-bob-carol-1.png)
 
-With LN, Alice can pay Carol via Bob. In the abacus analogy, if Alice wants to send 2 bits to Carol, she moves 2 beads in Alice-Bob wire to the right (to Bob), and Bob moves 2 beads in Bob-Carol wire to the right (to Carol). This is how it looks like after Alice sends Carol 2 bits:
+Met LN kan Alice Carol via Bob betaal. In die telraam-analogie, as Alice 2 bits na Carol wil stuur, skuif sy 2 krale in die Alice-Bob-draad na regs (na Bob), en Bob skuif 2 krale in die Bob-Carol-draad na regs (na Carol). Dit is hoe dit lyk nadat Alice vir Carol 2 bits gestuur het:
 
 ![](./alice-bob-carol-2.png)
 
-It’s important to mention that if Bob agrees to participate in this transaction, he can’t accept Alice’s beads without moving the same number of beads to Carol.
+Dit is belangrik om te noem dat as Bob instem om aan hierdie transaksie deel te neem, hy nie Alice se krale kan aanvaar sonder om dieselfde aantal krale na Carol te skuif nie.
 
-Using the abacus analogy, it’s easy to explain the nature of off-chain LN transactions in general, and specifically what are the requirements a payment channel needs to meet in order to process a transaction. For example, it’s easy to see how Alice can’t send Carol more beads than Bob can handle. Then again, maybe in the future she would be able to do it using [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), but that’s a story for another article…
+Deur die telraam-analogie te gebruik, is dit maklik om die aard van LN-transaksies buite die ketting in die algemeen te verduidelik, en spesifiek wat die vereistes is waaraan 'n betalingskanaal moet voldoen om 'n transaksie te verwerk. Dit is byvoorbeeld maklik om te sien hoe Alice nie vir Carol meer krale kan stuur as wat Bob kan hanteer nie. Dan weer, miskien sal sy dit in die toekoms kan doen met die gebruik van [AMP's](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), maar dit is 'n storie vir 'n ander artikel ...
 
-**If you found this article helpful, please don’t forget to add claps (long press to add multiple claps) and share it.**
+**As jy hierdie artikel nuttig gevind het, moet asseblief nie vergeet om handeklappe by te voeg (langdruk om veelvuldige handeklappe by te voeg) en dit te deel nie.**

@@ -1,68 +1,62 @@
-# Bitcoin v0.1 released
+---
+translators: 
+    - 
+        name: "Armand Cronje"
+        href: "https://www.linkedin.com/in/armandcro/"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# Bitcoin w0.1 is vrygestel
 
-by Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
+deur Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
 
 <LanguageDropdown/>
 
-Announcing the first release of Bitcoin, a new electronic cash
-system that uses a peer-to-peer network to prevent double-spending.
-It's completely decentralized with no server or central authority.
+Kondig die eerste vrystelling van Bitcoin aan, 'n nuwe elektroniese kontantstelsel wat 'n eweknienetwerk gebruik om dubbelbesteding te voorkom. Dit is heeltemal gedesentraliseer met geen bediener of sentrale gesag nie.
 
 
-See bitcoin.org for screenshots.
+Sien bitcoin.org vir skermkiekies.
 
-Download link:
+Aflaaiskakel:
 http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-Windows only for now.  Open source C++ code is included.
+Slegs Windows vir nou. Oopbron C++ kode is ingesluit.
 
-- Unpack the files into a directory
-- Run BITCOIN.EXE
-- It automatically connects to other nodes
+- Ontpak die lêers in 'n gids
+- Laat loop BITCOIN.EXE
+- Dit koppel outomaties aan ander nodusse
 
-If you can keep a node running that accepts incoming connections,
-you'll really be helping the network a lot.  Port 8333 on your
-firewall needs to be open to receive incoming connections.
+As jy 'n nodus aan die loop kan hou wat inkomende verbindings aanvaar, sal jy regtig die netwerk baie help. Poort 8333 op jou
+brandmuur moet oop wees om inkomende verbindings te ontvang.
 
-The software is still alpha and experimental.  There's no guarantee
-the system's state won't have to be restarted at some point if it
-becomes necessary, although I've done everything I can to build in
-extensibility and versioning.
+Die sagteware is steeds alfa en eksperimenteel. Daar is geen waarborg dat
+die stelsel se toestand nie een of ander tyd sal herbegin moet word as dit nodig word nie, hoewel ek alles in my vermoë gedoen het om uitbreibaarheid en verskeie weergawes in te bou.
 
-You can get coins by getting someone to send you some, or turn on
-Options->Generate Coins to run a node and generate blocks.  I made
-the proof-of-work difficulty ridiculously easy to start with, so
-for a little while in the beginning a typical PC will be able to
-generate coins in just a few hours.  It'll get a lot harder when
-competition makes the automatic adjustment drive up the difficulty.
-Generated coins must wait 120 blocks to mature before they can be
-spent.
+Jy kan munte kry deur iemand te kry om vir jou 'n paar te stuur, of om
+Opsies-> Genereer Munte aan te skakel om 'n nodus te laat loop en blokke te genereer. Ek het
+die bewys-van-werk moeilikheidsgraad belaglik maklik gemaak om mee te begin, so 'n tipiese rekenaar sal vir 'n rukkie in die begin munte in net 'n paar uur kan genereer. Dit sal baie moeiliker word wanneer die
+kompetisie die moeilikheidsgraad van die outomatiese aanpassingsdrywer verhoog.
+Gegenereerde munte moet 120 blokke wag om uit te groei voordat hulle gespandeer kan word.
 
-There are two ways to send money.  If the recipient is online, you
-can enter their IP address and it will connect, get a new public
-key and send the transaction with comments.  If the recipient is
-not online, it is possible to send to their Bitcoin address, which
-is a hash of their public key that they give you.  They'll receive
-the transaction the next time they connect and get the block it's
-in.  This method has the disadvantage that no comment information
-is sent, and a bit of privacy may be lost if the address is used
-multiple times, but it is a useful alternative if both users can't
-be online at the same time or the recipient can't receive incoming
-connections.
+Daar is twee maniere om geld te stuur. As die ontvanger aanlyn is, kan jy hul IP-adres invoer en dit sal verbind, 'n nuwe publiekesleutel kry en die transaksie met kommentaar stuur. As die ontvanger nie aanlyn is nie, is dit moontlik om na hul Bitcoin adres te stuur, wat 'n huts is van hul publiekesleutel wat hulle vir jou gee. Hulle sal
+die transaksie die volgende keer as hulle koppel ontvang en die blok kry wat dit is. Hierdie metode het die nadeel dat geen kommentaar inligting
+gestuur kan word nie, en 'n bietjie privaatheid kan verlore gaan as die adres verskeie kere gebruik word, maar dit is 'n nuttige alternatief as beide gebruikers nie terselfdertyd aanlyn kan wees nie of die ontvanger kan nie inkomende verbindings ontvang nie.
 
-Total circulation will be 21,000,000 coins.  It'll be distributed
-to network nodes when they make blocks, with the amount cut in half
-every 4 years.
+Totale sirkulasie sal 21 000 000 munte wees. Dit sal versprei word
+na netwerk nodusse wanneer hulle blokke maak, met die hoeveelheid in die helfte gesny
+elke 4 jaar.
 
-first 4 years: 10,500,000 coins  
-next 4 years: 5,250,000 coins  
-next 4 years: 2,625,000 coins  
-next 4 years: 1,312,500 coins  
-etc...
+eerste 4 jaar: 10 500 000 munte  
+volgende 4 jaar: 5 250 000 munte  
+volgende 4 jaar: 2 625 000 munte  
+volgende 4 jaar: 1 312 500 munte  
+ens ...
 
-When that runs out, the system can support transaction fees if
-needed.  It's based on open market competition, and there will
-probably always be nodes willing to process transactions for free.
+Wanneer dit opraak, kan die stelsel transaksiefooie ondersteun soos
+benodig word. Dit is gebaseer op opemarkmededinging, en daar sal
+waarskynlik altyd nodusse wees wat bereid is om transaksies gratis te verwerk.
 
 Satoshi Nakamoto
 
