@@ -2,7 +2,7 @@
 translators: 
     - 
         name: "Armand Cronje"
-        href: "https://www.linkedin.com/in/armandcro/"
+        href: "https://twitter.com/ArmandCronje"
 supporters: 
     - 
         name: "HRF"
