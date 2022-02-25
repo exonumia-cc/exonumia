@@ -7,6 +7,7 @@ sidebar: false
 
 **[🇿🇦 South Africa](/zaf/)**
 
+[Afrikaans](/zaf/af/)  
 [IsiNdebele](/zaf/nr/)  
 [Sepedi](/zaf/nso/)  
 [Sesotho](/zaf/st/)  

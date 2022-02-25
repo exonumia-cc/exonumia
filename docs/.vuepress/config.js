@@ -130,6 +130,11 @@ module.exports = {
             title: 'Exonumia',
             selectLanguageName: '🇸🇴 Somali'
         },
+        '/zaf/af/': {
+            lang: 'af',
+            group: '🇿🇦 South Africa',
+            title: 'Exonumia'
+        },
         '/zaf/st/': {
             lang: 'st',
             group: '🇿🇦 South Africa',
@@ -991,6 +996,73 @@ module.exports = {
                     },
                     '/som/so/contribution-guide/',
                     '/som/so/contact/'
+                ],
+            },
+            '/zaf/af/': {
+                lastUpdatedText: "Laas opgedateer",
+                supportersText: "Ondersteuners",
+                translatorsText: "Vertalers",
+                selectLanguageText: '🇿🇦 Tale',
+                selectLanguageName: '🇿🇦 Afrikaans',
+                freelyAvailableTranslationsText: '🇿🇦 Vrylik beskikbare vertalings',
+                label: 'Afrikaans',
+                selectLanguageAriaLabel: 'Taal',
+                editLinkText: 'Verbeter inhoud',
+                continueReading: true,
+                continueReadingText: 'Lees verder',
+                navbar: [
+                    { 
+                        text: 'Tuis', 
+                        link: '/zaf/af/' 
+                    },
+                    { 
+                        text: 'Vertalings', 
+                        link: '/zaf/af/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/zaf/af/about/',
+                    {
+                        text: 'Vertalings',   // required
+                        link: '/zaf/af/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/zaf/af/',
+                            '/zaf/af/explain-bitcoin-like-im-five/',
+                            '/zaf/af/bitcoin-is-like/',
+                            '/zaf/af/bitcoin-is-like-sports/',
+                            '/zaf/af/understanding-lightning-network-using-an-abacus/',
+                            '/zaf/af/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/zaf/af/museum/bitcoin-v0.1-released/',
+                            '/zaf/af/museum/re-bitcoin-v0.1-released/',
+                            '/zaf/af/i-am-hodling/',
+                            '/zaf/af/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/zaf/af/bitcoin-and-kenyan-government-history',
+                            '/zaf/af/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
+                        ]
+                    },
+                    {
+                        text: 'Boeke',   // required
+                        link: '/zaf/af/books/',
+                        children: [
+                            '/zaf/af/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Gereedskap',
+                        link: '/zaf/af/tools/'
+                    },
+                    {
+                        text: 'Vertaalprojekte',   // required
+                        link: '/zaf/af/open-source-translation-projects/',
+                        children: [
+                            '/zaf/af/transifex/bitcoin-core/',
+                            '/zaf/af/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/zaf/af/contribution-guide/',
+                    '/zaf/af/contact/'
                 ],
             },
             '/zaf/nr/': {
