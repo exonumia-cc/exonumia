@@ -158,7 +158,7 @@ mo ri bí ǹkan tó panilẹ́rìn pé àwọn olùtọ́sọ́nà ti ìlú Kẹ
 
 ọdọdún wọ́n ṣé ìdádúró, àwọn ìwọ̀n tó gbẹ̀fẹ̀ dàgbà sókè
 
-### DOṣù Kejìlá, ọjọ́ 16, 2020
+### Oṣù Kejìlá, ọjọ́ 16, 2020
 
 ìlú Ùgándà ṣẹ̀ṣẹ̀ ṣe àwọn àtúnṣe sí òfin tó lódì sí gbígbówó sálọ ti 2013 láti ṣe àfikún àwọn olùpèsè ìṣe ti dúkìá oní fáṣúà. Bóyá ipa kan pàtó tí a lè rí láti ọ̀dọ̀ ìjọba ní agbègbè yẹn láti dásí àwọn ohun tí a sọ lókè
 
