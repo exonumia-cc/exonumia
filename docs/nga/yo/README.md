@@ -30,4 +30,4 @@ Èsì: **Kò sí ẹni tí ó mọ̀.**
 
 
 Ìbéèrè: Báwo ni mo ṣe lè kọ́ nípa rẹ̀ si?  
-Èsì: **A ní ọ̀pọ̀lọpọ̀ [àwọn àkóónú](/int/en/translations/).** Tàbí kí o lọ sí [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Èsì: **A ní ọ̀pọ̀lọpọ̀ [àwọn àkóónú](/nga/yo/translations/).** Tàbí kí o lọ sí [lopp.net](https://www.lopp.net/bitcoin-information.html)

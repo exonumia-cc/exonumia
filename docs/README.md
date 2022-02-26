@@ -52,6 +52,7 @@ contributors: false
 **[🇳🇬 Nigeria](/nga/)**
 
 [Hausa](/nga/ha/)   
+[Igbo](/nga/ig/)   
 [Yoruba](/nga/yo/)   
 
 ---

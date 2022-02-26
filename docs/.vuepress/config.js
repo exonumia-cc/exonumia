@@ -118,6 +118,12 @@ module.exports = {
             title: 'Exonumia',
             selectLanguageName: '🇳🇬 Hausa'
         },
+        '/nga/ig/': {
+            lang: 'ig',
+            group: '🇳🇬 Nigeria',
+            title: 'Exonumia',
+            selectLanguageName: '🇳🇬 Igbo'
+        },
         '/nga/yo/': {
             lang: 'yo',
             group: '🇳🇬 Nigeria',
@@ -862,6 +868,73 @@ module.exports = {
                     },
                     '/nga/ha/contribution-guide/',
                     '/nga/ha/contact/'
+                ],
+            },
+            '/nga/ig/': {
+                lastUpdatedText: "Emelitere ikpeazụ",
+                supportersText: "Ndị na-akwado",
+                translatorsText: "Ndị ntụgharị asụsụ",
+                selectLanguageText: '🇳🇬 Asụsụ',
+                selectLanguageName: '🇳🇬 Igbo',
+                freelyAvailableTranslationsText: "🇳🇬 Ntụgharị asụsụ dị n'efu",
+                label: 'Igbo',
+                selectLanguageAriaLabel: 'Asụsụ',
+                editLinkText: 'Melite ọdịnaya',
+                continueReading: true,
+                continueReadingText: "Gaa n'ihu na-agụ",
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/nga/ig/' 
+                    },
+                    { 
+                        text: 'Ntụgharị asụsụ', 
+                        link: '/nga/ig/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/nga/ig/about/',
+                    {
+                        text: 'Ntụgharị asụsụ',   // required
+                        link: '/nga/ig/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/nga/ig/',
+                            '/nga/ig/explain-bitcoin-like-im-five/',
+                            '/nga/ig/bitcoin-is-like/',
+                            '/nga/ig/bitcoin-is-like-sports/',
+                            '/nga/ig/understanding-lightning-network-using-an-abacus/',
+                            '/nga/ig/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/nga/ig/museum/bitcoin-v0.1-released/',
+                            '/nga/ig/museum/re-bitcoin-v0.1-released/',
+                            '/nga/ig/i-am-hodling/',
+                            '/nga/ig/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/nga/ig/bitcoin-and-kenyan-government-history',
+                            '/nga/ig/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
+                        ]
+                    },
+                    {
+                        text: 'Akwụkwọ',   // required
+                        link: '/nga/ig/books/',
+                        children: [
+                            '/nga/ig/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Ngwa',
+                        link: '/nga/ig/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/nga/ig/open-source-translation-projects/',
+                        children: [
+                            '/nga/ig/transifex/bitcoin-core/',
+                            '/nga/ig/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/nga/ig/contribution-guide/',
+                    '/nga/ig/contact/'
                 ],
             },
             '/nga/yo/': {

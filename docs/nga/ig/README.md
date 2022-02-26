@@ -20,4 +20,4 @@ Zaa: **Ọ dịghị onye maara.**
 
 
 Ajụjụ: Kedu ka m ga-esi mụtakwuo?  
-Zaa: **Anyị nwere [akụnụba ọdịnaya ebe a](/int/en/translations/)** Ma ọ bụ ị nwere ike ịga na [lopp.net](https://www.lopp.net/bitcoin-information.html) )
+Zaa: **Anyị nwere [akụnụba ọdịnaya ebe a](/nga/ig/translations/)** Ma ọ bụ ị nwere ike ịga na [lopp.net](https://www.lopp.net/bitcoin-information.html) )

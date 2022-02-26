@@ -20,4 +20,4 @@ A: **Nobody knows.**
 
 
 Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **We have a [wealth of content here](/zaf/ts/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
