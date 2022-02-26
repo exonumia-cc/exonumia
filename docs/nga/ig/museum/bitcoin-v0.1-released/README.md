@@ -1,68 +1,78 @@
-# Bitcoin v0.1 released
+---
+translators: 
+    - 
+        name: "Joseph Stephen"
+        href: "https://twitter.com/josephs20148614"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Bitcoin v0.1 wepụtara
 
-by Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
+nke Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
 
 <LanguageDropdown/>
 
-Announcing the first release of Bitcoin, a new electronic cash
-system that uses a peer-to-peer network to prevent double-spending.
-It's completely decentralized with no server or central authority.
+Ịkpọsa mwepụta mbụ nke Bitcoin, ego eletrọnịkị ọhụrụ
+usoro nke na-eji netwọk ndị ọgbọ na ndị ọgbọ iji gbochie imefu okpukpu abụọ.
+A na-ewepụ ya kpamkpam n'enweghị ihe nkesa ma ọ bụ ikike etiti.
 
 
-See bitcoin.org for screenshots.
+Hụ bitcoin.org maka nseta ihuenyo.
 
-Download link:
+Budata njikọ:
 http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-Windows only for now.  Open source C++ code is included.
+Windows naanị maka ugbu a. Agụnyere koodu C++ mepere emepe.
 
-- Unpack the files into a directory
-- Run BITCOIN.EXE
-- It automatically connects to other nodes
+- Mepee faịlụ ndị ahụ n'ime ndekọ aha
+- Gbaa BITCOIN.EXE
+- Ọ na-ejikọta na ọnụ ụzọ ndị ọzọ na-akpaghị aka
 
-If you can keep a node running that accepts incoming connections,
-you'll really be helping the network a lot.  Port 8333 on your
-firewall needs to be open to receive incoming connections.
+Ọ bụrụ na ị nwere ike idowe ọnụ ọnụ na-anabata njikọ mbata,
+ị ga na-enyere netwọkụ aka nke ukwuu. Port 8333 dị na gị
+firewall kwesịrị imeghe iji nweta njikọ mbata.
 
-The software is still alpha and experimental.  There's no guarantee
-the system's state won't have to be restarted at some point if it
-becomes necessary, although I've done everything I can to build in
-extensibility and versioning.
+Ezi software ka bụ alfa na nnwale. Enweghị nkwa ọ bụla
+Agaghị ebido steeti sistemụ ahụ n'oge ụfọdụ ma ọ bụrụ na ọ
+ọ dị mkpa, n'agbanyeghị na emela m ihe niile m nwere ike ime iji wuo ụlọ
+extensibility na nsụgharị.
 
-You can get coins by getting someone to send you some, or turn on
-Options->Generate Coins to run a node and generate blocks.  I made
-the proof-of-work difficulty ridiculously easy to start with, so
-for a little while in the beginning a typical PC will be able to
-generate coins in just a few hours.  It'll get a lot harder when
-competition makes the automatic adjustment drive up the difficulty.
-Generated coins must wait 120 blocks to mature before they can be
-spent.
+Ị nwere ike nweta mkpụrụ ego site n'inweta onye zitere gị ụfọdụ, ma ọ bụ gbanye
+Nhọrọ-> Mepụta mkpụrụ ego iji mee ọnụ ọnụ wee mepụta ngọngọ. Emere m
+ihe akaebe na-arụ ọrụ siri ike ridiculously mfe ịmalite na, ya mere
+n'ihi na obere oge na mmalite a-ahụkarị PC ga-enwe ike
+mepụta mkpụrụ ego n'ime awa ole na ole. Ọ ga-esiwanye ike mgbe
+asọmpi na-eme ka mmezigharị akpaaka na-ebuli ihe isi ike.
+Mkpụrụ ego emepụtara ga-echere blocks 120 ka ha tozuo tupu ha enwee ike ịdị
+nọrọ.
 
-There are two ways to send money.  If the recipient is online, you
-can enter their IP address and it will connect, get a new public
-key and send the transaction with comments.  If the recipient is
-not online, it is possible to send to their Bitcoin address, which
-is a hash of their public key that they give you.  They'll receive
-the transaction the next time they connect and get the block it's
-in.  This method has the disadvantage that no comment information
-is sent, and a bit of privacy may be lost if the address is used
-multiple times, but it is a useful alternative if both users can't
-be online at the same time or the recipient can't receive incoming
-connections.
+E nwere ụzọ abụọ iji zipu ego, ọ bụrụ na onye nnata nọ na ịntanetị, ị
+nwere ike tinye adreesị IP ha na ọ ga-ejikọta, nweta ọha ọhụrụ
+igodo wee zipu azụmahịa na nkọwa. Ọ bụrụ na onye nnata bụ
+ọ bụghị online, ọ ga-ekwe omume iziga ha Bitcoin adreesị, nke
+bụ hash igodo ọha ha na-enye gị. Ha ga-anata
+azụmahịa ahụ oge ọzọ ha jikọọ wee nweta ngọngọ ọ bụ
+na. Usoro a nwere mwepu na ọ dịghị ikwu ozi
+ezipụla, na ntakịrị ihe nzuzo nwere ike ịla n'iyi ma ọ bụrụ na ejiri adreesị ahụ
+ọtụtụ ugboro, mana ọ bụ ihe bara uru ọzọ ma ọ bụrụ na ndị ọrụ abụọ enweghị ike
+ịnọ n'ịntanetị n'otu oge ma ọ bụ onye nnata enweghị ike ịnweta mbata
+njikọ.
 
-Total circulation will be 21,000,000 coins.  It'll be distributed
-to network nodes when they make blocks, with the amount cut in half
-every 4 years.
+Ngụkọta nkesa ga-abụ mkpụrụ ego 21,000,000. A ga-ekesa ya
+na netwọk netwọk mgbe ha na-eme blocks, na ego bee na ọkara
+kwa afọ 4.
 
-first 4 years: 10,500,000 coins  
-next 4 years: 5,250,000 coins  
-next 4 years: 2,625,000 coins  
-next 4 years: 1,312,500 coins  
-etc...
+Afọ 4 mbụ: mkpụrụ ego 10,500,000  
+afọ 4 na-esote: mkpụrụ ego 5,250,000  
+afọ 4 na-esote: mkpụrụ ego 2,625,000  
+afọ 4 na-esote: mkpụrụ ego 1,312,500  
+wdg...
 
-When that runs out, the system can support transaction fees if
-needed.  It's based on open market competition, and there will
-probably always be nodes willing to process transactions for free.
+Mgbe nke ahụ kwụsịrị, usoro ahụ nwere ike ịkwado ụgwọ azụmahịa ma ọ bụrụ
+mkpa. Ọ dabere na asọmpi ahịa mepere emepe, a ga-enwekwa ya
+eleghị anya na-adị njikere mgbe nile ịhazi azụmahịa n'efu.
 
 Satoshi Nakamoto
 

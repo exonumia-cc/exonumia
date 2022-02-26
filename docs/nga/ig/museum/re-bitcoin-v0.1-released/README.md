@@ -1,55 +1,65 @@
-# Re: Bitcoin v0.1 released
+---
+translators: 
+    - 
+        name: "Joseph Stephen"
+        href: "https://twitter.com/josephs20148614"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Re: Bitcoin v0.1 wepụtara
 
-by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
+nke Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
-Satoshi Nakamoto writes:
+Satoshi Nakamoto ekwu, sị:
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
+> Ịkpọsa mwepụta mbụ nke Bitcoin, ego eletrọnịkị ọhụrụ
+> usoro na-eji netwọk ndị ọgbọ na ndị ọgbọ iji gbochie imefu okpukpu abụọ.
+> Ọ bụ n'ụzọ zuru ezu decentralized na-enweghị ihe nkesa ma ọ bụ Central ikike.
 >
-> See bitcoin.org for screenshots.
+> Hụ bitcoin.org maka nseta ihuenyo.
 >
-> Download link:
+> Budata njikọ:
 > http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
+Ekele dịrị Satoshi na ntọhapụ alfa mbụ a. Ana m achọ
+na-atụ anya ịnwale ya.
 
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
+> Mkpokọta nkesa ga-abụ mkpụrụ ego 21,000,000. A ga-ekesa ya
+> na oghere netwọk mgbe ha na-eme ngọngọ, na-ebelata ego na ọkara
+> kwa afọ 4 ọ bụla.
 >
-> first 4 years: 10,500,000 coins  
-> next 4 years: 5,250,000 coins  
-> next 4 years: 2,625,000 coins  
-> next 4 years: 1,312,500 coins  
-> etc...
+> afọ 4 mbụ: mkpụrụ ego 10,500,000
+> afọ 4 sochirinụ: mkpụrụ ego 5,250,000
+> afọ 4 sochirinụ: mkpụrụ ego 2,625,000
+> afọ 4 sochirinụ: mkpụrụ ego 1,312,500
+> wdg...
 
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
+Ọ bụ ihe na-akpali na usoro nwere ike ahazi na-ekwe ka a
+ọnụ ọgụgụ kacha elu nke mkpụrụ ego a ga-emepụta. Echere m na
+echiche bụ na ego ole ọrụ achọrọ iji mepụta mkpụrụ ego ọhụrụ ga-
+na-esiwanye ike ka oge na-aga.
 
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
+Otu nsogbu ozugbo na ego ọhụrụ ọ bụla bụ ka esi eji ya kpọrọ ihe. Ọbụna
+ileghara nsogbu bara uru nke ọ fọrọ nke nta ka ọ bụrụ na ọ dịghị onye ga-anabata ya
+na mbụ, a ka nwere ihe isi ike iji nweta ezi uche
+arụmụka na-akwado otu uru na-abụghị efu maka mkpụrụ ego ahụ.
 
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
+Dị ka nnwale echiche na-atọ ụtọ, were ya na Bitcoin na-aga nke ọma na
+na-aghọ usoro ịkwụ ụgwọ kachasị na-eji n'ụwa nile. Mgbe ahụ
+ngụkọta uru nke ego kwesịrị ịha nhata na mkpokọta uru niile
+akụ na ụba dị n'ụwa. Atụmatụ ezinụlọ zuru ụwa ọnụ ugbu a
+akụ na ụba m chọtara sitere na $100 trillion ruo $300 trillion. Ya na
+20 nde mkpụrụ ego, nke na-enye mkpụrụ ego nke ọ bụla uru ihe dị ka nde $10.
 
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Ya mere, ohere nke ịmepụta mkpụrụ ego taa na cents ole na ole
+oge nwere ike ịbụ ezigbo nzọ, na-akwụ ụgwọ ihe dị ka 100 nde
+na 1! Ọbụlagodi na ohere nke Bitcoin ịga nke ọma n'ọkwa a dị ntakịrị,
+ha bụ n'ezie 100 nde otu megide? Ọ dị ihe ị ga-eche. ”…
 
 Hal
 

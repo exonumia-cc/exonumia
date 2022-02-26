@@ -1,110 +1,120 @@
-# Explain Bitcoin Like I’m Five
+---
+translators: 
+    - 
+        name: "Joseph Stephen"
+        href: "https://twitter.com/josephs20148614"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Kọwaa Bitcoin ka m dị ise
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+nke Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Ọ bụrụ na ị ka na-enweghị ike ịchọpụta ihe heck bitcoin bụ…
 
-We’re sitting on a park bench. It’s a great day.
+Anyị na-anọdụ ala n'oche ogige. Ọ bụ ọmarịcha ụbọchị.
 
-I have one apple with me. I give it to you.
+Enwere m otu apụl n'aka m. Ana m enye gị ya.
 
-You now have one apple and I have zero.
+Ị nwere otu apụl ma enwere m efu.
 
-That was simple, right?
+Nke ahụ dị mfe, nri?
 
-### Let’s look closely at what happened:
+### Ka anyị leba anya nke ọma n'ihe merenụ:
 
-My apple was physically put into your hand.
+E tinyere apụl m n'anụ ahụ n'aka gị.
 
-You know it happened. I was there. You were there. You touched it.
+Ị ma na o mere. Anọ m ebe ahụ. Ị nọ ebe ahụ. Ị metụrụ ya aka.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Anyị achọghị onye nke atọ ebe ahụ iji nyere anyị aka ime mbufe ahụ. Ọ dịghị anyị mkpa ịdọrọ Uncle Tommy (onye bụ onye ọka ikpe a ma ama) ka anyị na anyị nọrọ na bench ma gosi na apụl si n'aka m gaa gị.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Apụl bụ nke gị! Enweghị m ike ịnye gị apụl ọzọ n'ihi na enweghị m ihe ọ bụla fọdụrụ. Enweghị m ike ịchịkwa ya ọzọ. Apụl hapụrụ ihe onwunwe m kpamkpam. Ị nwere ikike zuru oke na apụl ahụ ugbu a. Ị nwere ike inye ya enyi gị ma ọ bụrụ na ịchọrọ, mgbe ahụ enyi ahụ nwere ike inye ya enyi ya. Were gabazie.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Ya mere, nke ahụ bụ ihe mgbanwe n'ime mmadụ dị ka. Echere m na ọ bụ otu ihe ahụ, ma m na-enye gị banana, akwụkwọ, ma ọ bụ kwuo otu ụzọ n'ụzọ anọ, ma ọ bụ ụgwọ dollar ....
 
-But I’m getting ahead of myself.
+Ma m na-aga n'ihu onwe m.
 
-### Back to apples!
+### Laghachi na apụl!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Ugbu a kwuo, enwere m otu apple dijitalụ. N'ebe a, m ga-enye gị apple dijitalụ m.
 
-Ah! Now it gets interesting.
+Ah! Ugbu a ọ na-adọrọ mmasị.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Kedu otu ị ga-esi mara na apụl dijitalụ ahụ nke bụbu nke m, bụ nke gị ugbu a, ma ọ bụ naanị gị? Chee echiche banyere ya maka otu nkeji.
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Ọ gbagwojuru anya karị, nri? Kedu otu ị ga-esi mara na ezipụghị m apụl ahụ na Uncle Tommy ka ọ bụrụ mgbakwunye email mbụ? Ma ọ bụ enyi gị Joe? Ma ọ bụ enyi m Lisa kwa?
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Ma eleghị anya, emere m mkpụrụ pọmpụ dijitalụ ahụ ugboro abụọ na kọmputa m. Ma eleghị anya, etinyere m ya na ịntanetị na otu nde mmadụ budata ya.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Dị ka ị na-ahụ, mgbanwe dijitalụ a bụ ntakịrị nsogbu. Izipu apụl dijitalụ adịghị ka izipu apụl nkịtị.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Ụfọdụ ndị ọkà mmụta sayensị kọmputa nwere n'ezie aha maka nsogbu a: a na-akpọ ya nsogbu mmefu ego abụọ. Ma echegbula banyere ya. Naanị ihe ị ga-amata bụ na ọ gbagwojuru ha anya ruo oge ụfọdụ na ha edozibeghị ya.
 
-Until now.
+Ruo ugbu a.
 
-But let’s try to think of a solution on our own.
+Ma ka anyị gbalịa iche echiche maka ngwọta n'onwe anyị.
 
-### Ledgers
+### Akwụkwọ akụkọ
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Eleghị anya ọ dị mkpa ka esoro apụl ndị a dijitalụ na akwụkwọ ndekọ ego. Ọ bụ isi akwụkwọ ebe ị na-esochi azụmahịa niile - akwụkwọ ndekọ ego.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Akwụkwọ akụkọ a, ebe ọ bụ dijitalụ, kwesịrị ibi na ụwa nke ya ma nwee onye na-elekọta ya.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Kwuo, dị ka World of Warcraft. Blizzard, ụmụ okorobịa ndị mepụtara egwuregwu ịntanetị, nwere "akwụkwọ akụkọ dijitalụ" nke mma agha niile na-ere ọkụ dị na sistemụ ha. Yabụ, dị mma, onye dị ka ha nwere ike idobe apụl dijitalụ anyị. Dị egwu - anyị edozila ya!
 
-### Problems
+### Nsogbu
 
-There’s a bit of a problem though:
+Enwere ntakịrị nsogbu n'agbanyeghị:
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) Gịnị ma ọ bụrụ na ụfọdụ nwoke na Blizzard kere ọzọ? Ọ nwere ike ịgbakwunye apụl dijitalụ abụọ na nguzozi ya mgbe ọ bụla ọ chọrọ!
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) Ọ dịghị ka mgbe anyị nọ na bench otu ụbọchị. Ọ bụ naanị mụ na gị mgbe ahụ. Ịgafe Blizzard dị ka ịdọrọ Uncle Tommy (onye nke atọ) n'ụlọ ikpe (m kwuru na ọ bụ ọkàikpe ama ama?) Maka azụmahịa anyị niile na bench ogige. Kedu ka m ga-esi nyefee gị apụl dijitalụ m, dịka ị maara- ụzọ a na-emekarị?
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Ọ nwere ụzọ ọ bụla iji megharịa oche ogige anyị anya, naanị gị na mụ, azụmahịa dijitalụ? Ọ dị ka ọ siri ike…
 
-### The Solution
+### Ngwọta
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Gịnị ma ọ bụrụ na anyị nyere akwụkwọ akụkọ a - onye ọ bụla? Kama akwụkwọ akụkọ ibi na kọmpụta Blizzard, ọ ga-ebi na kọmpụta onye ọ bụla. Azụmahịa niile metụrụla, site na oge niile, na apụl dijitalụ ka a ga-edekọ na ya.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Ị nweghị ike ịghọgbu ya. Enweghị m ike izipu gị apụl dijitalụ m enweghị, n'ihi na mgbe ahụ ọ gaghị emekọrịta na onye ọ bụla nọ na sistemụ. Ọ ga-abụ usoro siri ike ịkụ. Karịsịa ma ọ bụrụ na o buru ibu.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Na mgbakwunye na ọ bụghị otu onye na-achịkwa ya, yabụ m maara na ọ nweghị onye nwere ike ikpebi inye onwe ya apụl dijitalụ karịa. A kọwalarị iwu nke usoro ahụ na mmalite. Na koodu na iwu na-emeghe-isi iyi. Ọ bụ ebe ahụ maka ndị nwere ọgụgụ isi ka ha tinye aka na, dokwaa, chekwaa, melite, na ịlele.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Ị nwekwara ike isonye na netwọkụ a ma melite akwụkwọ ndekọ ego wee hụ na ọ na-enyocha ya. Maka nsogbu ahụ, ị ​​nwere ike nweta ihe dị ka apụl dijitalụ 25 dị ka ụgwọ ọrụ. N'ezie, nke ahụ bụ naanị ụzọ iji mepụta apụl dijitalụ karịa na usoro.
 
-### I simplified quite a bit
+### M mere ka ọ dị mfe
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… mana sistemụ m kọwara dị. A na-akpọ ya protocol Bitcoin. Na apụl dijitalụ ndị ahụ bụ * "bitcoins"* n'ime sistemụ. Mmasị!
 
-So, did you see what happened? What does the public ledger enable?
+Yabụ, ị hụrụ ihe merenụ? Kedu ihe akwụkwọ akụkọ ọha na-enyere aka?
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) Ọ na-emeghe isi iyi na-echeta? A kọwapụtara mkpokọta apụl na akwụkwọ ndekọ ego ọha na mbido. Amaara m ego ole dị. N'ime sistemụ ahụ, amaara m na ha nwere oke (ụkọ).
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) Mgbe m na-eme mgbanwe m maara ugbu a na dijitalụ apple certifiably hapụrụ m ihe onwunwe na ugbu a kpamkpam nke gị. Anaghị m enwe ike ikwu nke ahụ gbasara ihe dijitalụ. A ga-emelite ya ma gosipụta ya site na akwụkwọ ndekọ ego ọha.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) N'ihi na ọ bụ akwụkwọ akụkọ ọha, achọghị m Uncle Tommy (ndị ọzọ) iji jide n'aka na anaghị m aghọ aghụghọ, ma ọ bụ mee ka m nwetakwuo onwe m, ma ọ bụ zipu apụl ugboro abụọ, ma ọ bụ ugboro atọ ...
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+    N'ime usoro ahụ, mgbanwe nke apple dijitalụ dị ugbu a dị ka mgbanwe nke anụ ahụ. Ọ dị mma ugbu a dị ka ịhụ apụl anụ ahụ na-ahapụ aka m wee tinye n'akpa gị. Dịkwa ka ọ dị na bench ogige, mgbanwe ahụ metụtara naanị mmadụ abụọ. Mụ na gị - anyị achọghị Uncle Tommy ebe ahụ iji mee ka ọ dị irè.
 
-In other words, it behaves like a physical object.
+N'ikwu ya n'ụzọ ọzọ, ọ na-akpa àgwà ka ihe anụ ahụ.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Ma ị maara ihe dị mma? Ọ ka bụ dijitalụ. Anyị nwere ike na-emeso 1,000 apụl, ma ọ bụ 1 nde apụl, ma ọ bụ ọbụna .0000001 apụl. Enwere m ike izipu ya site na ịpị bọtịnụ, ma enwere m ike idobe ya na akpa dijitalụ gị ma ọ bụrụ na m nọ na Nicaragua ma ị nọ na New York.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Enwere m ike ịme ka ihe dijitalụ ndị ọzọ na-agba n'elu apụl dijitalụ ndị a! Ọ bụ dijitalụ mgbe niile. Enwere m ike itinye ụfọdụ ederede na ya - ndetu dijitalụ. Ma ọ bụ ikekwe m nwere ike itinye ihe ndị dị mkpa karịa; dị ka ikwu nkwekọrịta, ma ọ bụ akwụkwọ ngwaahịa ngwaahịa, ma ọ bụ kaadị ID…
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Yabụ na nke a dị mma! Olee otú anyị kwesịrị isi na-emeso ma ọ bụ jiri “ apụl dijitalụ” ndị a kpọrọ ihe? Ha bara uru ọ bụghị ya?
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Ọfọn, ọtụtụ mmadụ na-arụrịta ụka maka ya ugbu a. Enwere arụmụka n'etiti nke a na ụlọ akwụkwọ akụ na ụba ahụ. N'etiti ndị ndọrọ ndọrọ ọchịchị. N'etiti mmemme. egela ha niile ntị. Ụfọdụ ndị maara ihe. A na-agwa ụfọdụ ndị na-abụghị eziokwu. Ụfọdụ na-ekwu na usoro ahụ bara uru nke ukwuu, ụfọdụ na-ekwu na ọ bara uru efu. Ụfọdụ ụmụ okorobịa na-etinye ọnụ ọgụgụ siri ike: $1,300 kwa apụl. Ụfọdụ na-ekwu na ọ bụ ọla edo dijitalụ, ụfọdụ ego. Ndị ọzọ na-ekwu na ha dị ka tulips. Ụfọdụ ndị mmadụ na-ekwu na ọ ga-agbanwe ụwa, ụfọdụ na-ekwu na ọ bụ naanị ihe efu.
 
-I have my own opinion about it.
+Enwere m echiche nke m gbasara ya.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Nke ahụ bụ akụkọ maka oge ọzọ ma. Ma nwa, ị maara ugbu a banyere Bitcoin karịa ọtụtụ.
 
-#### Recommend Reading (Updated 2017)
+#### Kwadoro Ọgụgụ (Emelitere 2017)
 
 [“You Don’t Understand Bitcoin Because You Think Money is Real”](https://medium.com/@mariabustillos/you-dont-understand-bitcoin-because-you-think-money-is-real-5aef45b8e952?source=linkShare-2d6f142ff3cc-1512362100) by [Maria Bustillos](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/undefined) is a good follow-up read.
 
