@@ -1,233 +1,232 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+# Bitcoin: 'n Eweknie-elektroniese Kontantstelsel
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+deur Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Abstrak
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+'n Suiwer eweknie-weergawe van elektroniese kontant sal toelaat dat aanlynbetalings direk van een party na 'n ander gestuur word sonder om deur 'n finansiële instelling te gaan. Digitale handtekeninge bied 'n deel van die oplossing, maar die belangrikste voordele gaan verlore as 'n betroubare derde party steeds vereis word om dubbelbesteding te voorkom. Ons stel 'n oplossing vir die dubbelbestedingsprobleem voor deur 'n eweknienetwerk te gebruik. Die netwerk stempel transaksies met tyd deur dit in 'n deurlopende ketting van huts-gebaseerde bewys-van-werk te huts, wat 'n rekord vorm wat nie verander kan word sonder om die bewys-van-werk oor te doen nie. Die langste ketting dien nie net as bewys van die volgorde van gebeure wat waargeneem word nie, maar bewys dat dit van die grootste poel van SVE-krag afkomstig is. Solank as wat 'n meerderheid van die SVE-krag beheer word deur nodusse wat nie saamwerk om die netwerk aan te val nie, sal hulle die langste ketting genereer en aanvallers verbysteek. Die netwerk self vereis minimale struktuur. Boodskappe word op 'n beste poging-basis uitgesaai, en nodusse kan na willekeur die netwerk verlaat en weer by aansluit, en die langste bewys-van-werk-ketting as bewys van wat gebeur het aanvaar terwyl hulle weg was.
 
-## Introduction
+## Inleiding
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Handel op die internet het byna uitsluitlik staatgemaak op finansiële instellings wat as betroubare derde partye dien om elektroniese betalings te verwerk. Alhoewel die stelsel goed genoeg werk vir die meeste transaksies, ly dit steeds onder die inherente swakhede van die vertrouensgebaseerde model. Heeltemal nie-omkeerbare transaksies is nie werklik moontlik nie, aangesien finansiële instellings nie bemiddeling van geskille kan vermy nie. Die koste van bemiddeling verhoog transaksiekoste, beperk die minimum praktiese transaksiegrootte en sny die moontlikheid vir klein toevallige transaksies af, en daar is 'n groter koste in die verlies aan vermoë om nie-omkeerbare betalings vir nie-omkeerbare dienste te maak. Met die moontlikheid van omkering, versprei die behoefte aan vertroue. Handelaars moet versigtig wees vir hul klante en hulle vir meer inligting vra as wat hulle andersins sou nodig hê. 'n Sekere persentasie bedrog word as onvermydelik aanvaar. Hierdie koste en betalingsonsekerhede kan persoonlik vermy word deur fisiese geldeenheid te gebruik, maar geen meganisme bestaan om betalings oor 'n kommunikasiekanaal te maak sonder 'n betroubare party nie.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Wat nodig is, is 'n elektroniese betalingstelsel gebaseer op kriptografiese bewys in plaas van vertroue, wat enige twee gewillige partye toelaat om direk met mekaar transaksies te doen sonder dat 'n betroubare derde party nodig is. Transaksies wat rekenaarmatig onprakties is om om te keer, sal verkopers teen bedrog beskerm, en roetine-escrow-meganismes kan maklik geïmplementeer word om kopers te beskerm. In hierdie artikel stel ons 'n oplossing vir die dubbelbestedingsprobleem voor deur 'n eweknie-verspreide tydstempelbediener te gebruik om berekeningsbewyse van die chronologiese volgorde van transaksies te genereer. Die stelsel is veilig solank eerlike nodusse gesamentlik meer SVE-krag beheer as enige samewerkende groep aanvallernodusse.
 
-## Transactions
+## Transaksies
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Ons definieer 'n elektroniese muntstuk as 'n ketting van digitale handtekeninge. Elke eienaar dra die muntstuk na die volgende oor deur 'n huts van die vorige transaksie en die publieke sleutel van die volgende eienaar digitaal te onderteken en dit aan die einde van die munt te voeg. 'n Begunstigde kan die handtekeninge verifieer om die eienaarskapsketting te verifieer.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Die probleem is natuurlik dat die begunstigde nie kan verifieer dat een van die eienaars nie die muntstuk dubbel bestee het nie. 'n Algemene oplossing is om 'n betroubare sentrale gesag, of munt, in te stel wat elke transaksie vir dubbelbesteding kontroleer. Na elke transaksie moet die muntstuk na die munt terugbesorg word om 'n nuwe munt uit te reik, en slegs munte wat direk van die munt uitgereik word, word vertrou om nie dubbel bestee te word nie. Die probleem met hierdie oplossing is dat die lot van die hele geldstelsel afhang van die maatskappy wat die munt bestuur, met elke transaksie wat deur hulle moet gaan, net soos 'n bank.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Ons het 'n manier nodig vir die begunstigde om te weet dat die vorige eienaars geen vroeëre transaksies onderteken het nie. Vir ons doeleindes is die vroegste transaksie die een wat tel, so ons gee nie om oor latere pogings om dubbel te bestee nie. Die enigste manier om die afwesigheid van 'n transaksie te bevestig, is om bewus te wees van alle transaksies. In die muntgebaseerde model was die munt bewus van alle transaksies en het besluit watter eerste aangekom het. Om dit sonder 'n betroubare party te bewerkstellig, moet transaksies in die openbaar aangekondig word[1], en ons het 'n stelsel nodig vir deelnemers om ooreen te kom oor 'n enkele geskiedenis van die volgorde waarin dit ontvang is. Die begunstigde benodig bewys dat die meerderheid nodusse ten tyde van elke transaksie ooreengekom het dat dit die eerste is wat ontvang is.
 
-## Timestamp Server
+## Tydstempelbediener
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Die oplossing wat ons voorstel, begin met 'n tydstempelbediener. 'n Tydstempelbediener werk deur 'n huts van 'n blok items te neem om 'n tydstempel te kry en die huts wyd te publiseer, soos in 'n koerant of 'n Usenet-plasing[2-5]. Die tydstempel bewys dat die data op daardie tydstip moes bestaan ​​het, natuurlik, om in die huts te kom. Elke tydstempel sluit die vorige tydstempel in sy huts in, wat 'n ketting vorm, met elke bykomende tydstempel wat die voor dit versterk.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Bewys-van-werk
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Om 'n verspreide tydstempelbediener op 'n eweknie-basis te implementeer, sal ons 'n bewys-van-werk-stelsel soortgelyk aan Adam Back se Hashcash[6] moet gebruik, eerder as koerant- of Usenet-plasings. Die bewys-van-werk behels die skandering vir 'n waarde dat wanneer gehuts, soos met SHA-256, die huts met 'n aantal nul bits begin. Die gemiddelde werk benodig is eksponensieel in die aantal nul bits wat benodig word en kan geverifieer word deur 'n enkele huts uit te voer.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Vir ons tydstempelnetwerk implementeer ons die bewys-van-werk deur 'n nonce in die blok te verhoog totdat 'n waarde gevind word wat die blok se huts die vereiste nul bits gee. Sodra die SVE-poging bestee is om dit aan die bewys-van-werk te maak, kan die blok nie verander word sonder om die werk oor te doen nie. Aangesien latere blokke daarna vasgeketting word, sal die werk om die blok te verander insluit om al die blokke daarna oor te doen.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Die bewys-van-werk los ook die probleem op om verteenwoordiging in meerderheidsbesluitneming te bepaal. As die meerderheid gebaseer was op een-IP-adres-een-stem, kan dit ondermyn word deur enigiemand wat baie IP's kan toeken. Bewys-van-werk is in wese een-SVE-een-stem. Die meerderheidsbesluit word verteenwoordig deur die langste ketting, wat die grootste bewys-van-werk-poging daarin belê het. As 'n meerderheid van SVE-krag deur eerlike nodusse beheer word, sal die eerlike ketting die vinnigste groei en enige mededingende kettings verbysteek. Om 'n vorige blok te wysig, sal 'n aanvaller die bewys-van-werk van die blok en alle blokke daarna moet oordoen en dan die werk van die eerlike nodusse inhaal en oortref. Ons sal later wys dat die waarskynlikheid dat 'n stadiger aanvaller inhaal eksponensieel afneem soos wat daaropvolgende blokke bygevoeg word.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Om te vergoed vir die verhoging van hardeware spoed en wisselende belangstelling in lopende nodusse oor tyd, word die bewys-van-werk moeilikheid bepaal deur 'n bewegende gemiddelde gerig op 'n gemiddelde aantal blokke per uur. As hulle te vinnig gegenereer word, neem die moeilikheidsgraad toe.
 
-## Network
+## Netwerk
 
-The steps to run the network are as follows:
+Die stappe om die netwerk te laat loop is soos volg:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Nuwe transaksies word na alle nodusse uitgesaai.
+2. Elke nodus versamel nuwe transaksies in 'n blok.
+3. Elke nodus werk daaraan om 'n moeilike bewys-van-werk vir sy blok te vind.
+4. Wanneer 'n nodus 'n bewys-van-werk vind, saai dit die blok uit na alle nodusse.
+5. Nodusse aanvaar die blok slegs as alle transaksies daarin geldig is en nie reeds bestee is nie.
+6. Nodusse spreek hul aanvaarding van die blok uit deur te werk aan die skep van die volgende blok in die ketting, deur die huts van die aanvaarde blok as die vorige huts te gebruik.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Nodusse beskou altyd die langste ketting as die korrekte een en sal aanhou werk om dit uit te brei. As twee nodusse verskillende weergawes van die volgende blok gelyktydig uitsaai, kan sommige nodusse die een of die ander eerste ontvang. In daardie geval werk hulle aan die eerste een wat hulle ontvang het, maar bêre die ander tak vir ingeval dit langer word. Die verbinding sal gebreek word wanneer die volgende bewys-van-werk gevind word en een tak langer word; die nodusse wat op die ander tak gewerk het, sal dan oorskakel na die langer een.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Nuwe transaksie-uitsendings hoef nie noodwendig alle nodusse te bereik nie. Solank hulle baie nodusse bereik, sal hulle binnekort in 'n blok kom. Blokuitsendings is ook verdraagsaam teenoor afneemende boodskappe. As 'n nodus nie 'n blok ontvang nie, sal dit dit versoek wanneer dit die volgende blok ontvang en besef dat dit een gemis het.
 
-## Incentive
+## Aansporing
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Volgens konvensie is die eerste transaksie in 'n blok 'n spesiale transaksie wat 'n nuwe munt begin wat besit word deur die skepper van die blok. Dit voeg 'n aansporing vir nodusse by om die netwerk te ondersteun, en bied 'n manier om munte aanvanklik in sirkulasie te versprei, aangesien daar geen sentrale gesag is om dit uit te reik nie. Die konstante toevoeging van 'n konstante hoeveelheid nuwe munte is analoog aan goudmyners wat hulpbronne bestee om goud by sirkulasie te voeg. In ons geval is dit SVE tyd en elektrisiteit wat bestee word.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Die aansporing kan ook met transaksiefooie gefinansier word. As die uitsetwaarde van 'n transaksie minder as die insetwaarde daarvan is, is die verskil 'n transaksiefooi wat by die aansporingswaarde van die blok wat die transaksie bevat gevoeg word. Sodra 'n voorafbepaalde aantal munte sirkulasie betree het, kan die aansporing geheel en al na transaksiefooie oorgaan en heeltemal inflasievry wees.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Die aansporing kan help om nodusse aan te moedig om eerlik te bly. As 'n hebsugtig aanvaller meer SVE-krag as al die eerlike nodusse kan bymekaarmaak, sal hy moet kies tussen die gebruik daarvan om mense te bedrieg deur sy betalings terug te steel, of om dit te gebruik om nuwe munte te genereer. Hy behoort dit meer winsgewend te vind om volgens die reëls te speel, sulke reëls wat hom bevoordeel met meer nuwe munte as almal saam, as om die stelsel en die geldigheid van sy eie rykdom te ondermyn.
 
-## Reclaiming Disk Space
+## Herwinning van Skyfspasie
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Sodra die jongste transaksie in 'n muntstuk onder genoeg blokke begrawe is, kan die bestee transaksies voor dit mee weggedoen word om skyfspasie te bespaar. Om dit te fasiliteer sonder om die blok se huts te breek, word transaksies gehuts in 'n Merkle-boom [7][2][5], met slegs die wortel ingesluit in die blok se huts. Ou blokke kan dan gekompakteer word deur takke van die boom af te stomp. Die interieur hutse hoef nie gestoor te word nie.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+'n Blokopskrif sonder transaksies sal ongeveer 80 grepe wees. As ons veronderstel dat blokke elke 10 minute gegenereer word, 80 grepe * 6 * 24 * 365 = 4.2MB per jaar. Met rekenaarstelsels wat tipies verkoop word met 2GB RAM vanaf 2008, en Moore se Wet wat huidige groei van 1.2GB per jaar voorspel, behoort berging nie 'n probleem te wees nie, selfs al moet die blokopskrifte in die geheue gehou word.
 
-## Simplified Payment Verification
+## Vereenvoudigde Betalingsverifikasie
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Dit is moontlik om betalings te verifieer sonder om 'n volledige netwerknodus te laat loop. 'n Gebruiker hoef net 'n afskrif van die blokopskrifte van die langste bewys-van-werk-ketting te hou, wat hy kan kry deur netwerknodusse te bevraagteken totdat hy oortuig is dat hy die langste ketting het, en die Merkle-tak kry wat die transaksie aan die blok koppel waarbinne dit getydstempel is. Hy kan nie self die transaksie kontroleer nie, maar deur dit aan 'n plek in die ketting te koppel, kan hy sien dat 'n netwerknodus dit aanvaar het, en blokke wat daarna bygevoeg word, bevestig verder dat die netwerk dit aanvaar het.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+As sodanig is die verifikasie betroubaar solank eerlike nodusse die netwerk beheer, maar is meer kwesbaar as die netwerk deur 'n aanvaller oorweldig word. Terwyl netwerknodusse self transaksies kan verifieer, kan die vereenvoudigde metode geflous word deur 'n aanvaller se vervaardigde transaksies solank as wat die aanvaller kan voortgaan om die netwerk te oorweldig. Een strategie om hierteen te beskerm, sal wees om waarskuwings van netwerknodusse te aanvaar wanneer hulle 'n ongeldige blok opspoor, wat die gebruiker se sagteware aanpor om die volledige blok en gewaarskude transaksies af te laai om die teenstrydigheid te bevestig. Besighede wat gereelde betalings ontvang, sal waarskynlik steeds hul eie nodusse wil bestuur vir meer onafhanklike sekuriteit en vinniger verifikasie.
 
-## Combining and Splitting Value
+## Kombinering en Verdeling van Waarde
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Alhoewel dit moontlik sou wees om munte individueel te hanteer, sal dit moeilik wees om 'n aparte transaksie vir elke sent in 'n oordrag te maak. Om waarde toe te laat om verdeel en gekombineer te word, bevat transaksies veelvuldige insette en uitsette. Normaalweg sal daar óf 'n enkele inset van 'n groter vorige transaksie óf veelvuldige insette wees wat kleiner bedrae kombineer, en hoogstens twee uitsette: een vir die betaling, en een wat die verandering, indien enige, terugstuur aan die sender.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Daar moet kennis geneem word dat uitwaaier, waar 'n transaksie afhanklik is van verskeie transaksies, en daardie transaksies van baie meer afhang, nie 'n probleem hier is nie. Daar is nooit die behoefte om 'n volledige selfstandige kopie van 'n transaksie se geskiedenis te onttrek nie.
 
-## Privacy
+## Privaatheid
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Die tradisionele bankmodel bereik 'n vlak van privaatheid deur toegang tot inligting tot die betrokke partye en die vertroude derde party te beperk. Die noodsaaklikheid om alle transaksies in die openbaar aan te kondig verhinder hierdie metode, maar privaatheid kan steeds gehandhaaf word deur die vloei van inligting op 'n ander plek te breek: deur publieke sleutels anoniem te hou. Die publiek kan sien dat iemand 'n bedrag aan iemand anders stuur, maar sonder inligting wat die transaksie aan enigiemand koppel. Dit is soortgelyk aan die vlak van inligting wat deur aandelebeurse vrygestel word, waar die tyd en grootte van individuele transaksies, die "band", openbaar gemaak word, maar sonder om te sê wie die partye was.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+As 'n bykomende brandmuur moet 'n nuwe sleutelpaar vir elke transaksie gebruik word om te verhoed dat hulle aan 'n gemeenskaplike eienaar gekoppel word. Sommige koppeling is steeds onvermydelik met multi-insettransaksies, wat noodwendig openbaar dat hul insette deur dieselfde eienaar besit word. Die risiko is dat indien die eienaar van 'n sleutel geopenbaar word, dat die koppeling aan ander transaksies kan openbaar wat aan dieselfde eienaar behoort het.
 
-## Calculations
+## Berekeninge
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Ons beskou die scenario van 'n aanvaller wat probeer om 'n alternatiewe ketting vinniger as die eerlike ketting te genereer. Selfs al word dit bereik, gooi dit nie die stelsel oop vir arbitrêre veranderinge nie, soos om waarde uit die lug te skep of geld te vat wat nooit aan die aanvaller behoort het nie. Nodusse gaan nie 'n ongeldige transaksie as betaling aanvaar nie, en eerlike nodusse sal nooit 'n blok aanvaar wat dit bevat nie. ’n Aanvaller kan net probeer om een ​​van sy eie transaksies te verander om geld terug te neem wat hy onlangs bestee het.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Die wedloop tussen die eerlike ketting en 'n aanvallerketting kan gekenmerk word as 'n Binomiale Lukrake Stap. Die suksesgebeurtenis is die eerlike ketting wat met een blok verleng word, wat sy voorsprong met +1 vergroot, en die mislukkingsgebeurtenis is die aanvaller se ketting wat met een blok verleng word, wat die gaping met -1 verminder.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Die waarskynlikheid dat 'n aanvaller 'n gegewe tekort sal inhaal, is analoog aan 'n Gambler's Ruin-probleem. Gestel 'n dobbelaar met onbeperkte krediet begin by 'n tekort en speel moontlik 'n oneindige aantal proewe om gelykbreekpunt te probeer bereik. Ons kan die waarskynlikheid dat hy ooit gelykbreekpunt bereik, of dat 'n aanvaller ooit die eerlike ketting inhaal, soos volg bereken[8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
-    <mtr>
-      <mtd>
-        <mstyle mathsize="1.2em">
-          <mi>p</mi>
-        </mstyle>
-      </mtd>
-      <mtd>
-        <mi></mi>
-        <mo>=</mo>
-      </mtd>
-      <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd>
-        <mstyle mathsize="1.2em">
-          <mi>q</mi>
-        </mstyle>
-      </mtd>
-      <mtd>
-        <mi></mi>
-        <mo>=</mo>
-      </mtd>
-      <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd>
-        <mstyle mathsize="1.2em">
-          <msub>
-            <mi>q</mi>
-            <mi>z</mi>
-          </msub>
-        </mstyle>
-      </mtd>
-      <mtd>
-        <mi></mi>
-        <mo>=</mo>
-      </mtd>
-      <mtd>
-        <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
-          <mrow class="MJX-TeXAtom-ORD">
-            <mi>z</mi>
-          </mrow>
-          <mtext>&#xA0;blocks behind</mtext>
-        </mrow>
-      </mtd>
-    </mtr>
-  </mtable>
+<mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
+<mtr>
+<mtd>
+<mstyle mathsize="1.2em">
+<mi>p</mi>
+</mstyle>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+</mtd>
+<mtd>
+<mtext>&#xA0;waarskynlikheid dat 'n eerlike nodus die volgende blok vind</mtext>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle mathsize="1.2em">
+<mi>q</mi>
+</mstyle>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+</mtd>
+<mtd>
+<mtext>&#xA0;waarskynlikheid dat die aanvaller die volgende blok vind</mtext>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle mathsize="1.2em">
+<msub>
+<mi>q</mi>
+<mi>z</mi>
+</msub>
+</mstyle>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+</mtd>
+<mtd>
+<mrow>
+<mtext>&#xA0;waarskynlikheid dat die aanvaller ooit van z-blokke&#xA0;</mtext>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>z</mi>
+</mrow>
+<mtext>&#xA0;agter sal inhaal</mtext>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
 </math>
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mstyle mathsize="1.2em">
-    <msub>
-      <mi>q</mi>
-      <mi>z</mi>
-    </msub>
-    <mo>=</mo>
-    <mrow>
-      <mo>{</mo>
-      <mtable rowspacing="4pt" columnspacing="1em">
-        <mtr>
-          <mtd>
-            <mn>1</mn>
-          </mtd>
-          <mtd>
-            <mrow class="MJX-TeXAtom-ORD">
-              <mtext class="MJX-tex-mathit" mathvariant="italic">if</mtext>
-            </mrow>
-            <mspace width="thickmathspace" />
-            <mi>p</mi>
-            <mo>&#x2264;<!-- ≤ --></mo>
-            <mi>q</mi>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd>
-            <mo stretchy="false">(</mo>
-            <mi>q</mi>
-            <mrow class="MJX-TeXAtom-ORD">
-              <mo>/</mo>
-            </mrow>
-            <mi>p</mi>
-            <msup>
-              <mo stretchy="false">)</mo>
-              <mi>z</mi>
-            </msup>
-          </mtd>
-          <mtd>
-            <mrow class="MJX-TeXAtom-ORD">
-              <mtext class="MJX-tex-mathit" mathvariant="italic">if</mtext>
-            </mrow>
-            <mspace width="thickmathspace" />
-            <mi>p</mi>
-            <mo>&gt;</mo>
-            <mi>q</mi>
-          </mtd>
-        </mtr>
-      </mtable>
-      <mo>}</mo>
-    </mrow>
-  </mstyle>
+<mstyle mathsize="1.2em">
+<msub>
+<mi>q</mi>
+<mi>z</mi>
+</msub>
+<mo>=</mo>
+<mrow>
+<mo>{</mo>
+<mtable rowspacing="4pt" columnspacing="1em">
+<mtr>
+<mtd>
+<mn>1</mn>
+</mtd>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext class="MJX-tex-mathit" mathvariant="italic">if</mtext>
+</mrow>
+<mspace width="thickmathspace" />
+<mi>p</mi>
+<mo>&#x2264;<!-- ≤ --></mo>
+<mi>q</mi>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mo stretchy="false">(</mo>
+<mi>q</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi>p</mi>
+<msup>
+<mo stretchy="false">)</mo>
+<mi>z</mi>
+</msup>
+</mtd>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext class="MJX-tex-mathit" mathvariant="italic">if</mtext>
+</mrow>
+<mspace width="thickmathspace" />
+<mi>p</mi>
+<mo>&gt;</mo>
+<mi>q</mi>
+</mtd>
+</mtr>
+</mtable>
+<mo>}</mo>
+</mrow>
+</mstyle>
 </math>
 
-Given our assumption that
+Gegewe ons aanname dat
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi>p</mi>
-  <mo>&#x003E;<!-- > --></mo>
-  <mi>q</mi>
+<mi>p</mi>
+<mo>&#x003E;<!-- > --></mo>
+<mi>q</mi>
 </math>
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+, die waarskynlikheid eksponensieel afneem namate die aantal blokke wat die aanvaller moet inhaal, toeneem. Met die kans teen hom, as hy nie vroeg 'n gelukkige sprong vorentoe maak nie, word sy kanse verdwynend klein soos hy verder agter raak.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Ons oorweeg nou hoe lank die ontvanger van 'n nuwe transaksie moet wag voordat hy voldoende seker is dat die sender nie die transaksie kan verander nie. Ons neem aan die sender is 'n aanvaller wat die ontvanger vir 'n rukkie wil laat glo dat hy hom betaal het, en dit dan oorskakel om na 'n rukkie aan homself terug te betaal. Die ontvanger sal gewaarsku word wanneer dit gebeur, maar die sender hoop dit sal te laat wees.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
+Die ontvanger genereer 'n nuwe sleutelpaar en gee die publieke sleutel aan die sender kort voor ondertekening. Dit verhoed dat die sender 'n ketting blokke voor die tyd voorberei deur voortdurend daaraan te werk totdat hy gelukkig genoeg is om ver genoeg vooruit te kom, en dan die transaksie op daardie oomblik uit te voer. Sodra die transaksie gestuur is, begin die oneerlike sender in die geheim werk aan 'n parallelle ketting wat 'n alternatiewe weergawe van sy transaksie bevat.
 
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Die ontvanger wag totdat die transaksie by 'n blok gevoeg is en z-blokke is daarna gekoppel. Hy weet nie die presiese hoeveelheid vordering wat die aanvaller gemaak het nie, maar met die aanname dat die eerlike blokke die gemiddelde verwagte tyd per blok geneem het, sal die aanvaller se potensiële vordering 'n Poisson-verspreiding met verwagte waarde wees:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -241,7 +240,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Om die waarskynlikheid te kry dat die aanvaller nou nog kan inhaal, vermenigvuldig ons die Poisson-digtheid vir elke hoeveelheid vordering wat hy kon gemaak het met die waarskynlikheid dat hy van daardie punt af kon inhaal:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -328,7 +327,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Herrangskik om te verhoed dat die oneindige stert van die verspreiding opgetel word…
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -391,7 +390,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Skakel tans oor na C-kode …
 
 ```c
 #include 
@@ -412,7 +411,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+As ons 'n paar resultate uitvoer, kan ons sien dat die waarskynlikheid eksponensieel afneem met z.
 
 ```
 q=0.1
@@ -442,7 +441,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Oplossing vir P minder as 0,1%...
 
 ```
 P < 0.001
@@ -456,9 +455,9 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Gevolgtrekking
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Ons het 'n stelsel vir elektroniese transaksies voorgestel sonder om op vertroue staat te maak. Ons het begin met die gewone raamwerk van munte gemaak van digitale handtekeninge, wat sterk beheer oor eienaarskap bied, maar onvolledig is sonder 'n manier om dubbelbesteding te voorkom. Om dit op te los, het ons 'n eweknienetwerk voorgestel wat bewys-van-werk gebruik om 'n publieke geskiedenis van transaksies op te teken wat vinnig rekenaarmatig onprakties word vir 'n aanvaller om te verander as eerlike nodusse 'n meerderheid van SVE-krag beheer. Die netwerk is robuust in sy ongestruktureerde eenvoudigheid. Nodusse werk op een slag met min koördinasie. Hulle hoef nie geïdentifiseer te word nie, aangesien boodskappe nie na enige spesifieke plek herlei word nie en slegs op 'n beste poging afgelewer moet word. Nodusse kan na willekeur die netwerk verlaat en weer by aansluit, en die bewys-van-werk-ketting aanvaar as bewys van wat gebeur het terwyl hulle weg was. Hulle stem met hul SVE-krag, spreek hul aanvaarding van geldige blokke uit deur daaraan te werk om dit uit te brei en ongeldige blokke te verwerp deur te weier om daaraan te werk. Enige nodige reëls en aansporings kan met hierdie konsensusmeganisme afgedwing word.
 
 ## References
 
