@@ -1,108 +1,117 @@
-# Explain Bitcoin Like I’m Five
+---
+translators: 
+    - 
+        name: "Shaadiya Maxamed Cabdi"
+        href: "https://www.facebook.com/shadiya.mohamed.549/"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# U sharax Bitcoin sida aniga oo shan jir ah
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+Waxaa qoray Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Haddii aadan wali garan karahayn waxa uu yahay bitcoin...
 
-We’re sitting on a park bench. It’s a great day.
+Waxaan ku fadhinaa kursi yaala beerta. Waa maalin weyn.
 
-I have one apple with me. I give it to you.
+Waxaan wataa hal tufaax ah. Waan aan ku siiyey.
 
-You now have one apple and I have zero.
+Hadda waxaad haysataa hal tufaax, aniguna eber baan haystaa.
 
-That was simple, right?
+Taasi waxay ahayd mid fudud, Miyaney sidas ahayn?
 
-### Let’s look closely at what happened:
+### Aynu si fiican u eegno sida ay wax u dhaceen:
 
-My apple was physically put into your hand.
+Tufaaxaygi physical ahaan wxaa ladhigay adiga gacantaada.
 
-You know it happened. I was there. You were there. You touched it.
+Waad ogtahay waxa dhacay. waan joogay halkaas adna waad joogtay. Waad taabatay.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Uma baahnin qof saddexaad oo halkaas naga caawiya wareejinta. Uma baahnayn inaan so jiidano Adeer Tommy (oo ah garsoore caan ah) si uu noogu fadhiisto kursiga keydka oo aan u xaqiijiyo in tufaaxu uu iga imid aniga.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Tufaaxa adigaa leh! Kuma siin karo tufaax kale sababtoo ah ii may hadhin waxkale oo tufaax eh . Mar dambe ma xakameyn karo. waxa aan uga tagay Tufaaxa Nolosheydii gebi ahaanba. Waxaad si buuxda u maamusho tufaaxaas hadda. Waxaad siin kartaa saaxiibkaa haddii aad rabto, ka dibna saaxiibkaa ayaa siin kara saaxiibkiis. Iyo wixi la mida.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Markaa taasi waa sida uu u eg yahay is-beddelka qof ahaaneed. Waxaan filayaa inay runtii isku mid tahay, waxa aan ku siin rabay muus, buug, ama aan ku idhaahdo rubuc, ama biil dollar ah….
 
-But I’m getting ahead of myself.
+Laakiin waxa aan ka hormaraa naftayda.
 
-### Back to apples!
+### Ku laabo tufaaxa!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Hadda waxaad tidhaahdaa, waxaan haystaa hal tufaax oo dhijitaal ah. Halkan, waxaan ku siin doonaa tufaaxkayga dhijitaalka ah.
 
-Ah! Now it gets interesting.
+Ah! Hadda arrinku waxa uu yeelanayaa xiiso.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Sideed ku ogaanaysaa in tufaaxa dhijitaalka ah uu yahay kii aan hore u haysan jirey,hadda waxa uu yahay kaaga, oo adiga uun baaba leh? Ka fakar tan hal ilbidhiqsi.
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Arrinku wuu adkaaday maaha? Sideed ku ogaatay in aanan tufaaxaas u dirin Adeer Tommy sida lifaaq email ahaan marka hore? Mise saaxiibkaa Joe? Mise saaxiibkay Lisa sidoo kale?
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Waxaa laga yaabaa in aan kombuyuutarkayga ku sameeyay dhowr koobi oo ah tufaaxaas dhijitaalka ah. Waxaa laga yaabaa in aan soo dhigay internetka oo hal milyan oo qof ay dejisteen.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Sida aad aragto, isbeddelka dhijitaalka ah waxa uusababay wa xoogaa dhibaato ah. Dirista tufaaxa dhijitaalka ah uma eeka dirista tufaaxa caadiga ah.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Qaar ka mid ah saynisyahannada kombuyuutarrada maskaxda leh ayaa dhab ahaantii magac u bixiyey dhibaatadan: waxaa loo yaqaannaa dhibaatada laba-qaarashka. Laakiin ha ka welwelin. Waxa kaliya ee aad u baahan tahay inaad ogaato ayaa ah, inay ku jahwareereen iyagu in muddo ah oo aanay welina xalin.
 
-Until now.
+Ilaa iyo hadda.
 
-But let’s try to think of a solution on our own.
+Laakin aan isku dayno inaan ka fikirno xalkayaga.
 
-### Ledgers
+### Buugaagta Macallinka
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Waxaa laga yaabaa in tufaaxyadan dhijitaalka ah ay u baahan yihiin in laga raad-raaco buugga macallinka. Asal ahaan waa buug aad la socoto dhammaan wax kala iibsiga - iyo buuga xisaabaadka.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Buuga- macallinka, maadaama uu yahay mid dhijitaal ah, waxa uu u baahan yahay in uu ku noolaado adduunkiisa gaarka ah oo uu yeesho qof masuul ka ah.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Waxaad dhahdaa, sida World of Warcraft. Blizzard, ragga abuuray ciyaarta khadka tooska ah, waxay leeyihiin "Buug dijital ah" dhammaan seefaha dabka naadirka ah ee ka jira nidaamkooda. Marka, qabow, qof iyaga oo kale ah ayaa la socon kara tufaaxyada dhijitaalka ah. Cajiib - waanu xalinay!
 
-### Problems
+### Mushkiladaha/caqabadaha
 
-There’s a bit of a problem though:
+Waxaa jirta xoogaa dhibaato ah inkastoo:
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1. Maxaa dhacaya haddii nin ka mid ah Blizzard uu ku kacco in uu abuuro wax badan? Wuxuu kaliya ku dari karaa dhowr tufaax oo dhijitaal ah Rasiidkiisa mar kasta oo uu doono!
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2. Si sax ah uma eka markii aan kursiga ku jirnay maalin. Aniga iyo adiga uun bay ahayd markaa. Ku dhex mara Blizzard waxay la mid tahay inaad soo jiidato Adeer Tommy (qayb saddexaad) oo ka baxsan maxkamadda (miyaan sheegay inuu yahay garsoore caan ah?) Dhammaan macaamiladayada kursiga keydka. Sideen kuugu soo wareejin karaa tufaaxkayga dhijitaalka ah, sida, ma ogtahay - habka caadiga ah?
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Ma jirtaa hab si dhow loogu celceliyo fadhigeena beerta, adiga-iyo-aniga, wax kala iibsiga si dhijitaal ah? Waxay u egtahay tani mid adag…
 
-### The Solution
+### Xalka
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Maxaa dhacaya haddii aan siino buug-gacmeedkan - qof walba? Halkii buug-yaraha uu ku noolaan lahaa kombuyuutarka Blizzard, wuxuu ku noolaan doonaa kombayutarada qof walba. Dhammaan wax kala iibsigii waligood dhacay, laga bilaabo wakhti kasta, tufaaxa dhijitaalka ah ayaa lagu qori doonaa dhexdiisa.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Ma khiyaami kartid. Kuma soo diri karo tufaax dhijitaal ah oo aanan haysan, sababtoo ah markaa lama mid noqon doonto qof kasta oo nidaamka ku jira. Waxay noqon doontaa nidaam adag in laga gudbo. Gaar ahaan hadii ay tahay dhabtii mid aad uweyn.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Intaa waxaa dheer ma aha mid uu maamulo hal qof, sidaas darteed waxaan ogahay in uusan jirin qof kaliya oo go'aansan kara inuu naftiisa siiyo tufaax badan oo dhijitaal ah. Xeerarka nidaamka ayaa horeba loo qeexay bilowgii. Xeerka iyo xeerarkuna waa il furan. Waxay u jirtaa dadka caqliga leh inay wax ku biiriyaan, ilaaliyaan, sugaan, horumariyaan, oo ay hubiyaan.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Waxaad sidoo kale ka qaybqaadan kartaa shabakadan oo aad cusboonaysiin kartaa buug-yaraha oo aad hubisaa in dhammaan la hubiyay. Dhibka, waxaad heli kartaa sida 25 tufaax dhijitaal ah oo abaal-marin ahaan ah. Dhab ahaantii, taasi waa habka kaliya ee lagu abuuri karo tufaax badan oo dhijitaal ah nidaamka.
 
-### I simplified quite a bit
+### In yar ayaan fududeeyay
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+... laakiin nidaamkaas aan sharaxay ayaa jira. Waxaa loo yaqaan nidaamka Bitcoin. Tufaaxa dhijitaalka ahina waa *"bitcoins"* ee nidaamka dhexdiisa. Waa Cajiib!!
+Haddaba, ma aragtay waxa dhacay? Muxuu awooda inuu suura geliyo buuga Macallinku?
 
-So, did you see what happened? What does the public ledger enable?
+1) Waa il furan xusuusnow? Tirada guud ee tufaaxa waxa lagu qeexay buug-yaraha dadweynaha bilowgii. Waan ogahay qaddarka saxda ah ee jira. Nidaamka dhexdiisa, waxaan ogahay inay xaddidan yihiin (naadirna yihiin).
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+2) Markii aan wax beddelo, waxaan hadda ogahay in tufaaxa dhijitaalka ah uu si shahaado ah uga tagay hantidayda oo uu hadda yahay adiga gebi ahaanba. Ma awoodin in aan taas ka sheego waxyaabaha dhijitaalka ah. Waxa cusboonaysiin doona oo la xaqiijin doona iyada oo la marayo buuga macallinka ee guud.
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+3) Sababtoo ah waa buug-gacmeed dadweyne, uma baahnin adeer Tommy (dhinac saddexaad) si aan u hubiyo inaanan khiyaanayn, ama aanan naftayda u samayn nuqullo dheeraad ah, ama soo diro tufaax laba jeer, ama saddex jeer...
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+    Nidaamka dhexdiisa, beddelka tufaaxa dhijitaalka ah hadda waa sida beddelka mid jireed. Hadda waxay u fiican tahay inaan arko tufaax jireed oo ka tago gacantayda oo ku rid jeebkaada. Iyo sida kursiga beerta, wax-isweydaarsiga ayaa ku lug lahaa laba qof oo keliya. Adiga iyo aniga - uma baahnin adeer Tommy halkaas si aan u ansaxno
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+Si kale haddii loo dhigo, waxay u dhaqantaa sida shay jireed.
 
-In other words, it behaves like a physical object.
+Laakiin ma ogtahay waxa fiican? Wali waa dijitaal. Waxaan hadda la macaamili karnaa 1,000 tufaax, ama 1 milyan oo tufaax ah, ama xitaa .0000001 tufaax. Waxaan ku soo diri karaa adigoo gujinaya badhanka, welina waxaan ku ridi karaa jeebka dhijitaalka ah haddii aan joogo Nicaragua oo aad ku jirto dhammaan jidka New York.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Waxaan xitaa ka dhigi karaa waxyaabo kale oo dhijitaal ah oo korka tufaaxa dhijitaalka ah! Waa digital ka dib-dhan. Waxaa laga yaabaa inaan ku soo lifaaqo xoogaa qoraal ah - qoraal dijital ah. Ama waxaa laga yaabaa inaan ku soo lifaaqo waxyaabo kale oo muhiim ah; sida qandaraas, ama shahaado saamiyada, ama kaarka aqoonsiga…
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Markaa tani waa wax weyn! Sideen u daaweynaa ama u qiimeynaa "tufaaxa dhijitaalka ah"? Aad bay faa'iido u leeyihiin miyaysan ahayn?
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Hagaag, dad badan ayaa hadda ku doodaya. Waxaa jira dood u dhaxaysa kan iyo dugsigaas dhaqaalaha. Siyaasiyiinta dhexdooda. Inta u dhaxaysa barnaamijyada. Ha dhegaysan dhamaantood. Dadka qaar waa caqli badan yihiin. Qaar baa si khaldan loo sheegay. Qaarkood waxay yiraahdaan nidaamku wax badan ayuu u qalmaa, qaar waxay yiraahdaan dhab ahaantii waa eber. Nin baa run ahaantii dhigay tiro adag: $1,300 tufaaxiiba. Qaar waxay yiraahdaan waa dahab dijital ah, qaarna waa lacag. Qaar kale waxay yiraahdaan waa sida tulipska oo kale. Dadka qaarkiis waxay yiraahdaan waxay bedeli doontaa adduunka, qaar waxay yiraahdaan waa wax la yaab leh.
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Aniga fikradeyda ayaan ka qabaa.
 
-I have my own opinion about it.
-
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Taasi waa sheeko waqti kale in kastoo. Laakiin walaal, hadda waxaad wax badan ka taqaanaa Bitcoin in ka badan inta ay yaqaanaan dadka kale.
 
 #### Recommend Reading (Updated 2017)
 

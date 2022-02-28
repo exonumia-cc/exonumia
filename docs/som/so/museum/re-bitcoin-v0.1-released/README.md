@@ -1,4 +1,14 @@
-# Re: Bitcoin v0.1 released
+---
+translators: 
+    - 
+        name: "Shaadiya Maxamed Cabdi"
+        href: "https://www.facebook.com/shadiya.mohamed.549/"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+# Re: Bitcoin v0.1 ayaala sii daayay
 
 by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
@@ -6,50 +16,48 @@ by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://ww
 
 Satoshi Nakamoto writes:
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
+> Ku dhawaaqida sii deynta ugu horreysa ee Bitcoin, lacag caddaan ah oo elektaroonik ah oo cusub
+> nidaamka adeegsada isku-xidhka isku-filka ah si looga hortago kharashka laba-jibbaaran.
+> Gebi ahaanba waa la baahiyey iyada oo aan lahayn server ama maamul dhexe.
 >
-> See bitcoin.org for screenshots.
+> Ka eeg bitcoin.org shaashadaha.
 >
-> Download link:
+> Soo deji xiriirka:
 > http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
+Hambalyo Satoshi sii dayntan alfa ugu horeysay. waan eegayaa
+horay u sii tijaabiya.
 
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
+> Wadarta wareegga waxay noqon doontaa 21,000,000 oo qadaadiic ah. Waa la qaybin doonaa
+> si ay u xidhmaan noodhka marka ay sameeyaan blocks, iyadoo qadarka la jaray kala badh
+> 4tii sanaba mar.
 >
-> first 4 years: 10,500,000 coins  
-> next 4 years: 5,250,000 coins  
-> next 4 years: 2,625,000 coins  
-> next 4 years: 1,312,500 coins  
-> etc...
+> 4-ta sano ee ugu horreeya: 10,500,000 oo qadaadiic ah  
+> 4ta sano ee soo socota: 5,250,000 oo qadaadiic ah  
+> 4ta sano ee soo socota: 2,625,000 qadaadiic  
+> 4ta sano ee soo socota: 1,312,500 qadaadiic  
 
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
+Waxaa xiiso leh in nidaamka loo habeyn karo si loo oggolaado kaliya a
+tirada ugu badan ee qadaadiicda ah ee abid la soo saaro. Waxaan filayaa
+fikradda ayaa ah in tirada shaqada ee loo baahan yahay si loo soo saaro qadaadiic cusub aad noqotid mid aad u adag marka uu waqtigu socdo.
 
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
+Mid ka mid ah dhibka degdega ah ee lacag kasta oo cusub waa sida loo qiimeeyo. Xataa
+Iyagoo iska indhatiraya dhibaatada la taaban karo ee aan cidina aqbali doonin
+marka hore, waxaa weli dhib ah in la keeno macquul ah
+dood u hiilinaysa qiimo gaar ah oo aan eber ahayn ee qadaadiicda.
 
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
+Sida tijaabo fikirka madadaalada, qiyaas in Seeraar waa guul iy0
+wuxuu noqdaa nidaamka lacag-bixinta ugu badan ee laga isticmaalo adduunka oo dhan. Kadibna
+wadarta qiimaha lacagtu waa inay la mid noqotaa wadarta qiimaha dhammaan
+hantida aduunka. Qiyaasta hadda ee wadarta qoyska adduunka oo dhan
+hantida aan helay waxay u dhaxaysaa $100 trillion ilaa $300 trillion. leh
+20 milyan oo qadaadiic ah, taasi waxay siinaysaa qadaadiic kasta qiima dhan ilaa $10 milyan.
 
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Markaa suurtagalnimada in la soo saaro qadaadiicda maanta oo leh dhowr senti oo xisaabiye ah
+Waqtigu wuxuu noqon karaa mid aad u fiican, oo leh wax ka badan 100 milyan
+ku 1! Xitaa haddii nasiibka Bitcoin uu ku guuleysto heerkan uu yahay mid khafiif ah,
+ma run ahaantii 100 milyan ayaa ka soo horjeeda? Wax laga fikiro...
 
 Hal
 
