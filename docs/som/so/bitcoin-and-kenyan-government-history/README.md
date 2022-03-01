@@ -1,195 +1,196 @@
-# Bitcoin and Kenyan Government History
+# Bitcoin iyo Taariikhda Dowladda Kenya
 
-by Michael Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
+Waxaa qoray Michael Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
 
 <LanguageDropdown/>
 
-This is the notice by the Central Bank of Nigeria 🇳🇬 barring regulated financial instiututions from facilitating payments from cryptocurrency exchanges 
+Kani waa ogaysiiska Bangiga Dhexe ee Nigeria 🇳🇬 ka mamnuucaya machadyada maaliyadeed ee nidaamsan inay fududeeyaan lacagaha sarrifka lacagaha cryptocurrency
 
-dated February 5, 2021
+ku taariikhaysan February 5, 2021
 
 ![](./cbn-bar-bitcoin.jpg)
 
-This is a similar notice by the [Central Bank of Kenya 🇰🇪prohibiting Kenyan banks from processing payments for Virtual currency businesses](https://www.centralbank.go.ke/uploads/banking_circulars/2075994161_Banking%20Circular%20No%2014%20of%202015%20-%20Virtual%20Currencies%20-%20Bitcoin.pdf)
+Kani waa ogeysiis la mid ah [Bankiga Dhexe ee Kenya 🇰🇪ka mamnuucaya bangiyada Kenya inay habeeyaan lacagaha ganacsiyada lacagta Virtual](https://www.centralbank.go.ke/uploads/banking_circulars/2075994161_Banking%20Circular%20No%2014%20of%202015%20-%20Virtual%20Lacagta%20-%20Bitcoin.pdf)
 
 ![](./cbk-bar-bitcoin.jpg)
 
-As a Kenyan from East Africa, i cant help but laugh at my crypto friends from Nigeria. Finally, they feel our pain for the last 7 years! There is a lot to unpack here so here is a thread on my associative thoughts
+Kiinyaani ahaan ka yimid Bariga Afrika, kama caawin karo inaan ku qosliyo saaxiibadeyda crypto ee Nigeria. Ugu dambeyntii, waxay dareemayaan xanuunkayaga 7dii sano ee la soo dhaafay! Waxaa jira wax badan oo halkan laga soo dajin karo sidaa darteed halkan waa mawduuc ku saabsan fikradahayga associative
 
-### July 9, 2013
+### Luulyo 9, 2013
 
-“Kenya’s Kipochi wallet was the first crypto bitcoin company that launched a product that allowed people in Africa to send and receive bitcoins, plus convert them to and from the Kenyan currency M-Pesa”
+"Jeebka Kenya ee Kipochi wuxuu ahaa shirkaddii ugu horreysay ee crypto bitcoin soo saarta badeecad u oggolaanaysa dadka Afrika ku nool inay diraan oo ay helaan bitcoins, oo lagu daray inay u beddelaan kana soo qaataan lacagta Kenya ee M-Pesa"
 
-[Kipochi launches M-Pesa integrated bitcoin wallet in Africa](https://www.coindesk.com/markets/2013/07/09/kipochi-launches-m-pesa-integrated-bitcoin-wallet-in-africa/)
+[Kipochi wuxuu soo saaray M-Pesa boorsada bitcoin ee isku dhafan ee Afrika](https://www.coindesk.com/markets/2013/07/09/kipochi-launches-m-pesa-integrated-bitcoin-wallet-in-africa/)
 
-It wasn’t long before the Central bank of Kenya and Safaricom Mpesa came down on them
+Wax yar ka dib markii ay soo degeen bangiga dhexe ee Kenya iyo Safaricom Mpesa
 
-“Within a week our connection w/ M-Pesa through merchant provider Kopo Kopo was shut down. It took us more than a week for us to find out that Safaricom had forced Kopo Kopo to shut us down”
+"Toddobaad gudihiis xiriirkeena w/M-Pesa ee u marayey bixiyaha ganacsiga Kopo Kopo waa la xiray. Wax ka badan todobaad ayay nagu qaadatay in aan ogaano in Safaricom ay ku qasabtay Kopo Kopo inuu na xiro”
 
-### August 2013
+### Ogosto 2013
 
-“In August 2013, Kipochi received an official notification from the Central Bank of Kenya that they needed to know who we were, what we were up to and what the hell Bitcoin was.”
+"Bishii Ogosto 2013, Kipochi wuxuu ka helay ogeysiin rasmi ah Bangiga Dhexe ee Kenya oo sheegaya inay u baahan yihiin inay ogaadaan cidda aan nahay, waxa aan ku jirno iyo waxa cadaabta Bitcoin ay tahay."
 
-[What actually happened at Kipochi?](https://blog.stakeventures.com/articles/what-actually-happened-at-kipochi)
+[Maxaa dhab ahaantii ka dhacay Kipochi?](https://blog.stakeventures.com/articles/what-actually-happened-at-kipochi)
 
-This was the first case of a Bitcoin company in Kenya running at odds w/ the regulated (Central Bank of Kenya) and regulated financial services (Safaricom’s Mpesa). A year later i joined the industry and recall trying to work with Pelle’s Kipochi and other companies like Bitpesa
+Tani waxay ahayd kiiskii ugu horreeyay ee shirkad Bitcoin ah oo ku taal Kenya oo ku socota khilaaf xagga sharciga ah (Bangiga Dhexe ee Kenya) iyo adeegyada maaliyadeed ee nidaamsan (Safaricom's Mpesa). Sannad ka dib waxaan ku biiray warshadaha waxaanan dib u xusuustaa isku dayga inaan la shaqeeyo Pelle's Kipochi iyo shirkado kale sida Bitpesa
 
-We all worked together on how we would get the banks and regulators to ease restrictions on accessing bank accounts. We needed a neutral body to champion this cause
+Dhammaanteen waxaan ka wada shaqeynay sidii aan u heli lahayn bangiyada iyo maamulayaasha si ay u fududeeyaan xannibaadaha gelitaanka xisaabaadka bangiyada. Waxaan u baahnay hay'ad dhexdhexaad ah oo u ololaysa arrintan
 
-I was tasked to set up a non-profit foundation. Here is an email dated 14th May 2014
+Waxaa la ii xilsaaray inaan aasaaso aasaas aan faa'iido doon ahayn. Waa kan iimaylka ku taariikhaysan 14ka Meey 2014
 
 ![](./bitcoin-foundation-affiliate.jpg)
 
 
-The next company on the guillotine was Bitpesa. Bitpesa launched a crypto product allowing Kenyans to buy bitcoins using mpesa (later introduced a sell bitcoin feature). The product also plugged into a cross border remittance (Kenya - UK corridor).
+Shirkadda xigta ee guillotine-ka waxay ahayd Bitpesa. Bitpesa waxay soo saartay badeecad crypto ah oo u oggolaanaysa Kenyaanka inay ku iibsadaan bitcoins iyagoo isticmaalaya mpesa (kadib waxay soo bandhigtay qaab iibinta bitcoin). Alaabta ayaa sidoo kale ku xirtay xawaaladaha xudduudaha isaga gudba (Kenya - Waddada UK).
 
-This too did not last long
+Tani sidoo kale ma sii socon muddo dheer
 
-### December 18, 2015 
+### Diseembar 18, 2015
 
 [CBK Circular](https://www.centralbank.go.ke/uploads/banking_circulars/2075994161_Banking%20Circular%20No%2014%20of%202015%20-%20Virtual%20Currencies%20-%20Bitcoin.pdf)
 
-“The purpose of this circular is to caution all financial institutions against dealing with virtual currencies or transacting with entities that are engaged in virtual currencies. Do not open accounts for anyone dealing in Bitcoin”
+"Ujeedada wareegtadan ayaa ah in looga digtoonaado dhammaan hay'adaha maaliyadeed in ay la tacaalaan lacagaha casriga ah ama la macaamilka hay'adaha ku hawlan lacagaha farsamada. Ha u furin akoonno qof kasta oo wax ku iibsanaya Bitcoin”
 
-A couple of days later, Safaricom Mpesa CEO Bob Collymore spoke out against virtual currencies saying
+Dhowr maalmood ka dib, maamulaha guud ee Safaricom Mpesa Bob Collymore ayaa ka hadlay lacagaha casriga ah isagoo leh
 
-“We will not agree to have bitcoin-related transactions on its M-Pesa system unless the virtual currency is authorised by the banking sector regulator.”
+"Ma aqbali doono in la sameeyo wax kala beddelasho bitcoin ah oo ku saabsan nidaamkeeda M-Pesa ilaa lacagta farsamada ah aysan fasaxin maamulka qaybta bangiyada''.
 
-[Collymore says Safaricom will not risk CBK’s wrath over bitcoin transactions](https://www.businessdailyafrica.com/bd/corporate/companies/collymore-says-safaricom-will-not-risk-cbk-s-wrath-over-bitcoin-transactions-2103900)
+[Collymore wuxuu leeyahay Safaricom ma halis galin doonto CBK cadhada wax kala iibsiga bitcoin](https://www.businessdailyafrica.com/bd/corporate/companies/collymore-says-safaricom-will-not-risk-cbk-s-wrath-over- bitcoin-ganacsiga-2103900)
 
-It all seemed coordinated.
+Dhammaan waxa ay u muuqdeen kuwo la isku duway.
 
-No access to bank account and Mpesa gateway services crippled Bitpesa business. Bitpesa and Lipisha (payment gateway partner) took the matter to court
+Gelitaan la'aanta akoon bangi iyo adeegyada albaabka Mpesa ayaa curyaamiyay ganacsigii Bitpesa. Bitpesa iyo Lipisha (lammaanaha ka ah albaabka lacag bixinta) ayaa arinta maxkamada geeyay
 
-[Petition NO. 512 of 215](http://kenyalaw.org/caselaw/cases/view/117270/)
+[Codsiga NO. 512 ee 215](http://kenyalaw.org/caselaw/cases/view/117270/)
 
-### December 28, 2015
+### Diseembar 28, 2015
 
-I penned an opinion article for Kenya’s leading newspaper the Daily Nation, bashing the CBK for foolish short term thinking. I said “4 years from now people will laugh at CBK for this ridiculous notice” 
+Waxaan qalinka ugu duugay maqaal ra'yi ah wargeyska ugu horreeya Kenya ee Daily Nation, anigoo ku canaananaya CBK fikir nacasnimo ah oo gaaban. Waxaan idhi "4 sano ka dib dadku waxay ku qosli doonaan CBK ogeysiiskan qosolka leh"
 
-1 Bitcoin at the time was $450, today it is $40,000
+1 Bitcoin wakhtigaas wuxuu ahaa $450, maanta waa $40,000
 
 ![](./newspaper-letter.jpg)
 
-November 26, 2015
+Nofeembar 26, 2015
 
-A lawsuit filed by bitcoin payments startup BitPesa and its partner against mobile money giant Safaricom was heard in the Kenyan High Court on Tuesday.
+Dacwad ay gudbisay shirkadda bitcoin Payments startup BitPesa iyo la-hawlgalkeeda oo ka dhan ah shirkadda weyn ee lacagta mobilada ee Safaricom ayaa la dhageystay maxkamadda sare ee Kenya Talaadadii.
 
-[Kenyan High Court Hears BitPesa Case Against Safaricom](https://www.coindesk.com/markets/2015/11/26/kenyan-high-court-hears-bitpesa-case-against-safaricom/)
+[Maxkamadda Sare ee Kenya oo dhageysatay Dacwad BitPesa ee ka dhanka ah safaricom](https://www.coindesk.com/markets/2015/11/26/kenyan-high-court-hears-bitpesa-case-against-case-against-safaricom/)]
 
-Bitpesa argued Safaricom “intimidated” its gateway partner, Lipisha, forcing it to suspend its services on November 12th without prior notice causing BitPesa and Lipisha significant challenges maintaining their business.
+Bitpesa waxay ku dooday Safaricom inay "cabsi galisay" lammaaneheeda albaabka Lipisha, taasoo ku khasabtay inay joojiso adeegeeda Noofambar 12-keeda iyada oo aan ogaysiis hore loo helin taasoo keentay in BitPesa iyo Lipisha ay caqabado muhiim ah ku sii wataan ganacsigooda.
 
-Safaricom argued that the suspension of service to Lipisha was justified because Bitpesa had failed to obtain authorisation for bitcoin transfers from Kenya’s central bank. As a result, Bitpesa’s transactions through Lipisha and its account at Safaricom contravened AML rules.
+Safaricom waxa ay ku doodday in joojinta adeegii Lipisha ay sabab u ahayd sababtoo ah Bitpesa waxa ay ku guul daraystay in ay fasax ka hesho xawaaladaha bitcoin ee bangiga dhexe ee Kenya. Natiijo ahaan, macaamilka Bitpesa ee loo maro Lipisha iyo akoonkeeda Safaricom waxay jabisay sharciyada AML.
 
-But a lawyer for the two firms said Safaricom had misunderstood the central bank’s requirements.
-“[The central bank] told BitPesa that bitcoins are not regulated in Kenya but Safaricom insists that it produces a licence to that effect,”
+Laakiin qareenka u doodaya labada shirkadood ayaa sheegay in Safaricom ay khalad fahantay shuruudaha bangiga dhexe.
 
-### December 15, 2015
+"[Bangiga dhexe] wuxuu u sheegay BitPesa in bitcoins aan lagu maamulin Kenya, laakiin Safaricom waxay ku adkaysanaysaa inay soo saarto shati taas la mid ah,"
 
-Bitpesa lost the case
+### Diseembar 15, 2015
 
-A Kenyan High Court judge has ruled that M-Pesa operator Safaricom will not be required to grant access to bitcoin startup BitPesa amid an ongoing legal dispute.
+Bitpesa kiiskii way wayday
 
-[Kenyan Court Upholds Bid to Keep Bitcoin Startup Off M-Pesa](https://www.coindesk.com/markets/2015/12/15/kenyan-court-upholds-bid-to-keep-bitcoin-startup-off-m-pesa/)
+Garsooraha maxkamadda sare ee Kenya ayaa go'aamiyay in shirkadda M-Pesa ee Safaricom aan looga baahnayn inay siiso BitPesa bilowga ah ee bitcoin iyadoo uu jiro muran sharci.
 
-With no access to Bank accounts and Mpesa gateway services critical for operations, Bitpesa gradually pivoted away from business in Kenya.
+[Maxkamadda Kenya ayaa taageertay dalabka lagu doonayo in lagu ilaaliyo bilowga Bitcoin M-Pesa](https://www.coindesk.com/markets/2015/12/15/kenyan-court-upholds-bid-to-keep-bitcoin-startup-off-m-pesa/)
 
-Bitpesa was a critical gateway for accessing Bitcoins (buy and sell), so their departure, affected behavior on how users accessed bitcoins.
+Iyadoo aan la helin xisaabaadka bangiga iyo adeegyada albaabka Mpesa ee muhiimka u ah hawlgallada, Bitpesa waxay si tartiib tartiib ah uga fogaatay ganacsigii Kenya.
 
-The biggest beneficiary was peer to peer bitcoin markets which do not require an intermediary with banking or Mpesa services.
+Bitpesa waxay ahayd marin muhiim ah oo laga galo Bitcoins (iibso oo iibso), markaa bixitaankooda, ayaa saameeyay habdhaqanka sida isticmaalayaashu u galaan bitcoins.
 
-Local bitcoins was the first to cater to demand. See this chart of growing volumes since Bitpesa was shut down. Current volumes 150 million per week.
+Ka faa'iidaystaha ugu weyn wuxuu ahaa asxaabta isku dhafka ah ee suuqyada bitcoin kuwaas oo aan u baahnayn dhexdhexaadiyaha bangiyada ama adeegyada Mpesa.
+
+Bitcoins maxalliga ah ayaa ahaa kuwii ugu horreeyay ee wax ka qabta baahida. Eeg shaxdan tirada korodhka tan iyo markii Bitpesa la xidhay. Qiyaasta hadda 150 milyan todobaadkii.
 
 ![](./bitcoin-p-2-p-volume.jpg)
 
-You see, regulators are foolish and do not gerrit. When you shut down formal channels for buying and selling bitcoin, peer to peer trades pick up b/c the nature of bitcoin and cryptocurrencies is peer to peer.  Peer to peer transactions are informal and hidden.
+Waxaad arkaysaa, nidaamiyayaashu waa nacasyo oo ma gashaan. Markaad xirto kanaalada rasmiga ah ee wax iibsiga iyo iibinta bitcoin, ganacsiyada facooda ah waxay soo qaadaan b/c dabeecadda bitcoin iyo cryptocurrencies waa isku fac. Wax kala iibsashadu waa mid aan rasmi ahayn oo qarsoon.
 
-You see, regulators are foolish and do not gerrit. When you shut down formal channels for buying and selling bitcoin, peer to peer trades pick up b/c the nature of bitcoin and cryptocurrencies is peer to peer.  Peer to peer transactions are informal and hidden.
+Waxaad arkaysaa, nidaamiyayaashu waa nacasyo oo ma gashaan. Markaad xirto kanaalada rasmiga ah ee wax iibsiga iyo iibinta bitcoin, ganacsiyada facooda ah waxay soo qaadaan b/c dabeecadda bitcoin iyo cryptocurrencies waa isku fac. Wax kala iibsashadu waa mid aan rasmi ahayn oo qarsoon.
 
 
-Here is a chart of Kenya’s peer to peer volumes on another peer to peer market, Paxful. Weekly volumes, 178 million per week as of last week
+Halkan waxaa ah jaantuska jaantuska ay isku fac yihiin Kenya ee ku saabsan suuq-wadaagga kale, Paxful. Mugga toddobaadlaha ah, 178 milyan usbuucii ilaa usbuucii hore
 
 ![](./bitcoin-p-2-p-volume-comparison.jpg)
 
-With a set up like Bitpesa, the regulator can force compliance through enforced reporting and can keep track of money moving in and out of bitcoin and cryptocurrencies.
+Marka la sameeyo sida Bitpesa, maamuluhu wuxuu ku qasbi karaa u hoggaansanaanta iyada oo loo marayo warbixin la dhaqan galiyay oo waxay la socon kartaa lacagta soo galaysa kana baxaysa bitcoin iyo cryptocurrencies.
 
 ![](./centralized-compliance.jpg)
 
-With peer to peer markets, the nature of the transaction is untraceable b/c money moves from a individual user account to another individual users account, the bank, Mpesa and regulator cannot tell the purpose of the value transfer. When in fact, it was a bitcoin trade
+Suuqyada facooda ah, dabeecadda wax kala beddelashadu waa mid aan la ogaan karin b/c lacagtu waxay ka guurtaa akoon shakhsi oo isticmaale oo u gudubta akoon kale oo isticmaaleyaal ah, bangiga, Mpesa iyo maamulaha ma sheegi karaan ujeedada wareejinta qiimaha. Marka dhab ahaantii, waxay ahayd ganacsiga bitcoin
 
 ![](./p2p-market.jpg)
 
-local bitcoins 150 million KES per week
-Paxful 178 million KES per week
-binance P2P (unknown
-Local cryptos (unknown)
-Offline trades (unknown)
-Offshore trades (unknown)
-Citibank 2018 suggested Kenyans hold 163 billion in Bitcoin
-Paxful “Kenyans traded 6 billion in 2020”
+bitcoins gudaha 150 milyan KES todobaadkii
+Paxful 178 milyan KES todobaadkii
+binance P2P (aan la garanayn)
+Cryptos maxalli ah (aan la garanayn)
+Ganacsiga khadka tooska ah (aan la garanayn)
+Ganacsiga xeebaha (aan la garanayn)
+Citibank 2018 waxa uu Kenyaanka u soo jeediyay 163 bilyan oo Bitcoin ah
+Keenyaanku waxa ay ka iibsadeen 6 bilyan sanadka 2020
 
-See, there is no way to tell exactly how much money is moving through, in and out of bitcoin and cryptocurrencies. This is the conundrum for regulators. They think they smart by shutting down formal channels, but only serve to prop up informal hidden volumes
+Eeg, ma jirto si dhab ah oo loo sheego inta lacag ah ee ku socota, gudaha iyo dibadda bitcoin iyo cryptocurrencies. Tani waa isku-xidhka maamulayaasha. Waxay u maleynayaan inay caqli badan yihiin iyagoo xiraya kanaalada rasmiga ah, laakiin kaliya waxay u adeegaan inay kor u qaadaan mugga qarsoon ee aan rasmiga ahayn
 
-My conservative estimates is
+Qiyaastayda muxaafidku waa
 
-500 million weekly in Kenya Flag of Kenya multiples by 52 weeks, roughly 25 billion per annum.
+500 milyan todobaadkiiba calanka Kenya oo dhufsada 52 toddobaad, qiyaastii 25 bilyan sannadkii.
 
-Conservative estimates
+Qiyaasaha muxaafidka
 
-Peer to peer trading of bitcoin and cryptocurrencies is the only model that works despite the position of Central Banks. it has been great for creating earning opportunities for young people
+Peer to peer trading of bitcoin iyo cryptocurrencies waa moodalka kaliya ee shaqeeya inkasta oo ay jiraan booska Bangiyada Dhexe. waxay ahayd mid aad u wanaagsan abuurista fursado shaqo oo loogu talagalay dhalinyarada
 
-see this [thread](https://twitter.com/pesa_africa/status/1351786081474252800)
+kan arag [thread](https://twitter.com/pesa_africa/status/1351786081474252800)
 
-Peer to peer and informal trading of cryptocurrencies like Bitcoin is an added cyber security risk to Kenya’s financial system b/c money flows into bitcoin cannot be recovered
+Ganacsi fac-wadaaga ah iyo ganacsiga aan rasmiga ahayn ee cryptocurrencies sida Seeraar waa khatar ammaan dhanka internetka ah oo lagu daray nidaamka maaliyadeed ee Kenya b/c lacagaha ku qulqula bitcoin lama soo celin karo
 
-June 30, 2020
+Juun 30, 2020
 
-[Bitcoin Case at Kenya’s Milimani Law Courts Sets Precedence](https://kenyanwallstreet.com/bitcoin-case-kenyas-milimani-law-courts-sets-precedence/)
+[Kiiska Bitcoin ee Maxkamadaha Sharciga Milimani ee Kenya ayaa dhigaya mudnaanta](https://kenyanwallstreet.com/bitcoin-case-kenyas-milimani-law-courts-sets-precedence/)
 
-I find it amusing that Kenyan regulators, officials and ‘Fintech’ experts think cryptocurrencies can be ‘swept under the rug’, it merely exposes their foolishness. Ive met A LOT of them in my 7 years and they DO NOT GERRIT!
+Waxaan u arkaa inay tahay wax lagu farxo in maamulayaasha Kenya, saraakiisha iyo khubarada 'Fintech' ay u maleynayaan in lacagta loo yaqaan 'cryptocurrencies' lagu 'hoos mari karo roogga hoostiisa', kaliya waxay daaha ka qaadaysaa nacasnimadooda. Wax badan oo iyaga ka mid ah ayaan la kulmay 7-dii sano ee aan jiray, mana QAADO!
 
-Every year they delay, informal volumes grow
+Sannad kasta way daahiyaan, tirooyin aan rasmi ahayn way koraan
 
-### December 16, 2020 
+### Diseembar 16, 2020
 
-UGANDA recently made ammendments to their Anti Money Laundering Act 2013 to include virtual asset service providers. Perhaps the only notable effort from government in the region to address the issues above
+UGANDA waxay dhawaan wax ka baddal ku samaysay Xeerka Ka-hortagga Lacag-dhaqidda ee 2013 si ay ugu daraan bixiyeyaasha adeegga hantida farsamada. Waxaa laga yaabaa in dadaalka kaliya ee xusid mudan oo ka yimid dowladda gobolka si wax looga qabto arrimaha kor ku xusan
 
 [thread](https://twitter.com/pesa_africa/status/1339071354507759616)
 
-February 5, 2020 (Present) Day
+Febraayo 5, 2020 (Hadda) Maalinta
 
-In my opinion, due to the circular by the Central Bank of Nigeria 🇳🇬, we should expect to see the same patterns witnessed in Kenya 🇰🇪
-
-
-In fact, i wager, we multiple times of magnitude b/c Nigeria is 10 times bigger than Kenya Flag of Kenya and has a long history with currency devaluations and informal currency trading 
-
-See this [thread](https://twitter.com/pesa_africa/status/1304060041268539392)
-
-Here is a [story of how Nigeria’s informal networks use trusted networks, e-word of mouth and reputation to support the trade of bitcoin and cryptocurrencies offline.](https://twitter.com/pesa_africa/status/1255808792916365312)
+Fikradayda, iyadoo ay ugu wacan tahay wareegtada uu soo saaray bangiga dhexe ee Nigeria 🇳🇬, waa inaan filanno inaan aragno qaabab isku mid ah oo laga marag kacay Kenya 🇰🇪
 
 
-Here is an article on the mechanics of informal trade borrowed from Somali Hawala networks. Exactly the same mechanisms at play in Bitcoin crypto peer to peer informal trades (online and offline)
+Dhab ahaantii, waan wager, annaga oo dhowr jeer oo cabbirka b/c Nigeria 10 jeer ka weyn calanka Kenya oo taariikh dheer ku leh qiimo-dhac lacageed iyo ganacsi lacageed oo aan rasmi ahayn
 
-[How the Young Somali Hawaladars of Little Mogadishu are Shaping the Future of Bitcoin in Africa](https://kioneki.com/2019/12/15/how-somali-traders-innovate-on-informal-financial-practices-using-bitcoin/)
+Halkan ka arag [thread](https://twitter.com/pesa_africa/status/1304060041268539392)
 
-“data compiled from Coin Dance by the global crypto platform  Paxful, shows Nigeria is the largest P2P bitcoin marketplace in the world, over 52% of the market share. In the past 5 yrs 60,215 bitcoin transactions valued at $566 million, placing it second behind the United States”
+Halkan waxaa ah [sheeko ku saabsan sida shabakadaha aan rasmiga ahayn ee Nigeria u isticmaalaan shabakado la aamini karo, e-ereyga afka iyo sumcadda si ay u taageeraan ganacsiga bitcoin iyo cryptocurrencies offline.](https://twitter.com/pesa_africa/status/1255808792916365312)
 
-This is data from Paxful only, one of the many peer to peer bitcoin trading platforms. My friends in Nigeria tell me there is A LOT more P2P trading activity than is captured by official statistics.
 
-[In 2020, Nigerians traded more than $400m worth of crypto on local crypto exchange platforms](https://techpoint.africa/2021/01/06/nigerians-traded-more-than-400m-worth-crypto-2020/)
+Waxaan halkaan idinkugu soo gudbineynaa maqaal ku saabsan farsamada ganacsiga aan rasmiga ahayn oo laga soo amaahday shabakadaha Xawaaladaha Soomaaliyeed. Sida saxda ah hababka isku midka ah ee ciyaarta Bitcoin crypto peer si ay ula midoobaan ganacsiyada aan rasmiga ahayn (online iyo offline)
 
-Crypto businesses in Nigeria Flag of Nigeria have informed users they cannot access fiat withdrawals via officially regulated channels.
+[Sida Dhallinyarada Soomaaliyeed ee Hawalada ee Muqdisho yar ay u qaabeynayaan mustaqbalka Bitcoin ee Afrika](https://kioneki.com/2019/12/15/how-somali-traders-innovate-on-informal-financial-practices-using-bitcoin/)
 
-“Bundle processed Over $85 Million and Registered Over 124K Users in 2020”
+"xogta laga soo ururiyey Qoob ka ciyaarka ee caalamiga ah ee loo yaqaan 'crypto platform Paxful', waxay muujinaysaa Nigeria inay tahay suuqa ugu weyn ee P2P bitcoin suuqa, in ka badan 52% saamiga suuqa. 5-tii sano ee la soo dhaafay 60,215 wax kala iibsiga bitcoin ayaa lagu qiimeeyay $566 milyan, taasoo ka dhigaysa kaalinta labaad ee Mareykanka"
 
-Does anyone honestly think that a ban on official payment channels by Central Banks will cut short interest in bitcoin and cryptocurrencies? What, with the price going up, and all the earning opportunities emerging from cryptocurrencies, dapps and use cases?
+Tani waa xog laga helay Paxful kaliya, mid ka mid ah asxaabta badan ee isku fac-faadka ah ee aaladaha ganacsi ee bitcoin. Saaxiibadayda Nigeria waxay ii sheegeen inuu jiro dhaqdhaqaaq ganacsi oo P2P BADAN oo ka badan inta lagu qabtay tirakoobka rasmiga ah.
 
-This is a political battle between the old legacy banking cartels and the subversive feature of bitcoin cryptocurrencies. In all my years of experience, I am convinced bitcoin and cryptocurrencies will win. African governments and banks lack capacity and no influence.
+[Sanadka 2020, dadka reer Nigeria waxa ay wax ka badan $400m oo dollar ka iibiyeen aaladaha sarrifka crypto ee maxaliga ah](https://techpoint.africa/2021/01/06/nigerians-traded-more-than-400m-worth-crypto-2020/)
 
-Their only choice is to co-opt cryptocurrencies like Bitcoin, before it is too late.
+Ganacsiyada Crypto ee Nigeria Flag of Nigeria ayaa ku wargaliyay isticmaalayaasha inaysan geli karin ka-noqoshada fiat-ka iyagoo adeegsanaya kanaalada si rasmi ah loo habeeyey.
 
-I’m going to try pitch my editor this thread as an article. 
+"Xiddiga waxa la farsameeyay in ka badan $85 milyan waxaana la diiwaangeliyey in ka badan 124k isticmaalayaasha sanadka 2020''
 
-/END
+Miyuu jiraa qof si daacad ah u maleynaya in mamnuucida kanaalada lacag bixinta ee rasmiga ah ee Bangiyada Dhexe ay yareyn doonto xiisaha bitcoin iyo cryptocurrencies? Waa maxay, qiimaha kor u kaca, iyo dhammaan fursadaha kasbashada ee ka soo baxaya cryptocurrencies, dapps iyo kiisaska isticmaalka?
 
-For more [read](https://twitter.com/pesa_africa/status/1357972508796977152)
+Kani waa dagaal siyaasadeed oo u dhexeeya bangiyada dhaxalka ah ee duuga ah iyo qaabka qalloocan ee lacagaha loo yaqaan 'cryptocurrencies bitcoin'. Dhammaan sannadihii aan khibradda u lahaa, waxaan ku qanacsanahay bitcoin iyo cryptocurrencies inay guuleysan doonaan. Dawladaha iyo bangiyada Afrika waxaa ka maqan awood iyo wax saamayn ah.
+
+Doorashadooda kaliya ayaa ah in ay iska kaashadaan lacagaha loo yaqaan 'cryptocurrencies' sida Bitcoin, ka hor inta aysan goori goor tahay.
+
+Waxaan isku dayi doonaa inaan tifaftirahayga mawduucan u dhigo maqaal ahaan.
+
+/DHAMMAAD
+
+Wixii dheeraad ah [akhri](https://twitter.com/pesa_africa/status/1357972508796977152)
