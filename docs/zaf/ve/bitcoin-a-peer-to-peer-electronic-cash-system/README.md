@@ -1,109 +1,119 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+---
+translators: 
+    - 
+        name: "Molewa Phathutshedzo"
+        href: "https://twitter.com/pha2niser"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# Bitcoin: Sisiṱeme ya tshelede ya eḽekṱhroniki kha munwe na munwe
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+nga Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Tshihumbulelwa
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Nḓila ya u rumela munwe na munwe tshelede ya elekṱhroniki i ḓo tendela mbadelo nga inthanethe uri dzi rumeliwe ubva kha muthu muthihi uya kha munwe u fhirisa uya kha zwiimiswa zwa masheleni. Ṱhaluso ya didzhithaḽa i neaho tshipiḓa tsha thandululo, fhedzi mbuelo dzone dzone dzi lozwiwa kharali mufareli mulifhelwa u kha ḓi ṱoḓea u thivhelwa thengo mbili. Ri themendela thandululo kha thaidzo ya thengo mbili hu tshi khou shumisiwa vhuṱumanyi ha munwe uya kha munwe. Zwiifhinga zwa thengiselano ya vhuṱumanyi nga u zwi shandukisela kha uya phanḓa ha thevhekano ya vhuṱanzi ha tshandukiso ya mushumo, u thomiwa ha rekhodo ine i nga si kone u shandukisiwa nga nṱhani ha u dovha hafhu u ita vhuṱanzi ha mushumo. Thevhekano ndapfu a yi nei fhedzi vhuṱanzi ha mutevhe wa zwe zwa vhonala zwi tshi itea, fhedzi vhuṱanzi ha uri ibva kha muḓagasi muhulwane. Sa musi vhunzhi ha muḓagasi wa CPU hu tshi languliwa nga zwishumiswa zwa elekṱhroniki zwine zwa khou shumisana kha ulwa na nethiweke, zwi ḓo ita mutevhe wo lapfaho na vhugevhenga nga inthanethe. Nethiweke nga yone ine i ṱoḓa kudzudzanyele kuṱuku. Milaedza is hashiwa kha nungo dzoṱhe dza mutheo na uri zwishumiswa zwa elekṱhroniki zwi nga ṱuwa na u dovha zwa dzhena kha nethiweke nga u funa, kha u tevhela vhuṱanzi a mutevhe mulapfu wa mushumo kha zwe zwa itea musi zwo ṱuwa.
 
-## Introduction
+## Marangaphanḓa
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Vhubindudzi ha inthanethe vho ḓi tika nga maanḓa kha zwiimiswa zwa masheleni hu tshi shuma sa mufareli mulifhelwa u rumela mbadelo dza elekṱhroniki. Naho sisiṱeme i tshi shuma zwavhuḓi kha thengiso nnzhi, i dovha ya tambula nga u shaya maanḓa kha modela wo ḓi sendekaho nga fulufhelo. Thengiso dzi sa humeli murahu a dzi konadzei, sa musi zwiimiswa zwa masheleni zwi nga si kone u iledza vhupfumedzi ha khuḓano. Mutengo wa vhupfumedzani u engedza ndifho dza thengiselano, ine ya fhungudza thengiselano ya fhasi nga vhuhulwane na u thivhela u konadzea ha thengiselano ṱhukhu na uri hun na ndifho khulwane kha ndozwo i sa koniho u humisela murahu mbadelo kha tshumelo dzi sa humeli murahu. Na khonadzeo dza u humisela murahu, ṱhoḓea dza u fulufhedzea ho phaḓalazwaho. Vharengisi vha tea u vhilaela nga ha vharengi vhavho, nga u vha dina kha u ṱoḓa mafhungo manzhi u fhira ane vha ṱoḓa. Phesenthe inwe ya vhukwila yo tendelwa sa ine i nga si thivhelwe. Hedzi ndifho na u sa ḓivhea ha mbadelo dzi nga nga thivhelwa nga muthu nga u shumisa tshelede nga tshanḓa, fhedzi a huna zwi shumiswa zwire hone zwa u ita mbadelo nga fhethu ha vhudavhidzani hu sina mufareli mulifhelwa.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Zwine zwa ṱoḓea ndi sisiṱeme ya mbadelo ya elekṱhroniki yo ḓi sendekaho nga vhuṱanzi cryptographic hu si vhufareli, hu tendelaho vhalifhelwa vha ṱoḓaho u rengiselana hu sina ṱhoḓea ya mufareli mulifhelwa. Thengiselano dzine dzi sa koni u humela murahu nga khomphyutha dzi ḓo tsireledza vharengisi kha vhukwila, na maitele zwishumiswa zwa mufareli mulifhelwa dzine dzi nga itiwa zwo leluwa u itela u tsireledza vharengi. Kha heli bambiri, themendela thandululo kha thaidzo ya u renga luvhili nga u shumisa tshifhinga tsha seva tsho phaḓalzwaho kha munwe na munwe kha u ita vhuṱanzi ha khomphyutha kha thengiselano dza matevhekanele. Sisiṱeme yo tsireledzea arali zwishumiswa zwa vhukuma zwa elekṱhroniki zwi shumiasnaho kha u langula muḓagasi wa CPU u fhira zwinwe zwigwada zwa zwishumiswa zwa elekṱhroniki zwi shumisanaho u ṱhasela.
 
-## Transactions
+## Thengiselano
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Ri ṱalusa tshelede ya elekṱhroniki sa mutevhe wa ṱhaluso ya didzhithaḽa. Mulangi munwe na munwe u rumela tshelede kha munwe nga u saina didzhithaḽa ya u shandukisa thengiselano dzo fhiraho na khii ya tshitshavha kha mulangi a tevhelaho na u ṱanganyisa hezwi kha mafhedziselo a khoini. Mubadeli u tea u seduzlusa tsaino u ṱoḓisisa mutevhe wa vhulangi.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Thaidzo yone ndi ya uri mubadeli ha nga koni u ṱolisisa uri munwe wa vhalangi ha ngo renga luvhili khoini. Thandululo yo ḓoweleaho ndi u ḓivhadza vhuvhusi vhu fulufhedzeaho, kana mukango une wa sedzulusa thengiselano inwe na inwe kha thengo mbili. Nga murahu ha thengiselano inwe na inwe, masheleni a tea u humiseliwa murahu kha mukango u itela khoini ntswa na uri ndi masheleni fhedzi o itiwaho ubva kha mukango a fulufheliwa kha u sa renga luvhili. Thaidzo kha heyi thandululo ndi ya uri khombo ya ndozwo kha sisiṱeme yoṱhe ya tshelede yo ḓi sendeka kha khamphani i langulaho mulango, kha thengiselano inwe na inwe i dzhenaho khayo, u fana na bannga.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Ri ṱoḓa nḓila ya uri mubadeli a ḓivhe uri vhalanguli vha murahu a vhongo saina thengiselano inwe na inwe mathomoni. Kha nḓivho yashu, thengiselano ya mathomoni ndi yone yo teaho, zwino a rina ndavha nga ndingo dzo itiwaho kha thengo mbili. Nḓila nthihi ya u khwaṱhisedza u savha hone ha thengiselano ndi u ḓivha nga thengisealano dzoṱhe. Kha modela wo ḓi sendekaho nga mukango, mukango u ḓivha nga ha thengiselano dzoṱhe kha u khetha u swika phanḓa[1], na uri ri ṱoḓa sisiṱeme kha vhadzheneleli uri vha tende kha ḓivhazwakale nthihi ya thengo kha zwe zwa ṱanganezwa. Mubadeli u ṱoḓa vhuṱanzi kha uri tshifhinga tshinwe na tshinwe tsha thengiselano, vhunzhi ha zwi shumiswa zwa elekṱhroniki zwo tenda uri ndi ya u thoma u ṱanganezwa.
 
-## Timestamp Server
+## TShifhinga tsha seva
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Thandululo ine ra i themndela i thoma nga tshifhinga tsha seva. Tshifhinga tsha seva tshi shuma nga u dzhia tshigwada tsha hash tsha zwishumiswa kha tshifhinga na u huwelela hash yo phaḓaladziwaho, sa gurannḓa kana Usenet post[2-5]. Tshifhinga tshi sumbedza uri data itea uvha hone nga hetsho tshifhinga, zwi khagala, uri u itela ri dzhene kha hash. Tshifhinga tshinwe tshinwe tshi katela tshifhinga tsho no fhiraho kha hash yatsho, ya u thoma mutevhe, na tshifhinga tshinwe na tshinwe hafhu kha u khwaṱhisedza zwinwe zwire phanḓa.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Vhuṱanzi ha mushumo
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+U ṱhaphudza tshifhnga tsha seva tsho kovhekanyiwaho kha maitele a munwe uya ha munwe, ri ḓo ṱoḓa vhuṱanzi ha sisiṱeme ya mushumo I fanaho na Hashcash ya Adam Back[6], u fhirisa gurannḓa kana milaedza ya Usenet. Vhuṱanzi ha mushumo hu katela ṱholisiso ya vhundeme kha uri musi hu tshi shukisiwa, sa SHA-256, hash i thoma nga nomboro ya dziro biti. Mushumo u angaredzaho ndi tshisumbavhuḓiandisi kha nomboro ya dziro biti i ṱoḓeaho ine i nga ṱoḓisiwa nga u ita hash nthihi.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Kha nethiweke ya tshifhinga tshashu, ro ṱhaphudza vhuṱanzi ha mushumo nga u engedza tshifhinga tshithihi kha kuvhumbele u swika kha vhundeme vhu tshi waniwa vhu nea kuvhumbele kwa hash hune ha dziro biti dzi ṱoḓeaho. Musi vhuḓidini ha CPU ho ḓi nekedzela kha u fusha ṱhoḓea ya vhuṱanzi ha mushumo, tshivhumbeo tshi nga si shandukiswe nga nṱhani ha u dovholola mushumo. Sa nga murahu ha kuvhumbele ku no tevhelana nga murahu hatsho, tshanduko ya kuvhumbele kwa mushumo hu katela u dovholola zwivhumbeo zwoṱhe nga murahu.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Vhuṱanzi ha mushumo hu tandulula thaidzo ya u sumbedza zwifanyiso zwa vhunzhi ha u itwa ha tsheo. Kharali vhunzhi ho ḓi sendeka kha -IP-aḓiresi nthihi na -khetho-nthihi, i nga shandukisiwa nga munwe na munwe ane a kona u kovha IPs nnzhi. Vhuṱanzi ha mushumo ndi ha ndeme kha CPU-nthihi-khetho-nthihi. Vhunzhi ha tsheo dzo imelelwa nga mutevhe mulapfu, ine vhuṱanzi vhunzhi vhuhulwane vha vhuḓidini ha mushumo ho itiwaho. Kharali vhunzhi ha muḓagasi wa CPU u tshi languliwa nga zwishumiswa zwa elekṱhronik zwi fhulufhedzeaho, mutevhe u fuflufhedzeaho u ḓo hula nga u ṱavhanya na u ṱavhanyesa ha mutevhe u ṱaṱisanaho. U vhuyedzedza tshivhumbeo tsho fhiraho, tshigevhenga tshi tea u dovholola vhuṱanzi ha mushumo wa tshivhumbeo na zwivhumbeo zwoṱhe nga murahu hatsho wa dovha u wana na u fhira mushumo u fulufhedzeaho wa tshishumiswa tsha elekṱhroniki. Ri ḓo sumbedza hu si kale kha uri khonadzeo dza tshigevhenga tshi ongolowaho kha u fara tshisumbavhuḓiandisi sa tshivhumbeo tshi vhuyelelaho tsho engedzea.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+U lifha u engedzeha luvhilo lwa zwivhumbakhomphyutha na u fhambana dzangalelo kha zwishumiswa zwa elekṱhroniki zwi shumaho tshifhinga tshinzhi, vhuṱanzi ha mushumo u konḓaho hu wnala nga u sundulusa mbalotshikati yo livhaho nomboro ya mbalotshikati ya tshivhumbeo nga awara. Kharali dzi tshi itiwa nga luvhilo, u konḓa hu a engedzeha.
 
-## Network
+## Nethiweke
 
-The steps to run the network are as follows:
+Nḓila dza u shumisa nethiweke ndi dzi tevhelaho:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Thengiselano ntswa ndi u hasha kha noudzu dzoṱhe.
+2. Noudu inwe na inwe i kuvhanganya thengiselano ntswa kha tshivhumbeo.
+3. Noudu inwe na inwe i shuma kha u wana u konḓa kha vhuṱanzi ha mushumo kha tshivhumbeo tshayo.
+4. Musi noudu i tshi wana vhuṱanzi ha mushumo, i hasha tshivhumbeo tsha noudzu dzoṱhe.
+5. Noudu dzi tendela tshivhumbeo fhedzi kharali thengiselano dzoṱhe khadzo dzi dza vhukuma na dzi sa athu shumisiwa.
+6. Noudzu dzi sumbedza thendelo kha buḽoko nga u shumela u ita buḽoko i tevhelaho kha tshaine, hu tshi khou shumisiwa hash kha tshivhumbeo tsho tendelwaho sa hash yo fhiraho.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Noudzu dzi dzulela u ṱhogomela mutevhe wo lapfaho kha nthihi ya vhukuma na u isa phanḓa kha u shumela u dzi engedza. Kharali noudzu mbili dzi tshi hasha vesheni kha tshivhumbeo tshi tevhelaho nga khathihi, dzinwe noudzu dzi nga ṱanganedza nthihi kana inwe u thoma. Kharali zwo ralo, dzi shuma kha nthihi ya thoma yp ṱanganezwaho, fhedzi u tsireledza tshipiḓa tshinwe kharali dzavha ndapfu. Vhuṱumanyi vhu ḓo vunḓea musi vhuṱanzi ha mushumo hu tshi wanala na tshipiḓa tshithihi tshi tshivha tshilapfu; dzi noudzu dze dzavha dzi tshi khou shuma kha tshipiḓa tshinwe tshi ḓo shanduka kha nthihi ndapfu.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Khasho ya thengiselano ntswa a yongo tea u swikelela noudzu dzoṱhe. Kharali dzo swikelela noudzu nnzhi, dzi tea u dzhena kha tshivhumbeo phanḓa ha vhulapfu. Khasho dza tshivhumbeo dzi a konḓelela kha milaedza yo laṱiwaho. Kharali noudzu i sa ṱanganedzi tshivhumbeo, i ḓo tshi humbela musi musi tshi tshi ṱanganedza tshivhumbeo tshi tevhelaho na u ṱhogomela tshithihi tsho hangwiwaho.
 
-## Incentive
+## Ṱhuṱhuwedzo
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Nga buthano, thengiselano ya u thoma kha buḽoko ndi thengiselano yo khetheaho ine ya thoma tshelede ntswa i languliwaho mufhaṱi wa tshivhumbeo. Hezwi zwi engedza ṱhuṱhuwedzo kha noudzu kha u tikedza nethiweke, na u nea nḓila ya u thoma u phaḓaladza khoini sa musi hu sina vhulangi ha vhukati kha u dzi ita. U engedzeha ho khwaṱhaho kha ṱhanganyelo ya u sa shanduka kha masheleni maswa ndi u vhambedza maini wa musuku kha u kovhekana. Kha vhuimo hashu, ndi tshifhinga tsha CPU na muḓagasi u phaḓalazwaho.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Ṱhuṱhuwedzo i nga badelwa nga mbadelo ya thengiselano. Vhundeme ha nnḓa kha thengiselano ndi ṱhukhu kha vhundeme ha nga ngomu, phambano ndi mbadelo ya thengiselano ine ya engezwa kha vhundeme ha ṱhuṱhuwedzo kha buḽoko ire na thengiselano. Musi hu saathu u sumbezwa nomboro ya masheleni uri o dzhena kha phaḓalazwo, ṱhuṱhuwedzo i nga shandukiswa tshoṱhe kha mbadelo ya thengiselano na u savha na mbadelothangeli.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Ṱhuṱhuwedzo i nga kona u thusa u ṱuṱuwedza noudzu uri dzi fhulufhedzehe. Kharali mudzia vhupangwa hu kona u kuvhangana muḓagasi munzhi wa CPU u fhira noudzu dzoṱhe dzi fhulufhedzeaho, utea u khetha kha u shumisa kha u fhura vhathu nga utswa murahu mbadelo dzawe, kana u i shumisa u ita masheleni maswa. U tea u zwi wana zwi tshi vhuyedza u tevhedza milayo,sa milayo i no mufha khoini nnzhi maswa u fhira vhathu vhoṱhe vho ṱanganyisiwa, u fhira u nyadza sisiṱeme na vhungoho ha lupfumo lwawe.
 
-## Reclaiming Disk Space
+## U dzhiulula tshikhala tsha disiki
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Musi thengiselano ya zwino kha masheleni a ḓo vhulungiwa nga fhasi buḽoko dzo eḓanaho, thengiselano yo itiwaho i sa athu u laṱiwa u vhulunga tshikala kha disiki. U thoma hezwi hu songo kwashiwa buḽoko ya hash, thengiselano dzi a shandukisiwa kha muri wa Merkle [7][2][5], na mudzi fhedzi wo katelwaho kha buḽoko ya hash. Dzi buḽoko zwa kale zwo vhekanyiwaho nga urwa madavhi a muri. Tshanduko dza nga ngomu a dzina ṱhoḓea ya uri dzi vhulungiwe.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Ṱhoho ya buḽoko i shayaho thengiselano i ḓovha 80 baithi. Kharali ri tshiri zwivhumbeo zwi itiwa tshifhinga tshoṱhe tsha mithethe ya 10, 80 baithi * 6 * 24 * 365 = 4.2MB nga nwaha. Sa musi dzisisiṱeme ya khomphyutha dzi ḓoweleaho u rengisa na RAM ya 2GB ubva 2008, na mulayo wa Moore u humbulela nyaluwo ya zwino ya 1.2GB nga nwaha, fhethu ha u vhulunga a hongo tea uvha thaidzo naho kharali ṱhoho ya buḽoko i ḓo vheiwa kha fhethu ha ekhiṱhironiki ha u vhulunga.
 
-## Simplified Payment Verification
+## Ṱhanzielaṱhoḓisiso yo leluwaho ya mbadelo
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Zwi a konadzea u ṱolisisa mbadelo hu songo shumisiwa nethiweke yoṱhe ya noudu. Mushumisi u ṱoḓa fhedzi u vhea khophi ya ṱhoho dza tshivhumbeo kha mutevhe mulapfu wa vhuṱanzi ha mushumo, ine a nga i wana nga u vhudzisa noudu dza nethiweke u swika a tshi fushea uri una mutevhe mulapfu, na u wana davhi ḽa Merkle ḽi no ṱangana na thengiselano kha tshifhinga tsha nga ngomu tsha tshivhumbeo. A nga si kone u sedza thengiselano nga ene mune, fhedzi nga u i ṱanganya ba fhethu ha mutevhe, u ḓo vhona uri noudu ya nethiweke yo i tenda, na buḽoko ya dzhenisiswa nga murahu ha u isa phanḓa na u khwaṱhisa uri nethiweke yo i tendela.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Naho zwo ralo ṱhanzielaṱhoḓisio ndi ya vhukuma kharali noudzu dza vhukuma dzi ḓo langula nethiweke, fhedzi zwi a konḓesa kharali nethiweke i tshi kundiwa nga ḽibvemu. Musi noudzu dza nethiweke dzi tshi ḓdo kona u ṱanziela thengiselano nga vhone vhane, nḓila dzo leluwaho i nga fhuriwa nga thengiselano ya ḽibvemu lwa tshifhinga tshilapfu tshine ḽibvemu ḽi nga kona u isa phanḓa na u kunda nethiweke. Nḓila nthihi ya u tsireledza hezwi ndi u tendela tsivhudzo ubva kha noudzu dza nethiweke musi dzi tshi vhona buḽogo i savhi yone, i ita uri softhiwee ya mushumisi i dawunilode buḽoko yoṱhe na u tsivhudza dzi thengiselano kha u khwaṱhisedza u sa shuma zwavhuḓi. Mabindu ane a ṱanganedza mbadelo dza tshifhinga tshoṱhe ine I nga ḓi kona u ṱoḓa u shumisa noudzu dzadzo kha tsireledzo yo ḓi imisaho nga yoṱhe na ṱhanzielaṱhoḓisiso u ṱavhanyaho.
 
-## Combining and Splitting Value
+## U ṱanganyisa na u fhambanya vhundeme
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Naho zwi tshi konadzea u dzudzanya masheleni u eṱhe, zwi a konḓa u ita thengiselano dzo fhambanaho kha tshelede inwe na inwe kha yo rumeliwaho. U tendela vundeme uri vhufhandekanyiwe na u ṱanganyiso, thengiselano i na zwa nga ngomu na zwa nga nnḓa. Kanzhi huvha na nga ngomu huthihi ubva kha thengiselano khulwane ya murahu kana ha nga ngomu hunzhi hu ṱanganyisaho tshikalo tshiṱuku, na nga nnḓa huvhili: nthihi ya mbadelo na nthihi ya u huma, kharali i hone, u humela murahu kha muremeli.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Zwi tea u nwaliwa uri fan-out, hunethengiselano dzi ḓi sendeka nga thengiselano dzo vhalaho, na uri hedzo thengiselano dzo ḓi sendeka nga dzinwe nnzhi nnzhi, a si thaidzo fhano. A huna ṱhoḓea dza u dzhia khophi nthihi ya thengiselano dza murahu.
 
-## Privacy
+## Tshidzumbe
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Modela wa bannga wo ḓoweleaho u swikelela vhuimo vha tshidzumbe nga u fhungudza u wanala ha nḓovho kha vhathu vhare ngomu na mufareli mulifhelwa. Ṱhoḓea dza u anḓadza thengiselano dzoṱhe kha tshitshavha zwi thivhela heyi nḓila, fhedzi tshidzumbe tshi nga kona uvha hone nga u thutha I tshimbila ha mafhungo nga ngomu ha hunwe fhethu: nga u vhea khili kha tshitshavha lwa tshiphiri. Tshitshavha tshi nga kona u vhona munwe u khou rumela tshelede kha munwe, fhedzi vha shaya nḓivho ya u kwamana na thengiselano ya munwe. Hezwi zwifana na vhuimo ha nḓivho yo bvisiwaho nga kha zwa masheleni, hune tshifhinga na tshikalo tsha thengiso dza muthu muthihi, "theiphi", iya phaḓalazwa kha tshitshavha, fhedzi hu sa sumbedziwe vhathu.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Sa tsireledzo yo engedziwaho, phere dza khili ntswa dzi tea u shumiswa kha thengiselano inwe na inwe u itela uri dzi songo kwamana na mulangi o ḓoweleaho. Hunwe u kwamana a hu hanedzei na thengiselano dzo vhalaho dza nga ngomu, zwiine zwa sumbedza uri zwa nga ngomu zwavho zwovha zwi tshi languliwa nga mulanguli uyo. Khombo ndi ya uri mulanguli wa khili a sumbedziwe, u kwamana hu nga sumbedza dzinwe thengiselano dzine dzavha dza mulanguli uyo.
 
-## Calculations
+## Mbalelo
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Ri tea u ṱhogomela vhuimo ha mufhura ane a kho lingedza u ita nḓila ya u ṱavhanya u fhira ane a ṱoḓa u ita i no fhulufhedzea. Naho hezwi zwo bvelezwa, a zwi iti uri sisiṱeme i bvule kha tshanduko dzinwe vho, sa u u wana vhundeme muyani kana u dzhia tshelede ye yavha i si ya mufhura. Noudzu dzi nga si tendele thengiselano dzi savhi dzone sa mbadelo, na uri noudzu dzi fhulufhedzeaho dzi nga si tendele buḽoko dzire nadzo. Mufhuri a nga kona fhedzi u shandukisa thengiso dzawe u itela u dzhia murahu tshelede ye a i shumisa.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Mbambe vhukati ha tshaine ya ngoho na tshaine ya muṱhaseli dzi nga dzudzanyea sa ṱhanganyo ya tshivhangalala. U bvelela ha tshaine ya vhukuma hu engezwa nga buḽoko nthihi, i engedzeha nga +1, na uri u balelwa tshaine ya muṱhaseli i ḓo engedziwa nga buḽoko nthihi, ya fhungundza tshikhala nga -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Khonadzeo dza uri muṱhaseli a swikelele ubva kha u fhenyiwa zwi a vhambedziwa na u fhungudzea ha thaidzo ya mugembuli. Kha riri mugembuli are na u thoma ha khredithi i sina vhukono kha u fhenyiwa na u tamba nomboro I sa gumi kha ndingo u itela u swikelela breakeven. Ri nga kona u vhalela khonadzeo ine a swikelela breakeven, kana uri muṱhaseli u swikelela na tshaine dza vhukuma, sa zwitevhelaho[8] :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -214,21 +224,19 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Uya nga khumbulelo yashu ya uri
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi>p</mi>
-  <mo>&#x003E;<!-- > --></mo>
-  <mi>q</mi>
+<mi>p</mi>
+<mo>&#x003E;<!-- > --></mo>
+<mi>q</mi>
 </math>
+, khonadzeo dzi a fhungudza tsumbavhuḓiandisi sa nomboro ya dzi buḽoko ine muṱhaseli u tea u swikelela nyengedzedzo. Sa izwi khonadzeo dzi sa imi naye, kharali a songo candela phanḓa hu kha ḓivha na tshifhinga, khondzeo dzawe dza uvha ṱhukhu sa hezwi a tshi salela murahu.
 
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+Zwino ri vho ṱhogomela uri ndi tshifhinga tshingafhani kha uri muthu wa thengiselano ntswa tshine a ṱoḓa u ima zwi saathu u ḓivhea uri murumeli a nga si shandukise thengiso. Ri humbulela uri murumeli ndi muṱhaseli ane a ṱoḓa muthu a tende uri o badelwa lwa tshifhinga, nga zwenezwo a shandukele kha u badela murahu nga murahu ha tshifhinga tsho fhiraho. muṱanganedzi u ḓo vhudziwa musi zwi tshi itea, fhedzi murumeli u fhulufhela uri hu si tshena tshifhinga.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Muṱanganedzi u ḓo ita phere ntswa dza khili na u nea khili ya tshitshavha kha murumeli a saathu u saina. Hezwi zwi thivhela murumeli kha u lugisa tshaine ya dzibuḽoko phanḓa ha tshifhinga, zwenezwo nga u ita thengiselano nga tshifhinga tshenetsho. Hezwi thengiselano yo itiwa, murumeli a sa fhulufhedzei a thoma u shuma tshiphirini kha tshaine ya pharaḽeḽe ine yavha na vesheni ya thengiselano yawe.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
-
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Muthu u ima u swikela thengiselano I tshi dzhenisiwa kha buḽoko na dzibuḽoko dza z dzo ṱanganyisiwa nga murahu hadzo. Ha ḓivhi tshifhinga tshone tsha mvelaphaḓa ye muṱhaseli a ita, fhedzi nga u humbulela uri buḽoko dza vhukuma dzo dzhia tshifhinga lavheleliwaho kha buḽoko, mvelaphanḓa ya muṱhaseli I ḓovha u kovha ha Poisson na vhundeme vho lavheleliwaho:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -242,7 +250,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+U wana khonadzeo muṱhaseli a nga kona u swikelela zwino, ri engedza tshikalo tsha Poisson khaṱhanganyelo ya mvelaphanḓa ye avha a tshi ḓo itiwa nga khonadzeo dza uri a swikelele kha heyo phoithi:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -329,7 +337,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+U dzudzanya habe u thivhela ṱhanganyo i sa fheli kha u kovha…
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -392,7 +400,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+U shandukisela kha khoudu ya C…
 
 ```c
 #include 
@@ -413,7 +421,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+U shumisa mvelelo, ri kona u vhona khonadzeo dzi tshi fhungudzea lwa tshisumbavhuḓiandisi z.
 
 ```
 q=0.1
@@ -443,7 +451,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+U tandulula P ṱhukhu kha 0.1%...
 
 ```
 P < 0.001
@@ -457,9 +465,9 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Magumo
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Ro themendela sisiṱeme ya mbadelo nga eḽekṱhronik i songo ḓi sendeka nga fhulufhelo. Ro thoma nga mutheo wo ḓoweleaho wa dzi khoini dzo itiwaho ubva kha tsaino ya didzhithaḽa, ine ya nea ndangulo yo khwaṱhaho, fhedzi ivha i songo fhelela musi i tshi shaya nḓila ya u thivhela mbadelo mbili. U tandulula hezwi, ro themendela nethiweke ya muthu na muthu hu tshi shumisiwa ṱhanziela ya mashumo u itela u rekhoda ḓivhazwakale ya dzi mbadelo ine ya ṱavhanya uvha u sa konadzea ha khomphyutha u itela muṱhaseliwa u shandukisa kharali noudzu dza vhukuma dzi langula vhunzhi ha muḓagasi wa CPU. Nethiweke yo khwaṱha kha u sa dzudzanyea ho leluwaho. Noudzu dzi shuma dzoṱhe nga tshifhinga tshithihi na u sa shumisana zwiṱuku. A huna ṱhoḓea ya uri dzi waniwe, sa musi milaedza i songo dzula hunwe fhethu na uri i ṱpḓa u swikisiwa kha mutheo wa vhuḓidini. Noudzu dzi nga ṱuwa na u humela kha nethiweke nga u tou funa, u tenda tshaine vhuṱanzi sa ṱhanziela kha zwe zwa itea musi dzo ṱuwa. Vha khetha nga muḓagasi wa CPU, u ombedzela thendelo ya dzibuḽoko dza vhukuma nga u shumela u engedza na u hanedza dzibuḽoko dzi si dza vhukumanga u hanedza u shuma nadzo. Ṱhoḓea dza mulayo na ṱhuṱhuwedzo i nga khwaṱhisiwa nga hezwi zwishumiswa.
 
 ## References
 
