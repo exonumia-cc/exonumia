@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Hilbaaq Filsan"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 # Bitcoin iyo Taariikhda Dowladda Kenya
 
 Waxaa qoray Michael Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
