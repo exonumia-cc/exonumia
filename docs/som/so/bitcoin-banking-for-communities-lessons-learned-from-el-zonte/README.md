@@ -1,3 +1,13 @@
+---
+translators: 
+    - 
+        name: "Hilbaaq Filsan"
+        href: "https://www.linkedin.com/in/hilbaaq-filsan-928285233/"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 # Bitcoin Banking for Communities: Lessons Learned from Bitcoin Beach
 
 by Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)

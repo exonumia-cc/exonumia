@@ -2,6 +2,7 @@
 translators: 
     - 
         name: "Hilbaaq Filsan"
+        href: "https://www.linkedin.com/in/hilbaaq-filsan-928285233/"
 supporters: 
     - 
         name: "BitMEX"
