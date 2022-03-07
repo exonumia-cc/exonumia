@@ -88,21 +88,25 @@ contributors: false
 
 <center v-pre>
 
-### The Exonumia Project is partially supported by:
+### The [exonumia.africa](https://exonumia.africa/) project is partially supported by:
 
 ![](./HRF-logo.png)
 <figure>
   <figcaption><a href="https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects">HRF</a></figcaption>
 </figure>
 
-![](./bitmex-logo.png)
+<img src="./bitmex-logo.png" alt="Galoy Money Logo" width="550">
 <figure>
   <figcaption><a href="https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/">BitMEX</a></figcaption>
 </figure>
 
-![](./galoy-logo.svg)
+<img src="./galoy-logo.svg" alt="Galoy Money Logo" width="300">
 <figure>
   <figcaption><a href="https://twitter.com/GaloyMoney/status/1477375671991259139">Galoy</a></figcaption>
 </figure>
 
+<img src="./bitcoin-beach.png" alt="Bitcoin Beach Profile Picture" width="200" height="200">
+<figure>
+  <figcaption><a href="https://bitcoinist.com/bitcoin-for-communities-3-3-adoption-building/">Bitcoin Beach</a></figcaption>
+</figure>
 </center>
