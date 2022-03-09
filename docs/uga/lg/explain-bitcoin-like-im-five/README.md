@@ -1,110 +1,110 @@
-# Explain Bitcoin Like I’m Five
+Mu muzannyo ogwa kaasammeeme nga guno, abagezi ssente bazikutwalako lwotunze.
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+bya Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Bitcoin bwaba akyaganye okutegeerekeka...
 
-We’re sitting on a park bench. It’s a great day.
+Tutudde ku katebe. Lunaku lulungi.
 
-I have one apple with me. I give it to you.
+Nnina omucungwa gumu. Ngukuwadde.
 
-You now have one apple and I have zero.
+Kati olina omucungwa gumu, nze sikyalina.
 
-That was simple, right?
+Kyangu, sikyo?
 
-### Let’s look closely at what happened:
+### Katwetegereze ekigenze mu maaso awo:
 
-My apple was physically put into your hand.
+Omucungwa ngutadde mu ngalo zo.
 
-You know it happened. I was there. You were there. You touched it.
+Nawe okyelabiddeko. Mbaddewo. Nawe obaddewo. Ogukutte noggukwata.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Tetwetaaze muntu waakusatu kunnyamba kukuwa mucungwa ogwo. Tetwetaaze kukubira Uncle Tommy( omutabaganya) kujja kutuula naffe ku katebe okukakasa nti omucungwa ngukuwadde.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Omucungwa gugwo! Sikyasobola kukuwa mucungwa mulala kubanga jimpeddeko. Gwenkuwadde sikyagulinako buyinza naakamu kati. Gwe agulinako obuyinza bwonna. Osobola okuguwa mukwano gwo bwoba oyagadde, era nooyo gwoguwadde asobola okuguwa munne. Bwebatyo.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Kwegamba enkolagana mu byamaguzi bwetyo bwefaanana muntu-ku-muntu. Bwekityo bwekiba oba nkuwa lyenvu, kitabo, kapapula ka sente...
 
-But I’m getting ahead of myself.
+Naye awo mba ng'enze wala
 
-### Back to apples!
+### Tuddeyo ku micungwa
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Kati tugambe nina omucungwa gumu ku kompyuta. Kangukuwe.
 
-Ah! Now it gets interesting.
+Eeh! Anti bikyuseemu.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Omanya otya oba omucungwa ku kompyuta guno ogubadde ogwange kati gugwo ,era gugwo wekka? Kilowoozemu kko awo akadakiika.
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Kikalubamu ko, sikyo? Omanya otya oba omucungwa ogwo ssaasoose kuguweerezza Uncle Tommy mu email? Oba mukwano gwo Joe? Oba ne mukwano gwange Lisa
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Osanga nakozeeyo kkopi zoomucungwa ogwo ku kompyuta yange. Oba nagutadde ku mutimbagano akakadde ka'bantu nekaguwanulayo.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Nga bwolaba, enkolagana eno ku kompyuta elimu obuzibuzibu. Okuweereza emicungwa ku kompyuta ssikyekimu nookuweereza emicungwa mu buntu.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Banna kompyutassaayansi balina elinnya lyekizibu kino: kiyitibwa kizibu kya kusaasaanya mirundi ebiri. Naye tofaayo. Kyeweetaaga okumanya wano kili kimu: Ekizibu kino kibabobbezza omutwe okumala ebbanga era kikyabalemye okugonjoola.
 
-Until now.
+Paka kati.
 
-But let’s try to think of a solution on our own.
+Naye katugezeeko okukigonjoola mu ngeri yaffe.
 
-### Ledgers
+### Enkalala
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Osanga emicungwa gino ku kompyuta jilina kulondoolwa ku lukalala. Gweggamba ngeri ya kitabo mwolondoolela empanyisiganya zonna mu byamaguzi.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Olukalala luno, engeri gyeruli ku kompyuta, lwetaaga kuba mu nsi yaalwo n'omuntu aluvunaanyizibwako.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Nga mu World of Warcraft(muzannyo ku kompyuta). Blizzard, abaakola omuzannyo ogwo, balina "olukalala ku kompyuta" olwebikwata ku muzannyo ogwo byonna, omuli n'ebyobugagga by'abazannyi mu muzannyo. Ndowoza omuntu nga Blizzard atuterekere emicungwa gyaffe gyetutambuliza ku kompyuta. Kyakabi - ekizibu tukigonjodde!
 
-### Problems
+### Ebizibu
 
-There’s a bit of a problem though:
+Wakyaliwo ebizibu ebirala:
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) Watya nga omuyaaye omu ku Blizzard ayozezza mu micungwa gyaffe naakola emirala nga ggyo? Ekyo asobola okukikola wonna waayagalidde.
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) Tekili nga bwetwabadde ku katebe nga tuli babili ffekka. Okukwasa Blizzard obuvunaanyizibwa kuba nga kuyita Uncle Tommy(omutabaganya) ku buli kyetuwaanyisiganya ku katebe kaffe. Nabwekityo, nkuwa ntya omucungwa ku kompyuta mu ngeri eyaabulijjo?
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Waliwo engeri y'okukolagana nga bwetwabadde ku katebe kaffe, nze nawe, naye ku kompyuta? Kilinga ekizibuzibu...
 
-### The Solution
+### Okugonjoola ebizibu byaffe
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Watya nga tulina olukalala nga lwa buli omu? Mu kifo ky'okubeera ku kompyuta za Blizzard, lujja kuba ku kompyuta ya buli muntu. Buli nkolagana yali ebaddewo mu micungwa ku kompyuta ewandiikibwe omwo.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Tosobola kufera. Sisobola kukusindikira micungwa gyessilina, kubanga enkalala zaabalala zijja kuba tezikwatagana na zaffe. Sistimu eno eba nzibu yaakufereramu gyekoma okukula.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+N'ekirala, olwokuba teddukanyizibwa muntu omu, mba nkimanyi nti teli asobola kusalawo kumala geegabira micungwa mirala. Amateeka ga sistimu magereke kuva mu ntandikwa. Kweggamba sistimu ezimbibwa ku nsonda nzigule. Weeli eli buli mugezi yenna mu nsi okujeetegereza, okujiddaabiriza oba okujongerako mu ngeri yonna.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Nawe osobola okwenyigira mu mukutu guno era noobaako kyoyongera ku lukalala, nookukakasa nti teruliimu mavuunya. Olw'omulimu omulungi ogwo gwoba okoze, oyinza okuwebwayo emicungwa ku kompyuta nga 25. Nga ovudde ne kyekyo, yeeyo engeri yokka emicungwa ku mukutu guno gyejitondebwawo (mu birabo nga bino).
 
-### I simplified quite a bit
+### Nkugondezzaamu nnyo awo
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+... naye nga sistimu gyenkunnyonnyodde gyeli. Eyitibwa Bitcoin. N'egyo emicungwa gya kompyuta ziba *"bitcoin"* mu sistimu eyo. Massape meereere!
 
-So, did you see what happened? What does the public ledger enable?
+Ndowooza ekibaddewo okirabye. Olukalala luno olw'olukale lusobozesa ki?
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) Ojjukira nti sistimu eno ya nsonda nzigule? Omuwendo gw'emicungwa gwagerekebwa kuva ku ntandikwa.Omuwendo ogwo gumanyikiddwa. Mu sistimu ,emicungwa gya bbula.
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) Bwenkola okuwanyisiganya okwengeri yonna kati mba mmanyi nti omucungwa oguvudde mu mikono gyange ne gudda mu gigyo ,gugwo ewatali kubuusabuusa. Edda ssibwekyabanga ku bintu ebiwanyisiganyizibwa ku kompyuta. Naye kati ku lukalala olw'olukale empanyisiganya eyo esoboka.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) Olw'okuba nti olukalala lwa lukale, sseetaaga Uncle Tommy(omutabaganya) okukakasa nti ssikubbye, sseewadde micungwa mirala mu bukyamu,oba ssisindize mucungwa gwegumu mirundi ebiri oba esatu.
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+    Mu sistimu yaffe eno, okuwanyisiganya omucungwa kati kilinga kuguwanyisa mu buntu. Nga bwegunaava mu ngalo zange negudda mu nsawo yo nga ogulabako. Era nga bwetwabadde ku katebe, okuwanyisiganya kuno kwetaga abantu babili bokka,nze nawe.Uncle Tommy (omutabaganya) takyetaagisa kuziyiza bukumpanya mu sistimu yaffe kuba tebukyasoboka.
 
-In other words, it behaves like a physical object.
+Mu bufunze , sistimu elinga nkolagana mu mbeera eyabulijo.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Ng'ojjeeko ekyo,byonna kati tubikolera ku kompyuta. Tusobola okuwanyisiganya emicungwa 1000, kakadde oba ne mu bitundutundu. Nebwemba emitala wa Mayanja ,nyiga bunyizi mapeesa ku kompyuta yange nenkuweereza emicungwa ku kompyuta yo wonna wooli.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Olwokuba kati tujitambuliza ku kompyuta ,nsobola n'okugattako obubaka obulala bwonna .Oba katugeze obubaka obwenkizo nga ebikwogerako.
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Kale byonna byogeddwa. Naye tufuna tutya omugaso micungwa gino gyetutakwatako. Anti gya mugaso sikyo?
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Abantu banji ensonga eno ekyabakubaganya empawa. Mu masomero g'ebyenfuna. Mu bannabyabufuzi. Mu bawandiika ebiragiro bya kompyuta. Naye bonna tobawuliriza. Abamu bagezi. Abalala tebamanyi bumanya. Abamu bagamba sistimu gyenkunnyonnyodde yamuwendo nnyo, abalala bagamba teliimu kantu. Abamu bajiteekako n'omuwendo.$1,300 buli mucungwa. Abamu bagamba zaabu ali digito, abandi nti ssente. Abalala nti byonna mpewo. Abamu bagamba nti ejja kukyusa ensi, abalala nti byonna bya mpuna.
 
-I have my own opinion about it.
+Nange nnina endowooza yange.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Naye olwo lugero lwa lulala. Naye nga kyolina okumanyi nti kati omanyi binji ku Bitcoin okusinga abantu abasinga.
 
-#### Recommend Reading (Updated 2017)
+### Manya ebisingawo(Byakoma kwongerwako mu 2017)
 
 [“You Don’t Understand Bitcoin Because You Think Money is Real”](https://medium.com/@mariabustillos/you-dont-understand-bitcoin-because-you-think-money-is-real-5aef45b8e952?source=linkShare-2d6f142ff3cc-1512362100) by [Maria Bustillos](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/undefined) is a good follow-up read.
 

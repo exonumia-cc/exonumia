@@ -1,19 +1,19 @@
-# I AM HODLING
+# SITA KANGE
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+bya GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Ekyo nakiwandiise emirundi ebiri lwakuba nakubye embogo mu ntandikwa.Ekyali mbogo. w/e.  
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+Omukazi agenzeeko mu bbaala, BTC agudde olugwa ssilwakuno LWAKI SSITA KANGE? KANKUBUULIRE LWAKI?
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+Lwakuba ndi muyiribi mubi era manyi lwaki. Mwe abayiribi abalunji musobola okulaba amambuka n'amakka n'okuyuugayuuga kw'ebinusu bino nemukola obukadde.  
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Mu ngeri yeemu ab'engalo ennafu nabo balaba nebagamba OH ABAAYE KIYIISE KANTUNDE kumbe eno ABAGEZI abamanyi kyebakola bagula buguzi naye mumanyi ki? Siri ffala ng'abo. Abayiribi abagezi bwebagula nze mba nkyali mu katale era MUFERANGA balala SINZE.  
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Olaba abawandiika nga bagamba "OHH KALE NANDITUNZE" .NANDITUNZE. NANDITUNZE NG'OKUTUNDA MU BUNJI TEKUNNABA ,NANDIGUZE NG'OKUGULA OKUNJI TEKUNNABA NAYE MUMANYI EKILIWO SIBULYOMU NTI MUGEZI NGAMMWE.  
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Atundira mu katale k'emisege aba muyiribi mulunji nnyo oba aba ffala nga mupya mu kintu kino. Ababeera wakati awo beebatata kaabwe.  
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Mu muzannyo ogwa kaasammeeme nga guno, abagezi ssente bazikutwalako lwotunze.

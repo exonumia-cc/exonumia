@@ -1,23 +1,23 @@
-# Welcome to Bitcoin, newcomers!
+# Mwaniriziddwa mu Bitcoin, abaakajja!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+bya Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Biibino ebisinga okwebuuzibwa:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Q: Nneesige ani?  
+A: **Teli.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Ntunde ddi?  
+A: **Totundanga.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Bitcoin aseebengerera kubanga ___?  
+A: **Nedda bambi.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Biki bino byennenyigiramu?  
+A: **Teli amanyi.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+Q: Manya ntya ebisingawo?  
+A: Waliwo bwino muyitilivu [wano](/uga/lg/translations/). Mpozzi osobola nookulamburako ku (https://www.lopp.net/bitcoin-information.html)
