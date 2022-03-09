@@ -91,6 +91,11 @@ module.exports = {
             group: '🇪🇬 مصر',
             title: 'Exonumia'
         },
+        '/eth/am/': {
+            lang: 'am',
+            group: '🇪🇹 Amharic',
+            title: 'Exonumia'
+        },
         '/ken/sw/': {
             lang: 'sw',
             group: '🇰🇪 Kenya',
@@ -531,6 +536,73 @@ module.exports = {
                     },
                     '/egy/ar/contribution-guide/',
                     '/egy/ar/contact/'
+                ],
+            },
+            '/eth/am/': {
+                lastUpdatedText: "መጨረሻ የተሻሻለው",
+                supportersText: "ደጋፊዎች",
+                translatorsText: "ተርጓሚዎች",
+                selectLanguageText: '🇪🇹 ቋንቋዎች',
+                selectLanguageName: '🇪🇹 አማርኛ',
+                freelyAvailableTranslationsText: '🇪🇹 Freely Available Translations',
+                label: 'አማርኛ',
+                selectLanguageAriaLabel: 'ቋንቋዎች',
+                editLinkText: 'ይዘትን አሻሽል።',
+                continueReading: true,
+                continueReadingText: 'ማንበብ ይቀጥሉ',
+                navbar: [
+                    { 
+                        text: 'ቤት', 
+                        link: '/eth/am/' 
+                    },
+                    { 
+                        text: 'ትርጉሞች', 
+                        link: '/eth/am/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/eth/am/about/',
+                    {
+                        text: 'ትርጉሞች',   // required
+                        link: '/eth/am/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/eth/am/',
+                            '/eth/am/explain-bitcoin-like-im-five/',
+                            '/eth/am/bitcoin-is-like/',
+                            '/eth/am/bitcoin-is-like-sports/',
+                            '/eth/am/understanding-lightning-network-using-an-abacus/',
+                            '/eth/am/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/eth/am/museum/bitcoin-v0.1-released/',
+                            '/eth/am/museum/re-bitcoin-v0.1-released/',
+                            '/eth/am/i-am-hodling/',
+                            '/eth/am/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/eth/am/bitcoin-and-kenyan-government-history',
+                            '/eth/am/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
+                        ]
+                    },
+                    {
+                        text: 'መጽሐፍት።',   // required
+                        link: '/eth/am/books/',
+                        children: [
+                            '/eth/am/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'መሳሪያዎች',
+                        link: '/eth/am/tools/'
+                    },
+                    {
+                        text: 'የትርጉም ፕሮጀክቶች',   // required
+                        link: '/eth/am/open-source-translation-projects/',
+                        children: [
+                            '/eth/am/transifex/bitcoin-core/',
+                            '/eth/am/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/eth/am/contribution-guide/',
+                    '/eth/am/contact/'
                 ],
             },
             '/ken/sw/': {

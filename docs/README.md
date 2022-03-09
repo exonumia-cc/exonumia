@@ -30,6 +30,12 @@ contributors: false
 
 ---
 
+**[🇪🇹 Ethopia](/eth/)**
+
+[አማርኛ](/eth/am/)
+
+---
+
 **[🇰🇪 Kenya](/ken/)**
 
 [Kiswahili](/ken/sw/)
