@@ -1,23 +1,32 @@
-# Welcome to Bitcoin, newcomers!
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Molwantwa Sambo"
+        href: "https://twitter.com/molwantwa_sambo"
+---
+# Wa amukeriwa eka Bitcoin, vanhu lavantshwa!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+hi Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Hi leyi FAQ ya wena:
 
-Q: Who should I trust?  
-A: **Nobody.**
+Q: Ndzi fanele ku tshembha mani?  
+A: **Ku hava.**
 
-Q: When should I sell?  
-A: **Never.**
+Q: Xana ndzi fanele ndzi xavisa rini?  
+A: **U nga tshuki.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+Q: Xana Bitcoin ya fa hikwalaho ka ____?  
+A: **E,e.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+Q: Xana ndzi tinghenise eka yini?  
+A: **Ku hava loyi a swi tivaka.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/zaf/ts/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+A: **Hi na [vundzeni bya rifowo la](/zaf/ts/vuhundzuluxi/).** Kumbe u nga endzela [lopp.net](https://www.lopp.net/bitcoin-information.html)

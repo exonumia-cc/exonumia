@@ -1,25 +1,25 @@
-# How Will We Onboard Earth’s 7.753 Billion People To The Lightning Network?
+# Xana Hi Nga Nghenisa Njhani Vanhu va Misava va 7.753 Biliyoni eka Netiweke ya Lightning?
 
-by John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
+hi John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
 
 <LanguageDropdown/>
 
-I ran the numbers, let’s see how we can onboard the entire population of Earth onto the Lightning Network, how long it might take, and what we can do to speed the process up.
+Ndzi tirhanile na tinomboro, a hi voneni ndlela leyi hi nga nghenisaka nhlayo hinkwayo ya vanhu emisaveni ku ya eka Netiweke ya Lightning, swi ta teka nkarhi wo fika kwihi, na leswi hi nga swi endlaka ku hatlisisa maendlelo.
 
-To onboard onto the lightning network it requires sending btc into a 2-of-2 multisig funding transaction with your channel partner.  To optimize space in this transaction we want 1 native segwit input and a single channel funding output.  This produces a tx of roughly 121vbytes.
+Ku pfuna ku ya eka netiweke ya lightning swi lava ku rhumela btc eka 2-ya-2 ya xikimi xa nsayino wa dijithali wa bindzu ro seketela hi mali na khamphani ya wena. Ku antswisa ndhawu eka bindzu leri hi lava xiengetelo xa muaka-tiko wun'we wa mbhoni wo hambanyisiwa na ndlela yin'we ya nseketelo hi mali eka xiendliwa. Leswi swi endla tx ya kwalomu ka 121vbytes.
 
-If 100% of the transactions in a block were these channel opening txs we could onboard about 8,264 people to lightning per block.  With a global population of 7.753 billion people it would take roughly 938,166 blocks or 17.8 YEARS for everyone on Earth to have a channel.
+Loko 100% ya vucincisani eka buloko a ku ri tichanele leti ti pfulaka txs a hi ta pfuna kwalomu ka 8,264 wa vanhu eka lightning hi buloko. Hi nhlayo ya vanhu va misava hinkwayo ya 7.753 biliyoni swi ta teka kwalomu ka 938,166 wa tibuloko kumbe 17.8 wa MALEMBE ku va vanhu hinkwavo emisaveni va va na chanele.
 
-Can we do any better? Thankfully, we have a couple options. One option that is possible today is to use batching! Batching means we can open more than one channel in a single transaction.  This means each additional channel can be represented by another output in the funding tx.
+Xana hi nga endla ku antswa? Hi ku khensa, hi na tindlela tin'wana to hlaya. Ndlela yin'we leyi kotekaka namuntlha i ku tirhisa nhlengeleto! Nhlengeleto swi vula leswaku hi nga pfula tichanele to tlula timbirhi eka vucincisani byin'we. Leswi swi vula leswaku chanele leyi nga engeteriwa yi nga yimeriwa hi ku fikeleriwa kun'wana eka nseketelo wa timali wa tx.
 
-Each additional output we add consumes roughly 32vbytes.  With batching the best-case scenario is to fill the block with 1 transaction with 1 input and as many outputs as we can fit.  At 32vbytes per output this means we could open 31,247 channels per block!
+Mbuyelo wun'wana na wun'wana lowu nga engeteriwa wu tirhisa kwalomu ka 32vbytes. Hi ku hlengeleta xivumbeko xa kheyisi lexi tlulaka hinkwaswo i ku tata buloko hi ncincisano wun'we hi ku hoxa xandla kan'we na mimbuyelo yo tala leyi hi nga yi hoxaka yi ringana. Eka 32vbytes hi mbuyelo wun'we leswi swi vula leswaku hi nga pfula 31,247 wa tichanele hi buloko!
 
-Batching gets us a 3.78x improvement and drops the time to onboard the entire Earth to just 4.7 years. This isn’t terrible but it assumes we can use 100% of the block space for almost 5 years.  In reality it will happen slower over a longer time period.  Can we do even better?
+Nhlengeleto wu hi nyika antswiso wa 3.78x no hunguta nkarhi wo pfuna Misava hinkwayo ku ringana malembe ma 4.7. Leswi a swi bihanga kambe swi kumbetela leswaku hi nga tirhisa 100% ya ndhawu ya buloko ku ringana kwalomu ka malembe ma ntlhanu. Hi ntiyiso swi ta endleka hi ku nonoka nkarhi wo leha. Xana hi nga endla ku antswa?
 
-It turns out we can, just not (easily) today.  The next optimization would be to support more than two people per channel and use signature aggregation to keep the output size small.  A Multiparty Channel extends the 2-of-2 multisig to a larger N-of-N multisig.
+Ku kumeka leswaku hi nga, swo ka swi nga (olovi) namuntlha. Ku antswisiwa loku landzelaka ku ta va ku seketela vanhu vo tlula vambirhi hi chanele yin'we no tirhisa ku hambanyisa ka nsayino ku endla leswaku sayizi ya mbuyelo i yitsongo. Chanele ya mintlawa yo hlaya yi ndlandlamuxa xikimi xa nsayino wa dijithali wa 2-ya-2 eka xikimi xa nsayino wa dijithali wa N-ya-N.
 
-In theory this N could be 10, 100, maybe even 1000. At 10 people per channel we could onboard 312,470 people per block and the entire earth in just 172 days.  While batching gave us a modest improvement in efficiency, multiparty channels allow us to scale in orders of magnitude.
+Ehleketelo ro karhi N leyi ku nga va 10, 100, kumbexana hambi 1000. Eka 10 wa vanhu hi chanele hi nga pfuna 312,470 wa vanhu hi buloko na misava hinkwayo ku ringana masiku ma 172. Loko nhlengeleto wu hi nyikile antswiso hi ku pimeka eka vuswikoti, tichanele ta mintlawa yo hlaya ti hi pfumelelaku ku pima hi minxaxamelo ya sayizi.
 
-Theoretically they could be built today without any changes to Bitcoin but would require a massive engineering effort because of the complexities of lightning’s penalty mechanism.  Eltoo’s symmetric settlement txs greatly simplify the implementation of multiparty channels.
+Hi ehleketelo ro karhi swi nga akiwa namuntlha handle ka ku cinca kun'wana na kun'wana eka Bitcoin kambe swi ta lava ku tikarhata lokukulukumba ka vuinjiniyere hikokwalaho ka ku tika ka matirhelo ya nxupulo wa lightning. Vutshamo byo ringana bya Eltoo tx yi olovisa swinene ku tirhisiwa ka tichanele ta mintlawa yo hlaya.
 
-So can we onboard the entire population to lightning in a reasonable amount of time? It seems like the answer is yes, eventually we will get there. Will everyone on Earth want to be on lightning and need their own channel(s)? That’s not certain but I sure hope so!
+Hikokwalaho hi nga pfuna nhlayo ya vanhu hinkwavo eka lightning hi nkarhi wo twisiseka? Swi ti komba o nge nhlamulo i ina, eku heteleleni hi ta fika. Xana vanhu hinkwavo va misava va ta lava ku va eka lightning naswona va lava tichanele ta vona? Sweswo a swi tiyisisiwanga kambe ndzi na ku tshemba tano!
