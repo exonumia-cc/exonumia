@@ -1,110 +1,110 @@
-# Explain Bitcoin Like I’m Five
+# እኔ አምስት ነኝ እንደ Bitcoin አስረዳ
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+በ Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### አሁንም ቢትኮይን ምን እንደሆነ ማወቅ ካልቻሉ…
 
-We’re sitting on a park bench. It’s a great day.
+በፓርክ ወንበር ላይ ተቀምጠናል. በጣም ጥሩ ቀን ነው።
 
-I have one apple with me. I give it to you.
+ከእኔ ጋር አንድ ፖም አለኝ. እሰጥሃለሁ።
 
-You now have one apple and I have zero.
+አሁን አንድ ፖም አለህ እኔም ዜሮ አለኝ።
 
-That was simple, right?
+ያ ቀላል ነበር አይደል?
 
-### Let’s look closely at what happened:
+### የሆነውን ነገር በጥልቀት እንመልከተው፡-
 
-My apple was physically put into your hand.
+የእኔ ፖም በአካል በእጅህ ውስጥ ገብቷል።
 
-You know it happened. I was there. You were there. You touched it.
+መከሰቱን ታውቃለህ። እዚያ ነበርኩ. እዛ ነበርክ። ነክተውታል።
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+ዝውውሩን ለማድረግ እንዲረዳን እዚያ ሶስተኛ ሰው አያስፈልገንም። አጎቴ ቶሚ (ታዋቂ ዳኛ የሆነው) አግዳሚ ወንበር ላይ ከእኛ ጋር ለመቀመጥ እና ፖም ከእኔ ወደ አንተ እንደሄደ ለማረጋገጥ መጎተት አያስፈልገንም ነበር።
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+ፖም የአንተ ነው! ሌላ ፖም ልሰጥህ አልችልም ምክንያቱም ምንም የቀረኝ የለም። ከእንግዲህ መቆጣጠር አልችልም። ፖም ንብረቴን ሙሉ በሙሉ ተወው። አሁን በፖም ላይ ሙሉ ቁጥጥር አለዎት። ከፈለጉ ለጓደኛዎ መስጠት ይችላሉ, ከዚያም ጓደኛው ለጓደኛው ሊሰጥ ይችላል. እናም ይቀጥላል.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+ስለዚህ በአካል መለዋወጥ ምን እንደሚመስል ነው. ሙዝ፣ መፅሃፍ፣ ወይም ሩብ ብናገር፣ ወይም የዶላር ቢል እየሰጠሁህ ከሆነ፣ በእርግጥ ተመሳሳይ ነው ብዬ እገምታለሁ።
 
-But I’m getting ahead of myself.
+እኔ ግን ከራሴ እቀድማለሁ።
 
-### Back to apples!
+### ወደ ፖም ተመለስ!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+አሁን አንድ ዲጂታል ፖም አለኝ ይበሉ። እዚህ, የእኔን ዲጂታል ፖም እሰጥዎታለሁ.
 
-Ah! Now it gets interesting.
+አህ! አሁን አስደሳች እየሆነ መጥቷል.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+ያ ዲጂታል ፖም የኔ የነበረው አሁን ያንተ እና ያንተ ብቻ መሆኑን እንዴት አወቅክ? ለአንድ ሰከንድ ያህል አስቡበት.
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+የበለጠ የተወሳሰበ ነው አይደል? መጀመሪያ ያንን ፖም ለአጎት ቶሚ እንደ ኢሜል አባሪ እንዳልላክሁ እንዴት ያውቃሉ? ወይስ ጓደኛህ ጆ? ወይስ ጓደኛዬ ሊዛም?
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+ምናልባት የዚያን ዲጂታል ፖም ሁለት ቅጂዎች በኮምፒውተሬ ላይ ሰርቼ ይሆናል። ምናልባት በይነመረብ ላይ አስቀመጥኩት እና አንድ ሚሊዮን ሰዎች አውርደውታል.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+እንደሚመለከቱት, ይህ ዲጂታል ልውውጥ ትንሽ ችግር ነው. ዲጂታል ፖም መላክ አካላዊ ፖም መላክን አይመስልም።
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+አንዳንድ አንጎለ ኮምፒውተር ሳይንቲስቶች ለዚህ ችግር ስም አላቸው፡ ድርብ ወጪ ችግር ይባላል። ግን ስለሱ አይጨነቁ. ማወቅ ያለብዎት ነገር ቢኖር ለተወሰነ ጊዜ ግራ ተጋብቷቸዋል እና በጭራሽ ሊፈቱት አልቻሉም።
 
-Until now.
+እስካሁን ድረስ.
 
-But let’s try to think of a solution on our own.
+ግን በራሳችን መፍትሄ ለማሰብ እንሞክር.
 
-### Ledgers
+### ደብተሮች
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+ምናልባት እነዚህ ዲጂታል ፖም በመዝገብ ውስጥ መከታተል አለባቸው. እሱ በመሠረቱ ሁሉንም ግብይቶች የሚከታተሉበት መጽሐፍ ነው - የሂሳብ ደብተር።
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+ይህ ደብተር፣ ዲጂታል ስለሆነ፣ በራሱ አለም ውስጥ መኖር እና የሚመራው ሰው ሊኖረው ይገባል።
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+ልክ እንደ World of Warcraft በለው። Blizzard, የመስመር ላይ ጨዋታውን የፈጠሩት ሰዎች በስርዓታቸው ውስጥ የሚገኙትን የሁሉም ብርቅዬ የእሳት ሰይፎች "ዲጂታል መዝገብ" አላቸው. ጥሩ፣ እንደነሱ ያለ ሰው የእኛን ዲጂታል ፖም መከታተል ይችላል። አሪፍ - ፈታነው!
 
-### Problems
+###ችግሮች
 
-There’s a bit of a problem though:
+ትንሽ ችግር አለ ግን፡-
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) በ Blizzard ላይ የሆነ ሰው የበለጠ ቢፈጥርስ? እሱ በፈለገ ጊዜ ወደ ሚዛኑ ሁለት ዲጂታል ፖም ማከል ይችላል።
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) ልክ አንድ ቀን አግዳሚ ወንበር ላይ እንደሆንን አይደለም። ያኔ እኔና አንቺ ብቻ ነበርን። Blizzard ውስጥ ማለፍ አጎቴ ቶሚ (የሦስተኛ ወገን) ከፍርድ ቤት እንደ መሳብ ነው (ታዋቂ ዳኛ እንደሆነ ተናግሬ ነበር?) ለሁሉም የፓርክ አግዳሚ ንግግራችን። ታውቃለህ - በተለመደው መንገድ የእኔን ዲጂታል ፖም እንዴት ብቻ አሳልፌ ልሰጥህ እችላለሁ?
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> የኛን ፓርክ ቤንች፣ አንተ እና እኔ ብቻ፣ በዲጂታል መንገድ የምንገበያይበት መንገድ አለ? ከባድ ይመስላል…
 
-### The Solution
+## መፍትሄው
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+ይህንን መዝገብ ብንሰጠውስ - ለሁሉም? በ Blizzard ኮምፒውተር ላይ ከሚኖረው መዝገብ ይልቅ፣ በሁሉም ሰው ኮምፒውተሮች ውስጥ ይኖራል። በዲጂታል ፖም ውስጥ ከመቼውም ጊዜ ጀምሮ የተከሰቱት ሁሉም ግብይቶች በእሱ ውስጥ ይመዘገባሉ.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+ማጭበርበር አይችሉም. የሌለኝን ዲጂታል ፖም ልልክልዎ አልችልም ምክንያቱም ከዚያ በስርዓቱ ውስጥ ካሉ ሁሉም ሰዎች ጋር አይመሳሰልም። ለማሸነፍ ከባድ ስርዓት ነው። በተለይም በጣም ትልቅ ከሆነ።
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+በተጨማሪም በአንድ ሰው ቁጥጥር ስር አይደለም, ስለዚህ እራሱን ተጨማሪ ዲጂታል ፖም ለመስጠት ብቻ የሚወስን ማንም እንደሌለ አውቃለሁ. የስርዓቱ ደንቦች ቀደም ሲል በጅማሬ ላይ ተገልጸዋል. እና ኮዱ እና ደንቦቹ ክፍት ምንጭ ናቸው። ብልህ ሰዎች አስተዋጽዖ እንዲያበረክቱ፣ እንዲጠብቁ፣ እንዲጠበቁ፣ እንዲሻሻሉ እና እንዲፈትሹበት እዚያ ነው።
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+በዚህ አውታረ መረብ ውስጥም መሳተፍ እና የሂሳብ ደብተሩን ማዘመን እና ሁሉም መረጋገጡን ያረጋግጡ። ለችግር፣ እንደ ሽልማት 25 ዲጂታል ፖም ልታገኝ ትችላለህ። በእውነቱ, በስርዓቱ ውስጥ ተጨማሪ ዲጂታል ፖም ለመፍጠር ብቸኛው መንገድ ይህ ነው.
 
-### I simplified quite a bit
+### ትንሽ ቀለል አድርጌዋለሁ
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… ግን ያ የገለጽኩት ሥርዓት አለ። የ Bitcoin ፕሮቶኮል ይባላል. እና እነዚያ ዲጂታል ፖም በስርዓቱ ውስጥ *"bitcoins"* ናቸው። ድንቅ!
 
-So, did you see what happened? What does the public ledger enable?
+ታዲያ ምን እንደተፈጠረ አይተሃል? የህዝብ ደብተር ምን ያስችላል?
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) ክፍት ምንጭ አስታውስ? ጠቅላላ የፖም ብዛት በህዝባዊ መዝገብ ውስጥ መጀመሪያ ላይ ተገልጿል. ያለውን ትክክለኛ መጠን አውቃለሁ። በስርአቱ ውስጥ፣ ውስን (እጥረት) እንደሆኑ አውቃለሁ።
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) ልውውጥ ሳደርግ ዲጂታል አፕል ንብረቴን እንደተወው እና አሁን ሙሉ በሙሉ የእርስዎ እንደሆነ አሁን አውቃለሁ። ስለ ዲጂታል ነገሮች እንዲህ ማለት አልቻልኩም ነበር። በሕዝብ መዝገብ ተዘምኗል እና ይረጋገጣል።
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) የህዝብ ደብተር ስለሆነ፣ አለማታለል ወይም ለራሴ ተጨማሪ ቅጂ እንዳልሰራሁ ለማረጋገጥ አጎቴ ቶሚ (ሶስተኛ ወገን) አላስፈለገኝም ወይም ፖም ሁለት ጊዜ ወይም ሶስት ጊዜ አልላክም…
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+    በስርዓቱ ውስጥ የዲጂታል ፖም ልውውጥ አሁን ልክ እንደ አካላዊ መለዋወጥ ነው. አሁን አንድ አካላዊ ፖም እጄን ጥሎ ወደ ኪስዎ ሲወርድ እንደማየት ጥሩ ነው። እና ልክ በፓርኩ አግዳሚ ወንበር ላይ, ልውውጥ ሁለት ሰዎችን ብቻ ያሳትፋል. እርስዎ እና እኔ - ትክክለኛ እንዲሆን አጎቴ ቶሚ አያስፈልገንም።
 
-In other words, it behaves like a physical object.
+በሌላ አገላለጽ እንደ አካላዊ ነገር ነው የሚመስለው።
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+ግን ምን ጥሩ እንደሆነ ታውቃለህ? አሁንም ዲጂታል ነው። አሁን 1,000 ፖም ወይም 1 ሚሊዮን ፖም ወይም .0000001 ፖም እንኳን መቋቋም እንችላለን። በአዝራር ጠቅታ መላክ እችላለሁ፣ እና እኔ ኒካራጓ ውስጥ ብሆን እና እርስዎ በኒው ዮርክ ውስጥ ከነበሩ አሁንም በዲጂታል ኪስዎ ውስጥ መጣል እችላለሁ።
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+በእነዚህ ዲጂታል ፖም ላይ ሌሎች ዲጂታል ነገሮችን እንዲጋልቡ ማድረግ እችላለሁ! ከሁሉም በኋላ ዲጂታል ነው። ምናልባት በላዩ ላይ የተወሰነ ጽሑፍ ማያያዝ እችላለሁ - ዲጂታል ማስታወሻ። ወይም ምናልባት ተጨማሪ አስፈላጊ ነገሮችን ማያያዝ እችላለሁ; እንደ ውል፣ ወይም የአክሲዮን የምስክር ወረቀት፣ ወይም መታወቂያ ካርድ…
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+ስለዚህ ይህ በጣም ጥሩ ነው! እነዚህን "ዲጂታል ፖም" እንዴት እንይዛቸዋለን ወይም ዋጋ መስጠት አለብን? በጣም ጠቃሚ ናቸው አይደል?
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+አሁን ብዙ ሰዎች እየተከራከሩበት ነው። በዚህ እና በዚያ የኢኮኖሚ ትምህርት ቤት መካከል ክርክር አለ. በፖለቲከኞች መካከል። በፕሮግራም አውጪዎች መካከል። ምንም እንኳን ሁሉንም አትስሟቸው. አንዳንድ ሰዎች ብልህ ናቸው። አንዳንዶች የተሳሳተ መረጃ ተሰጥቷቸዋል። አንዳንዶች ስርዓቱ ብዙ ዋጋ እንዳለው ይናገራሉ, አንዳንዶች በእውነቱ ዜሮ ዋጋ አለው ይላሉ. አንዳንድ ሰው በእውነቱ ከባድ ቁጥር አስቀምጧል: $ 1,300 በአንድ ፖም. አንዳንዶች ዲጂታል ወርቅ ነው ይላሉ, አንዳንድ ምንዛሬ. ሌሎች እነሱ ልክ እንደ ቱሊፕ ናቸው ይላሉ. አንዳንድ ሰዎች ዓለምን ይለውጣል ይላሉ, አንዳንዶች ፋሽን ብቻ ነው ይላሉ.
 
-I have my own opinion about it.
+ስለ እሱ የራሴ አስተያየት አለኝ።
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+ይህ ግን ለሌላ ጊዜ ታሪክ ነው. ነገር ግን ልጅ፣ አሁን ከብዙዎች የበለጠ ስለ Bitcoin የበለጠ ያውቃሉ።
 
-#### Recommend Reading (Updated 2017)
+#### የሚመከር ንባብ (የተዘመነ 2017)
 
 [“You Don’t Understand Bitcoin Because You Think Money is Real”](https://medium.com/@mariabustillos/you-dont-understand-bitcoin-because-you-think-money-is-real-5aef45b8e952?source=linkShare-2d6f142ff3cc-1512362100) by [Maria Bustillos](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/undefined) is a good follow-up read.
 

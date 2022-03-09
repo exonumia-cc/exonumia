@@ -1,19 +1,19 @@
-# I AM HODLING
+# እየሄድኩ ነው።
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+በGameKyuubi [2013/12/18](https://bitcointalk.org/index.php? ርዕስ=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+ለመጀመሪያ ጊዜ ስህተት እንደሆነ ስለማውቅ ያንን ርዕስ ሁለት ጊዜ ጻፍኩት። አሁንም ተሳስቷል። ወ/ኢ.  
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+ጂኤፍ በሌዝቢያን ባር ወጥቷል፣ BTC ተበላሽቷል ለምንድነው የምይዘው? ለምን እንደሆነ እነግራችኋለሁ።
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+መጥፎ ነጋዴ ስለሆንኩ እና መጥፎ ነጋዴ መሆኔን ስለማውቅ ነው። አዎ አንተ ጥሩ ነጋዴዎች የከፍታ ቦታዎችን እና ዝቅተኛ ቦታዎችን ለይተህ ፓት ፒፊ ዊንግ ዎንግ ዋንግ ልክ እንደዛው እና አንድ ሚሊኖ ዶላር ብታደርግ ምንም ችግር እንደሌለበት እርግጠኛ ሁን ወንድም።  
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+እንደዚሁም ደካማ እጆች እንደ ኦህ አይ ይወርዳል እኔ እሸጣለሁ እሱ እሱ እና ከዚያ እነሱ የሚያደርጉትን ፉክ የሚያውቁ ስማርት ነጋዴዎች ተመልሰው ሲገዙ ግን ምን ያውቃሉ? እኔ የዚያ ቡድን አካል አይደለሁም። ነጋዴዎቹ ተመልሰው ሲገዙ እኔ የገቢያው ዋና አካል ነኝና ማንን እያታለሉ እንደሆነ ይገምቱ የቀን ነጋዴዎች እኔ አይደለሁም ~!  
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+እነዚያ መሳለቂያ ክሮች "" ኦህ አንተ መሸጥ ነበረብህ "" አዎ አይ ሽጥ. አይ ሸጦ አልነበረብኝም. እኔ ከመሸጥ በፊት አፍታዎችን ሸጬ እና ሁሉንም ከመግዛት በፊት አፍታዎችን ገዝቼ ነበር, ነገር ግን ሁሉም ነገር ምን እንደማታውቅ ታውቃለህ. ."  
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+በድብ ገበያ የምትሸጠው አንተ ጥሩ የቀን ነጋዴ ወይም ምናምንቴ ከሆንክ ብቻ ነው። በመካከላቸው ያሉ ሰዎች ይይዛሉ።  
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+እንደዚህ ባለው የዜሮ ድምር ጨዋታ፣ ነጋዴዎች ገንዘብዎን ከሸጡ ብቻ ነው መውሰድ የሚችሉት።

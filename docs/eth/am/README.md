@@ -1,23 +1,23 @@
-# Welcome to Bitcoin, newcomers!
+# እንኳን ወደ Bitcoin እንኳን በደህና መጡ ፣ መጤዎች!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+በጄመሰን ሎፕ [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### የእርስዎ ተደጋጋሚ ጥያቄዎች እነሆ፡-
 
-Q: Who should I trust?  
-A: **Nobody.**
+ጥ፡ ማንን ማመን አለብኝ?  
+መ: **ማንም።**
 
-Q: When should I sell?  
-A: **Never.**
+ጥ፡ መቼ ነው መሸጥ ያለብኝ?  
+መ: **በጭራሽ።**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+ጥ፡ Bitcoin የሚሞተው በ____ ምክንያት ነው?  
+መ: ** አይ.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+ጥ፡ ራሴን ምን ውስጥ ገባሁ?  
+መልስ: ** ማንም አያውቅም።
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+ጥ፡ እንዴት የበለጠ መማር እችላለሁ?  
+መ: ** እዚህ ያለን [የይዘት ሀብት](/eth/am/translations/) አለን** ወይም [lopp.net](https://www.lopp.net/bitcoin-information.html) መጎብኘት ትችላለህ።
