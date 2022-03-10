@@ -69,6 +69,12 @@ contributors: false
 
 ---
 
+**[🇺🇬 Uganda](/uga/)**
+
+[Luganda](/uga/lg/)
+
+---
+
 **[🇿🇦 South Africa](/zaf/)**
 
 [Afrikaans](/zaf/af/)  
