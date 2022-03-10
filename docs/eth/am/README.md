@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Berhanu Omari"
+        href: "http://linkedin.com/in/berhanu-omari-1a0165234"
+---
 # እንኳን ወደ Bitcoin እንኳን በደህና መጡ ፣ መጤዎች!
 
 በጄመሰን ሎፕ [2017/11/19](https://twitter.com/lopp/status/932350908461133825)

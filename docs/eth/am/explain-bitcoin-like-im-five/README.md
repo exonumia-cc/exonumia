@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Berhanu Omari"
+        href: "http://linkedin.com/in/berhanu-omari-1a0165234"
+---
 # እኔ አምስት ነኝ እንደ Bitcoin አስረዳ
 
 በ Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)

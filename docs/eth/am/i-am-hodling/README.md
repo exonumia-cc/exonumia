@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Berhanu Omari"
+        href: "http://linkedin.com/in/berhanu-omari-1a0165234"
+---
 # እየሄድኩ ነው።
 
 በGameKyuubi [2013/12/18](https://bitcointalk.org/index.php? ርዕስ=375643.0)
