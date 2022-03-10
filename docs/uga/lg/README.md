@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Nasser Snoop"
+        href: "https://twitter.com/nassersaazi"
+---
 # Mwaniriziddwa mu Bitcoin, abaakajja!
 
 bya Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)

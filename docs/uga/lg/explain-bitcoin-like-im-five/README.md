@@ -1,4 +1,15 @@
-Mu muzannyo ogwa kaasammeeme nga guno, abagezi ssente bazikutwalako lwotunze.
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Nasser Snoop"
+        href: "https://twitter.com/nassersaazi"
+---
+
+# Mu muzannyo ogwa kaasammeeme nga guno, abagezi ssente bazikutwalako lwotunze.
 
 bya Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
