@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Molwantwa Sambo"
+        href: "https://twitter.com/molwantwa_sambo"
+---
 # Xana Hi Nga Nghenisa Njhani Vanhu va Misava va 7.753 Biliyoni eka Netiweke ya Lightning?
 
 hi John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)

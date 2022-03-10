@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Molwantwa Sambo"
+        href: "https://twitter.com/molwantwa_sambo"
+---
 # Matimu ya Mfumo wa Bitcoin na Kenya
 
 hi Michael Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
