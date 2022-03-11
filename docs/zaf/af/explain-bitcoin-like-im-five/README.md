@@ -1,108 +1,116 @@
-# Explain Bitcoin Like I’m Five
+---
+translators: 
+    - 
+        name: "dunxen"
+        href: "https://twitter.com/dunxen"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# Verduidelik Bitcoin Asof Ek Vyf Is
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+deur Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### As jy steeds nie kan verstaan wat die duiwel ‘n bitcoin is nie…
 
-We’re sitting on a park bench. It’s a great day.
+Ons sit op ‘n park bank. Dis ‘n wonderlike dag.
 
-I have one apple with me. I give it to you.
+Ek het een appel by my. Ek gee dit vir jou.
 
-You now have one apple and I have zero.
+Jy het nou een appel en ek het nou nul.
 
-That was simple, right?
+Dit was eenvoudig, reg?
 
-### Let’s look closely at what happened:
+### Kom ons kyk mooi na wat gebeur het:
 
-My apple was physically put into your hand.
+My appel was fisies in jou hand gesit.
 
-You know it happened. I was there. You were there. You touched it.
+Jy weet wat gebeur het. Ek was daar. Jy was daar. Jy het daaraan geraak.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Ons het nie ‘n derde persoon daar nodig gehad om ons met die oordrag te help nie. Ons het nie nodig gehad om oom Tommy (‘n bekende regter) langs ons op die bank te hê, om te bevestig dat ek die appel aan jou gegee het nie.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Die appel is nou joune! Ek kan nie nog ‘n appel gee nie, want daar is nie meer appels nie. Ek is nie meer in beheer daarvan nie. Die appel het my besit heeltemal verlaat. Jy het nou volle beheer van die appel. Jy kan dit aan jou vriend gee as jy wil en daardie vriend kan dit aan syne gee en so aan.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+So dit is hoe ‘n persoonlike omruiling lyk. Ek dink dit is regtig dieselfde, of ek nou vir jou 'n piesang, 'n boek, of sê 'n muntstuk of nota gee.
 
-But I’m getting ahead of myself.
+Maar ek loop myself nou vooruit.
 
-### Back to apples!
+### Terug na die appels!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Sê nou dat ek een digitale appel het. Hierso, ek gee vir jou my digitale appel. 
 
-Ah! Now it gets interesting.
+Ah! Nou word dit interessant.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Hoe weet jy dat daardie digitale appel wat vroeër myne was, nou joune is en net joune? Dink vir ‘n oomblik daaroor.
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Dit is meer ingewikkeld, is dit nie? Hoe weet jy dat ek nie daardie appel eerste na oom Tommy as ‘n e-pos aanhangsel gestuur het nie? Of jou vriend, Joe? Of my vriendin, Lisa, ook?
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Miskien het ek ‘n paar kopieë van daardie digitale appel op my rekenaar gemaak. Miskien het ek dit op die internet gesit en een miljoen mense het dit afgelaai.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Soos jy kan sien, hierdie digitale omruiling is ‘n bietjie van ‘n probleem. Om digitale appels te stuur lyk nie soos om fisiese appels te stuur nie.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Sommige slim rekenaarwetenskaplikes het eintlik 'n naam vir hierdie probleem - dit word die dubbelbestedingsprobleem genoem. Maar moenie daaroor bekommerd wees nie. Al wat jy moet weet, is dat dit hulle vir 'n geruime tyd verwar het en hulle het dit nog nooit opgelos nie.
 
-Until now.
+Tot nou toe.
 
-But let’s try to think of a solution on our own.
+Maar kom ons probeer om op ons eie aan ‘n oplossing te dink...
 
-### Ledgers
+### Grootboeke
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Miskien moet hierdie digitale appels in 'n grootboek gerikonsilieer word. Dit is basies 'n boek waar alle transaksies opgespoor kan word - rekeningkunde boek.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Hierde grootboek, aangesien dit digitaal is, moet in sy eie wêreld leef en iemand in beheer daarvan hê.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Sê, net  soos "World of Warcraft", Blizzard, die ouens wat die aanlyn speletjie geskep het, het 'n "digitale grootboek" van al die skaars vlammende vuur swaarde wat bestaan in hul stelsel. So, cool, iemand soos hulle kan boek hou van ons appels. Fantasties - ons het dit opgelos.
 
-### Problems
 
-There’s a bit of a problem though:
+### Probleme
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+Maar daar is ‘n bietjie van ‘n probleem:
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+1. Sê maar ‘n ou by Blizzard het meer gemaak? Hy kon net ‘n paar digitale appels in sy balans sit wanneer hy wil!
+2. Dit is nie eintlik soos dit was wanneer ons op die bank was die ander dag nie. Dit was net ek en jy. Om deur Blizzard te gaan is soos om oom Tommy (‘n derde party) uit die hof te roep (het ek genoem hy is ‘n bekende regter?) vir al ons park bank transaksies. Hoe kan ek net my digitale appel aan jou oorhandig, soos, jy weet - die gewone manier?
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Is daar enige digitale manier om ons park bank, net ek-en-jy, transaksie noukeurig te herhaal? Lyk soort van moeilik…
 
-### The Solution
+### Die Oplossing
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Sê nou ons het hierdie grootboek gegee — vir almal? In plaas van die grootboek wat op 'n Blizzard-rekenaar woon, sal dit in almal se rekenaars woon. Al die transaksies van digitale appels wat ooit gebeur het, van alle tye, sal daarin aangeteken word.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Jy kan dit nie bedrieg nie. Ek kan nie vir jou digitale appels stuur wat ek nie het nie want dan sal dit nie met almal in die stelsel sinkroniseer nie. Dit sal 'n moeilike stelsel wees om te bedrieg. Veral as dit regtig groot geword het.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Boonop word dit nie deur een persoon beheer nie, so ek weet dat daar niemand is wat net kan besluit om vir homself meer digitale appels te gee nie. Die reëls van die stelsel is reeds aan die begin gedefinieer. Die kode en reëls is "open-source". Dit is daar vir die slim mense om by te dra, in stand te hou, te beveilig, te verbeter en na te gaan.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Jy kan ook aan hierdie netwerk deelneem en die grootboek opdateer en seker maak dat alles reg is. Vir jou moeite kan jy soos 25 digitale appels as beloning kry. Trouens, dit is die enigste manier om meer digitale appels in die stelsel te skep.
 
-### I simplified quite a bit
+### Ek het nogal 'n bietjie vereenvoudig
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… maar daardie stelsel wat ek verduidelik het, bestaan. Dit word die Bitcoin-protokol genoem en daardie digitale appels is die "bitcoins" binne die stelsel. Spoggerig!
 
-So, did you see what happened? What does the public ledger enable?
+So, het jy gesien wat gebeur het? Wat maak die openbare grootboek moontlik?
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1. Dit is "open-source", onthou? Die totale aantal appels was in die begin in die openbare grootboek gedefinieer.  Ek weet die presiese bedrag wat bestaan. Ek weet dat hulle beperk (skaars) is binne die stelsel.
+2. Wanneer ek 'n omruiling doen weet ek nou dat die digitale appel my besit verlaat het en nou heeltemal joune is. In die verlede kon ek dit nie oor digitale dinge sê nie. Dit sal deur die openbare grootboek bygewerk en geverifieer word.
+3. Omdat dit 'n publieke grootboek is, het ek nie vir oom Tommy (derde party) nodig gehad om seker te maak dat ek jou bedrieg of ekstra afskrifte vir myself maak of appels twee keer of drie keer stuur nie
+    
+    Binne die stelsel, die ruil van 'n digitale appel is nou net soos die ruil van 'n fisiese een.  Dit is nou so goed as om 'n fisiese appel te sien wat my hand verlaat en laat val het in jou sak. Net soos op die park bank,  was die ruil tussen 2 mense alleenlik. Ek en jy. Ons het nie vir oom Tommy nodig gehad om dit geldig te maak nie.
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+In ander woorde, dit gedra dit soos 'n fisiese voorwerp.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+Maar weet jy wat is cool? Dit is nog steeds digitaal. Ons kan nou deel met 1000 appels of 1 miljoen appels asook met 0.0000001 appels. Ek kan dit stuur met die klik van 'n knoppie en kan nog steeds die appel laat val in jou digitale sak. Ek was in Nicaragua en jy was al die pad in New York.
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+Ek kan selfs ander digitale dinge laat ry bo-op hierdie digitale appels. Dis immers digitaal. Miskien kan ek ook 'n teks aanheg - 'n digitale nota. Of miskien kan ek belangrike informasie aanheg soos 'n kontrak, of 'n aandele sertifikaat of ID kaart…
 
-In other words, it behaves like a physical object.
+So dit is wonderlik. Hoe moet ons hierdie "digitale appels" hanteer en waardeer? Hulle is nogal nuttig, is hulle nie? 
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Wel, baie mense argumenteer nou oor dit. Daar is 'n debat tussen die en daardie ekonomiese skool. Tussen politikisse. Tussen programmeerders. Moenie na almal luister nie.  Party mense is slim. Party is oningelig. Party sê die sisteem is baie werd. Party sê dit beteken nul. Een persoon het egter 'n harde nommer van $1300 per appel geplaas. Party sê dit is digitale goud, party sê dis 'n geldstelsel. Ander sê dis net soos tulpe. Ander mense sê dat dit die wêreld gaan verander en ander sê dit is net 'n gier wat sal weggaan.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Ek het my eie mening oor dit.
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
-
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
-
-I have my own opinion about it.
-
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Dit is 'n storie vir 'n ander tyd maar kind, jy weet nou meer van Bitcoin as meeste ander mense.
 
 #### Recommend Reading (Updated 2017)
 

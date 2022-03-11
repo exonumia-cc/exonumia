@@ -1,23 +1,33 @@
-# Welcome to Bitcoin, newcomers!
+---
+translators: 
+    - 
+        name: "dunxen"
+        href: "https://twitter.com/dunxen"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
+# Welkom na Bitcoin, nuwelinge!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+deur Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Hier is jou algemene vrae:
 
-Q: Who should I trust?  
-A: **Nobody.**
+V: Wie kan ek vertrou?  
+A: **Niemand.**
 
-Q: When should I sell?  
-A: **Never.**
+V: Wanneer moet ek verkoop?  
+A: **Nooit.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+V: Is Bitcoin besig om te sterf omdat ____?  
+A: **Nee.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+V: Waarin het ek myself begewe?  
+A: **Niemand weet nie.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/zaf/af/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+V: Hoe kan ek meer leer?  
+A: **Ons het ‘n [magdom inhoud hier](/zaf/af/translations/).** Of besoek [lopp.net](https://www.lopp.net/bitcoin-information.html)
