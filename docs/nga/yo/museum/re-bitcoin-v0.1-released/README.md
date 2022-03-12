@@ -1,3 +1,13 @@
+---
+translators: 
+    - 
+        name: "Oladele Falese"
+        href: "https://twitter.com/olladave"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 # Ní orí ọ̀ rọ̀ : A gbé ẹ̀ yà Bitkoini àkọ́ kọ́ (v.01) jáde
 
 Láti ọwọ́ Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)

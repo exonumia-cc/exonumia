@@ -1,3 +1,13 @@
+---
+translators: 
+    - 
+        name: "Oladele Falese"
+        href: "https://twitter.com/olladave"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 # Lílo Bitkoini Fún Àwùjọ: Àwọn Ẹ̀kọ́ Tí A Kọ́ Ní Ẹ̀tò Bitkoini Etí Òkun
 
 by Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
