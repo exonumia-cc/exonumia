@@ -1,55 +1,46 @@
-# Re: Bitcoin v0.1 released
+# Ní orí ọ̀ rọ̀ : A gbé ẹ̀ yà Bitkoini àkọ́ kọ́ (v.01) jáde
 
-by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
+Láti ọwọ́ Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
-Satoshi Nakamoto writes:
+Satoshi Nakamoto kọ:
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
+> À ń kéde àkọ́ kọ́ jáde Bitkoini, ètò owó ẹ̀ rọ orí kọ̀ mpútà titun, ètò owó ẹ̀ rọ orí kọ̀ mpútà titun, tí ó
+> n lo ìtàkù orí-ò-orí láti dí nínọ́ owó lẹ́ẹ̀mejì. Ó jẹ́ èyí tí ó ní alákòóso púpọ̀, tí ò ní olùpín tàbí
+> aláṣẹ àtòkèwá
+> 
+> Lọ sí bitcoin.org fún àwọn àwòrán.
+> 
+> Ìtọ́kasí ẹ̀dà rẹ̀ rè é: http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
+
+
+A kí Satoshi kú oríre fún àgbéjáde àkọ́ kọ́. Mò n retí láti gbìyànjú ẹ.
+
+> Gbogbo ìṣọ̀ yíká lápapọ̀ jẹ́ ẹyọ owó mílíọ́ nù mọ́ kànlélógún. A ma pin fún ìkoríta ìtàkùn tí wọ́ n bá
+> ti ṣe búlọ́kù, ó ma ma ṣe ìdajì oye tí ó jẹ́ ní gbogbo ọdún mẹ́rin.
 >
-> See bitcoin.org for screenshots.
->
-> Download link:
-> http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
+> ọdún mẹ́rin àkọ́kọ́: mílíọ́nù mẹ́wàá àti ẹ̀dẹ́gbẹ̀ta ẹyọ owó
+> ọdún mẹ́ rin tó tèle: mílíọ́ nù márùń àti igba ó lé ládọ́ ta ẹyọ owó
+> ọdún mẹ́rin tó tèle: mílíọ́nù méjì àti ẹgbẹ̀ta ẹgbẹ̀rún lé ní árùńdínlógún ẹyọ owó
+> ọdún mẹ́rin tó tèle: mílíọ́nù kan àti ọ̀kẹ́ mẹ́ta lé ní ẹgbàá méjìlá ẹyọ owó 
+> àti bẹ́ẹ̀bẹ́è lọ...
 
+Ó da wípé a lè ṣe ètò náà láti lè ní oye ẹyọ owó tí a lè tẹ̀ jáde. Mo rò ó wípé tó bá yá, oye iṣé tí
+ èyàn ní láti ṣe kí ó lè tẹ ẹyọ owó titun ma ṣòro si.
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
+Ìṣòro tí a ma kọ́kọ́ ni pẹ̀lú owó titun ni bí a ṣe ma bu iyì fun. Ka ti ẹ̀ ní a gbójú kúrò ní ìṣòro pé kò
+sí ẹni tí ó ma gbà á ní àkọ́ kọ́ , ìṣòro bí a ṣe ma mọ oye kan pàtó tí ó bójúmu fún àwọn ẹyọ owó
+wọ̀nyí ṣì wà.
+ 
+Bí kí ló bá jáde, wò ó pé bitkoini ní àṣeyọrí àti pé ó wá di ètò ìsanwó tí ó gbinlẹ̀ káàkiri gbogbo
+àgbáyé. Nígbà náà gbogbo oye owó lápapọ̀ yẹ kó dọ́ gba pọ̀ mọ gbogbo oye ọrọ àgbáyé.
+Ìfojúwọ̀ n ọrọ̀ ìdílé gbogbo àgbáyé lápapọ̀ lọ́ wọ́ lọ́ wọ́ tí mo rí wà láti bí ọgọ́ run tírílíọ́ nu sí
+ọdúnrun tírílíọ́ nu dọ́ lásì. Pẹ̀ lú ẹyọ owó ogún mílíọ́ nù, bí mílíọ́ nù mẹ́ wá ni ẹyọ owó kan ma jẹ́.
 
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
->
-> first 4 years: 10,500,000 coins  
-> next 4 years: 5,250,000 coins  
-> next 4 years: 2,625,000 coins  
-> next 4 years: 1,312,500 coins  
-> etc...
-
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
-
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
-
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
-
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Nítorí bẹ́ pé ó ṣeṣe lóní pé a lè tẹ ẹyọ owó pẹ̀lú àkokò díẹ̀ lé jẹ́ ǹkan tí èyàn fẹ́ ṣe, pẹ̀lú àṣeyọrí ti
+ǹkan bí ọgọ́ rún mílíọ́ nù sí ẹyọ kan! Tí ó bá tilẹ̀ jẹ́ pé àyè àṣeyọrí bitkoini dé ìwọ̣̀ n yẹn kéré, ṣé
+nítòótọ́ ni wọ́ n tó ọgọ́ rún mílíọ́ nù sí ẹyọ kan? Ìyẹn jẹ́ ǹkan láti ronú sí...
 
 Hal
 

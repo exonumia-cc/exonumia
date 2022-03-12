@@ -1,4 +1,4 @@
-# Bitcoin Banking for Communities: Lessons Learned from Bitcoin Beach
+# Lílo Bitkoini Fún Àwùjọ: Àwọn Ẹ̀kọ́ Tí A Kọ́ Ní Ẹ̀tò Bitkoini Etí Òkun
 
 by Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
 
@@ -6,302 +6,517 @@ by Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-les
 
 ## Foreword
 
-Revolutionary change is usually sparked by those that are too young and naïve to understand that their undertaking is doomed to fail. While I cannot claim the excuse of youth, when Bitcoin Beach launched, thankfully I had not yet spent enough time on Twitter to “know” that Bitcoin would never be used by people to buy a cup of coffee. Had we done the prudent research or started with standard feasibility studies, we would have realized our folly. Thankfully most of you can now find El Salvador on a map because we were too stupid to know better.
+Ìyípadá tó rinlẹ̀ ma ń sábà ṣelẹ̀ láti orí àwọn ọmọ tí ọjọ́ orí wọn ṣì kéré tí ò tí gbọ́ n láti mọ̀ pé
+ìdáwọ́ lé wọn yí ó foríṣọ́ pọ́ n. Mi ò lè wá àwáwí pé ọ̀ dọ́ ni mí, nígbàtí wọ́ n ṣe ìfilọ́ lẹ̀ ètò bitkoini etí
+òkun, a dúpẹ́ pé mí ò tí pẹ́ lóri Twitter láti mọ̀ pé bitkoini kò ní ṣe é fi ra ife kofí. Tó bá jẹ́ pé ati
+ṣe ìwádi tí óyẹ tàbí ṣe àyẹ̀wò fíní fíní ni, à bá ti rí agọ̀ wa. A dúpẹ́ pé gbogbo yín lè rí El Salvador
+lórí máápù torí agọ̀ wa.
 
-In the case of Bitcoin Beach, truth really is often stranger than fiction. Nobody would have imagined that the first true Bitcoin economy would find its genesis in a small rural village in El Salvador. Led by a middle-aged expat that still uses Earthlink email, partnered with a young Salvadoran community leader who barely finished 6th grade.
+Ní orí ọ̀ rọ̀ ètò bitkoini etí òkun, Lódodo òtítọ ma ń ṣe àjèjì ju àròso lọ. Kò sí ẹni tí ó ma rò ó pé
+ọrọ̀ ajé bitkoini àkọ́ kọ́ ma bẹ̀ rẹ̀ láti abúlé kéréje bí El Salvador. Adarí e jẹ́ arákùnrin ìlú òkèèrè tí ó
+ṣì ǹ lo ìmeèlì Earthlink, ló fọwọ́ sowọ́ pọ̀ pẹ̀ lú ọ̀ dọ́ olórí agbègbè El Salvador tí ò kà ju ìwé mẹ́ fà.
 
-In retrospect, the outcome was obvious: a population that struggles with poverty and lack of financial inclusion was always destined to see the value of Bitcoin before wealthy communities in Singapore or Silicon Valley. It seems divinely fitting – those who paved the first path started out so laughably unqualified that no community who follows needs to feel intimidated.
+Ká wò látẹ̀yìn, àbájáde ẹ̀ dájú: agbègbè àwọn tí ǹkan kù díẹ̀ káàtó fun ma fẹ́ ẹ̀ mọ iyì bitkoini ju
+àwọn agbègbè olówó bí Singapore àti Silicon Valley lọ. Àfi bí tàtọ̀ runwá- àwọn tí ó kọ́ kọ́ lànà wa
+bẹ̀rẹ̀ bí wípé wọn ò yẹ tí ó fi jẹ́ pé àwọn agbègbè tó ń bọ̀ lẹ́yìn ò nílò láti bẹ̀rù.
 
-In El Salvador, Bitcoin is the money of the poor and financially excluded. For Salvadorans that are living in poverty, the debates between the digital gold and digital cash camps seem out of touch, and without practical relevance. For those who need Bitcoin most, it is both how they buy their daily bread and how they save for the future. They see no need to choose one or the other.
+Ní El Salvador, bitkoini ni owó àwọn tí ǹkan kù díẹ̀ káàtó fun. Fún àwọn ará El Salvador tí ó gbé
+nínú ìṣẹ́, Àwọn tó n ṣe àríyànjiyàn ní àárín wúrà àti owó orí kọ̀mpútà dàbí pé wọn ò mọ ohun tó
+n lọ. Fún àwọn tó nílò jùlọ, bí wọ́ n ṣe ma rí oùnjẹ òjọ́ wọn àti bí wọ́ n ṣe ma fipamọ́ fún ọjọ́ iwájú.
+Wọn ò ní ìdí láti mú ìkan tàbí ìkejì.
 
-So here in 2021 we see a small impoverished nation showing the world how Bitcoin levels the playing field for the poor. We know Bitcoin Beach is just a glimpse. But we hope it will be the spark that sets off fires around the world. We invite you to come visit El Zonte, and help us spread this vision of community Bitcoin Banking that is enabling financial inclusion around the world.
+Ní odún 2021 a ri bí ìlú kéréje tó kù díẹ̀ káàtó fun ṣe fihan gbogbo àgbáyé bí ṣé le mú àwọn
+tálákà bẹ́gbẹ́pé. A mọ̀ pé díẹ̀ ni a ṣì rí ní ètò bitkoini etí òkun. Ṣùgbọ́n ìrètí wa ní pé èyí ma mu
+tàn kàákiri gbogbo àgbáyé. À ń pè ẹ́ kí o wá sí El Zonte, kí o bá wa tan ìwòye lílo bitkoini tó n
+gba gbogbo ènìyàn láyè káàkiri.
 
 – Mike Peterson ([@bitcoinbeach](http://twitter.com/bitcoinbeach))
 
-## From Local Project to Legal Tender in Two Years
+## Láti Iṣẹ́ Àgbéṣe Si Ohun Ìtẹ́ wọ́ gbà Ní Àrín Odún Méjì
 
-The Bitcoin Beach project started with a simple yet aspirational question: Can we build a sustainable circular economy on Bitcoin?
+̣̀Ẹ̀tò bitkoini etí òkun bẹ̀rẹ̀ pẹ̀lú ìbéèrè tí ó rọrùn síbẹ̀ tí ó tú fi ìrètí hán: ṣé a lè kọ́ ọrọ̀ ajé tó pe ní
+orí bitkoini? Ìdáhùn ẹ̀ rinlẹ̀ dada bẹ́ẹ̀ni. Ǹkan tí ó bẹ̀rẹ̀ bí iṣẹ́ àgbéṣe àdúgbò nínú ìlú látọ̀nà jíjìn
+ló wá di ìtàn ọ̀ pọ̀ èyàn bí mílíónù mẹ́ fà tí wọ́ n ṣe àfihàn fún gbogbo àgbáyé pé owó ni bitkoini.
 
-The answer is a resounding yes. What started as a community project in a remote town has evolved into a story about six million people showcasing to the world that Bitcoin is money.
+Nínú ìtọ́sónà yí a wo ẹ̀kọ́ mẹ́fà tí a kọ́ nípa ṣíṣe àpò bitkoini etí òkun àti amáyédẹrùn ìlanà ètò to
+ wà ní àrọ́ wọ́ tọ́ gbogbo ènìyàn tí ó mu ṣiṣẹ́ . Èrò wa ni láti ṣe ìrànlówọ́ fún àwọn agbègbè ní àyíká
+ àgbáyé mú ẹ̀kọ́ wọn àti ìtẹ́wọ́gbà bitkoini yára.
+ 
 
-In this guide we cover six lessons learned developing the Bitcoin Beach Wallet and the underlying open source infrastructure that powers it. Our aim is to help communities around the world accelerate their own learning and adoption of Bitcoin and the Lightning Network.
+## Kíni Bitkoini Etí Òkun?
 
-## What is Bitcoin Beach?
+Etí òkun pàsífíkì El Salvador ni El Zonte wa, ó jẹ́ ìlú kéréje tí wọ́ n ṣeré ìdárayá orí omi pẹ̀ lú àwọn
+olùgbé ẹgbẹ̀rún mẹ́ta. Èto ilé ìfowópamọ́ ti kọ àwọn olùgbé ibẹ̀ sílẹ̀ bẹ́ẹ̀ni wọ́n di ìjàkadì pẹ̀lú
+àwọn ọmọ oníwà jàgídíjàgun àti kí wọ́ n lè ma jẹ ànfàní lílo ilé ìfowópamọ́ . Láti bí odún mẹ́ wá
+sẹ́ yìn, ẹgbẹ́ kékeré àwọn èyàn méló kan ni wọ́ n ti ń ṣiṣẹ́ láti mú ìyípadá àti ìrètí padà wá sí ìlú El
+Zonte.
 
-On the Pacific Coast of El Salvador sits El Zonte, a small surf town with a population of 3,000. Its residents have been left out of the traditional banking system and have grappled with gang violence and a lack of financial inclusion for decades. Over the past ten years, a small group of individuals have been working to ignite change and bring hope back to El Zonte.
-
-Jorge Valenzuela, Roman “Chimbera” Martinez and Mike Peterson began running youth programs around 2009 to give El Zonte’s kids the opportunity to play, learn and dream. From surf “para todo” (surf for everyone) to computer classes to paid community service projects, the programs have breathed new possibilities into a place that once felt like a dead end.
+Jorge Valenzuela, Roman “Chimbera” Martinez àti Mike Peterson bẹ̀rẹ sí ń ṣe àwọn ètò fún àwọn
+ọ̀ dọ́ ní ọdún 2009 láti fún àwọn ọmọdé El Zonte ní ànfàní àti ṣeré, kọ́ ẹ̀ kọ́ kí wọ́ n dẹ̀ tú lè gbèrò.
+Láti eré “para todo” (eré ìdárayá orí omi fún gbogbo ènìyàn) sí ẹ̀kọ́ kọ̀mpútà sí iṣẹ́ àgbéṣe ti
+agbègbè tí wọ́n gba owó fún, àwọn ètò náà ti mú ohun ọ̀tun wá sí ibi tí ó ti fìgbàkan jẹ́ aṣálẹ̀.
 
 ![](./bitcoin-beach-workouts.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Jorge, Chimbera and team have put fitness, education and community service at the center of daily life in El Zonte. (Source: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
+  <figcaption>Jorge, Chimbera àti ẹgbẹ́ ti mú ìlera ara, ètò ẹ̀kọ àti iṣé agbègbè ní òkúkúndùn fún ìgbé ayé ojoojúmọ́ ni El Zonte (Orísun: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-In 2019, Mike was approached by an individual who wanted to support their programs through a bitcoin donation. There was a catch, however: the donation must be spent within the community, instead of sold into fiat. The goal would be to create a sustainable circular Bitcoin economy where merchants and community members can exchange goods, services and labor for sats. Jorge and Mike accepted the challenge, and Bitcoin Beach was born.
+Ní odún 2019, ẹnìkan wá bá Mike tó fẹ́ ṣe àtìlẹyìn ètò wọn pẹ̀lu ìtọrẹ bitkoini. Síbẹ̀síbẹ̀, òfin kan
+wà, wọ́ n gbọ́ dọ̀ ná ìtọrẹ ọ̀ hún nínú agbègbè náà, dípò kán ná bí owó gangan. Ìpinu wọn ni láti
+ṣe àgbéró ọrọ́ ajé bitkoini níbi tí àwọn oníṣòwò àti àwọn ará ìlú ma lè ṣe pàṣípàrọ̀ ẹrù àti iṣẹ́ ọwọ́
+fún sátì. Jorge àti Mike gba ìpèníjà náà, bí a ṣe bí Bitkoini Etí Òkun nìyẹn. 
 
-From the start, it was clear that this project would challenge preconceived notions about Bitcoin:
+Láti ìbẹ̀rẹ̀, ó ti hùn pé iṣẹ́ àgbéṣe yí ma yí àwọn èrò tí wọ́ n ní sí bitkoini padà:
 
-1. **Bitcoin is a speculative asset for the wealthy.** If you tune into business news channels and sites, you’ll hear constant discussion about price, volatility, and comparison to other assets and investments like gold and stocks. You’ll hear about how banks are offering exposure to their high net worth clients. What you won’t hear is how Bitcoin is enabling economic empowerment in some of the poorest parts of the world.
+1. **Bitkoini jẹ́ dúkìá tó n níye si fún àwọn ọlọ́ rọ̀.** Tí o bá lọ sí orí ayélujára àti ìkànnì ìròyìn
+ìṣòwọ̀ , Tí o bá lọ sí orí ayélujára àti ìkànì ìròyìn ìṣòwọ̀ , o ma gbọ́ ìjíròrò tí ò dúró nípa oye
+owó, bí ó ṣe ma ń tètè yípadà àti àfiwé pẹ̀lu àwọn dúkìá àti ìdókò-òwò míràn bí wúrà àti
+ìṣura. O ma gbọ́ bí ìlé ìfowópamọ́ ṣe ń ìfilọ̀ àfihùn àwọn oníbàrà tí dúkìá pọ̀ . Ǹkan tí ó ní
+gbọ́ ni bí bitkoini ṣe ń mú ìdàgbàsókè ọrọ̀ ajé àwọn ìlú tó tálákà jùlọ ní àgbáyé gbòrò si.
 
-2. **Bitcoin is a store of value, not a medium of exchange.** While Bitcoin’s utility as a store of value is widely accepted, Bitcoin as a medium of exchange is a hotly contested topic to this day. The rationale goes; “If the price of bitcoin keeps growing at the current rate, nobody will ever want to spend it on goods and services.”
+2. **Bitkoini jẹ́ ìpamọ́ iyí, kò kí n ṣe ohun èlò fún pàṣípàrọ̀.** Nígbàtí ọ̀ pọ̀ lọpọ̀ ti gba pé
+ìpamọ́ iyí ni bitkoini jẹ́, wípé ò jẹ́ ohun èlò fún pàṣípàrọ̀ ṣì jẹ́ ohun tí wọ́n jiyàn lé lórí títí
+di èní. Ọ̀ rọ̀ náà lọ pé; “tí oye bá ṣì ń lọ bí ó ṣe ń lọ, kò sí ẹni tí ó ma fẹ́ fi ra ọjà tàbí ṣanwó iṣẹ́.”
 
-As the project turned from idea into action, the growing team of Bitcoin Beach coordinators and students took note of the problems that Bitcoin might solve for their community:
+Bi iṣẹ́ àgbéṣe náà ṣe ń kúrò ní èrò tí ó n di ìgbésẹ̀, ẹgbẹ́ àwọn alákóso àti akẹ́kọ̀ tó n gbòrò si ṣe
+ àkíyèsí àwọn ìṣòro tí bitkoini lè yanjú ní agbègbè wọn:
 
 
-1. **Traditional banks don’t do business in the poorest communities.** El Salvador has been on the US Dollar system since 2001, which makes their financial sector subject to US regulations. The high cost of compliance imposed by these regulations disincentivizes banks from catering to people in poorer countries. For instance when the owner of [Garten Hotel](https://www.gartenzonte.com/garten) tried setting up employees with bank accounts and direct deposit, [he learned](https://youtu.be/RhoiOzhuBG4?t=1438) it would cost $50 per month, per employee. That amounts to more than 10% the monthly income of a person working on minimum wage.
+1. **Àwọn ilé ìfowópamọ́ ò kí n fẹ́ ṣòwò ní àwọn agbègbè tó tálákà jùlọ.** Owó Dollar
+Amẹ́ríkà ni El Salvador ná láti ọdún 2001, tí ó mú ẹ̀ka t’ìnáwo wọn wà lábẹ́ òfin ti ilẹ̀
+Amẹ́ ríkà. Wíwán tí àti tèlé àwọn òfin wọ̀ nyí wán ni kò jẹ kí àwọn ilé ìfowópamọ́ ráyè ti
+àwọn ènìyàn tó wà ní àwọn orílẹ̀ èdè tó tálákà. Fún àpẹrẹ nígbàtí ẹni tí ó ni ilé ìtura
+[Grand Hotel](https://www.gartenzonte.com/garten) gbìyànjú àti jẹ́ kí àwọn òṣìṣẹ́ ẹ̀ ma fi owó sí ilé ìfowópamọ́, [ó gbọ́ pé àádọ́](https://youtu.be/RhoiOzhuBG4?t=1438) ta
+dọ́ là ni wọ́ n ma san fún oṣùn kan, lórí òṣìṣẹ́ kan. Oye yẹn ju ìdámẹ́ wá owó oṣùn ẹni tó
+ṣiṣẹ́ lọ.
 
-2. **Getting remittance payments to people in El Zonte is expensive and time consuming.** Cross-border remittance payments into El Salvador made up [23% of the country’s GDP](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html) in 2020. It costs more than $3 in fees for somebody to receive $10 from a family member abroad. There is no Western Union in El Zonte so it can take hours and multiple bus rides for residents to get to an office where they can receive the remittance. This is in addition to the days it can take for the money to arrive in El Salvador from the person who initiated the transfer.
+2. **Láti fi owó ránṣẹ́ láti òkè òkun sí El Zonte wọ́ n ó dẹ̀ tú gba àsìkò.** Owó tó n fi ránṣẹ́
+wọlé láti òkè òkun sí inú El Salvador [tó ká fi mẹ́ tà-lé-lógún pín ọgọ́ run nínú gbogbo oye tí ìlú náà pa wọlé ní](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html) ọdún 2020. Èyàn á san ju dólà méta lọ kí ó tó lè gba dólà méwá láti
+ọwọ́ ẹbí tó wà ní òkè òkun. Kò sí Western Union ní El Zonte nítorí náà ó ní oye wákàtí àti
+oye ọkọ̀ tí ará ìlú ma gùn kí ó tó dé ọ́físì ibi tí wọ́n ti ma gba owó tí wọ́n fi ránṣẹ́ sí wọn.
+Láìsọoyeọjọ́ tíógbàkíowótódéElZontelátiọwọ́ ẹnitíófiránṣẹ́.
 
-3. **It’s hard to save without access to the banking system.** Being “unbanked” doesn’t just prevent somebody from having a bank account. It also excludes them from accessing the type of investments and assets that can protect them against inflation. An unanticipated impact of introducing Bitcoin was the number of people who began saving a meaningful portion of their income for the first time in their lives.
+3. **Ó ṣòro láti fi owó pamọ́ láìsí ètò ilé ìfowópamọ́.** Láì lè lo ilé ìfowópamọ́ ju kí èyàn má
+kọ̀ lè dòwòpọ̀ pẹ̀lu ilé ìfowópamọ́ lọ. Ó tún yọ wọ́n kúro ní àyè àti ní irú àwọn ìdókòwò
+àti àwọn dúkìa tí ó lè dábòbò wọ́ n lọ́ wọ́ kí owó má ní iyì mọ́ . Ipa àìròtẹ́ lẹ̀ tí ìfilọ́ lẹ̀ mú wá
+ni oye àwọn ènìyàn tí wọ́ n bẹ̀ rẹ̀ sí ní fi oye tó nítunmọ̀ pamọ nínú owó tó n wolé fún wọn
+ní ìgbà àkọ́ kọ́ ní ayé wọn.
 
 ![](./bitcoin-beach-team.jpg)
 <center v-pre>
 <figure>
-  <figcaption>The Bitcoin Beach team dedicated themselves to helping their community transact digitally using Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1401672924092841984?s=20">Twitter</a>)</figcaption>
+  <figcaption>Àwọn ẹgbẹ́ Bitkoini Etí Òkun fi ara wọn jì láti ran ará agbègbè wọn lọ́ wó àti lè lo bitkoini fi dúnà dúrà ní orí kọ̀ mpútà. (Orísun: <a href="https://twitter.com/romanmartinezc/status/1401672924092841984?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-With bitcoin to fuel the growth of their project the team got to work. They began to onboard the community one person at a time to the Bitcoin network. They learned, educated and adapted along the way. The pandemic’s arrival in early 2020 served as an accelerant for Bitcoin adoption. Residents in El Zonte who needed support were able to get bitcoin donations provided by the Bitcoin Beach project.
+Pẹ̀lu láti lè lò bitkoini fún ìdàgbàsókè iṣẹ́ àgbéṣe wọn àwọn ẹgbẹ́ náà bẹ̀rè iṣẹ́. Wọ́n bẹ̀rẹ̀ sí ní
+mú àwọn agbègbè náà ní ẹyọ kàn kan mọ bitkoini. Wọ́n kọ́ ẹ̀kọ́, ó ṣì bá wọn lára mu bi ẹ̀kọ́ náà
+ṣe ń lọ. Àjàkálẹ àrùn tókárí-ayé ní ìbẹ̀rẹ̀ ọdún 2020 ló dàbí ìyárasáré fún àgbàwọlé bitkoini. Àwọn
+olùgbé El Zonte tí wọ́ n nílò àtìlẹ́ yìn ni wọ́ n rí ìtọrẹ bitkoini gbà tí ètò Bitkoini Etí Òkun pèsè.
 
-A 2020 [Forbes article](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) thrust Bitcoin Beach into the spotlight and began attracting the support of other Bitcoiners who wanted to help. One of these Bitcoiners was Nicolas Burtey, co-founder of Galoy, who offered to come to El Zonte to develop a wallet tailored to the needs of Bitcoin Beach. Before long, the Bitcoin Beach Wallet was born and the Bitcoin Beach project was picking up momentum towards realizing its vision.
+[Ìròyìn Forbes](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) ti ọdún 2020 kan ni ó mú Bitkoini Etí Òkun di gbajúmọ̀ tí ó ṣì ń fa àtìlẹ́yìn àwọn tí ó
+gbàgbọ̀ nínú bitkoini tí wọ́ n fẹ́ láti ṣe ìrànlọ́ wọ́ mọ́ ra. Ọ̀ kan nínú àwọn tí ó gbàgbọ̀ nínú bitkoini
+tí orúkọ ẹ̀ jẹ́ Nicolas Burtey, tí ó jẹ́ ọkan nínú àwọn olùdásílẹ̀ ilé iṣẹ́ Galoy, tí ó wá sí El Zonte láti
+ṣe àkànṣe àpò fún èlò Bitkoini Etí Òkun. Láìpẹ́, abí àpò Bitkoini Etí Òkun bẹ́ẹ̀ni ètò náà ti ń mú
+ìran ẹ̀ ṣẹ.
 
-By now most people know the end of the story: El Salvador President Nayib Bukele announced on June 5, 2021 that Bitcoin would become legal tender in the country. Bukele related in a Twitter Spaces that the government was inspired by the Bitcoin Beach project and that the law’s goal was to replicate what had happened in El Zonte for the entire country. He specifically mentioned that financial inclusion of the poorest members of Salvadoran society was the driving motivation. On September 7 2021, La Ley Bitcoin (the “Bitcoin Law”) went into effect. Bitcoin Beach has since become a central part of the global Bitcoin adoption story. It has attracted Bitcoiners from around the world who want to see what it’s like to spend sats on coffee, surf lessons, and steak. It has also become a model for other communities to replicate.
+Ní báyí gbogbo ènìyàn ló ti mọ òpin ìtàn náà: Àarẹ orílẹ̀ èdè El Salvador Nayib Bukele kéde ní
+ọjọ́ karùń osùn kẹfà, odún 2021 pé bitkoini ma di owó tó ní òùntẹ̀ ìjọba. Bukele sọ ọ́ lóri Twitter
+Spaces pé ìjọba wo ẹ̀ sẹ ètò Bitkoini Etí Òkun àti pé ìdi tí wọ́ n fi ṣe òfin yí ni láti tún ǹkan tó ṣẹlẹ̀
+ní El Zonte ṣe ní gbogbo orílẹ̀ èdè náà. Pàtàkì ọ̀ rọ̀ ẹ̀ ni wípé kí àwọn ará ìlú El Salvador tí ó tálákà
+jù lè jẹ ànfàní lílo ilé ìfowópamọ́ gan ni ìwúrí òhun. Ní ọjọ́ keje tí oṣùn kẹsán ọdún 2021, La Ley
+Bitcoin (Òfin Bitkọini) fi ẹsẹ̀ mú lẹ̀. Àtì ìgbà yẹn ni Bitkoini Etí Òkun ti wà lára ìtàn àgbàwọlé
+bitkoini ní àgbáyé. Ó ti fa ojú àwọn tí ó gbàgbọ̀ nínú bitkoini láti kákìri àgbáyé tí ó fẹ́ ri bí ó ti rí
+ láti ná sats lórí kọfí, fún ẹ̀kọ́ eré ìdárayá ti orí òkun àti fi ra àsun. Ó tí tun di àwòṣe fún àwọn
+ agbègbè míràn láti tún ṣe.
 
-Most importantly, Bitcoin Beach has created a community where the kids of El Zonte can dream and build their future.
+Pàtàkì jùlọ, Bitkoini Etí Òkun ti dá àwùjọ ibi tí àwọn ọmọ wẹ́wẹ́ El Zonte lè lá àlá àti kọ́ ọjọ́ iwájú
+wọn.
 
-## The Bitcoin Beach Wallet
+## Àpò Bitkoini Etí Òkun
 
-The Bitcoin Beach Wallet is an open source Bitcoin community banking solution. One that was designed to meet the needs of the merchants and community members in El Zonte. It utilizes a multisig shared custody model that offers an alternative to the standard non-custodial and custodial solutions that are most widely available today.
+Àpò Bitkoini Etí Òkun jẹ́ ọ̀ nà àbáyọ ti ìlanà ètò Bitkoini to wà ní àrọ́ wọ́ tọ́ gbogbo ènìyàn. Èyí tí a
+ṣe láti pèsè àwọn ǹkan tí àwọn oníṣòwò àti ará agbègbè El Zonte nílò. Ó ń lo ìlànà tí ó gba
+gbogbo èyàn tó wá nínú ẹgbẹ kan náà láti jọ gbà kí ìdúnàdúrà kan kan kí ó tó lè ṣẹlẹ̀ nínú àpò
+bitkoini wọn. Tí ó yàtọ̀ sí ìlànà tí ẹyọ èyàn kan ní àṣẹ lórí àti ti èyí tí ẹtí kẹta láṣẹ lé lórí tí ó wà
+káàkiri lóòní.
 
 ![](./bitcoin-beach-wallet-soaps.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Cristina uses the Bitcoin Beach Wallet to sell handmade soaps. Customers can pay her via username, by scanning an invoice on her phone, or by visiting her <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Source: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
+  <figcaption>Cristina ń lo Àpò Bitkoini Etí Òkun láti ta ọṣẹ àtọwọ́ dá. Àwọn oníbàárà ẹ̀ lè sanwó pẹ̀ lú orúkọ ìdánimọ̀ ẹ̀ , nípa yíyẹ ojú ìwé iye-owó ọjà tí ó wà ní orí ẹ̀ rọ ìbánisọ̀ rọ̀ ẹ̀ wò, tàbi lọ sí <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Orísun: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Within the Bitcoin Beach Wallet, capital is pooled and managed by the community. This provides benefits to all members within the community:
+Nínú Àpò Bitkoini Etí Òkun ìlú ló ń wá owó ìdókòwò bẹ́ẹ̀ni àwọn ni wọ́n ṣe ìṣàkóso ẹ̀. Èyí ló n
+ pàsè àwọn ànfàní fún àwọn ará ẹgbẹ́ wọn tí ó wà ní agbègbè náà:
 
-- Lightning channels are managed for members; there is no cost to open/close channels
-- Free and instant “intra ledger” transactions are made available within the community
-- Efficient use of online servers means lower costs per user compared to the alternative of each merchant having to have their own server
-- Fees can be reduced by batching on-chain transactions
+- Àwọn ọmọ ẹgbẹ́ ni wọn ṣe ìsàkóso àyè tó n mú ìdúnádúrà yára, ọ̀ fẹ́ ni láti ṣí tàbí ti àyè náà
+- Ìdúnàdúrà ti àkọsílẹ̀ ìnáwó tinú ilé wà tí ó jẹ́ ọ̀fé tí ó tún wà ní ẹsẹ̀kẹsẹ̀
+- Lílo ajíṣẹ́ ayélujára dáradára túnmọ̀ sí sí sanwó pọ́ ọ́ kú tí a bá ṣi lóri èyàn kan kan tí ó yàtọ̀ sí kí oníṣòwò kan kan ni ajíṣẹ́ ayélujára ti ẹ̀
+- Owó tó yẹ láti san ma dínkù tí a bá fi ìdúnádúrà inu búlọ́ kúsenì kan sí ìpele
 
-Additional features in the app help support efforts towards a sustainable Bitcoin economy:
+Àfikún àwọn ẹ̀yà ara ohun èlò ó n ṣe àtìlẹ́yìn fún akitiyan àti ní gbé ọrọ̀ ajé bitkoini ró:
 
-- Ability to pay via Bitcoin address, Lightning invoice or individual username
-- A unified balance of on-chain and Lightning, showing the balance in USD and sats
-- A transaction log displays a history of payments between users
+- Àyè láti sanwó pèlú àdírẹ́sì bitkoini, tábi àyè iye owó ojà tábi lo orúkọ ìdánimọ̀
+- Ìṣọ̀ kan oye tó ku ní ìdúnádúrà inu búlọ́ kúsenì kan tí ó ṣe àfihàn oye tí ó ku ní owó dọ́ là àti sats
+- Máàpú alágbéká náà ń ṣe àfihàn gbogbo àwọn ilé iṣé agbègbè tí ó gba àyè tó n mú
+ìdúnádúrà yára
 - The mobile friendly map displays all local businesses that accept Lightning payments
-- A web address users can share to receive bitcoin from anybody with a Lightning supported wallet (see: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
+- Aṣàmúlò àdírẹ́sì ayélujára lè pín àti gbà bitkoini wọlé láti ọwọ́ ẹnikẹ́ni pẹ̀lú àpò tí ó ní
+àtìlẹ́yìn àyè tó n mú ìdúnádúrà yára (Lọ sí: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
 
-If you’re interested in building a front end mobile application like the Bitcoin Beach Wallet you can access the [galoy-mobile](https://github.com/GaloyMoney/galoy-mobile) repository on GitHub.
+Tí o bá ní ìfẹ́ sí ṣíṣe ibi ojúrí nínú ohun èlò alágbèká bí Àpò Bitkoini Etí Òkun o lè lọ sí ibi ìpamọ́ [galoy-mobile](https://github.com/GaloyMoney/galoy-mobile) lórí GitHub.
 
-Without further ado, here are the top lessons Galoy learned from building in El Zonte.
+Láìyì fi àkókò ṣòfò, àwọn ẹ̀ kọ́ tí ó ṣe kókó jùlọ tí Galoy kọ́ nípa sí ṣe iṣẹ́ ní El Zonte ní àwọn wọ̀ nyí.
 
-## Lesson 1: Education is Paramount
+## Ẹ̀kọ Kíní: Ètò Ẹ̀kọ́ Ṣe Kókó
 
-Bitcoin is a difficult thing to understand. It cuts across computer science, economics, history, cryptography, monetary policy and more. Luckily, somebody does not need to fully grasp Bitcoin to use and benefit from it. How many people who have used fiat their entire lives actually understand how money works?
+Láti ní òye ó jẹ́ ǹkan tó ṣòro,ó wọnú ẹ̀kọ́ ìmọ̀ kọ̀mpútà, ẹ̀kọ́ ọrọ̀ ajé, ẹ̀kọ́ ìtàn àkọsílẹ̀, ẹ̀kọ́ ìfipamọ́
+ìbánisọ̀rọ̀, ẹ̀kọ́ ètò ìmúlò owó àti bẹ́ẹ̀bẹ́ẹ̀ lọ. Èyàn ò ní láti ní òye ní kíkún kí ó tó lè lò ó tàbí jẹ
+ànfàní ẹ̀. Èyàn méló ni ó ná owó gangan ní gbogbo ọjọ́ ayé wọn tí ó mọ bí owó ṣe ǹ ṣiṣẹ́ gaan?
 
 ![](./bitcoin-beach-teaching.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Showing Salvadorans how to use Bitcoin is an ongoing process for Jorge and the Bitcoin Beach team. (Source: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
+  <figcaption>Fífi bí a ṣé n lo bitkoini han àwọn ará El Salvador jẹ́ ìlànà tí ó lọ lọ́ wọ́ lọ́ wọ́ fún Jorge àti àwọn ẹgbẹ Bitkoini. (Orísun: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are five tips to consider when educating your community:
+Àwọn ohun márùún wọ̀nyí ni o gbọ́dọ̀ rò tí o bá fẹ́ kọ́ agbègbè ẹ ní ẹ̀kọ́:
 
-1. **Community organizers are key to the onboarding process.** Having an in-person onboarding team ensures people start off on the right foot. This is especially important in communities where Bitcoin presents the opportunity to transact digitally for the first time.
-2. **It’s more effective to show people how to use Bitcoin than to tell them about it.** Helping people download and interact with a wallet, and having them send and receive sats is more effective than trying to orange pill them with ideas.
-3. **Teach the kids. They will onboard their parents.** The kids of El Zonte were quick to learn how to use Bitcoin. They in turn helped their parents on board at home.
-4. **Bitcoin ATMs help connect the mental dots between Bitcoin and fiat.** A Bitcoin ATM turned out to be a helpful asset to the onboarding process. When people are able to exchange bitcoin in their mobile wallet for their local currency, they build a stronger relationship with the idea of Bitcoin as money.
-5. **Help people expect and plan for short term volatility.** Set expectations so your community can be prepared for drops in the Bitcoin price. Consider a program that compensates merchants whose account balance drops due to price fluctuations for an initial onboarding period until their comfort with Bitcoin is established.
+1. **Àwọn olùṣètò agbègbè ṣe kókó nínú ìlànà àti gbaniwọlé.** Níní ẹgbẹ́ tó ń gbaniwọlè ní ara
+ma ń jẹ́ àwọn èyàn bẹ̀rẹ̀ dáradára. Èyí ṣe pàtàkì pàápà ní agbègbè tí bitkọini mú ànfàní
+àti dúnàdúrà lórí ayélujára ní ìgbà àkọ́ kọ́.
+2. **Tí a bá fihan àwọn èyàn bí wọ́n ṣe ń lo bitkọini ó ṣiṣẹ́ dáradára ju kí á sọ fún wọn nípa ẹ̀ lọ.** Ríran àwọn èyàn lọ́ wọ́ láti ṣe àgbàsílẹ̀ àti lílo àpò, àti lí lò ó láti fi sats ránṣẹ́ àti lè gbà á
+wọlé dára ju kí a sọ àsọdùn lọ.
+3. **Ẹ kọ́ àwọn ọmọdé, wọ́ n ma fa àwọn òbí wọn wọlé.** Àwọn ọmọdé El Zonte wọ́ n tètè mọ bí
+wọ́n ṣe ń lo bitkọini, wọ́n ó sì tún kọ àwọn òbí wọn tí wọ́n bá dé ilé.
+4. **Ẹ̀rọ aládàáṣiṣẹ́ bitkọini ma ń jẹ kí àwọn èyàn rí ìbáṣepọ̀ bitkọini àti owó gangan.** Ẹ̀rọ
+aládàáṣiṣẹ́ bitkọini padà wá jẹ́ dúkìá tó wúlò fún ìlànà àti gba ni wọlé. Tí àwọn èyàn bá tí
+lè pàrọ̀ bitkọini wọn nínú àpò àgbéká sí owó ìlú wọn, wọ́ n ma gba àbá wípé bitkọini dàbí
+owó gangan wọlé.
+5. **Ran àwọn èyàn lọ́ wọ́ láti retí àti ki wọn ṣètò sílẹ̀ fún ìyípadà ìgbà kúkurú.** Jẹ́ kí agbègbè ẹ
+mọ̀ sílẹ kí wọn lè ba gbáradì fún ìgbà tí ìdíyelé bitkọini bá já wá sílẹ̀. Ní àkókò ìgbà tí
+àwọn oníṣòwò ṣè n darapọ̀, ró ètò tí o lè fi ṣe ìsanpadà fún wọn tí owó wọn bá já wá lẹ̀
+nítorí ìyípadà iye owó dí ìgbà tí ọkàn wọn bá ti balẹ̀ pẹ̀lú bitkọini.
 
-As you build your community, take the time to connect with and learn from the people of [Bitcoin Beach](http://bitcoinbeach.com/). They are giants on whose shoulders you can stand. Their dedication to service existed before Bitcoin, and it transcends Bitcoin. Bitcoin has now become a medium through which they can bring opportunity and hope for the future of El Salvador.
+Bí o ṣe ǹ to agbègbè ẹ, fi ojú sílẹ̀ láti darapọ̀ kí o dẹ̀ tún kọ́ ẹ̀kọ́ láti ọwọ́ ará [Bitkoini Etí Òkun](http://bitcoinbeach.com/).
+Àwọn ni òmìrán tí o lè dúró lori èjìká wọn. Àwọn ni òmìrán tí o lè dúró lori èjìká wọn. Ṣíwájú
+bitkọini ní ìfarasìn wọn, ó ṣì tún kọjá bitkọini. Bitkọini ti wá di ọ̀ nà tí wọn lè fi mú ànfàní àti ìrèti
+fún ọjọ́ ọ̀la El Salvador.
 
-## Lesson 2: Lightning is an Accelerant for Bitcoin as Money
+## Ẹ̀kọ Kejì: Àyè Tó n Mú Ìdúnádúrà Bitkọini Yára Sáré Bí Owó
 
-The Lightning Network is the most underestimated protocol in the world. Just two years ago it was a #reckless way to transact. Now it’s being used by McDonalds, Starbucks and Pizza Hut in El Salvador. Growth of nodes, channels and capacity is happening at a mind-blowing pace. The recent Arcane Research report “[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)” provides a glimpse into some of the growth metrics and expectations.
+Àyè tó n mú ìdúnádúrà yára jẹ́ ìlànà tí a má n fi ojú tẹ́ nbẹ́ lẹ́ jùlọ ní àgbáyé. Níwọ̀ n ọdún bí méjì
+sẹ́yìn ó jẹ́ ọ̀nà àìbíkítà láti dúnàá dúrà. Ní báyí McDonalds, Starbucks àti Pizza Hut ní ìlú El
+Salvador ti ń lò ó. Ìdàgbàsókè àwọn ìkoríta, ìlànà àti agbára ń ṣelẹ kíákíá ní ọ̀ nà tó wúnilórí. Ìròyìn
+ìwádì Arcane tí wọ́ n ṣe láìpẹ́ tí àkòrí ẹ̀ jẹ́ “[Ipò tí àyè tó n mú ìdúnádúrà yára wà](https://www.research.arcane.no/the-state-of-lightning)” fún wa rí díẹ̀
+nínú àwọn òṣùwàn ìdàgbàsókè àti ìrètí.
 
-Bitcoin Beach initially used on-chain transactions to distribute bitcoin within the community. While on-chain worked for educational settings and to transfer sats to members of the community, its limitations became a barrier to progressing towards a circular economy.
+Bitkoini Etí Òkun kọ́ kọ́ bẹ̀ rẹ̀ pẹ̀ lú ìdúnàdúrà tí inú búlọ́ kúṣenì kan náà láti pín bitkọini nínú
+agbègbè náà. Nígbàtí ṣí ṣe ìdúnàdúrà nínú búlọ́ kúṣenì kan náà lè ṣiṣẹ́ ní ètò ẹ̀ kọ́ àti láti fi sats
+ránṣé sí àwọn ará agbègbè náà, àwọn ìhámọ́ ẹ di ìdènà sí ìlọsíwájú sí ọ̀ nà ọrọ̀ ajé tó yípo.
 
-Salvadorans experienced how the utility of Bitcoin as a medium of exchange is limited without layer two networks like Lightning:
+Àwọn ará El Salvador ti ní ìrírí bí a ṣé ń lo bitkọini gẹ́gẹ́bí ọ̀nà àtiṣe pàṣípàrọ̀ kò tó láì lo ìtàkùn
+ ìpele kejì bí àyè tó n mú ìdúnádúrà yára:
 
 1. **On-chain fees were too expensive to facilitate daily spending.** Residents of El Zonte need to be able to spend small dollar amounts, such as 50 cents for pupusas.
-2. **Using on-chain bitcoin for retail transactions creates “dust.”** Bitcoin Beach experienced the “[dust transactions problem](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)” firsthand. Unspent transaction outputs (UTXOs) record how value is moved on the timechain. When the value of a UTXO becomes less than the cost of spending it, the bitcoin is considered unspendable “dust.”
-3. **In the retail setting, anything less than instant settlement creates friction for both the business and the consumer.** Bitcoin is built for security and incorruptibility on layer one. It is not meant for speed and transaction throughput.
+2. **Lílo ìdúnàdúrà tí inú búlọ́kúṣenì kan náà láti fi sanwó ọjà àti iṣẹ́ pẹ́pẹ̀pẹ́ ma ń fa "èérún."** Bitkoini Etí Òkun náà la
+“[àwọn ìṣòro ìdúnádúrà](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)“ kọjá. Àbájáde ìdúnádúrà iye tí aìríná (UTXOs) ló n ṣe àgbàsílẹ̀ bí a ṣé n
+gbé iyì káàkiri lórí okùn bí ǹkan ṣe ṣẹlẹ̀. Tí iyì ta fi sí orí àbájáde ìdúnádúrà iye tí aìríná, bá ti kéré
+ sí oye tí a ma fi na, àá pe irú bitkọini yí ní ‘èérún’ tí ò ṣe é ná.
+3. **Fún àwọn tó t’ajà ní ìsọ̀ , ǹkan tó bá tí yàtọ̀ sí ká sanwó lẹ́ sẹ̀ kẹsẹ̀ ma ń fa ìkọlura l’àárín iléiṣẹ́ àti olùmúlò.** A ṣe bitkọini fún ààbò àti àidíbàjẹ́ lórí ìpele kíní. A ò ṣe é fún ìyára àti òṣùwọ̀ n
+ iṣẹ́ ìdúnádúrà.
 
 ![](./merchant-lightning-payments.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Lightning enables the fast, easy-to-use and inexpensive payments that merchants require in a retail setting. (Source: Galoy)</figcaption>
+  <figcaption>Àyè tó n mú ìdúnádúrà yára mu ìsanwó yára, rọrùn láti lò, kò dẹ̀ tún wọ́ n ní ìyí tí àwọn oníṣòwò
+ fẹ́ ní ìsọ̀ wọn. (Orísun: Galoy)</figcaption>
 </figure>
 </center>
 
-The layer two Lightning Network is the technology that could upend the legacy retail system and bring the promise of Bitcoin as money to the world. Our co-founders wrote about this in the 2020 article “[Lightning as a Retail Payment System?](https://galoy.io/lightning-as-a-retail-payment-system/)”
+Àyè tó n mú ìdúnádúrà yára oní ìpele kejì ni ìmọ̀ èrọ tí a lè lò láti fi sojú ogún ojà títà dé, kí a mú
+ ìlérí pé bitkọini jẹ́ owó wá sí ayé. Alábàdásílẹ̀ wa kọ nípa èyí ní ọdún 2020 nínu àkọsílẹ̀ ẹ̀ tí àkòrí
+ ẹ̀ jẹ́ “[Àyè tó n mú ìdúnádúrà yára bí ètò ìsanwó ọjà?](https://galoy.io/lightning-as-a-retail-payment-system/)”
 
-The Lightning Network served as an accelerant and an enabler of the vision of the Bitcoin Beach project. Without it, using Bitcoin as money in El Salvador would be more difficult and more expensive; it may have even derailed or at least delayed the project.
+Àyè tó n mú ìdúnádúrà yára jẹ́ ọkọ̀ àti olùṣètò láti mú ìran ètò Bitkoini Etí Òkun ṣẹ. Láìsí òhun,
+ lílo bitkọini bí owó ní ìlú El Zonte ma nira si àti wọ́n si pẹ̀lú; ó ti ẹ̀ tún dàáru tàbi ó kéré jù kó dá
+ ètò náà dúró díẹ̀.
 
-Lightning Network integration has become table stakes for any wallet or financial services being built on Bitcoin. It unlocks vast potential for close-to-free, global, real-time, permissionless transactions.
+Fífi àyè tó n mú ìdúnádúrà yára sí inú ètò ti wá di kòseémání fún èyíkéyí àpò tàbi ètò ìnáwó tí a
+ kọ́ bitkọini lé lóri. Ó ṣí ọ̀pọ̀lọpọ̀ ọ̀nà fún ìdúnádúrà tó fẹ́ ẹ̀ jẹ́ ọ̀fẹ́, tó kárí ayé, tó lè ṣelẹ̀ lẹ́sẹ̀kẹsẹ̀, tí
+ ò sí pé èyàn gba àyè.
 
-## Lesson 3: Merchant Onboarding is Necessary to Foster a Local Circular Economy
+## Ẹ̀kọ́ kẹta: Mímú Àwọn Oníṣòwò Wọlé Ṣe Pàtàkì Fún Ìwúrí Ìdàgbàsókè Ètò Ọrọ̀ Ajé
 
-Standing up a circular Bitcoin economy presents a “chicken and egg” problem. Residents need places to use it, and merchants need customers who will spend it. Making it easy and desirable to accept Bitcoin is an important step in stimulating local community adoption.
+Ìgbédìde ọrọ ajé bitkọini ṣe àfihàn ìṣòro “adìẹ àti ẹyin”. Àwọn olùgbé nílò àwọn ibi tí wọ́ n á ti lò
+ ó, bẹ́ẹ̀ni oníṣòwò nílò olùmúlò tí ó ma na. Èyí mú u rọrùn bẹ́ẹ̀ni wuni láti gba bitkọini jẹ ìgbésẹ̀ tí
+ ó ṣe kókó fún ìgbàwọlé ni agbègbè.
 
-The ultimate goal is to make receiving bitcoin faster, easier, and cheaper than any other currency or means of payment.
+Ìlépa ìkẹyìn ni kí a mú gbígba bitkọini yára si, rọrùn si, dín owó ju èyíkéyí owó míràn lọ.
 
 ![](./first-merchant.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Mama Rosa (pictured with her son Jorge) was the first merchant in El Zonte to accept Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
+  <figcaption>Mama Rosa (pẹ̀ lu ọmọ ẹ̀ Jorge) ni oníṣòwò àkọ́ kọ́ ní ìlú El Zonte tí ó kọ́ kọ́ gba. (Orísun: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are some experiences that shaped how we design for merchants:
+Àwọn wọ̀ nyí ni díẹ̀ nínú àwọn ìrírí tí a fi ṣe ètò náà bí a ṣe ṣé fún àwọn oníṣòwò:
 
-1. **Don’t make merchants think about currency conversion.** Reduce the mental load required to calculate prices by showing both dollar (or local currency) amounts and bitcoin amounts across balances, invoices and transaction history screens.
-2. **Enable multiple ways for merchants to get paid.** Merchants should not have to create invoices for each transaction. Using the Bitcoin Beach Wallet, customers can pay via username, printed QR code, selecting the merchant on a map, or using the invoice pages that each user can share at ln.bitcoinbeach.com/[username].
-3. **Make the process require less time, attention and clicks.** The turning point for El Zonte merchants came when Galoy enabled customers to set the invoice amount. Merchants no longer have to stop what they are doing to create an invoice. They can simply look at the alert on their phone to verify a payment came in. Bitcoin is now easier to accept than cash or credit.
-4. **Create merchant incentives to help encourage adoption early on.** In El Zonte, there was a “cash back” program for a few weeks, where merchants earned 20% back on their bitcoin. This type of promotion helps drive trials and stimulate early growth of the circular economy.
+1. **Má jẹ́ kí àwọn oníṣòwò ronú nípa owó ṣíṣẹ́.** Bá wọn dín wàhálà à ń fi orí ṣí owó kù nípa
+fífi oye owó dọ́là (tàbí owó tí orílẹ̀ èdè) àti oye ni bitkọini káàkiri ní iye owó tó ṣẹ́kù, ni
+ìwé iye owó ọjà àti ìtàn ìdúnádúrà wọn.
+2. **Jẹ́ kí ọ̀ nà púpọ̀ wa fún àwọn oníṣòwò láti lè gba owó ọjà wọn.** Àwọn oníṣòwò ò ní láti
+ṣe ìwé owó ọjà fún ìdúnádúrà kàn kan. Lílo Àpò Bitkoini Etí Òkun, àwọn oníbárà wọn lè
+sanwó pẹ̀lú orúkọ ìdánimọ̀, àtẹ̀jáde kóódù èsì ní kíákíá, mímú máápù oníṣòwò tàbí lílo
+àwọn ìwé owó ọjà tí olùmúlò kàn kan lè pín ní orí in.bitcoinbeach.com/[username].
+3. **Má jẹ́kí ìlànà náà gba àkókò, àkíyèsí àti títẹ̀ ẹ̀rọ jù.** Ibi tó ṣe pàtàkì jù fún àwọn
+oníṣòwò ìlú El Zonte ni ìgbà tí Galoy gba àwọn oníbárà láyè láti lè ṣètò iye owó lori ìwé
+owó ọjá. Àwọn oníṣòwò ò ní láti fi ǹkan tí wọ́n bá ń ṣe sílẹ̀ láti ṣe ìwé owó ọjà. Wọ́n á kọ̀
+wo ìtanijí orí ẹ̀ rọ ìbánisọ̀ rọ̀ wọn láti rí àrídájú pé owó ti wọlé. Bitkọini ti wá rọrùn láti gbà
+ju owó tàbí àwìn.
+4. **Ṣètò ìmóríyá fun oníṣòwò tó ma jẹ́ ìwúri wọn kí wọ́ n ba lè tètè ma lò ó.** Ní ìlú El
+Zonte, wọ́ n ṣe ètò “ìfúnni ní owó ẹni padà” fún ọ̀ sẹ̀ díẹ̀ , níbi tí àwọn oníṣòwò gba ogún
+nínú ọgọ́ rún padà ní orí bitkọini wọn. Irú ìpolówó yí ma ń ṣe ìrànwọ̀ ìdánwò àti kí ó tètè
+mú ìdàgbàsókè ìpín ọrọ̀ ajé wá.
 
-Don’t lose focus on the important role that merchants play in supporting a Bitcoin economy. The needs of merchants across each community will be different, so be sure to spend time understanding and designing for them early on.
+Máṣe gbàgbé ipa pàtàkì tí àwọn oníṣòwò kó nínú ṣíṣe àtìlẹ́yìn fún ọrọ̀ ajé bitkọini. Àwọn ǹkan tí
+ àwọn oníṣowo nílò káàkiri agbègbè kàn kan ma yàtọ̀ , nítorí náà ri dájú pé o ní òye àti kí o ṣètò ní
+ kíákíá.
 
-## Lesson 4: User Experience Must be Developed Within the Context of the Community
+## Ẹ̀kọ́ Kẹ́rin: Àgbékalẹ̀ Ìrírí Olùmúlò Gbọ́ dọ̀ Bá Ti Agbègbè Náà Mu
 
-Bitcoin Beach exists at the frontier of Lightning Network adoption. As Mike often says “There are little kids in El Zonte who make more Lightning transactions than most OG Bitcoiners.”
+Bitkoini Etí Òkun wáyé bí ààlà ní ìgbà ìgbàwolé àyè tó n mú ìdúnádúrà yára. Bí Mike ṣe sábà maá
+ sọ “àwọn ọmọdé kan wà nínú ìlú El Zonte tó ma ń lo àyè tó n mú ìdúnádúrà yára ju àwọn
+ àgbàgbà nínú bitkọini lọ.”
 
-As the Bitcoin economy grew, the team took note of unmet needs and desired functionality that would help make life easier for the residents and merchants. Being on the ground in El Zonte provided invaluable insight to Nicolas as he was building the Bitcoin Beach Wallet.
+Bí ọrọ̀ ajé bitkọini ṣe gbòrò si, ẹgbẹ́ náà ṣe àkíyèsí àwọn àìní tí wọn ò lè gbọ́ àti irú iṣẹ́ tí wọ́ n fẹ́
+ kó ṣe tó ma mú ayé rọrùn fún àwọn olùgbé àti àwọn oníṣòwò. Wíwà nílè ní ìlú El Zonte fún
+ Nicolas ní òye púpọ bí ó ṣe ǹ ṣètò Àpò Bitkoini Etí Òkun.
+ 
 
 ![](./bitcoin-insights.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Watching people use Bitcoin at merchants across El Zonte surfaced helpful insights for product and service design. (Source: Galoy)</figcaption>
+  <figcaption>Wíwo àwọn èyàn bí wọ́ n ṣe ǹ lo bitkọini ní ọ̀ dọ̀ àwọn oníṣòwò káàkiri El Zonte fún wọn ni ìjìnlẹ
+ òyeìṣètòọjààtiiṣẹ́. (Orísun: Galoy)</figcaption>
 </figure>
 </center>
 
-Note: Remember that it’s important to test your apps and services within the community for whom they’re intended. Do your own research.
+Àkíyèsí: Rántí pé ó ṣe kókó kí o dán ohun èlò àti iṣẹ́ wò nínú agbègbè tí a gbèrò láti lò ó. Ṣe
+ ìwádí tì ẹ.
 
-Six user experience learnings from testing the Bitcoin Beach Wallet in the wild:
+Ẹ̀kọ́ ìrírí olùmúlò mẹ́fà tí a kọ́ nípa ìdánwọ̀ Àpò Bitkoini Etí Òkun:
 
-1. **Don’t take a strong internet connection for granted.** Developing for areas with spotty connectivity may require optimization and fault tolerance at the network level that would typically not be needed in the United States.
-2. **App onboarding presents a perfect window for education.** The Bitcoin Beach Wallet has a built-in quiz that walks users through a brief introduction to Bitcoin. Each question rewards the user with sats to get them off zero from the very start.
-3. **“Sats is the standard,” but USD is still the unit of account.** People think in their local currency, not sats, when onboarding to Bitcoin. The transition to thinking in sats is gradual, the local currency should be the unit of account when bringing a new community onto the network.
-4. **Add interactions that connect customers to merchants.** The map tab in the Bitcoin Beach Wallet helps customers find places where they can spend Bitcoin. It also enables quick and easy transactions by allowing the customer to create and pay invoices.
-5. **Payment notes help with record keeping.** Both customers and merchants can benefit from being able to add notes to transactions. Based on community input the feature has evolved from private (at the user level) to shared. Now the sender and receiver can both see the note attached to the transaction.
-6. **Stay on top of how lightning payment formats are evolving.** New payment formats such as Lightning Address, static invoices and BOLT 12 are emerging at a rapid pace. Selecting which formats to adopt will depend on the use case. The Bitcoin Beach Wallet initially launched with a printed QR code that led to an invoice page (such as ln.bitcoinbeach.com/mamarosa). New formats are now being considered in order to reduce friction and improve interoperability.
+1. **̣̀ má fojú kéré ayélujára tó yára.** Àwọn agbègbè tí ó ṣẹ̀ ń dàgbàsókè tí wọ́ n ní ayélujára
+tí kò yára nílò ìṣàpéye àti ìfaradà àṣìṣe ní ìpele ìtàkùn tí a ò ní nílò tó bá jẹ ìlú Amẹ́ríkà ní a wà.
+2. **Àti gba àwọn wọlé sí orí ètò ohun èlò fi àyè tó pé sílẹ̀ fún ẹ̀ kọ́ kíkọ́** Àpò Bitkoini Etí
+Òkun ní ìdánwò kékeré tí ó n ṣe ìfihàn ránpẹ́ fún àwọn olùmúlò nípa bitkọini. Ìbéèrè kàn
+kan ma san èrè fún olùmúlò pẹ̀lú sats láti ìbẹ̀rẹ̀ kúrò ní òdo.
+3. **“Sats ni àmì ìdáyàtọ̀,” ṣùgbọ́n dọ́là ti Amẹ́ríkà ni a ṣì ń lò lójú ọjá.** Owó tọ́ n na ní ìlú
+àwọn èyàn ni wọ́n ma ń fi ronú, kò kí n ṣe sats, tí wọ́n bá bẹ̀rẹ̀ sí ní lo bitkọini. Ìyípadà sí
+ríronú ní sats jẹ́ díẹ̀díẹ̀. Owó tí wọ́n ná ní orílẹ̀ èdè èyàn ni ó yẹ kówà ní ojú ọjà tí èyàn bá
+fẹ́ mú agbègbè titun wọ inú ètò náà.
+4. **Ṣe àfikún ìbáraṣepọ̀ tí ó ma so àwọn oníbárà àti oníṣòwò papọ̀.** Àyè máápù tó wà
+nínú Àpò Bitkoini Etí Òkun ma ń ran àwọn oníbárà lọ́ wọ́ láti lè rí ibi tí wọ́ n tí lè ná
+bitkọini. Ó tún ma jẹ́kí ìdúnádúrà yára àti kí ó rọrùn nípa gbígba àwọn oníbárà láyè láti ṣe
+ìwé owó ọjà tí wọn ma fi sanwó.
+5. **Àkíyèsí tí ó wà lórí owó tí wọ́ n san wọlé ma ń ṣe ìrànwọ́ fún ìgbàsílẹ̀ gbogbo ìdúnádúrà.** Àti àwọn oníbárà ti oníṣòwò ni ó ní ànfàní láti fi àkíyèsí sí àwọn ìdúnádúrà wọn. Lórí àgbéwọlé ti agbègbè ẹ̀yà ara ètò náà ti kúrò ní àdálò (ní ìpele olùmúlò) sì ti bọ́sí
+àjọlò. Níbáyí olùránṣẹ́ àti olùgbà lè jọ rí àkíyèsí tó somọ́ ìdúnádúrà náà.
+6. **Ma ṣe àkíyèsí nígbàgbogbo bí àyè tó n mú ìdúnádúrà yára ṣe ń yí.** Ètò ìsanwó titun bí
+àdírẹ́sì àyè tó n mú ìdúnádúrà yára, ìwé owó ọjà tí ò mì àti BOLT ẹ̀yà kejìlá ń yára jáde. Bí
+ǹkan bá ṣe rí ni a ṣe ma mọ irú ètò tí a ma lò. Àpò Bitkoini Etí Òkun kọ́kọ́ jáde pẹ̀lú
+àtẹ̀jáde kóódù èsì ní kíákíá tí ó ma lọ sí ojú-ìwe ìwé owó ọjà (bí
+in.bitcoinbeach.com/mamarosa). A ti ń gbèrò àwọn ètò titun míràn láti dẹ́kun ìkọlura, kí a
+tún ṣe àtúnṣe àjọṣiṣẹ́pọ̀.
 
-## Lesson 5: Community Custody is a Bridge to Self-custody
+## Ẹ̀kó Karùún: Àrọ́ wọ́ tó Ti Agbègbè Nìkan Ni Afárá Sí Àrọ́ wọ́ tó Ti Ara Ẹni Nìkan
 
-Self custody is the desired end state for every person holding wealth in bitcoin. The number one rule of Bitcoin custody is “Not your keys, not your coins.”
+Àrọ́ wọ́ tó ti ara ẹni nìkan ni ipò ìparí tí gbogbo ènìyàn tí ó ní ọrọ̀ nínú bitkọini. Òfin àkọ́ kọ́ nínú
+ àrọ́wọ́tó bitkọini ti ara ẹni nìkan ni "Kò kí n ṣe kọ́kọ́rọ́ ẹ, Kò kí n ṣe ẹyọ owó ẹ.”
 
-Self custody is not the only way, nor the most appropriate way to onboard communities to the concept and practice of using Bitcoin.
+Àrọ́wọ́tó ti ara ẹni nìkan kò kí n ṣe ọ̀nà kan ṣoṣo tí ó wà, tàbí ọ̀nà tí ó yẹ jùlọ láti mú àwọn
+ agbègbè mọ àti kí wọ́n ma bẹ̀rẹ̀ sí ní lo bitkọini
 
-> “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.” – Mike Peterson on [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
+> “O ní láti gbé ìgbésẹ̀ díẹ̀díẹ̀. Tí o bá kó gbogbo ìdojúkọ kà wọ́n láyà láti ìbẹ̀rẹ̀, àwọn èyàn ò ní láíláí wọnú ètò náà.” – Mike Peterson nínú [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
 
-### The spectrum of Bitcoin custody
+### Abalatiàrọ́wọ́tóBitkọini tiaraẹninìkan
 
-Bitcoin custody models sit along a spectrum not unlike the convenience/privacy spectrum. On one side, you have simple UX, easy access to funds and integration across the fiat banking ecosystem. On the other, you have hand-stamped metal, sharded seed phrases and multi-signature custody models that require multiple steps or multiple people to move funds.
+Àwòṣe àrọ́ wọ́ tó bitkọini ti ara ẹni nìkan ó wà pẹ̀ lú abala kàn kò kí n ṣe bí abala ìrọ̀ rùn/àdálò. Ní
+apá kan, a ní ìrírí olùmúlò tó rọrùn, ọ̀ nà àti lo owó rọrùn àti ṣe ìṣọ̀ kan pẹ̀ lú ètò ìfowópamọ́ . Ní
+apá míràn, irin òùntẹ̀ àfọwọ́ tẹ̀ , ọ̀ rọ̀ ìgbaniwọlé àti ìbuwọ́ lù púpọ̀ tí ó gba àwọn ìgbésẹ̀ púpọ̀ àti
+ènìyàn púpọ̀ láti lè mú owó.
 
-Different use cases have different risk scenarios that make trade-offs acceptable. For example, storing wealth in a bank account is generally considered safer than carrying it around as cash in a wallet, but carrying around small amounts of cash for daily purchases provides convenience.
+Oríṣiríṣi ipò lílò ni ó ní ìṣẹ̀lẹ̀ ewu tí ó yàtọ̀ tí ó jẹ́ kí fífi ohun ǹkan fún ǹkan jẹ́ ìtẹ́wọ́gbà. Fún àpẹrẹ,
+ fífi ọrọ̀ sí ilé ìfowópamọ kò léwu bí ká ma gbe kiri nínú àpò owó lọ, ṣùgbón ká mú owó díẹ̀ tí a fẹ́
+ fi ra ǹkan lójúmọ́ fún ni ní ìrọ̀ rùn.
 
 ![](./bitcoin-custody-self-shared-community-1024x384.png)
 
 <center v-pre>
 <figure>
-  <figcaption>The Bitcoin Beach Wallet provides a shared custody option where funds can be stored within a community.</figcaption>
+  <figcaption>Àpò Bitkoini Etí Òkun pèsè àṣàyàn àrọ́ wọ́ tó àjọlò níbi tí a lè tọ́ jú owó sí láàrín agbègbè kan.</figcaption>
 </figure>
 </center>
 
-Every model has value, so long as 1) it is used for a fitting purpose and 2) it guides people further to the right as they accumulate more of their wealth in bitcoin.
+Gbogbo àwòṣe ló ní iyì, tó bá ti jẹ́ wípé 1) a lò ó fún ìdí tó bamu àti 2) ó ń darí àwọn ènìyàn
+ síwájú si lọ síbi tó tọ́ bí wọ́ n ṣe ń ṣe àkójo ọrọ̀ wọn si nínú bitkọini
 
-### Community custody: harkening back to the days of union banks
+### Àrọ́wọ́ tó Ti Agbègbè Nìkan: ká ṣèrántí ayé ìgbà àwọn ilé ìfowópamọ ẹgbẹ́
 
-The custody model that we landed on for Bitcoin Beach is what Galoy refers to as “community custody.” It is a multi signature solution where the keys for the funds in cold storage are held by established members of the local community. This model reduces reliance on centralized companies outside of the community while also reducing friction of onboarding members to the network.
+Gbogbo àwòṣe àrọ́ wọ́ tó tí a dúró lé lórí fún Bitkoini Etí Òkun òhun ni Galoy pè ní "àrọ́ wọ́ tó
+agbègbè.” Ó jẹ́ ọ̀ nà àbáyọ tó ní ìbuwọ́ lù púpọ̀ tí kọ́ kọ́ rọ́ síbi tí owó wà lọ́ wọ́ àwọn ọmọ ẹgbẹ́ tí
+ẹṣẹ̀ wọn ti múlẹ ní inú agbègbè náà. Àwòṣe yí ma ń dẹ́kun ìgbáralé àwọn ilé iṣẹ́ tó n ṣe ìṣàkóso tí
+wọ́ n wà ní ìta agbègbè nígbàtí wọ́ n dẹ́ kun ìkọlura ti àwọn ọmọ ẹgbẹ́ tí wọn ṣe n gbà wọlé sínú
+ìtàkùn náà.
 
-### A note on community banking
+### Àkíyèsí lórí lílo ilé ìfowópamọ́ agbègbè
 
-Community banks have existed around the world for hundreds of years. Their core purpose is to support the socio-economic needs of a group of people with a shared interest. Often the shared interest is centered around a geographic location. Funds held by community banks are sourced from and loaned to people within the community in a more relationship-driven manner than the typical universal bank.
+Àwọn ilé ìfowópamọ́ agbègbè ti wà kákiri àgbáyé fún ọgọgọ́ rún ọdún. Ìdí tí wọ́ n fi wà gangan ni
+kí wọ́ n ṣe àtìlẹ́ yìn fún ìgbé ayé ìrọ̀ rùn àti ọrọ ajé àkójọ àwọn èyàn tí wọ́ n jọ nífẹ́ sí àwọn ohun
+kan náà. Nígbàgbogbo àwọn ohun tí wọ́n jọ ní ìfẹ́sí dá lórí ibi tí wọ́n jọ ń gbé. Owó tí ó wà ní
+ìkáwọ́ àwọn ilé ìfowópamọ́ agbègbè wọ̀ nyí ni wọ́ n rí láti ọwọ àwọn olùgbé agbègbè náà bẹ́ ẹ̀ ni
+àwọn náà ni wọ́n ń yá ni ọ̀nà tó níṣe pẹ̀lú ìbáṣepọ̀ ju bí wọ́n ṣe ń ṣe ní ilé ìfowópamọ́ déédé lọ.
 
-Community banks are especially important to communities like El Zonte because they enable decisions to be made locally with the best interests of community members in mind. The Galoy [open source Bitcoin banking solution](https://galoy.io/products/) is built to enable any community or institution around the world to self organize in this manner.
+Àwọn ilé ìfowópamọ́ agbègbè ṣe pàtàkì pàápàá sí àwọn agbègbè bí El Zonte nítorí pé wọ́ n jẹ́ kí
+ àwọn ìpinu ṣe é ṣe ní agbègbè pẹ̀ lú èrò àwọn ará agbègbè náà lọ́kàn.
+ [ìlanà ètò ọ̀ nà àbáyọ lílo bitkọini to wà ní àrọ́ wọ́ tọ́ gbogbo ènìyàn](https://galoy.io/products/) ti Galoy tí ó ṣe láti jẹ́ kí èyíkéyí
+  agbègbè tábi ìgbékalẹ̀ káàkiri àgbáyé lè ṣètò ara ẹ̀ ní ọ̀ nà yí.
 
-For more insight into the intersection between Bitcoin and community banking, see the Fulgur Ventures article “[The role of Bitcoin for community banking.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
+Fún òye ìjìnlẹ̀ díẹ̀ si sínú ìkoríta tó wà láàrín lílo bitkọini àti ilé ìfowópamọ́ agbègbè, wo àkọsílẹ̀ tí
+ Fulgur Ventures kọ “[Ipa bitkọini ní ilé ìfowópamọ́ agbègbè.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
 
-### Bitcoin Beach Wallet as a community Bitcoin bank
+### Àpò Bitkoini Etí Òkun Bí Ilé ìfowópamọ́ Agbègbè Ti Bitkoini
 
-Bitcoin Beach Wallet funds are managed by members within the community, providing a frictionless and cost-effective means of payment designed to support the local economy.
+Àwọn ọmọ ẹgbẹ́ tọ́ n wà nínú agbègbè ni wọ́ n ṣe àkóso owó tí ó wà nínú Bitkoini Etí Òkun, tí
+ wọn ń pèsè ọ̀nà tí a lè gbà sanwò tí kò ní ìkọlura tí owó ẹ̀ kò dẹ̀ panilára tí wọ́n ṣètò fún àtìlẹ́yìn
+ ọrọ ajé agbègbè.
 
-Here’s why community custody works for Bitcoin Beach:
+Àwọn ìdí nì yí tí àrọ́ wọ́ tó agbègbè ṣe ṣiṣẹ́ fún Bitkoini Etí Òkun:
 
-1. **Removing friction is the most important step to creating the network effects required for circularity in the economy.** Humans are naturally resistant to change and quick to reject new ideas or revert to old habits. As Mike Peterson said in his June 2020 interview with Marty Bent: “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.”
-2. **It can be hard to securely and reliably store seed phrases in remote and emerging communities.** For people that live in houses with dirt floors and tin roofs, there are not secure places to store written seed phrases. Using seed phrases also presents issues for people who can’t read or write, which is not uncommon in many parts of the world.
-3. **People who use Bitcoin become more comfortable with it over time.** Residents of El Zonte are now sending bitcoin over the Lightning Network on a daily basis. Some have begun stacking sats and have accumulated more wealth than they ever would have with US Dollars. This is an inspiring trend that Bitcoin Beach is supporting through education and training about self-custody. UX improvements will also continue to make self-custody more accessible to more users around the world.
+1. **Yíyọ ìkọlura ni ìgbésẹ̀ tí ó ṣe kókó jùlọ láti ní ipa ìtàkùn tí a nílò fún ìyíká nínú ọrọ̀ ajé.** Àwa ẹ̀dá ènìyàn láti ayédáyé ni a sòro láti gba ìyípadà bẹ́ẹ̀ni a yára láti kọ èrò titun
+tàbí padà sí ìwà àtijọ̀ . Bí Mike Peterson ṣe sọ nínú ìfọ̀ rọ̀ wánilẹ́ nuwò pẹ̀ lú Marty Bent tó
+wáyé ní oṣùn kẹfà ọdún 2020, ó ní "O ní láti gbé ìgbésẹ̀ díẹ̀díẹ̀. Tí o bá kó gbogbo
+ìdojúkọ kà wọ́n láyà láti ìbẹ̀rẹ̀, àwọn èyàn ò ní láíláí wọnú ètò náà.”
+2. **Ó lè nira díẹ̀ láti rí ibi tó ní ààbò tí a lè gbọ́ kànlé àti tọ́ jú ọ̀ rọ̀ ìgbaniwọlé ní àwọn ìlú jínjìn tí wọ́n ṣẹ̀ ń dìde.** Fún àwọn èyàn tó ń gbé ní ilé tí ilẹ̀ ẹ̀ dọ̀tí àti tó ní páànù, kò sí
+àwọn ibi tó ní ààbo tí èyàn lè tọ́ jú ọ̀ rọ̀ ìgbaniwọlé sí. Lílo ọ̀ rọ̀ ìgbaniwọlé jẹ́ ìṣòro fún
+àwọn tí wọn ò lè kà tàbí kọ, èyí tí kò kí n ṣe ǹkan tí kò wọ́ pọ̀ káàkiri gbogbo àgbéyé.
+3. **Àwọn èyàn tó n lo bitkọini ma ń ni ìtura pẹ̀lú ẹ bí wọ́n bá ṣe ǹ lò ó.** Àwọn olùgbé ìlú
+El Zonte ti ń fi bitkọini ránṣé lórí àyè tó n mú ìdúnádúrà yára ní ojojúmọ́ . Àwọn kan ti ń ṣe
+àkópọ̀ sats, wọ́n dẹ̀ ti tún kó ọrọ̀ jọ si ju ti èyí tí wọ́n lè ní pẹ̀lú owó dọ́là ti amẹ́ríkà lo. Èyí
+jẹ́ àṣà tí ó móríyá wípé Bitkoini Etí Òkun ń ṣe àtìlẹ́yìn nípa ètò ẹ̀kọ́ àti ìdánilẹ́kọ́ nípa ń ṣe
+àtìlẹ́yìn nípa ètò ẹ̀kọ́ àti ìdánilẹ́kọ́ nípa àrọ́wọ́tó ti ara ẹni nìkan. Àwọn ìlọsíwájú ìrírí
+olùmúlò á tún tẹ̀síwájú láti mú àrọ́wọ́tó ti ara ẹni nìkan túbọ ṣe é lò fún àwọn olùmúlò
+púpọ̀ si káàkiri àgbáyé.
 
-Open source community custody solutions have emerged as a valuable model for onboarding communities to Bitcoin. We believe they will play a significant role in bringing Bitcoin to the first billion users.
+ìlanà ètò ọ̀ nà àbáyọ àrọ́ wọ́ tọ́ ti agbègbè nìkan gbogbo ènìyàn lò ti farahàn bí àwòṣe tó níyì fún
+ àwọn agbègbè tó gba bitkọini. A gbàgbọ́ wípé wọ́ n ma kó ipa pàtàkì láti mú bitkọini lọ fún
+ àwọn olùmúlò bílíọ́ nù akọ́ kọ́.
 
-## Lesson 6: Start Small and Build Momentum Before Expanding
+## Ẹ̀kọ́ Kẹfà: Mu Láti Ibi Kékeré, Ma Ṣé Lọ Kí o Tó Fẹ̀ ẹ Lójú
 
-It is exciting to see the groundswell of communities around the world working to connect their towns and cities to the Bitcoin network. [Bitcoin Lake](https://twitter.com/LakeBitcoin) in Guatemala and [Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) are two early examples. Some Bitcoiners have started calling Tonga “Bitcoin Island” after hearing [Lord Fusitu’a’s](https://twitter.com/LordFusitua) four-part plan to bring Bitcoin to his country.
+Ó móríwú láti rí àwọn agbègbè káàkiri agbáyé tí wọ́ n ṣiṣẹ́ láti so abúlé àti ìlú wọn pọ̀ mọ́ ìtàkùn
+bitkọini. [Bitkọini Omi Adágún](https://twitter.com/LakeBitcoin) ní ìlú Guatemala àti [Bitkọini Etí Òkun Ti Ìlu Brazil](https://twitter.com/bitcoinbeachbr) ní àpẹrẹ àkọ́ kọ́
+bẹ̀rẹ̀. Àwọn olólùfẹ́ bitkọini kan tí ẹ̀ ti ń pe Tonga ní “Erekúṣù Bitkọini” lẹ́yìn ìgbà tí wọ́n gbọ́ nípa
+ètò alábala-mẹ́rin ti [Lord Fisitu’a](https://twitter.com/LordFusitua) láti mú bitkọini wọ inú orílẹ̀ èdè ẹ̀.
 
 ![](./education-roman-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>One-on-one education is an ongoing part of the process of onboarding a community. (Source: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
+  <figcaption>Ìdánilẹ́kọ́ ojúkojú wà lára ìlànà àti gba agbègbè wọlé tó ń lọ lọ́wọ́lọ́wọ́. (Orísun: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-To those just starting out we’d offer two main thoughts on scaling from an idea to an economy:
+Fún àwọn tí ó ṣẹ̀ ń bẹ̀ rè a fún n yín ní ìmọ̀ ràn méjì lórí ṣíṣe ìgbésókè láti èrò sí ọrọ̀ ajé:
 
-1. **Starting with a defined community helps to build a strong foundation.** Bitcoin Beach benefited from serving a population of 3,000 that was geographically separated from other villages. This narrow focus allowed us to capture and adapt to learnings in real time that prepared us for the exponential growth that followed.
-2. **Growth happens “gradually, then suddenly.”** When bringing a community onto Bitcoin, expect to spend as much effort and time onboarding the first 50 people than the next thousand. Because Bitcoin is a network, general rules of network effects will apply. Luckily, Bitcoin developers, educators and companies around the world are making tools to help any community get started.
+1. **Ká bẹ̀ rẹ̀ pẹ̀ lú agbègbè kan pàtó ma ń ṣèrànwọ́ láti ní ìpìnlẹ̀ tó da.** Bitkoini Etí Òkun rí
+ànfàní nínú fífi arasin iye ènìyàn tí wọ́ n tó ẹgbẹ̀ rún mẹ́ ta tí wọ́ n wà lọ́ tọ̀ sí àwọn abúlé
+míràn. Ibi díè tí a kanjú mọ ló jẹ́ ka mú bẹ́ẹ̀ni fi ẹ̀kọ́ kọ́ra lẹ́sẹ̀kẹsẹ̀ ló mú wa gbáradì fún
+ìdàgbàsókè tí ó yára.
+2. **Ìdàgbàsókè ma ń ṣẹlẹ̀ “díẹ̀díẹ̀, lẹ́yìn náà lẹ́ẹ̀ka náà.”** Tí o bá fẹ́ mú agbègbè kan sínú
+bitkọini retí láti ná akitiyan àti àkókò lórí múmú èyàn àádọ́ ta àkọ́ kọ́ wọlé ju ti ẹgbẹ̀ rún tó
+ń bọ̀ lọ. Nítorí pé ìtàkùn ni bitkọini jẹ́, òfin gbogboògbò ti ipa ìtàkùn yí ó wáyé. Ìròyìn ayọ̀
+ni wípé, àwọn olùgbéjáde bitkọini, àwọn olùkọ́ ni àti àwọn ilé-iṣẹ́ káàkiri àgbáyé wọ́ n ṣe
+àwọn irinṣé láti ran èyíkéyí agbègbè lọ́wọ́ àti bẹ̀rè.
 
-Many people first heard about Bitcoin Beach in 2021, but the project has been years in the making. The Bitcoin Beach team who have dedicated thousands of hours teaching the basics, answering questions and troubleshooting issues are the linchpin of this entire project. Without them, Bitcoin Beach would not be the success story you read about today.
+Ọ̀pọ̀ ènìyàn kọ́ kọ́ gbọ́ nípa Bitkoini Etí Òkun ní ọdùn 2021, ṣùgbọ́n ó tó ọdún díẹ̀ sẹ́yìn tí wọ́n ti
+ń bá ètò náà bọ̀. Ẹgbẹ́ Bitkoini Etí Òkun tí wọ́ n tí ya ẹgbẹ̀rún wákàtí sọ́tọ̀ nkọ́ àwọn ìpìnlẹ̀, dí
+dáhùn àwọn ìbéèrè, yí yanjú àwọn ìṣòro ni pàtàkì gbogbo iṣé àgbéṣe yí. Láìsí wọn, Bitkoini Etí
+Òkun kò ní jẹ́ ìtàn àṣeyọrí tí ò ń kà lóní.
 
-### Considerations for Starting a Bitcoin Bank
+### Àwọn Èrò Fún Àti Bẹ̀ rẹ̀ Ilé Ìfowópamọ́ Bitkọini
 
-Build a strong foundation with the right team, technology and training.
+Ṣètò ìpìnlẹ̀ tó dára pẹ̀lú ẹgbẹ́ tó yẹ, ìmọ̀ ẹ̀rọ àti ìdánilẹ́kọ́.
 
 ![](./team-meeting-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>“We are a big family with a big dream.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
+  <figcaption>“Ẹbí tó tóbi tó ní èròngbà ńlá ni wá.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
 </figure>
 </center>
 
 
-1. **Assemble your team.** Identify people who have the spirit, grit and passion to lead your community through the system change that Bitcoin represents. There are two primary angles to consider from the start:
-    - **Community engagement:** To understand what this level of community organizing looks like, simply follow and learn from [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), and [Mike](https://twitter.com/Bitcoinbeach).
-    - **Technology:** There are many factors to consider when choosing the technology solutions on which to build your Bitcoin Bank. Having access to somebody who can guide you through decisions around the spectrum of Bitcoin custody, Lightning node and liquidity management, hot and cold wallet usage and other factors will help you lay a strong foundation for growth.
-2. **Find a source of funding.** Securing access to funding is an important step for onboarding a new community to Bitcoin, especially in poorer countries where residents do not have savings or disposable income. Having funds available to pay for materials and services will help to stand up operations, and distributing sats within the community at the outset will be required to stimulate circularity in the economy.
-3. **Find a technological solution.** The tools for providing financial services on top of Bitcoin are still emerging. Galoy [open source Bitcoin banking infrastructure](https://galoy.io/products/) is one solution that aims to make it easy for communities and institutions to offer financial services on Bitcoin and Lightning.
-4. **Define your custody model and plan for a multi-signature (multisig) setup.** Custody is a foundational topic that deserves attention to detail and understanding of your audience. For communities of experienced Bitcoiners, enabling self-custody is a must. When you’re onboarding an unbanked population, you may decide that a community custody model like the one designed for Bitcoin Beach is the appropriate starting point. Either way, be sure to plan to hold reserve funds within a multisig setup.
-5. **Develop a plan for community training and support.** The Bitcoin community is incredibly generous with educational materials and other resources, so look and ask around first. There may be no place better than “Bitcoin Twitter” to be connected with the videos, articles and assets you need to begin onboarding your community. Keep in mind that the usage of Twitter may be very low in the communities for which you are building.
-6. **Hit the streets!** Onboarding happens one person at a time, by getting out into the community and giving people the opportunity to receive and send their first sats.
+1. **Kó ẹgbẹ́ ẹ jọ.** Mọ àwọn èyàn tí ó ní ẹ̀mí, ìgboyà àti ìfẹ́ àti mú agbègbè ẹ mọ ìyípadà ètò
+tí bitkọini dúró fún. Igun pàtàkì méjì lówà tí o gbọ́dò rò láti ìbẹ̀rẹ̀:
+    - **Dídásí Ní Agbègbè:** Kí o tó lè ní òye ǹkan tí ìpele ìṣètò agbègbè yí jọ, rọra teḷ̀é [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), àti [Mike](https://twitter.com/Bitcoinbeach) kí o ṣì kọ̣́ ẹ̀kọ̣́ lọ̣́wọ́́ wọn.
+    - **Ìmọ̀ Ẹ̀rọ:** Àìmọye okùnfà tí a ma wò tí èyàn bá fẹ́ mú ọ̀nà àbáyọ ti ìmò ẹ̀rọ lórí èyí
+tí a ma kọ́ ilé ìfowopamọ́ bitkọini lé lórí. Níní àyè sí èyàn kan tó lè ṣe atọ́ nà fún
+ìyíka abala ti àrọ́ wọ́ tó Bitkọini ti ara ẹni nìkan, ìkoríta àyè tó n mú ìdúnádúrà yára
+àti ìṣàkóso ìrówóná, lílo àpò tó ń lo ayélujára àti èyí tí kò lo àti àwọn okùnfà míràn
+tí ó ma ràn ẹ́ lọ́ wọ́ láti ṣe ìpìnlẹ̀ tó da fún ìdàgbàsókè.
+2. **Ṣe àwárí orísun fún ìgbówósílẹ̀.** Níní àyè láti rí owó jẹ́ ìgbésẹ̀ tó ṣe kókó fún gbígba
+agbègbè titun wọlé láti ma lo bitkọini, pàápà ní àwọn orílẹ̀ èdè tó tálákà tí àwọn olùgbé
+inú ẹ̀ kò rí owó fipamọ́ tàbí àjẹṣẹ́ kù. Níní owó lọ́ wọ́ láti lé sanwó ọjà àti iṣẹ́ ma mú iṣẹ́ ṣíṣe
+yára àti pínpín sats nínú àwùjọ láti ìbẹ̀rẹ̀ pẹ̀pẹ̀ yí ó nílò láti ṣe àgbéga ìyípo ètò ọrọ̀ ajé.
+3. **Ṣe àwárí ọ̀ nà àbáyọ ti ìmọ ẹ̀ rọ.** [Ìlànà ètò lílo ẹ̀ rọ amáyédẹrùn bitkọini to wà ní àrọ́ wọ́ tọ́
+gbogbo ènìyàn](https://galoy.io/products/) ti Galoy jẹ́ ọ̀ nà àbáyọ kan tí ó ní èrò láti jẹ́ kí ǹkan kí ó rọrùn fún àwọn
+agbègbè àti àwọn ìgbékalẹ̀ lè fúnni ni iṣẹ́ t'ìnáwó lóri bitkọini àti àyè tó n mú ìdúnádúrà
+yára.
+4. **Mọ àwòṣe àrọ́wọ́tó ẹ kí o sì ṣètò fún àyè ìbiwọ́lù púpọ̀.** Ọ̀ rọ̀ àrọ́wọ́tó jẹ́ àkọ́lé ìpìlẹ̀ tí ó
+gba ìfojúsí àwọn ohun tó ṣe kókó àti òye àwọn tí ètò wà fún. Ní agbègbè àwọn tó ti mọ
+bitkọini tẹ́lẹ̀, ká gba àrọ́wọ́tó ti ara ẹni nìkan jẹ́ dandan. Tí a bá fẹ́ mú àwọn tí ò tíì lò ó
+tẹ́ lẹ̀ wọlé, o lè pinnu pé àwòṣe àrọ́ wọ́ tó agbègbè bí èyí tí a ṣètò fún Bitkoini Etí Òkun jẹ́
+àyè ìbẹ̀rẹ̀ tí ó yẹ.
+5. **Ṣe àgbékalẹ̀ ètò fún ìkẹ́kọ́ agbègbè àti àtìlẹ́yìn.** Agbègbè bitkọini jẹ́ èyí tí ó ṣetán àti
+pín àwọn ohun èlò ẹ̀ kọ́ àti àwọn ǹkan míràn tí èyàn nílò, nítorínà kọ́ kọ́ wò ó kí o tún bèrè
+ní àyíká. A lè má rí ibòmí tí ó dára ju “Bitkọini Twitter” tí a lè sopọ̀ mọ́ fídíò náà, àwọn
+àkọsílẹ̀ àti àwọn dúkìá tí o nílò láti lè gba agbègbè wọlé. Fi sọ́ kàn pé lílo Twitter lè lọlẹ̀
+ju ̣̀ní agbègbè tí ò tí n ṣètò.
+6. **Bọ́ sí ìgboro!** Ị̀̀gbaniwọlé ma ń ṣẹlẹ̀ pẹ̀lú èyàn kàn kan, nípa jíjáde wọ inú agbègbè láti
+fún àwọn èyàn ní ànfàní àti gba bẹ́ẹ̀ni àti fi sats àkọ́kọ́ wọn ránṣẹ́.
 
 ![](./jorge-bitcoin-beach-el-zonte-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Follow <a href="https://twitter.com/jorgebitcoinES">Jorge</a> (pictured), <a href="https://mobile.twitter.com/romanmartinezc">Chimbera</a> and Mike Peterson (<a href="https://twitter.com/Bitcoinbeach">@bitcoinbeach</a>) to stay connected to El Zonte’s journey.</figcaption>
+  <figcaption>Má a bá <a href="https://twitter.com/jorgebitcoinES">Jorge</a> (tó wà nínú àwòrán yi), <a href="https://mobile.twitter.com/romanmartinezc">Chimbera</a> àti Mike Peterson (<a href="https://twitter.com/Bitcoinbeach">@bitcoinbeach</a>) lọ láti mọ bí ìrìn àjò El Zonte ṣe ń lọ.</figcaption>
 </figure>
 </center>
 
-## Conclusion
+## Ìparí
 
-It is inspiring to see communities and institutions around the world working alongside each other to bring Bitcoin to the first Billion people. We hope that this guide helps accelerate learning and encourage good discussion.
+Ó jẹ́ ìmóríyá láti rí àwọn agbègbè àti àwọn ìgbékalẹ̀ káàkiri gbogbo àgbáyé tí wọ́ n bá ara wọn ṣe
+ láti mú bitkọini lọ fún àwọn èyàn bílíọ́ nù àkọ́ kọ́ . A ní èrò wípé ìtọ́ sọ́ nà yí ma ṣe ìrànlọ́ wọ́ láti mú
+ ìkẹ́kọ́ yára àti kí ó jẹ́ ìmóríyá fún ìjíròrò tí o’ dára.
 
-Galoy is also organizing [Adopting Bitcoin: A Lightning Summit in El Salvador](https://adoptingbitcoin.org/) on November 16-18 as an additional way to support Bitcoin adoption and celebrate the success of the Bitcoin Beach team. We are humbled to be in the company of people like Jorge, Chimbera, Mike and countless others who brought the vision of a circular Bitcoin economy to life.
+Galoy náà fẹ́ ṣe ètò [Gbígba Bitkọini: Ìpàdé Fún Ìyára Ìdúnádúrà Ni El Salvador](https://adoptingbitcoin.org/) ní oṣùn kọkànlá
+ọjọ́ kẹrìndínlógún sí ìkejìdínlógún gẹ́gẹ́ bí ọ̀nà àfikún àtìlẹ́yìn fún gbígba bitkọini wọlé àti gbígbé
+oríyìn fún àṣeyọrí ẹgbẹ́ Bitkoini Etí Òkun. Inú wa dùn láti wà ní àwùjọ àwọn èyàn bí Jorge,
+Chimbera, Mike àti àìníye àwọn míràn tí ó mú ìran ìyípo ọrọ̀ ajé bitkọini ṣiṣẹ́.
 
-If you’d like to see and use our code, it’s free and open source on [GitHub](https://github.com/GaloyMoney/).
+Tí o bá fẹ́ mọ̀ àti tí o bá lo kóódù wa, ọ̀fẹ́ ni, ó dẹ wà ní àrọ́wọ́tọ́ gbogbo ènìyàn ní orí [GitHub](https://github.com/GaloyMoney/).
 
-You can also reach out on twitter [@galoymoney](https://twitter.com/GaloyMoney) and our [public Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).
+O tún lè kàn sí wa ní orí twitter ní [@galoymoney](https://twitter.com/GaloyMoney) àti [Slack gbangba](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA) wa.

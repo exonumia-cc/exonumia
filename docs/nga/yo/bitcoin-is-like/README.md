@@ -1,39 +1,95 @@
-# Bitcoin Is Like
+# Bitkoini Dà bí
 
-by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
+Láti ọwọ́ Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
 
 <LanguageDropdown/>
 
-**Bitcoin is like physical cash:** it is not reversible and you are responsible for handling it. If you lose your wallet, you lose your money. You can give bitcoins to someone to hold them for you, but it will be like with any bank: you have to trust them that they won’t run away with your money.
+**Bitkoini dàbí owó:** kò ṣé yípadà bẹ́ ẹ̀ ni ìkápá rẹ lówà lati tọ́ jú. To bá sọ àpò owò ẹ nù, o ti sọ
+ owò ẹ nù pẹ̀lú. O lè mú bitkoini fuń èyàn kó bá ẹ mu dání, á dàbi pé èyàn fi sí ilé-ìfowópamọ́: o
+ ní láti ní ìdánilójú pé wọ́ n ò ní gbé owó ẹ sálọ.
 
-**Bitcoin is unlike physical cash:** you can store as much as you want and it will not take any space. You can send it over the wire to anyone. It is impossible to counterfeit. You can’t give it in one second: to actually guarantee that transaction has happened, you have to wait 10-15 minutes for the cryptographic proof to be produced by the network.
+**Bitkoini kò tún dàbí owó:** oye tóbá wù ẹ́ lo lè fi pamọ́ bẹ́ẹ̀ni kò ní gba àyè kankan. O lè fi ránṣẹ́
+ní orí ìlà sí ẹnikẹ́ni. Kò lè ṣeé ṣe láti ṣe ayédèrú ẹ̀. O kò lè fún ni ní ìṣẹ́jú àáyá kan: láti ri dájú pé
+ìdúǹádúrà ṣẹlè, o ni láti dúró ìṣẹ́jú méwá sí mẹ́ẹ̀dógún fún ètò náà láti fún ẹ ní ẹ̀rí.
 
-**Bitcoin is like gold:** it cannot be produced at will, there is a limited amount of it and this amount is scattered in spacetime continuum (mostly time). To get some bitcoins someone should give them to you, or you should *mine* them. Like gold, Bitcoin is shiny: it attracts people with its beautiful engineering, built-in contract programming language, wise incentives, and libertarian promise of freedom from coercion.
+**Bitkoini dàbí wúrà:** kò kín ṣe ǹkan tí èyàn kàn lè tẹ̀ jáde bí ó ṣe wùyàn, dí ẹ̀ ni oye ẹ̀ tó wà àti pé
+oye yí fọ́ nká kákìkiri. Làti ní bitkoini èyàn kan gbọ́ dọ̀ fún ẹ, tàbí kí o wàá. Bí wúrà, bitkoini náà ma
+ń dán: Ó n fa àwọn èyàn mọ́ ra pẹ̀ lú ẹwá ẹ̀ rọ ẹ̀ , óní èdè ètò àdéhùn nínú, àti ìlérí òmìnira l'áìlo ipá
+fi yínilọ́ kàn padà.
 
-**Bitcoin is unlike gold:** supply of Bitcoin is completely fixed via scheduled mining (only so much bitcoins are created per hour). You have a guarantee that no one will suddenly find a mountain of bitgold or mine it on asteroids. Unlike gold, Bitcoin difficulty is adjusted to the mining efforts to keep the schedule fixed. You may dig up all the gold in one day, but it will never be possible with Bitcoin no matter how fast computers will ever become. Growing mining efforts can only bend schedule slightly (network adjusts difficulty to producing 6 blocks per hour, but if network constantly grows it may produce 7-8 blocks per hour).
+**Bitkoini kò tún dàbí wúrà:** nípasẹ̀ wíwa ìṣura tí ó létò ni ọ̀ nà kan tí ó wà láti rí bitkoini (tí o jẹ́ pé
+ọ̀ pọ̀ lọpọ̀ bitkoini ní á lè rọ ní wákàtí kan). Ìdánilójú wà pé ẹnìkan kò lè ṣà dédé rí òkitì tàbí kí ó lọ
+wàá ní ìsọ̀ gbè-oòrùn. A ní láti tún ìṣòro bitkoini tò kí ó lè dọ́ gba sí akitiyan wíwà ẹ̀ láti mú ètò
+náà má yẹ̀, tí ò rí bẹ̀ ní ọ̀rọ̀ wúrà. O lè fi ọjọ́ kan wa wúra, ṣùgbọ́n kò lè ṣéṣe pèlú bitkoini bí ó ti
+wù kí àwọn ẹ̀rọ kòmpútà yára tó. Ètò akitiyan wíwa ìṣura kàn lè yẹ̀ dí ẹ̀ ni (ìtàkùn ètò yí ma tún
+ìṣòro títẹ búlọ́kù mẹ́fà tò ní àárín wákàtí kan, ṣùgbọ́n tí ìtàkùn ètò yí bá gbòrò dada ó lè tẹ
+búlọ́ kù méje sí mẹ́ jọ ní àárín wákàtí kan).
 
-**Bitcoin is like a bank:** there are computers, databases and transactions. Databases store the entire history of all incoming and outgoing payments: who send how much to whom. Everything is digital. There are no vaults with gold or personal deposit boxes, only bookkeeping in a single “ledger”.
+**Bitkoini dàbí ilè-ìfowópamọ́:** A ní ẹ̀rọ kòmpútà, àpamọ́ àkọsílẹ̀ àti ìdúnàdúrà. Àpamọ́ àkọsílẹ̀ yí
+ló n tọ́ jú gbogbo oye tá ti sọn wọlé àti sọn síta: èló ni tani fi ránṣẹ́ si tani. Orí ẹ̀ rọ ni gbogbo ẹ̀ ti
+ń ṣẹlẹ̀. Kò sí yàrá ìpamọ́ tó kún fún wúrà tàbí àpótí ìfowópamọ́ àdáni, àfi ìpamọ ‘àkọsílẹ̀ t'ìnáwó'
+kan ṣoṣo.
 
-**Bitcoin is unlike a bank:** everyone can verify that their database contains the same ledger data as everyone else’s. There is no manager in charge of updating the ledger and making sure it is not tampered with. Any person may have as many accounts as they like and all accounts are anonymous (unless one reveals his identity himself). Ledger does not store names, only balances and account numbers. There is no possibility of a “fractional reserve” when bank loans out more money than it actually has. In fact, there are no debts on bitcoin ledger: either you have money on your address and it is fully yours, or you don’t and you can’t use it at all. Also, Bitcoin allows to lock money with “contracts”: cryptographic puzzles designed to spread the decision making between several people or across time.
+**Bitkoini kò tún dàbí ilè-ìfowópamọ́ :** gbogbo ènìyàn lè mọ̀ dájú pé ǹkan tó wà nínú àpamọ́
+àkọsílẹ̀ wọn náà ló wà nínú àkọsílẹ̀ t’ìnáwó bí ti gbogbo èyàn tó kù. Kò sí alákòóso tí ó ṣe
+ìmúdójúìwọ̀n àti ìdánilóju pé ẹnikẹ́ni ò ti ọwọ́ bọ àkọsílẹ̀ t’ìnáwó. Ẹnikẹ́ni lè ṣí oye àpò
+ìfowópamọ́ tí ó bá fẹ́ bẹ́ẹ̀ni gbogbo àpò ìfowópamọ́ yí ni ó jẹ́ aláìlórúkọ (àfi tí èyàn bá fẹ́ fi ara ẹ̀
+hùn). Àkọsílẹ̀ t’ìnáwó yí kò kí n gba orúkọ sílẹ̀ àfi oye tí o ní àti nọ́ mbà ìfowópamọ́ . Kò sí àyè fún
+'à ń fi ìdá mélòó kan sílẹ̀ fún ìṣura ilé-ìfowópamọ́ ’ tí wọ́ n fi ń yá àwọn èyàn lówó ju oye ti ilé-
+ìfowópamọ́ ní lọ. Ní pàtó, kò sí gbèsè nínú àkọsílẹ̀ t’ìnáwó ti bitkoini: bóyá o ní owó ní àdírẹ́sì ẹ,
+tí owó náà jẹ́ tì ẹ tàbí ìwọ ò ní, tí o dẹ̀ ri lò rrárá Ní àfikún, bitkoini fi àyè sílẹ̀ láti ti owó pa pẹ̀lú
+'àwọn ìwé àdéhùn’: àwọn ohun ìrújú tí a ṣe láti ma tan ìpinu ṣíṣe ká l'àárín àwọn ènìyàn tàbí ní
+àkókò kan pàtó.
 
-**Bitcoin is like Monopoly money:** coins are abstract tokens that are not claims to any value. People value them because they choose to play the game. In fact, the same is true for gold or any other money.
+**Bitkoini dàbí eré ìdárayá Mònópólì:** owó ẹyọ ò kín ṣe owó gangan tí kò n'íye lórí. Àwọn èyàn
+ d'íye le nítorí wọ́n yan eré ìdárayá náà láàyò. Ní pàtó, bẹ́ ẹ̀ náà ló rí pẹ̀lú wúrà tàbí irúfẹ́ owó
+ míràn.
 
-**Bitcoin is unlike Monopoly money:** there is a limited supply of tokens and no one can counterfeit them. This makes them a good candidate for a universally recognized collectible like gold or silver coins.
+**Bitkoini kò tún dàbí eré ìdárayá Mònópólì:** oye dí ẹ̀ ni àmì ayò tí ó wà bẹ́ẹ̀ni kò sí ẹni tí ó lè ṣe
+ ayédèrú wọn. Èyí ló mú wọn wà ní ipò ìṣura tí gbogbo èyàn dámọ̀ bí wúrà tàbí owó fàdákà.
 
-**Bitcoin is like Git:** in Git (a distributed version control system) all your changes are organized in a chain protected by cryptographic hashes. If you trust the latest hash, you can get all the previous information (or any part of it) from any source and still verify that it is what you expect. Similarly, in Bitcoin, all transactions are organized in a chain (*the blockchain*) and once validated, no matter where they are stored, you can always trust any piece of blockchain by checking a chain of hashes that link to a hash you already trust. This naturally enables distributed storage and easy integrity checks.
+**Bitkoini dàbí Git:** ní Git (ètò tó ń ṣe ìṣàkóso ẹ̀yà) àwọn àyípadà ẹ ní ètò nínù okùn tí olùyípadà n
+dá àbò bò. Tí o bá gbẹ́kẹ̀le olùyípadà titun, o lè rí gbogbo àwọn àlàyé ti tẹ́lẹ̀ (tàbí dí ẹ̀ lára ẹ̀) láti
+èyíkéyí orísun, kí o sì tún ri dájú wípé ó jẹ́ ohun tí ò ń retí. Bákanáà, ní Bitkoini, gbogbo
+ìdúnàdúrà ni a tò sínú okùn kan (blockchain) àti pé tí a bá ti fọwọ́ si, ibi yì ó wù kí wọ́ n fi pamọ́ sí,
+o lè fi ọkàn tán búlọ́ kúṣenì tí ó wù ẹ́ nípasẹ̀ yí yẹ okùn olùyípadà tí ó sopọ̀ mọ́ olùyípadà tí o ti fi
+ọkàn tán tẹ́lẹ̀ wò. Èyí ló mún ìpamọ́ tí a ti pín ṣiṣẹ́ àti pé o ń mún àyẹ̀wò òtítọ́ rọrún.
 
-**Bitcoin is unlike Git:** in a way that everyone strives to work on a single branch. In Git everyone may have several branches and fork and merge them all day long. In Bitcoin one cannot “merge” forks. The blockchain is a actually a tree of transaction histories, but there is always one biggest branch (which has the value) and some accidental mini-branches (no more than one-two blocks long) that have no value at all. In Git content matters more than branches, in Bitcoin consensus matters more than content.
+**Bitkoini kò tún dàbí Git:** ní ọ̀nà tí gbogbo ènìyàn gbìyànjú láti ṣiṣẹ́ ní ẹ̀ka kan. Ní Git gbogbo
+èyàn lè ní oríṣiríṣi ẹ̀ka àti oríta kí o ṣì pa wọ́n pọ̀. Ní Bitkoini a ò lè pa àwọn oríta yí pọ̀.
+Búlọ́ kúṣenì jẹ́ igi ìtàn àkọsílẹ̀ ti ìdúnàdúrà, ṣùgbọ́ n nígbàgbogbo ẹ̀ ka to tóbi jùlọ ma ń wà (tí ó
+oye lórí) àti àwọn ẹ̀ka kékèké tí ó kàn lè jẹyọ (tí kò ní gùn ju búlọ́kù kan sí méjì) wọ́n ò ní oye lórí
+rárá. Ní Git àkóonu ṣekókó ju àwọn ẹ̀ ka lọ, ní Bitkoini ìṣọ̀ kan ṣekókó ju àkóonu lọ.
 
-**Bitcoin is like Bittorrent:** the network is fully decentralized, there is no single “mint” or “bank”. The blockchain is like a single file on bittorrent: cryptographically authenticated and shared across many computers. Every participant, including miners are acting on equal grounds. If one part of the network becomes disrupted, transactions can flow through other parts. Even if the entire network goes down, information about transactions is still stored on many thousands of independent computers and no one’s money is lost. When people connect with each other again, they can continue sending transactions like nothing happened. Both Bitcoin and Bittorrent can survive a nuclear war because information does not become radioactive and can be safely replicated.
+**Bitkoini dàbí Bittorrent:** ìtàkùn yí ní alákòóso púpọ̀ , kò sí ibi-ìtẹwó tàbí ilé-ìfowópamọ kankan.
+Búlọ́ kúṣenì náà dà bí fáìlì kan ní orí bittorrent: ó ní òhùntẹ̀ bẹ́ ẹ̀ ni ó wà ní orí ọ̀ pọ̀ lọpọ̀ ẹ̀ rọ
+kòmpútà. Ànfàní kan náà ni gbogbo àwọn olùkópa àti àwọn tí ó n wa ìṣura ní. Tí apá kan nínú
+ìtàkùn náà bá ní ìdálọ́ wọ́ dúró, àwọn ìdúnàdúrà lè gba àwọn apá tó kùn lọ, kódà, tí gbogbo
+ìtàkùn bá wálẹ̀, àlàyé nípa gbogbo ìdúnàdúra ṣì wà ní ìpamọ ní orí ọ̀pọ̀lọpọ̀ ẹgbẹ̀rún kọ̀mpútà
+bẹ́ẹ̀ni owó ẹnikẹ́ni ò sọnù. Nígbàtí àwọn èyàn bá tún padà pàdé lórí ìlà, wọ́n ma bẹ̀rẹ̀ ìdúnàdúra
+bi wípé ǹkan kan kò ṣẹlẹ̀. Bitkoini àti Bittorrent lè yè ogun ìparun nítorí àlàyé kò lè di ìtànsàn
+ìmọ́ lẹ̀ àti pé ǹkan tí a lè ṣe nígbàmi ni.
 
-**Bitcoin is unlike Bittorrent:** instead of many independent “files”, there is one file that always grows: the blockchain. Also, the most important participants: miners are actually getting rewarded for their work with real money.
+**Bitkoini kò tún dàbí Bittorrent:** dípò ọ̀ pọ̀ lọpọ̀ fáìlì tí ó dá dúró, fáìlì kan wà tí ó gbòòrò si nígbà
+ gbogbo: ìyẹn ni búlọ́ kúṣenì. Àwọn olùkópa tí ó ṣe pàtàkì jùlọ: ìyẹn àwọn awa-iṣura ni wón gba
+ èrè iṣẹ́ wọn ní owó gidi.
 
-**Bitcoin is like freedom of speech:** every transaction is a short public message that can be pronounced no matter where or how. If some miners hear it, they will add it in the blockchain and that message will be forever in the history. Everyone will see it and no one will be able to erase it.
+**Bitkoini dàbí òmìnira ti ọ̀ rọ̀ :** gbogbo ìdúnàdúra dàbí ìfọ̀ rọ̀ ránṣẹ́ ti gbangban tí wọ́ n lè sọ
+níbikíbi tàbí bí ó ti wù kó rí. Tí àwọn awa-iṣura kan bá gbọ, wọ́ n ma fi sínú búlọ́ kúṣenì bẹ́ èni
+ìfọ̀ rọ̀ ránṣẹ́ náà ma wa láíláí wà nínú ìtàn. Gbogbo ojú ló ma ri bẹ́ èni kò sí ẹni tí ó lè paárẹ́ .
 
-**Bitcoin is unlike freedom of speech:** saying something comes with a cost. Transaction moves coins that you must have to start with. So not every moron is allowed to shout, but only those who had a merit to acquire some coins in the first place. Also, miners may reject transaction if it’s spammy or does not contain enough fees. So no one provides anyone with freedom as “in beer”, but everyone tries to cooperate on a voluntary basis.
+**Bitkoini kò tún dàbí òmìnira ti ọ̀ rọ̀:** tí wọ́ n bá ní àtunbọ̀ tán wà. Ìdúnàdúra ló ma ti àwọn ẹyọ
+owó tí o nílò láti ìbẹ̀ rẹ̀ . Nítoríbẹ̀ kò kín ṣe gbogbo òmùgọ̀ ni a gbà láìyè láti pa ariwo, sùgbọ́ n ka
+ti ẹ̀ tó bẹ̀rẹ̀, àwọn tó ní ànfàní láti ní ẹyọ owó nikan ni. Pẹ̀lú ẹ̀, àwọn awa-iṣura lè kọ ìdúnàdúra tí
+ó bá rújú tàbí oye tóyẹ ká san ò bá tó. Nítoríbẹ̀ kò sí ẹni tí ó fẹ́ fún ẹnikẹ́ni ní òmìnira bí 'otí',
+sùgbọ́ n gbogbo èyàn ní láti gbìyànjú àti fọwọ́ sowọ́ pọ̀ látinúwá.
 
-**Bitcoin is like a social contract:** it is a pure cultural phenomenon. It works as money as long as people treat it as such and have guts to hold it and respect its rules. Technology is needed only insomuch to provide necessary plumbing for that contract.
+**Bitkoini dàbí àdéhùn àjọmọ̀:** ó jẹ́ ǹkan àṣà lásán. Ó n ṣiṣẹ́ bí owó níwàn ìgbà tí àwọn èyàn bá ti
+ mu bẹ́ ẹ̀, tí wọ́n dẹ̀ ní ìgboyà láti mu dání àti tí wọ́n bá lè tèlé òfin ẹ̀. A nílò ìmọ̀-ẹ̀rọ nìkan láti ṣe
+ ìlànà àdéhùn náà.
 
-**Bitcoin is unlike a social contract:** it is not the kind of a contract that they teach at schools. It’s not flexible, and it’s not imposed by some rulers. It’s a virtually immutable set of rules that everyone chooses to apply to themselves, therefore adding to a unanimous consensus.
+**Bitkoini kò tún dàbí àdéhùn àjọmọ̀:** kò kín ṣe irú àdéhùn tí wọ́ n kọ́ ni ní ilé-ẹ̀ kọ́ . Kò kín ṣé túnṣe
+bọ̀ rọ̀ , bẹ́ ẹ̀ ni kò kín ṣe ǹkan tí olórí kan lè fi ipá ṣe. Ka ṣá nípé wọ́ n jẹ́ àwọn òfin aláìlèyídapà tí
+gbogbo èyàn mú láti ma tèlé fún rara wọn. Nítorínà, ó ti di àdéhùn gbogboògbò.
 
-**Bitcoin is like magic internet money:** it simply is.
+**Bitkoini dàbí idán ti owó ayélujára:** bẹ́ ẹ̀ náà lórí.
