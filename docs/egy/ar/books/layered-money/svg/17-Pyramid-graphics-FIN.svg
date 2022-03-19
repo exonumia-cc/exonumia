@@ -220,22 +220,22 @@
        transform="matrix(1,0,0,-1,92.5298,99.1548)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text124"><tspan
-         x="0 9.2917995 17.649799 26.819799 35.177799 43.444801 51.312801 59.4748 63.9128 73.723999 82.082001 89.362 97.720001 105.9856 113.8536"
+         x="18"
          y="0"
          sodipodi:role="line"
-         id="tspan122">Federal Reserve</tspan></text>
+         id="tspan122">الاحتياطي الفدرالي</tspan></text>
 <text
        transform="matrix(1,0,0,-1,143.2773,193.3428)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text130"><tspan
-         x="0 6.0500002 8.7340002 14.41"
+         x="-3"
          y="0"
          sodipodi:role="line"
-         id="tspan126">U.S.</tspan><tspan
-         x="-17.313999 -13.134 -7.2709999 -2.1559999 3.3329999 9.0089998 15.059 20.922001 23.606001 28.721001"
+         id="tspan126">سندات</tspan><tspan
+         x="-22"
          y="15.004"
          sodipodi:role="line"
-         id="tspan128">TREASURIES</tspan></text>
+         id="tspan128">الخزانة الأمريكية</tspan></text>
 <g
        id="g132"><g
          id="g134"
@@ -255,18 +255,18 @@
        transform="matrix(1,0,0,-1,52.335,58.0459)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text154"><tspan
-         x="0 6.4499998 12.3 18.75 24.6 30.85 36.700001 42.549999"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan148">RESERVES</tspan><tspan
+         id="tspan148">الاحتياطيات</tspan><tspan
          x="-1.67 1.58 8.4300003 14.08 19.73 22.379999 28.030001 33.48 39.130001 41.779999 47.43"
          y="12"
          sodipodi:role="line"
          id="tspan150">(wholesale)</tspan><tspan
-         x="83.910004 90.760002 97.610001 102.86 108.71"
+         x="80"
          y="0"
          sodipodi:role="line"
-         id="tspan152">NOTES</tspan></text>
+         id="tspan152">النقد الورقي</tspan></text>
 <g
        id="g156"><g
          id="g158"
@@ -288,10 +288,10 @@
        transform="matrix(1,0,0,-1,208.0418,58.0059)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text174"><tspan
-         x="0 5.1199999 10.29 17.200001 23.040001 30.18 32.82"
+         x="-13.5"
          y="0"
          sodipodi:role="line"
-         id="tspan172">FEDCOIN</tspan></text>
+         id="tspan172">عملة الفدرالي الرقمية</tspan></text>
 <g
        id="g176"><g
          id="g178"

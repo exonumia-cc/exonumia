@@ -183,11 +183,7 @@
          x="0 6.4499998 12.3 19.15 25.6 28.85 35.700001 40.75 44 49.849998 58.299999 64.75 70 75.849998 82.300003 88.949997 94.800003 103.25"
          y="0"
          sodipodi:role="line"
-         id="tspan102">BANK OF AMSTERDAM </tspan><tspan
-         x="28.42 35.27 41.119999 46.970001 53.82 60.27 63.119999 68.370003"
-         y="16"
-         sodipodi:role="line"
-         id="tspan104">DEPOSITS</tspan></text>
+         id="tspan102">شهادات الإيداع من بنك أمستردام</tspan></text>
 <text
        transform="matrix(1,0,0,-1,122.4841,170.6507)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -195,15 +191,15 @@
          x="0 5.8699999 11.74 16.08"
          y="0"
          sodipodi:role="line"
-         id="tspan108">GOLD</tspan><tspan
+         id="tspan108">الذهب</tspan><tspan
          x="33.959999 38.299999 44.02 49.209999 55.080002"
          y="-4.73"
          sodipodi:role="line"
-         id="tspan110">LOANS</tspan><tspan
+         id="tspan110"></tspan><tspan
          x="33.959999 37.959999 43.830002 46.580002 51.230999 57.101002"
          y="7.27"
          sodipodi:role="line"
-         id="tspan112">TO VOC</tspan></text>
+         id="tspan112">قروض لشركة الهند الشرقية الهولندية</tspan></text>
 <g
        id="g116"
        transform="translate(250.8595,79.7892)"><path
@@ -223,7 +219,7 @@
          x="0 9.408 17.275999 25.732 34.636002 39.074001 47.726002 55.509998 59.948002 68.529999 78.834 86.113998 94.108002 102.466 110.978 119.9016 127.7696"
          y="0"
          sodipodi:role="line"
-         id="tspan124">Bank of Amsterdam</tspan></text>
+         id="tspan124">بنك أمستردام</tspan></text>
 <g
        id="g128"><g
          id="g130"
