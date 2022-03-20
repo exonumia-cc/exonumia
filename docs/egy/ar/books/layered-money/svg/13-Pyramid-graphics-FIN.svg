@@ -392,7 +392,7 @@
        transform="matrix(1,0,0,-1,143.501,451.082)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text182"><tspan
-         x="0 6.0500002 8.7340002"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan180">سندات</tspan></text>
@@ -403,7 +403,7 @@
          x="0"
          y="0"
          id="tspan184">.</tspan><tspan
-         x="-27.261 -23.841 -19.044001 -14.859 -10.368 -5.724 -0.77399999 4.0229998 6.2189999 10.404"
+         x="-27.261"
          y="11.997"
          sodipodi:role="line"
          id="tspan186">الخزانة الأمريكية</tspan></text>
@@ -623,7 +623,7 @@
        transform="matrix(1,0,0,-1,92.6387,70.6938)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text384"><tspan
-         x="0 9.1079998 15.906 22.549999 29.117001 35.101002 38.588001 47.695999 53.877998 60.566002 67.561996 74.128998 80.410004 83.897003 90.998596 98.203598 104.8476 112.0526"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan382">Money Market Funds</tspan></text>
@@ -685,11 +685,11 @@
        transform="matrix(1,0,0,-1,110.2666,257.1646)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text438"><tspan
-         x="0 7.0949998 10.45 17.325001 20.68 24.035 31.35 37.345001 40.040001 42.735001 48.73 52.305 55.66 62.535 67.209999 72.985001 76.559998 82.555"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan434">نظام الدولار الأمريكي (الداخلي)</tspan><tspan
-         x="-22.351999 -15.037 -11.682 -8.3269997 -2.552 3.4430001 9.4379997 13.013 19.007999 22.363001 29.458 32.813 39.688 43.042999 46.397999 53.713001 59.708 62.403 65.098 71.093002 74.667999 78.023003 84.898003 89.572998 95.348 98.922997 104.918"
+         x="-22.351999"
          y="246.323"
          sodipodi:role="line"
          id="tspan436">Offshore U.S. Dollar System</tspan></text>
