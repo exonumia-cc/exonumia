@@ -259,7 +259,7 @@
          y="0"
          sodipodi:role="line"
          id="tspan148">الاحتياطيات</tspan><tspan
-         x="-1.67 1.58 8.4300003 14.08 19.73 22.379999 28.030001 33.48 39.130001 41.779999 47.43"
+         x="-1.67"
          y="12"
          sodipodi:role="line"
          id="tspan150">(wholesale)</tspan><tspan
@@ -280,7 +280,7 @@
        transform="matrix(1,0,0,-1,136.8618,46.0459)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text170"><tspan
-         x="0 3.25 6.6999998 12.35 15.8 21.450001 24.1 26.75"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan168">(retail)</tspan></text>
@@ -305,7 +305,7 @@
        transform="matrix(1,0,0,-1,212.8628,46.0107)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text190"><tspan
-         x="0 3.25 6.6999998 12.35 15.8 21.450001 24.1 26.75"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan188">(retail)</tspan></text>

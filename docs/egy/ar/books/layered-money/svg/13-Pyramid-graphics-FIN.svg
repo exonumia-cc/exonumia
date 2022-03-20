@@ -297,15 +297,15 @@
        transform="matrix(1,0,0,-1,136.1323,355.8359)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text126"><tspan
-         x="0 3.04 7.3039999 11.024 15.016 19.143999 23.544001 27.808001"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan120">TREASURY</tspan><tspan
-         x="0.83999997 5.1040001 8.8240004 12.816 17.351999 19.392 22.024 27.648001"
+         x="0.83999997"
          y="9.6000004"
          sodipodi:role="line"
          id="tspan122">REPO (W)</tspan><tspan
-         x="54.495998 64.575996 70.496002 76.416"
+         x="54.495998"
          y="-0.296"
          sodipodi:role="line"
          id="tspan124"> MMF</tspan></text>
@@ -319,7 +319,7 @@
        transform="matrix(1,0,0,-1,190.6309,346.5298)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text134"><tspan
-         x="0 4.2880001 8.8479996 13 17.424 21.304001 25.591999 27.792 30.584 35.007999"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan132">SHARES (R)</tspan></text>

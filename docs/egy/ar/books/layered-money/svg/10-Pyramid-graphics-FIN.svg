@@ -166,7 +166,7 @@
        transform="matrix(1,0,0,-1,129.4019,50.3848)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text94"><tspan
-         x="0 6.8499999 12.7 18.549999 25.4 31.85 34.700001 39.950001"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan92">الودائع</tspan></text>
@@ -180,7 +180,7 @@
        transform="matrix(1,0,0,-1,139.0894,37.585)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text102"><tspan
-         x="0 2.925 6.0300002 11.115 14.22 19.305 21.690001 24.075001"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan100">(مفرق)</tspan></text>
@@ -288,7 +288,7 @@
        transform="matrix(1,0,0,-1,90.9688,84.4019)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text164"><tspan
-         x="0 7.5855999 14.2736 18.288601 23.871099 29.8606 36.141602 42.708599 46.195599 52.938599 59.5056 65.632599 71.913597 78.711601 85.399597 88.886597 96.278603 102.4606 109.1046 116.1006"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan162">بنوك القطاع الخاص</tspan></text>
@@ -296,11 +296,11 @@
        transform="matrix(1,0,0,-1,207.7129,186.3604)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:7px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text170"><tspan
-         x="0 3.99 8.099 9.9469995 12.747 16.142 20.250999 22.176001 25.927999 28.552999 32.011002 34.811001 38.206001"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan166">وزارة الخزانة الامريكية</tspan><tspan
-         x="0 2.8 6.671 10.066 13.699 17.451 21.441 25.312 27.16 30.555"
+         x="0"
          y="8.3999996"
          sodipodi:role="line"
          id="tspan168"></tspan></text>

@@ -174,7 +174,7 @@
        transform="matrix(1,0,0,-1,116.3818,104.9468)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text102"><tspan
-         x="0 9.9359999 17.1 24.959999 29.34 36.023998 40.403999 44.208 52.271999 59.015999 66.264 73.896004 78.276001 85.524002"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan98">أسرة ميديتشي المصرفية</tspan></text>
@@ -182,7 +182,7 @@
        transform="matrix(1,0,0,-1,110.2769,51.1079)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text106"><tspan
-         x="0 7.0949998 10.23 16.004999 21.780001 28.875 32.450001 39.985001 45.540001 49.115002 55.549999 61.764999 68.860001 76.394997 82.830002 90.364998 97.900002"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan104">أوراق المتاجرة</tspan></text>
@@ -190,7 +190,7 @@
        transform="matrix(1,0,0,-1,149.9917,195.4663)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Med';-inkscape-font-specification:ITCFranklinGothicStd-Med;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text114"><tspan
-         x="-18.709999 -12.75 -9.8299999 -5.3499999 0.30000001 5.9200001 12.6 15.75 21.790001 28.469999 31.389999 38.139999"
+         x="-18.709999"
          y="24"
          sodipodi:role="line"
          id="tspan112">الذهب والفضّة</tspan></text>

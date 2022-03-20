@@ -722,7 +722,7 @@
          y="0"
          sodipodi:role="line"
          id="tspan92">ذهب</tspan><tspan
-         x="34.669998 40.619999 46.23"
+         x="34.669998"
          y="0.87"
          sodipodi:role="line"
          id="tspan94">UST</tspan></text>
@@ -772,7 +772,7 @@
          y="0"
          sodipodi:role="line"
          id="tspan122">وسندات الخزانة الأمريكية</tspan><tspan
-         x="0 2.8 6.671 10.066 13.699 17.451 21.441 25.312 27.16 30.555"
+         x="0"
          y="8.3999996"
          sodipodi:role="line"
          id="tspan124"></tspan></text>
@@ -829,7 +829,7 @@
          y="0"
          sodipodi:role="line"
          id="tspan162">الجنيه الإسترليني</tspan><tspan
-         x="27.129999 30.379999 37.23 43.68 49.529999"
+         x="27.129999"
          y="13"
          sodipodi:role="line"
          id="tspan164">(GBP)</tspan><tspan
@@ -837,7 +837,7 @@
          y="0"
          sodipodi:role="line"
          id="tspan166">فرنك سويسري</tspan><tspan
-         x="138.84 142.09 148.53999 155.39 160.44"
+         x="138.84"
          y="13"
          sodipodi:role="line"
          id="tspan168">(CHF)</tspan></text>

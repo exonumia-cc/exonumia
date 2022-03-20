@@ -187,7 +187,7 @@
        transform="matrix(1,0,0,-1,155.0244,122.0215)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text110"><tspan
-         x="0 4.4000001 7.4400001 11.704"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan108">ودائع</tspan></text>
@@ -216,7 +216,7 @@
        transform="matrix(1,0,0,-1,202.0131,104.667)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text136"><tspan
-         x="0 2.632 6.8959999"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan134">(R)</tspan></text>
@@ -322,7 +322,7 @@
        transform="matrix(1,0,0,-1,145.707,181.187)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text202"><tspan
-         x="0 3.3399999 8.7200003"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan200">(R)</tspan></text>

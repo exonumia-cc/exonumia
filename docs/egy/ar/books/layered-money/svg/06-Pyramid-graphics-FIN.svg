@@ -180,7 +180,7 @@
        transform="matrix(1,0,0,-1,99.1841,53.2207)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text106"><tspan
-         x="0 6.4499998 12.3 19.15 25.6 28.85 35.700001 40.75 44 49.849998 58.299999 64.75 70 75.849998 82.300003 88.949997 94.800003 103.25"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan102">شهادات الإيداع من بنك أمستردام</tspan></text>
@@ -188,15 +188,15 @@
        transform="matrix(1,0,0,-1,122.4841,170.6507)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text114"><tspan
-         x="0 5.8699999 11.74 16.08"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan108">الذهب</tspan><tspan
-         x="33.959999 38.299999 44.02 49.209999 55.080002"
+         x="33.959999"
          y="-4.73"
          sodipodi:role="line"
          id="tspan110"></tspan><tspan
-         x="33.959999 37.959999 43.830002 46.580002 51.230999 57.101002"
+         x="33.959999"
          y="7.27"
          sodipodi:role="line"
          id="tspan112">قروض لشركة الهند الشرقية الهولندية</tspan></text>
@@ -216,7 +216,7 @@
        transform="matrix(1,0,0,-1,81.8281,93.9819)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text126"><tspan
-         x="0 9.408 17.275999 25.732 34.636002 39.074001 47.726002 55.509998 59.948002 68.529999 78.834 86.113998 94.108002 102.466 110.978 119.9016 127.7696"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan124">بنك أمستردام</tspan></text>

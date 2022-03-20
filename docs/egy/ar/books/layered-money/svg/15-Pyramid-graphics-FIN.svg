@@ -761,7 +761,7 @@
        transform="matrix(1,0,0,-1,203.9678,163.1719)"
        style="font-variant:normal;font-weight:600;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Demi;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text556"><tspan
-         x="0 4.8000002 7.1999998 12 16.799999 21.6 24 28.799999 33.599998 38.400002 40.799999 45.599998 50.400002 55.200001 57.599998 62.400002 67.199997"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan554">$ 630,000,000,000</tspan></text>
@@ -769,7 +769,7 @@
        transform="matrix(1,0,0,-1,98.332,194.0601)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text560"><tspan
-         x="0 6.875 12.43 19.305 25.08 32.174999 39.049999 46.365002 49.720001 54.174999 60.169998 63.744999 69.739998 72.434998 75.790001 84.864998 90.860001 94.6539 99.989998 105.985 109.56 112.915 118.58 124.575 127.27 133.265"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan558">إجمالي القيمة السوقية لـ BTC / USD</tspan></text>

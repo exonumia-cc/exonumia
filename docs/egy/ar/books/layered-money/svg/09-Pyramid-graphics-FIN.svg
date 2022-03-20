@@ -103,7 +103,7 @@
        transform="matrix(1,0,0,-1,41.4811,108.3204)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text40"><tspan
-         x="0 6.5250001"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan36">,الذهب</tspan><tspan
@@ -546,11 +546,11 @@
        transform="matrix(1,0,0,-1,205.0908,38.706)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text336"><tspan
-         x="0 6.7410002 11.088 16.226999 21.077999 24.9732 27.610201 30.7152 34.603199"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan332">الودائع</tspan><tspan
-         x="0 5.8860002 8.5229998 11.097 13.671 17.559 19.728001 24.579 27.504 29.673 35.549999 40.095001 44.181 49.418999 53.955002 59.273998 63.863098"
+         x="0"
          y="10.998"
          sodipodi:role="line"
          id="tspan334">اوراق المبادلة</tspan></text>

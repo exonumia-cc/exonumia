@@ -574,7 +574,7 @@
        transform="matrix(1,0,0,-1,137.7227,195.4663)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Med';-inkscape-font-specification:ITCFranklinGothicStd-Med;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text96"><tspan
-         x="-17.139999 -11.18 -8.2600002 -3.78 1.87 7.4899998 14.17 17.32 23.360001 30.040001 32.959999 39.709999"
+         x="-17.139999"
          y="24"
          sodipodi:role="line"
          id="tspan94">مسكوكات الذهب والفضّة</tspan></text>
@@ -582,11 +582,11 @@
        transform="matrix(1,0,0,-1,71.8984,57.8628)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text104"><tspan
-         x="-4.8400002 1.595 7.8099999 14.905 22.440001 28.875 36.41 43.945"
+         x="-4.8400002"
          y="16.004999"
          sodipodi:role="line"
          id="tspan100">أوراق المتاجرة</tspan><tspan
-         x="121.165 128.7 136.235 142.00999 148.44501"
+         x="121.165"
          y="7.546"
          sodipodi:role="line"
          id="tspan102">السندات</tspan></text>
@@ -624,7 +624,7 @@
        transform="matrix(1,0,0,-1,89.9873,97.5825)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text128"><tspan
-         x="0 8.5819998 17.038 25.032 36.470001 44.827999 53.34 61.473999 65.912003 74.690002 82.557999 91.014 99.917999 108.276 116.788"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan126">مصرفيّو أنتويرب</tspan></text>
