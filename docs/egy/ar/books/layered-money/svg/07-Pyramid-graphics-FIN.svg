@@ -190,35 +190,35 @@
          x="0 6.4499998 12.9 15.75 21 23.85 30.299999"
          y="0"
          sodipodi:role="line"
-         id="tspan90">BRITISH</tspan><tspan
+         id="tspan90">الجنيهات</tspan><tspan
          x="-1.1799999 4.6700001 11.52 18.17 25.02 31.870001"
          y="14"
          sodipodi:role="line"
-         id="tspan92">POUNDS</tspan><tspan
+         id="tspan92"> الإسترلينية</tspan><tspan
          x="61.18 67.830002 71.080002 77.529999"
          y="0.1"
          sodipodi:role="line"
-         id="tspan94">U.S.</tspan><tspan
+         id="tspan94">دولار</tspan><tspan
          x="49.509998 56.360001 63.209999 68.459999 73.709999 79.559998 86.010002"
          y="14.1"
          sodipodi:role="line"
-         id="tspan96">DOLLARS</tspan><tspan
+         id="tspan96"> أمريكي</tspan><tspan
          x="104.64 109.69 116.14 121.99 128.84 135.28999"
          y="0.1"
          sodipodi:role="line"
-         id="tspan98">FRENCH</tspan><tspan
+         id="tspan98">فرنك</tspan><tspan
          x="104.84 109.89 116.34 122.19 129.03999 135.49001"
          y="14.1"
          sodipodi:role="line"
-         id="tspan100">FRANCS</tspan><tspan
+         id="tspan100">فرنسي</tspan><tspan
          x="163.16 170.00999 175.86 182.31 190.75999 196.61"
          y="0.2"
          sodipodi:role="line"
-         id="tspan102">GERMAN</tspan><tspan
+         id="tspan102">العلامات</tspan><tspan
          x="166.49001 174.94 180.78999 187.24001 193.69"
          y="14.2"
          sodipodi:role="line"
-         id="tspan104">MARKS</tspan></text>
+         id="tspan104">الألمانية</tspan></text>
 <text
        transform="matrix(1,0,0,-1,139.1759,180.5211)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Med';-inkscape-font-specification:ITCFranklinGothicStd-Med;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -226,7 +226,7 @@
          x="0 6.6700001 13.35 18.58"
          y="0"
          sodipodi:role="line"
-         id="tspan108">GOLD</tspan></text>
+         id="tspan108">الذهب</tspan></text>
 <g
        id="g112"
        transform="translate(94.1258,24.2756)"><path
@@ -264,7 +264,7 @@
          x="0 8.7639999 17.122 25.577999 33.571999 41.837601 49.705601 57.867599 62.305599 71.7136 79.581596 88.037598 96.941597"
          y="0"
          sodipodi:role="line"
-         id="tspan132">Central Banks</tspan></text>
+         id="tspan132">المصارف المركزية</tspan></text>
 <path
        d="m 142.094,129.196 h 4.542 v 0.858 h -4.542 z"
        style="fill:#d6d5d5;fill-opacity:1;fill-rule:nonzero;stroke:none"

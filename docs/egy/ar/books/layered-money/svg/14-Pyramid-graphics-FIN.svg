@@ -174,26 +174,26 @@
        transform="matrix(1,0,0,-1,95.4824,94.9224)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text100"><tspan
-         x="0 8.0640001 12.444 19.296 25.98 33.396 37.776001 45.023998 48.827999 56.688 63.386398 70.070396 77.978401 84.722397 91.970398 99.350403 106.5144"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan98">Bitcoin Exchanges</tspan></text>
+         id="tspan98">منصّات متاجرة البتكوين</tspan></text>
 <text
        transform="matrix(1,0,0,-1,120.8984,48.6864)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text104"><tspan
-         x="0 9.1199999 17.040001 24.959999 34.080002 42.720001 47.040001 54.240002"
+         x="15"
          y="0"
          sodipodi:role="line"
-         id="tspan102">DEPOSITS</tspan></text>
+         id="tspan102">الودائع</tspan></text>
 <text
        transform="matrix(1,0,0,-1,139.5874,169.3535)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:13px;font-family:'ITC Franklin Gothic Std Med';-inkscape-font-specification:ITCFranklinGothicStd-Med;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text108"><tspan
-         x="0 9.191 16.77"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan106">BTC</tspan></text>
+         id="tspan106">البتك</tspan></text>
 <g
        id="g110"><g
          id="g112"

@@ -574,33 +574,22 @@
        transform="matrix(1,0,0,-1,137.7227,195.4663)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Med';-inkscape-font-specification:ITCFranklinGothicStd-Med;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text96"><tspan
-         x="0 6.6700001 13.35 18.58 25.379999"
-         y="0"
-         sodipodi:role="line"
-         id="tspan90">GOLD </tspan><tspan
-         x="10.55"
-         y="12"
-         id="tspan92">&amp;</tspan><tspan
          x="-17.139999 -11.18 -8.2600002 -3.78 1.87 7.4899998 14.17 17.32 23.360001 30.040001 32.959999 39.709999"
          y="24"
          sodipodi:role="line"
-         id="tspan94">SILVER COINS</tspan></text>
+         id="tspan94">مسكوكات الذهب والفضّة</tspan></text>
 <text
        transform="matrix(1,0,0,-1,71.8984,57.8628)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text104"><tspan
-         x="0 7.0949998 10.23 16.004999 21.780001 28.875 32.450001 39.985001"
-         y="0"
-         sodipodi:role="line"
-         id="tspan98">BILLS OF</tspan><tspan
          x="-4.8400002 1.595 7.8099999 14.905 22.440001 28.875 36.41 43.945"
          y="16.004999"
          sodipodi:role="line"
-         id="tspan100">EXCHANGE</tspan><tspan
+         id="tspan100">أوراق المتاجرة</tspan><tspan
          x="121.165 128.7 136.235 142.00999 148.44501"
          y="7.546"
          sodipodi:role="line"
-         id="tspan102">NOTES</tspan></text>
+         id="tspan102">السندات</tspan></text>
 <g
        id="g106"
        transform="translate(153.6118,24.2756)"><path
@@ -638,7 +627,7 @@
          x="0 8.5819998 17.038 25.032 36.470001 44.827999 53.34 61.473999 65.912003 74.690002 82.557999 91.014 99.917999 108.276 116.788"
          y="0"
          sodipodi:role="line"
-         id="tspan126">Antwerp bankers</tspan></text>
+         id="tspan126">مصرفيّو أنتويرب</tspan></text>
 <g
        id="g130"><g
          id="g132"

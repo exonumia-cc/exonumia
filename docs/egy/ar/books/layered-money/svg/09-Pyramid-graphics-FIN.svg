@@ -67,50 +67,50 @@
        transform="matrix(1,0,0,-1,39.9434,150.2124)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.48830032px;font-family:'Engravers LH Bold Face';-inkscape-font-specification:EngraversLH-BoldFace;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text20"><tspan
-         x="0 6.1285524 11.314904 16.976601 22.638296 25.235716 30.430555 35.616905 38.214325 43.876022 49.53772 54.724072 59.910423 65.096771 70.758469 76.420166 79.017586 85.146141 90.332489 95.518837 100.70519 106.36689 111.23917 116.42552 119.02294 124.68464 130.34633 135.53268 140.71904"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan18">Bank of England Balance Sheet</tspan></text>
+         id="tspan18">الميزانية العمومية لبنك إنجلترا</tspan></text>
 <text
        transform="matrix(1,0,0,-1,123.0391,134.5464)"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text24"><tspan
-         x="0 5.4359999 8.1090002 13.266 18.252001 20.924999 23.49 26.163 29.285999 31.959 36.207001"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan22">Liabilities</tspan></text>
+         id="tspan22">المسؤوليات</tspan></text>
 <text
        transform="matrix(1,0,0,-1,123.0391,108.5454)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text30"><tspan
-         x="0 5.8860002 10.737 16.614 18.783001 24.101999 28.952999 32.0634 36.4104 40.303799"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan26">BoE notes,</tspan><tspan
-         x="0 5.8860002 10.737 16.614 18.783001 23.948999 28.296 33.435001 38.285999 42.1884 44.825401 47.930401"
+         id="tspan26">ملاحظات بنك إنجلترا</tspan><tspan
+         x="0"
          y="10.998"
          sodipodi:role="line"
-         id="tspan28">BoE deposits</tspan></text>
+         id="tspan28">ودائع بنك إنجلترا</tspan></text>
 <text
        transform="matrix(1,0,0,-1,41.4811,134.3214)"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text34"><tspan
-         x="0 6.039 9.9180002 13.797 18.045 21.167999"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan32">Assets</tspan></text>
+         id="tspan32">الأصول</tspan></text>
 <text
        transform="matrix(1,0,0,-1,41.4811,108.3204)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text40"><tspan
-         x="0 6.5250001 11.376 13.95 19.115999"
+         x="0 6.5250001"
          y="0"
          sodipodi:role="line"
-         id="tspan36">Gold,</tspan><tspan
-         x="0 6.8039999 9.2340002 15.48 17.91 20.079 25.960501 30.811501 36.130501 41.296501"
+         id="tspan36">,الذهب</tspan><tspan
+         x="0"
          y="10.998"
          sodipodi:role="line"
-         id="tspan38">U.K. Bonds</tspan></text>
+         id="tspan38">وسندات الحكومة</tspan></text>
 <g
        id="g42"
        transform="translate(112.6817,145.1725)"><path
@@ -145,10 +145,14 @@
        transform="matrix(1,0,0,-1,42.333,119.8843)"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:Georgia;-inkscape-font-specification:Georgia-BoldItalic;writing-mode:lr-tb;fill:#656263;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text64"><tspan
-         x="0 3.0480001 5.9759998 10.248 14.384 17.719999 19.752001 22.584 27.864 33.216 37.672001 80.599998 84.736 89.192001 93.480003 98.568001 104.088 109.392 111.424 114.256 119.536 124.888 129.34399"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan62">first layersecond layer</tspan></text>
+         id="tspan62">الطبقة الأولى</tspan><tspan
+         x="90"
+         y="0"
+         sodipodi:role="line"
+         id="tspan62">الطبقة الثانية</tspan></text>
 <g
        id="g66"><g
          id="g68"
@@ -526,26 +530,18 @@
        transform="matrix(1,0,0,-1,122.2988,80.6655)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.4314003px;font-family:'Engravers LH Bold Face';-inkscape-font-specification:EngraversLH-BoldFace;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text322"><tspan
-         x="0 6.2907438 12.581488 16.250301 21.471525 27.06246 32.306316 38.068901 40.95491 47.245655 53.00824 58.421864 63.665722 69.437737 75.728485"
+         x="25"
          y="0"
          sodipodi:role="line"
-         id="tspan320">Private Sector </tspan></text>
-<text
-       transform="matrix(1,0,0,-1,200.9141,80.6655)"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.48830032px;font-family:'Engravers LH Bold Face';-inkscape-font-specification:EngraversLH-BoldFace;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text326"><tspan
-         x="0 6.1285524 11.314904 16.501255 21.687607 27.349302 32.221588 37.40794 40.00536 45.667053 51.328751 56.515102 61.701454"
-         y="0"
-         sodipodi:role="line"
-         id="tspan324">Balance Sheet</tspan></text>
+         id="tspan320">الميزانية العمومية للقطاع الخاص</tspan></text>
 <text
        transform="matrix(1,0,0,-1,205.0908,64.707)"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text330"><tspan
-         x="0 5.4359999 8.1090002 13.266 18.252001 20.924999 23.49 26.163 29.285999 31.959 36.207001"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan328">Liabilities</tspan></text>
+         id="tspan328">المسؤوليات</tspan></text>
 <text
        transform="matrix(1,0,0,-1,205.0908,38.706)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -553,31 +549,31 @@
          x="0 6.7410002 11.088 16.226999 21.077999 24.9732 27.610201 30.7152 34.603199"
          y="0"
          sodipodi:role="line"
-         id="tspan332">Deposits,</tspan><tspan
+         id="tspan332">الودائع</tspan><tspan
          x="0 5.8860002 8.5229998 11.097 13.671 17.559 19.728001 24.579 27.504 29.673 35.549999 40.095001 44.181 49.418999 53.955002 59.273998 63.863098"
          y="10.998"
          sodipodi:role="line"
-         id="tspan334">Bills of Exchange</tspan></text>
+         id="tspan334">اوراق المبادلة</tspan></text>
 <text
        transform="matrix(1,0,0,-1,123.6408,64.914)"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text340"><tspan
-         x="0 6.039 9.9180002 13.797 18.045 21.167999"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan338">Assets</tspan></text>
+         id="tspan338">الأصول</tspan></text>
 <text
        transform="matrix(1,0,0,-1,123.6408,38.913)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text346"><tspan
-         x="0 5.8860002 10.737 16.614 18.783001 24.101999 28.952999 32.057999 36.404999 40.292999"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan342">BoE notes,</tspan><tspan
-         x="0 5.8860002 10.737 16.614 18.783001 23.948999 28.3032 33.4422 38.293201 42.181198 44.818199 47.923199"
+         id="tspan342">ودائع بنك إنجلترا</tspan><tspan
+         x="0"
          y="10.998"
          sodipodi:role="line"
-         id="tspan344">BoE deposits</tspan></text>
+         id="tspan344">ملاحظات بنك إنجلترا</tspan></text>
 <g
        id="g348"><g
          id="g350"
@@ -615,8 +611,12 @@
        transform="matrix(1,0,0,-1,205.1514,50.6758)"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:Georgia;-inkscape-font-specification:Georgia-BoldItalic;writing-mode:lr-tb;fill:#656263;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text378"><tspan
-         x="0 3.336 8.7360001 11.664 15.936 21.24 23.271999 26.104 31.384001 36.736 41.192001 -81.183998 -77.047997 -72.592003 -68.304001 -63.216 -57.695999 -52.391998 -50.360001 -47.528 -42.248001 -36.896 -32.439999"
+         x="-80"
          y="0"
          sodipodi:role="line"
-         id="tspan376">third layersecond layer</tspan></text>
+         id="tspan376">الطبقة الثانية</tspan><tspan
+         x="0"
+         y="0"
+         sodipodi:role="line"
+         id="tspan376">الطبقة الثالثة</tspan></text>
 </g></svg>

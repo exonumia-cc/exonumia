@@ -56,7 +56,7 @@
          x="0 7.0019999 13.005 16.506001 21.51 27.009001 33.012001 35.765999 41.769001 46.612801 51.948002 56.952 62.451 67.455002 69.8778 75.385803 81.388802 86.887802 92.386803 97.3908 103.3938 108.8964 114.3954 117.1494 123.6474 129.14639 134.6454 140.14439 146.1474 151.3134 156.81239 159.56641 165.5694 171.5724 177.0714 182.5704"
          y="0"
          sodipodi:role="line"
-         id="tspan12">United States Treasury Balance Sheet</tspan></text>
+         id="tspan12">ورقة ميزانية خزانة الولايات المتحدة</tspan></text>
 <text
        transform="matrix(1,0,0,-1,162.4669,46.0764)"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -64,7 +64,7 @@
          x="0 5.4359999 8.1090002 13.266 18.252001 20.924999 23.49 26.163 29.285999 31.959 36.207001"
          y="0"
          sodipodi:role="line"
-         id="tspan16">Liabilities</tspan></text>
+         id="tspan16">الأصول</tspan></text>
 <text
        transform="matrix(1,0,0,-1,162.4669,27.2754)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -72,7 +72,7 @@
          x="0 6.5250001 11.376 13.95 19.115999 21.285 25.371 29.718 33.408001 36.513 39.150002 42.075001 44.712002 48.798 53.334 56.438999 60.803101"
          y="0"
          sodipodi:role="line"
-         id="tspan20">Gold certificates</tspan></text>
+         id="tspan20">مسكوكات الذهب</tspan></text>
 <text
        transform="matrix(1,0,0,-1,58.6159,45.8334)"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -80,7 +80,7 @@
          x="0 6.039 9.9180002 13.797 18.045 21.167999"
          y="0"
          sodipodi:role="line"
-         id="tspan24">Assets</tspan></text>
+         id="tspan24">المسؤوليات</tspan></text>
 <text
        transform="matrix(1,0,0,-1,58.6159,27.0324)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -88,7 +88,7 @@
          x="0 6.5250001 11.376 13.95 19.115999 21.285 25.371 30.222 32.859001 38.178001"
          y="0"
          sodipodi:role="line"
-         id="tspan28">Gold coins</tspan></text>
+         id="tspan28">شهادات الذهب</tspan></text>
 <g
        id="g32"
        transform="translate(151.7363,57.3398)"><path
