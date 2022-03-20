@@ -25,7 +25,7 @@ layout: RTLLayout
 
 [[toc]]
 
-<center>
+<center v-pre>
 Layered Money
 
 Copyright © 2021 by Nik Bhatia
