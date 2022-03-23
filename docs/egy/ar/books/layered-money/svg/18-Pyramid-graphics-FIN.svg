@@ -162,21 +162,21 @@
        transform="matrix(1,0,0,-1,116.5859,45.959)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text92"><tspan
-         x="10"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan90">العملات المستقرة (R)</tspan></text><text
+         id="tspan90">العملات المستقرة (ع)</tspan></text><text
        transform="matrix(1,0,0,-1,90.4429,119.5483)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:6px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text102"><tspan
-         x="-12"
+         x="-14"
          y="0"
          sodipodi:role="line"
-         id="tspan98">العملات الرقمية الحكومية (W),</tspan><tspan
-         x="-13"
+         id="tspan98">العملات الرقمية الحكومية</tspan><tspan
+         x="-4"
          y="9.6000004"
          sodipodi:role="line"
-         id="tspan100">العملات الرقمية الحكومية (R)</tspan></text>
+         id="tspan100">(للعامة أو للبنوك)</tspan></text>
 <g
        id="g104"
        transform="translate(91.123,109.1484)"><path
@@ -207,11 +207,11 @@
          x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan124">(R)</tspan><tspan
+         id="tspan124">(ع)</tspan><tspan
          x="27.719999"
          y="-11.448"
          sodipodi:role="line"
-         id="tspan126">العملات المستقرة</tspan></text>
+         id="tspan126">ع. المستقرة</tspan></text>
 <text
        transform="matrix(1,0,0,-1,202.0131,104.667)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -219,7 +219,7 @@
          x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan134">(R)</tspan></text>
+         id="tspan134">(ع)</tspan></text>
 <g
        id="g138"
        transform="translate(218.7624,140.1779)"><path
@@ -268,7 +268,7 @@
        transform="matrix(1,0,0,-1,130.9526,76.8726)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text166"><tspan
-         x="12"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan164">البنوك</tspan></text>

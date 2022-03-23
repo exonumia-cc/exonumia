@@ -553,15 +553,15 @@
        transform="matrix(1,0,0,-1,60.8057,62.6753)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:'Engravers LH Bold Face';-inkscape-font-specification:EngraversLH-BoldFace;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text350"><tspan
-         x="0"
+         x="25"
          y="0"
          sodipodi:role="line"
-         id="tspan348">ورقة ميزانية أسرة ميديتشي المصرفية</tspan></text>
+         id="tspan348">ميزانية ميزانية أسرة ميديتشي المصرفية</tspan></text>
 <text
        transform="matrix(1,0,0,-1,162.9287,45.2873)"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text354"><tspan
-         x="0"
+         x="27.5"
          y="0"
          sodipodi:role="line"
          id="tspan352">الأصول</tspan></text>
@@ -569,7 +569,7 @@
        transform="matrix(1,0,0,-1,162.9287,26.4863)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text358"><tspan
-         x="0"
+         x="-5"
          y="0"
          sodipodi:role="line"
          id="tspan356">مسكوكات الذهب والفضة</tspan></text>
@@ -577,7 +577,7 @@
        transform="matrix(1,0,0,-1,58.6187,45.0443)"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text362"><tspan
-         x="0"
+         x="16.5"
          y="0"
          sodipodi:role="line"
          id="tspan360">المسؤوليات</tspan></text>
@@ -585,10 +585,10 @@
        transform="matrix(1,0,0,-1,58.6187,26.2433)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Georgia;-inkscape-font-specification:Georgia;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text366"><tspan
-         x="0"
+         x="15"
          y="0"
          sodipodi:role="line"
-         id="tspan364">ورقة المتاجرة</tspan></text>
+         id="tspan364">أوراق المتاجرة</tspan></text>
 <g
        id="g368"><g
          id="g370"

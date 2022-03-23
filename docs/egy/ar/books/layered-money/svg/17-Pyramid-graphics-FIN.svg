@@ -220,7 +220,7 @@
        transform="matrix(1,0,0,-1,92.5298,99.1548)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text124"><tspan
-         x="18"
+         x="8"
          y="0"
          sodipodi:role="line"
          id="tspan122">الاحتياطي الفدرالي</tspan></text>
@@ -228,12 +228,12 @@
        transform="matrix(1,0,0,-1,143.2773,193.3428)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text130"><tspan
-         x="-3"
-         y="0"
+         x="-8"
+         y="5"
          sodipodi:role="line"
          id="tspan126">سندات</tspan><tspan
-         x="-22"
-         y="15.004"
+         x="-29"
+         y="20"
          sodipodi:role="line"
          id="tspan128">الخزانة الأمريكية</tspan></text>
 <g
@@ -255,14 +255,14 @@
        transform="matrix(1,0,0,-1,52.335,58.0459)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text154"><tspan
-         x="0"
+         x="5"
          y="0"
          sodipodi:role="line"
          id="tspan148">الاحتياطيات</tspan><tspan
-         x="-1.67"
+         x="-7"
          y="12"
          sodipodi:role="line"
-         id="tspan150">(wholesale)</tspan><tspan
+         id="tspan150">(بالجملة، للبنوك)</tspan><tspan
          x="80"
          y="0"
          sodipodi:role="line"
@@ -283,7 +283,7 @@
          x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan168">(retail)</tspan></text>
+         id="tspan168">(للعامة)</tspan></text>
 <text
        transform="matrix(1,0,0,-1,208.0418,58.0059)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -291,7 +291,7 @@
          x="-13.5"
          y="0"
          sodipodi:role="line"
-         id="tspan172">عملة الفدرالي الرقمية</tspan></text>
+         id="tspan172">عملة الفدرالي</tspan></text>
 <g
        id="g176"><g
          id="g178"
@@ -308,5 +308,5 @@
          x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan188">(retail)</tspan></text>
+         id="tspan188">(للعامة)</tspan></text>
 </g></svg>

@@ -718,10 +718,10 @@
        transform="matrix(1,0,0,-1,125.0615,186.4043)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text96"><tspan
-         x="0"
+         x="-3"
          y="0"
          sodipodi:role="line"
-         id="tspan92">ذهب</tspan><tspan
+         id="tspan92">الذهب</tspan><tspan
          x="34.669998"
          y="0.87"
          sodipodi:role="line"
@@ -760,7 +760,7 @@
        transform="matrix(1,0,0,-1,105.269,152.771)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text120"><tspan
-         x="15"
+         x="3"
          y="0"
          sodipodi:role="line"
          id="tspan118">الاحتياطي الفدرالي</tspan></text>
@@ -771,7 +771,7 @@
          x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan122">وسندات الخزانة الأمريكية</tspan><tspan
+         id="tspan122">سندات الخزانة الأمريكية</tspan><tspan
          x="0"
          y="8.3999996"
          sodipodi:role="line"
@@ -836,7 +836,7 @@
          x="118.99"
          y="0"
          sodipodi:role="line"
-         id="tspan166">فرنك سويسري</tspan><tspan
+         id="tspan166">الفرنك السويسري</tspan><tspan
          x="138.84"
          y="13"
          sodipodi:role="line"

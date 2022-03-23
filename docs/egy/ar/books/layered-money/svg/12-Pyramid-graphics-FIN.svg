@@ -181,10 +181,18 @@
          y="-5.4000001"
          sodipodi:role="line"
          id="tspan98"></tspan><tspan
-         x="53"
-         y="5.4000001"
+         x="55"
+         y="-6"
          sodipodi:role="line"
-         id="tspan100">أوراق الاحتياطي الفيدرالي</tspan></text>
+         id="tspan100">أوراق</tspan>
+         <tspan
+         x="55"
+         y="6"
+         sodipodi:role="line"
+         id="tspan10011">الاحتياطي الفدرالي</tspan>
+         
+         
+         </text>
 <g
        id="g104"
        transform="translate(151.7363,134.1315)"><path
@@ -231,7 +239,7 @@
        transform="matrix(1,0,0,-1,96.251,76.937)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text134"><tspan
-         x="27"
+         x="15"
          y="0"
          sodipodi:role="line"
          id="tspan132">المصارف العالمية</tspan></text>

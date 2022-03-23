@@ -177,14 +177,14 @@
        transform="matrix(1,0,0,-1,68.2393,40.9038)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text102"><tspan
-         x="0"
+         x="13"
          y="0"
          sodipodi:role="line"
          id="tspan100">الودائع</tspan><tspan
-         x="90"
+         x="113"
          y="0"
          sodipodi:role="line"
-         id="tspan100">وأوراق المتاجرة</tspan></text>
+         id="tspan100">أوراق المتاجرة</tspan></text>
 <text
        transform="matrix(1,0,0,-1,78.9693,104.6738)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Med';-inkscape-font-specification:ITCFranklinGothicStd-Med;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -196,13 +196,13 @@
          x="77"
          y="0"
          sodipodi:role="line"
-         id="tspan104">ملاحظات بنك إنجلترا</tspan></text>
+         id="tspan104">أوراق بنك إنكلترا</tspan></text>
 <text
        transform="matrix(1,0,0,-1,109.1235,78.8979)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text110"><tspan
-         x="10"
-         y="0"
+         x="8"
+         y="2"
          sodipodi:role="line"
          id="tspan108">القطاع الخاص</tspan></text>
 <g
@@ -245,18 +245,27 @@
        transform="matrix(1,0,0,-1,123.3921,184.4731)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text142"><tspan
-         x="0"
-         y="0"
+         x="-60"
+         y="-2"
          sodipodi:role="line"
-         id="tspan136">الذهب،</tspan><tspan
+         id="tspan136">سندات</tspan>
+         
+        <tspan
+         x="-42"
+         y="10"
+         sodipodi:role="line"
+         id="tspan140">المملكة</tspan>
+
+
+         <tspan
          x="32.799999"
-         y="-6"
+         y="5"
          sodipodi:role="line"
-         id="tspan138">وسندات</tspan><tspan
-         x="32.799999"
-         y="6"
-         sodipodi:role="line"
-         id="tspan140">المملكة المتحدة</tspan></text>
+         id="tspan138">الذهب</tspan>
+         
+         
+         
+         </text>
 <g
        id="g144"
        transform="translate(196.9135,169.3996)"><path
@@ -636,8 +645,8 @@
        transform="matrix(1,0,0,-1,107.9507,131.1421)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text402"><tspan
-         x="25"
-         y="3"
+         x="20"
+         y="1.5"
          sodipodi:role="line"
          id="tspan400">بنك إنكلترا</tspan></text>
 </g></svg>

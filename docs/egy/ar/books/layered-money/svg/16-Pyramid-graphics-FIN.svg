@@ -367,7 +367,7 @@
        transform="matrix(1,0,0,-1,61.4473,61.7368)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text222"><tspan
-         x="16"
+         x="0"
          y="0"
          sodipodi:role="line"
          id="tspan220">البتك</tspan></text>
@@ -375,11 +375,11 @@
        transform="matrix(1,0,0,-1,50.1475,50.1367)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text228"><tspan
-         x="21"
+         x="8"
          y="0"
          sodipodi:role="line"
-         id="tspan224">في عقدة</tspan><tspan
-         x="27"
+         id="tspan224">في عقد</tspan><tspan
+         x="14"
          y="12"
          sodipodi:role="line"
          id="tspan226">البرق</tspan></text>
@@ -399,19 +399,27 @@
          y="33.308998"
          sodipodi:role="line"
          id="tspan234">العملات</tspan><tspan
-         x="0"
+         x="3.5"
          y="44.109001"
          sodipodi:role="line"
          id="tspan236">الرقمية</tspan><tspan
-         x="0"
-         y="73.521004"
+         x="-22"
+         y="65"
          sodipodi:role="line"
-         id="tspan238">العملات المستقرة</tspan></text>
+         id="tspan238">العملات </tspan>
+         <tspan
+         x="0"
+         y="75"
+         sodipodi:role="line"
+         id="tspan238">المستقرة</tspan>
+         
+         
+         </text>
 <text
        transform="matrix(1,0,0,-1,227.7715,61.7373)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text246"><tspan
-         x="0"
+         x="-3.5"
          y="0"
          sodipodi:role="line"
          id="tspan242">ودائع</tspan><tspan
@@ -423,7 +431,7 @@
        transform="matrix(1,0,0,-1,213.9917,38.1372)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text250"><tspan
-         x="0"
+         x="-7"
          y="0"
          sodipodi:role="line"
          id="tspan248">في المخازن الباردة</tspan></text>
@@ -466,12 +474,12 @@
        transform="matrix(0.44040066,0.89780135,0.89780135,-0.44040066,91.2333,114.7503)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.99998665px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text284"><tspan
-         x="0"
+         x="15"
          y="0"
          sodipodi:role="line"
          id="tspan280">عُقَد</tspan><tspan
          x="-0.15798"
-         y="8.000988"
+         y="10"
          sodipodi:role="line"
          id="tspan282">شبكة البرق</tspan></text>
 <text
@@ -486,7 +494,7 @@
        transform="matrix(0.44058805,-0.8977094,-0.8977094,-0.44058805,182.0436,163.0946)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.00001717px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text292"><tspan
-         x="0"
+         x="8"
          y="0"
          sodipodi:role="line"
          id="tspan290">القطاع الخاص</tspan></text>

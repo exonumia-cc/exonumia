@@ -180,27 +180,48 @@
        transform="matrix(1,0,0,-1,99.1841,53.2207)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text106"><tspan
-         x="0"
-         y="0"
+         x="-15"
+         y="10"
          sodipodi:role="line"
          id="tspan102">شهادات الإيداع من بنك أمستردام</tspan></text>
 <text
        transform="matrix(1,0,0,-1,122.4841,170.6507)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text114"><tspan
-         x="0"
-         y="0"
+         x="-30"
+         y="-22"
          sodipodi:role="line"
-         id="tspan108">الذهب</tspan><tspan
+         id="tspan108">قروض</tspan>
+         <tspan
+         x="-28"
+         y="-8"
+         sodipodi:role="line"
+         id="tspan108">شركة</tspan>
+
+        <tspan
+         x="-25"
+         y="3"
+         sodipodi:role="line"
+         id="tspan108">الهند</tspan>
+        <tspan
+         x="-101"
+         y="15"
+         sodipodi:role="line"
+         id="tspan108">الشرقية</tspan>
+         
+         <tspan
          x="33.959999"
          y="-4.73"
          sodipodi:role="line"
-         id="tspan110"></tspan><tspan
-         x="33.959999"
+         id="tspan110"></tspan>
+
+
+         <tspan
+         x="40"
          y="7.27"
          sodipodi:role="line"
-         id="tspan112">قروض لشركة الهند الشرقية الهولندية</tspan></text>
-<g
+         id="tspan112">الذهب</tspan></text>
+<g 
        id="g116"
        transform="translate(250.8595,79.7892)"><path
          d="m 0,0 -43.718,71.667 -0.26,0.427 h -0.5 -23.368 l -5.717,-7.063 -5.717,7.063 h -39.686 l -5.718,-7.063 -5.717,7.063 h -24.742 -0.5 l -0.263,-0.425 -44.705,-72.096 h 0.5 89.096 l 0.815,-0.388 -0.315,0.388 9.504,-11.741 9.504,11.741 -0.314,-0.388 0.814,0.388 h 90.768 0.5 z"
@@ -216,8 +237,8 @@
        transform="matrix(1,0,0,-1,81.8281,93.9819)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text126"><tspan
-         x="0"
-         y="0"
+         x="30"
+         y="7"
          sodipodi:role="line"
          id="tspan124">بنك أمستردام</tspan></text>
 <g
