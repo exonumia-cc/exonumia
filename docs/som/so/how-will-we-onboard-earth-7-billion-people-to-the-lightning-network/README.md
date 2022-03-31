@@ -2,7 +2,7 @@
 translators: 
     - 
         name: "Shaadiya Maxamed Cabdi"
-        href: "https://www.facebook.com/shadiya.mohamed.549/"
+        href: "https://instagram.com/shadia_iimay_/"
 supporters: 
     - 
         name: "BitMEX"
