@@ -177,26 +177,34 @@
        transform="matrix(1,0,0,-1,68.2393,40.9038)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text102"><tspan
-         x="0 6.8499999 12.7 18.549999 25.4 31.85 34.700001 39.950001 93.860001 100.31 103.16 108.41 113.66 120.11 123.36 130.21001 135.25999 138.50999 144.36 150.00999 156.46001 163.31 169.16 176.00999 182.86"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan100">DEPOSITSBILLS OF EXCHANGE</tspan></text>
+         id="tspan100">Dhipozitsi</tspan><tspan
+         x="100"
+         y="0"
+         sodipodi:role="line"
+         id="tspan100">Mabhiri ekuchinjana</tspan></text>
 <text
        transform="matrix(1,0,0,-1,78.9693,104.6738)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Med';-inkscape-font-specification:ITCFranklinGothicStd-Med;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text106"><tspan
-         x="0 6.3200002 11.86 17.48 20.629999 27.43 33.049999 39.290001 45.970001 51.93 54.849998 59.93 91.230003 97.550003 103.09 108.71 111.86 118.61 125.04 130.12 135.74001"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan104">BoE DEPOSITSBoE NOTES</tspan></text>
+         id="tspan104">BoE dhipositsi</tspan><tspan
+         x="90"
+         y="0"
+         sodipodi:role="line"
+         id="tspan104">BoE manotsi</tspan></text>
 <text
        transform="matrix(1,0,0,-1,109.1235,78.8979)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text110"><tspan
-         x="0 8.2740002 15.57 19.950001 26.040001 32.574001 39.425999 46.59 50.394001 56.633999 63.798 70.482002 77.334 84.75"
+         x="-30"
          y="0"
          sodipodi:role="line"
-         id="tspan108">Private sector</tspan></text>
+         id="tspan108">Vanoita bhizinesi vakazvimiririra</tspan></text>
 <g
        id="g112"
        transform="translate(151.3862,24.2756)"><path
@@ -235,20 +243,20 @@
          id="path134"
          inkscape:connector-curvature="0" /></g><text
        transform="matrix(1,0,0,-1,123.3921,184.4731)"
-       style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:8px;font-family:'ITC Franklin Gothic Std MedCd';-inkscape-font-specification:ITCFranklinGothicStd-MdCd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text142"><tspan
-         x="0 5.8699999 11.74 16.08"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan136">GOLD</tspan><tspan
-         x="32.799999 38.299999 40.740002 45.900002"
+         id="tspan136">Goridhe</tspan><tspan
+         x="32.799999"
          y="-6"
          sodipodi:role="line"
          id="tspan138">U.K.</tspan><tspan
-         x="32.799999 38.299999 43.970001 49.639999 55.310001"
+         x="32.799999"
          y="6"
          sodipodi:role="line"
-         id="tspan140">BONDS</tspan></text>
+         id="tspan140">mabondi</tspan></text>
 <g
        id="g144"
        transform="translate(196.9135,169.3996)"><path
@@ -628,8 +636,8 @@
        transform="matrix(1,0,0,-1,107.9507,131.1421)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text402"><tspan
-         x="0 7.3920002 13.574 20.218 27.214001 30.701 37.499001 43.615002 47.102001 54.306999 60.951 67.716003 74.334702 80.516701 87.160698"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan400">Bank of England</tspan></text>
+         id="tspan400">Bhanga re England</tspan></text>
 </g></svg>

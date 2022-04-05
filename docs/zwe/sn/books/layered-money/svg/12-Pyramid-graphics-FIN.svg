@@ -165,26 +165,30 @@
        transform="matrix(1,0,0,-1,88.5454,36.1055)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text94"><tspan
-         x="0 6.9850001 14.85 22.385 30.469999 38.555 46.639999 52.965 59.290001 66.275002 73.919998 78.044998 86.129997 93.114998 100.1 108.185 115.83 119.515 125.84"
+         x="12"
          y="0"
          sodipodi:role="line"
-         id="tspan92">EURODOLLAR DEPOSITS</tspan></text>
+         id="tspan92">Eurodollar Dhipozitsi</tspan></text>
 <text
        transform="matrix(1,0,0,-1,101.9878,109.2998)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:9px;font-family:'ITC Franklin Gothic Std Med';-inkscape-font-specification:ITCFranklinGothicStd-Med;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text102"><tspan
-         x="0 4.7069998 10.5849 16.2369 22.311899"
-         y="0"
+         x="5"
+         y="-5"
          sodipodi:role="line"
-         id="tspan96">LOANS</tspan><tspan
-         x="69.947998 74.565002 79.443001 85.383003 90.261002 96.093002 101.565 106.092"
+         id="tspan96">Mari</tspan><tspan
+         x="-15"
+         y="8"
+         sodipodi:role="line"
+         id="tspan96">dzakakweretwa</tspan><tspan
+         x="69.947998"
          y="-5.4000001"
          sodipodi:role="line"
-         id="tspan98">FEDERAL </tspan><tspan
-         x="55.611 61.443001 66.320999 71.504997 76.383003 82.035896 86.940903 91.818901 94.4739 100.3689 105.9759 110.3679 115.2459"
+         id="tspan98">Manotsi</tspan><tspan
+         x="55.611"
          y="5.4000001"
          sodipodi:role="line"
-         id="tspan100">RESERVE NOTES</tspan></text>
+         id="tspan100">eFederal Reserve</tspan></text>
 <g
        id="g104"
        transform="translate(151.7363,134.1315)"><path
@@ -231,10 +235,10 @@
        transform="matrix(1,0,0,-1,96.251,76.937)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text134"><tspan
-         x="0 4.4770002 11.121 17.402 23.969 30.657 37.300999 43.290501 49.571499 53.586498 60.384499 67.028503 73.210503 79.623497 83.110497 90.502502 96.684502 103.3285 110.3245"
+         x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan132">International Banks</tspan></text>
+         id="tspan132">Mabhanga ekudzimwe nyika</tspan></text>
 <g
        id="g136"><g
          id="g138"

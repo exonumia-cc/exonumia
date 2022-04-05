@@ -1,6 +1,8 @@
 # Hudunganidzwa hwe Mari: Kubva kugoridhe nema dhorazi kuenda ku Bitcoin nemari dzekuchengetera muma bhengi emumhepo
 
-Nik Bhatia
+na Nik Bhatia [2021/01/18](https://www.amazon.com/dp/1736110527/)
+
+<LanguageDropdown/>
 
 ---
 
@@ -50,46 +52,30 @@ Izvi zvinoratidza kuti zvakaiswa mubazi rekuchengetedza mari re United States of
 
 Tichatsanamgura zvinoreva mutsara uyu tichishandisa mashoko eruchengetedzo. Chekutanga chekuchengeta, ikoini regoridhe, rakachengetwa pakavanzika. Chechipiri, mapepa egoridhe, aka printwa aka tenderedzwa semari pachinzvimbo che koini regoridhe. Bepa iri rakakosha kunaani nani zvake akaribata, anova ndiye muridzi. Zvese koini nebepa imari, asi zvine musiano. Hukama huripo panzira dzemari idzi (Mufananidzo 2) ndeimwe nzira yekutsanangura kubalanciswa kwemazvinhu zvinobatika nezvisisngabatike zviripo (Mufananidzo 1).
 
+![](./svg/01-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 1
 
-United States Bazi rekuchengetedza Bepa rekuchengetedza mari 
 
-Zvinobatika | Zvisingabatike 
-
-Koini regoridhe | Mapepa egoridhe
+![](./svg/02-Pyramid-graphics-FIN.svg)
 
 Mufananidzo 2
 
-United States Bazi rekuchengetedza Bepa rekuchengetedza mari 
+<!-- United States Bazi rekuchengetedza Bepa rekuchengetedza mari 
 
-(rakagadzirwa sepyramid yekuchengetedza) 
+(rakagadzirwa sepyramid yekuchengetedza)  -->
 
-/\\
 
-Goridhe
-
-^
-
-/ (U.S. Bazi rekuchengetedza mari) \\
-
-^
-
-Bepa regoridhe
-
-/ \_\_\_\_\_\_\_\_\_\_\_ \\
 
 Tikanyatso shandisa nekubatanidza nzira itsva iyi kumashandisirwo emari nekutarisa matangiro ayakaita, nhau inobuda ipapo ndeye makare kare ezvemari. Sezvo vatambi vakuru vezvemari kumhiri kwemangungwa vatanga kushambadza zvekushandisa mari mumhepo, panoda nzira yakachena kwazvo yekutarisa shanduko ichauya nenzira idzi dzekuchengeta mari, asi izvi hazvikwanisike tichishandisa mashoko ezvemari anoshanda mazuvaano. Bhuku rino rinoburitsa mari seinochengetwa zvakaturikidzana nekuti ndiyo nzira yakachena yekutarisa shanduko irikuuya kumashandisirwo nemachengeterwe edu emari, nzira inokonzeramhirizhonga kwemakore mashoma yozonyaradzwa nekupindira kwehurumende nemabhanga makuru.
 
 Pane nzira yekugadzirira ramangwana rakanaka, bhuku rino rinobuditsa nzira inenge yakarerekera kunezvitsva zvakauya nekuda kwetekinoroji izvo zvakasangana nemashandisirwo emari nedzimwe nzira dzisina hukama nazvo dzinova dze crypto. Nekupararira kurikuita nhau dze crypto mupfungwa dzevanhu nemumana munoshandiswa mari pasi rese kubvira 2009, zviri kuita kuti nzira dzemashandisirwo emari dzekudhara dziite kakusiiwa pachishandiswa dzitsva, sezvakaitwa ne internet kumashandiro ave kuitwa mazuvaano. Nzira itsva idzi dzinoda kunyatsoongororwa, bhuku rino richashandisa nzira yekuchengeta mari zvakaturikidzana kutsanangura kuti zvinogona kufamba sei. Basa remari dzehurumende richange riri rei pamberi apo? Bitcoin ichafambidzana here nemari dzehurumende kana kuti ichadzishaisa simba? Mhinduro kumibvunzo ndiyo inounza kuti pave nebhuku rino. Zvinotanga ne koin regoridhe rakagadzirwa muna 1952.
 
 
-## Chitsauko 1
+## Chitsauko 1: Fiorino d’Oro (Florin of Gold)
 
-Fiorino d’Oro (Florin of Gold)
-
-Ini neshamwari dazngu tinorwara nechirwere chemoyo chinorapika negoridhe
-
-—Hernán Cortés
+> Ini neshamwari dazngu tinorwara nechirwere chemoyo chinorapika negoridhe
+> — Hernán Cortés
 
 Pasati pauya nhau yekuchengetedza mari zvakaturikidzana, paingova nemari. Kuvanhu vakaita sesu, mari ingori mudziyo inoshandiswa kugarisana nevamwe zvakanaka, sezvinoita mhuka dzichichinjana kuitirana zvakanaka, senge tsoko dzichirerana. Vamwe vanosarudza kuona mari sechinhu chinogovanwa mupfungwa, kunyangwe hazvo izwi rekuti kugovana mupfungwa richibuditsa mari sechinhu chisiri chechokwadi. Zvirinani kutidzimwe nzira dzemari dzinogoveka nekutenderera muvanhu, asi dzimwe dzinozooneka nekubatika nenguva refu.
 
@@ -147,9 +133,7 @@ Dambudziko rechipiri guru remari yemakoini kana mapepa raive njodzi yekubatana n
 
 Mhinduro kumatambudziko aya yaive pfungwa yekuverengera kugadzirisa. Seimwe nzira yekuchinjisa simbi yemuviri, kudzoreredzwa kwekugadzirisa kunoitika apo rimwe bato rinovimbisa kubhadhara rimwe munguva inotevera. Panguva iyoyo, kugadzirisa kwekupedzisira kunoitika, uye ane chikwereti anowana mubhadharo wekupedzisira, wekare goridhe nesirivha. Zvipikirwa izvi, kana zvikwereti, zvakaitwa senzira yekuti vatengesi vaderedze njodzi yekuendesa mari yepasi rose. Aya marudzi ekugadzirisa kwakamisikidzwa kwakavepo kare muzana ramakore regumi nenhatu risati rasvika asi akange asina hunhu hwehurongwa. Zvipikirwa zvemari zvakashaya kufanana, uye nzira yepamutemo yezvikwereti yakanga isati yavapo. A florin yakatsiga chaive chivakwa chikuru, asi kugadzira hurongwa hwemari kwaive kwakasungirwa pane zvinopfuura kungoita kuchena kusingachinjike. Zvaida tsika yezvipikirwa.
 
-## Chitsauko 2
-
-Kutanga kwekuchengetedza Mari
+## Chitsauko 2: Kutanga kwekuchengetedza Mari
 
 > Nguva dzose uye kwese kwese, masisitimu emari ane nzira dzakawanda dzekutanga nadzo.
 > - Perry Mehrling, Professor of Economics, Boston University
@@ -166,29 +150,13 @@ Ngatitangei kutsanangura zviri pamutemo akaturikidzana mari. Tichifunga nezvemue
 
 imari yechipiri, yakagadzirwa semutoro pabalance sheet yomumwe munhu. Yese yechipiri-layer mari iOUs (I-iwe-iwe) kana kuvimbisa kubhadhara yekutanga-layer mari. Vese vane chinhu chinonzi counterparty risk, kana njodzi inouya nekubata chivimbiso chakaitwa nemumwe. Rimwe divi rinoratidza njodzi ipfungwa yakakosha musainzi yemari, kunyanya nekuti marudzi ese emari ari muhurongwa hwemari hwanhasi ane dhigirii rayo. Kuvimba nevemapato kunodiwa kuti hurongwa hwedu hwemari hushande, kana zvikasadaro tese tinenge tichiri kushandisa mari yegoridhe nesirivheri pane chimwe chinhu. Matanho emari akavapo nekuti vanhu vaivimba nemhando dzemari dzaitakura njodzi yeaipa. Iyo inzira yekuratidza kuti midziyo yemari inodyidzana sei kune mumwe nemumwe zvichienderana nehukama pakati pemasarashi emasangano emari. Tarisa uone Mufananidzo 3 ne4, iyo inonyatso ratidza muenzaniso wemavambo emari yakaturikidzana.
 
-## Mufananidzo 3
+![](./svg/03-Pyramid-graphics-FIN.svg)
 
-Bepa rekuenzanisa marirebanga remhuri yeMedici 
+Mufananidzo 3
 
-Zviwanikwa | Zvikwereti 
-
-Makoini egoridhe nesirivha | Bhiri rekuchinjana
+![](./svg/04-Pyramid-graphics-FIN.svg)
 
 Mufananidzo 4
-
-/\\
-
-Goridhe neSirivha
-
-^
-
-/ (Bhanga remhuri yemedici) \\
-
-^
-
-Mabhiri ekuchinjana
-
-/ \_\_\_\_\_\_\_\_\_\_\_ \\
 
 Iwo mataira anova nzira yekufunga nezve hutongi hwemari hwechisikigo apo midziyo yemari inoiswa muhurongwa hwehukuru kubva kumusoro kusvika pasi, pachinzvimbo chekuiswa padivi peumwe neumwe pamatafura eakaunzi. Nheyo yega yega inomiririra chikamu chebhari yemumwe munhu, uye nekudaro tinofanirawo kuona vatambi varipo pakati pematanho emari. Mumufananidzo 4, iro bhanga remhuri yaMedici ndiye mutambi pakati pekutanga neyechipiri layer. Inoburitsa mari-yechipiri-mari-mabhiri ekutsinhana, ayo anovimbisa kubhadhara mari yekutanga-yegoridhe nesirivheri. Izwi rakakosha: zvivimbiso, zvine njodzi yekuputswa.
 
@@ -232,21 +200,9 @@ Iwe unotenga bhiri kubva kubhengi nhasi kune $98 iyo inogona kuchinjana nemadhor
 
 Chikamu chekupedzisira chemutambo uyu kubudirira kweAntwerp mukutanga musika wemari wemazuva ano kwaive kugadzirwa kwemanotsi ekuvimbisa. Promissory manotsi akaunza denderedzwa rakazara shanduko yemusika wemari kubva kune haphazard uye quarterly smorgasbord kuenda kune inoenderera. KuBourse, kuitira kuti vagadzirise masaramusi asara pakupera kwezuva, vemabhanga vakapa imwezve nzira yechikwereti, mari itsva yechikamu chechipiri inonzi promissory notes kana manotsi. Manotsi aya aive mavimbiso ekubhadhara mutakuri, zvichireva kuti aive akabata bepa aifanira kuvimbiswa. Zviridzwa izvi ndizvo zvakatungamira kune izvo zvatinofunga nezvemapepa emari nhasi, mari manotsi. Vakanga vachidzika mukusaziva kwavo chaiko; yapfuura shanduro dzechipiri-layer mari dzaigara dziine mazita evanhu pavari. Manotsi, semari nhasi, akange asina zvachose chivakwa ichi. Vaishandiswa sechishandiso chekugadzirisa asi vakashanduka kuita basa ravo rekuzvarwa semari uye vakave vanobatsira zvakanyanya senzira dzekutsinhana. Mufananidzo 5 unoratidza zvidimbu zvemari muAntwerp mukati mezana ramakore rechigumi nematanhatu.
 
-Figure 5
+![](./svg/05-Pyramid-graphics-FIN.svg)
 
-/\\
-
-Makoini eGoridhe ne Sirivha
-
-^
-
-/ (Antwerp Bankers) \\
-
-^
-
-Bhiri rekuchinjana, Mapepa
-
-/ \_\_\_\_\_\_\_\_\_\_\_ \\
+Mufananidzo 5
 
 MuAntwerp, mubereko wemubereko arbitrageur wakanga wasvika. Arbitrage ndipo paunotenga maapuro ne$1 muguta rimwe nekuti unoziva kuti unogona kuatengesa muguta rinotevera nemadhora maviri. Unyanzvi hwokugadzirisa zvinhu hwakasakara sebhizimisi pacharo, uye vachinji vemari vomuMiddle Ages vaichinja mari imwe kuva imwe ivo vamene
 
@@ -254,13 +210,11 @@ vakabatikana muchimiro chayo. Asi arbitrage mikana haina kumbovapo mune yechipir
 
 muBourse raive nereti yemubereko, richipa mikana yekusawirirana kune vemabhangi. Iyi yemazuva ano mune liquidity yakapedzisira yachinja maonero ekutanga emari kubva kusimbi kuenda pabepa. Simbi yakakosha yaisakwanisa kuzadzisa kuwanda kwezvivakwa zvakarairwa kubva kuhurongwa hwemari. Accounting, bepa, uye network yemabhangi aigona.
 
-## Chitsauko 3
-
-Kuisa mabhanga pakati
+## Chitsauko 3: Kuisa mabhanga pakati
 
 Mushure mechikamu chechipiri chemari chabuda, hurumende dzakasimuka kuti dzitore nzvimbo yakakosha pakati pekutanga neyechipiri. Muzana remakore rechigumi nemanomwe neregumi nemasere, Bhanga re Amsterdam neBhanga reEngland vakazvipinza mupiramidhi yemari, vachipa hurumende dzavo simba risati ramboonekwa pamusoro penyaya dzemari dzevanhu. Nokurayira kushandiswa kwemari dzadzo dzechikamu chechipiri, hurumende nebumbiro radzo idzva rebhanga guru rakabvisa kukwanisa kwevanhu kuva norusununguko rwesangano remari. Hurumende nemari dzakabatana nhasi nokuti hurumende dzakatanga kutonga pamari yechikamu chechipiri ndokuishandisa kuzvibatsira, kutanga neBhanga re Amsterdam muna 1609. semabhangi epakati, zvakakosha kuti titarise kuti hunyanzvi hwavo hwemari hwakashanda kusvika papi kusimudzira hurongwa hwehurumende dzavo. Mabhanga aya akatipawo kutarisa zvazvaireva kuburitsa iyo pasi rose yaitora semari yayo yekuchengetedza. Mabhangi eCentral, mari dzepasi rose, uye kusvika kwechitatu-layer mari zvichaongororwa zvakare muchitsauko chino.
 
-Kugadzirisa pakarepo
+### Kugadzirisa pakarepo
 
 Bhangi reAmsterdam (BoA) rakangogadzirwa nekuda kwekambani yekutanga pasi rose yakabatana-stock, Dutch East India Kambani (Vereenigde Oostindische Compagnie, kana VOC). Ngano yeVOC inotanga muna 1585 apo maDutch akakurumidza kupedza chinzvimbo cheAntwerp sepakati pekutengeserana nedzimwe nyika nekuvhara rwizi Scheldt nekuvharira kupinda mugungwa. Kuvharidzirwa kwakaitika pakati peDutch Revolt, kurwira kwemakore makumi masere kwekusununguka kweDutch kubva kuhumambo hweSpain. Zvichikurudzirwa mune zvematongerwo enyika, Dutch Revolt inonzi yakakurudzira kusimuka kubva paumambo kuenda kune dzimwe nzira dzinomiririra hurumende muEngland, France, uye United States of America. Kumukira kwacho kwakaguma nokuumbwa kweUnited Provinces yeNetherlands, inowanzonzi Dutch Republic. Kuvambwa kweiyi republic nyowani kwakatangira hupfumi hwepakati hwakachinja chiso chemari nebhizinesi zvachose. Zana rinotevera remusika wemari uye yese yemari yakatarisana muAmsterdam.
 
@@ -278,33 +232,19 @@ Kudiwa kwesangano reBoA kwakakura kubva kumativi eEurope ukuwo Amsterdam yakasim
 
 .
 
-Kukweretesa Kwakaropafadzwa
+### Kukweretesa Kwakaropafadzwa
 
 PaBhanga reAmsterdam's chinangwa chaive chinopfuura kungoita zvisvinu mukugadzirisa kwemari. Kunyatsoongorora kunoratidza kuti VOC yakazvimisa pamusoro pepiramidhi yemari kuitira kuti ibvise simba nezviwanikwa. Nguva pfupi yatangwa, Bhangi reAmsterdam rakakweretesa mari kuVOC uye rakaisa zvikwereti semidziyo pabalance sheet, inojairwa kaviri-yekupinda accounting maitiro. BoA yakatenda VOC nemadhipoziti, ichigadzira mari uye ichipa kune anokwereta rombo. Zvikwereti izvi zvakamhara padivi pemari yegoridhe neyesirivha pachikamu chekutanga chemari. Kukweretwa kweVOC kwaivepo padanho resimbi yakakosha pachayo. Mari yakagadzirwa pachikamu chechipiri yakachengeterwa zvishoma nekuti inowirirana yekutanga-layer asset yaive chikwereti kuVOC pachinzvimbo chesimbi yakakosha yakaiswa kuBhangi reAmsterdam. Mumufananidzo 6, tarisa piramidhi yemari pasi pesimba reBhange reAmsterdam, ichiratidza zvikwereti kuVOC pane yekutanga mari. Iyi yaive nguva yakakosha yekushanduka kwemari yakaturikidzana; kekutanga, simbi dzinokosha dzakanga dzisiri dzoga pamusoro pepiramidhi yemari.
 
+![](./svg/06-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 6
-
-/ \\
-
-/ \\
-
-Kubva kugoridhe, kukweretesa nekekwreta mari kuenda ku VOC
-
-^
-
-/ (Bhangi reAmsterdam) \\
-
-^
-
-Mari dzakaiswa mubhangi reAmsterdam
-
-/\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\\
 
 Nekugadziriswa kwechikamu chechipiri, BoA yakazobvisa kugona kubvisa simbi yakakosha zvachose asi yakakwanisa kuchengetedza kuvimba kweveruzhinji mumari yayo yechipiri. Kukosha kweizvi hakugone kuwedzeredzwa. Nekumisa kuchinjika kune yekutanga-layer mari, Bhangi reAmsterdam rakaratidza kuti simbi yakakosha yaisafanira kudikanwa kushandisa mari nehurongwa hwemari. Izvo zvaienderana nekumanikidzwa kwayo kwekurangwa kuti igare yakachengetwa zvakakwana, uye zvakanyanya kukosha zvaienderana nekuvimba kwevanhu mukuranga ikoko. Vanhu vekuEurope vaivimba kuti Bhangi reAmsterdam rakachengetwa zvakafanira uye harina kubudisa madhipoziti mune yakawandisa yaibata simbi inokosha, uye kuvimba uku kwakatsigira kudiwa kwemari dzaiiswa muBoA semari.
 
 Bhanga reAmsterdam rakakwanisa kumisa shanduko kuburikidza nekugadzira chimwe chiratidzo chemazuva ano chepakati chebhangi chinonzi open market operations, zviitiko zvemusika neBoA kuti ive nechokwadi chemusika wakafanana uye wemvura wemadhipoziti ayo. Nekuchengetedza musika une hutano pakati pemadhipoziti ayo uye mamwe emhando yepamusoro mafomu emari, BoA yakakwanisa kutsigira kukosha kwezvikwereti zvayo pasina kumbosiya simbi yakakosha. Uku kusanganiswa kwakasimba uye kusati kwamboitika kwekugadzirisa nekukasira, kukweretesa kwakasarudzika, uye kumiswa kwekuchinja kwakave nemhedzisiro yezvemuchadenga kune ramangwana rezvemari uye kwakapesvedzera zvakananga kusikwa kwemutsivi weBhange reAmsterdam semuparidzi wemari yenyika, Bhangi reEngland.
 
-Bhangi re England
+### Bhangi re England
 
 Kumwe kumukira humambo husina kufarirwa kwakatangira kugadzirwa kweBhange reEngland. Kumukira Kunoshamisa kwa1688 kwakatsiva mambo weKaturike James II nomwanasikana wake wePurotesitendi Mary nomurume wake wechiDutch, William wokuOrange. Kunyangwe isiri shanduko izere kubva kuhumambo kuenda kuRepublic senge muNetherlands, Iyo Glorious Revolution muEngland yakabvisa zvakanyanya simba kubva muumambo kuenda kuParamende. Godo reChirungu uye kuyemurwa kwehurumende inomiririra yeDutch uye kugona kwemari zvakakonzera kugadziridzwa kwakadzama, kuvandudzwa, uye kumisa pakati pehurongwa hwemari hweChirungu.
 
@@ -314,77 +254,37 @@ Mauto emugungwa eChirungu akanga achangobva kukundwa zvakaipisisa nevaFrench uye
 
 Bhanga reEngland rakapihwawo basa rekuchengetedza simbi yakakosha, kubudisa madhipoziti, kuita mari pakati pevanoisa mari, uye kutenderera manotsi semari. Kunyanya kukosha, iyo BoE yakaderedzwa mabhiri ekuchinjana uye yakawedzera kushanda kwemari muLondon mari yemusika. Kusiyana nekutonga kweAmsterdam pamari yechipiri, London yaive nehushamwari kumakwikwi emari yemapepa, uye kuda kweBoE uye kugona kudzikisa mabhiri kana mari yaidiwa zvakanyanya yaizopedzisira yaisa parutivi seyakanyanya kubhengi repakati nhasi.
 
-Zvinotarisirwa kugoridhe
+### Zvinotarisirwa kugoridhe
 
 Pound sterling ranga riri sangano remari yeEngland kubvira 1158 apo Mambo Henry akaunza mari yesirivha ye92.5% kuchena. Mari iyi yaimiririra huremu hwesirivha kutozosvikira England yatanga kugadzira mari yegoridhe muna 1663 yainzi guinea, iyo yakatumidzwa zita rechikamu cheWest Africa kwaicherwa goridhe racho. Dzakaisa pondo kumatambudziko anotyisa apo guinea neyeSirivheri yechiRungu inonzi shilling zvaiita mapondo. Asi nguva pfupi mushure mekusikwa kweBank of England, nyanzvi yemasvomhu yeChirungu uye nyanzvi yefizikisi Sir Isaac Newton saTenzi weMint akashandura zvachose nzira yebimetallism pasi rose nekuisa mwero mutsva wekuchinjana pakati pegoridhe guineas nesirivheri muna 1717. Newton akadzidza nezve kuyerera kwegoridhe nesirivha muEurope yose uye mitengo yekuchinjana yakatarwa mune dzimwe nyika bimetallic standards, kunyanya France, Netherlands, neGermany. Akashandisa zvaakawana kuti aone mwero mutsva wekuchinja pakati pegoridhe nesirivha waaifunga kuti wainyanya kumiririra kukosha kwesimbi imwe neimwe. Mutengo mutsva wekuchinjana wakaita kuti zvibatsire kune vanotengesa zvisiri pamutemo kuti kutengesa sirivha uye kunze kwenyika goridhe, uye pasina nguva refu sirivheri yakamira kushandiswa semari muEngland. Kushandurwa kwaNewton, kungave kwakafanorongwa kana netsaona, kwakazoita kuti pasi rose rive pasi pepiramidhi remari riine goridhe chete kumusoro.
 
 Kunyangwe sirivheri yakadzingwa kubva mukushandiswa muEngland nguva pfupi yadarika mushure mekushandurwa kwaNewton, zvakatora makore anopfuura zana kuti pave nechiyero chakazara chegoridhe, icho pondo yakave yakakosha mugoridhe chete, kuti ive mutemo. Muyero wegoridhe weEngland wakadzokororwa pasi rose uye pakupedzisira wakakwevera mari yenyika huru muchikamu chimwe chete. Mufananidzo 7 unoratidza dudziro yakamisikidzwa yechiyero chegoridhe repasi rose kutenderera kwekutanga kwezana ramakore rechimakumi maviri.
 
+![](./svg/07-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 7
 
-Goridhe
-
-^
-
-(Mabhanga epakati)
-
-^
-
-MaPounds eBritish, U.S. Dhorazi, MaFrancs eFrance, MaMarks eGerman
-
-Chikamu chechitatu chemari
+### Chikamu chechitatu chemari
 
 Kusvika ikozvino, takaongorora zvakanyanya hukama pakati pekutanga uye yechipiri chikamu chemari nevatambi vezvemari vakapinda pakati pavo, asi ikozvino tinofanira kuwedzera imwe nhanho kuhurongwa hwedu hwekunzwisisa masisitimu emari. Mabhiri ekutsinhana, kubva kumienzaniso yepakutanga yemapiramidhi emari, aive echipiri-chikamu zvemari zviridzwa izvo zvaive zvivimbiso zvekubhadhara goridhe rekutanga. Mukati menguva Bhanga re England, zvisinei, mabhiri akanga ari vimbiso yokusabhadhara ndarama asi kubhadhara pondo uye naizvozvo akanga aripo pachikamu chechitatu chemari. Mubhuku rino tichashandisa izwi rekuti "private sector" zvichireva avovanoita mabhizinise pasina hurumende kutsanangura mabhanga, mabhizinesi, nevemabhizinesi asiri ehurumende. Mumufananidzo 8, tinogona kuona nyaya dzepachivande dzinovimbisa kubhadhara mari yechipiri-yechipiri, ichiisa iyo imwe pasi pasi peBhange reEngland muhutungamiri hwemabhadharo. Zvikwereti zvebazi rakazvimiririra zviripo pachikamu chechitatu chemari. Mumufananidzo 9, iyo yechinyakare chiyero chepepa chinomiririra inosanganisirwa zvakare kukutungamira kune iyo itsva-matatu modhi. Reya rechitatu remari harifanirwe kuve pasi pekushungurudzwa kwakawanda kupfuura reya rechipiri remari, asi ichokwadi riri kure nekuchengetedzeka kweimwe-mari yegoridhe. Somuenzaniso, kana mumwe mukadzi wechiRungu aityira kuti bhangi rake richava mungozi yemari uye achida mari yendarama panzvimbo pedhipoziti yechitatu mubhangi, aizoda kutengeserana kuviri. Aifanira kushandura mari yake kuita manotsi eBoE asati ashandura manotsi iwayo kuita goridhe. Dai aive nerechipiri BoE manotsi, aingochinja kamwe chete kuchengetedza mari yegoridhe yaidiwa.
 
+![](./svg/08-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 8
 
-/ \\
-
-Goridhe, U.K. mabondi
-
-^
-
-/ (Bhanga re England) \\
-
-^
-
-BoE dhipositsi, BoE manotsi
-
-/ ^ \\
-
-(Vanoita bhizinesi vakazvimiririra)
-
-/ ^ \\
-
-Dhipozitsi, Mabhiri ekuchinjana
+![](./svg/09-Pyramid-graphics-FIN.svg)
 
 Mufananidzo 9
-
-Bhanga reEngland 
-
-Zviwanikwa | Zvikwereti
-
-Goridhe, mabhondi | BoE mari yebepa, BoE dhipozitsi
-
-(reya rekutanga | reya rechipiri)
-
-Vanoita bhizinesi vakazvimirira 
-
-Zviwanikwa | Zvikwereti
-
-BoE mari yebepa, dhipozitsi | Mabhiri ekuchinjana, BoE dhipozitsi
-
-(reya rechipiri | reya rechitatu)
 
 Kunyangwe hazvo Bhangi hwebhangi repakati, Bhangi reEngland raizopedzisira ragadzira iyo yepakati pebhangi modhi yepasirese. Hazvina kuuya nyore kana kubva pakutanga. Gwaro rekutanga reBoE, rakapihwa muna 1694, rakangovimbisa hupenyu hwemakore gumi nerimwe. Kana gwaro rega rega rapera, nhaurirano dzakaitwa pakati peBoE nehurumende. Munhaurirano, hurumende yainyanya kunetseka nguva dzose yaiva yekubhadhara mari yayo, uye kukurudzira kweBoE kwaiva kuwedzera mutengo wayo wemugove nekuda kwekuti yakanga ine vagoveri vega vanokurudzirwa nepurofiti. Migove yeBoE yaiwanzoongwa zvakanyanya mushure mekuvandudzwa kwechata, sezvo imwe neimwe yaipa kuwedzera kwesimba remari.
 
 Mukuvandudzwa kwechata ye1742, BoE yakasimbisa hutongi hwayo kunyanya pamusoro pekuburitswa kwenoti muEngland. Bazi rakazvimiririra rakanga risisabvumidzwe kuburitsa matsamba echipiri ayo akavimbisa kubhadhara mutakuri wegoridhe paanenge achida, achiisa masangano akazvimirira zvachose kune chikamu chechitatu chemari. BoE yakatarisana nemamwe machata ekuvandudzwa uye shanduko yemitemo isati yawana chimiro chechigarire muna 1844.
 
-Kuwanda nekudakubatwa zvakanaka
+### Kuwanda nekudakubatwa zvakanaka
 
 Ngationei kuti elasticity yemari inowedzera sei patinofamba takaderera mumatanho. Pachikamu chechipiri chemari, manotsi eBank of England ane elastic nekuti akachengetwa zvishoma; anopihwa kudarika goridhe rakachengetwa muBoE vault. Uku kunyungudika kunowedzerwa kana bazi rakazvimirira rinoburitsa madhipoziti anovimbisa kubhadhara BoE manotsi, uye iwo madhipoziti pachawo anongochengetedzwa zvishoma nezvakataurwa. Sezvo piramidhi remari rinokura, zvidimbu zvepasi mupiramidhi zvine kusimba kwakanyanya asiwo kusasimba kwakanyanya sechigadzirwa. Nekumashure kwekusimba kwemari, tinogona kutarisa kuti Bhangi reEngland rakaita sei nekuvhunduka kwemari, kana chiitiko chevanhu vachikwenya piramidhi yemari kuti vawane mamwe marudzi emari.
 
-Mukweretesi weLast Resort
+### Mukweretesi weLast Resort
 
 Manotsi eBanga re England aidiwa semari nekuda kwekushandurwa kwawo kumari yegoridhe uye kukweretwa kwachangamire. Zvakangodaro, zvinyorwa zvaive zvichiri zvechipiri-layer mari, uye musiyano pakati peBoE manotsi negoridhe wakawedzera panguva yeimwe dambudziko remari. Kuvhundutsa kwemuna 1796, kwakakonzerwa nekuputika kwebubble renyika mhiri kweAtlantic muUnited States of America yakanga ichangobva kuumbwa, yakakonzera kusakwana kweBritish uye pakupedzisira kumhanya paBank of England goridhe. Uku kubuda kwemari yechikamu
 
@@ -394,23 +294,20 @@ Bhangi reEngland raive nenzira yekudzivirira kubata kwaro goridhe, asi raidawo n
 
 Muna 1873, munyori weBritish ane mukurumbira uye muvambi wemagazini yeEconomist Walter Bagehot akanyora bhuku remasemina rainzi Lombard Street: Tsananguro yeMoney Market iyo yakabvisa mashandiro emusika wemabhiri, uye kuti Bhanga reEngland rinofanirwa kushanda sei kuitira kuti rive nechokwadi. inoderedza matambudziko. Bhuku raBagehot rinonyanya kutaurwa pakusarudza mabhanga makuru se "mukweretesi wekupedzisira sarudzo" mukati mehurongwa hwemari. Mhinduro yake yaive yekuti Bhangi reEngland rikweretese mari pachena kune zvikwereti zvine mubairo pamurango asi mubereko unonzwisisika:
 
-Mukuvhunduka, varidzi veiyo yekupedzisira Bank reserve vanofanirwa kukweretesa kune vese vanounza kuchengetedzwa kwakanaka nekukurumidza, pachena, uye zviri nyore.
+> Mukuvhunduka, varidzi veiyo yekupedzisira Bank reserve vanofanirwa kukweretesa kune vese vanounza kuchengetedzwa kwakanaka nekukurumidza, pachena, uye zviri nyore.
 
 Matambudziko emari panguva iyi aienderana nekukasira kwakawedzera kudiwa kwemari, apo avo vanoburitsa kana kubata mari yechitatu yaida yakawanda muchimiro chechipiri-chikamu cheBhanga reEngland manotsi. Apo kudiwa kwemari kwakawedzera, Bagehot akatsanangura kuti mari yechipiri inofanira kugadzirwa nebhanga guru kuitira kugutsa chido ichocho. Inofanirwa kuchinjisa simba rayo rekunyungudika ichiri kuchengetedza chirango kuitira kuti isakurudzire njodzi yehunhu, iyo inoitika kana sangano rezvemari rinopinda munjodzi yakawandisa nekuti rinotarisira kununurwa nehurumende kana bhanga guru kana chinzvimbo chayo chemari chakashata. BoE yaizopa mari nekudzikisa mabhiri avaiona sekuda kutsigirwa kwenguva pfupi, kwete mabhiri aifanirwa kugadzika zvisinei nemamiriro emari. Kana mamiriro emutengo asina kuchinjika pazvinenge zvichidikanwa, kudonha kwezvisizvo kwaigona kupinda muchikamu chechitatu chemari. Akagumisa kuti bhanga guru renyika rinofanirwa kupedzisira ragadzira mari-yechipiri-yakawanda kana sisitimu ichida zvakanyanya, ichitsigira mashandiro ebhanga guru kubva ipapo. Simba rekugadzira mari rakauya nemutoro, pazvinenge zvakakodzera, kuita chero zvaidiwa kuchengetedza sangano remari. Pondo sterling yakapedza zana regumi nepfumbamwe semari inochengeterwa pasi rose sezvo dzimwe nyika dzakaitenga semotokari yekuchengetedza nekuda kwehumiro uye kugadzikana kweHumambo hweBritain. Sezvo Humambo hwakawedzera kuvhara hafu yepasi pePasi, Bhangi reEngland rakatarisana nedambudziko rakakura rekuchengetedza dhinominesheni repamba rinoshandiswa nevatori vechikamu pasi rese. Pound sterling haingave iyo mari yekupedzisira kutambura neiyo conundrum. Mhiri kweAtlantic, iyo inotevera nyika yekuchengetedza mari yakanga yakamirira mumapapiro.
 
-Chitsauko 4
+## Chitsauko 4: Sisitimu yemubatanidzwa yekuchengeta mari
 
-Sisitimu yemubatanidzwa yekuchengeta mari
-
-Goridhe ndiyo mari. Zvimwe zvese chikwereti.
-
-—J.P. Morgan to United States Congress in 1912
+> Goridhe ndiyo mari. Zvimwe zvese chikwereti.
+> — J.P. Morgan to United States Congress in 1912
 
 Mukutanga kwezana ramakore rechimakumi maviri, pondo yakaramba iri mari yakachengetwa pasi rose asi yakanga ichirasikirwa nedhora reUnited States. Munguva yekushanduka kwezvinhu, vashandi vemakambani Cornelius Vanderbilt,
 
 John D. Rockefeller, Andrew Carnegie, JP Morgan, naHenry Ford vakavaka makambani aikwezva kudiwa kwemari yekuAmerica. Nyika yaida madhora kuti itenge zvinhu, mabasa, uye migove yemasangano matsva emakambani epamusoro. Munguva iyi, United States yakanga isina bhanga guru. Asi apo kudengenyeka kwenyika kukuru muSan Francisco kwakakonzera dambudziko rezvemari muna 1907, United States munguva pfupi yakatevera yaizotora peji kubva mubhuku raWalter Bagehot ndokuisa mukweretesi wezvekupedzisira kuita pakati pehurongwa hwayo hwemari. Sisitimu yekuchengeta mari zvemubatanidzwa, yakagara nhaka mari yatova munzira yayo kuenda kunzira yekuchengeta sepasi rose kamwe chete muna 1914. Yakagadzirisa hurongwa hwemari ine mativi matatu, nemabhanga akatemerwa akazvimirira ega akabvumirwa kugadzira midziyo yemari yechikamu chechitatu mubepa rekuenzanisa mari. Nhasi, iyo sisitimu yekuchengeta pamwe chete inoramba iri pamusoro pehutongi hwemari sezvo dhora richine korona yepasirese kunyangwe chinzvimbo chayo chave chidiki. Kunzwisisa mamiriro edhora akaoma ekutonga uye kusasimba kunogona kutsanangurwa zviri nyore nematemu edu akaturikidzana, nyaya inotamba muzvitsauko zvitatu zvinotevera. Muchitsauko chino, tichaputsa piramidhi yekuchengetwa zvine mubatanidzwa kwemadhora matatu. Zvadaro, tichaona kuti bazi rekuchengeta pamwe chete nehurumende yeUnited States dzakabvisa sei goridhe kubva pachikamu chekutanga chemari. Uye pakupedzisira, tichatarisa kuti hurongwa hwemari hwepasi rose hwakawira sei mukusagadzikana kutanga muna 2007, uye nei nekudaro kuchema kunowedzera gore rega rega kuti mari yepasi rose itangezve.
 
-Mari yekutanga yeAmerica
+### Mari yekutanga yeAmerica
 
 Munyika yose yeNyika Itsva makoroni, chimiro chemari chakasiyana zvakasiyana pakati pematunhu. Mari yesimbi yakanga isina kuwanda mumazuva ekutanga nekuti mint yekoloni yakanga isati yavapo uye mari dzeEurope dzakanga dzisati dzawanda kuti dzishandiswe nemunhu wese semari. Izvi zvakaita kuti vanhu vashandise mamwe marudzi emari emuno. MuNew York, mabhero ehoko regungwa anonzi wampum, aishandiswa semari nemarudzi mazhinji eNative America, akatenderedzwa sezvinyoro zviri pamutemo muzana ramakore rechigumi nenomwe. KuVirginia, fodya yakava hupfumi hwekutanga uye hwaro hwepiramidhi yemari yayo nekuda kwemukurumbira wepasi rose wechirimwa. Chikamu chefodya chakave chiyero cheakaunzi, uye zvinyorwa zvinovimbisa kuendeswa kwepondo dzefodya zvakapihwa naVirginia semari yechipiri-yechipiri iyo yakatenderera pakati peveruzhinji semari. Shell nefodya zvaikwana semari yedunhu nekuti chimwe nechimwe chairatidza mamwe, asi kwete ese, emari yemhando dzemari. Hapana akanga akakwana, asi mumwe nomumwe wavo akabudirira kushanda semari kwemakumi emakore akawanda. Ose ari maviri aipatsanurika, akaoma kufungidzira, asingafungidziriki, uye akasimba zvine mwero. Pakupedzisira, dzaizotsiviwa senzira dzekutsinhana uye zvikamu zveakaunti nemhando yepamusoro yemari yakaitika kare: mari yegoridhe nesirivha.
 
@@ -418,7 +315,7 @@ Nekufamba kwenguva, mari dzekunze dzegoridhe nesirivha dzakatanga kutenderera se
 
 \[Dhora\] imari inozivikanwa, uye inonyanyozivikanwa kupfuura dzose mupfungwa dzevanhu. Yakatotorwa kubva kuMaodzanyemba kuenda kuMaodzanyemba; yaratidza mari yedu, uye nekudaro inozvipa nerufaro sechikamu chakatounzwa.
 
-Musanganiswa wemari
+### Musanganiswa wemari
 
 Makore gumi nematanhatu mushure meDeclaration of Independence, yechipiri Congress yeUnited States of America yakazopasa Coinage Act muna 1792 kuti imise dhora reUnited States sechikamu chepamutemo cheakaundi yenyika, ichitsanangura dhora rimwe semagiramu 1.6 egoridhe nemagiramu makumi maviri nemana yesirivha.
 
@@ -432,7 +329,7 @@ Mari yeNyika inochengetedzwa neUnited States Bonds yakaiswa kuna Treasurer weUni
 
 Pamusoro pemapepa emabhengi ebazi rakazvimirira, zvitupa zvegoridhe zveU.S. zvakatendererawo semari. Uye pakupedzisira, chimbo chekubhadhara mari yeHondo yeVanhu uye mari yemapepa inonzi greenback, yaisakwanisa kudzikinurwa nesimbi yakakosha, yakatenderedzwa semari mukupera kwezana ramakore rechigumi nemapfumbamwe zvakare. Pamwe chete, United States yaive nemubatanidzwa wezvechipiri-chikamu zvemari zviri kutenderera nenyika yese. Miganho pakati pechipiri neyechitatu yakange yakaoma kutsanangura, kunyanya pasina bhanga guru uye hurongwa hwemari. Zvichakadaro, mwero wegoridhe wepasi rose wakatanga kuEngland wakatanga kutekeshera pasi rose sezvo dzimwe nyika dzemuEurope dzakatanga mari dzechikamu chechipiri dzine vimbiso yekushandurwa kuita mari yegoridhe, izvo zvakakonzera kutangazve kushandiswa kwegoridhe muUnited States. The Gold Standard Act ye1900 yakagumisa kumwe kusanzwisisika kwemari, kubvisa sirivha kubva pamari yayo uye yakamisa dhora rimwe pa1.5 magiramu egoridhe rakachena. Mutengo unowirirana wetroy ounce imwe chete yegoridhe wakamira pa$20.67—kwawakanga uripo kubvira muna 1834. Chiitiko chacho chakanga chiri chetsika sezvo maAmerica akanga atojoinha mwero wegoridhe wenyika mukuita, asi chaive chakakosha pakuiswa chiratidzo kwedhora. sangano. IUnited States yakanga zvino yakagadzirira kumwe kuedza kubhangi guru.
 
-Zvakachengetedzwa
+### Zvakachengetedzwa
 
 Muna 1906, kudengenyeka kwepasi kwe7,9 magnitude kwakazunungusa San Francisco, California kuchikonzera kuparadza kukuru kwoupenyu nezvinhu; vanhu vanopfuura zviuru zvitatu vakafa uye mazhinjisa eguta akaparadzwa. Nenzira inotenderera, kudengenyeka kwenyika uku kwakakonzera kusikwa kweFederal Reserve System. Mumakore aya, zvakawanda zvezvivakwa zveSan Francisco zvakapihwa inishuwarenzi muLondon. Mainishuwarenzi ekuBritain akabhadhara chikamu chikuru cheSan Francisco's colossal insurance claims nekuda kwekudengenyeka kwenyika, uye mari yakawanda yakatumirwa kuCalifornia. Kuti vadzivirire pound-to-dollar exchange rate, Bhizinesi reEngland rakasimudza zvinoshamisa mitengo yezvibereko ne2.5% mukupera kwa1906 mukuedza kukwezva mari kubva padhora. Yakashanda, uye hupfumi hweAmerica hwakapinda munguva yechibvumirano, izvo zvakazokonzera dambudziko remari. Zvakazotevera kwaive kupokana kwese-kubvisa mari yechipiri neyechitatu-yechitatu yakapihwa nechero sangano rezvemari rekuAmerica iro rine kukweretwa kwakauya nemubvunzo. Sezvo vanhu vekuAmerica vakakwira piramidhi yemari muKutyisa kwe1907, vanoisa mari munyika yose vakabvisa mari yebhangi kutsvaga nzira dzepamusoro-soro yemari, semari yegoridhe kana US Treasuries. Kubviswa kwemari uku munyika yose kwakonzera kuti mabhanga ematunhu ashande mumabhanga eNew York. Sezvo dambudziko rakawedzera, mubhangi titan JP Morgan akapinda, akaronga ruponeso rwemari mumabhanga ari kuderera, uye akachengetedza hurongwa hwemari. Morgan akange asina sarudzo: bhangi repakati reUnited States uye mukweretesi wekupedzisira sarudzo akange asipo.
 
@@ -444,7 +341,7 @@ chaicho icho Fed inoshandisa kushandisa simba rayo remari. Ndiwo magadzirirwo em
 
 Wholesale money (Fed reserves) imari inoshandiswa nemabhanga, uye retail money (Fed notes) imari inoshandiswa nevanhu. Fed reserves madhipoziti emabhangi chete uye haana chero nzvimbo yekutengesa: hapana munhu anogona kuvhura account ega ega kubazi ravo reFederal Reserve ozvitora. Musiyano pakati peholesero nekutengesa mari inova yakakosha pakukurukura nezveramangwana repakati pebhangi, asi munhoroondo yenhoroondo, Fed's mandate yaive yekupa mari yakawanda, kana mari yebhangi system, apo kusagadzikana kwechikwereti kwakakonzera kusagadzikana kwemari. Zita rakataura zvese; iyo Federal Reserve system yaive yakarongedzerwa kuve nzira yekununura yakakura yezvipo.
 
-Fed
+### Fed
 
 The Federal Reserve Act zita rakazara ndeiyi:
 
@@ -464,47 +361,30 @@ Pakutanga, Federal Reserve yakanga isiri yavo kana kuronga kuve neUS Treasuries 
 
 Maitiro ekuvaka chikamu chakakura chechikwereti chehurumende yeUS chaive nezvakakura papiramidhi yedhora. US Treasuries yakabatana negoridhe pachikamu chekutanga chemari nekuda kwekuumbwa kwezvinhu zvitsva zveFed: pakazopera Hondo Yenyika I muna 1918, chiyero chekufukidzwa kwegoridhe cheFed chakadonha kubva pa84% kusvika pasi pe40%. akanga zvino akabatwa mumabhondi ehurumende yeUnited States. Yakanga iri chiratidzo chekutanga chekuti U.S. Treasuries yaizopedzisira yatsiva goridhe zvachose sedhora piramidhi ndiro rekutanga-layer asset. Mufananidzo 10 unoratidza piramidhi yemadhora matatu makore mashoma mushure mekusikwa kweFed.
 
+![](./svg/10-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 10
 
-/ \\
+## Chitsauko 5: Kuregedza Goridhe
 
-Goridhe, Bazi reU.S. rekuchengeta mari
-
-^
-
-/ (Kuchengeta amri pamwe chete) \\
-
-^
-
-Mari iri mumabhanga (inotengeka muuhwandu), Mari yebepa (inotengeka muhushoma) / ^ \\
-
-(Mabhanga akazvimiririra)
-
-/ ^ \\
-
-Dhipozitsi (inotengeka muhushoma)
-
-Chitsauko 5
-
-Kuregedza Goridhe
-
-Kune ese maEurodollar uye zvikwereti zveU.S. banks\[,\] . . . chitubu chavo chikuru chinyoreso chemutarisiri wemabhuku. —Milton Friedman, Nobel Prize in Economics winner, 1976
+> Kune ese maEurodollar uye zvikwereti zveU.S. banks\[,\] . . . chitubu chavo chikuru chinyoreso chemutarisiri wemabhuku. 
+> — Milton Friedman, Nobel Prize in Economics winner, 1976
 
 Zvakangotora hafu yezana ramakore mushure mekupera kweHondo Yenyika I kuti United States isiye mwero wayo wegoridhe. Kuregererwa kwegoridhe kubva kuhurongwa hwedu hwemari hwepamutemo kunogona kurondwa kune zvakatevedzana zvezviitiko zvinotanga nekuparara kukuru kweWall Street muna 1929. Ma1920, aiwanzozivikanwa semakore makumi maviri anotinhira, aive makore gumi anotsanangurwa nekutanga kwekutengesa: kushandisa mari. mari senzira yehupenyu. Chikwereti chakave chinowanikwa zvakanyanya kune avhareji yeAmerica, asi pachinzvimbo chekuyera huwandu hwekukura kwayo, zvinonyanya kufadza kutarisa rudzi rwechikwereti rwaipihwa. Zvitoro zvemadhipatimendi zvakatanga kupa makadhi echikwereti kuvatengi vakapfuma kekutanga, makambani emafuta akatanga zvirongwa zvekuvimbika kwekadhi rechikwereti, uye mabhanga akakuchidzira fungidziro mumusika wemasheya nekukweretesa inosvika 90% yemari inodiwa kutenga migove. New York yakanga yava musimboti wezvemari dzepasi rose. Zvikamu zvemakambani akarongwa paNew York Stock Exchange zvakafashukira nokudiwa, uye mari yakadururirwa muUnited States. Izvi zvakasimbisa zvakanyanya kudiwa kwemadhora pasi rose uye zvakasimbisa mari yekuAmerica kune pasi rose reserve currency echelon. Kuwanda kwemari kusikwa kwakaitika mukati memakore makumi maviri kwakapokana nechirango chegoridhe pakusimba kwemari uye zvakaburitsa pachena kudiwa kwenharaunda kuti dhora ribviswe kubva kugoridhe. Sezvineiwo, pakanga pasina goridhe rakakwana raive rakabatwa nehurumende yeUnited States kuti ripe mari yayakanga yavimbisa mukugadzwa kwayo. Humbowo hweizvi hwakauya mushure mekuparara kwenhoroondo yemusika wemasheya.
 
 Apo mitengo yemasheya yakawana simba rinokwevera zvinhu pasi muna Gumiguru 1929, Fed yaifanira kupindura kune dambudziko guru rezvemari nemoyo wose kwekutanga. Nehuwandu hwakatarwa hwematura egoridhe uye inosunga zviri pamutemo 35% yegoridhe-yekuvhara reshiyo, iyo Federal Reserve haina kukwanisa kugadzira iyo yaidiwa mari yechikamu chechipiri kudzivirira kuderera kwehupfumi. Zviuru zvakawanda zvebhanga zvakakundikana mukutanga kwema1930, zvichitsvaira mabhiriyoni emadhora emabhengi eAmerica. Kuderera kwehupfumi kwakabatana nechokwadi chakakasharara chekuti mari yechitatu inogona kunyangarika nechinguva chidiki. Hapana mambure ekuchengetedza kana inishuwarenzi yaivepo kugadzirisa kurasikirwa kwakadaro. Fed yakaedza "kupa mari yakanyungudika" uye kuve mukweretesi wekupedzisira kuita nepese paaigona napo, asi hazvina kukwana kukurira mhedzisiro yechitatu-layer mari contraction yakakonzerwa nechishuwo cheveruzhinji kutiza zvine njodzi. deposits. Iyo Federal Reserve yakasungwa nemutemo wepasirese goridhe-kuvhara iyo yakaganhura huwandu hwechikwereti iyo Fed yakaitwa kuti iwanikwe kuhurongwa. Kurangwa kweGoridhe kwakagamuchira kuchema kwemhosva yekutadza kwehupfumi kusimuka uye zvakakonzera shanduko inoshamisa uye yakatsvaira papiramidhi yedhora muma1930s. Zviitiko izvi zvinofanirwa kuonekwa sechikonzero chikuru chakatanga kusimuka kwegoridhe kubva kumamiriro emari enyika.
 
-Hapana Goridhe Kwauri
+### Hapana Goridhe Kwauri
 
 Mutungamiri Franklin Roosevelt vakapa Executive Order 6102 muna Kubvumbi 5, 1933 iyo yakaraira ese "mari yegoridhe, bullion yegoridhe, uye zvitupa kuti zviunzwe kuhurumende." Kurongeka kwacho kwakave kutengeswa kwekumanikidzirwa kwegoridhe mukutsinhana neFederal Reserve manotsi (cash) nevagari vese vemuUnited States uye zvakabvisa zvachose kuwanikwa kwevanhu kune yekutanga-layer mari. Ichi chiziviso chemhangura chakaita kuti kutora uye kutengeswa kwemari yekutanga zvisiri pamutemo uye kurangwa anosvika makore gumi mutirongo, zvichiyeuchidza danho reBhange reAmsterdam rekuti vese vanotora mari vape mari yesimbi yakakosha vachitsinhana neBoA deposits pakusikwa kwayo muna 1609. .
 
 Gore rakatevera, United States yakapasisa Gold Reserve Act ya1934, iyo yakaderedza dhora pairi nendarama nekuwedzera mutengo wegoridhe kubva pa$20,67 kusvika pa$35 paaundi. Uku kudzikisira kukuru kwaive kuramwa kwekuvhiyiwa muhondo yepasi rose yepasi rose umo nyika dzakaedza kudzikisa mari yadzo nepamusoro pevadzinotengeserana navo. Vavariro yavo yakanga iri yokukwezva kudiwa kwedzimwe nyika nokuva nemitengo yakachipa. United States yaingotevedzera zvaiitwa nedzimwe nyika dzese: kupa chero munhu ane goridhe simba rekutenga rekutenga zvinhu zveAmerica nemasevhisi. Nehurombo kune veruzhinji vekuAmerica, kuwedzera kwemutengo wegoridhe kwakauya mushure mekutora, zvichireva kuti vanhu vekuAmerica havana kubatsirwa nazvo. Mutemo uyu wakaendesa zviri pamutemo huridzi hwegoridhe rose reFederal Reserve kuUnited States Treasury uye wakatangira kufamba kwegoridhe kubva kuNew York kuenda kuUnited States Army kuFort Knox kuKentucky.
 
-Dhipoziti Inishuwarenzi
+### Dhipoziti Inishuwarenzi
 
 Mutemo weBanking wa1935 wakagadzika zvachose iyo Federal Deposit Insurance Corporation (FDIC), ichiisa bhengi inishuwarenzi yedhipoziti yeavhareji mhuri yeAmerica. Muchirevo chemari yakavharwa, FDIC inishuwarenzi ndeye federally yakavimbiswa inishuwarenzi pane ese matatu-layer bank deposits. FDIC vimbiso yakaderedza kutya kweveruzhinji kwechitatu-layer mari vaporising sezvayakaita panguva yekuvharwa kwe4,000 mabhanga muna 1933 chete. Muhuwandu, kukanganisa kwekusikwa kweFDIC kwaive kudiki: mari yeinishuwarenzi kune yega yega depositor yaingova 5,000 madhora. Asi kubva pamaonero epfungwa, kukanganisa kwacho kwaive kwakakura. Vanhu vaisazotiza madhipoziti echitatu-chikamu vachifarira mari-yechipiri kana vaiziva kuti madhipoziti avo akaiswa inishuwarenzi nehurumende yemubatanidzwa. Pasina goridhe semotokari yekuchengetera iripo, federal deposit inishuwarenzi yaive kuyedza kwehurumende kuvimbisa vagari kuti mari yavo yekuchengetedza dhora yaizodzivirirwa kunyangwe ikachengetwa nemabhanga emakambani akazvimirira ane njodzi. Panguva imwe cheteyo, Federal Reserve yakazochengetedza hutongi hwayo pamusoro pekupihwa kwenoti mushure mekunge U.S. Treasury yabhadhara mabhondi ekupedzisira anokodzera serutsigiro rwemanotsi akavanzika. Piramidhi yedhora yaimbova isinganzwisisike yakaerekana yatanga kutariswa: hurongwa hwemari hwakanga huripo pakati pechikamu chechipiri nerechitatu chemari, uye kusungirirwa kwegoridhe pazvikamu zvakaderera kwakaderedzwa nezviito zvehurumende pakati pa1933 na1935. US dhora kuti rimire roga, risina goridhe.
 
-Mambo Dhora
+### Mambo Dhora
 
 Mukati mehondo yemari yepasi rose, dhora rakabuda sehembe rakasviba rakachena mukugezeswa kwemari dzepasi rose. Kunyange zvazvo dhora rakaderera maringe negoridhe, dzimwe nyika dzanga dzichiita izvi nenzira yakatokura. Pound sterling yakasiya mwero wegoridhe muna 1931 uye yakagumisa zviri pamutemo hutongi hwayo semari yekuchengetedza pasi rose. Chipo chakazadzwa nemari yesimba idzva repasi rose: United States of America.
 
@@ -512,33 +392,17 @@ Muna 1944, vatungamiri venyika vakaungana pahotera muBretton Woods, New Hampshir
 
 Chibvumirano chakaunza musiyano unokosha muhukama pakati pezvikamu zvemari. Mari dzekune dzimwe nyika dzaive pachikamu chechitatu chemari, panguva ino kwete nekuda kwebalance sheet kwayakavepo, asi nekuda kwehukama hwemutengo kune madhora. Mumufananidzo 11, tinoratidza USD padanho riri pamusoro pedzimwe mari dzakadai seGBP (British pound sterling) uye CHF (Swiss franc). Pondo nefranc zviri pasi pedhora muzvikamu zvemari nekuti mutengo wazvo unoyerwa nemadhora. Izvi zvinoreva kuti kuenda kumberi, pane hukama huviri hunobvira pakati pemidziyo yemari mukati meiyo yakaturikidzana: chiyero cheshizha rekutonga uye mutengo wepamusoro.
 
+![](./svg/11-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 11
 
-Goridhe, U.S. Mari dzakachengetedzwa
-
-^
-
-(Federal Reserves)
-
-/ \\
-
-U.S. Dollars (USD)
-
-^
-
-/ (Mitengo) \\
-
-^
-
-Mapaunzi ekuBritain (GBP), Ma swiss eku France (CHF)
-
-Zvakatemerwa Kukundikana
+### Zvakatemerwa Kukundikana
 
 Nehurombo kuhurongwa hwemari hwepasi rose, chibvumirano cheBretton Woods chakaparara. Anonyanya kufunga nezvemutoro wemari dzepasi rose panguva ino ndiRobert Triffin, nyanzvi yezvehupfumi yakaberekerwa kuBelgian yakaita tsvakiridzo kuFederal Reserve neInternational Monetary Fund mumakore ayo ekutanga. Triffin akafanotaura nemazvo kupera kwechibvumirano cheBretton Woods kwemakore gumi chisati chadonha. Kunyange zvazvo vagari veUnited States vakarambidzwa kuva negoridhe, nyika dzekunze dzakanga dzichiri kubvumirwa kushandura madhora avo akaunganidzwa kuita simbi. Triffin akafanotaura kuti nyika idzi dzaizopedzisira dzapedza mari yegoridhe yeUnited States, zvichiita kuti mutengo wakatemerwa wemadhora makumi matatu nemashanu paawandi yegoridhe isingakwanise kuchengetedza. Akayambira kuti kushandurwa kwegoridhe hakugone kurarama pasina kugadziridzwa kuhurongwa hwakaitwa nechibvumirano cheBretton Woods. Chakanyanya kukosha, akaziva kuti kuve mari yekuchengetedza pasi rose waive mutoro, kwete chikomborero. Nyika dzekunze dzaizounganidza madhora nekuda kwechimiro chayo chekuchengetedza. Izvi zvaizosimbisa dhora uye zvokonzera kusaenzana kwekutengeserana uko kwaisazovepo pasina iyi imwe sosi yepasirese reserve currency inoda. Mhinduro yaTriffin yakarongwa kudambudziko remari yenyika imwe inoshanda sesangano renyika dzepasi rose rezvemari kwaiva kubatana kwezvematongerwo enyika pakati pemasimba makuru ehupfumi. Muuchapupu kuUS Congress muna 1959, akabvuma kuti mhinduro yake yakaramba isina kujeka, dambudziko rakafambisa kudiwa kwegoridhe semari isina kwayakarerekera pasirese, zvisinei nekuti pfungwa yacho ingave isina musoro sei:
 
-Mhinduro ine musoro yedambudziko . . . ingadai yakawanwa kare kudai kwakanga kusiri nokuda kwezvinetso zvikuru zvinobatanidzwa mu. . . kusvika pachibvumirano nenyika dzakati wandei pamativi akawanda ehurongwa hune musoro hwemari yepasi rose nekugadzira zvikwereti. Izvi, hongu, ndiyo chete tsananguro yekupona kwegoridhe pachayo. Hapana munhu angadai akafunga nezvekuraswa kusinganzwisisike kwezviwanikwa zvevanhu pane kuchera goridhe kumakona ari kure ePasi nechinangwa chega chekuitakura nekuiviga zvakare ipapo mune mamwe makomba akadzika, kunyanya akacherwa kuti agamuchire uye akachengetedzwa zvakanyanya kudzivirira. it. Nhoroondo yezvido zvevanhu, zvisinei, ine pfungwa yayo pachayo.
+Mhinduro ine musoro yedambudziko... ingadai yakawanwa kare kudai kwakanga kusiri nokuda kwezvinetso zvikuru zvinobatanidzwa mu... kusvika pachibvumirano nenyika dzakati wandei pamativi akawanda ehurongwa hune musoro hwemari yepasi rose nekugadzira zvikwereti. Izvi, hongu, ndiyo chete tsananguro yekupona kwegoridhe pachayo. Hapana munhu angadai akafunga nezvekuraswa kusinganzwisisike kwezviwanikwa zvevanhu pane kuchera goridhe kumakona ari kure ePasi nechinangwa chega chekuitakura nekuiviga zvakare ipapo mune mamwe makomba akadzika, kunyanya akacherwa kuti agamuchire uye akachengetedzwa zvakanyanya kudzivirira. it. Nhoroondo yezvido zvevanhu, zvisinei, ine pfungwa yayo pachayo.
 
-Offshore Dhorazi
+### Offshore Dhorazi
 
 Iyo nyaya yeEurodollar isingatauriki zvishoma. Zvakakosha kuti tinzwisise kuti dhora rose rakakandwa sei munyonganyonga panguva yedambudziko remari ra2007-2009, nei hurongwa hwemari hwepasi rose hwakaramba huri muhurombo kubvira ipapo, uye zvakakosha kuti sei nyika iri kuziya nenzara yekugadzirisa mari.
 
@@ -556,41 +420,25 @@ Madhora aidiwa kunze kweUnited States kuitira kuti atore chikamu muhupfumi hwepa
 
 Dhora rakanga radzika midzi sesangano rehupfumi hwenyika: madhiramu emafuta aitengwa nemadhora, zvibvumirano zvekutengeserana zvakarohwa nemadhora, uye mabhangi epasi rose akaiswa mumadhora. Nekuda kwekuuya kweEurodollar, piramidhi yemari yedhora yakashanduka. Neiyo Fed isingakwanise kuziva, kuongorora, kana kutonga nyika yemabhangi epasi rose uye maEurodollar, hazvina kujeka kuti ndeipi chikamu chemari maEurodollar aivepo. Vaive fomu rechitatu-layer mari pasi peFederal Reserve manotsi? Vaive mari yechipiri-pasi pasi pezvipi zvehurumende mabhondi uye akasiyana kiredhiti chiridzwa chaaive nacho? Kana kuti raive piramidhi idzva, rakasunungurwa kune dhora raivepo? Iyi mibvunzo yaisazopindurwa zvizere kusvika dambudziko guru rezvemari ra2007–2009. Mumufananidzo 12, tinoratidza Eurodollar system ine mubvunzo wemubvunzo pamusoro pepiramidhi kuratidza kusanzwisisika kwemari yemabhanga epasi rose anoburitsa USD.
 
+![](./svg/12-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 12
 
-?
-
-^
-
-?
-
-/Mari dzakakweretwa, Manotsi eFederal Reserve\\
-
-^
-
-/ (Mabhanga ekudzimwe nyika) \\
-
-^
-
-/ Eurodollar Dhipozitsi \\
-
-Kuzoregedzwa kwegoridhe
+### Kuzoregedzwa kwegoridhe
 
 Muna 1961, zviratidzo zvekutanga zveyambiro zvakapenya kuti kushandurwa kwedhora kuenda kugoridhe kwaive munjodzi huru. Sezvo yambiro yaRobert Triffin yainzwika zvakanyanya munzeve dzevagadziri vemitemo, United States, United Kingdom, nevamwe vakaungana kuti vagadzire Goridhe Pool, umo mabhanga epakati akatengesa simbi inokosha mumusika kuchengetedza chivharo pamutengo wayo pamadhora makumi matatu nemashanu paawanzi imwe. Nyika dzekunze dzakaunganidza madhora nekuda kwemamiriro ayo emari pasi rose uye dzakazotanga kushandura madhora aya kuita goridhe. Zvikumbiro zvekudzikinura zvakange zvave kutanga kuvaka kudzvanywa pamutengo wegoridhe wakatarwa. Dziva reGoridhe rakadonha makore manomwe gare gare apo mutengo wakapfuura zviri pamutemo madhora makumi matatu nemashanu mumisika yeEurope. Mumakore mashoma akatevera, goridhe rakazvibvisa nenyasha kubva pachikamu chekutanga chepiramidhi yedhora, ichirasikirwa nemamiriro ayo emari. Muna 1971, United States yakamisa kushandurwa kwegoridhe padhora; kumiswa kwekutanga kwaifanirwa kunge kuri kwechinguva, asi dhora harina kuzodzokera kune chero linkage nechinhu. Makore maviri gare gare, nguva yemazuva ano yemahara-inoyangarara mari yakatanga, ichigumisa zviri pamutemo chibvumirano cheBretton Woods. Ndarama yakachinjirwa kuita basa risiri pamutemo remari isina kwayakarerekera, ichiri kubatwa nanhasi nehurumende nemabhanga epakati pasirese seyekutanga-layer, mari isina bato.
 
-Chitsauko 6
-
-Kusagadzikana kwedhora
+## Chitsauko 6: Kusagadzikana kwedhora
 
 Nhasi, hurongwa hwedu hwemari hwaparara. Inoshanda, asi kuputsika mukati kunoita kuti ive nyore kuputika. Yakapotsa yaparara muna 2008 uye zvakare muna 2020. The Federal Reserve yakaita basa rayo semukweretesi wekupedzisira sarudzo mumamiriro ega ega uye yakachengetedza hurongwa hwemari huri mhenyu, asi munhu wese zvino anonzwisisa kuti Fed ndiyo chete pasi rose tsime rechokwadi remvura, uye pasina tsigira sisitimu haina kukwanisa kuzvimiririra. Kubva pamaonero emari, hapana nzvimbo dzakawanda mupiramidhi yedhora dzisina vimbiso yakajeka kana yakajeka yekudzokera kumashure kubva kuFederal Reserve nhasi. Piramidhi yedhora yakazvityoka munzvimbo dzakawanda kubva muna 2007, zvekuti Federal Reserve yanga isisina sarudzo kunze kwekuisa mabhandeji padivi pese pese. Ichi chitsauko chinotaurira nhoroondo yekuti Federal Reserve yakava sei mukweretesi wepasirese wenzvimbo chete.
 
-Chinyoreso cheMutariri Wemabhuku
+### Chinyoreso cheMutariri Wemabhuku
 
 Pasina goridhe, US Treasuries yakamira yega pamusoro pepiramidhi yedhora semari yekutanga chete. Pfuma pachayo imhando yechikwereti, uye kukweretwa kwavo kunobva kuzvinhu zvehurumende yeUnited States uye simba rekuunganidza mutero kubva kuvagari vayo. Aya mabhondi ehurumende akave nzira yepamusoro-soro yekuchengetedza madhora uye zvichiri nhasi. Mukushaikwa kwegoridhe, iyo Fed's balance sheet yakashandisa US Treasuries sechinhu chayo chikuru, uye bazi rakazvimirira rakavashandisa senzira ine simba rese yekubatisa mari. Kumabhanga, varidzi vemabhondi ehurumende aya vakashandisa simba rekugadzira imwe mhando yedhora inonzi Treasury Repo dollars.
 
 Munguva yeHondo Yenyika Yechipiri, United States Treasury yakamisa rusununguko rweFederal Reserve maererano nemutemo wezvemari uye yakamanikidza Fed kuti iwane mari yehondo. Iyo Fed yakatenga huwandu hukuru hweUS Treasuries nemitengo yakasarudzika semubereko, uye kuda kwehurumende yeUnited States kwehutongi hwezvematongerwo enyika kwakatsiva mutemo wezvemari wakazvimirira weFed mune zvematongerwo enyika. Makore mashoma mushure mekunge hondo yapera, Treasury-Fed Accord yakadzoreredza rusununguko kuFed, asi zvakatonyanya kukosha, yakashandura chikamu chikuru cheTreasury mumaoko emabhanga evatengesi, ane chekuita nekushanda kwakanaka kwemusika wePfuma uye kubata kwePfuma. Mabhanga evatengesi aya aive nesimba rekubvisa mari kubva mumidziyo yavo yeTreasury vachishandisa musika wekukwereta kwechibatiso unonzi musika weTreasury Repurchase (Repo). MuTreasury Repo transaction, bhanga rine mari yechibatiso yeTreasury rinogona kuivimbisa sechibatiso uye rokwereta mari pairi, sezvakangoita muchitoro chepawn. Kusikwa kweTreasury Repo dhora kwakaitika kuburikidza nenzira imwecheteyo yepepa remari inoshandiswa pakusikwa kweEurodollar: chinyoreso chemubhuku. Mabhanga aikwanisa kushandisa mari yaainge akwereta mumusika weTreasury Repo mukugadzirisa dhora remabhanga, nokudaro mahomwe avo eTreasury akanga ari mabviro matsva emari. Pakazosvika 1979, Federal Reserve yakapedzisa mune imwe ongororo kuti kuputika kweTreasury Repo transactions kwaitokonzera kuwedzera kwese kwekuyerwa kwemadhora uye yakabvuma kusakwanisa kuita chiyero ichocho nemazvo. Pakazosvika 1982, Federal Reserve yakakanda mapfumo pasi pakugadzirisa kugoverwa kwemadhora nokuti vakanga varasikirwa zvechokwadi nekukwanisa kuzvichengeta; pakati pekuputika kweEurodollars neTreasury Repo madhora, mari yedhora yakanga yarasikirwa pasina mubvunzo. Pane kudaro, iyo Fed yakachinjika kuhurongwa hwemari hwakanangana nekutonga mibairo yenguva pfupi.
 
-Iyo referensi yemadhora
+### Iyo referensi yemadhora
 
 Mareferensi mareferensi akakosha pakunzwisisa kuti dhora rakaparara sei muna 2007. Chiyero chereferensi imari yechimbadzo yechishandiso chechikwereti chinoonekwa chisina njodzi mukati medzidziso yezvemari. Dzidziso yezvemari inoshandisa pfungwa ye "risk-free rate" senzvimbo yereferensi yekuyera njodzi yekudyara. Asi kiredhiti zviridzwa, netsanangudzo, zvine ngozi yevamwe; hapana chinhu chakadaro chinogona kunge chisina njodzi zvachose. Chero mukwereti, kunyangwe ane simba rakadii, anogona ne theoretically default. Muchokwadi, zvakadaro, sangano rakaita seUnited States Treasury harina kumbobvira rakanganisa zvikwereti zvaro uye rine bhanga rayo repakati rekudzosera zvachose chero uye zvese zvayakapa. Iyo Fed ndiyo yakakura inobata Treasuries munyika; zvinokwanisika kuvatenga ad infinitum nekuti kutenga kweTreasuries ndiyo nzira iyo Fed inogadzira yechipiri layer reserves musystem. Uyewo yeuka kuti munguva yakapfuura, Fed yakatemerwa mutemo kutenga US Treasuries kuitira kubatsira nemari yehondo.
 
@@ -606,7 +454,7 @@ Muna 1998, iyo Fixed Income Clearing Corporation yakaunza mubereko unonzi Genera
 
 Mari dzemubereko dzeT-Bills, Fed Funds, LIBOR, uye GC zvese zvakaratidzirana, zvichireva kuti hurongwa hwemari hwakaona aya mana emari-akawanda kana mashoma akafanana. Iwo mana mareferensi emitengo ese akabatana muCongress kusvika Nyamavhuvhu 9, 2007, apo kuwirirana kwakashanduka kuita kusawirirana. Tisati tarondedzera zuva rakashata, tinofanira kutanga nekutarisa kuwana mari kunoitwa nemusika wemari.
 
-Mari yemusika wemari
+### Mari yemusika wemari
 
 Vanhu vazhinji havadi ngozi. Ivo vanowanzo dzivirira kupokana, kana mune zvemari, ivo vanoshuvira mari dzepamusoro-soro dzisingaite. Muzvishoma zvishoma, FDIC insured yechitatu-layer bank deposits inokwana. Mune yakawanda, inowedzera kuoma. Ngatidzosei muenzaniso weVOC, migove yayo, uye kusikwa kweBhangi reAmsterdam kuratidza mamiriro emari nhasi, maererano nekudyara. MuAmsterdam, migove yeVOC yaive yekufungidzira asi ichipa mubayiro kune vekutanga vatengesi. Kana vatengesi vaida kubvisa mari, vaida mari yemhando yepamusoro kune yegoridhe neyesirivha yakaputirwa musutukesi. Bhangi reAmsterdam rakapa iyo mari-mhando mumhando yeBoA deposits, iyo yakarairwa kushandiswa kwakava nzira iri nyore yekuchinjana pakati pekudyara nemari. Pakanga pari panguva iyi iyo mari yakashandurwa kuita izwi rinoshandiswa kutsanangura imwe nzira yekudyara nenjodzi. Cash ikozvino inoreva kurongeka kwepamusoro kwemari maererano nematokisi nemabhondi, kwete chete kumari yemapepa. Muchokwadi, hapana mutengi mukuru anogona chaizvo kushandisa mari yepepa nechero chinhu: iyo mhando yemari haina basa kana uchibata nemari yakawanda. Cash nhasi inoreva maturusi emari akachengeteka hukama kune mamwe ese mainvestimenti ane njodzi. Izvi zvinotisvitsa mukuwana mari kunoita Musika wemari.
 
@@ -616,59 +464,15 @@ Mari yemusika wemari yakave yakakurumbira muma1970s padivi peiyo boom muTreasury
 
 Mari yemusika wemari migove, zvichienderana nekuumbwa chaiko kwezviridzwa zvemari, yakava yechipiri- uye yechitatu-yechitatu-mhando yemari-mhando ivo pachavo. Kudiwa kwemigove yeMMF kwakaramba kuchienderera sezvo vaibvumira nzira isina kuoma yekuve nemusanganiswa wemidziyo yemari mune imwe chengetedzo. Mari yakawandisa inobatwa nemamaneja ekudyara kubva pasirese yakatsvaira mari masikati ega ega mumaMMF ayo aizotengawo mari. Izvi zvakashandura dhamu remari repasi rose kuita nzira yekuwana mari kumakambani emunyika dzakawanda akatanga kutsamira pamari yemapepa ekutengeserana emashandiro awo. Kana, nekuda kwechimwe chikonzero, vane mari vakafunga kutengesa zvikamu zveMMF zvezvishandiso zvemari zvepamusoro-soro, mabhanga nemakambani vachivimba nekugara vachidiwa kwezvisungo zvavo zvenguva pfupi vaizosangana nedambudziko rekushaikwa kwemari. Naizvozvo, kubudirira kweMoney Market Funds kwakaunzawo hutete hwakakura kuhurongwa hwemari. Mufananidzo 13 unoratidza kuti piramidhi yedhora yakaita sei sezvataienda kuzana remakore rechimakumi maviri nerimwe uye kuti zvikamu zveMMF zvakava sei nzira huru yemari yekutengesa. Kune mapiramidhi maviri, rimwe rekumiririra hurongwa hwemadhora ekuAmerica uye rimwe rekumiririra hurongwa hwemadhora ekuAmerica.
 
+![](./svg/13-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 13
 
-Sisitimu yema U.S. dollar
-
-/\\
-
-U.S. Treasuries
-
-/ ^ \\
-
-(Federal Reserve \[1\], Banks \[2\], MMF \[3\])
-
-^
-
-Reserves \[1\] (W), Notes \[1\] (R), Treasury Repo \[2\] (W), MMF shares \[3\] (R)
-
-/ ^ \\
-
-(U.S. Banks \[1\], MMF \[2\])
-
-/ ^ \\
-
-Deposits \[1\] (R), MMF shares \[2\] (R)
-
-/ \\
-
-Offshore U.S. dollar system
-
-/\\
-
-U.S. Treasuries, Loans
-
-/ ^ \\
-
-(International banks)
-
-/ ^ \\
-
-/Treasury Repo (W), Eurodollars (W)\\
-
-/ ^ \\
-
-(Money Market Funds)
-
-/ ^ \\
-
-MMF shares (R)
-
-Apo Interbank Trust Yakundikana
+### Apo Interbank Trust Yakundikana
 
 Long Term Capital Management (LTCM) yaive homwe yehedge yakavambwa muna 1994 ine fambiro mberi huru. Shamwari dzayo dzakapenda mufananidzo wekukwana nerekodhi yavo. Vakarumbidza kubva kubhangi guru reSalomon Brothers rekudyara, iyo Federal Reserve, uye vaisanganisira vaviri veNobel Prize vakahwina economists. Hunyanzvi hwavo hwaive hwekupokana, hwakafanana nekutanga kudzikisa mabhiri ezana ramakore regumi nematanhatu Antwerp pakavakirwa misika yemari. LTCM's yemakwikwi mukana wakasanganiswa mubereko arbitrage, huwandu hukuru hwekuwedzera, uye carte blanche kubva kumabhanga anotungamira ekudyara pasirese. Nekudaro, zvese zvakaguma zvaparara mushure mekunge homwe yacho yakundikana zvinoshamisa mushure memakore mana chete iripo. Mutori wenhau wezvemari wekuAmerica Robert Lowenstein akatumidza bhuku rake nezve kudonha kwekupedzisira kweLTCM muna 1998 Apo Genius Yakakundikana muchidimbu chakakwana. Kuti hedge fund yakatora njodzi yakakura uye yakaenda insolvent chaive chisiri chinhu chitsva, asi kutenderera kwakajairwa kweboom, hype, uye bust. Iyo riveting yakazarurwa kubva mukudonha kweLTCM yaivewo pfuti yekuputa iyo yairatidza zviitiko zve2007 nekupfuura zvaive zvisingadzivisike. Nguva pfupi yapfuura mushure mekunge Federal Reserve yabvisa LTCM bhengi rekudyara mari pamwe nekusunungurwa kweiyo ine mukurumbira wakashata hedge fund pachayo, sachigaro weFederal Reserve Alan Greenspan akaratidzira kubvisirwa sekwakakosha nekuda kwetarisiro yekudonha kwehurongwa hwese hwemari muuchapupu kuUS. Congress:
 
-Nyaya yakanga iri, mukutonga kwedu kwose, kuti mukana \[wokuputsika kwenhevedzano\] wakanga wakakura zvakakwana kutiita kuti tisanzwe takasununguka pamusoro pokusaita chinhu . . . Kufungidzira kwangu ndekwekuti mukana wacho waive pasi pe50 muzana, asi uchiri wakakura zvekuti unonetsa.
+Nyaya yakanga iri, mukutonga kwedu kwose, kuti mukana \[wokuputsika kwenhevedzano\] wakanga wakakura zvakakwana kutiita kuti tisanzwe takasununguka pamusoro pokusaita chinhu... Kufungidzira kwangu ndekwekuti mukana wacho waive pasi pe50 muzana, asi uchiri wakakura zvekuti unonetsa.
 
 Nekufamba kwenguva uye zviito zvechimbichimbi zvakazotevera zveFederal Reserve ndipo pakatanga kunyura kweGreenspan. Sei?
 
@@ -676,7 +480,7 @@ Mhinduro iri mune zvakatorwa. Kubva pazvibvumirano zvemari zvisingatariswe secur
 
 Panguva yekubhadhara mari yeLTCM, kukosha kwemusika kwese kwese kwepasi rose kunosanganisira kuchinja kwechimbadzo, kiredhiti default swaps, uye kuchinjanisa mari yekunze yaive madhora mabhiriyoni matatu. Kuenzanisa, huwandu hwese hweUS Treasuries hwaive zvakare madhora matatu emadhora. Pakazosvika 2007, huwandu hwehupfumi hweUnited States hwakawedzera kusvika ku $ 4 trillion asi kukosha kwemusika kwezvinobva kune zvakakosha kwakawedzera kusvika ku $ 11 trillion. Nepo madhora matiririyoni mana ari muTreasuries akamira pamusoro pechinyakare chemakore maviri ekukwereteswa, ukuwo, iyo $11 trillion yakanyura zvisingaite pawaya dzakatetepa uye dziri kupera dzeinterbank trust.
 
-Kupinda mukusagadzikana
+### Kupinda mukusagadzikana
 
 Pasinei nekutsemuka kwehwaro hwepiramidhi yedhora yakaitika mushure mekuregererwa kweLTCM, mibairo yemusika wemari yakaratidza facade yakasimba. US Treasury Bills, Fed Funds, Eurodollar LIBOR, uye Treasury Repo GC mareti ese akateedzana kwemakore. Kusiyanisa kudiki kwaizoitika asi kwaigara kuchiratidzwa semhedzisiro yemwaka kana idiosyncratic zvinhu. Izvo zvese zvaizochinja kutanga muna Nyamavhuvhu 9, 2007. Pazuva iro, LIBOR yakakwira neinogona kuita seyakaomesesa 0.12% maererano nemhuri yese yemitengo yemusika wemari, asi kwaive kutanga kwechimwe chinhu chinoshamisa. Husiku hwapfuura, bhanga reFrance BNP Paribas rakanga risingade kukoshesa zvimwe zvakabva uye kumisa mari yese yaibviswa pamari yaive nemidziyo yezvemari ine chekuita nevakwereta vekuAmerica vane njodzi. Kusavimbika kwakangoerekana kwabata musika weinterbank fund mumavhiki aitevera. Mabhangi aitya kukweretesana mari mune chero nzira nekuti vaive vasina chokwadi chekuti ndeapi mabhanga aizotadza kuvhura zuva raitevera. Nguva yezvisingaperi, inenge isina hanya-yemahara interbank kuratidzwa yakanga yapera, yakatsiviwa nekuchenjerera kwakanyanya uye kutya. Kukwidza piramidhi yedhora kwakanga kwatanga.
 
@@ -692,7 +496,7 @@ kweinterbank trust uye liquidity ine yayo yakavimbika liquidity. Iyo Fed yakaida
 
 Interbank trust yakangoora mumakore mushure medambudziko remari ra2007-2009. Mabhangi akatanga kudzoreredza kuratidzwa kwavo kune mumwe nemumwe mukati mechikamu chechina chegore rega rega kugadzirira kutora kwekupedzisira kwegore. Kusiyanisa mumusika wemari mubereko wemari inopararira-sepaya LIBOR yakapatsanurwa kubva kuFed Funds nemamwe muna Nyamavhuvhu 2007-yakaitika kakawanda, kunyanya pazviitiko zvekarenda sekupera kwekota yega yega uye nguva dzemitero yeUnited States. Kubviswa zvachose kwaizoitika, zvichiratidza kuti mari yaidiwa pane dzimwe nguva mukati megore yakanga isingawanikwi hazvo kune vaya vaiida zvikuru. Liquidity yaive yakarongeka, kutaura zvishoma. Iyo Fed yakanga yadzikisa mutengo wemari uye yakanangana nemhindu ye0%, yakadzora isingazivikanwe yemhando yeEurodollar musika, uye yakagadzira matiririyoni emadhora ematura ekusimbisa mabhengi ekuAmerica, asi chii? Apo Fed yakazoedza kusunungura zviito zvayo zvechimbichimbi makore gare gare, haina kukwanisa kukwidza mhindu pamusoro pe2% pasina kutya kwezvemari kwenguva pfupi kusimudza musoro wayo wakashata zvakare. Iyo Fed yakakurumidza kudzoreredza kosi pakuziva zvakare kusasimba kwedhora. Kudzokera kumisika yemari ine rugare kwakange kusingasvikike, sezvo Fed yakanga yabvisa kuwanikwa kwemitengo kubva muhurongwa nekurambidza akawanda-mhando dzechitatu-mari-mhando kubva pakuona magumo avo.
 
-Mukweretesi umwe chete
+### Mukweretesi umwe chete
 
 Zvakawanda sezvizhinji zvekubviswa kwemusika wemari muna 2010s, mhosva yekutanga yedambudziko reTreasury Repo munaGunyana 2019 yakaverengerwa kuUnited States mutero wekambani. Rondedzero yenhau dzezvemari yaiti: Migove yeMMF yakatengeswa nemakambani kuitira kuti vabhadhare zvisungo zvavo zvemutero izvo zvaibva zvabvisa Treasury Repo yekukweretesa, asi iyo Treasury Repo liquidity yaizodzoka nekukasira senge mumazuva anotevera zvimwe zviitiko zvekarenda. Musi waGunyana 16, kupararira kweGeneral Collateral kuFed Funds kwakawedzera ne0.10%, asi hapana akabwaira ziso. Mafambiro ehukuru uhu akange ave akajairika mumakore kubva pazuva rine mukurumbira waNyamavhuvhu 2007 apo LIBOR yakave isina kubatana kubva kune yese musika wemari.
 
@@ -706,15 +510,13 @@ Tichidzokera kumashure, isu tinofanirwa kunzwisisa kuti sei Fed iri kugadzira iy
 
 Ngano dzekuparara kwedhora hadzina nguva. Nepo nharo dzavo dziine masvomhu merit yakapihwa kuti imarii yakagadzirwa neFed, vanoshaya kubatana kana vachifunga dzimwe nzira. Idhora richiri mari isingaverengeki pasi rose. Hafu yemainvoice ese epasirese akaitwa muUSD kunyangwe hupfumi hweAmerica huchingori gumi neshanu muzana rehupfumi hwenyika. Zvisinei nekutsoropodza kwese kwakakodzera nezve Federal Reserve inoita kunge isingaperi dhora kusikwa, chimiro chedhora sesangano reakaunzi, nzira inosarudzika yekubhadhara kune kutengeserana kwenyika dzese, uye mari yemusika mukuru yemari haina kupfupika pane inotonga. Hutongi hwayo hahukwanisi kupera mumakore akawanda anotevera. U.S. Treasury inoramba iri iyo chete midziyo ine yakasimbiswa musika liquidity uye kudzika kunodiwa kupa zita rengozi-isina asset. Dhora rave remusikirwo zvekuti nzira chete yekuchengeta madhora zvechokwadi nekufamba kwenguva ndeyekuva nehofisi yeU.S Treasuries. Ndosaka madhora achifamba-famba pachikamu chechipiri nechechitatu chemari, asi US Treasury chete inogona kuzvidaidza kuti mari yekutanga mupiramidhi yedhora. Hudzamu uye hupfumi hwemusika weUS Treasury hautarisi danho rekuchengetedza mari mudhora redhinominesheni, ndicho chinhu chega chinoibata pamwe chete nekuda kwekusavimbika kunobva pakuva nemari yakapihwa nebhanga yechitatu.
 
-Chitsauko 7
-
-Kudzorerwa Kwemari
+## Chitsauko 7: Kudzorerwa Kwemari
 
 Mazuva makumi mana nematanhatu mushure mekudonha kweLehman Brothers muna 2008 uye pakati pekuona kwepasirese kwemamiriro ehurongwa hwedhora, bepa jena rine nguva yakatarwa rakatumirwa kunharaunda diki yepamhepo inonzi Cryptography Mailing List. Iro bepa rakanyorerwa nhengo dzeiyo cryptography chirango, kwete iyo yemari, uye saka haina kana kunyoresa seyakakosha kune mari kumashure. Tichitarisa kumashure, zvisinei, isu tinofanira nechiremera kuisa zuva ranhasi, Gumiguru 31, 2008 uye kusikwa kweBitcoin mune rekodhi repamutemo rekushanduka kwemari. Zuva rakakosha kwete chete nekuti bepa rakakurudzira imwe nzira kune yedu yazvino hupfumi hwehupfumi, asiwo nekuda kwezvakazoitika. Bitcoin, chimbo chemari, chave kuwanikwa neinosvika 1% yehuwandu hwepasirese, kana vanhu vangangosvika zana remamiriyoni. Kutsoropodza kwakasimba kwekusimuka kweBitcoin kubva kune vezvematongerwo enyika, vemabhanga, uye nhepfenyuro yezvemari yakaitika pamwe nekuwedzera kwekuwedzera kwevashandisi vayo uye kukosha kwemusika. Kusvika kweBitcoin, kukura, uye simba rekugara zvino kunopa maonero akatendeseka, akanyatsoongororwa, uye akazara eiyi tekinoroji nyowani yemari. Panzvimbo yekudzinga Bitcoin semari isingadzorerwe uye isina kutsigirwa, isu tinofanirwa kuedza kunzwisisa kuti nei chaizvo Bitcoin yakaunganidza nzvimbo yakadaro yekutarisisa uye kukosha kwemusika. Mumakore gumi nemaviri chete, yakatotora inenge 6% yegoridhe rose kukosha kwemusika kunyangwe goridhe rakati wandei-makore kutanga musoro.
 
 Munzvimbo yesainzi yemari, Bitcoin mupambi wekunze. Izvo hazvifananidzi chero chinhu chakauya pamberi payo nekuti inovimba zvakanyanya nehunyanzvi hwekuvandudza tekinoroji yehafu yezana ramakore rapfuura. Nzvimbo yesainzi yekombuta inonzi applied cryptography yakapinda muhurongwa hwemari ichibva yavhundutsa. Kupinda uku kunoramba kuchidzoka negore rega rega rekukura kweBitcoin mupfungwa. Kana tikatarisa kumashure kwakabva Bitcoin kuburikidza nelenzi yebhuku iri, tinogona kuona kuti mari nyowani yekutanga-yakatanga kugadzirwa uye kuti mari necryptography sainzi dzakabatana. Kubatana kwangove iko zvino, makore gumi nemaviri mushure mekusikwa kweBitcoin, kugamuchirwa sechirango chemari. Tisati tafungidzira kuti ichaita sei, tinofanira kunzwisisa kwakabva Bitcoin, nhoroondo yekutanga, uye kushanduka kwepiramidhi yemari yayo.
 
-Satoshi Nakamoto ne Bitcoin Bepa Jena
+### Satoshi Nakamoto ne Bitcoin Bepa Jena
 
 Pepa rakabudiswa muna Gumiguru 31, 2008 rakashandura nyika yemari zvachose rakanyorwa naSatoshi Nakamoto. Kusazivikanwa uye zvakavanzika zvakatenderedza Satoshi persona uye zvake, iye, kana zvinyorwa zvavo. Musiki anoramba asingazivikanwe kunyangwe izvozvi, chimwe chinhu chinosimbisa kusarerekera kweBitcoin, sezvo pasina mutungamiriri aripo ane simba rakawandisa, anogona kumanikidzwa kana kuvharirwa, kana kuedza kushandura mitemo yeBitcoin. Kukosha kwekuzivikanwa kwemugadziri iko zvino hahuna maturo, asi hachiri kuderedza kunyengedza kwekusava nechiso; Satoshi aizotumira tsamba yake yekupedzisira inozivikanwa muna Kubvumbi 2011 uye akanyangarika kubva paInternet zvachose. Ngano uye ngano yaSatoshi ichaita firimu rinokatyamadza rimwe zuva, asi software yaakagadzira yakashandura zvachose pfungwa yemari. Mutsara wekutanga wepepa raSatoshi Nakamoto "Bitcoin: Peer-to-Peer Electronic Cash System" yakaverenga:
 
@@ -722,15 +524,15 @@ Kungofanana nevezera-kune-vezera vhezheni yemari yemagetsi yaizobvumira kubhadha
 
 Mari inofambiswa yepamhepo pasina masangano emari yaireva kurongeka, asi sei, uye nemitemo ipi? Mari chete inogamuchirwa pasi rose uye isina kwayakarerekera isingavimbi nesangano rezvemari igoridhe. Chinhu chinonyanya kufadza chekugadzira kwaSatoshi kweBitcoin chaive chinangwa chake chekuti itevedzere goridhe seyekutanga-layer, mari isina bato. Uye izvo zvaireva kugovera kusingabvi kubva pabharanzi. Bepa raSatoshi rakavakirwa pahwaro uye neakawanda anogamuchirwa cryptography zvidhinha zvinove zviri pamutemo pfungwa yake pakati pedzimwe nhengo dzeCryptography Mailing List.
 
-Kutsanangura Bitcoin
+### Kutsanangura Bitcoin
 
 Izwi rekuti "Bitcoin" rinoreva zviri pamutemo zvinhu zviviri, (1) Bitcoin software protocol uye (2) chikamu chemari mukati meiyo software. Mubhuku rino, tichanongedzera kuchikamu chemari seBTC mumutsauko kubva kune software pachayo. Bitcoin, iyo software protocol, seti yemitemo. Inoshandisa mauto-giredhi encryption algorithm inonzi Secure Hash Algorithm 2 (SHA2), yakatanga kubudiswa neU.S. bazi rehungwaru muna 2001. Kushandiswa kweSHA2 kunoonekwa kwakachengeteka zvekuti inonyatso kudiwa nemutemo mukati menzvimbo dzehurumende dzinobata ruzivo rwakanyanya. Dhizaini yeBitcoin inosanganisa SHA2 nemitemo ine hungwaru inoyevedza zvekuti inokwanisa kubatanidza zvivakwa zvemari zvegoridhe munyika yedhijitari. Pazasi, iyo cryptography yakashandiswa naSatoshi yakaratidza uye yakachengeteka. Iyi mitemo yehungwaru yakavaka nzira yekubatanidza yaakadana kuti "cheni yezvivharo," asi nyika yaizosvika pakuidaidza kuti Bitcoin's blockchain.
 
-Saenzi dzemaComputer
+### Saenzi dzemaComputer
 
 Tisati tanyura mune chaiyo hunyanzvi hutsva hweBitcoin's blockchain yakaita kuti ive yakabudirira mari yedhijitari, isu tinofanirwa kubvuma kuti kunzwisisa Bitcoin padanho rehunyanzvi kunoda hunyanzvi hwesainzi yekombuta. Mabhuku ezvinyorwa akanyorwa paBitcoin software, izere nehurongwa hwedanho-danho pane ese makuru makuru eBitcoin anosanganisira makiyi, kero, wallet, kutengeserana, uye migodhi. Muzvitsauko zviviri zvinotevera, tichakurukura uye kutsanangura zvikamu izvi, asi kune avo vanoda ruzivo rwakanyanya mune inopenya cryptography kuseri kweBitcoin software, tanga ne "Mastering Bitcoin" naAndreas Antonopoulos. Yakanyorwa nenzira inosvikika kunyange kune avo vasina simba rakasimba resayenzi yekombiyuta asi vanoda kuziva nezvemitemo inoita kuti Bitcoin ishande. Kune vamwe vese, nzwisisa kuti mitemo yeBitcoin inoita kuti ive mari yedhijitari yakavimbika zvakanyanya nenzira imwechete iyo vanhu vanovimba neemail yekukurukurirana kwedhijitari. Vanogona kunge vasingazive kuti zvinoshanda sei, asi zvinoita.
 
-Inobatsira hurongwa hwe Bitcoin
+### Inobatsira hurongwa hwe Bitcoin
 
 Ngatitangei tiongorore matatu ekutanga madimikira eBitcoin: goridhe, nyika, uye email.
 
@@ -740,7 +542,7 @@ BTC inyika yedhijitari. Kune chete 57 miriyoni masikweya mamaira epasi paNyika. 
 
 Pakupedzisira, Bitcoin inoshanda zvakafanana kune email. Iwe unogona kusanzwisisa komputa sainzi kuseri kwemashandiro ayo, asi chiitiko chekutanga chekutumira uye kugamuchira email chiitiko chepasirese. Kero dzeemail dzinogona kugovaniswa chero ani zvake, asi chete ane password anogona kuwana mameseji anogamuchirwa. Bitcoin inoshanda nenzira yakafanana. Unogona kugovera kero yako yeBitcoin nemunhu wese anokutumira mari, asi chete nepassword yako, inonzi kiyi yakavanzika, unogona kuipedza. Email iprotocol yekutumira uye kugamuchira data; zita rayo repamutemo iSimple Mail Transfer Protocol (SMTP). Bitcoin zvakare iprotocol, asi kutumira uye kugamuchira kukosha panzvimbo yedata.
 
-Blockchain ne Bitcoin Mining
+### Blockchain ne Bitcoin Mining
 
 Chii chinoita kuti Bitcoin ifanane negoridhe, hupfumi hwevanhu hunonyanya kuratidzwa mari? Mhinduro iri mumitemo yeBitcoin protocol.
 
@@ -760,11 +562,13 @@ Yakawanda sei BTC inopihwa nemugodhi paanobudirira kuchera bhuroko, uye ndiani a
 
 The Bitcoin protocol mandates kuti zvidhinha kuitika paavhareji maminitsi gumi kure, asi nguva chaiyo pakati zvidhinha anogona kutora masekonzi kana maawa zvichienderana sei zvinotora mugodhi kuhwina imwe neimwe tsumo BTC rotari. Iyo algorithm inogadzirisa iyo computational lottery mavhiki maviri ega ega kuita kuti zvivharo zviitike paavhareji maminetsi gumi zvakaparadzana, inonzi kuomerwa kwekugadzirisa, yakagadzirwa naSatoshi Nakamoto uye yave ichishanda sewachi yekuvapo kwese kweBitcoin. Hapana wezera rimwe chete ane simba pamusoro peiyo automated yakaoma kugadzirisa. Iyo yakaoma kugadzirisa algorithm inoonekwa isingabatike nevashandisi veBitcoin uye vanogadzira software nhasi nekuti ndiyo imwe yezvivakwa zveBitcoin zvinoita kuti ive isina kwayakarerekera uye inopokana nekutonga kwepakati. Iine epamusoro migodhi ASICs, mucheri anogona kuhwina chikamu chekunze chemubairo weblock, asi pakupedzisira Bitcoin inozvidzivirira pakuvandudzwa kwesimba rekugadzirisa komputa nekudzikisa zvishoma nezvishoma zvakanakira kure. Kuwedzera nguva dzose mukuita basa rekuomerwa kwemigodhi seimwe yeBitcoin yekuchengetedza nzira, kudzivirira makombiyuta emazuva ano anokurumidza kutiza ne block mibairo uye kutyaira hunyanzvi mukugadzira komputa chip. Mitemo yakatenderedza kupihwa kweBitcoin yave tamper-proof, isingaori, uye chiyero chitsva chegoridhe chekushomeka kwemari. Mhedzisiro yeBitcoin yakasarudzika uye inopenya yekutonga seti inyaya yemhando yemari. Nerazor chaiyo uye software yemahara, munhu anogona kuyera chaizvo kuti kashoma sei chibvumirano chake cheBTC chero nguva.
 
-Tumira uye Gamuchira
+### Tumira uye Gamuchira
 
 Iyo yekupedzisira tekinoroji chikamu chekunzwisisa nezveBitcoin hukama pakati pekiyi nemakero uye kuti vezera vanotumira nekugamuchira sei BTC. Kero, iyo inoshandiswa kugamuchira BTC, inogadzirwa kubva kunhamba dzinonzi private keys. Izvi zvinoreva kuti kuve neBTC pachayo ndiko kuve nenhamba. Makiyi epachivande ane 256-character binary tambo, seizvi:
 
+```
 11011010010001101011010101011001100100100001101100111110100101010101101110110001100100100101110010010 1100100101011000101110000111011001111010111001011111111110110111111001101110100011101101010000101100100 1011000011100111001110010110000000100111101101100101
+```
 
 Nhamba idzi dzinogona kuchengetwa mumashandisirwo e-smartphone anonzi wallet, pamidziyo yakatsaurwa yendangariro inonzi hardware wallet, inongonyorwa pasi pabepa, kana kutaura chokwadi munzira ipi neipi yaunogona kuchengeta nhamba. Makiyi epachivande anoburitsa kero inoshandiswa kugamuchira BTC, asi kero haigone kudzoserwa kumashure kuti iratidze kiyi yakavanzika kuseri kwayo, nekuda kweSHA2 encryption tekinoroji. Bitcoin kero dzinotaridzika seizvi:
 
@@ -772,7 +576,7 @@ Nhamba idzi dzinogona kuchengetwa mumashandisirwo e-smartphone anonzi wallet, pa
 
 Ndizvozvo: makiyi akavanzika (kutumira) uye kero (gamuchira). BTC inogona kutumirwa kutenderedza netiweki mushure mekucherwa pasina chero yepakati router kubvumidza kana kuongorora kutengeserana. Chero vezera mune network neBitcoin software vanogona kutumira, kugamuchira, uye kuongorora kutengeserana, asi hapana wezera rimwe chete anogona kudzivirira kuti zvisaitike. Ziva kuti vanhu vanoshandisa chikwama che smartphone havadi iyo yakazara Bitcoin software kuitira kuti iite muBTC; zvikwama zvinobvumira vanhu kuti vazvichengete vega BTC makiyi akavanzika asi vanovimba nevechitatu-bato node kudzorera kutengeserana kunetiweki kana isina kushandiswa tandem neBitcoin node.
 
-Sangano Idzva
+### Sangano Idzva
 
 Munzvimbo yedhijitari, software yeBitcoin inofambisa uye inobvisa zvese zvekutengesa mukati mesangano rayo. Inoshanda sebhangi repakati kubva pakuona kwekugadzirisa, chete panzvimbo yepakati, software iri chero kupi kweBitcoin nodes iripo. Kuvandudzwa kweBitcoin kwakagadzira dhinominesheni nyowani uye zvivakwa zvekubhadhara, zvinodzorwa nemunhu. Kubhadhara kwedhijitari kwakange kwatove kwose kwose ne2009 nekushandiswa kwakapararira kwekubhadhara kadhi rechikwereti yepamhepo, PayPal, uye mamwe maapplication ekubhadhara e-smartphone anoshandiswa kushandura madhipoziti ebhangi rechitatu. Asi kusvika Bitcoin, hapana munhu anga afunga nzira yekutevedzera mari uye kugadzirisa kwekupedzisira pane yekutanga chikamu chemari pasina kushandisa chepakati. Sezvo dhinomisheni yemari yeInternet, hurongwa hwekubhadhara, uye goridhe redhijitari zvese zvakakungurutswa kuita imwe, Bitcoin yakava simba rekuverengerwa pakutanga kwazvo kuvapo kwayo. Zviri pachena kuti ndiko kwaive kubudirira kwemari kwakakosha kubva pakaitwa goridhe makore anoda kusvika zviuru zvitatu zvapfuura: kushomeka, ane chokwadi nemasvomhu, akasununguka uye akavhurika kushandiswa, uye asinganetsi kukara.
 
@@ -780,7 +584,7 @@ Vagadziri vemitemo pasi rose vanofanirwa kuteerera chirevo chesangano idzva rema
 
 MaCryptographers anoshandisa kodhi kodhi kuratidza pfungwa dzavo dzesainzi nenzira imwechete iyo nyanzvi dzemasvomhu dzinoshandisa equation kana economists vanoshandisa magirafu. Ehe, ese ari maviri equation yemasvomhu uye magirafu anoshandiswa mune mamwe minda nekuda kwezvinangwa zvakawanda, kwete ese ayo anoratidza. Asi nyanzvi dzemasvomhu nenyanzvi dzezvehupfumi dzakatora nzira dzekutaura idzi kuitira kuti dzigone kugonesa kutaura chaiko uye kwakasimba kwepfungwa dzakaoma dzesainzi. Saizvozvo, iyo isingarambidzwe rekodhi pano inojekesa kuti cryptographers vanoshandisa kodhi kodhi nenzira imwecheteyo. Tichifunga nezveizvi, tinogumisa kuti encryption software, mune yayo kodhi kodhi fomu uye seyakashandiswa neavo vari mundima yecryptography, inofanirwa kutariswa seyakajeka kune yekutanga Amendment zvinangwa.
 
-Kutenga Kofi neBitcoin
+### Kutenga Kofi neBitcoin
 
 Iyo Bitcoin transaction settlement process inoenderana panguva imwe chete uye haina kurongeka zvakanyanya. Ngatitarisei muenzaniso weumwe munhu ari kuedza kushandisa BTC kutenga. Mumwe mukadzi anopinda mucafe
 
@@ -788,11 +592,11 @@ kunotenga kapu yekofi. Iyo cafe inogamuchira BTC sekubhadhara uye inobhadharisa 
 
 Kana Bitcoin isingashandiswe kutenga kofi, inonyanyo shandiswa chii? Bitcoin inonyanya kushandiswa zvakanyanya nevanhu vanofarira nzira isina kwayakarerekera, isina bato yekuchengetedza mari. Ngatipei muenzaniso wemunhu anonyanya kusimbaradzwa neBitcoin tekinoroji. Fungidzira mumwe mukadzi wechiduku muNigeria. Anogara kumaruwa uye ane tarenda remifananidzo. Kana akakwanisa kuwana basa rekuzvimiririra pamhepo, anogona kuwana mari kumhuri yake. Asi angashandisa sei nzira dzechinyakare dzokubhadhara kuti agamuchire mari? Haakwanise kuwana akaundi yekubhangi uye haakwanise kugamuchira mari mutsamba inotumirwa nemutumwa wekune dzimwe nyika. Bitcoin ndiyo chaiyo sarudzo yake yakanakisa. Achishandisa smartphone wallet, anogona kuzvigadzirira kero yeBTC, oitumira kune mutengi muZurich, uye ogamuchira mubhadharo. Haana basa nazvo kuti kutengeserana kunotora maminitsi gumi maminitsi ekusimbisa; pasina Bitcoin haaizokwanisa kuwana zvachose. Nemuenzaniso wakaita seuyu, tinogona kuona chaizvo kupa simba tekinoroji Bitcoin chaizvo. Vanhu vekuUnited States neEurope vakatenga BTC zvakanyanya nekuda kwezvikonzero zvekufungidzira vangave vari kukonzera kutorwa kwepasi rose nekutsigira kukura kwemusika kukosha, asi vanhu vari muLatin America, Africa, uye Middle East vane mari dzemuno dzisina chokwadi uye maindasitiri asingavimbike emabhangi anotoda kuti pave nemutengo wakaderera. mari isina kwayakarerekera uye yedhijitari yakadai seBitcoin.
 
-Chinangwa chaSatoshi
+### Chinangwa chaSatoshi
 
 Chii chaizvo chaiedza Satoshi Nakamoto kuzadzisa neBitcoin? Nekuda kweizvozvo, isu tinofanirwa kunyura mune zvinyorwa zvake uye netsamba mumazuva ekutanga eBitcoin network. Aive neshungu dzekupa imwe nzira kwete kumasangano emari chete, asiwo kune mari dzinowanzo deredzwa nehurumende nemabhanga epakati, chinangwa chiri pachena kubva kumaemail ake ekutanga uye maforamu. Musi waNdira 3, 2009, yekutanga Bitcoin block yakambocherwa naSatoshi pachake yaisanganisira meseji yakamisikidzwa pachinzvimbo chekutengeserana (sezvo pakanga pasati pavepo):
 
-The Times 03/Jan/2009 Chancellor ari kumucheto kwechipiri chekubhadhara mari kumabhanga
+> The Times 03/Jan/2009 Chancellor ari kumucheto kwechipiri chekubhadhara mari kumabhanga
 
 Satoshi akaisa musoro webepanhau reBritish nezvedambudziko remari ririkuenderera mberi rakananga murekodhi rekodhi. Nekumisikidza iyi meseji yakavanzika, akafungidzira kuti hurongwa hwake hwemari nekutengeserana hwakapa shanduko inodiwa uye mhinduro inogoneka kune bheilout-inotarirwa hurongwa hwebhanga hwepasirese.
 
@@ -802,7 +606,7 @@ Dambudziko remidzi nemari yakajairika kuvimba kwese kunodiwa kuti ishande. Bhang
 
 Satoshi Nakamoto akaburitsa shuviro yake yekuti BTC ivepo sesangano remari, kwete chete network yekubhadhara. Akataura fiat currencies kureva mari dzakaburitswa pachikamu chechipiri chemari nemabhanga epakati, zvisinei nekuti chii chiripo pane yekutanga; Shoko rokuti fiat pakutanga rinoreva "nechirevo" muchiLatin. Kushoropodza kwaSatoshi mari yefiat kwakaratidza kuziva kusamira zvakanaka kuri mukati mehurongwa hwedu hwakachengeterwa mari. Mukutarisa, kushoropodzwa kunoratidzika kunge kwakamukurudzira kugadzira Bitcoin. Zvichida mugadziri aida kupa nyika mari itsva-yekutanga iyo isina kubva mubhadhareti yebhangi guru.
 
-Zviratidzo zvekururikidzana kwe Bitcoin
+### Zviratidzo zvekururikidzana kwe Bitcoin
 
 Wekutanga mutsigiri weBitcoin mushure meSatoshi Nakamoto aive cryptographer Hal Finney. Pamberi pekusikwa kweBitcoin uye kuvaka pahwaro hwakaiswa naAdam Back, Finney akafambisa kushandiswa kwehumbowo-hwe-basa kuburikidza nekugadzira reusable proof-of-work system inoshandiswa naSatoshi Nakamoto mukugadzirwa kwepurogiramu yake; Mupiro waFinney kuBitcoin wakasimwa kunyange asati ava mushandisi weBitcoin. Finney aive wekutanga uye aifarira zvikuru Satoshi. Akanga ari mupi wekutanga kweBitcoin transaction, apo Satoshi akamutumira 10 BTC musi waJanuary 12, 2009. Bitcoin yaiva nemazuva mapfumbamwe, uye BTC yakanga isina mutengo kana kukosha kwemusika kutaura.
 
@@ -816,17 +620,14 @@ Ndinotenda kuti iyi ndiyo ichave yekupedzisira magumo eBitcoin, kuve "yakanyanya
 
 Ngatipfupise izvo Finney ari kuyedza kutaura mukati memamiriro emari akaiswa. BTC inononoka kufamba, yekutanga-layer mari. Zviuru zvishomanana zveBitcoin kutengeserana zvinosimbiswa mune imwe neimwe block, maminetsi gumi akaparadzana. Kana tichienzanisa, makambani makuru emakadhi echikwereti anogadzira zviuru zvekutengesa sekondi yega yega. Kuti ikurumidze kumhanya kweBitcoin, mabhanga anozoda kuve neBTC semari yekutanga-yekutanga uye kubudisa madhipoziti echipiri-anogona kufamba nekukurumidza kupfuura inobvumira blockchain yeBitcoin. Yechipiri-layer Bitcoin yaizobvumira chiitiko chehupfumi pasina kupokana. Fractionally reserved, masangano anopa zvikwereti achange aripo, uye musika uchatengesa imwe neimwe yemhando yechipiri BTC ine zvinoenderana nemubereko. Finney aive makore pamberi pekushanduka kweBitcoin nekufembera uku, imwe iyo nguva icharatidza kuve mazwi ekutanga anozikanwa akambonyorwa nezvayo. Bitcoin yaitsanangura mari uye yaizotora nzvimbo yayo pamusoro pepiramidhi remari rakasiyana. Hal Finney akashaya muna 2014, asi nzwisiso yake yepakutanga mukukwanisa kweBitcoin semari yepasirese inoungira nekusingaperi.
 
-Chitsauko 8
+## Chitsauko 8: Yakarongeka Bitcoin
 
-Yakarongeka Bitcoin
-
-Zvingave zvine musoro kungotora imwe kana ikabata. Kana vanhu vakakwana vachifunga nenzira imwe chete, iyo inova chiporofita chinozadzika.
-
-—Satoshi Nakamoto, January 16, 2009
+> Zvingave zvine musoro kungotora imwe kana ikabata. Kana vanhu vakakwana vachifunga nenzira imwe chete, iyo inova chiporofita chinozadzika.
+> — Satoshi Nakamoto, January 16, 2009
 
 Bitcoin yave yayo piramidhi yemari nekuda kwezvivakwa zvayo seyekutanga-layer mari. Iyo piramidhi inoyeuchidza mapiramidhi ane goridhe ekare, asi BTC haitore chimiro chayo chekutanga kubva pakuenzanisa nemadimikira; Satoshi akagadzira midziyo yedhijitari yainyatso kutevedzera simbi dzinokosha kuitira kukwezva kudiwa. Kuwedzera kwekuwedzera kwemutengo wemusika weBitcoin kunongosimbisa thesis yevatendi vayo vekutanga vakaita saHal Finney. Chechipiri-chitsauko BTC yakabuda nekuda kwezvikonzero zvakafanana-yechipiri-yegoridhe yakaita. Vanhu vanga vachida kubata zvikwereti paBTC sevanhu vaibata goridhe. Nyika iri kusimukira yemidziyo yedhijitari inotsigirwa neBTC nenzira yakafanana iyo hurongwa hwemari hwepasi rose hwakasimbiswa negoridhe, sezvakatsanangurwa muzvitsauko zvishanu zvekutanga zvebhuku rino. BTC haina kwayakarerekera, isina bato mari segoridhe iyo vanhu vanovimba nayo senzira yekupedzisira kugadzirisa. Chitsauko ichi chiri pamusoro peiyo BTC-denominated monetary system uye kuti BTC ine simba sei pamusoro penzvimbo yese yemidziyo yedhijitari.
 
-Kuva Nenyama
+### Kuva Nenyama
 
 Avo vanoyedza kuve varidzi vemari yekutanga vanowanzo shandisa mutsara wekuti "kuva nenyama" kutsanangura chiitiko chekuva nesimbi yakakosha muchimiro chemuviri pachinzvimbo chechitupa chegoridhe chechipiri, migove, kana chero chipi nechipi chivimbiso chekubhadhara goridhe. Vanonyatsoziva musiyano uripo pakati pegoridhe rekutanga nerechipiri uye vanosarudza kuva nesimbi dzenyama nebullion pachinzvimbo chegoridhe. Zvinouya pasi pakuvimba: ivo vanovimba chete nemuviri nekuti zvemuviri zvinoreva counterparty-isina. Bitcoin ine kusarerekera kune dzimwe nyika kumwechete kune goridhe; hazvinei nevanhu chaivo, makambani, kana nyika kuti irarame. Asi Bitcoin ine zvimwe zvakanakira goridhe munguva yemazuva ano. Inowanikwa pamakomputa chero kupi uye kwese kwese. Izvo hazvidi kutakurwa kutenderera pasirese nemarori ane zvombo, ngarava, uye ndege. Izvo zvakare hazvidaidzire kuchena kuyedzwa iyo inonyorera inodhura michina, chete Bitcoin node.
 
@@ -836,25 +637,13 @@ Kuchengetera kutonhora ibhizimusi riri kusimukira. Fidelity Investments, imwe ye
 
 Tinofanira kucherechedza kuti nekuiswa kwevakuru veBTC vatariri, vatengi vavo havazove vekutanga-layer BTC. Vatengi vanozove vechipiri-layer BTC nekuti havazove neBTC zvakavanzika makiyi; muchengeti achadaro. Sezvo chirevo chinoenda pakati penharaunda yeBitcoin, "kwete makiyi ako, kwete mari yako." Uye zvechokwadi, vachengeti vachave vari pasi pemutemo wehurumende mukati mehutongi hwavo. Dzimwe hurumende dzakaratidza hushamwari kuBitcoin setekinoroji nyowani yemari, asi chimiro ichi hachizonyatso kuratidzwa pasirese nekuda kwekugona kweBitcoin kutsiva mari dzehurumende dzisina kugadzikana.
 
-BTC/USD
+### BTC/USD
 
 Ikozvino kune huwandu hwakawanda hwechipiri-layer BTC mari-mhando. Zvimwe zviridzwa zvinoratidzira marongero emari ehurongwa hwemazuva ano hwemari, semadhipoziti. Zvimwe zvinyorwa uye zvinongogoneka kubva pakuvambwa kweBitcoin. Mienzaniso yekutanga yeBTC-yechipiri yaive madhipoziti akapihwa neinternet BTC/USD exchanges, sezvakaratidzwa mumufananidzo 14.
 
+![](./svg/14-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 14
-
-/\\
-
-BTC
-
-^
-
-/ (Bitcoin ichichinjanwa) \\
-
-^
-
-Dhipozitsi
-
-/\_\_\_\_\_\_\_\_\_\_\_\\
 
 Muna 2010, kutanga kweBitcoin kuchinjana kwakaumbwa kuitira kufambisa kutengeserana pakati peBTC nemadhora ekuU.S. Vakaratidza chinhu chakakosha zvikuru pamusoro peBitcoin: musika unoshanda waivapo pakati pevanhu vaida kutengeserana pakati peBTC neUSD. Bitcoin yakagadzirwa semari uye yaishandiswa chaizvo sezvaidiwa pasina gore mushure mekutanga kwayo. Imwezve kutsoropodza kwakajairika kweBitcoin ndeyekuti haigone kushandiswa kutenga zvinhu kana masevhisi nekuti mabhizinesi mazhinji haagamuchiri BTC senzira yekubhadhara. Kupikisa uku kunopotsa pfungwa yokuti BTC inogona kushandiswa kutenga chinhu chinonyanya kukosha chezvose: mari. Pakuchinjana nhasi, BTC inotenga varidzi vayo USD, EUR, uye chero imwe mari huru yavangasarudza.
 
@@ -872,7 +661,7 @@ chekutanga chekushambadzira internet, pasina makore maviri mupurojekiti, Bitcoin
 
 Kukosha kwemusika weBTC kwakapfuura $100 miriyoni muna June 2011 panguva imwe chete iyo webhusaiti Gawker yakabudisa nyaya yakanzi "The Underground Website Kwaunogona Kutenga Chero Mushonga Unofungidzira." Silk Road yaive musika mutema wepamhepo, wainyanya kushandiswa kutenga nekutengesa zvinodhaka zvisiri pamutemo paInternet. Semari itsva, yepamhepo, yakatemerwa dhijitari isati yave pa radar yemutemo, BTC yaive mari yakakwana yevashandisi veSilk Road. MuBitcoin, pakanga pasina bhangi raigona mureza kutengeserana kufungidzira, pasina mari yaifanira kutumirwa kuburikidza netsamba kana kuchinjana mumunhu, uye zviri nyore hapana mutemo wekutarisa iyo Bitcoin ledger yekutengeserana. Pasina ani zvake anotarisa, Bitcoin transactions inogona kunge isingazivikanwe. Chinyorwa cheGawker chakatsanangura kuti munhu anofanira kutanga aenda kuBitcoin exchange kunotenga BTC kuitira kuti atore chikamu mumusika uyu wepamhepo:
 
-Kana zviri zvekutengeserana, Silk Road haigamuchire makadhi echikwereti, PayPal, kana chero imwe nzira yekubhadhara inogona kuteverwa kana kuvharwa. Mari chete yakanaka pano iBitcoins.
+> Kana zviri zvekutengeserana, Silk Road haigamuchire makadhi echikwereti, PayPal, kana chero imwe nzira yekubhadhara inogona kuteverwa kana kuvharwa. Mari chete yakanaka pano iBitcoins.
 
 Federal Bureau of Investigations yakazovhura ongororo ichibva yavhara Silk Road. FBI yakabata BTC panguva yekushanda kwayo uye yakatarisana nechokwadi chitsva pamusoro pemari munguva yedhijitari. Kubva panguva iyoyo zvichienda mberi, vezvemitemo kubva kumativi ese enyika vakatanga kutarisa Bitcoin's ledger yezviitiko zvekufungira kuitira kuvhima matsotsi. Vemutemo vakagadzira nzira dzekubatanidza Bitcoin transaction neinternet data data kuitira kuita izvi. Mushure mekunge vezvemitemo vatanga kutarisa Bitcoin ledger, Bitcoin yakanga isisiri iyo mari yakakodzera yekuita zvehutsotsi, kure nayo. Uku kuparadzaniswa kwakasimudzira kuve pamutemo kweBitcoin munzira yakakosha.
 
@@ -886,7 +675,7 @@ Pamusoro pezvo, mukuru weU.S. commodity future regulator akatonga kuti Bitcoin y
 
 Pakazosvika 2014, kunyange hurumende yeUnited States yakanga ichinyatsoziva nezvekushanduka kwemari kuri kuitika. Bitcoin yakakwezva vachengeti munyika dzine hutongi husina kugadzikana uye kodzero yezvivakwa vaida mari isina muganho, isingatore kubvutwa. Yakakwezva vachengeti mukati medhora redhinominesheni rakanga rarasikirwa nekutenda muFederal Reserve senzvimbo yekuranga mari. Bona fide yekuda kweBitcoin yaivepo mumakona ese epasi. Muna 2017, kukosha kwemusika kweBitcoin kwakaputika zvakapfuura mabhiriyoni zana emadhora mukuwedzera kwemutengo kunoshamisa. Kukura kwakanyanya kweBitcoin kwakange kusingarambike.
 
-Tulips
+### Tulips
 
 Munguva yezana ramakore rechigumi nenomwe uye makumi mashoma emakore mushure mekuvambwa kweBhangi reAmsterdam, fungidziro yemutengo bubble yakaitika muDutch tulip bulbs. Sechinhu chakanaka cheumbozha, tulips yakava hasha dzese muNetherlands sezvo munhu wese aida chidimbu chechinhu chaishuviwa zvikuru. Mitengo yemagirobhu yakaputika ichibva yadonha nguva pfupi yadarika, semafuro efungidziro anoita. Izwi rokuti bubble raizoshandiswa munhoroondo yose kutsanangura kuwedzera kwemutengo wechinhu chaiita sechisinganzwisisike kune vakawanda, kuwedzera uko kwaizoguma pasina mubvunzo uye kunoramba kuchiguma mukuderera kunoparadza. Ehe, vazhinji vakaedza zvisina zvibereko kubatanidza izwi bubble neBitcoin.
 
@@ -896,25 +685,10 @@ Muchokwadi, Bitcoin haina kufanana neDutch tulip mania. Mabubbles haapamuke kata
 
 Kuwanda kwezvibvumirano zvakatangira mutengo weBTC/USD uchisvika padanho repamusoro-soro pakutanga kwa2021 sezvo kukosha kwemusika kwakawedzera madhora mazana matanhatu emadhora. Chii chaimbove chiratidzo chedhijitari chakanamirwa kune hobbyist software inokosha isingasviki peni muna 2010 chakange chave chinhu chemadhora makumi matatu nemana makore gumi chete gare gare. Iyo yakakurumbira $25 Papa John's pizza kutengeserana ingave yakakosha $340 miriyoni pazuva rekuzvarwa kweBitcoin, Ndira 3, 2021. Mufananidzo 15 unoratidza kukwira kwemeteoric mumutengo wemusika weBTC kubvira 2010.
 
+![](./svg/15-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 15
-
-![](images/image1.png)
-
-11/4/10 $ 1,000,000
-
-4/23/11 $ 10,000,000
-
-6/4/11 $ 100,000,000
-
-3/30/13 $ 1,000,000,000
-
-11/23/13 $ 10,000,000,000
-
-10/21/17 $ 100,000,000,000
-
-1/3/21 $ 630,000,000,000
-
-Kupenya kweNetiweki
+### Kupenya kweNetiweki
 
 Kupenya kwe Netiweki kunosimudzira tekinoroji kuBitcoin iyo inoishandura zvakanaka kubva kune inononoka-inofamba-famba segoridhe renyama kuenda pamari inofamba pamagetsi. Uye chinhu chakakosha cheMheni Network ndiyo yakangwara chibvumirano. Kazhinji, zvibvumirano zvakangwara zvibvumirano zvinorongwa zvinokwanisa kuita chero chinhu chinogona kuiswa musoftware. Nechinangwa cheBitcoin, zvibvumirano zvakangwara zvinonyanya kukosha zvinokwanisa kukwira uye kurongeka kwemapato akawanda. Zvibvumirano zvakangwara muMheni Network, Hashed TimeLock Contracts (HTLCs), zvakakwira Bitcoin kuita mari network inokwanisa kugadzirisa mamiriyoni ekutengeserana pasekondi. Ngatitarisei zvakanyanya kuti Mheni Network yakashanduka sei.
 
@@ -926,7 +700,7 @@ Muna 2016, bepa kubva kune mainjiniya esoftware Joseph Poon naThaddeus Dryja rak
 
 Mheni Network zvakare inounza hutsva hutsva kune kukosha kwenguva yeBTC. Vashandisi vanopa BTC sechibatiso kuMheni Network kuitira kufambisa kutengeserana vanogona kuwana mari kubva pakupa iyi liquidity. Iyi inzira yakare isati yamboitika yekuwana mari yekudzoka pamari pasina kumbosiya kuchengetwa kwayo nekuti vanopa zvibatiso havatombopatsanuri nzira neBTC yavo pakuitsaurira kuMheni Network. Mari yemubereko inotorwa kubva kurudzi urwu rwechiitiko inogona kushanda sereferensi yereferensi munyika yeBitcoin nekuda kwemheni Network yakasarudzika-yemahara hunhu. Iwo chaiwo pfungwa yekukosha kwenguva yemari iri kuchinja sezvo matekinoroji matsva aya anopinda mukati memamiriro emari.
 
-Dzimwe Cryptocurrencies
+### Dzimwe Cryptocurrencies
 
 Vateedzeri veBitcoin zvakanga zvisingadzivisiki. Bitcoin ndeye yemahara uye yakavhurika-sosi software, zvinoreva kuti software yacho ndeyemahara kurodha uye kuvhurwa kuti ionekwe nemunhu wese. Kakawanda, Bitcoin yakaramba shanduko dzakakosha kubhuku rayo remitemo kubva kuvagadziri izvo zvaive kunze kwekubvumirana nevazhinji vevashandisi veBitcoin. Dzimwe shanduro dzecryptocurrency kuBitcoin dzakabuda, ingave yakakopwa zvakananga, yakakwenenzverwa, kana kufungidzira. Kana pfungwa dziri nani pane Bitcoin dziripo, capital yaizokwevera kune idzi dzimwe nzira uye kure neBitcoin. Parizvino, zvisinei, hapana cryptocurrency yakapokana neBTC pane chero nguva yakamira, yakayerwa mune zvese kukosha kwemusika uye hashpower. Alternative cryptocurrencies iripo pane yakaderera layer mukati meBTC mari piramidhi nekuda kwehukama hwemutengo, kufanana nemari yenyika yaivepo pane imwe pasi pedhora mushure mechibvumirano cheBretton Woods cha1944. Kufanana neUSD inoita semutengo wekutanga wemari kubva kumativi ese. nyika, BTC inoshanda semutengo wekutanga kune ese madhijitari mari.
 
@@ -934,7 +708,7 @@ BTC inoshandawo sechisungo chemari pazvikamu zvakaderera zvepiramidhi yayo nokut
 
 BTC haizombovi yega sedhijitari asset; ichagara iine zvese zvekuwedzera uye zvekubatsira. Asi ndicho chikamu chimwe cheakaundi icho vamwe vari muchadenga chedhijitari vanogona kuvimba nacho pakusaora. Kutonga kweBitcoin protocol seyakanyanya kukosha-yekuchinjisa protocol yeInternet ingangogara kwemakumi emakore anouya, senge nzira iyo Transmission Control Protocol, Internet Protocol, uye Hypertext Transfer Protocol (TCP/IP/HTTP) inotonga kusangana kwedu kwedhijitari mazuva ese. patinobatana neIndaneti kana pawebhusaiti.
 
-Makoini akagadzikana
+### Makoini akagadzikana
 
 Chikamu chechipiri chiri kukurumidza kukura mukati mepiramidhi yemari yeBitcoin imhando itsva yeasset yedhijitari inonzi stablecoins. Stablecoins zvikwereti zvakapihwa nenzira yedhijitari tokens nemakambani akazvimirira ega. Aya ma makoini akagadzikana anofanirwa kutengesa kune "yakagadzikana" kukosha kune madhora, semuenzaniso. Iyo moniker ye "yakagadzika" ishoma yeoxymoron mune iyi kesi nekuti sezvatakadzidza, midziyo yemari pamatanho akaderera emari haawanzo kuve nekugadzikana. Makoini akagadzikana: mari yedhijitari yakatsiga kusvika isiri.
 
@@ -946,31 +720,21 @@ Muna Ndira 2021, Treasure yeUS yakapa gwara rechokwadi pamusoro pemutemo wecrypt
 
 Naizvozvo isu tinogumisa kuti bhangi rinogona kusimbisa, kuchengeta, uye kurekodha mabhadharo ekutengeserana nekushanda senode paINVN. Saizvozvo, bhangi rinogona kushandisa maINVN uye ane hukama stablecoins kuita mamwe mabasa anobvumidzwa ekubhadhara. Bhanga rinofanirwa kuita zviitiko izvi zvinoenderana nemutemo unoshanda uye zvakachengeteka uye zvine hungwaru maitiro ekubhanga.
 
-Ramangwana rezvekutengesa
+### Ramangwana rezvekutengesa
 
 Kunyangwe New York riri iro guta guru rebhangi reUnited States, Chicago yagara iri muzinda wayo wekutengesa zvinhu. Mukati mezana ramakore regumi nepfumbamwe, Chicago yakamisa nyika yezvibvumirano zvemberi neremangwana, zvichibvumira varimi kuti vatengese zvirimwa zvavo nechibvumirano zvisati zvakohwa. Muna 1898, kumira kwebhota nezai remangwana zvibvumirano zvakakonzera kuumbwa kweChicago Butter uye Egg Board, iyo yakatangira kuChicago Mercantile Exchange (CME), iyo nhasi ndiyo yakakura zvikuru kubva pasi rose kuchinjanisa. Iyo CME yaizowedzera zvingango fungirwa kune yayo mhando yezvigadzirwa zveramangwana mumakore apfuura, kubva kumombe mhenyu muna 1964, kusvika kune remangwana resirivheri muna 1969, kune ramangwana reBitcoin muna 2017.
 
 Muna 2016, CME payakazivisa hurongwa hwekushambadza mutengo weBitcoin mukugadzirira kutangwa kweramangwana reBitcoin gore rinotevera, huremu hweChicago sechiremera chepasirese pazvinhu zvakakandwa kuseri kweBitcoin uye zvakanyanya kuwedzerwa kune kwayo pamutemo. CME Bitcoin remangwana rinobatsira vatori vechikamu vemusika wezvemari kushandura pakati peBTC neUSD, izvo zvichabatsira zvakananga kutorwa kweBitcoin. Mabhizinesi anogona kuita basa reBTC-denominated vachiziva kuti vanogona kushingaira kugadzirisa njodzi isingadikanwi yekutsinhana. Uyezve, remangwana reBitcoin rinopa BTC yechipiri kune vatori vechikamu vanoshanda chete mukati mepiramidhi yedhora uye vanongoda kuratidzwa kune shanduko mumutengo weBTC, kwete kuve neBitcoin zvakavanzika makiyi. Chigadzirwa cheCME chakaunza Bitcoin mberi munzira yayo yekubatanidzwa kuzere nehurongwa hwemari hwechinyakare.
 
-Yakarongedzwa Bitcoin
+### Yakarongedzwa Bitcoin
 
 Sezvo pasi rose kutorwa kweBitcoin semari uye sepfungwa yezvemari ichienderera mberi, danho rechipiri reBitcoin riri kutumbuka nemhando dzakasiyana dzeBTC-based vimbiso, dzimwe cryptocurrencies, uye stablecoins. Mufananidzo 16 unoratidza kuti Bitcoin iri pamusoro peiyo piramidhi yerinovhero, iine imwe yechipiri-yechipiri mari kubva kumashizha ekuenzanisa uye mamwe kubva kuhukama hwemitengo.
 
+![](./svg/16-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 16
 
-/\\
-
-BTC \[1\]
-
-/ ^ \\
-
-(manodhi ekupenya kwenetiweki \[1\] {SC}, zvakachinjanwa \[2\]{B/S zvekumusoro}, vamwe vakavanzika \[3\] {B/S}) ^
-
-BTC iri munetiweki \[1\], BTC Dhipozitsi \[2\]{B/S}, Cryptocurrencies \[2\]{Price}, Makoini akagadzikana \[2\]{Price}, Kuchengetedza pakanaka BTC Dhipozitsi \[3\]
-
-/ \_\_\_\_\_\_\_\_\_\_\_ \\
-
-/\\
+<!-- /\\
 
 U.S. Treasuries
 
@@ -980,9 +744,9 @@ U.S. Treasuries
 
 ^
 
-Zvakachengetedzwa (W), Manotsi (R), Fedkoini (R)
+Zvakachengetedzwa (W), Manotsi (R), Fedkoini (R) -->
 
-BTC uye CBDC Hukama hwemutengo
+### BTC uye CBDC Hukama hwemutengo
 
 Nheyo yezvinyorwa zvebhuku rino ndeyokuti BTC ichamira yega pane yekutanga-yemari mune ramangwana. Dai izwi rimwe chete nezveBitcoin ringashandiswa kutsanangura kuti sei, taizofanira kusarudza rakagadzirwa makore mashoma apfuura muna 2014 nemunyori uye muongorori wezvehupfumi Nassim Nicholas Taleb: antifragile. Heano maitiro Taleb akazvitsanangura:
 
@@ -990,31 +754,13 @@ Zvimwe zvinhu zvinobatsira kubva mukuvhunduka; vanokura uye vanokura kana vakais
 
 Bitcoin haina kusimba nekuti inobudirira kubva mukusagadzikana kwemari yepasi rose mukati mepiramidhi yedhora uye inoshingirira kutyisidzira, kunyomba, uye mutemo kubva kune anodzinga masangano ehurumende. Chokwadi chiri pachena nezveBitcoin ndechekuti hapana anoidzora. Yakave yekutanga-isina hurumende, inowanikwa pasi rose mari yedhijitari. Uye nekuda kwezvikonzero izvi, mari dzese dziri munzvimbo yedhijitari inotarisana nekuwanikwa kwemutengo mumashoko eBTC. Izvi zvinoreva kuti mari dzese dzedhijitari, kubva kumaricho kusvika kuCBDCs, dzichayerwa muBTC, sechibvumirano cheBretton Woods muna 1944 chakaraira kuti mari dzese dziyerwe neUSD. Mufananidzo 18 unojekesa ramangwana iro BTC ndiyo nyika yekuchengetedza mari uye chete yekutanga-layer mari.
 
+![](./svg/18-Pyramid-graphics-FIN.svg)
+
 Mufananidzo 18
-
-/\\
-
-BTC
-
-/ ^ \\
-
-(Mabhanga makuru \[1\]{Mutengo}, Vamwe vakavanzika \[2\]{B/S pamusoro})
-
-^
-
-CBDCs \[1\] (W), CBDC \[1\] (R) BTC Dhipozitsi \[2\]{B/S}(R), Makoini akagadzikana \[2\]{Mutengo} (R), / ^ \\
-
-(Mabhabha \[1\]{B/S})
-
-/ \\
-
-Makoini akagadzikana \[1\] (R)
-
-/ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\
 
 Kuti rudzi urwu rweBTC-denominated layered money system ishanduke, mashoma eruzivo rwetekinoroji anofanirwa kuwira munzvimbo angaite kunge ari kure asi atove mubudiriro mukati mebhanga guru nhasi. Iyo yekupedzisira chidimbu chepuzzle munzira inoenda kuBTC ichiva mari yekuchengetedza nyika ichave iyo atomiki shanduko.
 
-Atomic Swaps
+### Atomic Swaps
 
 Kunzwisisa kuchinja kweatomu nebasa rayo mune ramangwana remari kunoda kubatanidzwa kwezvinhu zvitatu zvinokurukurwa mubhuku rino: Lightning Network, Hashed TimeLock Contracts (HTLCs), uye Distributed Ledger Technology (DLT). Tichakurumidza kuongorora zvakakosha zvechimwe nechimwe, uye tobva taratidza kuti zvese zvinopindirana sei. Mheni Network itiweki yevashandisi veBTC vanogona kushandurana ipapo ipapo pane kumirira
 
@@ -1028,11 +774,11 @@ Atomic swaps inoshandura zvakanyanya aya mazano ekutanga ekutengesa. Ivo vakaron
 
 Kuitwa kwakati wandei kweDLT kwatobvumira kuchinjika kweatomu. Heino muenzaniso chaiwo webasa ririkuitwa paatomically swappable central bank digital currencies. Muna 2019, iyo Monetary Authority yeSingapore, Bhangi reCanada, JP Morgan, uye Accenture vakazivisa kubudirira kwekuchinja kweatomu pakati peCanada madhora (CAD) neSingapore madhora (SGD) pamapuratifomu maviri akasiyana eDLT vachishandisa maHTLC "pasina kudiwa kwechetatu. bato rinovimbwa nematunhu ese ari maviri." Kugadziriswa kwekutengeserana kwacho kwakaomesesa zvakanyanya kubva pakurongwa kwesoftware uye sainzi yekombuta uye zvakatora nguva yakawanda uye hanya kuita, asi iyi ndiyo mhando yekutsvagisa zviremera zvezvemari pasirese zviri kuita izvozvi kuongorora ramangwana remari. Bhanga guru reCanada rakashandisa DLT inonzi Corda, uye bhanga repakati reSingapore rakashandisa DLT inonzi Quorum, mhinduro dzese dzakapihwa sezvigadzirwa nemabhizinesi akazvimirira. Iwo maviri maDLT ane akati wandei akasiyana asi anowirirana painoverengera: anotendera maHTLCs kune mumwe nemumwe. Mabhanga eCentral anozoda kuwedzera kukura-cryptographic contingent pakati pevakuru vavo kuitira kuti vatsigire zvese tekinoroji ruzivo kuCBDC kuita. Kunyangwe ivo vakafunga kushandisa yekubhengi software mhinduro, imwe cryptocurrency, kana Bitcoin pachayo, mabhanga epakati ane hurongwa hwesarudzo kana zvasvika pakuvhurwa kwavo kwekupedzisira kwemari yedhijitari. Kana mabhanga epakati achida kuti mari yavo yedhijitari ibudirire munguva yeBitcoin, vanozoburitsa maCBDC anoshandisa DLT software ine HTLC kugona kuti vajoine atomic swap club. NeBTC seyo chete yekutanga-yakapetwa mari yedhijitari, imwe neimwe mari yedhijitari, zvisinei nekuti mupi ane simba rakadii, anozoyerwa neBTC.
 
-Chitsauko 10: Rusununguko rweMari
+## Chitsauko 10: Rusununguko rweMari
 
 Kubva pakusikwa kweBhangi reAmsterdam muzana ramakore rechigumi nemanomwe, zviridzwa zvemari nehurumende zvakabatanidzwa kune mumwe nemumwe. Asi muzera redhijitari, mari uye nyika hazvifanire kusanganisa. Kune vakawanda, iyo pfungwa yese yemari yehurumende yave kusashanda sezvo kusimuka kweBitcoin kubhero mukupikisa. Nekuti Bitcoin isoftware, masvomhu, uye kutaura, inofanirwa kutorwa sekodzero yemunhu. Bitcoin inomiririra rusununguko rwemari yedhinominesheni nekuti inopa vanhu kugona kunyoresa mihoro yavo uye mari kubva kusangano rehurumende. Kunyangwe vanhu vakachinja chikamu cheakaundi yavo kuenda kuBTC kubva kumari yavo yemuno nekuda kwezvinangwa zvezvematongerwo enyika, kuratidzira kusina mhirizhonga, kana kutenda kuti tekinoroji inogonesa rudzi rwemari, ivo vanongopihwa rusununguko rwekusarudza kuti zvibereko zvebasa ravo zvakadii. kuyerwa. Bitcoin inopa vanhu pasi rese yekutanga imwe yechokwadi kune yavo mari yenyika, maitiro asingagone kudzoka kumashure nekuti vanhu vanopfuura mamirioni e100 pasi rose.
 
-Chiratidzo Cheramangwana
+### Chiratidzo Cheramangwana
 
 Heino ratidziro yekuti ramangwana redu remari ringaite sei mumamiriro emari akaturikidzana. Nhasi, mabhanga epakati anoshandisa madhesiki ekutengesa kuti atenge uye atengese mari yavo mumusika wekunze kwenyika vachitarisira kuchengetedza kugadzikana kwechiyero chekuchinjana. Munguva pfupi iri kutevera, ivo vachawedzera BTC kutengeserana kugona kumabasa avo emusika wakavhurika vachitarisira kutungamira dhijitari yekuchinjana kwemari yavo mumashoko eBTC.
 
@@ -1050,11 +796,11 @@ Nyika yedu yakawanda iri kutsvaga kuzvarwa patsva kwemari, uye Bitcoin inopa izv
 
 Tichitarisa kumashure kwakabva Bitcoin kuburikidza nelenzi yakaturikidzana, tinogona kuona kuti mari nyowani yekutanga-yaive yagadzirwa. Chakanga chiri chimwe chinhu icho nyika yaida zvikuru, uye tiri kutotanga kunzwisisa kushanda kwayo. Mune ramangwana, mari yaunoshandisa haingoratidzi kwawakaberekerwa kana nyika yaunogara, asi zvaunofarira. Shandisa iyi mepu yemari yakaturikidzana kuti uzvisunungure kubva kumiganhu yemari yechinyakare uye uongorore nyika yemari pasina kusungwa kwenzvimbo. Revera iyo yakaturikidzana dhizaini kuti uone chaipo panowanikwa mari yako mumamiriro emari uye uzvipe simba kuti uwane rusununguko rwemari yedhinominesheni nekufamba uchienda kumari yako yesarudzo.
 
-Kutenda
+## Kutenda
 
 Thank you to my wife Chandni for joining me in this journey. Thank you to my parents for always encouraging me to follow my dreams, and to Jay and Kashvi for their unwavering support. Thank you to my trusted team of editors/contributors for helping me make this book become a reality: my wife, my dad, “360”, Vikram Amritraj, Sarah Tsai, Stephen Cole, Jason Don, Nic Carter, Jeremy and Nikita McWells, and Prakash Amritraj. Thank you to my copyeditor and publishing consultant Cathy Suter for her invaluable contributions. Thank you to the talented Anton Khodakovsky for the book’s cover and graphics. Thank you to those who trusted me as a fiduciary and gave me the opportunity to trade the U.S. Treasury market at the highest level. Thank you to Professor Perry Mehrling for his paper The Inherent Hierarchy of Money upon which the Layered Money framework was built. Thank you to Zoltan Pozsar for his research on the “Money Matrix.” Thank you to Jeff Snider for his eye-opening research on Eurodollars. Thank you to Nas for inspiring me as a writer. And finally, thank you to everybody who read The Time Value of Bitcoin.
 
-References
+## References
 
 Agueci, Paul, Leyla Alkan, Adam Copeland, Isaac Davis, Antoine Martin, Kate Pingitore, Caroline Prugar, Tyisha Rivas. “A Primer on the GCF Repo® Service,” Federal Reserve Bank of New York Staf Reports, no. 671, April 2014, revised May 2014. https://www.newyorkfed.org/medialibrary/media/research/staff\_reports/sr671.pdf 
 
@@ -1196,7 +942,7 @@ Wee, Herman Van der. “International Business Finance and Monetary Policy in We
 
 World Economic Forum. “Insight Report, Central Bank Digital Currency Policy‐Maker Toolkit,” Centre for the Fourth Industrial Revolution, 2020. http://www3.weforum.org/docs/WEF\_CBDC\_Policymaker\_Toolkit.pdf
 
-About the Author
+## Nezve Munyori
 
 Nik Bhatia is a financial researcher, CFA charterholder, and Adjunct Professor of Finance and Business Economics at the University of Southern California Marshall School of Business where he teaches Applied Finance in Fixed Income Securities. Previously, Nik worked the US Treasuries trading desk for a large institutional asset manager and has extensive trading experience in money markets and interest rate futures. After starting his teaching career, Nik felt the urge to bring his research on both the international monetary system and Bitcoin together as one to write Layered Money: From Gold and Dollars to Bitcoin and Central Bank Digital Currencies. He has a BA in Social Sciences from University of Southern California and a Master in Finance from IE Business School in Madrid, Spain. Nik lives in Los Angeles, CA with his wife and young daughter.
 
