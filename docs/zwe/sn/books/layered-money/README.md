@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Kundai Mudzviti"
+        href: "https://twitter.com/mrs_kunic"
+---
 # Hudunganidzwa hwe Mari: Kubva kugoridhe nema dhorazi kuenda ku Bitcoin nemari dzekuchengetera muma bhengi emumhepo
 
 na Nik Bhatia [2021/01/18](https://www.amazon.com/dp/1736110527/)
