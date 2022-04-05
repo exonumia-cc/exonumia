@@ -220,7 +220,7 @@
        transform="matrix(1,0,0,-1,92.5298,99.1548)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'EngravrsRoman Bd BT';-inkscape-font-specification:EngraversRomanBT-Bold;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text124"><tspan
-         x="0"
+         x="14"
          y="0"
          sodipodi:role="line"
          id="tspan122">Federal Reserve</tspan></text>
@@ -232,8 +232,8 @@
          y="0"
          sodipodi:role="line"
          id="tspan126">U.S.</tspan><tspan
-         x="-17.313999"
-         y="15.004"
+         x="-25"
+         y="18"
          sodipodi:role="line"
          id="tspan128">TREASURIES</tspan></text>
 <g
@@ -253,20 +253,20 @@
              id="path146"
              inkscape:connector-curvature="0" /></g></g></g><text
        transform="matrix(1,0,0,-1,52.335,58.0459)"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:'ITC Franklin Gothic Std Book';-inkscape-font-specification:ITCFranklinGothicStd-Book;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text154"><tspan
-         x="0"
-         y="0"
+         x="-15"
+         y="15"
          sodipodi:role="line"
-         id="tspan148">RESERVES</tspan><tspan
+         id="tspan148">Zvakachengetedzwa</tspan><tspan
          x="-1.67"
          y="12"
          sodipodi:role="line"
-         id="tspan150">(wholesale)</tspan><tspan
+         id="tspan150"></tspan><tspan
          x="83.910004"
          y="0"
          sodipodi:role="line"
-         id="tspan152">NOTES</tspan></text>
+         id="tspan152">Manotsi</tspan></text>
 <g
        id="g156"><g
          id="g158"
@@ -291,7 +291,7 @@
          x="0"
          y="0"
          sodipodi:role="line"
-         id="tspan172">FEDCOIN</tspan></text>
+         id="tspan172">Fedkoini</tspan></text>
 <g
        id="g176"><g
          id="g178"
