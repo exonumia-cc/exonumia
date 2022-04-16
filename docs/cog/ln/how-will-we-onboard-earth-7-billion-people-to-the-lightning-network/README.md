@@ -1,25 +1,36 @@
-# How Will We Onboard Earth’s 7.753 Billion People To The Lightning Network?
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Neo Simba"
+        href: "https://twitter.com/neolokosy"
+---
+
+# Toko Kotisa 7.753 Milliards Ya Bai Mokili na Lightning Network Ndenge Nini?
 
 by John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
 
 <LanguageDropdown/>
 
-I ran the numbers, let’s see how we can onboard the entire population of Earth onto the Lightning Network, how long it might take, and what we can do to speed the process up.
+Na tangi mikoloto, totala naino ndenge tokoki kokotisa bai mokili mobimba na Lightning Network, ekoki kozwa tango boni, pe nini tokoki kosala po esalema na lombangu penza.
 
-To onboard onto the lightning network it requires sending btc into a 2-of-2 multisig funding transaction with your channel partner.  To optimize space in this transaction we want 1 native segwit input and a single channel funding output.  This produces a tx of roughly 121vbytes.
+Kokota na Lightning Network esengeli kotinda btc na kati ya 2-ya-2 transaction de financement multisig n’a partenaire yako kabola. Po na komatisa espace na transaction oyo tosengeli na native segwit input 1 n’a ebimeli ya misolo na nzela to pe canal kaka moko. Ekosala tx ya 121vbytes.
 
-If 100% of the transactions in a block were these channel opening txs we could onboard about 8,264 people to lightning per block.  With a global population of 7.753 billion people it would take roughly 938,166 blocks or 17.8 YEARS for everyone on Earth to have a channel.
+Soki 100% ya ba mimbongo (transactions) na kati ya bloke ezali na kati ya ba canal ya ouverture txs, tokoki kokotisa ata bato 8,264 na lightning pona bloke moko. Lokola bato na molongo mobimba tozali 7.753 milliards eko senga ba bloke 938,166 to pe mibu 17.8 po bato banso na mokili bazwa canal.
 
-Can we do any better? Thankfully, we have a couple options. One option that is possible today is to use batching! Batching means we can open more than one channel in a single transaction.  This means each additional channel can be represented by another output in the funding tx.
+Makoki yako bongisa yango ezali? Na botondi mingi, tozali na mwa banzela ndenge na ndenge. Nzela moko oyo ekoki kosalema sik’oyo ezali ya kosalela mipiko (mise en lots – batching)! Batching elingi koloba tokoki ko fungola ba canal ebele pona mombongo to transaction moko. Elakisi ‘te canal moko na moko oyo eko bakisama ekoki kolakisama na output mosusu na efuteli ya tx.
 
-Each additional output we add consumes roughly 32vbytes.  With batching the best-case scenario is to fill the block with 1 transaction with 1 input and as many outputs as we can fit.  At 32vbytes per output this means we could open 31,247 channels per block!
+Output moko na moko took bakisa na sima eko salela pene ya 32vbytes. N’a batching ya malonga ezali kotondisa bloki na transaction 1 n’a input 1 pe ba outputs ebele ebele tii ndenge eko koka. Na 32vbytes na output moko elakisi ‘te tokoki ko fungola ba canal 31,247 pona bloke moko!
 
-Batching gets us a 3.78x improvement and drops the time to onboard the entire Earth to just 4.7 years. This isn’t terrible but it assumes we can use 100% of the block space for almost 5 years.  In reality it will happen slower over a longer time period.  Can we do even better?
+Batching ematisi biso likolo mbala 3.78 pe elkitisi tango yako kotisa mokili mobimba na mibu 4.7 kaka. Eza mabe penza te kasi elakis ‘te tokoki kosalela espace ya bloke mobimba na pe ya mibu 5. Nzoka nde ekokoma lisusu malembe soki ewumeli. Tokoki kobongisa yango lisusu?
 
-It turns out we can, just not (easily) today.  The next optimization would be to support more than two people per channel and use signature aggregation to keep the output size small.  A Multiparty Channel extends the 2-of-2 multisig to a larger N-of-N multisig.
+Makoki ezali, kasi lelo nde te. Na mikolo mizali koya nzela yako zwa pe kondima bato mibale to koleka na canal moko ezali pe makoki yako sangisa ba nkoma (signature) pona kotika monene etando ya output moke. Cana ya ba nzela kili kili ekolisaka multisig 2-na-2  na multisig monene  koleka oya N-na-N.
 
-In theory this N could be 10, 100, maybe even 1000. At 10 people per channel we could onboard 312,470 people per block and the entire earth in just 172 days.  While batching gave us a modest improvement in efficiency, multiparty channels allow us to scale in orders of magnitude.
+Tokoki koloba ‘te N ekoki kozala 10, 100, atako 1000. Soki bato 10 na canal moko tokoki kokotisa bato 312,470 na bloke moko pe mokili mobimba ekoki kokota na mwa mikolo 172. Atako batching ekolisaki mosala kaka mwa moke, ba canal ya ekotiseli kili kili epesi nzela ya komatisa mosala likolo makasi.
 
-Theoretically they could be built today without any changes to Bitcoin but would require a massive engineering effort because of the complexities of lightning’s penalty mechanism.  Eltoo’s symmetric settlement txs greatly simplify the implementation of multiparty channels.
+Makoki ya tonga yango lelo ezali pe eko bongola Bitcoin te kasi ekosenga mosala ya ingénierie makasi pona mikakatano ya mécanisme ya pénalité ya lightning. Ba txs ya règlement symétrique ya Eltoo ekomisi kosalema ya ba canal ya bikotiseli kili kili (canaux multipartites) pete.
 
-So can we onboard the entire population to lightning in a reasonable amount of time? It seems like the answer is yes, eventually we will get there. Will everyone on Earth want to be on lightning and need their own channel(s)? That’s not certain but I sure hope so!
+Sik’oyo tokoki kokotisa bai mokili mobimba na lightning na mwa tango ya malonga? Tomoni lokola eyano ezali ee, suka suka took koma kuna. Bato banso na mokili bako linga kozwa canal na bango moko pe kokota na lightning? Nayebi te kasi wana nde posa na ngai!
