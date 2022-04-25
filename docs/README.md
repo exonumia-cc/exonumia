@@ -42,6 +42,12 @@ contributors: false
 
 ---
 
+**[🇲🇬 Madagascar](/mdg/)**
+
+[Malagsy](/mdg/mg/)
+
+---
+
 **[🇲🇼 Malawi](/mwi/)**
 
 [Chewa](/mwi/ny/)
