@@ -5,4 +5,4 @@ sidebar: false
 
 # Exonumia
 
-[Malagsy](/mdg/mg/)
+[Malagasy](/mdg/mg/)

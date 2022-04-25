@@ -44,7 +44,7 @@ contributors: false
 
 **[🇲🇬 Madagascar](/mdg/)**
 
-[Malagsy](/mdg/mg/)
+[Malagasy](/mdg/mg/)
 
 ---
 
