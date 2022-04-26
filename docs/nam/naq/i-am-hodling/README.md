@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Jane Janitha Gertze"
+        email: "jjgertze@gmail.com"
+    - 
+        name: "Ndeshipanda Goagoses"
+        href: "ndeshi25@gmail.com"
+---
 # !KHŌ/GARA TA HÂ
 
 by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)

@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Jane Janitha Gertze"
+        email: "jjgertze@gmail.com"
+    - 
+        name: "Ndeshipanda Goagoses"
+        href: "ndeshi25@gmail.com"
+---
 # //Khore//kharesase tsâsen re Bitcoinsa !oa
 
 by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
