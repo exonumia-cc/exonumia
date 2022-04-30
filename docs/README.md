@@ -12,6 +12,12 @@ contributors: false
 
 ---
 
+**[🇧🇮 Burundi](/bdi/)**
+
+[Kirundi](/bdi/rn/)
+
+---
+
 **[🇨🇩 Democratic Republic of the Congo](/cod/)**
 
 [Lingala](/cod/ln/)

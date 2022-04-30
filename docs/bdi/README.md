@@ -5,4 +5,4 @@ sidebar: false
 
 # Exonumia
 
-[English](/int/en/)
+[Kirundi](/bdi/rn/)

@@ -76,6 +76,11 @@ module.exports = {
             group: '🇦🇴 Angola',
             title: 'Exonumia'
         },
+        '/bdi/rn/': {
+            lang: 'rn',
+            group: '🇧🇮 Burundi',
+            title: 'Exonumia'
+        },
         '/cod/ln/': {
             lang: 'ln-CD',
             group: '🇨🇩 Democratic Republic of the Congo',
@@ -345,6 +350,73 @@ module.exports = {
                     },
                     '/ago/ng/contribution-guide/',
                     '/ago/ng/contact/'
+                ],
+            },
+            '/bdi/rn/': {
+                lastUpdatedText: "Last Updated",
+                supportersText: "Supporters",
+                translatorsText: "Translators",
+                selectLanguageText: '🇧🇮 Languages',
+                selectLanguageName: '🇧🇮 Kirundi',
+                freelyAvailableTranslationsText: '🇧🇮 Freely Available Translations',
+                label: 'Kirundi',
+                selectLanguageAriaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/bdi/rn/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/bdi/rn/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/bdi/rn/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/bdi/rn/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/bdi/rn/',
+                            '/bdi/rn/explain-bitcoin-like-im-five/',
+                            '/bdi/rn/bitcoin-is-like/',
+                            '/bdi/rn/bitcoin-is-like-sports/',
+                            '/bdi/rn/understanding-lightning-network-using-an-abacus/',
+                            '/bdi/rn/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/bdi/rn/museum/bitcoin-v0.1-released/',
+                            '/bdi/rn/museum/re-bitcoin-v0.1-released/',
+                            '/bdi/rn/i-am-hodling/',
+                            '/bdi/rn/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/bdi/rn/bitcoin-and-kenyan-government-history',
+                            '/bdi/rn/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/bdi/rn/books/',
+                        children: [
+                            '/bdi/rn/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/bdi/rn/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/bdi/rn/open-source-translation-projects/',
+                        children: [
+                            '/bdi/rn/transifex/bitcoin-core/',
+                            '/bdi/rn/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/bdi/rn/contribution-guide/',
+                    '/bdi/rn/contact/'
                 ],
             },
             '/cod/ln/': {
