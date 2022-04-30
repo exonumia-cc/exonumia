@@ -81,6 +81,12 @@ contributors: false
 
 ---
 
+**[🇸🇹 São Tomé and Príncipe](/stp/)**
+
+[Forro Creole](/stp/cri/)   
+
+---
+
 **[🇺🇬 Uganda](/uga/)**
 
 [Luganda](/uga/lg/)

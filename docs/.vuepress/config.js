@@ -151,6 +151,12 @@ module.exports = {
             title: 'Exonumia',
             selectLanguageName: '🇸🇴 Somali'
         },
+        '/stp/cri/': {
+            lang: 'cri',
+            group: '🇸🇹 São Tomé and Príncipe',
+            title: 'Exonumia',
+            selectLanguageName: '🇸🇹 São Tomé and Príncipe'
+        },
         '/uga/lg/': {
             lang: 'lg',
             group: '🇺🇬 Uganda',
@@ -1290,6 +1296,73 @@ module.exports = {
                     },
                     '/som/so/contribution-guide/',
                     '/som/so/contact/'
+                ],
+            },
+            '/stp/cri/': {
+                lastUpdatedText: "Last Updated",
+                supportersText: "Supporters",
+                translatorsText: "Translators",
+                selectLanguageText: '🇬🇧 Languages',
+                selectLanguageName: '🇬🇧 English',
+                freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
+                label: 'English',
+                selectLanguageAriaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/stp/cri/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/stp/cri/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/stp/cri/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/stp/cri/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/stp/cri/',
+                            '/stp/cri/explain-bitcoin-like-im-five/',
+                            '/stp/cri/bitcoin-is-like/',
+                            '/stp/cri/bitcoin-is-like-sports/',
+                            '/stp/cri/understanding-lightning-network-using-an-abacus/',
+                            '/stp/cri/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/stp/cri/museum/bitcoin-v0.1-released/',
+                            '/stp/cri/museum/re-bitcoin-v0.1-released/',
+                            '/stp/cri/i-am-hodling/',
+                            '/stp/cri/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/stp/cri/bitcoin-and-kenyan-government-history',
+                            '/stp/cri/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/stp/cri/books/',
+                        children: [
+                            '/stp/cri/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/stp/cri/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/stp/cri/open-source-translation-projects/',
+                        children: [
+                            '/stp/cri/transifex/bitcoin-core/',
+                            '/stp/cri/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/stp/cri/contribution-guide/',
+                    '/stp/cri/contact/'
                 ],
             },
             '/uga/lg/': {
