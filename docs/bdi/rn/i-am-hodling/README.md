@@ -1,19 +1,19 @@
-# I AM HODLING
+# ndifatikanije
 
 by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Nanditse iyo titre kabiri kuko nari nzi ko ari bibi ubwa mbere. Biracari bibi. w / e.  
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+Umukunzi wanje w'umukobwa asohokeye mukabare ka lesbiyene , BTC imeneka KUKI MFISE? NZAKUBWIRA IGITUMA
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+Ni ukubera ko ndi umucuruzi mubi kandi NDAZI KO NDI UMUCURUZI mubi.Ego mwebwe abacuruzi beza murashobora kubona hejuru no hasi ugakomera mu bandi nkivyo kandi bigatuma miriyoni y'amafaranga yemezwa atakibazo 
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Mu buryo nk'ubwo, amaboko adakomeye ameze nka OH OYA ntaco ashobora NJE KUGURISHA we we hanyuma bameze nka OH MANA UKUTAMENYA mugihe abacuruzi ba CIYUBWENGE BAZI ICO bariko BARAKORA mu kugura ariko uzi iki? ntabwo ndi muri uyo mugwi Iyo naho abacuruzi baguze jewe mba mubisanzwe ndi mumugabane w'isoko nshingiro rero ukekeranya ko ari NINDE ABESHA abacuruzi buri munsi ARIKO SI JEWE~!
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Ayo makenga yo yokuvuga ngo "OHH UKWIYE KUGURISHA" EGO NTA NAMBAMYI. NTA NAMBAMYI KUGURISHA. NKWIYE U KUGURISHA IBINTU IMBERE YUKO VYAGURISHIJWE KANDI IMBERE YO KUGURA ARIKO UZI KO ATARI UMUNTU WESE UKORESHEJWE NAWE
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Ugurisha gusa kumasoko yidubu niba uri umucuruzi wumunsi mwiza canke umuntu mushasha mu kintu. Abantu bifatikanije hagati yabo. 
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Mu mikino y'ubusa-nkiyi, abacuruzi barashobora gufata amafaranga yawe mugihe ugurishije.
