@@ -1,30 +1,30 @@
-# Bitcoin Is Like Sports
+# bitcoin é como esportes
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+por @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Com mais frequência, venho explicando como o #bitcoin funciona e é descentralizado no contexto de um jogo esportivo. Acho que ajuda a responder a muitas perguntas comuns:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+P: Quem inventou o beisebol?  
+R: Realmente não importa. Qualquer pessoa no mundo pode jogar. Não importa se o inventor original quer mudar as regras ou se recompensar com pontos ou qualquer outra coisa. Não nos importamos com o que ele pensa do nosso jogo."
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+P: Quem é o responsável pelo jogo?  
+R: Ninguém está no comando, todos nós decidimos jogar. Todos nós conhecemos e aplicamos as regras, e se alguém trapaceia, é expulso do jogo. Se alguém se recompensar com pontos não ganhos, nós simplesmente os ignoramos."
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+P: Como sabemos que as regras não serão alteradas?  
+R: Todos concordamos com eles quando começamos a jogar, e quem quiser continuar jogando com essas regras continuará, e se alguém quiser mudar, precisará jogar em outro lugar."
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+P: Não pode ser hackeado?  
+R: Tudo é publicamente visível. Todos nós podemos ver todo o campo e todas as pontuações. Se alguém estivesse trapaceando, todos nós saberíamos e diremos a eles para se perderem.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+P: Por que vale alguma coisa?  
+R: Todos nós decidimos jogar, então vale a pena para nós. Se alguém quiser participar, terá que concordar em reconhecer nossos pontos e valor.
 
-I value it, so it has value. Value is subjective.
+Eu valorizo, então tem valor. O valor é subjetivo.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+P: Não será banido?  
+R: Talvez, mas são apenas algumas pessoas brincando com um taco e uma bola, sem machucar ninguém, então o governo talvez possa impedir você de jogar, mas eles não podem proibir o conceito de bater no pau com uma bola, o jogo continuará em algum lugar.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+P: Devo aderir?  
+R: Faça o que quiser. Estou me divertindo jogando beisebol, você pode participar ou pode participar do HFSP.

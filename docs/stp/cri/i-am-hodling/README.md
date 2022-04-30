@@ -1,19 +1,19 @@
-# I AM HODLING
+# ESTOU AGUARDANDO
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+por GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Digitei d esse título duas vezes porque sabia que estava errado na primeira vez. Ainda errado. nós.
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+GF está em um bar lésbico, BTC caindo POR QUE ESTOU AGUARDANDO? EU VOU TE DIZER PORQUÊ.
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+É porque sou um mau operador e SEI que sou um mau operador. Sim, vocês bons comerciantes podem identificar os altos e baixos pit pat piffy wing wong wang assim e fazer um milhão de dólares com certeza não há problema, mano.
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Da mesma forma, as mãos fracas são como OH NÃO, VAI ACABAR EU VOU VENDER he he he e então eles são como OH GOD MY ASSHOLE quando os operadores inteligentes que SABE O QUE ESTÃO FAZENDO compram de volta, mas você sabe o quê? Eu não faço parte desse grupo. Quando os comerciantes compram de volta, eu já sou parte do capital de mercado, então Adivinhe quem você está enganando os comerciantes do dia, NÃO EU~!
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Aqueles tópicos de provocação dizendo " OHH, VOCÊ DEVERIA TER VENDIDO" SIM NÃO MERDA. NÃO MERDA, NÃO DEVERIA TER VENDIDO. DEVERIA TER VENDIDO MOMENTOS ANTES DE CADA VENDA E COMPREI MOMENTOS ANTES DE CADA COMPRA, MAS VOCÊ SABE O QUE NEM TODO MUNDO É TÃO LEGAL QUANTO VOCÊ .
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Você só vende em um mercado em baixa se for um bom day trader ou um noob iludido. As pessoas no meio aguentam.
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Em um jogo de soma zero como esse, os traders só podem pegar seu dinheiro se você vender.

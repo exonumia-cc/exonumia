@@ -1,23 +1,23 @@
-# Welcome to Bitcoin, newcomers!
+# Bem-vindo ao Bitcoin, recém-chegados!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+por Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### Aqui está o seu FAQ:
 
-Q: Who should I trust?  
-A: **Nobody.**
+P: Em quem devo confiar?  
+R: **Ninguém.**
 
-Q: When should I sell?  
-A: **Never.**
+P: Quando devo vender?  
+A: **Nunca.**
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+P: O Bitcoin está morrendo porque ____?  
+R: **Não.**
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+P: No que eu me meti?  
+R: **Ninguém sabe.**
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+P: Como posso aprender mais?  
+R: **Temos uma [riqueza de conteúdo aqui](/stp/cri/translations/).** Ou você pode visitar [lopp.net](https://www.lopp.net/bitcoin-information.html)

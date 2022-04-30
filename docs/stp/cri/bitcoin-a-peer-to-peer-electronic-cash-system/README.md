@@ -1,109 +1,109 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+# Bitcoin: um sistema de dinheiro eletrônico ponto a ponto
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+de Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Resumo
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Uma versão puramente peer-to-peer de dinheiro eletrônico permitiria que pagamentos online fossem enviados diretamente de uma parte para outra sem passar por uma instituição financeira. As assinaturas digitais fornecem parte da solução, mas os principais benefícios são perdidos se um terceiro confiável ainda for necessário para evitar gastos duplos. Propomos uma solução para o problema do gasto duplo usando uma rede peer-to-peer. A rede marca as transações com hashing em uma cadeia contínua de prova de trabalho baseada em hash, formando um registro que não pode ser alterado sem refazer a prova de trabalho. A cadeia mais longa não serve apenas como prova da sequência de eventos testemunhados, mas prova de que veio do maior pool de potência da CPU. Contanto que a maior parte do poder da CPU seja controlada por nós que não estão cooperando para atacar a rede, eles gerarão a cadeia mais longa e ultrapassarão os invasores. A própria rede requer uma estrutura mínima. As mensagens são transmitidas com base no melhor esforço, e os nós podem sair e se juntar à rede à vontade, aceitando a cadeia de prova de trabalho mais longa como prova do que aconteceu enquanto eles estavam fora.
 
-## Introduction
+## Introdução
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+O comércio na Internet passou a depender quase exclusivamente de instituições financeiras que atuam como terceiros confiáveis ​​para processar pagamentos eletrônicos. Embora o sistema funcione bem o suficiente para a maioria das transações, ele ainda sofre com as fraquezas inerentes ao modelo baseado em confiança. Transações totalmente irreversíveis não são realmente possíveis, uma vez que as instituições financeiras não podem evitar a mediação de disputas. O custo da mediação aumenta os custos de transação, limitando o tamanho mínimo prático da transação e eliminando a possibilidade de pequenas transações casuais, e há um custo mais amplo na perda da capacidade de fazer pagamentos não reversíveis por serviços não reversíveis. Com a possibilidade de reversão, a necessidade de confiança se espalha. Os comerciantes devem ser cautelosos com seus clientes, incomodando-os por mais informações do que eles precisariam. Uma certa porcentagem de fraude é aceita como inevitável. Esses custos e incertezas de pagamento podem ser evitados pessoalmente usando moeda física, mas não existe nenhum mecanismo para fazer pagamentos por um canal de comunicação sem uma parte confiável.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+O que é necessário é um sistema de pagamento eletrônico baseado em provas criptográficas em vez de confiança, permitindo que duas partes dispostas façam transações diretamente uma com a outra sem a necessidade de um terceiro confiável. Transações que são computacionalmente impraticáveis ​​para reverter protegeriam os vendedores de fraudes, e mecanismos de caução de rotina poderiam ser facilmente implementados para proteger os compradores. Neste artigo, propomos uma solução para o problema do gasto duplo usando um servidor de timestamp distribuído peer-to-peer para gerar prova computacional da ordem cronológica das transações. O sistema é seguro desde que os nós honestos controlem coletivamente mais poder da CPU do que qualquer grupo cooperante de nós invasores.
 
-## Transactions
+## Transações
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Definimos uma moeda eletrônica como uma cadeia de assinaturas digitais. Cada proprietário transfere a moeda para o próximo assinando digitalmente um hash da transação anterior e a chave pública do próximo proprietário e adicionando-os ao final da moeda. Um beneficiário pode verificar as assinaturas para verificar a cadeia de propriedade.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+O problema, claro, é que o beneficiário não pode verificar se um dos proprietários não gastou duas vezes a moeda. Uma solução comum é introduzir uma autoridade central confiável, ou hortelã, que verifica todas as transações quanto a gastos duplos. Após cada transação, a moeda deve ser devolvida à casa da moeda para emitir uma nova moeda, e apenas moedas emitidas diretamente da casa da moeda são confiáveis ​​para não serem gastas em dobro. O problema com esta solução é que o destino de todo o sistema monetário depende da empresa que administra a casa da moeda, com todas as transações tendo que passar por eles, assim como um banco.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Precisamos de uma maneira para o beneficiário saber que os proprietários anteriores não assinaram nenhuma transação anterior. Para nossos propósitos, a transação mais antiga é a que conta, então não nos importamos com tentativas posteriores de gastar duas vezes. A única maneira de confirmar a ausência de uma transação é estar ciente de todas as transações. No modelo baseado em hortelã, a casa da moeda estava ciente de todas as transações e decidia qual chegava primeiro. Para fazer isso sem uma parte confiável, as transações devem ser anunciadas publicamente[1], e precisamos de um sistema para que os participantes concordem com um único histórico da ordem em que foram recebidas. O beneficiário precisa provar que, no momento de cada transação, a maioria dos nós concordou que foi o primeiro recebido.
 
-## Timestamp Server
+## Servidor de carimbo de data/hora
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+A solução que propomos começa com um servidor de timestamp. Um servidor de timestamp funciona pegando um hash de um bloco de itens para ser timestamp e publicando amplamente o hash, como em um jornal ou post da Usenet[2-5]. O carimbo de data/hora prova que os dados devem ter existido no momento, obviamente, para entrar no hash. Cada timestamp inclui o timestamp anterior em seu hash, formando uma cadeia, com cada timestamp adicional reforçando os anteriores.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Comprovante de Trabalho
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Para implementar um servidor de timestamp distribuído em uma base peer-to-peer, precisaremos usar um sistema de prova de trabalho semelhante ao Hashcash de Adam Back [6], em vez de postagens de jornal ou Usenet. A prova de trabalho envolve a varredura de um valor que, quando em hash, como com SHA-256, o hash começa com um número de bits zero. O trabalho médio necessário é exponencial no número de bits zero necessários e pode ser verificado executando um único hash.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Para nossa rede de timestamp, implementamos a prova de trabalho incrementando um nonce no bloco até que seja encontrado um valor que forneça ao hash do bloco os bits zero necessários. Uma vez que o esforço da CPU tenha sido gasto para fazê-lo satisfazer a prova de trabalho, o bloco não pode ser alterado sem refazer o trabalho. Como os blocos posteriores são encadeados depois dele, o trabalho para alterar o bloco incluiria refazer todos os blocos depois dele.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+A prova de trabalho também resolve o problema de determinar a representação na tomada de decisão da maioria. Se a maioria fosse baseada em um endereço IP, um voto, ela poderia ser subvertida por qualquer pessoa capaz de alocar muitos IPs. A prova de trabalho é essencialmente um CPU, um voto. A decisão majoritária é representada pela cadeia mais longa, que tem o maior esforço de prova de trabalho investido nela. Se a maior parte do poder da CPU for controlada por nós honestos, a cadeia honesta crescerá mais rápido e superará as cadeias concorrentes. Para modificar um bloco passado, um invasor teria que refazer a prova de trabalho do bloco e de todos os blocos posteriores e, em seguida, alcançar e superar o trabalho dos nós honestos. Mostraremos mais adiante que a probabilidade de um invasor mais lento se aproximar diminui exponencialmente à medida que blocos subsequentes são adicionados.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Para compensar o aumento da velocidade do hardware e o interesse variável na execução de nós ao longo do tempo, a dificuldade da prova de trabalho é determinada por uma média móvel visando um número médio de blocos por hora. Se eles forem gerados muito rápido, a dificuldade aumenta.
 
-## Network
+## Rede
 
-The steps to run the network are as follows:
+As etapas para executar a rede são as seguintes:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Novas transações são transmitidas para todos os nós.
+2. Cada nó coleta novas transações em um bloco.
+3. Cada nó trabalha para encontrar uma prova de trabalho difícil para seu bloco.
+4. Quando um nó encontra uma prova de trabalho, ele transmite o bloco para todos os nós.
+5. Os nós aceitam o bloco somente se todas as transações nele forem válidas e ainda não tiverem sido gastas.
+6. Os nós expressam sua aceitação do bloco trabalhando na criação do próximo bloco na cadeia, usando o hash do bloco aceito como o hash anterior.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Os nós sempre consideram a cadeia mais longa como a correta e continuarão trabalhando para estendê-la. Se dois nós transmitem versões diferentes do próximo bloco simultaneamente, alguns nós podem receber um ou outro primeiro. Nesse caso, eles trabalham na primeira que receberam, mas salvam a outra ramificação caso ela fique mais longa. O empate será desfeito quando a próxima prova de trabalho for encontrada e uma ramificação se tornar mais longa; os nós que estavam trabalhando na outra ramificação mudarão para a mais longa.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+As novas transmissões de transação não precisam necessariamente atingir todos os nós. Contanto que alcancem muitos nós, eles entrarão em um bloco em pouco tempo. As transmissões de bloco também são tolerantes a mensagens descartadas. Se um nó não receber um bloco, ele o solicitará quando receber o próximo bloco e perceber que perdeu um.
 
-## Incentive
+## Incentivo
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Por convenção, a primeira transação em um bloco é uma transação especial que inicia uma nova moeda de propriedade do criador do bloco. Isso adiciona um incentivo para que os nós suportem a rede e fornece uma maneira de distribuir inicialmente as moedas em circulação, já que não há uma autoridade central para emiti-las. A adição constante de uma quantidade constante de novas moedas é análoga aos garimpeiros gastando recursos para adicionar ouro à circulação. No nosso caso, é o tempo de CPU e a eletricidade que são gastos.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+O incentivo também pode ser financiado com taxas de transação. Se o valor de saída de uma transação for menor que seu valor de entrada, a diferença é uma taxa de transação que é adicionada ao valor de incentivo do bloco que contém a transação. Uma vez que um número predeterminado de moedas tenha entrado em circulação, o incentivo pode fazer a transição inteiramente para taxas de transação e ser completamente livre de inflação.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+O incentivo pode ajudar a incentivar os nós a permanecerem honestos. Se um invasor ganancioso for capaz de reunir mais poder de CPU do que todos os nós honestos, ele teria que escolher entre usá-lo para fraudar pessoas roubando seus pagamentos ou usá-lo para gerar novas moedas. Ele deveria achar mais lucrativo jogar de acordo com as regras, tais regras que o favorecem com mais moedas novas do que todos os outros juntos, do que minar o sistema e a validade de sua própria riqueza.
 
-## Reclaiming Disk Space
+## Recuperando espaço em disco
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Uma vez que a última transação em uma moeda esteja enterrada em blocos suficientes, as transações gastas antes que possam ser descartadas para economizar espaço em disco. Para facilitar isso sem quebrar o hash do bloco, as transações são hash em uma Merkle Tree [7][2][5], com apenas a raiz incluída no hash do bloco. Blocos velhos podem então ser compactados cortando galhos da árvore. Os hashes internos não precisam ser armazenados.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Um cabeçalho de bloco sem transações teria cerca de 80 bytes. Se supusermos que os blocos são gerados a cada 10 minutos, 80 bytes * 6 * 24 * 365 = 4,2 MB por ano. Com os sistemas de computador normalmente vendidos com 2 GB de RAM a partir de 2008, e a Lei de Moore prevendo um crescimento atual de 1,2 GB por ano, o armazenamento não deve ser um problema, mesmo que os cabeçalhos dos blocos devam ser mantidos na memória.
 
-## Simplified Payment Verification
+## Verificação de pagamento simplificada
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+É possível verificar pagamentos sem executar um nó de rede completo. Um usuário só precisa manter uma cópia dos cabeçalhos de bloco da cadeia de prova de trabalho mais longa, que ele pode obter consultando os nós da rede até que esteja convencido de que tem a cadeia mais longa e obter a ramificação Merkle que vincula a transação ao bloco Ele não pode verificar a transação por si mesmo, mas ao vinculá-la a um local na cadeia, ele pode ver que um nó da rede a aceitou e os blocos adicionados depois confirmam que a rede a aceitou.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Como tal, a verificação é confiável desde que os nós honestos controlem a rede, mas é mais vulnerável se a rede for dominada por um invasor. Embora os nós da rede possam verificar as transações por si mesmos, o método simplificado pode ser enganado pelas transações fabricadas de um invasor enquanto o invasor continuar a dominar a rede. Uma estratégia para se proteger contra isso seria aceitar alertas de nós da rede quando eles detectam um bloco inválido, solicitando que o software do usuário baixe o bloco completo e as transações alertadas para confirmar a inconsistência. As empresas que recebem pagamentos frequentes provavelmente ainda desejarão executar seus próprios nós para obter segurança mais independente e verificação mais rápida.
 
-## Combining and Splitting Value
+## Combinando e Dividindo Valor
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Embora seja possível lidar com moedas individualmente, seria difícil fazer uma transação separada para cada centavo em uma transferência. Para permitir que o valor seja dividido e combinado, as transações contêm várias entradas e saídas. Normalmente, haverá uma única entrada de uma transação anterior maior ou várias entradas combinando quantias menores e, no máximo, duas saídas: uma para o pagamento e outra retornando o troco, se houver, de volta ao remetente.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Deve-se notar que fan-out, onde uma transação depende de várias transações, e essas transações dependem de muitas mais, não é um problema aqui. Nunca há a necessidade de extrair uma cópia autônoma completa do histórico de uma transação.
 
-## Privacy
+## Privacidade
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+O modelo bancário tradicional atinge um nível de privacidade ao limitar o acesso às informações às partes envolvidas e ao terceiro confiável. A necessidade de anunciar publicamente todas as transações impede esse método, mas a privacidade ainda pode ser mantida quebrando o fluxo de informações em outro local: mantendo as chaves públicas anônimas. O público pode ver que alguém está enviando um valor para outra pessoa, mas sem informações que vinculem a transação a ninguém. Isso é semelhante ao nível de informação divulgado pelas bolsas de valores, onde o tempo e o tamanho do comércios individuais, a "fita", torna-se pública, mas sem dizer quem eram as partes.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Como um firewall adicional, um novo par de chaves deve ser usado para cada transação para evitar que elas sejam vinculadas a um proprietário comum. Algumas ligações ainda são inevitáveis ​​com transações de múltiplas entradas, que necessariamente revelam que suas entradas eram de propriedade do mesmo proprietário. O risco é que, se o proprietário de uma chave for revelado, a vinculação poderá revelar outras transações que pertenciam ao mesmo proprietário.
 
-## Calculations
+## Cálculos
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Consideramos o cenário de um invasor tentando gerar uma cadeia alternativa mais rapidamente do que a cadeia honesta. Mesmo que isso seja feito, não deixa o sistema aberto a mudanças arbitrárias, como criar valor do nada ou receber dinheiro que nunca pertenceu ao invasor. Os nós não aceitarão uma transação inválida como pagamento e os nós honestos nunca aceitarão um bloco que os contenha. Um invasor só pode tentar alterar uma de suas próprias transações para recuperar o dinheiro que gastou recentemente.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+A corrida entre a cadeia honesta e a cadeia atacante pode ser caracterizada como uma caminhada aleatória binomial. O evento de sucesso é a cadeia honesta sendo estendida em um bloco, aumentando sua liderança em +1, e o evento de falha é a cadeia do invasor sendo estendida em um bloco, reduzindo a lacuna em -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+A probabilidade de um atacante recuperar o atraso de um dado déficit é análoga a um problema de Gambler's Ruin. Suponha que um jogador com crédito ilimitado comece com déficit e jogue potencialmente um número infinito de tentativas para tentar atingir o ponto de equilíbrio. Podemos calcular a probabilidade de que ele atinja o ponto de equilíbrio ou que um invasor alcance a cadeia honesta, como segue[8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -118,7 +118,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
+        <mtext>&#xA0;probabilidade de um nó honesto encontrar o próximo bloco</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -132,7 +132,7 @@ The probability of an attacker catching up from a given deficit is analogous to 
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
+        <mtext>&#xA0;probabilidade de o invasor encontrar o próximo bloco</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -150,11 +150,11 @@ The probability of an attacker catching up from a given deficit is analogous to 
       </mtd>
       <mtd>
         <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
+          <mtext>&#xA0;probabilidade de o invasor alcançar&#xA0;</mtext>
           <mrow class="MJX-TeXAtom-ORD">
             <mi>z</mi>
           </mrow>
-          <mtext>&#xA0;blocks behind</mtext>
+          <mtext>&#xA0;blocos atrás</mtext>
         </mrow>
       </mtd>
     </mtr>
@@ -214,20 +214,19 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Dada a nossa suposição de que
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi>p</mi>
-  <mo>&#x003E;<!-- > --></mo>
-  <mi>q</mi>
-</math>
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+<mi>p</mi>
+<mo>><!-- > --></mo>
+<mi>q</mi>
+</math>, a probabilidade cai exponencialmente à medida que o número de blocos que o invasor precisa alcançar aumenta. Com as probabilidades contra ele, se ele não der uma investida de sorte no início, suas chances se tornam cada vez menores à medida que ele fica mais para trás.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Agora consideramos quanto tempo o destinatário de uma nova transação precisa esperar antes de ter certeza de que o remetente não pode alterar a transação. Assumimos que o remetente é um invasor que deseja fazer o destinatário acreditar que o pagou por um tempo e, em seguida, trocá-lo para pagar de volta a si mesmo depois de algum tempo. O receptor será alertado quando isso acontecer, mas o remetente espera que seja tarde demais.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
+O receptor gera um novo par de chaves e entrega a chave pública ao remetente pouco antes de assinar. Isso evita que o remetente prepare uma cadeia de blocos com antecedência, trabalhando nela continuamente até que tenha a sorte de avançar o suficiente, executando a transação naquele momento. Uma vez que a transação é enviada, o remetente desonesto começa a trabalhar em segredo em uma cadeia paralela contendo uma versão alternativa de sua transação.
 
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+O destinatário espera até que a transação seja adicionada a um bloco e z
+blocos foram vinculados depois dele. Ele não sabe a quantidade exata de progresso que o atacante fez, mas assumindo que os bloqueios honestos levaram o tempo médio esperado por bloco, o progresso potencial do atacante será uma distribuição de Poisson com valor esperado:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -241,7 +240,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Para obter a probabilidade de que o invasor ainda possa alcançá-lo agora, multiplicamos a densidade de Poisson para cada quantidade de progresso que ele poderia ter feito pela probabilidade de que ele pudesse alcançá-lo a partir desse ponto:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -328,7 +327,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Reorganizando para evitar somar a cauda infinita da distribuição...
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -391,7 +390,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Convertendo para código C...
 
 ```c
 #include 
@@ -412,7 +411,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Executando alguns resultados, podemos ver a probabilidade cair exponencialmente com z.
 
 ```
 q=0.1
@@ -442,7 +441,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Resolvendo para P menor que 0,1%...
 
 ```
 P < 0.001
@@ -456,11 +455,11 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Conclusão
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Propusemos um sistema para transações eletrônicas sem depender de confiança. Começamos com a estrutura usual de moedas feitas a partir de assinaturas digitais, que fornece um forte controle de propriedade, mas é incompleta sem uma maneira de evitar gastos duplos. Para resolver isso, propusemos uma rede peer-to-peer usando prova de trabalho para registrar um histórico público de transações que rapidamente se torna computacionalmente impraticável para um invasor alterar se os nós honestos controlarem a maior parte do poder da CPU. A rede é robusta em sua simplicidade não estruturada. Os nós funcionam todos de uma vez com pouca coordenação. Eles não precisam ser identificados, pois as mensagens não são roteadas para nenhum local específico e só precisam ser entregues com base no melhor esforço. Os nós podem sair e se juntar à rede à vontade, aceitando a cadeia de prova de trabalho como prova do que aconteceu enquanto eles estavam fora. Eles votam com seu poder de CPU, expressando sua aceitação de blocos válidos trabalhando para estendê-los e rejeitando blocos inválidos recusando-se a trabalhar neles. Quaisquer regras e incentivos necessários podem ser aplicados com este mecanismo de consenso.
 
-## References
+## Referências
 
 1. W. Dai, ["b-money,"](https://nakamotoinstitute.org/b-money/) [http://www.weidai.com/bmoney.txt](http://www.weidai.com/bmoney.txt), 1998.
 2. H. Massias, X.S. Avila, and J.-J. Quisquater, ["Design of a secure timestamping service with minimal trust requirements,"](https://nakamotoinstitute.org/secure-timestamping-service.pdf) In 20th Symposium on Information Theory in the Benelux, May 1999.
