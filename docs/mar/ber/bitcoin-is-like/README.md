@@ -1,39 +1,50 @@
-# Bitcoin Is Like
+---
+layout: RTLLayout
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Ali Bourhime"
+        email: "alif.bourhime@gmail.com"
+---
+# يشبه البيتكوين
 
-by Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
+بواسطة Oleg Andreev [2017/12/10](https://oleganza.com/all/bitcoin-is-like/)
 
 <LanguageDropdown/>
 
-**Bitcoin is like physical cash:** it is not reversible and you are responsible for handling it. If you lose your wallet, you lose your money. You can give bitcoins to someone to hold them for you, but it will be like with any bank: you have to trust them that they won’t run away with your money.
+** تشبه Bitcoin النقد المادي: ** لا يمكن عكسها وأنت مسؤول عن التعامل معها. إذا فقدت محفظتك ، فإنك تخسر أموالك. يمكنك إعطاء عملات البيتكوين لشخص ما ليحتفظ بها لك ، ولكن سيكون الأمر كما هو الحال مع أي بنك: عليك أن تثق بهم بأنهم لن يهربوا بأموالك.
 
-**Bitcoin is unlike physical cash:** you can store as much as you want and it will not take any space. You can send it over the wire to anyone. It is impossible to counterfeit. You can’t give it in one second: to actually guarantee that transaction has happened, you have to wait 10-15 minutes for the cryptographic proof to be produced by the network.
+** تختلف عملة البيتكوين عن النقد المادي: ** يمكنك تخزين كل ما تريد ولن تشغل أي مساحة. يمكنك إرسالها عبر السلك لأي شخص. من المستحيل التزوير. لا يمكنك إعطائها في ثانية واحدة: لضمان حدوث المعاملة فعليًا ، عليك الانتظار من 10 إلى 15 دقيقة حتى يتم إنتاج إثبات التشفير بواسطة الشبكة.
 
-**Bitcoin is like gold:** it cannot be produced at will, there is a limited amount of it and this amount is scattered in spacetime continuum (mostly time). To get some bitcoins someone should give them to you, or you should *mine* them. Like gold, Bitcoin is shiny: it attracts people with its beautiful engineering, built-in contract programming language, wise incentives, and libertarian promise of freedom from coercion.
+** يشبه البيتكوين الذهب: ** لا يمكن إنتاجه حسب الرغبة ، هناك كمية محدودة منه وهذه الكمية مبعثرة في متتالية الزمكان (في الغالب الوقت). للحصول على بعض عملات البيتكوين ، يجب أن يمنحها شخص ما لك ، أو يجب عليك * تعدينها *. مثل الذهب ، فإن Bitcoin لامعة: فهي تجذب الناس بهندستها الجميلة ولغة برمجة العقود المدمجة والحوافز الحكيمة والوعد التحرري بالتحرر من الإكراه.
 
-**Bitcoin is unlike gold:** supply of Bitcoin is completely fixed via scheduled mining (only so much bitcoins are created per hour). You have a guarantee that no one will suddenly find a mountain of bitgold or mine it on asteroids. Unlike gold, Bitcoin difficulty is adjusted to the mining efforts to keep the schedule fixed. You may dig up all the gold in one day, but it will never be possible with Bitcoin no matter how fast computers will ever become. Growing mining efforts can only bend schedule slightly (network adjusts difficulty to producing 6 blocks per hour, but if network constantly grows it may produce 7-8 blocks per hour).
+** تختلف عملة البيتكوين عن الذهب: ** يتم إصلاح إمداد البيتكوين تمامًا من خلال التعدين المجدول (يتم إنشاء الكثير من عملات البيتكوين في الساعة). لديك ضمان ألا يجد أي شخص فجأة جبلًا من قطعة الذهب أو منجمه على الكويكبات. على عكس الذهب ، يتم تعديل صعوبة البيتكوين وفقًا لجهود التعدين للحفاظ على الجدول الزمني ثابتًا. يمكنك التنقيب عن الذهب بالكامل في يوم واحد ، ولكن لن يكون ذلك ممكنًا مع Bitcoin بغض النظر عن السرعة التي ستصبح بها أجهزة الكمبيوتر. لا يمكن لجهود التعدين المتزايدة سوى ثني الجدول الزمني قليلاً (تضبط الشبكة الصعوبة لإنتاج 6 كتل في الساعة ، ولكن إذا نمت الشبكة باستمرار ، فقد تنتج 7-8 كتل في الساعة).
 
-**Bitcoin is like a bank:** there are computers, databases and transactions. Databases store the entire history of all incoming and outgoing payments: who send how much to whom. Everything is digital. There are no vaults with gold or personal deposit boxes, only bookkeeping in a single “ledger”.
+** البيتكوين مثل البنك: ** هناك أجهزة كمبيوتر وقواعد بيانات ومعاملات. تخزن قواعد البيانات التاريخ الكامل لجميع المدفوعات الواردة والصادرة: من يرسل المبلغ إلى من. كل شيء رقمي. لا توجد خزائن مع صناديق ودائع ذهبية أو شخصية ، فقط مسك الدفاتر في "دفتر الأستاذ" واحد.
 
-**Bitcoin is unlike a bank:** everyone can verify that their database contains the same ledger data as everyone else’s. There is no manager in charge of updating the ledger and making sure it is not tampered with. Any person may have as many accounts as they like and all accounts are anonymous (unless one reveals his identity himself). Ledger does not store names, only balances and account numbers. There is no possibility of a “fractional reserve” when bank loans out more money than it actually has. In fact, there are no debts on bitcoin ledger: either you have money on your address and it is fully yours, or you don’t and you can’t use it at all. Also, Bitcoin allows to lock money with “contracts”: cryptographic puzzles designed to spread the decision making between several people or across time.
+** تختلف عملة البيتكوين عن البنك: ** يمكن للجميع التحقق من أن قاعدة بياناتهم تحتوي على نفس بيانات دفتر الأستاذ مثل أي شخص آخر. لا يوجد مدير مسؤول عن تحديث دفتر الأستاذ والتأكد من عدم العبث به. يمكن لأي شخص أن يمتلك العديد من الحسابات كما يحلو له وتكون جميع الحسابات مجهولة المصدر (ما لم يكشف الشخص عن هويته بنفسه). لا يقوم دفتر الأستاذ بتخزين الأسماء ، فقط الأرصدة وأرقام الحسابات. لا توجد إمكانية لوجود "احتياطي جزئي" عندما يقرض البنك أموالاً أكثر مما لديه بالفعل. في الواقع ، لا توجد ديون على دفتر الأستاذ بيتكوين: إما أن يكون لديك أموال على عنوانك وهي ملكك بالكامل ، أو لا يمكنك استخدامها على الإطلاق. أيضًا ، تسمح Bitcoin بتأمين الأموال من خلال "العقود": ألغاز تشفير مصممة لنشر عملية صنع القرار بين عدة أشخاص أو عبر الزمن.
 
-**Bitcoin is like Monopoly money:** coins are abstract tokens that are not claims to any value. People value them because they choose to play the game. In fact, the same is true for gold or any other money.
+** تشبه Bitcoin أموال Monopoly: ** العملات المعدنية هي رموز مجردة لا تدعي أي قيمة. يقدرهم الناس لأنهم اختاروا ممارسة اللعبة. في الواقع ، ينطبق الأمر نفسه على الذهب أو أي نقود أخرى.
 
-**Bitcoin is unlike Monopoly money:** there is a limited supply of tokens and no one can counterfeit them. This makes them a good candidate for a universally recognized collectible like gold or silver coins.
+** Bitcoin ليس مثل Monopoly money: ** هناك عدد محدود من الرموز المميزة ولا يمكن لأحد تزويرها. هذا يجعلها مرشحًا جيدًا للتحصيل المعترف به عالميًا مثل العملات الذهبية أو الفضية.
 
-**Bitcoin is like Git:** in Git (a distributed version control system) all your changes are organized in a chain protected by cryptographic hashes. If you trust the latest hash, you can get all the previous information (or any part of it) from any source and still verify that it is what you expect. Similarly, in Bitcoin, all transactions are organized in a chain (*the blockchain*) and once validated, no matter where they are stored, you can always trust any piece of blockchain by checking a chain of hashes that link to a hash you already trust. This naturally enables distributed storage and easy integrity checks.
+** تشبه Bitcoin Git: ** في Git (نظام التحكم في الإصدار الموزع) ، يتم تنظيم جميع تغييراتك في سلسلة محمية بواسطة تجزئات التشفير. إذا كنت تثق في أحدث تجزئة ، فيمكنك الحصول على جميع المعلومات السابقة (أو أي جزء منها) من أي مصدر وما زلت تتحقق من أن هذا هو ما تتوقعه. وبالمثل ، في Bitcoin ، يتم تنظيم جميع المعاملات في سلسلة (* blockchain *) وبمجرد التحقق من صحتها ، بغض النظر عن مكان تخزينها ، يمكنك دائمًا الوثوق بأي قطعة من blockchain عن طريق التحقق من سلسلة من التجزئة التي ترتبط بتجزئة أنت بالفعل ثقة. يتيح هذا بشكل طبيعي إمكانية التخزين الموزع وفحوصات السلامة السهلة.
 
-**Bitcoin is unlike Git:** in a way that everyone strives to work on a single branch. In Git everyone may have several branches and fork and merge them all day long. In Bitcoin one cannot “merge” forks. The blockchain is a actually a tree of transaction histories, but there is always one biggest branch (which has the value) and some accidental mini-branches (no more than one-two blocks long) that have no value at all. In Git content matters more than branches, in Bitcoin consensus matters more than content.
+** Bitcoin يختلف عن Git: ** بطريقة يسعى الجميع للعمل في فرع واحد. في Git ، قد يكون لدى الجميع عدة فروع وشوكة ودمجها طوال اليوم. في Bitcoin لا يمكن للمرء أن "يدمج" الشوكات. إن blockchain هو في الواقع شجرة من سجلات المعاملات ، ولكن هناك دائمًا أكبر فرع واحد (له القيمة) وبعض الفروع الصغيرة العرضية (لا يزيد طولها عن كتلة واحدة) ليس لها قيمة على الإطلاق. يهم محتوى Git أكثر من الفروع ، في توافق Bitcoin يهم أكثر من المحتوى.
 
-**Bitcoin is like Bittorrent:** the network is fully decentralized, there is no single “mint” or “bank”. The blockchain is like a single file on bittorrent: cryptographically authenticated and shared across many computers. Every participant, including miners are acting on equal grounds. If one part of the network becomes disrupted, transactions can flow through other parts. Even if the entire network goes down, information about transactions is still stored on many thousands of independent computers and no one’s money is lost. When people connect with each other again, they can continue sending transactions like nothing happened. Both Bitcoin and Bittorrent can survive a nuclear war because information does not become radioactive and can be safely replicated.
+** تشبه Bitcoin Bittorrent: ** الشبكة لا مركزية بالكامل ، ولا يوجد "بنك" أو "منت" واحد. يشبه blockchain ملفًا واحدًا على bittorrent: مصادق عليه مشفرًا ومشاركته عبر العديد من أجهزة الكمبيوتر. كل مشارك ، بما في ذلك عمال المناجم ، يتصرفون على أسس متساوية. في حالة تعطل جزء من الشبكة ، يمكن أن تتدفق المعاملات عبر أجزاء أخرى. حتى في حالة تعطل الشبكة بالكامل ، تظل المعلومات المتعلقة بالمعاملات مخزنة على عدة آلاف من أجهزة الكمبيوتر المستقلة ولن يتم فقد أي أموال. عندما يتصل الأشخاص ببعضهم البعض مرة أخرى ، يمكنهم الاستمرار في إرسال المعاملات كما لو لم يحدث شيء. يمكن لكل من Bitcoin و Bittorrent النجاة من حرب نووية لأن المعلومات لا تصبح مشعة ويمكن تكرارها بأمان.
 
-**Bitcoin is unlike Bittorrent:** instead of many independent “files”, there is one file that always grows: the blockchain. Also, the most important participants: miners are actually getting rewarded for their work with real money.
+** يختلف Bitcoin عن Bittorrent: ** بدلاً من العديد من "الملفات" المستقلة ، هناك ملف واحد ينمو دائمًا: blockchain. أيضًا ، المشاركون الأكثر أهمية: عمال المناجم يحصلون بالفعل على مكافأة مقابل عملهم بأموال حقيقية.
 
-**Bitcoin is like freedom of speech:** every transaction is a short public message that can be pronounced no matter where or how. If some miners hear it, they will add it in the blockchain and that message will be forever in the history. Everyone will see it and no one will be able to erase it.
+** تشبه Bitcoin حرية التعبير: ** كل معاملة هي رسالة عامة قصيرة يمكن نطقها بغض النظر عن المكان أو الطريقة. إذا سمعها بعض المعدنين ، فسيضيفونها في blockchain وستظل هذه الرسالة في السجل إلى الأبد. سيراه الجميع ولن يتمكن أحد من محوه.
 
-**Bitcoin is unlike freedom of speech:** saying something comes with a cost. Transaction moves coins that you must have to start with. So not every moron is allowed to shout, but only those who had a merit to acquire some coins in the first place. Also, miners may reject transaction if it’s spammy or does not contain enough fees. So no one provides anyone with freedom as “in beer”, but everyone tries to cooperate on a voluntary basis.
+** تختلف عملة البيتكوين عن حرية التعبير: ** قول شيء ما له تكلفة. تقوم المعاملة بنقل العملات المعدنية التي يجب أن تبدأ بها. لذلك لا يُسمح لكل معتوه بالصراخ ، ولكن فقط أولئك الذين لديهم ميزة الحصول على بعض العملات المعدنية في المقام الأول. أيضًا ، قد يرفض المعدنون المعاملة إذا كانت غير مرغوب فيها أو لا تحتوي على رسوم كافية. لذلك لا أحد يمنح أي شخص الحرية مثل "في البيرة" ، لكن الجميع يحاول التعاون على أساس طوعي.
 
-**Bitcoin is like a social contract:** it is a pure cultural phenomenon. It works as money as long as people treat it as such and have guts to hold it and respect its rules. Technology is needed only insomuch to provide necessary plumbing for that contract.
+** البيتكوين يشبه العقد الاجتماعي: ** هو ظاهرة ثقافية خالصة. إنه يعمل كمال طالما أن الناس يعاملونه على هذا النحو ولديهم الشجاعة للاحتفاظ به واحترام قواعده. التكنولوجيا مطلوبة فقط بقدر ما توفر السباكة اللازمة لهذا العقد.
 
-**Bitcoin is unlike a social contract:** it is not the kind of a contract that they teach at schools. It’s not flexible, and it’s not imposed by some rulers. It’s a virtually immutable set of rules that everyone chooses to apply to themselves, therefore adding to a unanimous consensus.
+** إن Bitcoin يختلف عن العقد الاجتماعي: ** ليس من نوع العقد الذي يقومون بتدريسه في المدارس. انه غير مرن ولا يفرضه بعض الحكام. إنها مجموعة من القواعد غير القابلة للتغيير تقريبًا ويختار الجميع تطبيقها على أنفسهم ، مما يضيف إلى الإجماع الإجماعي.
 
-**Bitcoin is like magic internet money:** it simply is.
+** إن Bitcoin مثل أموال الإنترنت السحرية: ** هي ببساطة.

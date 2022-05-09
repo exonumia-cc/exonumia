@@ -48,6 +48,12 @@ contributors: false
 
 ---
 
+**[🇲🇦 Morocco](/mar/)**
+
+[Berber (Arabic script)](/mar/ber/)
+
+---
+
 **[🇲🇬 Madagascar](/mdg/)**
 
 [Malagasy](/mdg/mg/)

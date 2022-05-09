@@ -1,23 +1,34 @@
-# Welcome to Bitcoin, newcomers!
+---
+layout: RTLLayout
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Ali Bourhime"
+        email: "alif.bourhime@gmail.com"
+---
+# مرحبًا بكم في Bitcoin ، الوافدين الجدد!
 
-by Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
+بقلم جيمسون لوب [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
 
 <LanguageDropdown/>
 
-### Here's your FAQ:
+### ها هي الأسئلة الشائعة الخاصة بك:
 
-Q: Who should I trust?  
-A: **Nobody.**
+س: بمن أثق؟  
+ج: لا أحد   . 
 
-Q: When should I sell?  
-A: **Never.**
+س: متى أبيع؟  
+أبدأ.
 
-Q: Is Bitcoin dying because ____?  
-A: **No.**
+س: هل تحتضر البيتكوين بسبب ____؟  
+ج:  لا. 
 
-Q: What have I gotten myself into?  
-A: **Nobody knows.**
+س: ما الذي وضعت نفسي فيه؟  
+ج:  لا أحد يعلم. 
 
 
-Q: How do I learn more?  
-A: **We have a [wealth of content here](/int/en/translations/).** Or you can visit [lopp.net](https://www.lopp.net/bitcoin-information.html)
+س: كيف يمكنني معرفة المزيد؟  
+ج: ** لدينا [ثروة من المحتوى هنا](/mar/ber/translations/).** أو يمكنك زيارة [lopp.net](https://www.lopp.net/bitcoin-information.html)

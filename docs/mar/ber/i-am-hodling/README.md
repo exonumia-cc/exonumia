@@ -1,19 +1,30 @@
-# I AM HODLING
+---
+layout: RTLLayout
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Ali Bourhime"
+        email: "alif.bourhime@gmail.com"
+---
+# أنا معانقة
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+بواسطة GameKyuubi [2013/12/18](https://bitcointalk.org/index.php؟topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+اكتب d هذا العنوان مرتين لأنني عرفت أنه خطأ في المرة الأولى. لا يزال خطأ. نحن.
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+GF في الخارج في حانة السحاقيات ، BTC تتعطل لماذا أنا أمسك؟ سأخبرك لماذا.
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+هذا لأنني تاجر سيء وأعرف أنني تاجر سيء. نعم ، يمكنك التجار الجيدين اكتشاف الارتفاعات والانخفاضات المنخفضة مثل هذا تمامًا وجعل مليون دولار متأكدًا من عدم وجود مشكلة يا أخي.
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+وبالمثل ، فإن الأيدي الضعيفة مثل OH NO IT'S DOWN ، سأبيعه ، ثم إنهم مثل OH GOD MY ASSHOLE عندما يكون المتداولون الأذكياء الذين يعرفون ما الذي يقوموا بشرائه ولكنك تعرف ماذا؟ أنا لست جزءًا من تلك المجموعة. عندما يقوم المتداولون بإعادة الشراء ، فأنا بالفعل جزء من رأس مال السوق ، لذا لا تخمن من أنت تغش المتداولين اليوميين!
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+تلك الخيوط السخرية التي تقول "أوه ، يجب أن تبيع" "نعم لا شيء. لا شيء يجب أن أبيعه. يجب أن أقوم ببيع لحظات قبل كل بيع واشترِ اللحظات قبل كل عملية شراء ولكنك تعلم ما الذي لا يكون جيدًا للجميع . "
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+أنت تبيع فقط في سوق هابطة إذا كنت متداولًا جيدًا أو مبتدئًا. الناس في المنتصف عقد.
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+في لعبة محصلتها صفر مثل هذه ، لا يمكن للمتداولين أخذ أموالك إلا إذا قمت بالبيع.

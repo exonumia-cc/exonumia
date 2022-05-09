@@ -1,30 +1,39 @@
-# Bitcoin Is Like Sports
+---
+layout: RTLLayout
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Ali Bourhime"
+        email: "alif.bourhime@gmail.com"
+---
+# البيتكوين مثل الرياضة
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+بواسطةthebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+في كثير من الأحيان ، كنت أشرح كيف تعمل #bitcoin وكيف أنها لا مركزية في سياق لعبة رياضية. أجد أنه من المفيد الإجابة على الكثير من الأسئلة الشائعة:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+س: من اخترع لعبة البيسبول؟  
+ج: لا يهم حقًا. يمكن لأي شخص في العالم أن يلعب. لا يهم إذا كان المخترع الأصلي يريد تغيير القواعد أو يكافئ نفسه بالنقاط أو أي شيء آخر. نحن لا نهتم برأيه في لعبتنا .
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+س: من المسؤول عن اللعبة؟ ج: لا أحد مسؤول ، قررنا جميعًا اللعب. نعلم جميعًا القواعد ونطبقها ، وإذا قام شخص ما بالغش ، فسيتم طرده من اللعبة. إذا كافأ شخص ما نفسه بالنقاط غير المكتسبة ، فإننا نتجاهلها ".
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+  س: كيف نعرف أن القواعد لن تتغير؟  
+ج: لقد اتفقنا معهم جميعًا عندما بدأنا اللعب ، ومن يريد مواصلة اللعب بهذه القواعد سيستمر ، وإذا أراد شخص ما التغيير ، فسيحتاج إلى اللعب في مكان آخر .
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+س: ألا يمكن اختراقها؟ ج: كل شيء مرئي للعامة. يمكننا جميعًا رؤية الحقل بالكامل وجميع النتائج. إذا كان شخص ما يغش ، فسنعرف جميعًا ونطلب منهم أن يضيعوا ".
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+س: لماذا يستحق أي شيء؟
+ج: قررنا جميعًا اللعب ، لذا فإن الأمر يستحق شيئًا بالنسبة لنا. إذا أراد شخص ما الانضمام ، فسيتعين عليه الموافقة على الاعتراف بنقاطنا وقيمتنا .
 
-I value it, so it has value. Value is subjective.
+أنا أقدرها ، لذلك لها قيمة. القيمة ذاتية.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+س: ألا يتم حظره؟  
+ج: ربما ، لكن مجرد بعض الأشخاص يلعبون بالعصا والكرة ، ولا يؤذون أي شخص آخر ، لذلك ربما تمنعك الحكومة من لعبها ، لكن لا يمكنهم حظر مفهوم ضرب العصا بالكرة ، ستستمر اللعبة في مكان ما .
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+  س: هل يجب أن أنضم؟
+ج: افعل ما تريد. أنا أستمتع بلعب البيسبول ، يمكنك الانضمام أو يمكنك الانضمام إلى HFSP .
