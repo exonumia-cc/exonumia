@@ -2026,7 +2026,8 @@ module.exports = {
                         text: 'Izincwadi',   // required
                         link: '/zaf/zu/books/',
                         children: [
-                            '/zaf/zu/books/layered-money/'
+                            '/zaf/zu/books/21-lessons/',
+                            '/zaf/zu/books/layered-money/',
                         ]
                     },
                     {
