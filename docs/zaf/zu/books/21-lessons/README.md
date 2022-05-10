@@ -2,7 +2,7 @@
 #### Engikufundile kuhambo lami olungajwayelekile lwe-Bitcoin
 
 <br>
-<center>"Oh, wena Alice wesilima" waphinda washo, "ungafunda kanjani izifundo lapha? Ngani, asikho isikhala sakho, futhi asikho nhlobo isikhala sanoma yiziphi izincwadi zezifundo!</center>
+<center v-pre>"Oh, wena Alice wesilima" waphinda washo, "ungafunda kanjani izifundo lapha? Ngani, asikho isikhala sakho, futhi asikho nhlobo isikhala sanoma yiziphi izincwadi zezifundo!</center>
 
 <br>
 <LanguageDropdown/>
@@ -82,7 +82,7 @@ Umgomo wami ukukwenza ucabange, futhi ngikubonise ukuthi kuningi okungaziwa nge-
 
 ## Isahluko I: Ifilosofi
 
-<br> <center>Igundane lambheka ngokufuna ukwazi, futhi kwabonakala sengathi licwayiza ngelinye lamehlo alo amancane, kodwa alishongo lutho.</center>"
+<br> <center v-pre>Igundane lambheka ngokufuna ukwazi, futhi kwabonakala sengathi licwayiza ngelinye lamehlo alo amancane, kodwa alishongo lutho.</center>"
 
 Ukubheka i-Bitcoin kancane, umuntu angase aphethe ngokuthi ihamba kancane, iyamosha, ayinaso isidingo, futhi isabisa ngokweqile. Ukubheka i-Bitcoin ngokubuza,
 umuntu angase athole ukuthi izinto azihambi njengoba zibonakala ekuqaleni.
@@ -92,7 +92,7 @@ Ngemva kwesikhashana, lapho usathi uyakhululeka futhi, i-Bitcoin izo
 bhodloza udonga njengenkunzi esitolo sama-shayina bese iphihlize imicabango yakho futhi.
 
 ![](/images/21-lessons/blind-monks.jpg)
-<center>Izindela eziyizimpumputhe zihlola inkunzi ye-Bitcoin</center>
+<center v-pre>Izindela eziyizimpumputhe zihlola inkunzi ye-Bitcoin</center>
 
 I-Bitcoin iyingane yezifundo eziningi. Njengezindela eziyizimpumputhe zihlola indlovu,
 wonke umuntu osondela kulobu buchwepheshe obungakavami ukwenza ngendlela ehlukile.
@@ -409,7 +409,7 @@ ezingagqina ukubaluleka.
 Omunye umphumela we-infuleyisheni ukuthi yonke imali abantu abayilondolozile phakathi nokuphila kwabo izoshabalala ngokuphumelelayo. Imali yephepha esikhwameni sakho izobe isekhona, kunjalo. Kodwa kuyoba yilokho kanye: iphepha elingenalutho.
 
 ![](/images/21-lessons/children-playing-with-money.png)
-<center>I-infuleyisheni e-Weimar Republic (1921-1923)</center>
+<center v-pre>I-infuleyisheni e-Weimar Republic (1921-1923)</center>
 
 Imali yehla ngenani nalokho okubizwa ngokuthi i-infuleyisheni "ethambile".
 Kwenzeka kancane ngokwanele kangangokuthi abantu abaningi ababoni ukuncipha kwamandla abo okuthenga. Futhi lapho imishini yokuphrintha isisebenza, inani lemali lingehla kalula, futhi lokho kwehla kwenani lemali okuncane kungase kuphenduke yi-infuleyisheni enkulu. Njengoba uFriedrich Hayek abonisa kwenye yezindaba zakhe, ukwehla kwamandla emali okuncane ngokuvamile kuholela ekwehleni kwamanani emali ngokuqondile.
@@ -563,14 +563,14 @@ Uma into ikhiqizwe nge *fiat*, isuke iphakanyiswe ngokomthetho ohloliwe. Ngakho 
 Isigqi semali yephepha, asiqhamuki emlandweni wokwakheka kwemali.Ukubaluleka kwemali kanye nokusetshenziswa kwayo kuqhamuka kwezo politiki lapho kuhlelwa khona isimo semali nokuthi iyokwakheka kanjani. Ukubaluleka kwemali kubekiswe ngemiyalo kanye noku bekwa komthetho.
 
 ![](/images/21-lessons/fiat-definition.png)
-<center>fi·at /ˈfēˌät,ˈfēət/ --- 'Let it be done'</center>
+<center v-pre>fi·at /ˈfēˌät,ˈfēət/ --- 'Let it be done'</center>
 
 Kungasikudala nje, iinhlobo zokusetshenziswa kwemali zazimbili kuphela: **imali yempahla**ekhandwe *ngezinto* eziyigugu , futhi *nemali yobummeleli** emele into eyigugu, ikakhulukazi okwabhalwa ngayo.
 
 Sesike sa thinta ngemali yempahla ngenhla. Abantubebesebenzisa amathambo ekhethelo, amagobolondo asolwandle kanye nensimbi ezithandwa kakhulu nje ngemali. Ekuhambeni kwesikhathi, igolide nosiliva kwaba iinsimbi eziyigugu kwasetshenziswa okwe mali. I -[khoini yakuqala ](https://www.britishmuseum.org/explore/themes/money/the_origins_of_coinage.aspx)
 
 ![](/images/21-lessons/lydian-coin-stater.png)
-<center>Lydian electrum coin. Picture cc-by-sa Classical Numismatic Group, Inc.</center>
+<center v-pre>Lydian electrum coin. Picture cc-by-sa Classical Numismatic Group, Inc.</center>
 
 Kubonakala sengathi ukuqongelelwa kwama khoini, noku bambelela kuwo ukuze kusetshenziswa izindlela zesi manje manje, kuyazifanela neinkathi zakudala. Umuntu wakudala owaziwayo owayethanda ukuqongelela amakhoini , yilowo owa qoqa amakhoini angamakhulu ebhodweni walingcwaba ngaphansi kwe sonto, lelo bhodlela lama khoini latholakala sekudlule iminyaka engama-2500. Kwaba indlela enhle kabi yokulondoloza amakhoini, ngikutshele.
 
@@ -585,14 +585,14 @@ Kanti nalendlela yokwenza [yokwehliswa lwamandla wamakhoini](https://en.wikipedi
 Ake sikhulume ngezinto zaseJalimane: Ukuthi *idola* laseMelika lathola kanjani igama lalo, indaba egculisayo leyo. Ibizo elithi *dola* lasuselwa egameni lesiJalimane elithi *[Thaler](https://en.wikipedia.org/wiki/Thaler)*, isinciphiso segama elithi *Joachimsthaler.* u-Joachimsthaler ikhoini elakhandwa edolobheni lase *Sankt Joachimstal*. Igama elithi-Thaler lichaza umuntu noma into eqhamuka esigodini esithile ngoba u-Joachimsthal kwaku isigodi lapho kukhiqizwa khona amakhoini, kwase abantu balapho beqamba leligama elithi Thaler (yaseJalimane) laguqulelwa kwi-daalders (yama-Dashi), kwagcina ngokuthi libizwe nge Dola (LamaNgisi)
 
 ![](/images/21-lessons/joachimsthaler.png)
-<center> "idola lakuqala". U-Saint Joachim osesithombeni ogqoke ingubo yakhe ende, kanye nesigqoko sakhe semilingo and. Picture cc-by-sa Berlin-George</center>
+<center v-pre> "idola lakuqala". U-Saint Joachim osesithombeni ogqoke ingubo yakhe ende, kanye nesigqoko sakhe semilingo and. Picture cc-by-sa Berlin-George</center>
 
 Ukwethulwa kwemali yobummeleli, kudale ukuwa kwamandla emali yangempela. Izitifiketi zegolide zafika ngonyaka ongama-1863, sekudlule iminyaka eyishumi nanhlanu, idola lesiliva laseli fakwe esikhundleni semali yephepha: isitifiketi sesiliva.
 
 Kwathatha iminyaka engama-50, selokhu kwa bikwa [nge-siliva] yakuqala (https://en.wikipedia.org/wiki/Silver_certificate_%28United_States%29) kwase kufika isikhathi lapho i-dola laseMelika elingamaphepha lingena emkhakheni wezezimali.
 
 ![](/images/21-lessons/us-silver-dollar-note-smaller.png)
-<center>Idola lesiliva lango-1928 lase-U.S. 'Kukhokhwa kulowo owuphethe ngokufunwa.' Isithombe sekhredithi ye-National Numismatic Collection e-Smithsonian Institution</center>
+<center v-pre>Idola lesiliva lango-1928 lase-U.S. 'Kukhokhwa kulowo owuphethe ngokufunwa.' Isithombe sekhredithi ye-National Numismatic Collection e-Smithsonian Institution</center>
 
 Qaphela ukuthi idola laseMelika lesiliva lonyaka ongama-1928, lisa qanjwe ngegama elithi *isitifeketi sesiliva*, lokhu kuchaza kalula ukuthi leli idokhumenti alichaza ukuthi umnikazi walo ukweletwa ucezu lika siliva. Kuyathakazelisa ukuthi lombhalo lo, owusekho uye wanyamalala ekuhambeni kwesikhathi. Lesi setifikethi, sanyamalala okwama zolo, kwase kufika izitatimende iezicacisayo ukuthi imlai yasebhange *federal reserve notes*
 
@@ -603,7 +603,7 @@ Ukukhumbuza abasebenzisa lezitifiketi ukuthi zimele uqobo lwegolide nosiliva, um
 > "Lokhu bekutshengisa ukuthi ikhona imali etshaliwe kumnyango wezezimali waseMelika, ikhulu lamadola elingakhokhelwa ngama khoini egolide kumnikazi wemali"
 
 ![](/images/21-lessons/us-gold-cert-100-smaller.png)
-<center>Picture credit to National Numismatic Collection, National Museum of American History.</center>
+<center v-pre>Picture credit to National Numismatic Collection, National Museum of American History.</center>
 
 Ngonyaka ongama-1963, amagama athi ""PAYABLE TO THE BEARER ON DEMAND"achaza ukuthi "ÏMALI ELOTSHIWE EBEKELWE UMNIKAZI" asuswa emalini etsha ekhiqiziwe. Eminyakeni emihlanu elandelayoukuvuselelwa kwe golide nosiliva kwaphela.
 
@@ -612,7 +612,7 @@ Amabizo okusikisela ngemvelaphi kanye nombono ngasemuva kwemali yephepha asulwa 
 Emva kokuhoxiswa kwe zinga legolide ngo nyaka ongama-1971 ekhulwini leminyaka, kwenziwe ubuchule obuthile. Imali iphenduke inkohliso nanamhlanje: i-fiat money. Imali ibukeka sengathi ibalulekile ngoba kwasho induna yebuthi namajele. Njengoba kulotshiwe kuwo onke amadola anamuhla "LELINOTHI ITHENDA ELISEMTHETHWENI".Ngamanye amagama: Ibaluleke ngoba lelinothi lisho njalo.
 
 ![](/images?21-lessons/us-dollar-2004.jpg) 
-<center>Uchungechunge lwango-2004 lwamadola ase-U.S. amalitha angamashumi amabili asetshenziswa namuhla. 'LELI BHAYIBHELI LIYITHENDA YOMTHETHO'</center>
+<center v-pre>Uchungechunge lwango-2004 lwamadola ase-U.S. amalitha angamashumi amabili asetshenziswa namuhla. 'LELI BHAYIBHELI LIYITHENDA YOMTHETHO'</center>
 
 Kukhona imfundo eyintshisekelo emalini yephapha yasebhange, akunakekile kodwa kusobala. Umugqa wesibili ubhale ukuthi ithenda elisemthetwheni "ZONKE IZIKWELETU ZOMPHAKATHI NEZANGASESE". Okungaba sobala kwizazi zomnotho kwangimangaza kakhulu: Yonke imali isikweletu. Ikhanda lami lisa nkenketha ngenxa yalokhu, futhi ngizokuyekelela ukuhlolisisa lokhu kuxhumana kwezimali nezikweletu nje ngesivivinyo kubafundi.
 
@@ -624,7 +624,7 @@ u-Bitcoin wangifundisa ngomlando wemali kanye nobuchule obunoboqili emlandweni w
 ### Isifundo 13: Umsangano we-Fractional Reserve
 
 <br> 
-<center>Habe! Sesihambile isikhathi: kwa hamba hamba kwafika la esekhula khona, kwase kufika isikhathi lapho kumele aguqe ngamadolo: emzuzwini olandelwayo kwaphela ngisho indawo ya lokhu, wazama ukucambalala kancane, ebekise indololwane yakhe ngase scabheni, ethwele isandla esisodwa ekhanda. Kusenjalo nje waqhubeka elokhu ekhula, ekugcineni wabeka ingalo yakhe efasiteleni, nonyawo phezu kweshimula, wazitshela ukuthi "senginga dela konke- ngingaba ini kodwa?"</center>
+<center v-pre>Habe! Sesihambile isikhathi: kwa hamba hamba kwafika la esekhula khona, kwase kufika isikhathi lapho kumele aguqe ngamadolo: emzuzwini olandelwayo kwaphela ngisho indawo ya lokhu, wazama ukucambalala kancane, ebekise indololwane yakhe ngase scabheni, ethwele isandla esisodwa ekhanda. Kusenjalo nje waqhubeka elokhu ekhula, ekugcineni wabeka ingalo yakhe efasiteleni, nonyawo phezu kweshimula, wazitshela ukuthi "senginga dela konke- ngingaba ini kodwa?"</center>
 
 Isigqi kanye nemali, izihloko ezisematheni esikhathini sanamhlanje. Uhlelo lokukhandwa kwemali emabhange kuyazifanela nakho kubalulekile, angkwazi ukuthi ngikushaye indiva lokhu ngoba isenzo sangabomu. Engakufunda ezincwadini zesikole kanye neminye imibhalo yasemthethweni kubonakala kuyi senzo esijwayelekile emkhakheni wezezimali: Ayikho into echazwe kalula, kodwa hhayi ngoba kuyinto engaqondakalo, kodwa ngoba iqiniso lifihliwe ukuze kunganakeki kukhulunywa ngani. "Expansionary monetary policy, quantitative easing, fiscal stimulus to
 the economy." Abathameli bayalehlekiswa ngenxa yokusetshenziswa kwamagama ahumishile, angaqondakali kahle emphakathini.
@@ -704,12 +704,12 @@ Asingene kwi-Bitcoin. Njengoba wazi, ukumbiwa kwe bitcoin kwaba ukufutheka okwen
 Iphakeme kangakanani? Nokho, kuvela ukuthi i-Bitcoin izoba nzima kakhulu.
 
 ![](/images/21-lessons/stock-to-flow-white-cc-by-sources.png)
-<center>Visualization of stock and flow for USD, gold, and Bitcoin</center>
+<center v-pre>Visualization of stock and flow for USD, gold, and Bitcoin</center>
 
 Njengoba kunokwehla komvuzo oqhamuka emayini, ukugobhoza kwe bitcoin kuncitshisiwe. Ingalinganiselwa kwi-golide ngonyaka ka-2020, kanti ke kuyodlulela eminyakeni emini elandelayo ngokuphinda kabili indlela yokuqhuba. Lesi siphindiso senzeka isikhathi esingalinganiselwa kuma-64 uma kuhlangene. Sibonge kumandla enziwa ngama-exponential, inani le bitcoin embiwayo ngonyaka lizokwehla nge 100, eminyakeni e-50 nangaphansi eminyakeni e-75. Kungenzeka ngonyaka ka-2140 kumiswe ukwnziwa kukaBitcoin, lokhu kwenziwa ukuthi ama-faucets asemhlabeni oku ngama block reward ayophela. Umdlalo omude lo. Uma usafunda lokhu, usenesikhathi.
 
 ![](/images/21-lessons/soundness-over-time.png)
-<center>Rising stock-to-flow ratio of bitcoin as compared to gold</center>
+<center v-pre>Rising stock-to-flow ratio of bitcoin as compared to gold</center>
 
 Njengoba bukhona be bitcoin budlondlobala, kuyofika isikhathi lapho seku imali esetshenziswa nje nge mali yethu yenjwayelo. Akusoze kwanqotshwa lokhu.
 
@@ -797,7 +797,7 @@ singasonga amakhanda ethu:
 -  10¹²: Isigidintathu samasekhondi adlule i-Manhattan ibimbozwe ngaphansi [okujiyile ungqimba lweqhwa](https://en.wikipedia.org/wiki/Last_Glacial_Maximum).
 
 ![](/images/21-lessons/xkcd-1225.png)
-<center>Cishe isigidintathu samasekhondi adlule. Umthombo: xkcd #1225</center>
+<center v-pre>Cishe isigidintathu samasekhondi adlule. Umthombo: xkcd #1225</center>
 
 Ngokushesha nje lapho singena endaweni edlula umhlaba wezinkanyezi wesimanje
 we-cryptography, umuzwa wethu wehluleka ngendlela eyingozi. I-Bitcoin yakhiwe
@@ -840,7 +840,7 @@ Thatha imizuzu emihlanu uyibuke. Njengabo bonke abanye
 enziwe kahle. Isexwayiso: Ungase uhehwe izibalo.
 
 ![](/images/21-lessons/youtube-vid.png)
-<center>Impendulo: Ivikeleke kahle.</center>
+<center v-pre>Impendulo: Ivikeleke kahle.</center>
 
 [Bruce Schneier](https://www.schneier.com/) usebenzise imikhawulo ebonakalayo yokubala ukuze abeke le
 nombolo kumbono: noma singakha ikhompuyutha elungile,
@@ -897,7 +897,7 @@ Vele ukhiqize inombolo enkulu futhi ulungele ukuhamba. Igunya elimaphakathi loku
 ukuthi ngubani ophethe lokho.
 
 ![](/images/21-lessons/elliptic-curve-examples.png)
-<center>Izibonelo ze-elliptic curve (cc-by-sa Emmanuel Boutet)</center>
+<center v-pre>Izibonelo ze-elliptic curve (cc-by-sa Emmanuel Boutet)</center>
 
 I-Bitcoin yakhelwe phezu kokuqonda kwethu okungcono kakhulu kweqiniso. Ngenkathi zikhona
 inkinga eziningi ezivulekile ku-physics, isayensi yekhomphyutha, kanye nezibalo,
@@ -919,7 +919,7 @@ I-Bitcoin ingifundise ukuthi kukhona amandla ngezinombolo.
 ### Isifundo 16: Ukuzindla kokuthi "Ungathembi, Qinisekisa"
 
 <br>
-<center>"Manje ukuze uthole ubufakazi," kusho iNkosi, "bese kulandela isigwebo."</center>
+<center v-pre>"Manje ukuze uthole ubufakazi," kusho iNkosi, "bese kulandela isigwebo."</center>
 
 I-Bitcoin ihlose ukushintsha, noma okungenani inikeze enye indlela,
 yemali evamile. Imali evamile iboshelwe endaweni eyodwa
@@ -987,7 +987,7 @@ jeneretha yenombolo engahleliwe evikelekile ngokwe-khripthografi. Ngoba lolu shi
 okungenye yezindlela ezibaluleke kakhulu zokubona ukugqekezwa kwezinto ezifana nalezi.
 
 ![](/images/21-lessons/stealthy-hardware-trojan.png)
-<center>Stealthy Dopant-Level Hardware Trojans by Becker, Regazzoni, Paar, Burleson</center>
+<center v-pre>Stealthy Dopant-Level Hardware Trojans by Becker, Regazzoni, Paar, Burleson</center>
 
 Kuzwakala kuthusa? Nokho, noma ngabe uzokwazi ukwakha yonke into kusukela ekucaleni, kusazodingeka uthembele izibalo eziyisisekelo. Wena
 kuzomele uthembe ukuthi [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) iyijika elbumbeke okwecanda ngaphandle
@@ -1022,7 +1022,7 @@ kanambambili ophakiwe awuphazanyiswanga ngokuwakha kabusha kusukela ekuqaleni.
 Muva nje, i-[pull-request](https://github.com/bitcoin/bitcoin/pull/15277) ihlanganiswe ukuze kuhlanganiswe i-Guix ekwakhiweni kwenqubo ye-Bitcoin.
 
 ![](/images/21-lessons/guix-bootstrap-dependencies.png)
-<center>Iyiphi efike kuqala, inkukhu noma iqanda?</center>
+<center v-pre>Iyiphi efike kuqala, inkukhu noma iqanda?</center>
 
 Ngenhlanhla, i-Bitcoin ayincikile ku-algorithm eyodwa noma ucezu
 lwe-hardware. Omunye umthelela wokuhlukaniswa okukhulu kweBitcoin yimodeli yokuphepha esabalalisiwe. Nakuba ama-backdoors achazwe ngenhla
@@ -1062,7 +1062,7 @@ inkimbinkimbi *ukufunda isikhathi* kusistimu ehlukaniselwe amazwe.
 Njengoba kuchaziwe ku-Whitepaper, uhlelo lobufakazi bomsebenzi (olubizwa ngezimayini) luyindlela yokusebenzisa iseva yesitembu sesikhathi esabalalisiwe.
 
 ![](/images/21-lessons/bitcoin-whitepaper-timestamp-wide.png)
-<center>Okucashuniwe ku-whitepaper. Ingabe othile uthe i-timechain?</center>
+<center v-pre>Okucashuniwe ku-whitepaper. Ingabe othile uthe i-timechain?</center>
 
 Lapho ngiqala ukufunda ukuthi i-Bitcoin isebenza kanjani nami ngacabanga ukuthi ubufakazi bokusebenza
 abusebenzi futhi buyamosha. Ngemva kwesikhashana, ngaqala [ukushintsha wami
@@ -1295,7 +1295,7 @@ liyasebenza, futhi njalo ngemizuzu eyi-10 noma kanjalo ubufakazi beBitcoin emhla
 esaphila.
 
 ![](/images/21-lessons/bitcoin-v0.1-code.png)
-<center>Izingcaphuno zekhodi zenguqulo ye-Bitcoin engu-0.1.0</center>
+<center v-pre>Izingcaphuno zekhodi zenguqulo ye-Bitcoin engu-0.1.0</center>
 
 Ukuqinisekisa ukuthi ukuqamba kwakhe okusha kudlula iphupho futhi kuba ngokoqobo,
 USatoshi wabhala ikhodi ukuze asebenzise umbono wakhe ngaphambi kokuba abhale i-Whitepaper.
@@ -1332,7 +1332,7 @@ konke kulandela amathrendi aphezulu ekusebenzeni kwentengo nokwamukelwa. I-Bitco
 nayo futhi.
 
 ![](/images/21-lessons/tech-adoption.png)
-<center>I-Bitcoin ayikho ngokoqobo emashadini.</center>
+<center v-pre>I-Bitcoin ayikho ngokoqobo emashadini.</center>
 
 I-Bitcoin ayinayo eyodwa kodwa [imiphumela yenethiwekhi eminingi](https://www.thrivenotes.com/the-7-network-effects-of-bitcoin/), konke lokhu
 okuholela emaphethini okukhula okuchazile endaweni yawo:
@@ -1343,7 +1343,7 @@ izici eziningi kunesodwa. Kuyavunywa, ubuchwepheshe abukafinyeleli ekuvuthweni
 okwamanje. Kungase kube sebusheni bayo. Kodwa uma ubuchwepheshe bukhula ngesivini, indlela esuka ekusithekeni iye endaweni yonke imfushane.
 
 ![](/images/21-lessons/mobile-phone.png)
-<center>Iselula, ca 1965 vs 2019.</center>
+<center v-pre>Iselula, ca 1965 vs 2019.</center>
 
 Enkulumweni yakhe [TED yango-2003](https://www.ted.com/talks/jeff_bezos_on_the_next_web_innovation), uJeff Bezos wakhetha ukusebenzisa ugesi njengesingathekiso sekusasa lewebhu. Zontathu lezi zenzakalo --- ugesi, i
 i-inthanethi, i-Bitcoin --- *zinika amandla* ubuchwepheshe, amanethiwekhi anika amandla
@@ -1380,7 +1380,7 @@ we-inthanethi futhi, ngokwengeza, nenkampani yakhe. Noma ngabe yiluphi usuku lol
 lwe-Bitcoin, inani elikhulu lamandla angasetshenzisiwe licacile kubo bonke ngaphandle kwesibukeli esivamile.
 
 ![](/images/21-lessons/internet-evolution-black-dates.png)
-<center>I-inthanethi, 1982 vs 2005. Umthombo: cc-by Merit Network, Inc. kanye ne-Barrett Lyon, iphrojekthi ye-Opte</center>
+<center v-pre>I-inthanethi, 1982 vs 2005. Umthombo: cc-by Merit Network, Inc. kanye ne-Barrett Lyon, iphrojekthi ye-Opte</center>
 
 Indawo yokuqala ye-Bitcoin yangena ku-inthanethi ngo-2009 ngemuva kokuthi uSatoshi emba i-
 [genesis block](https://en.bitcoin.it/wiki/Genesis_block) futhi wakhulula isofthiwe endle. I-node yakhe yayingekho
@@ -1400,7 +1400,7 @@ lapho ukulahleka kwezimali kungenzeka futhi kwenzeka. Nokho [ithrendi icacile](h
 izinkulungwane zabantu [azinaki](https://twitter.com/hashtag/reckless) futhi zizimisele ukuyisebenzisa.
 
 ![](/images/21-lessons/lnd-growth-lopp-black.png)
-<center> Lightning Network, January 2018 vs December 2018. Umthombo: Jameson Lopp </center>
+<center v-pre> Lightning Network, January 2018 vs December 2018. Umthombo: Jameson Lopp </center>
 
 Kimina, ngiphile ngokuphakama kwe-meteoric kuwebhu, ukufana
 phakathi kwe-inthanethi ne-Bitcoin kusobala. Womabili amanethiwekhi, zombili
@@ -1862,6 +1862,6 @@ Thola zonke izixhumanisi ze-'Down the Rabbit Hole' zesifundo ngasinye ngezansi. 
 ---
 
 ![](/images/21-lessons/bitcoin-resources.png)
-<center>Further resources: <a href="https://bitcoin-resources.com">bitcoin-resources.com</a></center>
+<center v-pre>Further resources: <a href="https://bitcoin-resources.com">bitcoin-resources.com</a></center>
 
 

@@ -1,7 +1,7 @@
 # 21 Lessons
 #### What I've Learned from Falling Down the Bitcoin Rabbit Hole
 
-<center>"Oh, you foolish Alice" she said again, "how can you learn lessons in here? Why, there's hardly room for you, and no room at all for any lesson-books!</center>
+<center v-pre>"Oh, you foolish Alice" she said again, "how can you learn lessons in here? Why, there's hardly room for you, and no room at all for any lesson-books!</center>
 
 > “I highly recommend this book. If you’re new to bitcoin, buy it on Amazon. If you’re a Hodler, read the book online and send bitcoin directly* to Gigi.” - Minimal Structure
 
@@ -119,7 +119,7 @@ teach you. You will have to find that out for yourself.
 ## Chapter I: Philosophy
 
 <br>
-<center>The mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing.</center>
+<center v-pre>The mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes, but it said nothing.</center>
 
 Looking at Bitcoin superficially, one might conclude that it is slow, wasteful,
 unnecessarily redundant, and overly paranoid. Looking at Bitcoin inquisitively,
@@ -131,7 +131,7 @@ smash through the wall like a bull in a china shop and shatter your assumptions
 once more.
 
 ![](/images/21-lessons/blind-monks.jpg)
-<center>Blind monks examining the Bitcoin bull</center>
+<center v-pre>Blind monks examining the Bitcoin bull</center>
 
 Bitcoin is a child of many disciplines. Like blind monks examining an elephant,
 everyone who approaches this novel technology does so from a different angle.
@@ -623,7 +623,7 @@ paper money in your wallet will still be there, of course. But it will
 be exactly that: worthless paper.
 
 ![](/images/21-lessons/children-playing-with-money.png)
-<center>Hyperinflation in the Weimar Republic (1921-1923)</center>
+<center v-pre>Hyperinflation in the Weimar Republic (1921-1923)</center>
 
 Money declines in value with so-called "mild" inflation as well. It
 just happens slowly enough that most people don't notice the diminishing
@@ -851,7 +851,7 @@ political and fiscal (in)stability of those who dream it into existence.
 Its value is imposed by decree, arbitrarily.
 
 ![](/images/21-lessons/fiat-definition.png)
-<center>fi·at /ˈfēˌät,ˈfēət/ --- 'Let it be done'</center>
+<center v-pre>fi·at /ˈfēˌät,ˈfēət/ --- 'Let it be done'</center>
 
 Until recently, two types of money were used: **commodity money**, made
 out of precious *things*, and **representative money**, which simply
@@ -864,7 +864,7 @@ more than 2700 years ago. If something is new in Bitcoin, the concept of
 a coin is not it.
 
 ![](/images/21-lessons/lydian-coin-stater.png)
-<center>Lydian electrum coin. Picture cc-by-sa Classical Numismatic Group, Inc.</center>
+<center v-pre>Lydian electrum coin. Picture cc-by-sa Classical Numismatic Group, Inc.</center>
 
 Turns out that hoarding coins, or hodling, to use today's parlance, is
 almost as old as coins. The earliest coin hodler was someone who put
@@ -908,7 +908,7 @@ simply referred to these silver coins as *Thaler.* Thaler (German)
 morphed into daalders (Dutch), and finally dollars (English).
 
 ![](/images/21-lessons/joachimsthaler.png)
-<center>The original 'dollar'. Saint Joachim is pictured with his robe and wizard hat. Picture cc-by-sa Berlin-George</center>
+<center v-pre>The original 'dollar'. Saint Joachim is pictured with his robe and wizard hat. Picture cc-by-sa Berlin-George</center>
 
 The introduction of representative money heralded the downfall of hard
 money. Gold certificates were introduced in 1863, and about fifteen
@@ -919,7 +919,7 @@ It took about 50 years from the introduction of the first [silver certificates](
 would today recognize as one U.S. dollar.
 
 ![](/images/21-lessons/us-silver-dollar-note-smaller.png)
-<center>A 1928 U.S. silver dollar. 'Payable to the bearer on demand.' Picture credit to the National Numismatic Collection at the Smithsonian Institution</center>
+<center v-pre>A 1928 U.S. silver dollar. 'Payable to the bearer on demand.' Picture credit to the National Numismatic Collection at the Smithsonian Institution</center>
 
 Note that the 1928 U.S. silver dollar above still goes by the name of
 *silver certificate*, indicating that this is indeed simply a document
@@ -946,7 +946,7 @@ the writing from top to bottom:
 > the bearer on demand."
 
 ![](/images/21-lessons/us-gold-cert-100-smaller.png)
-<center>Picture credit to National Numismatic Collection, National Museum of American History.</center>
+<center v-pre>Picture credit to National Numismatic Collection, National Museum of American History.</center>
 
 In 1963, the words "PAYABLE TO THE BEARER ON DEMAND" were removed from
 all newly issued notes. Five years later, the redemption of paper notes
@@ -965,7 +965,7 @@ clearly read on every dollar note in circulation today, "THIS NOTE IS
 LEGAL TENDER". In other words: It is valuable because the note says so.
 
 ![](/images/21-lessons/us-dollar-2004.jpg)
-<center>A 2004 series U.S. twenty dollar note used today. 'THIS NOTE IS LEGAL TENDER'</center>
+<center v-pre>A 2004 series U.S. twenty dollar note used today. 'THIS NOTE IS LEGAL TENDER'</center>
 
 By the way, there is another interesting lesson on today's bank notes,
 hidden in plain sight. The second line reads that this is legal tender
@@ -989,7 +989,7 @@ hand in the history of economics: fiat currency.
 ### Lesson 13: Fractional Reserve Insanity
 
 <br>
-<center>Alas! it was too late: she went on growing and growing, and very soon had to kneel down: in another minute there was not room even for this, and she tried the effect of lying down, with one elbow against the door, and the other arm curled round her head. Still she went on growing, and as a last resource she put one arm out of the window, and one foot up the chimney, and said to herself "now I can do no more—what will become of me?"</center>
+<center v-pre>Alas! it was too late: she went on growing and growing, and very soon had to kneel down: in another minute there was not room even for this, and she tried the effect of lying down, with one elbow against the door, and the other arm curled round her head. Still she went on growing, and as a last resource she put one arm out of the window, and one foot up the chimney, and said to herself "now I can do no more—what will become of me?"</center>
 
 Value and money aren't trivial topics, especially in today's times. The
 process of money creation in our banking system is equally non-trivial,
@@ -1202,7 +1202,7 @@ stock-to-flow ratio will be. Spoiler alert: it will be high.
 How high? Well, it turns out that Bitcoin will get infinitely hard.
 
 ![](/images/21-lessons/stock-to-flow-white-cc-by-sources.png)
-<center>Visualization of stock and flow for USD, gold, and Bitcoin</center>
+<center v-pre>Visualization of stock and flow for USD, gold, and Bitcoin</center>
 
 Due to an exponential decrease of the mining reward, the flow of new
 bitcoin will diminish resulting in a sky-rocketing stock-to-flow ratio.
@@ -1216,7 +1216,7 @@ bitcoin. This is a long game. If you are reading this, you are still
 early.
 
 ![](/images/21-lessons/soundness-over-time.png)
-<center>Rising stock-to-flow ratio of bitcoin as compared to gold</center>
+<center v-pre>Rising stock-to-flow ratio of bitcoin as compared to gold</center>
 
 As bitcoin approaches infinite stock to flow ratio it will be the
 soundest money in existence. Infinite soundness is hard to beat.
@@ -1338,7 +1338,7 @@ can wrap our head around:
     layer of ice](https://en.wikipedia.org/wiki/Last_Glacial_Maximum).
 
 ![](/images/21-lessons/xkcd-1225.png)
-<center>About 1 trillion seconds ago. Source: xkcd #1225</center>
+<center v-pre>About 1 trillion seconds ago. Source: xkcd #1225</center>
 
 As soon as we enter the beyond-astronomical realm of modern
 cryptography, our intuition fails catastrophically. Bitcoin is built
@@ -1383,7 +1383,7 @@ yourself a favor and take the five minutes to watch it. As all other
 well made. Warning: You might fall down a math rabbit hole.
 
 ![](/images/21-lessons/youtube-vid.png)
-<center>Answer: Pretty secure.</center>
+<center v-pre>Answer: Pretty secure.</center>
 
 [Bruce Schneier](https://www.schneier.com/) used the physical limits of computation to put this
 number into perspective: even if we could build an optimal computer,
@@ -1444,7 +1444,7 @@ central authority of account creation is mathematics. And God only knows
 who is in charge of that.
 
 ![](/images/21-lessons/elliptic-curve-examples.png)
-<center>Elliptic curve examples (cc-by-sa Emmanuel Boutet)</center>
+<center v-pre>Elliptic curve examples (cc-by-sa Emmanuel Boutet)</center>
 
 Bitcoin is built upon our best understanding of reality. While there are
 still many open problems in physics, computer science, and mathematics,
@@ -1467,7 +1467,7 @@ Bitcoin taught me that there is strength in numbers.
 ### Lesson 16: Reflections on "Don't Trust, Verify"
 
 <br>
-<center>"Now for the evidence," said the King, "and then the sentence."</center>
+<center v-pre>"Now for the evidence," said the King, "and then the sentence."</center>
 
 Bitcoin aims to replace, or at least provide an alternative to,
 conventional currency. Conventional currency is bound to a centralized
@@ -1539,7 +1539,7 @@ which is one of the most important tamper-detection mechanism for chips
 like these.
 
 ![](/images/21-lessons/stealthy-hardware-trojan.png)
-<center>Stealthy Dopant-Level Hardware Trojans by Becker, Regazzoni, Paar, Burleson</center>
+<center v-pre>Stealthy Dopant-Level Hardware Trojans by Becker, Regazzoni, Paar, Burleson</center>
 
 Sounds scary? Well, even if you would be able to build everything from
 scratch, you would still have to trust the underlying mathematics. You
@@ -1580,7 +1580,7 @@ Recently, a [pull-request](https://github.com/bitcoin/bitcoin/pull/15277) was me
 process.
 
 ![](/images/21-lessons/guix-bootstrap-dependencies.png)
-<center>Which came first, the chicken or the egg?</center>
+<center v-pre>Which came first, the chicken or the egg?</center>
 
 Luckily, Bitcoin doesn't rely on a single algorithm or piece of
 hardware. One effect of Bitcoin's radical decentralization is a
@@ -1624,7 +1624,7 @@ As outlined in the whitepaper, the proof-of-work system (aka mining) is
 a way to implement a distributed timestamp server.
 
 ![](/images/21-lessons/bitcoin-whitepaper-timestamp-wide.png)
-<center>Excerpts from the whitepaper. Did someone say timechain?</center>
+<center v-pre>Excerpts from the whitepaper. Did someone say timechain?</center>
 
 When I first learned how Bitcoin works I also thought that proof-of-work
 is inefficient and wasteful. After a while, I started to [shift my
@@ -1873,7 +1873,7 @@ works, and every 10 minutes or so Bitcoin proofs to the world that it is
 still living.
 
 ![](/images/21-lessons/bitcoin-v0.1-code.png)
-<center>Code excerpts from Bitcoin version 0.1.0</center>
+<center v-pre>Code excerpts from Bitcoin version 0.1.0</center>
 
 To make sure that his innovation transcends fantasy and becomes reality,
 Satoshi wrote code to implement his idea before he wrote the whitepaper.
@@ -1913,7 +1913,7 @@ all follow exponential trends in price-performance and adoption. Bitcoin
 does too.
 
 ![](/images/21-lessons/tech-adoption.png)
-<center>Bitcoin is literally off the charts.</center>
+<center v-pre>Bitcoin is literally off the charts.</center>
 
 Bitcoin has not one but [multiple network effects](https://www.thrivenotes.com/the-7-network-effects-of-bitcoin/), all of which
 resulting in exponential growth patterns in their respective area:
@@ -1926,7 +1926,7 @@ yet. It might be in its adolescence. But if the technology is
 exponential, the path from obscurity to ubiquity is short.
 
 ![](/images/21-lessons/mobile-phone.png)
-<center>Mobile phone, ca 1965 vs 2019.</center>
+<center v-pre>Mobile phone, ca 1965 vs 2019.</center>
 
 In his 2003 [TED talk](https://www.ted.com/talks/jeff_bezos_on_the_next_web_innovation), Jeff Bezos chose to use electricity as a
 metaphor for the web's future. All three phenomena --- electricity, the
@@ -1966,7 +1966,7 @@ Bitcoin, the vast amounts of untapped potential are clear to all but the
 most casual observer.
 
 ![](/images/21-lessons/internet-evolution-black-dates.png)
-<center>The internet, 1982 vs 2005. Source: cc-by Merit Network, Inc. and Barrett Lyon, Opte Project</center>
+<center v-pre>The internet, 1982 vs 2005. Source: cc-by Merit Network, Inc. and Barrett Lyon, Opte Project</center>
 
 Bitcoin's first node went online in 2009 after Satoshi mined the
 [genesis block](https://en.bitcoin.it/wiki/Genesis_block) and released the software into the wild. His node wasn't
@@ -1987,7 +1987,7 @@ where loss of funds can and does occur. Yet the [trend is clear](https://twitter
 thousands of people are [reckless](https://twitter.com/hashtag/reckless) and eager to use it.
 
 ![](/images/21-lessons/lnd-growth-lopp-black.png)
-<center>Lightning Network, January 2018 vs December 2018. Source: Jameson Lopp</center>
+<center v-pre>Lightning Network, January 2018 vs December 2018. Source: Jameson Lopp</center>
 
 To me, having lived through the meteoric rise of the web, the parallels
 between the internet and Bitcoin are obvious. Both are networks, both
@@ -2467,6 +2467,6 @@ Find all 'Down the Rabbit Hole' links for each lesson below. A curated list of B
 ---
 
 ![](/images/21-lessons/bitcoin-resources.png)
-<center>Further resources: <a href="https://bitcoin-resources.com">bitcoin-resources.com</a></center>
+<center v-pre>Further resources: <a href="https://bitcoin-resources.com">bitcoin-resources.com</a></center>
 
 
