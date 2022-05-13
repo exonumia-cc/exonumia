@@ -81,6 +81,12 @@ contributors: false
 
 ---
 
+**[🇷🇼 Rwanda](/rwa/)**
+
+[Kinyarwanda](/rwa/rw/)   
+
+---
+
 **[🇸🇴 Somalia](/som/)**
 
 [Somali](/som/so/)   

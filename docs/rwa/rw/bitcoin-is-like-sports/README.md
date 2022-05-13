@@ -1,30 +1,43 @@
-# Bitcoin Is Like Sports
+# Bitcoin Ni Nkimikino
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+na @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+More often I have been explaining how #Bitcoin works kandi ni kwegereza ubuyobozi abaturage mu
+rwego rwa siporo. Njye mbona bifasha gusubiza byinshi mubibazo bisanzwe:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+**Ikibazo:** Ninde wahimbye umupira wa baseball?  
+**Igisubizo:** Mubyukuri ntacyo bitwaye. Umuntu wese kwisi arashobora gukina. Ntacyo
+bitwaye niba uwahimbye umwimerere ashaka guhindura amategeko cyangwa
+guhemba amanota cyangwa ikindi kintu cyose. Ntabwo dushishikajwe nibyo
+atekereza kumikino yacu.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+**Ikibazo:** Ninde ushinzwe umukino?  
+**Igisubizo:** Ntamuntu ubishinzwe, twese twahisemo gukina. Twese tuzi kandi dushyire
+mu bikorwa amategeko, kandi niba hari umuntu ushutse, birukanwa mumikino. Niba
+umuntu yihesheje amanota batize, turabyirengagije.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+**Ikibazo:** Tubwirwa n'iki ko amategeko atazahinduka?  
+**Igisubizo:** Twese twarabyemeye mugihe twatangiye gukina, nuwashaka gukomeza
+gukina naya mategeko azakomeza, kandi niba umuntu ashaka guhinduka, azakenera
+gukinira ahandi.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+**Ikibazo:** Ntishobora gushukwa?  
+**Igisubizo:** Ibintu byose biragaragara kumugaragaro. Twese dushobora kubona
+umurima wose hamwe n amanota yose. Niba umuntu yariganye, twese twabimenya
+tukamubwira ngo tuzimire.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+**Ikibazo:** Kuki bifite agaciro?  
+**Igisubizo:** Twese twahisemo gukina, birakwiriye rero ikintu kuri twe. Niba hari
+umuntu ushaka kwinjiramo, agomba kwemera kwemeza ingingo zacu nagaciro.
+Ndayiha agaciro, bityo ifite agaciro. Agaciro ni ibintu subitifike.
 
-I value it, so it has value. Value is subjective.
+**Ikibazo:** Ntabwo bizahagarikwa?  
+**Igisubizo:** Birashoboka, ariko ni abantu bamwe bakina inkoni n'umupira, kutababaza
+undi muntu wese, leta rero irashobora kukubuza kuyikina, ariko ntibashobora
+guhagarika igitekerezo cyo gukubita inkoni umupira, umukino uzakomereza ahantu.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
-
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+**Ikibazo:** Nkwiye kwinjiramo?  
+**Igisubizo:** Kora icyo ushaka. Ndishimye gukina baseball, ushobora kwinjiramo
+cyangwa ushobora HFSP.
