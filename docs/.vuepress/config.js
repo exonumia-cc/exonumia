@@ -150,6 +150,12 @@ module.exports = {
             title: 'Exonumia',
             selectLanguageName: '🇳🇬 Yoruba'
         },
+        '/rwa/rw/': {
+            lang: 'rw',
+            group: '🇷🇼 Rwanda',
+            title: 'Exonumia',
+            selectLanguageName: '🇷🇼 Rwanda'
+        },
         '/som/so/': {
             lang: 'so',
             group: '🇸🇴 Somalia',
@@ -1301,6 +1307,73 @@ module.exports = {
                     },
                     '/nga/yo/contribution-guide/',
                     '/nga/yo/contact/'
+                ],
+            },
+            '/rwa/rw/': {
+                lastUpdatedText: "Last Updated",
+                supportersText: "Supporters",
+                translatorsText: "Translators",
+                selectLanguageText: '🇷🇼 Languages',
+                selectLanguageName: '🇷🇼 Kinyarwanda',
+                freelyAvailableTranslationsText: '🇷🇼 Freely Available Translations',
+                label: 'Kinyarwanda',
+                selectLanguageAriaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/rwa/rw/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/rwa/rw/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/rwa/rw/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/rwa/rw/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/rwa/rw/',
+                            '/rwa/rw/explain-bitcoin-like-im-five/',
+                            '/rwa/rw/bitcoin-is-like/',
+                            '/rwa/rw/bitcoin-is-like-sports/',
+                            '/rwa/rw/understanding-lightning-network-using-an-abacus/',
+                            '/rwa/rw/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/rwa/rw/museum/bitcoin-v0.1-released/',
+                            '/rwa/rw/museum/re-bitcoin-v0.1-released/',
+                            '/rwa/rw/i-am-hodling/',
+                            '/rwa/rw/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/rwa/rw/bitcoin-and-kenyan-government-history',
+                            '/rwa/rw/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/rwa/rw/books/',
+                        children: [
+                            '/rwa/rw/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/rwa/rw/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/rwa/rw/open-source-translation-projects/',
+                        children: [
+                            '/rwa/rw/transifex/bitcoin-core/',
+                            '/rwa/rw/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/rwa/rw/contribution-guide/',
+                    '/rwa/rw/contact/'
                 ],
             },
             '/som/so/': {
