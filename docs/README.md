@@ -68,8 +68,9 @@ contributors: false
 
 **[🇳🇦 Namibia](/nam/)**
 
-[Oshiwambo](/nam/ng/)   
-[Khoekhoegowab](/nam/naq/)
+[Oshikwanyama](/nam/kj/)   
+[Khoekhoegowab](/nam/naq/)  
+[Oshindonga](/nam/ng/)   
 
 ---
 

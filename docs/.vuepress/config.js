@@ -126,6 +126,11 @@ module.exports = {
             group: '🇳🇦 Namibia',
             title: 'Exonumia'
         },
+        '/nam/kj/': {
+            lang: 'kj',
+            group: '🇳🇦 Namibia',
+            title: 'Exonumia'
+        },
         '/nam/naq/': {
             lang: 'naq',
             group: '🇳🇦 Namibia',
@@ -970,6 +975,73 @@ module.exports = {
                     },
                     '/mwi/ny/contribution-guide/',
                     '/mwi/ny/contact/'
+                ],
+            },
+            '/nam/kj/': {
+                lastUpdatedText: "Last Updated",
+                supportersText: "Supporters",
+                translatorsText: "Translators",
+                selectLanguageText: '🇬🇧 Languages',
+                selectLanguageName: '🇬🇧 English',
+                freelyAvailableTranslationsText: '🇬🇧 Freely Available Translations',
+                label: 'English',
+                selectLanguageAriaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/nam/kj/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/nam/kj/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/nam/kj/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/nam/kj/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/nam/kj/',
+                            '/nam/kj/explain-bitcoin-like-im-five/',
+                            '/nam/kj/bitcoin-is-like/',
+                            '/nam/kj/bitcoin-is-like-sports/',
+                            '/nam/kj/understanding-lightning-network-using-an-abacus/',
+                            '/nam/kj/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/nam/kj/museum/bitcoin-v0.1-released/',
+                            '/nam/kj/museum/re-bitcoin-v0.1-released/',
+                            '/nam/kj/i-am-hodling/',
+                            '/nam/kj/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/nam/kj/bitcoin-and-kenyan-government-history',
+                            '/nam/kj/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/nam/kj/books/',
+                        children: [
+                            '/nam/kj/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/nam/kj/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/nam/kj/open-source-translation-projects/',
+                        children: [
+                            '/nam/kj/transifex/bitcoin-core/',
+                            '/nam/kj/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/nam/kj/contribution-guide/',
+                    '/nam/kj/contact/'
                 ],
             },
             '/nam/ng/': {

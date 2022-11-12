@@ -1,4 +1,4 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+# Bitcoin: Efuto loimaliwa lopamalungula komunhu nomunhu
 
 
 ku Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
@@ -217,7 +217,7 @@ Omhito yomuponokeli ahange efindano okudilila komhito taihangwapo yanika ouhefi 
 </math>
 
 Ngeenge opena etengene kutya 
-<math xmlns=""http://www.w3.org/1998/Math/MathML"">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
