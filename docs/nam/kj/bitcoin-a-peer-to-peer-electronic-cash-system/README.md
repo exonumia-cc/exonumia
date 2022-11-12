@@ -1,109 +1,111 @@
 # Bitcoin: A Peer-to-Peer Electronic Cash System
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+
+ku Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Engongemo/Pauxupi
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Efutilo loiwamaliwa olo latungilwa melandulafano leecomputer tadi kwafafana mokutuma omatumwalaka opa malungula ota i kwafafele opo shininge shipu opo omafutilo opa malungula a tumwe ayukilila okundja komunhu nomunhu tavalongifa eembaanga ile omahangano oo ha ungaunga  noimalima. Omashaino opamalungula nao okuna mo oshitopolwa mokukandulapo omukuntu ou, ashike omauwananawa ahapu otaa kanapo ngeenge omulineekelwa omutitatu okwa pumbiwa mokukeelela omafutilo taeliendulula. Osho nee ano ohatu unganeke ekandulepo lomukungu womafutilo taeliendulula mokulongifa ekwatafano leecomputer tadi kwafafana. Ostambe yefimbo olo ekwatafano lomafutilo aningwa otali kwashilipaleke okuamena oimaliwa nokulongifa omukalo tawufaanifwa nelyenge loinima aishe inasha nefutilo olo nee olo, anho eshi otashuufanwa elyenge loumbangi woilonga tali kalekelepo ondjokonona yaasho shaningwapo mefutilo olo, noitali dulu okulundulwa ngeenge elyenge loumbangi woilonga inali ningululwa. oule welyenge loiningomwa itali longifwa ashike mokuulika oumbangi waashishe oshi shalongwapo ashike ota wuulike yoo oumbangi kutya efutilo eli ola dja mengungo lomudimwe domee CPU odinaenghono. shama ashike dihapu domeecomputa edi odinaenghono tadi longele kumwe neehuke odo itadi kendabala okulongela omakwatafano oo ouwinai, onghee nee kumwe otadi etapo endjenge lile olo tali nghonopaleke mokundula odjudo yaavo tava kendabala okulonga owinai.  Omakwatafano oovene okwapumbwa oudutilo ushona, omatumwalaka otaa tumwa momhepo neenghendabala diwa, neehuke otadidulu okufiyapo omakwatafano, noku alukilamo ngaashi di wete shauka, ndee tadi tambula oumbangi-woilonga ou ule udule dikwao, mokuulika ashishe shalongwapo efimbo olo ohuke yali yawamo momhepo ile yafiyapo omakwatafano.
 
-## Introduction
+## Etwalemo
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Omalandifilo okomalungula ile tutye kointerneta monena okwe li kolelela unene naluhapu momahangano eembaanga odo dililepo ongaashi omulineekelwa omutitatu moku kwashilipaleka elineekeno momafutilo aeshe opa malungula. Nonande omulandu oo ohau longo nawa momivalu domalandifo ehapu, peemhito dimwe oha pa kala natango omashongo taa etwapo omolwa ounghundi womilandu odo delikolelea melineekelo. Iha shi shiiva pu kale pehena nande omafutilo oo ihaa dulu okushunifwa monima, oshoo nee eembaanga nomahangano makwao oimaliwa itaa dulu okukeelela okwiidopamo nokuhangukununa  meenhamanhana odo tuu edi. Ondilo yokuhangukuna nayo yoo ohai twala pombada ondilo yomafutilo, naashi ohashi ngabeke oushona womalandifilo opedu noku kanifapo omhito yomafutilo mashona aapa naapenya. opena yoo ondilo inene tai etwapo ngeenge otwa kanifa omhito yokushunifa monima omafutilo, shinasha noilongomwa oyo nayo ihayi dulu oku shinifwa monimha. Ngeenge pena omhito yoku shunifa monima omafutilo, omumbwe yeelineekelo nayo otai hapupala. Ovalandifi ova pumbwa oku livangeka ngeenge tashi ya kovalandi vavo, tave shi ningi mokuva pulaapula omauyelele aeshe naao inaava pumbwa pomhito oyo. Oshipambu shimwe shomakengelelo osha tambulwako onga itashi dulu oku keelelwa, oku ha shiiva konawa ngeenge tashiya keendilo nomafutilo ohaa dulu okukeelwa noupu ngeenge tashiya koimaliwa ikukutu, ashike kapena natango omukalo wokuninga omafutilo elikolela momakwatafno opamalungula pehena omulineekelwa omutitatu.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Eshi sha pumbiwa omafutilo aunganekwa  no programa ile osystem yopamalungula nokweli kolelela moumbangi wefano lopamalungula ndee ha meelineekelo, opo keshe eembinga mbali da hala oku futafana di dule oku shininga ina va pumbwa omulineekelwa omutitatu. Omafutilo oo itaa dulu nande nande oku shunifwa monima pamalungula otaa amene ovalandifi komakengelelo, nomuvalu wawendwapo otau dulu okulongifwa moku amena ovalandi. Momushangwa ou ile mompapila ei oha tu etapo edilaadilo loku kandulapo omafutilo-taeliendulula hatu longifa eecomputer tadi kwafafana moku andjakaneka ostambe yefimbo, oyo tai etapo oumbangi wopamalungula welandulafano lomafutilo oo a ningwapo. Eunganeko ile osystema yomafutilo aa okwa amenwa, shama ashike eehuke adishe dopaushili tadi longele kumwe moku unganeka eCPU odinaenghono tadi longele kumwe shidulife dimwe doomhehuke dilipo okulonga omauyinayi. 
 
-## Transactions
+## Omafutilo
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Oha tu fatulula okoina yopamalungula ongaashi eshaino lopamalungula, keshe menwe wokoina otei tumu komunhu mukwao tashaina pamalungula okapambu kefutilo eli laningwa nale nokashapi kayeuluka oko taka longifwa kwaao tatuminwa okoina, oumushangwa ovo otava wedwa nee kexulilo lomushwangwa wokoina. Nakufutwa ota dula oku koleka eshaino opo a kolele elyenge loumwene wokoina.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Oupyakadi ouli nee apa kutya nakufutwa ita dulu oku koleka kutya mwaavo vali oovene vokoina manga inai fika kuye , inaveyi futa yeleendulula, onghendabala yokukandulapo omukundu ou oku etapo omukalelipo omupokati elineekelwa tai fanwa oMint, oo nee ta kala noku pekaapeka momafutilo aeshe opo a kwashilipaleke kutya kapena omafutilo eli endulula aningwapo. Konima yefutilo keshe la ningwapo, okoina oya pumbwa oku shuna komukalelipo wopokati oMint opo a yandje okoina ipe, eekoina odo da yandjwa okudilila komukalelipo omupokati woMint odo ashike tadi lineekelwa kutya inadi futwa deli endulula, oupyakadi nee wekandulepo lomukundu ou oleli kutya onghalo aishe yeunganeko losystema yoimaliwa eyi, otai kala yeli kolelela mehangano eli tali ungaunga nomukalelipo omupokati oo taufanwa oMint, nomafutilo aeshe okwa teelelwa apitile muvo , ongaashi ashike ombaanga.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Otwa pumbwa onghendabala imwepo opo tukale tushishi kutya ovo kwali oovene vokoina mefimbo lapita inava shaina omafutilo akwao a pita. Melalakano letu omafuto oo aningwa tete oo ashike taa valulwa, onghee itatu lipyakidile nomafutilo eleendulula oo taa ka hetekelwa mefimbo tuuka. Omukalo auke woku kwashilipaleka kutya kapena efutilo, oku shiiva omafutilo aeshe. momukalo womulineekelwa omupokati woMint, omulineekelwa omupokati woMint alushe okushii omafutilo aeshe aningwapo noha ningi omatokolo kutya efutilo lilipipo la fikamo tete. Eshi ota shi pondolwa pehena omulineekwelwa omutitatu ngeenge omafutilo aeshe otaa shiivifwa momhepo yayeuluka[1], notwa pumbwa eunganeko losystema yovakufimbinga opo va twe kumwe monakudiwa imwe yelandulafano lomafutilo ngaashi eyamo. Nakufutwa okwa pumbwa oumbangi kutya keshe pefimbo lefutilo, dihapu domeehuke oda twa kumwe kutya olo la tambulwako tete.
 
-## Timestamp Server
+## Oshitambe yefimbo 
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Ekandulepo lokundu eli twa hala oku etapo otali tameke no shitambe yefimbo. Ostambe eyi yefimbo otayi longo mokulongifa okamangwa koumhungu voiningomwa oyo ya pumbwa oku shitambwa nefimbo yeyamo noku andjakaneka okamamgwa oko ngaashi moshifo kundaneki ile mokatumwalaka kopamalungula[2-5]. Oshitambe yefimbo otai kwashilipaleke kutya oishivomwa eyi oyina kukala yamonika pefimbo olo tuu olo, onghee ya dula oku valulwa mokamangwa noku etapo elyenge , tai longifa keshe oshitambe yefimbo lalandulako moku nghonopaleka eyi yeya tete.
+
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Oumbangi woilonga
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Opo tu tule miilonga oshitambe yefimbo oyo ya andjakanekwa keecomputer tadi kwafafana, otwa pumbwa oku longifa eunganeko loumbangi woilinga yafaafana nokamaliwa-mangwa ka totwa ku Adam Back[6], shidulife oshifo kundaneki ile okaumwalaka kopamalungula. Oumbangi woilonga otau kwatelemo oku pekaapeka omwaalu oo wa didilikwa nokamangwa ngaashi oyo yashivika nawa SHA-256, edidiliko lokamangwa ohali tameke neenhola, meenhomola odo hadiufunwa 'bits', oilonga youpokati yapumbiwa meenhomola deenhola dapumbiwa, notai kwashilipalekwa moku tula moilonga okamangwa kamwepo.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Moshitimbe yefimbo lomakwatafano etu, ohatu tula miilonga oumbangi woilonga hatulonga okuweda konhomola oyo hai longifwa ashike lumwe mokamhungu keshe fiyo omwaalu oo tauyandye eenhola bits kokamangwa kokamhungu. Shama nee eenghendabala docomputer onaenghono dapu mokunifa oumbangi woilonga, okamhungo oko itaka dulu vali oku lundululwa ngeenge oilonga oyo nee oyo inai longululwa, shaashi mefimbo tali la ndula oumhungu ava otava ka tula kumwe melyenge, noilonga keshe tai lundulula oka mangwa otai kwatelemo okulongulula oumhungu aveshe tava landulako.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Oumbangi woilonga nao otau kandulapo oupyakadi woku kwashipaleka oukalelipo mokuninga omatokolo avahapu. Ngeenge ouhapu oweli kolelela mehoololo lakeshe ondjukifi yopainterneta(IP Address), nena otai dulu oku endwa pomunghulo kukeshe umwe oo tadulu okuyandja eendjukifi dopainterneta dihapu. oumbangi woilonga pamumbwe oweli kolela mehoololo lakeshe CPU yocompiuta onaenghono imwe. Opo nee omatokolo avahapu otaa kalelwapo kelyenge lilelile, olo lina oumbangi woilonga wuna eenghendabala diwa da tulwamo.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Opo tu futilepo okuya pombada kwonhapo yomashina osho yo eeyooloko leitulemo leehuke odo tadi longo efimbo nefimbo, oudjuu woumbangi woilonga otau kwashilipalekwa moku endifa oupokati-mwaalu, mokuwuukifa koupokati-mwaalu woumhungu keshe movili. Ngeenge ova totwapo meendelelo, nena noudjuu otauyi pombada.
 
-## Network
+## Ekwatafano
 
-The steps to run the network are as follows:
+Omilandu doku tula moilonga omakwatafano ongaashi tadi landula:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Omafutilo ape otaa tumwa mewangadjo keewike adishe. 
+2. Keshe owike otai toola omafutilo ape mokamhungu. 
+3. keshe owike otai longo noku konga oumbangi woilonga ou undjuu, owo yilongife mokamhungu kayo. 
+4. Ngeenge owike ya hange oumbangi woilonga , otai andjakanekene okamhungu keewike adishe. 
+5. Eewike otadi tambula ashike oumhungu ngeenge omafutilo aeshe elimo oku li modjila noi naa futwa nale. 
+6. Eewike otadi ulike etambuleko loumhungu tadi shi ningi noku etapo okamhungu oko taka shikulako melyenge eli, tadi shiningi nee nokulongifa okamangwa kokamhungu oko katambulwa, ongaashi oka mangwa kefimbo la pita.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Eewike alushe ohadi tula momadilaadilo elyenge olo lile olo likale lili mondjila nohadi twikwile oku li lelepeka, ngeenge eeheke mbali oda adjakaneka mewangandjo eendodo doumhungu ovo tava shikulako da yooloka pefimbo limwe, eehuke dimwe otadi kanwe ile kakwao tete, pomhito oyo otava longo nee naako va tambula tete, ashike otava tuvikile yoo kakwawo , ngeenge pamwe otak ka ninga kale. Okwiihaka kwaava ota ku tewapo nee ngeenge oumbangi woilonga oo tau shikulako owa hangika, no shitayi shimwe tashi ningi shile; eehuke odo dali tadi longele koshitayi shikwao opo nee otadi lundulukile koshitayi eshi shile.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Omafutilo ape oo taa andjakanekwa inaa teelelwa lela akale afika keehuke adishe , shama ashike tadi dulu kuhanga eehuke dihapu otadi dulu ou hanga oumhungu va hapu. eandjakaneko loumhungu nalo oli na eeshivilo lomautumwalaka oo haa dulu kuwamho momhepo. ngeenge ohuke inai tambula okamhungu , otai kapula ashike neenge ya tambula okamhungu kashikulako noya mona kutya opena kamwe kakanapo.
 
-## Incentive
+## Omauwanawa awedwapo
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Efutilo lotete mokamhungu olo efutilo lashelelelwa olo tali tameke okoina ipe, namwene wayo ota kala omutotipo wokamhungu. Eshi ohashi weda ouwanawa keehuke odo tadi kwafele mekwatafano, noku yandja omukalo yoku andjakaneka eekoina mongonga yeandjakaneko, omolwaashi kapena omupangeli wokudiyandjafana. 
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Ouwanawa wawedwapo otau dulu yoo oku yambididwa noishoshela yomafutilo. ngeenge omwaalu oo taudi mefutilo oushona komuvalu oo watulwamo, eeyooloko otali kala oishoshela yomafutilo oyo yawedwa komuvalu wouwanawa  wokamhungu oko kena efutilo olo tuu olo. Shama nee omwaalu wangabekwa wa fiki peekoina odo dili mongonga-andjakaneko, nouwanawa wawedwapo otau dulu nee oku lunduluka , okudja koishoshela yefutilo nokukala ihena nande nande ewedelo.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Mostambe yefimbo lomakwatafano etu,ohatu tulapo oumbangi woilonga moku wedapo kashona naka shona outungipo woumhungu koumhungu ovo fiyo omuvalu tau hangika oo tau yandje ohash yoo nola ovo vapumbiwa. Shama nee eenghandabala docomputa onaenghono da longifwa oku wanifapo osho sha pumbiwa moumbangi woilonga, okamhungu  oko ita ka dulu vali oku lundulwa ngeenge oilonga inai longululwa, shaashi konima yefimbo oumhungu ota va ka kwatelwa kumwe tava landulafana, noilonga yokulundula okamhungu otai kwatelemo okulongulula oumhungu aveshe tava shikulako.
 
-## Reclaiming Disk Space
+## Okwaalulula onhele yomatuvikilo opamhalungula
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Shama efutilo laxuunina mokoina lafudikwa koshi youmhungu vawana, omafutilo aeshe oo a ningwa tete kulo ota dulu oku ekelashwi opo onhele yomatuvikilo opamhalungula yi kalekwepo. Opo nee eshi shi dule oku unganekwa mumukalo oo itau hananunapo okamhamgwa koumhungu, omafutilo okuna oku manglwa kumwe nomuti wa Merkle (Merkle Tree)[7][2][5], nokulongifa ashike omidi dokamhangwa kokamhungu. oumhungu aveshe vakulu otava dulu oku tulwa kumwe tashi ningwa noku tetako oitayi yomuti. oumhangwa vomeni itava pumbwa nee vali oku tuvikilwa.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Omutwe ile oshipanyolo shokamhungu shihena efutilo otashi kala shifike pee byte dili 80 lwaapo. natutye nee uumhungu ohava totwapo keshe mominute 10 , 80 bytes*6*24*365 = 4.2MB  keshe kodula. Neunganeko leecompiuta tadi landifa o 2GB yo RAM okudja mo 2008, nomhango ya Moore (Moore's Law) oyo tai  xunganeke eyo pombada mopaife lo 1.2GB keshe kodula, onhele yokutuvikila ita kala oshiimbi nonhande oumhungu-palanyolo ova tuvikilwa meunganeko olo tuu olo.
 
-## Simplified Payment Verification
+## Omakwashilipaleko omafutilo a pupalekwa
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Oku kwashilipaleka omafutilo pehena oku longifa eehuke domakwatafano aeshe nasho otashi dulika. Omulongifi ota pumbwa ashike akalekepo okopi imwe yokamhungu-palanyolo koumbangi woilonga wefimbo eli lilelile melyenge, teyi mono oku pitila mokupulaapula eehuke domakwatafano fiyo ta kala a kwashilipalekwa kutya oye ena elyenge eli lilelile , opo a mone oshitaye sha Merkle osho tashi kwatakanifa omafutilo koumhungu ovo vena ostambe yefimbo lavo. Efutilo eli ota dulu oku li tala yee mwene ashike mokulikwatakanifa nonhele ili melyenge ot dulu oku mona kutya ohuke yomomakwatafano oye ka tambula,  noumhungu ovo vawedwako konima yekwashilipaleko eli ota koleke kutya ekwatafano ole ka tambula.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Opo nee, ekwashilipaleko eli ota li dulu okulineekelwa shama ashike omakwatafano oo taa wilikwa keehuke doshili, ashike ngeenge omakwatafano okwa dulwa eenghono komuponhokeli wonhumba, nena otashishiva li hadule oku li amena. Omanga eehuke omakwatafano tadi dulu oku kwashilipaleka omafutilo kudoo'vene, omukalo wapupalekwa otau dulu oku kengelelwa komafutilo ehena oushili oo atotwapo komuponekeli, moule wefimbo alishe olo omuponokeli tatwikile nokudula omakwatafano eenghono. Omukalo wumwe woku li amena kwaashi otau dulu ku kala oku okutambula outumwalaka vaxupi okudja keehuke domakwatafano ngeenge da didilike oka mhungu oko kaakena omadidiliko oushili, noku londwela osoftware yomulongifi yi konge nokuongela okamhungu akeshe keyadi nomafutilo oo alopotelwa, opo va kwashilipaleke kutya okamhungu ita ku tu kumwe shili. Engeshefa odo hadi tambula omafutilo mahapu otashi dulika di kale da hala oku longifa ouhuke vavo vene opo va kale vena eameno leli kolelela muvo vene nekwashilipaleko la endelela.
 
-## Combining and Splitting Value
+## Oku tula kumwe noku topola omivalu
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Nonande otshi dulika opo keshe umwe a ungaunge nokoina yaye mwene, otashi kala shidjuu oku ninga omafutilo ayooloka mosenda keshe tai tumwa. Opo nee omwaalu wutopolwe nokutulwa kumwe, omafutilo oo ena oitukulwa ihapu tai tulwamo ile tai kufwamo. Luhapu ohapu kala, ongeenge oshitulwamo shimwa tashi di kefutilo lakula lapita nale , ile oitulwamo ihapu yatula kumwe oimbambu yeemwaalu dishona osho yo oikufwamo yihedule puivali: shimwe osho mafutilo nashikwao osho ku tuma oshendja, ngeenge opena , tai shunwa ku nakutuma.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Nashi kale sha didilikwa kutya ouhapu oitulwamo oyo tai dulu oku twikinikwa koikumwamo imwepo, ngeenge pena efutilo  olo leli kolelela momatilo makwao ahapu awedwapo, noshilipo kutya omafutilo oo okweli kolelela yoo momukwao vali ahapu, kashina oupyakadi  nande apa. Ihapa kala nande nande omumbwe yoku nana okopi ayishe yeli fikamenapo yonakudiwa yefutilo
 
-## Privacy
+## Ouholameno
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Omukalo wokuumbaanga wopamufyuululwakalo ohau pondola oku hanga ondodo youholameno ngeenge tai ngabeke omauyelele amonike ashike kwaavo tava kufa ombinga osho yoo omulineekelwa omutitatu. Omukalo ou owa ngabekwa omolwa omumbwe yoku ingida omafutilo aeshe tae yamo mewangandjo laaveshe, ashike natango ouholameno otau dulu oku kalekwapo moku teyapo eendafano louyelele monhele yikwao: Noku kaleka okashapi-koode kamanguluka keheshivike. Keshe umwe eli mewangandjo ota dulu kumona ngeenge omunhu umwepo tatumu omwaalu wonhumba kumunhu mukwao, shama ashike pehena omauyelele oo taa kwatakanifa efutilo komunhu wonhumba. Eshi osha faafana nondodo yomauyelele taapitifwa ko stock-exchange ile tutye ehangano olo linasha nomataambekido oimaliwa, omo efimbo nounhene womataambekido elikalekelwa ("tape") haashiivifilwa keshe umwe , ashike ihapa popiwa ovo va kufa ombinga.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Mokuwendapo ekuma-leameno, omapando eeshapi-koode dipe okuna okulongifwa nefutilo keshe opo ku keelelwe omafutilo akwatakanifwe  noovene. Omwakwatakanifo amwe natango itaa tulu oku keelelwa omolwa omafutilo oo ena oitulwamo ihapu, osho tashi sha pumbiwa moku holola kutya oitulwamo oyo oya ndja komunhu umwe.
 
-## Calculations
+## Omavalulo
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Ohatu tula miilonga efeekelo  lomuponokeli ta kendabala oku totapo elyenge lopomunghulo olo tali endelele lidulife elyenge lopaushili, Nonande oshinima shafa apa osha ka pita, ihashi dulu oku fiwa ekwatafano la yeulukila omalunduluko opauhandimwe ngaashi oku totapo omuvalu taudi momhepo ile oku kufapo oimaliwa oyo kaishi yomuponokeli. Eehuke itadi ka tambula efutilo olo lina omaukwatya eli hepa ngaashi efutilo., neehuke dopaushili itadi ka tambula okamhungu kena kena omafutilo afaapo. Omuponokeli ota dulu ashike oku lundulula limwe lomomafutilo aye mwene opo aalule oimaliwa oyo alongifapo.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Efiyafano pokati kelyenge loshili nelyenge lomuponokeli otaa yelekwa nomaukwatya eenghatu-mwaalu diheli melandulafano(Binomial Random Walk). Oshiningwanima eshi tashi yambukamo osho nee elyenge loshili olo tali wedelwa nokamhungu kamwe, noku wedhala eye komesho na imwe (+1), oshoyo oshinigwanima shadopa oshosho shelyenge lomuponokeli tali wedelwa nokamhungu kamwa, noku shunifa monima efiyafanepo tamudi imwe (-1).
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Omhito yomuponokeli ahange efindano okudilila komhito taihangwapo yanika ouhefi otai yelekwa noupyakati woudani womashina hai ufanwa Gambler's ruin . Natutye nee omudani womashina ena omwaalu wokudana inau ngabekwa okwa tameka pomhito oyo yanika ouhefi ndee ta dana nee pamwe eemhito inadi ngabekwa monghendabala yoku hanga omhito yopokati lela pehena vali okufindana ile oku dopa. Ohatu dulu oku okuvalula eemhito odo tadulu kuhati oupokati oo tuu oo, ile ngeenge omuponokeli okwa dulu oku hangafana nelyenge loshili mefiyafano eli, ngaashi tashi landula[8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -214,20 +216,19 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
-<math xmlns="http://www.w3.org/1998/Math/MathML">
+Ngeenge opena etengene kutya 
+<math xmlns=""http://www.w3.org/1998/Math/MathML"">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+,Omhito otayi wu nokushuna pedu meendelelo eshi eenomola doumhungu ovo tavahangika komuponokeli tava yi pombada. neemhito dhokufindana tandi ende noku shonopala, hano ngeenge ina ninga elao eli umbe komesho meendelelo , eemhito daya dokufindana nado otadi ende dokushonopala noudiinini, ngaashi ta ende oku shaaka konima lela.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Mopaife oha tu tula momadilaadilo efimbo olo omutambuli wefutilo lipe ena oku teelela fiyo tadulu oku koleka lela kutya omutumi ita shununa monima ile a lundulule efutilo olo atuminwa. Oha tu tengeneke kutya omutumo wefutilo omuponokeli oo ahala omutambuli wefutilo aitavele kutya okwa futwa mefimbo lonhumba, ndee teyi alulako eli fute yee mwene ngeenge efimbo lonhumba la pitapo. Omutambuli wefutilo  ota lopotelwa ngeenge eshi oshaningwapo, ashike omutumi ote lineekele kutya ngeno otaku ku kala kwa lata.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
+Omutambuli ota toto po epando leeshapi-koode dipe ndee ta yandje oshapi-koode yaaveshe komutumi meni yefimbo ashike lishina manga ina shaina, Eshi otashi keelele ope omutumi aha dule oku longekida elyenge loumhungu komesho yefimbo , teshining noku ungaunga nasho oikando ihapu yalandulafana, fiyo taningi elao noku ya komesho lela sha wana, ndee ta ningi omafutilo pefimbo opo tuu opo. Shama nee efutilo la tumwa,  Omutumi omunaipupulu ota tameke nee oku longa meholeko melyenge likwao lomomunghulo , olo lina omukalo umwepo waedwapo wefutilo laye.
 
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Omutambuli oha teelele fiyo ola wedwa kokamhungu noumhungu va kalelwapo ku z ova wedwako konima yalo. Ita kala eshishi kutya omuponokeli okwa ninga lela efindano lifike pen, ashike pakufeekela oumhungu voshili ota kufa efimbo lopokati ngaashi sha teelelwa keshe koka mhungu, omhito yokuya komesho yomuponokeli otai kala eandjakaneko pamwaalu loikando yayooloka oyo tayi yapo mefimbo ile monhele yayandjwa, ngeenge oiningwanima eyi otayi ende pefimbo lifike pamwa ina shi li kolelela kefimbo lapitapo konina yoshiningwanima sha dja ko , eshi oha shi ifanwa yoo Possion Distribution:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -241,7 +242,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Opo kumonike eemhito odo omuponokeli tadulu natango oku hangafana paife, oha tu hapupaleke nee eemhito doikando oyo tayi yapo mefimbo layandjwa  (Poisson density) yomwaalu keshe wefindano olo ta dulu oku hanga neemhito odo tadulu oku hangafana okudja ponhele opo eli:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -328,7 +329,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Oku lundulula opo tu keelele okuwedafana omishila ita di xulu deemhito deandjakaneko...
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -391,7 +392,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Oku fala komukalo weekoode waC
 
 ```c
 #include 
@@ -412,7 +413,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Oku tula moilonga omanyamukulo, otu wete kutya etengeneko otali shuna pedu shelikolelela mu z.
 
 ```
 q=0.1
@@ -442,7 +443,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Ekandulepo la P mushona no 0.1%
 
 ```
 P < 0.001
@@ -456,11 +457,11 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Oitya yaxuuninwa
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Otwa etapo edilaadilo lelandulafano ile osystem yomafutilo opamalungula oyo itayi li kwatelele melineekelo. Otwa tameka nefaneko-ilonga leekoina laningwa okudilila momashaino opamalungula, olo tali etapo ekondololo lina eenghono loumwene, ashike ina li wana ngeenge kepena omukalo woku keelela omafutilo eleendulula. Opo nee tu kandule po omukundu ou , otwa etapo edilaadilo lomakwatafano opamalungula taakwafafana oo taa longifa oumbangi woilonga moku didilika onakudiwa yomewangandjo lamanguluka yomafutilo, oo haa valula paunongononi meendelelo opo ahakale taa dulu nande nande oku lundulwa komuponokeli , ngeenge ohuke yoshili oko taka wilike eenghono da dihapu domee CPU. Omakwatafano opamangula olina eenghono nelongo laendelela, momutungilo walo wupu noi nau tulwa meelandulafano lonhumba. Eehuke oha dilongo adishe oshito , pena ashike elongelo kumwe lishona. Ina di pumbwa oku tongololwa , omolwaashi omatumwalaka  ihaa tumwa konhele yimwe yelikalekelwa, nokwa pombwa ashike oku fikifwa nelitulemo  lawanena. Eehuke otadi dulu oku djamo mekwatafano nokualukilamo ngaashi da hala, notadi tambula elyenge loumbangi woilonga ongaashi  olo oumbangi waasho sha loningwapo efimbo olo dali da djamo mekwatafano. Oha di hoolola neenghono do CPU yado, tadi ulike kutya oda tambulako  oumhungu vena omadidiliko oshili, tadi shi ningi noku va wedela , notadi ekeleshi oumhungu ovo vena omadidiliko ehena oushili mokuanya oku longa navo. keshe eemhango ile ouwanawa wawedwapo oo  wapumbiwa po otau duli oku tulwa miiilonga nomukalo ou watambulakwo.
 
-## References
+## Eedjo
 
 1. W. Dai, ["b-money,"](https://nakamotoinstitute.org/b-money/) [http://www.weidai.com/bmoney.txt](http://www.weidai.com/bmoney.txt), 1998.
 2. H. Massias, X.S. Avila, and J.-J. Quisquater, ["Design of a secure timestamping service with minimal trust requirements,"](https://nakamotoinstitute.org/secure-timestamping-service.pdf) In 20th Symposium on Information Theory in the Benelux, May 1999.
