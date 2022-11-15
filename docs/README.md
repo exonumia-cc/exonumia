@@ -100,6 +100,12 @@ contributors: false
 
 ---
 
+**[Tanzania](/stp/)**
+
+[Erick ](/stp/cri/)   
+
+---
+
 **[🇺🇬 Uganda](/uga/)**
 
 [Luganda](/uga/lg/)
