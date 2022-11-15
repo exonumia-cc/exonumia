@@ -102,7 +102,7 @@ contributors: false
 
 **[Tanzania](/stp/)**
 
-[Erick ](/stp/cri/)   
+[Swahili](/stp/cri/)   
 
 ---
 
