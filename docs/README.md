@@ -100,9 +100,9 @@ contributors: false
 
 ---
 
-**[Tanzania](/stp/)**
+**[Tanzania](/tan/)**
 
-[Swahili](/stp/cri/)   
+[Swahili](/tan/cri/)   
 
 ---
 
