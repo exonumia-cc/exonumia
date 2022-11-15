@@ -17,17 +17,27 @@ bya Jameson Lopp [2017/11/19](https://twitter.com/lopp/status/932350908461133825
 ### Maswali unayopaswa kujiuliza:
 
 S: Je, nimwamini nani?
+
 J: **Hakuna wa kumwamini.**
 
+
 S: Je, lini niuze?
+
 J: **Hapana.**
+
 
 S: Je, Bitcoin inaweza kufika kikomo kwa sababu____?
+
 J: **Hapana.**
 
+
 S: Kwa nini nimeingia kwenye Bitcoin?
+
 J: **Hakuna anaejua.**
 
+
+
 S: Je, nawezaje kujifunza zaidi kuhusu Bitcoin?
-J: Tuna ujumbe muhimu sana. [wano](/uga/lg/translations/). Au unaweza kutembelea ukurasa wa  (https://www.lopp.net/bitcoin-information.html)
+
+J: Tuna ujumbe muhimu sana. [wano](/tan/lg/translations/). Au unaweza kutembelea ukurasa wa  (https://www.lopp.net/bitcoin-information.html)
 
