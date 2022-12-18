@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+translators: 
+    - 
+        name: "Nasser Snoop"
+        href: "https://twitter.com/nassersaazi"
+---
 # Bitcoin: Enkola munnokumunno ey'ensimbi z'omutimbagano
 
 bya Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
