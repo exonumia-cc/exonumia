@@ -1,166 +1,169 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+# Bitcoin: Enkola munnokumunno ey'ensimbi z'omutimbagano
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+bya Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Abstrakiti
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Enkola munnokumunno ey'ensimbi z'omutimbagano yandisobozesa ensasulagana ku kitimba okusindikibwa okuva ku omu okudda ku mulala ewatali kuyita mu kitongole kya nsimbi. Emikono gya digito gituwamu ku kyokuddamu, naye okuganyulwa okusinga kubula singa omutabaganya ow'okusatu aba akyetaagisa okuziyiza ensaasaanya ya nnabansasaana. Twanja empenda okuziyiza ekizibu ky'ensaasanya ya nnabansasaana nga tukozesa omuyungagano munnokumunno. Omuyungagano gusimba obudde ku mpanyisiganya nga guzitugga mu lujegere lw'entuttwa olw'olubeerera olukakasa obukozi, okukola obuwandiike obutasobola kukyusibwa ewatali kuddamu kukakasa bukozi. Olujegere olusinga obuwanvu terukoma kutuyamba kukakasa biki ebibaddewo, naye n'okukakasa nti bivudde mu manyi ga CPU agasinga. Kasita kiba nti amanyi ga CPU agasinga gali mu mikono gitakolagana kulumba muyungagano, emikono gino gyijja kukola olujegere olusinga obuwanvu era olumegga abalumbaganyi. Omuyungagano gwo nga gwo tegwetaaga misoso mingi. Obubaka bulangirirwa okusinzira ku ani asinze okussaamu amanyi, era ennyingo zisobola okuwanduka n'okwegatta ku muyungagano wezaagalidde, nga zikkiriza olujegere olukakasa obukozi olusinga obuwanvu ng'obukakafu ku byabaddewo nga ziwanduse. 
 
-## Introduction
+## Ennyanjula
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Okusuubulagana ku mutimbagano kuzze kweyambisa nnyo ebitongole by'ensimbi okutabaganya mu nsonga z'ensansulagana. Yadde enkola eno ekola ku mpanyisiganya ezisinga obunji, wakyaliwo emiwatwa mingi. Empanyisiganya ezitazzika mabega tezinnasoboka, anti ebitongole by'ensimbi tebisobola kwewala kutabaganya bukuubagano. Okutabaganya kuno kuwanika ebbeeyi y'okuwanyisiganya, nekissa ekkomo ku bunene bwempanyisiganya ezisobola okukolebwa, era obuwanyisiganya obutonotono nebuba nga tebusoboka. Mu ngeri y'emu waliwo okukaliga ebbeyi okuva mu butasobola kukola nsasulagana zitazzika mabega. Okuzza emabega bwekuba kusobose, obwesigwa obusingako buba bwetagisa. Abatunda baba b'ekengera ababagulako, ekivaamu okubasaba ebiboogerako ebisinga nekubyeetaagisa. Akatundu ku kikumi akoobukumpanya kakkirizibwa nga akateewalika. Okukaliga kuno n'ebigwabitalaze mu nsasulagana bisobola okuziyizibwa mu buntu singa ensimbi ezikwatikako ziba zikozeseddwa, wabula nga mpaawo ngeri yakusasulagana ku mukutu gwa mpuliziganya awatali mutabaganya.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Ekyetagisa y'engeri y'okusasulagana ku mutimbagano esinziira ku bukakafu bwa kriptografe mu kifo ky'okwesigan'gana okwabulijjo, okusobozesa abawanyisiganya okukikola awatali mutabaganya. Empanyisiganya ezitasoboka kuzzika mabega zikugira obufere obwandikosezza abatunzi n'abaguzi. Mu lupapula luno, twanja
+engonjoola y'ekizibu ky'ensaasanya ya nnabansasaana nga tukozesa engabirizi eyeyanjadde kisimbabudde munnokumunno
+okugunjaawo obukakafu bw'olulyo lw'empanyisiganya. Sistimu eba nzigumivu kasita kiba nti ennyingo ennesimbu mu
+bugatte zeezilina amanyi aga CPU agasinga ekibinja kyonna eky'ennyingo ezilumba omuyungagano.
 
-## Transactions
+## Empanyisiganya
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Tulambika ekinusu nga olujegere lw'emikono gya digito. Buli nnannyini kyo akiwa addako nga assa omukono ku ntuttwa y'empanyisiganya eyakasembayo n'ekisumuluzo eky'olukale ekya nannyini kinusu addako, olumala bino byonna nebigattibwa ku nkomelero y'ekinusu. asasulwa asobola okukakasa emikono okukasa olujegere lwobwannannyini.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Obuzibu mu kino buli nti asasulwa tasobola kukakasa nti omu kuba nnannyini kinusu abaasoose teyakisaassannyiza mirundi gisoba mu gumu. Engonjoola y'ekizibu kino eriwo ensanji zino yakukozesa mutabaganya, akebera buli mpanyisiganya okukakasa nti yasaasanyiziddwa mulundi gumu gwokka. Obuzibu bw'engonjoola eno buli nti entuuko ya sistimu y'ensimbi zonna ezikozesebwa eri mu mikono gya mutabaganya, anti buli mpanyisiganya erina kuyita mu yye, nga bwekiba mu bbanka.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Twetaaga engeri asasulwa okumanya nti bannannyini kinusu abaasoose tebaatadde mikono ku mpanyisiganya zaakyo ndala zonna. Wano empanyisiganya embereberye yesinga obukulu, nabwekityo tetufaayo ku kugezaako kusaasanya mirundi ebiri mu mpanyisiganya zonna eziddirira embereberye mu lujegere. Engeri yokka ey'okukakasa obufu bwempanyisiganya kwekumanya empanyisiganya zonna ezaali zibaddewo. Bwetuba tweyambisizza omutabaganya, aba amanyi empanyisiganya zonna era nga amanyi eriwa eyasoose okubaawo. Bwetuba tetwagalawo mutabaganya, olwo empanyisiganya zonna zirina okulangirirwa mu lukale[1], era twetaga sistimu nga abagyenyigiramu bassa kimu ku lukalala lwonna olwempanyisiganya ezaali zikoleddwa. Asasulwa yeetaaga obukakafu nti ku kaseera buli mpanyisiganya bwekolebwa, ennyingo ezisinga zikkaanya nti ye yasoose okufunibwa.
 
-## Timestamp Server
+## Engabirizi kisimbabudde
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Engonjoola gyetussa mu ddiiro etandika n'engabirizi kisimbabudde. Engabirizi eno ekwata entuttwa y'emiteeko ejilina okusimbibwako obudde ,era n'erangirira entuttwa eno, nga bwekyandibadde mu lupapula lw'amawulire oba ku Usenet[2-5]. Ekisimbabudde kikakasa nti bwino ono yabeerawo mu kaseera ako, okusobola okuyingira entuttwa. Mu buli ntuttwa ya kisimbabudde mubaamu ekisimbabudde ekyasooseewo, era olujegere nelukolebwa, nga buli kisimbabudde ekkiddirira kikkaatiriza ebiba bisooseewo.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Okukakasa obukozi
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Okussa engabirizi eno mu nkola ,tujja kwetaaga sistimu ekakasa obukozi efaananako ne Hashcash ya Adam Back[6], mu kifo ky'olupapula lwamawulire oba Usenet. Okukakasa obukozi kuno kuba kwekenneenya muwendo nga bweguba gutuggiddwa,nga bwekiri mu SHA256, entuttwa etandika n'ennamba ya biiti za zeero engereke. Obukozi obwetagisa bunji ekiyitiridde okusinziira ku bunji bwa biiti za zeero ezigerekeddwa era busobola okukakasibwa nga tukozesa entutwa emu.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Ku lw'omuyungagano gwaffe kisimbabudde, okukakasa obukozi tukussa mu nkola nga twongereza ku nonsi mu muteeko paka nga omuwendo guzuuliddwa oguwa entuttwa y'omuteeko biiti za zeero ezeetaagisa. Kasita kiba nti amanyi ga CPU gakozeseddwa okukakasa obukozi, omuteeko tegusobola kukyusibwa okujjako nga omulimu ogukoleddwa guddiddwamu buto. Emiteeko ejiddira gyejikoma okuwera,omulimu ogwetaagisa okukyusa omuteeko guno guba gwesigama ku kuddamu kukola mirimu ku miteeko gyonna ejiguddirira.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Okukakasa obukozi mu ngeri y'emu kugonjoola ekizibu ky'okupima obukiise mu kusalawo. Okusalawo kw'abanji singa kwali kusinzira ku ndagiriro-ya-IP-emu-kalulu-kamu, oli yandisobodde okwegabira endagiriro za IP ezisoba mu emu. Okukakasa obukozi eba CPU-emu-kalulu-kamu. Okusalawo okw'abangi kusinziira ku lujegere lusinga buwanvu, anti lweluba lutaddemu amanyi agasinga endala zonna okukakasa obukozi. Bwekiba nga amanyi ga CPU agasinga gali mu mikono gya nnyingo ntuufu, olujegere olutuufu lwelujja okusinga okukula amangu era lujja kuyisa endala zonna ezivuganya. Okukyusa omuteeko oguyise kiba kyetaaga alumba okuddamu okukakasa obukozi bwomuteeko ogwo n'emiteeko gyonna ejiguli wansi, olwo naalwana naasinga obukozi bwennyingo entuufu. Mu maaso awo tugenda kulaga nti emikisa gy'alumba n'olulembwe okukwata n'okusinga amanyi g'ennyingo entuufu gyikendeerera ddala emiteeko emirala gyejikoma okweyunga ku lujegere.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Okugattawo ku bwangu bw'ebyuma bya kompyuta obweyongera, n'obuganzi bw'okuddukanya ennyingo obukyukakyuka, obukalubu bwokukakasa obukozi bugerekebwa average etambula eyesigama ku average y'omuwendo gw'emiteeko buli ssawa. Emiteeko bwejibangibwawo amangu ennyo,obukalubu nga bweyongera
 
-## Network
+## Omuyungagano
 
-The steps to run the network are as follows:
+Emitendera gy'okuddukanya omuyungagano gy'egyino wammanga:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Empanyisiganya empya zirangirirwa eri ennyingo zonna.
+2. Buli nnyingo ekung'anya empanyisiganya empya mu muteeko gumu.
+3. Buli nnyingo enoonya enkakasabukozi ekaluba ey'omuteeko gwayo.
+4. Ennyingo bwezuula enkakasabukozi, nga erangirira omuteeko eri ennyingo endala zonna.
+5. Ennyingo zikkiriza omuteeko kasita kiba nti empanyisiganya zonna ezigulimu ntuufu era tezinnasaasanyizibwa.
+6. Ennyingo ziraga okukkiriza kw'omuteeko nga ziyita mu kutandikirawo okukung'anya omuteeko oguddako mu lujegere, nga zikozesa entuttwa y'omuteeko ogukkiriziddwa nga entuttwa eyakasembayo.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Ennyingo zitwala olujegere olusinga obuwanvu okuba olutuufu era lwezijja okwongerako. Ennyingo ebbiri singa zirangirira omuteeko oguddako mu ngeri bbiri ez'enjawulo omulundi gumu, waliwo ezijja okufuna omuteeko ogwo mu ngeri ey'enjawulo ku ndala mu kusooka. Mu buufu obwo, ennyingo zikola ku muteeko gwezisoose okufuna, naye zitereka ettabi eddala kuba tezimanyirawo oba lyelinasinga obuwanvu. Okusibagana kuno kujja kumenyebwa nga enkakasabukozi eddako ezuuliddwa era nga ettabi erimu ku abiri lyeyongedde obuwanvu; ennyingo ezibadde ku ttabi erikwebedde olwo zijja kudda ku likulembedde.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Okulangirira empanyisiganya empya tekutuukirawo ku buli nnyingo. Kasita kiba nti ekirango kituuse ku nnyingo ennyinji, empanyisiganya zijja kuteekwa mu muteeko mu kaseera katono. Okulangirira emiteeko mpozzi kugumiikiriza n'obubaka obusuule. Ennyingo bwetafuna muteeko, ejja kugusaba bwenaafuna omuteeko oguddako kabi ekizuula nti waliwo gwetalina.
 
-## Incentive
+## Ekisikiriza
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Mu ngeri yonna, empanyisiganya esooka mu muteeko y'empanyisiganya enkulu ebangawo ekinusu nga nnanyini kyo ye mukung'anya w'omuteeko. Kino kisikiriza ennyingo okuwagira omuyungagano, era kiwa engeri y'okubunya ebinusu mu ntandikwa, anti tewabawo mutabaganya mukulu kubitambuza. Okwongerangamu ebinusu ebipya kufanaganako nga abalombi ba zzaabu bwebakozesa ebikozesebwa okubunya zzabu buli wamu. Mu sistimu eno gyetwanja, ebikozesebwa buba budde bwa CPU na masannyalaze.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Ekisikiriza kino era kisobola okuwanirirwa ebisale by'empanyisiganya. Singa omuwendo gwa output y'empanyisiganya mutono ku gwa input yaayo, enjawulo byebiba ebisale by'empanyisiganya ebigattibwa ku muwendo gw'ekisikiriza ky'omuteeko ogulimu empanyisiganya eyogerwako.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Ekisikiriza kyandiyambako okukuumira ennyingo mu bwesimbu. Singa omulumbaganyi ow'omululu asobola okukunganya amanyi ga CPU agasinga ku nnyingo entuufu, aba alina okulondawo wakati w'okufera abantu nga abba ebinusu byasasudde abalala,oba okukozesa amanyi ago okubangawo ebinusu ebipya. Mu ngeri yonna kiba kimukolera amakulu okutambulira ku mateeka, agamuwa enkizo bwaba n'ebinusu ebisinga ku mulala yenna, mu kifo ky'okuyisa amaaso mu mateeka ga sistimu ekiyinza okusaanyawo obugagga bwe.
 
-## Reclaiming Disk Space
+## Okukekkereza ekifo ku diski
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Kasita kiba nti empanyisiganya eyakasembayo mu kinusu eziikiddwa mu miteeko ejimala, empanyisiganya ezisaasanyiziddwa emabega waayo zisobola okukasukibwa ettale okukekkereza ekifo ku diski. Okutuukiriza kino ewatali kumenya ntuttwa ya muteeko, empanyisiganya zisibwa mu muti gwa Merkle [7][2][5], nga mulandira gwokka gwegussibwa mu ntuttwa y'omuteeko. Olwo emiteeko emikadde gyonna gyifunzibwafunzibwa anti amatabi g'omuti gaba gatemebwako. Entuttwa z'omunda ziba tezeetaaga kuterekebwa.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Akasolya k'omuteeko ogutaliimu mpanyisiganya kandibaamu baiti nga 80. Singa tugamba nti emiteeko jikung'anyizibwa buli ddakiika 10, baiti 80 * 6 * 24 * 365 = 4.2MB buli mwaka. Kompyuta wetwogerera mu 2008
+bweziba nga zitundibwa ne RAM wa 2GB, nga kwotadde n'etteeka lya Moore eriteebereza okukula kwa 1.2GB buli mwaka, obugazi bwa diski za kompyuta tebulina kutwerariikiriza ne bwekiba nga obusolya bw'emiteeko bulina okukuumibwa mu memory.
 
-## Simplified Payment Verification
+## Okukakasa Ensasulagana Okwangu
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Kisoboka okukakasa obukozi awatali kuddukanya nnyingo ya muyungagano nnamba. Oli alina kukuuma kkopi ya busolya bwa miteeko obw'olujegere lw'enkakasabukozi olusinga obuwanvu, lwayinza okufuna nga yeekennenyezza ennyingo z'omuyungagano ppaka nga akakasizza nti alina olujegere olusinga obuwanvu, olwo naafuna ettabi lya Merkle erigatta empanyisiganya ku muteeko mwesimbiddwa mu budde. Tasobola kwekeberera mpanyisiganya ,naye bwajigatta ku kifo mu lujegere, asobola okulaba nti ennyingo ku muyungagano ejikkirizza, era emiteeko egyongerwako gyongera kukkaatiriza nti empanyisiganya ekkiriziddwa.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Na bwekityo, obukakafu buno bwesigamibwako kasita kiba nti ennyingo entuufu zeeziddukanya omuyungagano, naye bubeera mu katyabaga singa omulumbaganyi azisinza amanyi. Yadde nga ennyingo zisobola okwekakasiza empanyisiganya ku lwazo, engeri eno ennyangu esobola okubuzaabuzibwa empanyisiganya z'omulumbaganyi empangirire ebbanga lyamala nga awambye omuyungagano. Akamu ku bukodyo byokwewala kino kwandibadde kutemezebwako kuva ku nnyingo mu muyungagano bwezizuula omuteeko omukyamu, ekireetera softweya w'oyo akozesa omuyungagano okuwanulayo omuteeko omulamba n'empanyisiganya eziriko akabuuza okwawula entuufu ku nkyamu. Bizineesi ezifuna ensasulagana ennyinji zandyagala okuddukanya ennyingo ezaazo ku bwazo kulw'okwerinda n'okukakasa amangu.
 
-## Combining and Splitting Value
+## Okugattagatta n'okutemaatemamu omuwendo
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Yadde kyandisobose okutambuza ebinusu ku bwannamunigina, tekyandibaddemu nsa kukola mpanyisiganya emu ku buli ssente etambuzibwa. Okusobozesa omuwendo ogutambuzibwa okugattibwagattibwa oba okutemwatemwamu, empanyisiganya zibaamu input ne output ez'enjawulo. Mu mbeera eyabulijjo, wajja kubaawo input emu okuva mu mpanyisiganya eyaakayita oba input ennyingi ezigattagatta empanyisiganya entonotono, ne output ekinene ennyo bbiri: emu nga ya nsasulagana, endala nga ya change, yenna asigalawo adda eri asasula.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Kirina okukkaatirizibwa nti fan-out, empanyisiganya emu weyeesigamira ku ndala, era n'ezo wezeesigamira ku zinnaazo endala nnyingi, ssi kizibu wano. Tewabaawo bwetaavu mu ngeri yonna kufuna kopi yeteengeredde ey'ebyafaayo by'empanyisiganya.
 
-## Privacy
+## Obuteeyanika
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Enkola ya bbanka eliwo ekuuma ebyama bya ba kasitoma baayo nga eyita mu kukomako ku bwino amanyibwa abawanyisiganya ku bikwata ku bannabwe n'omutabaganya. Obuwaze bw'okulangirira empanyisiganya zonna mu lujjudde kiziyiza engeri eno, naye era obuteeyanika busobola okukuumibwa nga tuyita mu kumenyamu entambula ya bwino mu kifo ekirala: ebisumuluzo by'olukale tebilina kumanyibwako mayitire. Buli omu asobola okulaba nti gundi asindikira gundi omuwendo gundi, naye nga tewali kiyunga mpanyisiganya n'emu ku muntu yenna. Kino kifanaganako ne bwino afulumizibwa ebifo ewawaanyisiganyibwa emigabo, ewaba nti obudde ne sayizi y'emigabo ejiwanyisibwa, oba "tape", bikolebwa mu lujjudde, naye nga abawanyisiganya tebaasanguddwa.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Mu ngeri y'okunyweza eby'okwerinda, ppeya empya ey'ebisumuluzo elina okukozesebwa ku buli mpanyisiganya empya okuziyiza okubiyunga kwooyo abikozesa. Weewawo waliwo okuyunga okuteewalika bwekituuka ku mpanyisiganya eza input esoba mu emu, anti waba walina okubaawo obukakafu nti input zonna ezikozesebwa zilina nannyini yoomu. Akabi akaliwo nti singa nannyini kisumuluzo ayanikibwa, okuyunga kuno kwa ndilaga empanyisiganya endala ezooyo yenna ayanikiddwa.
 
-## Calculations
+## Ebibalo
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Tuteebereza embeera nga omulumbaganyi agezaako okuluka olujegere mu bwangu obusinga ku nnyingo eziluka olutuufu. Nebwaba kino akituukirizza, sistimu tekigissa ku ntoli ze kujikyusakyusa, okugeza nga okubangawo ebinusu by'empewo oba okutwala ensimbi ezitali zize. Ennyingo tezigenda kukkiriza mpanyisiganya zitali ntuufu mu kusasulagana, era ennyingo entuufu tezilikkiriza muteeko gulimu mpanyisiganya ezo. Omulumbaganyi asobola kugezaako bugeza kukyusa emu ku mpanyisiganya ze kweddiza nsimbi zaamaze kukozesa.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Olwokaano wakati w'olujegere olutuufu n'olujegere lw'omulumbaganyi tuyinza okulwekebejja nga Binomial Random Walk. Ekiraga obuwanguzi lw'elujegere olutuufu okwongerwako omuteeko gumu, ekiyongera ku bu kulembeze bwagwo +1, ate ekiraga okumeggebwa lw'elujegere lw'omulumbaganyi okweyongerako omuteeko gumu, ekikendeeza omuwatwa wakati w'enjegere zombi ne -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Omukisa gw'omulumbaganyi okukwata olujegere olutuufu singa aba akwebedde tuyinza okugugereza ku ekizibu ekiyitibwa Gambler's Ruin. Katugeze omuzannyi wa zzaala alina empiki ezitaliiko kkomo atandika omuzannyo ku bbanja n'azannya emirundi ejitabalika okugezaako okusasula ebbanja. Tusobola okubala omukisa gwe okusasula ebbanja, oba nti omulumbaganyi alwa ddaaki nakwata olujegere olutuufu, bwetuti[8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
-    <mtr>
-      <mtd>
-        <mstyle mathsize="1.2em">
-          <mi>p</mi>
-        </mstyle>
-      </mtd>
-      <mtd>
-        <mi></mi>
-        <mo>=</mo>
-      </mtd>
-      <mtd>
-        <mtext>&#xA0;probability an honest node finds the next block</mtext>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd>
-        <mstyle mathsize="1.2em">
-          <mi>q</mi>
-        </mstyle>
-      </mtd>
-      <mtd>
-        <mi></mi>
-        <mo>=</mo>
-      </mtd>
-      <mtd>
-        <mtext>&#xA0;probability the attacker finds the next block</mtext>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd>
-        <mstyle mathsize="1.2em">
-          <msub>
-            <mi>q</mi>
-            <mi>z</mi>
-          </msub>
-        </mstyle>
-      </mtd>
-      <mtd>
-        <mi></mi>
-        <mo>=</mo>
-      </mtd>
-      <mtd>
-        <mrow>
-          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
-          <mrow class="MJX-TeXAtom-ORD">
-            <mi>z</mi>
-          </mrow>
-          <mtext>&#xA0;blocks behind</mtext>
-        </mrow>
-      </mtd>
-    </mtr>
-  </mtable>
+<mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
+<mtr>
+<mtd>
+<mstyle mathsize="1.2em">
+<mi>p</mi>
+</mstyle>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+</mtd>
+<mtd>
+<mtext>&#xA0;omukisa nti ennyingo entuufu efuna omuteeko oguddako</mtext>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle mathsize="1.2em">
+<mi>q</mi>
+</mstyle>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+</mtd>
+<mtd>
+<mtext>&#xA0;omukisa nti omulumbaganyi afuna omuteeko oguddako</mtext>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle mathsize="1.2em">
+<msub>
+<mi>q</mi>
+<mi>z</mi>
+</msub>
+</mstyle>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+</mtd>
+<mtd>
+<mrow>
+<mtext>&#xA0;omukisa nti omulumbaganyi alikwata olujegere olutuufu okuva ku miteeko&#xA0;</mtext>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>z</mi>
+</mrow>
+<mtext>&#xA0;emabega</mtext>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
 </math>
-
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
     <msub>
@@ -214,20 +217,18 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Bwetuba tuteeberezza nti
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi>p</mi>
-  <mo>&#x003E;<!-- > --></mo>
-  <mi>q</mi>
-</math>
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+<mi>p</mi>
+<mo>&#x003E;<!-- > --></mo>
+<mi>q</mi>
+</math>, omukisa gugwiira ddala ennamba y'emiteeko omulumbaganyi gyalina okukwata gyejikoma okweyongera. Engeri gyekiri nti emikisa gye egyokuwangula olwokaano mitono nnyo, bwatakulembererawo nga bukyali, obuwanguzi bwe bwongerera ddala okuba mu lusuubo gyakoma okukwebera."
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Kati twekebejja ebbanga asuubira empanyisiganya empya lyalina okulinda okukakasizza ddala nti omusindisi tasobola kukyusa mpanyisiganya esindikiddwa. Katugambe nti omusindisi mulumbaganyi ayagala okulowoozesa gwasindikira nti amusasudde okumala akabanga, olwo akyukire mu kiti ng'embazzi y'esasule nga akaseera kayiseewo. Gwebasindikira ajja kutemezebwako obufere buno bwebunaabawo, naye asindika asuubira nti obudde bujja kuba buyise nnyo okukwatibwa.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
+Asindikirwa abangawo ppeya y'ebisumuluzo empya olwo naawa ekisumuluzo ky'olukale oyo yenna asindika nga okussaako emikono tekunnabaawo. Kino kiziyiza asindika okutegeka olujegere lw'emiteeko mu nkukutu ngayita mu kugezaako okukakasa obukozi paka nga afunye omukisa naakulembera olujegere olutuufu, olwo naasindika empanyisiganya ku dakiika eyo. Empanyisiganya kasita esindikibwa, omusindisi omukumpanya atandika okukola mu nkukutu ku lujegere olulala olulimu empanyisiganya ye enkyamu.
 
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Asindikirwa alinda paka nga empanyisiganya egattiddwa ku muteeko era emiteeko z gyiguyungiddwako oluvannyuma. Tamanya mulumbaganyi weyaatuuse, naye katugambe emiteeko emituufu gyatutte akaseera akasuubirwa okutwalibwa buli muteeko, okusenvula kw'omulumbaganyi ejja kuba Poisson distribution n'omuwendo ogusuubirwa bweguti :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -241,7 +242,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Okufuna omukisa gw'omulumbaganyi okuwangula, tukwaata Poisson density ku buli lusenvula lweyandikoze netukubisaamu n'omukisa gwe ogwokukwata olujegere olutuufu mu kaseera ako:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -328,7 +329,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Tuddamu okupanga okuziyiza okugatta infinite tail ya distribution
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -391,7 +392,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Bwetukissa mu C code...
 
 ```c
 #include 
@@ -412,7 +413,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Bwetutunuulira ebivudde mu bibalo, tulaba nti omukisa gukendeerera ddala ne z.
 
 ```
 q=0.1
@@ -442,7 +443,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Okugonjoolera P wansi wa 0.1%...
 
 ```
 P < 0.001
@@ -456,11 +457,11 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Okuwunzika
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Twanjizza sistimu y'empanyisiganya ez'omutimbagano eziteesigama ku mutabaganya wa nkomeredde. Twatandise n'okulambulula engeri ebinusu gyebibangibwawo okuva mu mikono gya digito, ekiwa obwannannyini, naye ekitalimu nsa nga tetuziyizza kusasanya kwa nnabansasaana. Okugonjoola kino, tulambuludde omuyungagano munno-ku-munno ogukozesa "okukakasa obukozi" okutereka mu lukale olukalala lw'ebyafaayo by'empanyisiganya oluzibuwalila ddala okulumbibwa n'okukyusibwakyusibwa omulumbaganyi, singa ennyingo entuufu ziba n'amanyi ga CPU agasinga. Omuyungagano guba mutebenkevu nnyo mu bwangu bwagwo. Ennyingo zonna zikola omulundi gumu awatali mutabaganya. Tezeetaaga kweyogerako, anti obubaka tebulina kifo kigere webutwalibwa era bwetaaga kutambuzibwa kusinziira ku nnyingo ki esinze okussaamu amanyi. Ennyingo zisobola okuwanduka oba okwegatta ku muyungagano wezaagalidde, era zikkiriza olujegere olukakasizza obukozi nga olulaga ekyabaddewo ebbanga lyezimala nga ziwanduse ku muyungagano. Zilonda n'amanyi ga CPU zaazo, neziraga okukkanya ku miteeko emituufu nga zigyongerayo ,n'obutakkanya ku miteeko mifu nga zigaana okujikolako. Amateeka gonna n'ebiwooyawooya ebyetaagisa bisobola okussibwa mu nkola mu ntabagana eno.
 
-## References
+## Ensonda
 
 1. W. Dai, ["b-money,"](https://nakamotoinstitute.org/b-money/) [http://www.weidai.com/bmoney.txt](http://www.weidai.com/bmoney.txt), 1998.
 2. H. Massias, X.S. Avila, and J.-J. Quisquater, ["Design of a secure timestamping service with minimal trust requirements,"](https://nakamotoinstitute.org/secure-timestamping-service.pdf) In 20th Symposium on Information Theory in the Benelux, May 1999.
