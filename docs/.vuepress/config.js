@@ -101,6 +101,12 @@ module.exports = {
             group: '🇪🇹 Amharic',
             title: 'Exonumia'
         },
+        '/gha/twi/': {
+            lang: 'twi',
+            group: '🇬🇭 Ghana',
+            title: 'Exonumia',
+            selectLanguageName: '🇬🇭 Ghana',
+        },
         '/ken/sw/': {
             lang: 'sw',
             group: '🇰🇪 Kenya',
@@ -707,6 +713,73 @@ module.exports = {
                     },
                     '/eth/am/contribution-guide/',
                     '/eth/am/contact/'
+                ],
+            },
+            '/gha/twi/': {
+                lastUpdatedText: "Last Updated",
+                supportersText: "Supporters",
+                translatorsText: "Translators",
+                selectLanguageText: '🇬🇭 Languages',
+                selectLanguageName: '🇬🇭 Twi',
+                freelyAvailableTranslationsText: '🇬🇭 Freely Available Translations',
+                label: 'Twi',
+                selectLanguageAriaLabel: 'Languages',
+                editLinkText: 'Improve Content',
+                continueReading: true,
+                continueReadingText: 'Continue Reading',
+                navbar: [
+                    { 
+                        text: 'Home', 
+                        link: '/gha/twi/' 
+                    },
+                    { 
+                        text: 'Translations', 
+                        link: '/gha/twi/translations/' 
+                    }
+                ],
+                sidebar: [
+                    '/gha/twi/about/',
+                    {
+                        text: 'Translations',   // required
+                        link: '/gha/twi/translations/',      // optional, which should be a absolute path.
+                        // collapsable: false, // optional, defaults to true
+                        // sidebarDepth: 3,    // optional, defaults to 1
+                        children: [
+                            '/gha/twi/',
+                            '/gha/twi/explain-bitcoin-like-im-five/',
+                            '/gha/twi/bitcoin-is-like/',
+                            '/gha/twi/bitcoin-is-like-sports/',
+                            '/gha/twi/understanding-lightning-network-using-an-abacus/',
+                            '/gha/twi/bitcoin-a-peer-to-peer-electronic-cash-system/',
+                            '/gha/twi/museum/bitcoin-v0.1-released/',
+                            '/gha/twi/museum/re-bitcoin-v0.1-released/',
+                            '/gha/twi/i-am-hodling/',
+                            '/gha/twi/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/',
+                            '/gha/twi/bitcoin-and-kenyan-government-history',
+                            '/gha/twi/how-will-we-onboard-earth-7-billion-people-to-the-lightning-network'
+                        ]
+                    },
+                    {
+                        text: 'Books',   // required
+                        link: '/gha/twi/books/',
+                        children: [
+                            '/gha/twi/books/layered-money/'
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        link: '/gha/twi/tools/'
+                    },
+                    {
+                        text: 'Translation Projects',   // required
+                        link: '/gha/twi/open-source-translation-projects/',
+                        children: [
+                            '/gha/twi/transifex/bitcoin-core/',
+                            '/gha/twi/transifex/btcpayserver/'
+                        ]
+                    },
+                    '/gha/twi/contribution-guide/',
+                    '/gha/twi/contact/'
                 ],
             },
             '/ken/sw/': {
