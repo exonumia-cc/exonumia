@@ -42,6 +42,12 @@ contributors: false
 
 ---
 
+**[🇬🇭 Ghana](/gha/)**
+
+[Twi](/gha/twi/)
+
+---
+
 **[🇰🇪 Kenya](/ken/)**
 
 [Kiswahili](/ken/sw/)
