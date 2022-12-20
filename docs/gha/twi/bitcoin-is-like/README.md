@@ -1,3 +1,12 @@
+---
+supporters: 
+    - 
+        name: "Undisclosed #1"
+translators: 
+    - 
+        name: "Jeffrey Oa"
+        href: "https://twitter.com/jeffrey_oa1"
+---
 # Bitcoin Yɛ Te sɛ
 
 Oleg Andreev na ɔkyerɛwee [2017/12/10](https://oleganza.com/ne nyinaa/bitcoin-te-te sɛ/)

@@ -1,3 +1,12 @@
+---
+supporters: 
+    - 
+        name: "Undisclosed #1"
+translators: 
+    - 
+        name: "Jeffrey Oa"
+        href: "https://twitter.com/jeffrey_oa1"
+---
 # Kyerɛkyerɛ bitcoin mu te sɛ nea madi mfe anum
 
 Nik Custodio na ɔkyerɛwee  [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)

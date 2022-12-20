@@ -1,3 +1,13 @@
+---
+supporters: 
+    - 
+        name: "Undisclosed #1"
+translators: 
+    - 
+        name: "Jeffrey Oa"
+        href: "https://twitter.com/jeffrey_oa1"
+---
+
 # Yɛ ma w'akwaaba ɛba Bitcoin, afoforo!
 
 Jameson Loop na ɔkyerɛwee [2017/11/19](https://twitter.com/lopp/status/932350908461133825)
