@@ -1,6 +1,6 @@
 ---
 title: Imali Ngokwezigaba
-metaTitle: "Layered Money: Kusuka kwiGolide NamaDola kuya ku-Bitcoin Nasezimalini Zedijithali Zebhange Elikhulu"
+metaTitle: "Imali Ngokwezigaba: Kusuka kwiGolide NamaDola kuya ku-Bitcoin Nasezimalini Zedijithali Zebhange Elikhulu"
 lang: zu
 translators: 
     - 
