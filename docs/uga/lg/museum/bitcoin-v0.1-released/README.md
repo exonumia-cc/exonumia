@@ -1,68 +1,47 @@
-# Bitcoin v0.1 released
+---
+supporters: 
+    - 
+        name: "Undisclosed #1"
+translators: 
+    - 
+        name: "Maali Marvin Kenneth"
+        href: "https://twitter.com/maaliMKen/"
+---
+# Bitcoin v0.1 e'teebwa
 
-by Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
+nga kyawandiikibwa Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
 
 <LanguageDropdown/>
 
-Announcing the first release of Bitcoin, a new electronic cash
-system that uses a peer-to-peer network to prevent double-spending.
-It's completely decentralized with no server or central authority.
+Nangirira enfulumya esooka eya Bitcoin, nga nkozesa mpya eya ssente ezoku'byuma bikalimagezi nga bikwatira wamu, nga ekozesa neetiwaaka yenkolagana y'omuntu ku muntu okwewala ssente ezo okuzisaasaanya emirundi ebiri. Enkozeza eno yona teliko bwananyini bujikulira waade buli mu kompuuta waade mu buyinza obwo'mumakkati.
 
+Laaba screenshots ku bitcoin.org
 
-See bitcoin.org for screenshots.
+Link yobifunirako: http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-Download link:
-http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
+Ya ku'Windows yooka kaakati. C++ code mwali oyo agulidwawo bulyomu.
 
-Windows only for now.  Open source C++ code is included.
+- Files zigyemu zigende mu directory.
+- Yiringisa BITCOIN.EXE
+- Ejja kweyunga ku nodes endala yooka
 
-- Unpack the files into a directory
-- Run BITCOIN.EXE
-- It automatically connects to other nodes
+Bwobanga osobola okusigaaza node edduka nga ekkiriza obw'okuyungibwa obuyingira, ojakuba oyamba nyo neetiwaaka. Port 8333 ku firewall ya kompuuta'yo elina okubeera nga ekiriza okwaniriza obw'okuyungibwa obuyingira.
 
-If you can keep a node running that accepts incoming connections,
-you'll really be helping the network a lot.  Port 8333 on your
-firewall needs to be open to receive incoming connections.
+Sofutiweeya akyali muntongoza esooka era wa kugezaako. Sikya nkomeredde nti embera ya system gyetukozesa tegya kwetagiisa kuddamu kugitanddiika akaseera ako nga kyetagisibwa, newankubadde nkoze buli kyensobola okuzimbiramu obusoobozi bwoku gyongerayo nokukola ebiika.
 
-The software is still alpha and experimental.  There's no guarantee
-the system's state won't have to be restarted at some point if it
-becomes necessary, although I've done everything I can to build in
-extensibility and versioning.
+Osobola okufuna ebinusu nga ofunye omuntu okusindikira ku binusu, oba teekako Options-> Fulumya Coins okuddusa node ofulumye zi bulooka. Nkoze obuziibu bwa proof-of-work nga bwangu nyo okutandikirako, era mu kaseera katono kuntanddiikwa komputer yobuliijo ejja kufulumya ebinusu mu saawa bu'saawa. Kijja kuzibuwala okusingaawo nga okusinganwa kukoze enongosereeza yo'buzibu eyekolako yooka okuvuga obuzibu obwo nebwongerwaako. Ebinusu ebifulumizidwa birina okulinda bulooka 120 nga ze'tuuka awo no basobole okuzisaasaanya.
 
-You can get coins by getting someone to send you some, or turn on
-Options->Generate Coins to run a node and generate blocks.  I made
-the proof-of-work difficulty ridiculously easy to start with, so
-for a little while in the beginning a typical PC will be able to
-generate coins in just a few hours.  It'll get a lot harder when
-competition makes the automatic adjustment drive up the difficulty.
-Generated coins must wait 120 blocks to mature before they can be
-spent.
+Waaliwo engeri biiri ozokusindika ssente. Anazifuna wabanga ali ku mutinbangano, osobola okuyingiiza IP address yabwe neyeyungako, fuuna ekisumuluuzo ekyabulyomu ekipya awo osindiike ensuubulagana eriko endowooza yo. Anazifuna waberanga tali ku mutinbagano, kisooboka okusindiika Bitcoin address yabwe nga eno ebeera 'hash' yekisumuluuzo kyabwe ekyabulyomu kyebakuwadde. Bajja kufuna ensuubulagana lwebanadamu okweyunga ku mutimbagano era bafunne bulooka ensuubulagana'eyo mweri. Engeeri eno erina obuzibu kubanga teeri bubaka bwa'ndowooza buwerebwa, era ake'kyaama akatiini kasulibwa eyo address kasita ekozesebwa emirundi emingi, naye yo engeeri yamugaso wekibanga abajikoseza ababiiri tebasobola kubeera kumutinbangano ku kiseera kyekimu obanga anazifuna tasobola kwaniiriza obw'okuyungibwa obuyingirawo.
 
-There are two ways to send money.  If the recipient is online, you
-can enter their IP address and it will connect, get a new public
-key and send the transaction with comments.  If the recipient is
-not online, it is possible to send to their Bitcoin address, which
-is a hash of their public key that they give you.  They'll receive
-the transaction the next time they connect and get the block it's
-in.  This method has the disadvantage that no comment information
-is sent, and a bit of privacy may be lost if the address is used
-multiple times, but it is a useful alternative if both users can't
-be online at the same time or the recipient can't receive incoming
-connections.
+Okugatta wona ezinatambula zijja kubeera ebinusu 21,000,000. Zijja kugabibwa ezo nodes eziri ku neetiwaaka buli bwezinakolanga bulooka, nga omuwendo gusaalibwamu ebitundu bibiiri mumakatti buli myaka 4.
 
-Total circulation will be 21,000,000 coins.  It'll be distributed
-to network nodes when they make blocks, with the amount cut in half
-every 4 years.
+emyaka 4 egisooka: ebinusu 10,500,000  
+emyaka 4 egidaako: ebinusu 5,250,000  
+emyaka 4 egidaako: ebinusu 2,625,000  
+emyaka 4 egidaako: ebinusu 1,312,500  
+mpaka mpaka...
 
-first 4 years: 10,500,000 coins  
-next 4 years: 5,250,000 coins  
-next 4 years: 2,625,000 coins  
-next 4 years: 1,312,500 coins  
-etc...
-
-When that runs out, the system can support transaction fees if
-needed.  It's based on open market competition, and there will
-probably always be nodes willing to process transactions for free.
+Ekyo bwenikakoma, enkola eno esoboola okuwagira ebisale bye'ensuubulagana oba byetagiisa. Yesigamye ku kusinganwa mu katale okwo'mulujjudde, atte era kirabika wajakuberayo zi nodes ezagala okulongoosamu zi nsubulagana ku bwerere.
 
 Satoshi Nakamoto
 

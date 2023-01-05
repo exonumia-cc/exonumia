@@ -1,195 +1,200 @@
-# Bitcoin and Kenyan Government History
+---
+supporters: 
+    - 
+        name: "Undisclosed #1"
+translators: 
+    - 
+        name: "Maali Marvin Kenneth"
+        href: "https://twitter.com/maaliMKen/"
+---
+# Bitcoin ne Gavumenti ya Kenya mu Byafaayo
 
-by Michael Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
+nga kyawandikibwa Michael Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
 
 <LanguageDropdown/>
 
-This is the notice by the Central Bank of Nigeria 🇳🇬 barring regulated financial instiututions from facilitating payments from cryptocurrency exchanges 
+Eno y'enangirira'etegeeza eya Bbanka Enkulu eya Nigeria eziyiza ebitongole ebyensimbi ebilungamye, okuva ku kwanguyiza oby'okusasula ebiva mu bitongole ebifaanyisa ssente za cryptocurrency.
 
-dated February 5, 2021
+olunaku lw'omwezi gw'okubiiri 5, 2021
 
 ![](./cbn-bar-bitcoin.jpg)
 
-This is a similar notice by the [Central Bank of Kenya 🇰🇪prohibiting Kenyan banks from processing payments for Virtual currency businesses](https://www.centralbank.go.ke/uploads/banking_circulars/2075994161_Banking%20Circular%20No%2014%20of%202015%20-%20Virtual%20Currencies%20-%20Bitcoin.pdf)
+Kino kiwandiiko kitegeeza ekifaananako nga ekyo nga kya [Bbanka Enkulu eya Kenya ewera Bbanka za Kenya okuva ku kukola kuby'okusasula ebya bizinensi ze ssente ez'ekikugu nga sizakukwatibwa mungalo](https://www.centralbank.go.ke/uploads/banking_circulars/2075994161_Banking%20Circular%20No%2014%20of%202015%20-%20Virtual%20Currencies%20-%20Bitcoin.pdf)
 
 ![](./cbk-bar-bitcoin.jpg)
 
-As a Kenyan from East Africa, i cant help but laugh at my crypto friends from Nigeria. Finally, they feel our pain for the last 7 years! There is a lot to unpack here so here is a thread on my associative thoughts
+Nga Omunnakenya ava mu East Africa, siyinza butasekerera mikwano gyange egiva eNigeria. Munkomenkerero, naabo bawulira obulumi bwaffe obw'emyaka 7 egiyisse! Bingi ebyokugyamu waano kale luuno luguwa lw'ebirowoozo byange ebikwatagana.
 
-### July 9, 2013
+### Omwezi ogwomusanvu 9, 2013
 
-“Kenya’s Kipochi wallet was the first crypto bitcoin company that launched a product that allowed people in Africa to send and receive bitcoins, plus convert them to and from the Kenyan currency M-Pesa”
+"Kipochi Wallet ey'eKenya yeyali esooka mu kkampuni eza crypto ne Bitcoin eyatongoza ekikozesebwa nga kisobozesa abantu mu Afirika okusindika n'okwaniriiza bitcoins, gatakko okuzikyusa okugenda n'okudda mu ssente ze Kenya eza M-Pesa"
 
-[Kipochi launches M-Pesa integrated bitcoin wallet in Africa](https://www.coindesk.com/markets/2013/07/09/kipochi-launches-m-pesa-integrated-bitcoin-wallet-in-africa/)
+[Kipoki etongoza M-Pesa engaseemu akasawo ka ssente za Bitcoin mu Afirika](https://www.coindesk.com/markets/2013/07/09/kipochi-launches-m-pesa-integrated-bitcoin-wallet-in-africa/)
 
-It wasn’t long before the Central bank of Kenya and Safaricom Mpesa came down on them
+Tekyali kiseera kiwanvu olwo Bbanka enkulu eya Kenya ne Safaricom Mpesa nebabagwako
 
-“Within a week our connection w/ M-Pesa through merchant provider Kopo Kopo was shut down. It took us more than a week for us to find out that Safaricom had forced Kopo Kopo to shut us down”
+"Mu wiiki emu akakwate kaffe ne M-Pesa okuyitira mu mugabi w'obusuubuzi Kopo Kopo yaggalwa. Kyatutwalira okusukka wiiki emu fe okujja okumanya nti Safaricom yali eekase Kopo Kopo okutugalawo.
 
-### August 2013
+### Omwezi ogwomunaana 2013
 
-“In August 2013, Kipochi received an official notification from the Central Bank of Kenya that they needed to know who we were, what we were up to and what the hell Bitcoin was.”
+"Mu mwezi ogwomunaana 2013, Kipochi yafuna okutegeezebwa mu butongole okuva eri Bbanka enkulu eya Kenya nti baali betaaga okumanya fe baani, kiki kyetwali kukola era kiiki kino ki Bitcoin."
 
-[What actually happened at Kipochi?](https://blog.stakeventures.com/articles/what-actually-happened-at-kipochi)
+[Kiki kyenyini ekyaliwo eKipochi?](https://blog.stakeventures.com/articles/what-actually-happened-at-kipochi)
 
-This was the first case of a Bitcoin company in Kenya running at odds w/ the regulated (Central Bank of Kenya) and regulated financial services (Safaricom’s Mpesa). A year later i joined the industry and recall trying to work with Pelle’s Kipochi and other companies like Bitpesa
+Guno gwegwali omulunddi ogusooka ogwa kkampuni ya Bitcoin mu Kenya okuddukira mu butakanya n'enungamye Bbanka enkulu ey'eKenya n'ebitongole byensimbi ebilungamwe(Safaricom Mpesa).
 
-We all worked together on how we would get the banks and regulators to ease restrictions on accessing bank accounts. We needed a neutral body to champion this cause
+Ffena twakolera waamu kungeri gwetunafunamu zi bbanka n'abalungamya okukendeeza ku bukwakkulizo bw'okutuka ku akawunti za bbanka. Twali twetaaga ekitongole ekitalimu ludda okuwanirira ensonga eno
 
-I was tasked to set up a non-profit foundation. Here is an email dated 14th May 2014
+Nnaweebwa omulimo okuteekawo omusingi ogutaligwa magoba. Yiino email yolunaku lwa 14th omweezi ogwokutaanu 2014
 
 ![](./bitcoin-foundation-affiliate.jpg)
 
 
-The next company on the guillotine was Bitpesa. Bitpesa launched a crypto product allowing Kenyans to buy bitcoins using mpesa (later introduced a sell bitcoin feature). The product also plugged into a cross border remittance (Kenya - UK corridor).
+Kkampuni eyadda kukiso kisalamutwe yali Bitpesa. Bitpesa yatongoza ekikozesebwa kya crypto ekikiriza Abannakenya okugula bitcoins nga bakozesa M-Pesa (oluvannyuma nebanjula eky'enjawulo eky'okutunda bitcoin). Ekikozesebwa era kyeyingira mu kusindika ssenta okuva ku nsalo.
 
-This too did not last long
+Kino nakyo tekyamala bbanga dene
 
-### December 18, 2015 
+### Omwezi gwa museenene 18, 2015
 
 [CBK Circular](https://www.centralbank.go.ke/uploads/banking_circulars/2075994161_Banking%20Circular%20No%2014%20of%202015%20-%20Virtual%20Currencies%20-%20Bitcoin.pdf)
 
-“The purpose of this circular is to caution all financial institutions against dealing with virtual currencies or transacting with entities that are engaged in virtual currencies. Do not open accounts for anyone dealing in Bitcoin”
+"Ekigendererwa ky'enkulungo eno kya kuwabula buli kitongole kyebyesimbi obutakolagana ne ssente ezitali zakukwatira mungalo oba okusubulagana naabo abeenyigira mu ssente ezo ezitali zakukwatira mungalo. Temuggula akawunti kulwo yo yena akola mu Bitcoin.
 
-A couple of days later, Safaricom Mpesa CEO Bob Collymore spoke out against virtual currencies saying
+Oluvannyuma lw'ennaku ziizo, Safaricom Mpesa CEO Bob Collymore yayogera nga avumirira essente ezitali zakukwatiira mungalo.
 
-“We will not agree to have bitcoin-related transactions on its M-Pesa system unless the virtual currency is authorised by the banking sector regulator.”
+"Tetugya kukiiriza kubeera na nsubulagana ezekusa ku bitcoin waano ku sisitiimu ya M-Pesa okugyako nga ssente ezo ez'ekikugu nga sizakukwatira mungalo zikirizidwa omulungamya w'ebitongole bya bbanka.
 
-[Collymore says Safaricom will not risk CBK’s wrath over bitcoin transactions](https://www.businessdailyafrica.com/bd/corporate/companies/collymore-says-safaricom-will-not-risk-cbk-s-wrath-over-bitcoin-transactions-2103900)
+[Collymore agamba Safaricom tejja kugezessa kabi ka busungu bwa CBK kulwa nsubulagana z'omu bitcoin](https://www.businessdailyafrica.com/bd/corporate/companies/collymore-says-safaricom-will-not-risk-cbk-s-wrath-over-bitcoin-transactions-2103900)
 
-It all seemed coordinated.
+Kyonna kyalabika nga ekikwatagana
 
-No access to bank account and Mpesa gateway services crippled Bitpesa business. Bitpesa and Lipisha (payment gateway partner) took the matter to court
+Obutetuusako akawunti ya bbanka oba obuweereza bwomulyango gwa Mpesa (Mpesa gateway) bwalemaza bizinesi ya Bitpesa. Bitpesa ne Lipisha (munne mukukwasaganya omulyango gw'okusasula) batwala ensonga mu kooti.
 
-[Petition NO. 512 of 215](http://kenyalaw.org/caselaw/cases/view/117270/)
+[Empaaba NO.512 ku 215](http://kenyalaw.org/caselaw/cases/view/117270/)
 
-### December 28, 2015
+### Omwezi gwa museenene 28, 2015
 
-I penned an opinion article for Kenya’s leading newspaper the Daily Nation, bashing the CBK for foolish short term thinking. I said “4 years from now people will laugh at CBK for this ridiculous notice” 
+Nawandiika ekiwandiiko ky'endowooza mu lupapula lw'amawulire olukulembera mu Kenya olwa The Daily Nation, nga kikuba CBK ku lw'endowooza y'obusirusiru etalabira wala. Nagamba "Myaka 4 okuva kakati abantu bajja kusekerera CBK kulw'ekiwandikoko kino ekisesa"
 
-1 Bitcoin at the time was $450, today it is $40,000
+Bitcoin emu kukiseera ekyo yali ya $450, kulwaleero ya $40,000
 
 ![](./newspaper-letter.jpg)
 
-November 26, 2015
+Omwezi ogw'ekkumi n'olumu 26, 2015
 
-A lawsuit filed by bitcoin payments startup BitPesa and its partner against mobile money giant Safaricom was heard in the Kenyan High Court on Tuesday.
+Omusango ogwawawaabirwa kampuni etandikawo mumirimo gy'ensasula yomu'bitcoin eya Bitpesa, nga eri ne munwanyi wayo nga bakontana ne naggwano Safaricom owa ssente z'oku ssimu, gwawulirwa mu kooti enkulu eya Kenya ku lunaku olw'okubiri.
 
-[Kenyan High Court Hears BitPesa Case Against Safaricom](https://www.coindesk.com/markets/2015/11/26/kenyan-high-court-hears-bitpesa-case-against-safaricom/)
+[Kooti enkulu eya Kenya ewulira omusango gwa Bitpesa nga evuganya Safaricom](https://www.coindesk.com/markets/2015/11/26/kenyan-high-court-hears-bitpesa-case-against-safaricom/)
 
-Bitpesa argued Safaricom “intimidated” its gateway partner, Lipisha, forcing it to suspend its services on November 12th without prior notice causing BitPesa and Lipisha significant challenges maintaining their business.
+Bitpesa yagamba nti Safaricom "yatiisatiisa" munwanyi waayo mu nziigi zebyobusubuuzi, Lipisha, nagiwaliriza okuyimiriza obuweereza bwayo ku November 12 awatali kutegeeza nga bukyali ekyaletera Bitpesa ne Lipisha okusoomozebwa okwamanyi mu kulabirira bizinesi yaabwe.
 
-Safaricom argued that the suspension of service to Lipisha was justified because Bitpesa had failed to obtain authorisation for bitcoin transfers from Kenya’s central bank. As a result, Bitpesa’s transactions through Lipisha and its account at Safaricom contravened AML rules.
+Safaricom yagamba nti okuyimiriza kw'obuweereza bwa Lipisha bwali bumativu kubanga Bitpesa yali elemereddwa okufuna olukusa lw'okutanbuuza bitcoin okuva eri bbanka enkulu eya Kenya. Era ekyavaamu, ensuubulagana za Bitpesa eziyita mu Lipisha ne akawunti yayo ku Safaricom zamenya ebiragiro bya AML.
 
-But a lawyer for the two firms said Safaricom had misunderstood the central bank’s requirements.
-“[The central bank] told BitPesa that bitcoins are not regulated in Kenya but Safaricom insists that it produces a licence to that effect,”
+Naye munamateeka wa zi kampuni zoombi yagamba nti Safaricom yali etegedde bubi ebyetaago bya bbanka enkulu. "[Bbanka enkulu] yagamba Bitpesa nti bitcoins tezilungamwa mu Kenya naye Safaricom nelemerako nti efulumya layisinsi ekola ku nsonga eyo.
 
-### December 15, 2015
+### Omwezi gwa museenene 15, 2015
 
-Bitpesa lost the case
+Bitpesa esingwa omusango
 
-A Kenyan High Court judge has ruled that M-Pesa operator Safaricom will not be required to grant access to bitcoin startup BitPesa amid an ongoing legal dispute.
+Omulamuzi okuva mu Kooti enkulu eya Kenya yasalawo nti omuddukanya wa M-Pesa ono Safaricom tajja kwetagisibwa kuwa lukusa lugikozesa eri kampuni etandikawo eya Bitpesa mumakkati w'enkaayana z'amateeka ezigenda mu maaso.
 
-[Kenyan Court Upholds Bid to Keep Bitcoin Startup Off M-Pesa](https://www.coindesk.com/markets/2015/12/15/kenyan-court-upholds-bid-to-keep-bitcoin-startup-off-m-pesa/)
+[Kooti ye Kenya ewanirira ekiteeso okusigaza kampuni etandikawo nga teeri ku M-Pesa](https://www.coindesk.com/markets/2015/12/15/kenyan-court-upholds-bid-to-keep-bitcoin-startup-off-m-pesa/)
 
-With no access to Bank accounts and Mpesa gateway services critical for operations, Bitpesa gradually pivoted away from business in Kenya.
+Nga tewali lukusa kutuka ku akawunti za bbanka oba ku buweereza bwenziigi za Mpesa ezebyensimbi atte nga zamugaso nyo mu kukola emirimu, Bitpesa mpolampola yakyuka nga eva kukukola bizinesi eKenya.
 
-Bitpesa was a critical gateway for accessing Bitcoins (buy and sell), so their departure, affected behavior on how users accessed bitcoins.
+Bitpesa yali luggi lwamugaso nyo mukutuka ku Bitcoins (okuzigula n'okuzitundda), era okuvawo kwabwe, kwakosa eneyisa y'engeri abakozesa gyebatuuka ku zi bitcoins.
 
-The biggest beneficiary was peer to peer bitcoin markets which do not require an intermediary with banking or Mpesa services.
+Eyasinga okufunamu zali obutale bwa bitcoin obwenkola ya muntu ku muntu obuteetagga omutabaganya ow'empereza zomu bbanka oba Mpesa.
 
-Local bitcoins was the first to cater to demand. See this chart of growing volumes since Bitpesa was shut down. Current volumes 150 million per week.
+Local bitcoins yeyasooka okugabula obwetaavu. Laaba ekipandde kino ekyenkula mu bungi okuva Bitpesa lweyagalwawo. Obungi kakati buli mu bukadde 150 buli wiiki.
 
 ![](./bitcoin-p-2-p-volume.jpg)
 
-You see, regulators are foolish and do not gerrit. When you shut down formal channels for buying and selling bitcoin, peer to peer trades pick up b/c the nature of bitcoin and cryptocurrencies is peer to peer.  Peer to peer transactions are informal and hidden.
+Olaba, abalungamya baasiluwala era tebakitegerra. Lwogalawo emikutu emitongoole egy'okugula n'okutunda bitcoins, enkola y'obusuubuzi nga kukolagana muntu ku muntu etoola nerinya kubaanga eneyisa ya bitcoin ne crytocurrencies ya kukolagana kwa muntu ku muntu.
 
-You see, regulators are foolish and do not gerrit. When you shut down formal channels for buying and selling bitcoin, peer to peer trades pick up b/c the nature of bitcoin and cryptocurrencies is peer to peer.  Peer to peer transactions are informal and hidden.
+Olaba, abalungamya baasiluwala era tebakitegerra. Lwogalawo emikutu emitongoole egy'okugula n'okutunda bitcoins, enkola y'obusuubuzi nga kukolagana muntu ku muntu etoola nerinya kubaanga eneyisa ya bitcoin ne crytocurrencies ya kukolagana kwa muntu ku muntu.
 
 
-Here is a chart of Kenya’s peer to peer volumes on another peer to peer market, Paxful. Weekly volumes, 178 million per week as of last week
+Waano ky'ekipande ekiraga obungi bw'enkolagana za muntu ku muntu eKenya ku katale akalala ak'enkolagana za muntu ku muntu, Paxful. Obungi buli wiiki, obukadde 178 okuva ku wiiki eyakayiita.
 
 ![](./bitcoin-p-2-p-volume-comparison.jpg)
 
-With a set up like Bitpesa, the regulator can force compliance through enforced reporting and can keep track of money moving in and out of bitcoin and cryptocurrencies.
+Okubera n'entegekka nga Bitpesa, omulungamya asobola okukaka okugobererwa ng'ayiita mu nkola eyokukaka okukola lipoota nga era asobola okubeera nga atambulira ku ssente zoona ezitanbula nga ziyingiira oba bwezifuluma mu bitcoin ne mu cryptocurrencies.
 
 ![](./centralized-compliance.jpg)
 
-With peer to peer markets, the nature of the transaction is untraceable b/c money moves from a individual user account to another individual users account, the bank, Mpesa and regulator cannot tell the purpose of the value transfer. When in fact, it was a bitcoin trade
+Mu butale bw'enkolagana y'omuntu ku muntu, kya butondde nti ensubuulagana tosobola kugilondoola kubanga ssente zitanbula okuva ku akawunti y'omukozesa omu nezigenda ku akuwunti y'omukozesa omulala. Bbanka, Mpesa oba omulungamya tebasobola kumanya mugaso gw'omuweendo ogusindiikidwa. Atte nga mumazima, gubadde gwa kusubula bitcoin
 
 ![](./p2p-market.jpg)
 
-local bitcoins 150 million KES per week
-Paxful 178 million KES per week
-binance P2P (unknown
-Local cryptos (unknown)
-Offline trades (unknown)
-Offshore trades (unknown)
-Citibank 2018 suggested Kenyans hold 163 billion in Bitcoin
-Paxful “Kenyans traded 6 billion in 2020”
+Local Bitcoins obukadde 150 bwa KES buli wiiki, 
+Paxful obukadde 178 bwa KES buli wiiki, 
+Binance P2P (temanyikiddwa) 
+]Local Cryptos (temanyikiddwa) 
+Offline trades (temanyikiddwa) 
+Citibank mu 2018 yateesa nti abanakenya bakwaate obuwumbi 163 mu Bitcoin 
+Paxful "Abanakenya basuubude obuwumbi 6 mu 2020"
 
-See, there is no way to tell exactly how much money is moving through, in and out of bitcoin and cryptocurrencies. This is the conundrum for regulators. They think they smart by shutting down formal channels, but only serve to prop up informal hidden volumes
+Olaba, teeri ngeri yakutegera ddala ssente mmeka eziyita, eziyingira natte eziva mu bitcoin ne cryptocurrencies. Kino kye kizibu ekizibuwalidde abalungamya. Balowooza baamagezi okuggalawo emikutu emitongoole, naye kyokka kyebaweereza kyakuyimiriza wagulu omuwendo ogukwekeddwa ogutali mutongoole
 
-My conservative estimates is
+Enteebereza yange embalirire eli
 
-500 million weekly in Kenya Flag of Kenya multiples by 52 weeks, roughly 25 billion per annum.
+obukadde 500 buli wiiki mu bendera ye Kenya eya Kenya ekubisiddwamu mu wiiki 52, nga obuwumbi 25 buli mwaaka.
 
-Conservative estimates
+Enteebereza enbalirire
 
-Peer to peer trading of bitcoin and cryptocurrencies is the only model that works despite the position of Central Banks. it has been great for creating earning opportunities for young people
+Okusubula nga nkolagana ya muntu ku muntu eyomu bitcoin ne cryptocurrencies y'engeri yokka ekola newankubadde ekifo bbanka enkulu kyeziyimiriddeko kukino. Kibadde kyamanyi mukutondawo emikisa gy'okufuna ssente mu bavubuka
 
-see this [thread](https://twitter.com/pesa_africa/status/1351786081474252800)
+Laba kino [oluguwa](https://twitter.com/pesa_africa/status/1351786081474252800)
 
-Peer to peer and informal trading of cryptocurrencies like Bitcoin is an added cyber security risk to Kenya’s financial system b/c money flows into bitcoin cannot be recovered
+Enkolagana ey'omuntu ku muntu n'okusuubula okutali mubutoongole okwa cryptocurrencies nga Bitcoin kyongera ku akabi mu bukuumi bwokumikutu gya internet egyekusa ku nkola y'ebyensimbi bya Kenya kubanga ssente ezikulukutta nga ziyingira bitcoin tezisobola kuddizibwa
 
-June 30, 2020
+Omwezi gw'omusanvu 30, 2020
 
-[Bitcoin Case at Kenya’s Milimani Law Courts Sets Precedence](https://kenyanwallstreet.com/bitcoin-case-kenyas-milimani-law-courts-sets-precedence/)
+[Omusango gwa Bitcoin mu Milimani Law Courts ez'eKenya gutekawo eky'okulabirako](https://kenyanwallstreet.com/bitcoin-case-kenyas-milimani-law-courts-sets-precedence/)
 
-I find it amusing that Kenyan regulators, officials and ‘Fintech’ experts think cryptocurrencies can be ‘swept under the rug’, it merely exposes their foolishness. Ive met A LOT of them in my 7 years and they DO NOT GERRIT!
+Kinsanyusa nti abalungamya be Kenya, abakungu n'abakugu mu 'Fintech' balowooza cryptocurrencies osobola 'okuzisenyera wansi w'ekisiimula', nga kyokka kibukkula obusirusiru bwabwe. Nsisinkanye BANGI kubbo mu myaka gyange 7 era TEBAKITEGERRA!
 
-Every year they delay, informal volumes grow
+Buli mwaka gwebagayalirira, obungi ebutali butoongole bukula
 
-### December 16, 2020 
+### Omwezi gwa museenene 16, 2020
 
-UGANDA recently made ammendments to their Anti Money Laundering Act 2013 to include virtual asset service providers. Perhaps the only notable effort from government in the region to address the issues above
+UGANDA jjuuzi yakoze ennongoosereza mu teeka lya Anti Money Laundering Act 2013 nga lya kuyungako abawa obuweereza mu bugagga obutali bwamungalo. Kyandiba nga kaweefube yekka eyeeyoleka okuva mu gavumenti zo'mukitudu wa kukola ku nsonga ezo waggulu.
 
-[thread](https://twitter.com/pesa_africa/status/1339071354507759616)
+[oluguwa](https://twitter.com/pesa_africa/status/1339071354507759616)
 
-February 5, 2020 (Present) Day
+Omwezi ogwokubiiri 5, 2020 (Lunaku Lwaleero)
 
-In my opinion, due to the circular by the Central Bank of Nigeria 🇳🇬, we should expect to see the same patterns witnessed in Kenya 🇰🇪
+Mu ndowooza yange, kulw'enkulungo ya Bbanka enkulu eya Nigeria, tusanidde okusuubira okulaba enkola y'emu nga yejjulira mu Kenya 🇰🇪
 
+Mumazima, nkuba bbetti, tuli mirunddi mingi egy'obunene kubanga Nigeria eri mirundi 10 okusinga obunne bwa Kenya bendera ya Kenya era erina ebyafaayo ebivanvu muby'okukendeeza omuwendo gwa ssenta gatta ko obusuubuzi bwa ssente obutali butoongole
 
-In fact, i wager, we multiple times of magnitude b/c Nigeria is 10 times bigger than Kenya Flag of Kenya and has a long history with currency devaluations and informal currency trading 
+Laba kino [oluguwa](https://twitter.com/pesa_africa/status/1304060041268539392)
 
-See this [thread](https://twitter.com/pesa_africa/status/1304060041268539392)
+[Olugero luluno kungeri neetiwaaka ezitalintoongole bwezikozesamu neetiwaaka entongoole, okulanga kwo'mumwa ku mumwa ku yintaneti ng'ogaseeko neriinya elimayikidwa okuwagira ensubula ya bitcoin ne cryptocurrencies etali ya ku yintaneeti.](https://twitter.com/pesa_africa/status/1255808792916365312)
 
-Here is a [story of how Nigeria’s informal networks use trusted networks, e-word of mouth and reputation to support the trade of bitcoin and cryptocurrencies offline.](https://twitter.com/pesa_africa/status/1255808792916365312)
+Ekiwandiiko kikino ku ntambula y'ebyobusuubuzi ebitali bitongole nga yeewoleddwa ku neetiwaaka zaaba Somali Hawala. Kye kimu ddala n'entanbula eziriwo mu Bitcoin crypto ezikozesa okukolagana okwa muntu ku muntu okw'okusuubula nga tekuli mubutongoole (yaade kuli oba tekuli ku yintaneeti)
 
+[Engeri abavubuka ba Somali Hawaladars eya Little Mogadishu gyebawumbamu ebiseera eby'omu maaso ebya Bitcoin mu Afirika](https://kioneki.com/2019/12/15/how-somali-traders-innovate-on-informal-financial-practices-using-bitcoin/)
 
-Here is an article on the mechanics of informal trade borrowed from Somali Hawala networks. Exactly the same mechanisms at play in Bitcoin crypto peer to peer informal trades (online and offline)
+"eby'okunoonyereza ebikuŋŋaanyiziddwa okuva ku Coin Dance nga kikoledwa omukutu gw'ensi yonna mu crypto gwebayita Paxful, gulaga nti Nigeria ke katale k'okusuubulirako bitcoin P2P akasinga obunene munsi yonna, nga katwala kumpi ebitundu 52 ku 100 z'emigabo gy'akatale. Mumyaka 5 egiyisse ensuubulagana za bitcoin 60,215 ezibalidwa kumuweendo gw'obukadde $566 obwa ddoola, okugiteeka mukiffo kyakubiiri emabegaga wa Amerika"
 
-[How the Young Somali Hawaladars of Little Mogadishu are Shaping the Future of Bitcoin in Africa](https://kioneki.com/2019/12/15/how-somali-traders-innovate-on-informal-financial-practices-using-bitcoin/)
+"Bino byakunoonyereza bya Paxful yokka, emu ku mikutu emingi ez'enkolagana ya muntu ku muntu ey'okusuubula bitcoin. Mikwano gyange mu Nigeria gingamba nti eby'okukola mukusuubula kwa P2P gyebili NYO okusingawo ebyo ebikwatiddwa mu bibalo ebitoongole.
 
-“data compiled from Coin Dance by the global crypto platform  Paxful, shows Nigeria is the largest P2P bitcoin marketplace in the world, over 52% of the market share. In the past 5 yrs 60,215 bitcoin transactions valued at $566 million, placing it second behind the United States”
+[Mu 2022, Abanigeria baasuubula okuyisa mu bukadde $400 mu beeyi ya crypto ku byokufaanyisa crypto ku mikutu ezokubutaka](https://techpoint.africa/2021/01/06/nigerians-traded-more-than-400m-worth-crypto-2020/)
 
-This is data from Paxful only, one of the many peer to peer bitcoin trading platforms. My friends in Nigeria tell me there is A LOT more P2P trading activity than is captured by official statistics.
+Bizinesi za crypto eNigeria bendera ya Nigeria zitegeezezza abakozesa baazo nti tebasobola kutuuka ku kuggyayo ssente ezabulijjo nga bayita mu mikutu emilungamye emitongoole.
 
-[In 2020, Nigerians traded more than $400m worth of crypto on local crypto exchange platforms](https://techpoint.africa/2021/01/06/nigerians-traded-more-than-400m-worth-crypto-2020/)
+"Bundle ekoze okuyisa obukadde $85 era newandiisa okuyisa abakozesa 124k mu 2020"
 
-Crypto businesses in Nigeria Flag of Nigeria have informed users they cannot access fiat withdrawals via officially regulated channels.
+Waliwo omuntu kweri alowooza nti okuwera emikutu gyeby'okusasula emitongoole nga kiva wa zi Bbanka Enkulu kigya kusalako obwagazi bwa bitcoin ne cryptocurrencies? Nga atte beeyi egenda wagulu, n'emikiisa gyonna egyokufunirako ssente gisebukka okuva mu cryptocurrencies, dapps n'engeri zona ezokukola ekyomugaso?
 
-“Bundle processed Over $85 Million and Registered Over 124K Users in 2020”
+Luno lutalo lwa byabufuzi mu masekkati g'abasika ba bibinja bbanka n'engeri y'okukyusakyusa eyenjawulo eya bitcoin ne cryptocurrencies. Mumyaka gyange gyonna egy'obumanyirivu, ndi mumativu nti bitcoin ne cryptcurrencies bajja kusinga. Gavumenti za Afirika ne zi bbanka tebalina busobozi n'amaanyi agasikiriza tebagalina.
 
-Does anyone honestly think that a ban on official payment channels by Central Banks will cut short interest in bitcoin and cryptocurrencies? What, with the price going up, and all the earning opportunities emerging from cryptocurrencies, dapps and use cases?
+Okyokusalawo kyebalina kyokka kya kwaniriza na kweyunga ku cryptocurrencies nga Bitcoin, nga tekinnabera kikerezi.
 
-This is a political battle between the old legacy banking cartels and the subversive feature of bitcoin cryptocurrencies. In all my years of experience, I am convinced bitcoin and cryptocurrencies will win. African governments and banks lack capacity and no influence.
+Ngenda kugezako okuwaawo nga nsinddikiriza omulongoosa w'ebiwandiiko byange luno oluguwa okululaba nga ekiwandiiko.
 
-Their only choice is to co-opt cryptocurrencies like Bitcoin, before it is too late.
+/ENKOMERERO
 
-I’m going to try pitch my editor this thread as an article. 
-
-/END
-
-For more [read](https://twitter.com/pesa_africa/status/1357972508796977152)
+Okufuna ebisingawo[soma](https://twitter.com/pesa_africa/status/1357972508796977152)

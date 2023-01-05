@@ -1,55 +1,43 @@
-# Re: Bitcoin v0.1 released
+---
+supporters: 
+    - 
+        name: "Undisclosed #1"
+translators: 
+    - 
+        name: "Maali Marvin Kenneth"
+        href: "https://twitter.com/maaliMKen/"
+---
+# Re: Bitcoin v0.1 gyebava okuteebwa
 
-by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
+nga kyawandiikibwa Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
-Satoshi Nakamoto writes:
+Satoshi Nakamoto nawandiika:
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
+> Nangirira enfulumya esooka eya Bitcoin, nga nkozesa mpya eya ssente ezoku'byuma bikalimagezi nga bikwatira wamu, nga ekozesa neetiwaaka yenkolagana y'omuntu ku muntu okwewala ssente ezo okuzisaasaanya emirundi ebiri. Enkozeza eno yona teliko bwananyini bujikulira waade buli mu kompuuta waade mu buyinza obwo'mumakkati.
 >
-> See bitcoin.org for screenshots.
+> Laaba screenshots ku bitcoin.org
 >
-> Download link:
-> http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
+> Link yobifunirako: http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
+Nkuyozaayoza Satoshi kweno entongoza esooka. Ntunulidde mu masso nga ngigezaako.
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
-
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
+> Okugatta wona ezinatambula zijja kubeera ebinusu 21,000,000. Zijja kugabibwa ezo nodes eziri ku neetiwaaka buli bwezinakolanga bulooka, nga omuwendo gusaalibwamu ebitundu bibiiri mumakatti buli myaka 4.
 >
-> first 4 years: 10,500,000 coins  
-> next 4 years: 5,250,000 coins  
-> next 4 years: 2,625,000 coins  
-> next 4 years: 1,312,500 coins  
-> etc...
+> emyaka 4 egisooka: ebinusu 10,500,000  
+> emyaka 4 egidaako: ebinusu 5,250,000  
+> emyaka 4 egidaako: ebinusu 2,625,000  
+> emyaka 4 egidaako: ebinusu 1,312,500  
+> mpaka mpaka...
 
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
+Kyo kinyuma nti enkola eno (sisitiimu) esobola okutegekebwa okukkiriza kwokka ennamba emu esinga obunene nga yey'ebinusu ebisobola ekukolebwa. Era nteebereza ekirowooozo kiri nti obungi bwomulimo ogwetagisibwa okufulumya ekinusu ekipya gujja kweyongera okukaluba ng'obudde bwe bunagenda nga buyitawo.
 
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
+Ekizibu kimu ekya mangu ddala ne ssente empya zoona kye kyengeri yokuzipima omuwendo. Wadde tubuusa amaaso ekizibu eky'omugaso nti kumpi tewali muntu yenna agya kuzikkiriza muntandikwa, wakyaliwo ekizibu kyokuyiya ensonga enungamu ewagira omuwendo gwonna ogutali kubwerere omutongole nga gwogw'ebinusu.
 
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
+Nga ekirowoozo ekisanyusa ekyokugezesa, teebereza nti Bitcoin awangula era naafuuka enkola ya sisitiimu eyokusasulirako ekulira ezo zoona ezikozesebwa munsi yoona. Awo'no omuwendo gwa ssente ziino awammu zirina okwenkanankana n'omuwendo gw'obugagga munsi yoona nga obutadde wamu. Okubalirira okuliwo kati kwenakasanga kw'obugaga bwa buli maka munsi yoona nga obugasse wamu buva ku busiriivu 100 obwa ddoola paka ku busiriivu 300 obwa ddoola. Ku binusu obukadde 20, ekyo kiwa buli nusu omuwendo gw'obukadde 10 eza ddoola.
 
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Kale obusoboozi bwokufulumya ebinusu bya Bitcoin leero nga okozesa obussente butiini obwabuliijo ku saawa zokozesa ku kompuuta eyinza okubeera embala ya zaala ennungi'no, nga ensasula ebalibwa ku bukadde 100 ku emu! Waade emikiisa gya Bitcoin okuwangula ku daala lino mitini, ddala kweri bali bukadde 100 ku emu mungerageranya? Kintu kyakulowoozaako.
 
 Hal
 
