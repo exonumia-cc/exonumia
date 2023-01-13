@@ -1,3 +1,13 @@
+---
+translators: 
+    - 
+        name: "Nxumalo"
+        href: "https://twitter.com/XolileNxumalo5"
+supporters: 
+    - 
+        name: "Undisclosed #1"
+---
+
 # Makume-mbirhi n'we wa Tidyondzo
 #### Leswi Ndzi nga swi Dyondza endzhaku ka ku wela endzeni ka Goji ra Mpfundla wa Bitikhoyini
 

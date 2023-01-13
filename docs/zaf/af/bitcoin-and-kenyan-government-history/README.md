@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Armand Cronje"
+        href: "https://twitter.com/ArmandCronje"
+supporters: 
+    - 
+        name: "Undisclosed #1"
+---
 # Bitcoin en Keniaanse regeringsgeskiedenis
 deur Michael Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
 

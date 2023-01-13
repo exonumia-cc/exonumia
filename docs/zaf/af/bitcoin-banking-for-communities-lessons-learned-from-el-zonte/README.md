@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Armand Cronje"
+        href: "https://twitter.com/ArmandCronje"
+supporters: 
+    - 
+        name: "Undisclosed #1"
+---
 # Bitcoin-bankdienste vir gemeenskappe: lesse geleer uit Bitcoin Beach
 
 deur Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)

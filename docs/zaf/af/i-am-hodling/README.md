@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Armand Cronje"
+        href: "https://twitter.com/ArmandCronje"
+supporters: 
+    - 
+        name: "Undisclosed #1"
+---
 # EK KOOP EN HOU (HODLING)
 deur GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 

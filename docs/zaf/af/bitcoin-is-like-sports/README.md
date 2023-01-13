@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Armand Cronje"
+        href: "https://twitter.com/ArmandCronje"
+supporters: 
+    - 
+        name: "Undisclosed #1"
+---
 # Bitcoin is soos sport
 deur @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 

@@ -1,3 +1,12 @@
+---
+translators: 
+    - 
+        name: "Armand Cronje"
+        href: "https://twitter.com/ArmandCronje"
+supporters: 
+    - 
+        name: "Undisclosed #1"
+---
 # Hoe sal ons aarde se 7,753 miljard mense na die weerlignetwerk (Lightning Network) byvoeg?
 deur John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
 
