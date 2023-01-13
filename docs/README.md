@@ -117,7 +117,7 @@ contributors: false
 [Afrikaans](/zaf/af/)  
 [IsiNdebele](/zaf/nr/)  
 [Sepedi](/zaf/nso/)  
-[IsiTsonga](/zaf/ts/)  
+[Xitsonga](/zaf/ts/)  
 [Sesotho](/zaf/st/)  
 [TshiVenda](/zaf/ve/)  
 [IsiXhosa](/zaf/xh/)  

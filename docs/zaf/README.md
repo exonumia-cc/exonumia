@@ -11,7 +11,7 @@ sidebar: false
 [IsiNdebele](/zaf/nr/)  
 [Sepedi](/zaf/nso/)  
 [Sesotho](/zaf/st/)  
-[Isitsonga](/zaf/ts/)  
+[Xitsonga](/zaf/ts/)  
 [TshiVenda](/zaf/ve/)  
 [IsiXhosa](/zaf/xh/)  
 [IsiZulu](/zaf/zu/)  
