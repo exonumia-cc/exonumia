@@ -1,307 +1,292 @@
-# Bitcoin Banking for Communities: Lessons Learned from Bitcoin Beach
+# Bitcoin-bankdienste vir gemeenskappe: lesse geleer uit Bitcoin Beach
 
-by Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
+deur Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
 
 <LanguageDropdown/>
 
-## Foreword
+## Voorwoord
+Revolusionêre verandering word gewoonlik aangewakker deur diegene wat te jonk en naïef is om te verstaan dat hul onderneming gedoem is om te misluk. Hoewel ek nie die verskoning van die jeug kan eis nie, toe Bitcoin Beach bekendgestel is, het ek gelukkig nog nie genoeg tyd op Twitter spandeer om te "weet" dat Bitcoin nooit deur mense gebruik sal word om 'n koppie koffie te koop nie. As ons die verstandige navorsing gedoen het of met standaard lewensvatbaarheidstudies begin het, sou ons ons dwaasheid besef het. Gelukkig kan meeste van julle nou El Salvador op 'n kaart vind, want ons was te dom om van beter te weet.
 
-Revolutionary change is usually sparked by those that are too young and naïve to understand that their undertaking is doomed to fail. While I cannot claim the excuse of youth, when Bitcoin Beach launched, thankfully I had not yet spent enough time on Twitter to “know” that Bitcoin would never be used by people to buy a cup of coffee. Had we done the prudent research or started with standard feasibility studies, we would have realized our folly. Thankfully most of you can now find El Salvador on a map because we were too stupid to know better.
+In die geval van Bitcoin Beach is die waarheid dikwels vreemder as fiksie. Niemand sou kon dink dat die eerste ware Bitcoin-ekonomie sy ontstaan in 'n klein plattelandse dorpie in El Salvador sou vind nie. Gelei deur 'n middeljarige uitgewekene wat steeds Earthlink-e-pos gebruik, saam met 'n jong Salvadoraanse gemeenskapsleier wat skaars graad 6 voltooi het.
 
-In the case of Bitcoin Beach, truth really is often stranger than fiction. Nobody would have imagined that the first true Bitcoin economy would find its genesis in a small rural village in El Salvador. Led by a middle-aged expat that still uses Earthlink email, partnered with a young Salvadoran community leader who barely finished 6th grade.
+In retrospek was die uitkoms voor die hand liggend: 'n bevolking wat sukkel met armoede en 'n gebrek aan finansiële insluiting, was altyd bestem om die waarde van Bitcoin voor ryk gemeenskappe in Singapoer of Silicon Valley te sien. Dit lyk goddelik gepas – diegene wat die eerste pad geplavei het, het so lagwekkend ongekwalifiseerd begin dat geen gemeenskap wat volg geïntimideer hoef te voel nie.
 
-In retrospect, the outcome was obvious: a population that struggles with poverty and lack of financial inclusion was always destined to see the value of Bitcoin before wealthy communities in Singapore or Silicon Valley. It seems divinely fitting – those who paved the first path started out so laughably unqualified that no community who follows needs to feel intimidated.
+In El Salvador is Bitcoin die geld van die armes en die wat finansieel uitgesluit is. Vir Salvadorane wat in armoede leef, lyk die debatte tussen die digitale goud en digitale kontantkampe uit voeling en sonder praktiese relevansie. Vir diegene wat Bitcoin die meeste nodig het, is dit beide hoe hulle hul daaglikse brood koop en hoe hulle vir die toekoms spaar. Hulle sien geen behoefte om die een of die ander te kies nie.
 
-In El Salvador, Bitcoin is the money of the poor and financially excluded. For Salvadorans that are living in poverty, the debates between the digital gold and digital cash camps seem out of touch, and without practical relevance. For those who need Bitcoin most, it is both how they buy their daily bread and how they save for the future. They see no need to choose one or the other.
-
-So here in 2021 we see a small impoverished nation showing the world how Bitcoin levels the playing field for the poor. We know Bitcoin Beach is just a glimpse. But we hope it will be the spark that sets off fires around the world. We invite you to come visit El Zonte, and help us spread this vision of community Bitcoin Banking that is enabling financial inclusion around the world.
+So hier in 2021 sien ons 'n klein verarmde nasie wat die wêreld wys hoe Bitcoin die speelveld vir die armes gelykmaak. Ons weet Bitcoin Beach is net 'n glimp. Maar ons hoop dit sal die vonk wees wat brande regoor die wêreld aan die gang sit. Ons nooi jou uit om El Zonte te kom besoek en ons te help om hierdie visie van gemeenskaplike Bitcoin-bankdienste te versprei wat finansiële insluiting regoor die wêreld moontlik maak.
 
 – Mike Peterson ([@bitcoinbeach](http://twitter.com/bitcoinbeach))
 
-## From Local Project to Legal Tender in Two Years
+## Van plaaslike projek tot wettige tender in twee jaar
+Die Bitcoin Beach-projek het begin met 'n eenvoudige dog aspirasievraag: Kan ons 'n volhoubare sirkulêre ekonomie op Bitcoin bou?
 
-The Bitcoin Beach project started with a simple yet aspirational question: Can we build a sustainable circular economy on Bitcoin?
+Die antwoord is 'n klinkende ja. Wat begin het as 'n gemeenskapsprojek in 'n afgeleë dorp, het ontwikkel in 'n storie oor ses miljoen mense wat aan die wêreld wys dat Bitcoin geld is.
 
-The answer is a resounding yes. What started as a community project in a remote town has evolved into a story about six million people showcasing to the world that Bitcoin is money.
+In hierdie gids dek ons ses lesse wat geleer is met die ontwikkeling van die Bitcoin Beach-beursie en die onderliggende oopbron-infrastruktuur wat dit aandryf. Ons doel is om gemeenskappe regoor die wêreld te help om hul eie leer en aanvaarding van Bitcoin en die weerlignetwerk (Lightning Network) te versnel.
 
-In this guide we cover six lessons learned developing the Bitcoin Beach Wallet and the underlying open source infrastructure that powers it. Our aim is to help communities around the world accelerate their own learning and adoption of Bitcoin and the Lightning Network.
+## Wat is Bitcoin Beach?
+Aan die Stille Oseaan-kus van El Salvador sit El Zonte, 'n klein branderplankrydorpie met 'n bevolking van 3 000. Sy inwoners is uit die tradisionele bankstelsel gelaat en worstel al dekades lank met bendegeweld en 'n gebrek aan finansiële insluiting. Oor die afgelope tien jaar het 'n klein groepie individue gewerk om verandering aan te wakker en hoop terug te bring na El Zonte.
 
-## What is Bitcoin Beach?
-
-On the Pacific Coast of El Salvador sits El Zonte, a small surf town with a population of 3,000. Its residents have been left out of the traditional banking system and have grappled with gang violence and a lack of financial inclusion for decades. Over the past ten years, a small group of individuals have been working to ignite change and bring hope back to El Zonte.
-
-Jorge Valenzuela, Roman “Chimbera” Martinez and Mike Peterson began running youth programs around 2009 to give El Zonte’s kids the opportunity to play, learn and dream. From surf “para todo” (surf for everyone) to computer classes to paid community service projects, the programs have breathed new possibilities into a place that once felt like a dead end.
+Jorge Valenzuela, Roman "Chimbera" Martinez en Mike Peterson het omstreeks 2009 jeugprogramme begin bestuur om El Zonte se kinders die geleentheid te gee om te speel, te leer en te droom. Van branderplankry "para todo" (branderplankry vir almal) tot rekenaarklasse tot betaalde gemeenskapsdiensprojekte, die programme het nuwe moontlikhede ingeblaas in 'n plek wat eens soos 'n doodloopstraat gevoel het.
 
 ![](./bitcoin-beach-workouts.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Jorge, Chimbera and team have put fitness, education and community service at the center of daily life in El Zonte. (Source: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
+  <figcaption>Jorge, Chimbera en span het fiksheid, opvoeding en gemeenskapsdiens in die middel van die daaglikse lewe in El Zonte geplaas. (Bron: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-In 2019, Mike was approached by an individual who wanted to support their programs through a bitcoin donation. There was a catch, however: the donation must be spent within the community, instead of sold into fiat. The goal would be to create a sustainable circular Bitcoin economy where merchants and community members can exchange goods, services and labor for sats. Jorge and Mike accepted the challenge, and Bitcoin Beach was born.
+In 2019 is Mike genader deur 'n individu wat hul programme deur 'n bitcoin-skenking wou ondersteun. Daar was egter 'n vangplek: die skenking moet binne die gemeenskap bestee word, in plaas daarvan om in fiat te verkoop. Die doel sou wees om 'n volhoubare sirkulêre Bitcoin-ekonomie te skep waar handelaars en gemeenskapslede goedere, dienste en arbeid vir sats kan ruil. Jorge en Mike het die uitdaging aanvaar, en Bitcoin Beach is gebore.
 
-From the start, it was clear that this project would challenge preconceived notions about Bitcoin:
+Dit was van die begin af duidelik dat hierdie projek vooropgesette denkbeelde oor Bitcoin sou uitdaag:
 
-1. **Bitcoin is a speculative asset for the wealthy.** If you tune into business news channels and sites, you’ll hear constant discussion about price, volatility, and comparison to other assets and investments like gold and stocks. You’ll hear about how banks are offering exposure to their high net worth clients. What you won’t hear is how Bitcoin is enabling economic empowerment in some of the poorest parts of the world.
+1. **Bitcoin is 'n spekulatiewe bate vir die rykes.** As jy inskakel op besigheidsnuuskanale en -webwerwe, sal jy konstante bespreking oor prys, wisselvalligheid en vergelyking met ander bates en beleggings soos goud en aandele hoor. Jy sal hoor hoe banke blootstelling aan hul hoënettowaarde-kliënte bied. Wat jy nie sal hoor nie, is hoe Bitcoin ekonomiese bemagtiging in sommige van die armste dele van die wêreld moontlik maak.
+2. **Bitcoin is 'n stoor  van waarde, nie 'n ruilmiddel nie.** Terwyl Bitcoin se nut as 'n stoor  van waarde wyd aanvaar word, is Bitcoin as 'n ruilmiddel 'n hewige betwiste onderwerp tot vandag toe. Die rasionaal lui; "As die prys van bitcoin teen die huidige tempo aanhou groei, sal niemand dit ooit op goedere en dienste wil spandeer nie."
 
-2. **Bitcoin is a store of value, not a medium of exchange.** While Bitcoin’s utility as a store of value is widely accepted, Bitcoin as a medium of exchange is a hotly contested topic to this day. The rationale goes; “If the price of bitcoin keeps growing at the current rate, nobody will ever want to spend it on goods and services.”
+Soos die projek van idee na aksie verander het, het die groeiende span Bitcoin Beach-koördineerders en studente kennis geneem van die probleme wat Bitcoin vir hul gemeenskap kan oplos:
 
-As the project turned from idea into action, the growing team of Bitcoin Beach coordinators and students took note of the problems that Bitcoin might solve for their community:
-
-
-1. **Traditional banks don’t do business in the poorest communities.** El Salvador has been on the US Dollar system since 2001, which makes their financial sector subject to US regulations. The high cost of compliance imposed by these regulations disincentivizes banks from catering to people in poorer countries. For instance when the owner of [Garten Hotel](https://www.gartenzonte.com/garten) tried setting up employees with bank accounts and direct deposit, [he learned](https://youtu.be/RhoiOzhuBG4?t=1438) it would cost $50 per month, per employee. That amounts to more than 10% the monthly income of a person working on minimum wage.
-
-2. **Getting remittance payments to people in El Zonte is expensive and time consuming.** Cross-border remittance payments into El Salvador made up [23% of the country’s GDP](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html) in 2020. It costs more than $3 in fees for somebody to receive $10 from a family member abroad. There is no Western Union in El Zonte so it can take hours and multiple bus rides for residents to get to an office where they can receive the remittance. This is in addition to the days it can take for the money to arrive in El Salvador from the person who initiated the transfer.
-
-3. **It’s hard to save without access to the banking system.** Being “unbanked” doesn’t just prevent somebody from having a bank account. It also excludes them from accessing the type of investments and assets that can protect them against inflation. An unanticipated impact of introducing Bitcoin was the number of people who began saving a meaningful portion of their income for the first time in their lives.
+1. **Tradisionele banke doen nie sake in die armste gemeenskappe nie.** El Salvador is sedert 2001 op die Amerikaanse dollarstelsel, wat hul finansiële sektor onderworpe maak aan Amerikaanse regulasies. Die hoë koste van nakoming wat deur hierdie regulasies opgelê word, ontmoedig banke om voorsiening aan mense in armer lande te verskaf. Toe die eienaar van [Garten Hotel](https://www.gartenzonte.com/garten) byvoorbeeld probeer het om werknemers met bankrekeninge en direkte deposito in te stel, [het hy geleer](https://youtu.be/RhoiOzhuBG4?t =1438) dit sal $50 per maand, per werknemer kos. Dit kom neer op meer as 10% van die maandelikse inkomste van 'n persoon wat op minimum loon werk.
+2. **Dit is duur en tydrowend om betalings aan mense in El Zonte te kry.** Oorgrensbetalings na El Salvador het in 2020 [23% van die land se BBP uitgemaak](https://www.cnbc.com/2021/09 /09/el-salvador-bitcoin-move-could-western-union-400-million-a-year.html). Dit kos meer as $3 in fooie vir iemand om $10 van 'n familielid in die buiteland te ontvang. Daar is geen Western Union in El Zonte nie, so dit kan ure en veelvuldige busritte neem vir inwoners om by 'n kantoor uit te kom waar hulle die oorbetaling kan ontvang. Dit is bykomend tot die dae wat dit kan neem vir die geld om in El Salvador aan te kom van die persoon wat die oordrag geïnisieer het.
+3. **Dit is moeilik om te spaar sonder toegang tot die bankstelsel.** Om "ongebank" te wees, verhoed nie net dat iemand 'n bankrekening het nie. Dit sluit hulle ook uit van toegang tot die tipe beleggings en bates wat hulle teen inflasie kan beskerm. 'n Onverwagte impak van die bekendstelling van Bitcoin was die aantal mense wat vir die eerste keer in hul lewens 'n betekenisvolle deel van hul inkomste begin spaar het.
 
 ![](./bitcoin-beach-team.jpg)
 <center v-pre>
 <figure>
-  <figcaption>The Bitcoin Beach team dedicated themselves to helping their community transact digitally using Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1401672924092841984?s=20">Twitter</a>)</figcaption>
+  <figcaption>Die Bitcoin Beach-span het hulself daaraan toegewy om hul gemeenskap te help om digitaal transaksies te maak met die gebruik van Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1401672924092841984?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-With bitcoin to fuel the growth of their project the team got to work. They began to onboard the community one person at a time to the Bitcoin network. They learned, educated and adapted along the way. The pandemic’s arrival in early 2020 served as an accelerant for Bitcoin adoption. Residents in El Zonte who needed support were able to get bitcoin donations provided by the Bitcoin Beach project.
+Met bitcoin om die groei van hul projek aan te wakker, het die span aan die werk gekom. Hulle het begin om die gemeenskap een persoon op 'n slag by die Bitcoin-netwerk by te voeg. Hulle het langs die pad geleer, opgevoed en aangepas. Die aankoms van die pandemie aan die begin van 2020 het gedien as 'n versnelling vir die ingebruikneming van Bitcoin. Inwoners in El Zonte wat ondersteuning nodig gehad het, kon bitcoin-skenkings kry wat deur die Bitcoin Beach-projek verskaf is.
 
-A 2020 [Forbes article](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) thrust Bitcoin Beach into the spotlight and began attracting the support of other Bitcoiners who wanted to help. One of these Bitcoiners was Nicolas Burtey, co-founder of Galoy, who offered to come to El Zonte to develop a wallet tailored to the needs of Bitcoin Beach. Before long, the Bitcoin Beach Wallet was born and the Bitcoin Beach project was picking up momentum towards realizing its vision.
+n 2020 [Forbes-artikel](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) het Bitcoin Beach in die kollig gebring en het begin om die ondersteuning van ander Bitcoiners wat wou help lok. Een van hierdie Bitcoiners was Nicolas Burtey, medestigter van Galoy, wat aangebied het om na El Zonte te kom om 'n beursie te ontwikkel wat aangepas is vir die behoeftes van Bitcoin Beach. Kort voor lank is die Bitcoin Beach-beursie gebore en die Bitcoin Beach-projek het momentum gekry om sy visie te verwesenlik.
 
-By now most people know the end of the story: El Salvador President Nayib Bukele announced on June 5, 2021 that Bitcoin would become legal tender in the country. Bukele related in a Twitter Spaces that the government was inspired by the Bitcoin Beach project and that the law’s goal was to replicate what had happened in El Zonte for the entire country. He specifically mentioned that financial inclusion of the poorest members of Salvadoran society was the driving motivation. On September 7 2021, La Ley Bitcoin (the “Bitcoin Law”) went into effect. Bitcoin Beach has since become a central part of the global Bitcoin adoption story. It has attracted Bitcoiners from around the world who want to see what it’s like to spend sats on coffee, surf lessons, and steak. It has also become a model for other communities to replicate.
+Die meeste mense ken nou die einde van die storie: El Salvador-president Nayib Bukele het op 5 Junie 2021 aangekondig dat Bitcoin wettige betaalmiddel in die land sou word. Bukele het in 'n Twitter Spaces vertel dat die regering deur die Bitcoin Beach-projek geïnspireer is en dat die wet se doel was om te repliseer wat in El Zonte gebeur het vir die hele land. Hy het spesifiek genoem dat finansiële insluiting van die armste lede van die Salvadoraanse samelewing die dryfkrag was. Op 7 September 2021 het La Ley Bitcoin (die "Bitcoin-wet") in werking getree. Bitcoin Beach het sedertdien 'n sentrale deel van die wêreldwye Bitcoin-ingebruiknemingsverhaal geword. Dit het Bitcoiners van regoor die wêreld gelok wat wil sien hoe dit is om sats op koffie, branderplankrylesse en biefstuk te spandeer. Dit het ook 'n model geword vir ander gemeenskappe om te repliseer.
 
-Most importantly, Bitcoin Beach has created a community where the kids of El Zonte can dream and build their future.
+Die belangrikste is dat Bitcoin Beach 'n gemeenskap geskep het waar die kinders van El Zonte kan droom en hul toekoms kan bou.
 
-## The Bitcoin Beach Wallet
-
-The Bitcoin Beach Wallet is an open source Bitcoin community banking solution. One that was designed to meet the needs of the merchants and community members in El Zonte. It utilizes a multisig shared custody model that offers an alternative to the standard non-custodial and custodial solutions that are most widely available today.
+## Die Bitcoin Beach-beursie
+Die Bitcoin Beach-beursie is 'n oopbron Bitcoin-gemeenskapsbankoplossing. Een wat ontwerp is om in die behoeftes van die handelaars en gemeenskapslede in El Zonte te voorsien. Dit gebruik 'n multisig gedeeltelike bewaringsmodel wat 'n alternatief bied vir die standaard nie-bewarings- en bewaringsoplossings wat vandag die meeste beskikbaar is.
 
 ![](./bitcoin-beach-wallet-soaps.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Cristina uses the Bitcoin Beach Wallet to sell handmade soaps. Customers can pay her via username, by scanning an invoice on her phone, or by visiting her <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Source: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
+  <figcaption>Cristina gebruik die Bitcoin Beach-beursie om handgemaakte seep te verkoop. Kliënte kan haar via gebruikersnaam betaal, deur 'n faktuur op haar foon te skandeer, of deur haar te besoek <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Bron: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Within the Bitcoin Beach Wallet, capital is pooled and managed by the community. This provides benefits to all members within the community:
+Binne die Bitcoin Beach-beursie word kapitaal saamgevoeg en deur die gemeenskap bestuur. Dit bied voordele aan alle lede binne die gemeenskap:
 
-- Lightning channels are managed for members; there is no cost to open/close channels
-- Free and instant “intra ledger” transactions are made available within the community
-- Efficient use of online servers means lower costs per user compared to the alternative of each merchant having to have their own server
-- Fees can be reduced by batching on-chain transactions
+- Weerligkanale (Lightning channels) word vir lede bestuur; daar is geen koste om kanale oop/toe te maak nie
+- Gratis en onmiddellike "intra grootboek" transaksies word binne die gemeenskap beskikbaar gestel
+- Doeltreffende gebruik van aanlyn bedieners beteken laer koste per gebruiker in vergelyking met die alternatief van elke handelaar wat hul eie bediener moet hê
+- Fooie kan verminder word deur transaksies aan die ketting saam te bondel
 
-Additional features in the app help support efforts towards a sustainable Bitcoin economy:
+Bykomende kenmerke in die toepassing help om pogings tot 'n volhoubare Bitcoin-ekonomie te ondersteun:
 
-- Ability to pay via Bitcoin address, Lightning invoice or individual username
-- A unified balance of on-chain and Lightning, showing the balance in USD and sats
-- A transaction log displays a history of payments between users
-- The mobile friendly map displays all local businesses that accept Lightning payments
-- A web address users can share to receive bitcoin from anybody with a Lightning supported wallet (see: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
+- Die vermoë om via Bitcoin-adres, weerligfaktuur (Lightning invoice) of individuele gebruikersnaam te betaal
+- n Verenigde saldo van aan die ketting en weerlig (Lightning) wat die saldo  in USD en sats toon
+- n Transaksielogboek vertoon 'n geskiedenis van betalings tussen gebruikers
+- Die selfoonvriendelike kaart vertoon alle plaaslike besighede wat weerligbetalings (Lightning payments) aanvaar
+- n Webadres wat gebruikers kan deel om bitcoin te ontvang van enigiemand met 'n weerligondersteunde beursie (Lightning supported wallet) (sien: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
 
-If you’re interested in building a front end mobile application like the Bitcoin Beach Wallet you can access the [galoy-mobile](https://github.com/GaloyMoney/galoy-mobile) repository on GitHub.
+As jy belangstel om 'n beginfase mobiele toepassing soos die Bitcoin Beach-beursie te bou, kan jy toegang tot die [galoy-mobiele bewaarplek op GitHub kry] (https://github.com/GaloyMoney/galoy-mobile) .
 
-Without further ado, here are the top lessons Galoy learned from building in El Zonte.
+Hier is sonder meer die beste lesse wat Galoy geleer het uit die bou in El Zonte.
 
-## Lesson 1: Education is Paramount
-
-Bitcoin is a difficult thing to understand. It cuts across computer science, economics, history, cryptography, monetary policy and more. Luckily, somebody does not need to fully grasp Bitcoin to use and benefit from it. How many people who have used fiat their entire lives actually understand how money works?
+## Les 1: Opvoeding is van kardinale belang
+Bitcoin is 'n moeilike ding om te verstaan. Dit strek oor rekenaarwetenskap, ekonomie, geskiedenis, kriptografie, monetêre beleid en meer. Gelukkig hoef iemand nie Bitcoin ten volle te begryp om dit te gebruik en daarby te baat nie. Hoeveel mense wat hul hele lewe fiat gebruik het, verstaan eintlik hoe geld werk?
 
 ![](./bitcoin-beach-teaching.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Showing Salvadorans how to use Bitcoin is an ongoing process for Jorge and the Bitcoin Beach team. (Source: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
+  <figcaption>Om Salvadorane te wys hoe om Bitcoin te gebruik, is 'n deurlopende proses vir Jorge en die Bitcoin Beach-span. (Bron: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are five tips to consider when educating your community:
+Hier is vyf wenke om te oorweeg wanneer jy jou gemeenskap opvoed:
 
-1. **Community organizers are key to the onboarding process.** Having an in-person onboarding team ensures people start off on the right foot. This is especially important in communities where Bitcoin presents the opportunity to transact digitally for the first time.
-2. **It’s more effective to show people how to use Bitcoin than to tell them about it.** Helping people download and interact with a wallet, and having them send and receive sats is more effective than trying to orange pill them with ideas.
-3. **Teach the kids. They will onboard their parents.** The kids of El Zonte were quick to learn how to use Bitcoin. They in turn helped their parents on board at home.
-4. **Bitcoin ATMs help connect the mental dots between Bitcoin and fiat.** A Bitcoin ATM turned out to be a helpful asset to the onboarding process. When people are able to exchange bitcoin in their mobile wallet for their local currency, they build a stronger relationship with the idea of Bitcoin as money.
-5. **Help people expect and plan for short term volatility.** Set expectations so your community can be prepared for drops in the Bitcoin price. Consider a program that compensates merchants whose account balance drops due to price fluctuations for an initial onboarding period until their comfort with Bitcoin is established.
+1. **Gemeenskapsorganiseerders is die belangrikste tot die byvoegingproses.** Om 'n persoonlike byvoegingspan te hê, verseker dat mense op die regte voet begin. Dit is veral belangrik in gemeenskappe waar Bitcoin die geleentheid bied om vir die eerste keer digitaal transaksies te kan maak.
+2. **Dit is meer doeltreffend om mense te wys hoe om Bitcoin te gebruik as om hulle daarvan te vertel.** Om mense te help om 'n beursie af te laai en daarmee interaksie te hê en om hulle sats te stuur en te laat ontvang, is meer effektief as om hulle met idees te probeer oortuig.
+3. **Leer die kinders. Hulle sal hul ouers byvoeg.** Die kinders van El Zonte was vinnig om te leer hoe om Bitcoin te gebruik. Hulle het op hul beurt hul ouers by die huis gehelp om bygevoeg te word.
+4. **Bitcoin OTM'e help om die geestelike kolletjies tussen Bitcoin en fiat te verbind.** 'n Bitcoin OTM blyk om 'n nuttige bate vir die byvoegingproses te wees. Wanneer mense bitcoin in hul mobiele beursie vir hul plaaslike geldeenheid kan ruil, bou hulle 'n sterker verhouding met die idee van Bitcoin as geld.
+5. **Help mense verwag en beplan vir korttermyn-onbestendigheid.** Stel verwagtinge sodat jou gemeenskap voorbereid kan wees op dalings in die Bitcoin-prys. Oorweeg 'n program wat handelaars vergoed wie se rekeningsaldo daal as gevolg van prysskommelings vir 'n aanvanklike byvoegingproses totdat hul gemak met Bitcoin gevestig is.
 
-As you build your community, take the time to connect with and learn from the people of [Bitcoin Beach](http://bitcoinbeach.com/). They are giants on whose shoulders you can stand. Their dedication to service existed before Bitcoin, and it transcends Bitcoin. Bitcoin has now become a medium through which they can bring opportunity and hope for the future of El Salvador.
+Soos jy jou gemeenskap bou, neem die tyd om kontak te maak met en te leer by die mense van [Bitcoin Beach](http://bitcoinbeach.com/). Hulle is reuse op wie se skouers jy kan staan. Hul toewyding aan diens het voor Bitcoin bestaan, en dit oortref Bitcoin. Bitcoin het nou 'n medium geword waardeur hulle geleentheid en hoop vir die toekoms van El Salvador kan bring.
 
-## Lesson 2: Lightning is an Accelerant for Bitcoin as Money
+## Les 2: Weerlig (Lightning) is 'n versneller vir Bitcoin as geld
+Die Weerlignetwerk (Lightning Network) is die mees onderskatte protokol ter wêreld. Net twee jaar gelede was dit 'n #roekelose manier om transaksies te doen. Nou word dit deur McDonalds, Starbucks en Pizza Hut in El Salvador gebruik. Die groei van nodusse, kanale en kapasiteit vind teen 'n verbysterende tempo plaas. Die onlangse Arcane Research-verslag "[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)" gee 'n glimp oor sommige van die groeimetrieke en verwagtinge.
 
-The Lightning Network is the most underestimated protocol in the world. Just two years ago it was a #reckless way to transact. Now it’s being used by McDonalds, Starbucks and Pizza Hut in El Salvador. Growth of nodes, channels and capacity is happening at a mind-blowing pace. The recent Arcane Research report “[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)” provides a glimpse into some of the growth metrics and expectations.
+Bitcoin Beach het aanvanklik aan die ketting transaksies gebruik om bitcoin binne die gemeenskap te versprei. Terwyl aan die ketting vir opvoedkundige instellings gewerk het en om sats na lede van die gemeenskap oor te dra, het die beperkings daarvan 'n hindernis geword om na 'n sirkulêre ekonomie te vorder.
 
-Bitcoin Beach initially used on-chain transactions to distribute bitcoin within the community. While on-chain worked for educational settings and to transfer sats to members of the community, its limitations became a barrier to progressing towards a circular economy.
+Salvadorane het ervaar hoe die nut van Bitcoin as 'n ruilmiddel beperk word sonder laag twee netwerke soos weerlig (Lightning):
 
-Salvadorans experienced how the utility of Bitcoin as a medium of exchange is limited without layer two networks like Lightning:
-
-1. **On-chain fees were too expensive to facilitate daily spending.** Residents of El Zonte need to be able to spend small dollar amounts, such as 50 cents for pupusas.
-2. **Using on-chain bitcoin for retail transactions creates “dust.”** Bitcoin Beach experienced the “[dust transactions problem](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)” firsthand. Unspent transaction outputs (UTXOs) record how value is moved on the timechain. When the value of a UTXO becomes less than the cost of spending it, the bitcoin is considered unspendable “dust.”
-3. **In the retail setting, anything less than instant settlement creates friction for both the business and the consumer.** Bitcoin is built for security and incorruptibility on layer one. It is not meant for speed and transaction throughput.
+1. **Fooie vir aan die ketting was te duur om daaglikse besteding te vergemaklik.** Inwoners van El Zonte moet klein dollarbedrae kan spandeer, soos 50 sent vir pupusas.
+2. **Die gebruik van aan die ketting bitcoin vir kleinhandeltransaksies skep "stof".** Bitcoin Beach het die "[stoftransaksieprobleem](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by- bitcoin-stof)" eerstehands ervaar. Onbestede transaksie-uitsette (UTXO's) teken aan hoe waarde op die tydketting geskuif word. Wanneer die waarde van 'n UTXO minder word as die koste om dit te spandeer, word die bitcoin as onbesteebare "stof" beskou.
+3. **In die kleinhandel-omgewing skep enigiets minder as onmiddellike vereffening wrywing vir beide die besigheid en die verbruiker.** Bitcoin is gebou vir sekuriteit en onkreukbaarheid op laag een. Dit is nie bedoel vir spoed- en transaksiedeurset nie.
 
 ![](./merchant-lightning-payments.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Lightning enables the fast, easy-to-use and inexpensive payments that merchants require in a retail setting. (Source: Galoy)</figcaption>
+  <figcaption>Weerlig (Lightning) maak die vinnige, maklik-om-te-gebruik en goedkoop betalings wat handelaars in 'n kleinhandel-omgewing vereis, moontlik. (Bron: Galoy)</figcaption>
 </figure>
 </center>
 
-The layer two Lightning Network is the technology that could upend the legacy retail system and bring the promise of Bitcoin as money to the world. Our co-founders wrote about this in the 2020 article “[Lightning as a Retail Payment System?](https://galoy.io/lightning-as-a-retail-payment-system/)”
+Die laag twee weerlignetwerk (Lightning Network) is die tegnologie wat die reedsbestaande kleinhandelstelsel kan verbeter en die belofte van Bitcoin as geld na die wêreld kan bring. Ons medestigters het hieroor geskryf in die 2020-artikel "[Lightning as a Retail Payment System?](https://galoy.io/lightning-as-a-retail-payment-system/)"
 
-The Lightning Network served as an accelerant and an enabler of the vision of the Bitcoin Beach project. Without it, using Bitcoin as money in El Salvador would be more difficult and more expensive; it may have even derailed or at least delayed the project.
+Die weerlignetwerk (Lightning Network) het gedien as 'n versneller en 'n instaatsteller van die visie van die Bitcoin Beach-projek. Daarsonder sou die gebruik van Bitcoin as geld in El Salvador moeiliker en duurder wees; dit het dalk selfs die projek ontspoor of ten minste vertraag.
 
-Lightning Network integration has become table stakes for any wallet or financial services being built on Bitcoin. It unlocks vast potential for close-to-free, global, real-time, permissionless transactions.
+Weerlignetwerk-integrasie (Lightning Network integration) het tafelspele geword vir enige beursie of finansiële dienste wat op Bitcoin gebou word. Dit ontsluit groot potensiaal vir byna gratis, globale, intydse, toestemminglose transaksies.
 
-## Lesson 3: Merchant Onboarding is Necessary to Foster a Local Circular Economy
+## Les 3: Byvoeging van handelaars is nodig om 'n plaaslike sirkulêre ekonomie te bevorder
+Om 'n sirkulêre Bitcoin-ekonomie op te stel, bied 'n "hoender en eier"-probleem. Inwoners het plekke nodig om dit te gebruik, en handelaars het kliënte nodig wat dit sal spandeer. Om dit maklik en wenslik te maak om Bitcoin te aanvaar, is 'n belangrike stap in die stimulering van plaaslike gemeenskapsingebruikneming.
 
-Standing up a circular Bitcoin economy presents a “chicken and egg” problem. Residents need places to use it, and merchants need customers who will spend it. Making it easy and desirable to accept Bitcoin is an important step in stimulating local community adoption.
-
-The ultimate goal is to make receiving bitcoin faster, easier, and cheaper than any other currency or means of payment.
+Die uiteindelike doel is om die ontvangs van bitcoin vinniger, makliker en goedkoper te maak as enige ander geldeenheid of betaalmiddel.
 
 ![](./first-merchant.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Mama Rosa (pictured with her son Jorge) was the first merchant in El Zonte to accept Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
+  <figcaption>Mama Rosa (op die foto saam met haar seun Jorge) was die eerste handelaar in El Zonte wat Bitcoin aanvaar het. (Bron: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are some experiences that shaped how we design for merchants:
+Hier is 'n paar ervarings wat gevorm het hoe ons vir handelaars ontwerp:
 
-1. **Don’t make merchants think about currency conversion.** Reduce the mental load required to calculate prices by showing both dollar (or local currency) amounts and bitcoin amounts across balances, invoices and transaction history screens.
-2. **Enable multiple ways for merchants to get paid.** Merchants should not have to create invoices for each transaction. Using the Bitcoin Beach Wallet, customers can pay via username, printed QR code, selecting the merchant on a map, or using the invoice pages that each user can share at ln.bitcoinbeach.com/[username].
-3. **Make the process require less time, attention and clicks.** The turning point for El Zonte merchants came when Galoy enabled customers to set the invoice amount. Merchants no longer have to stop what they are doing to create an invoice. They can simply look at the alert on their phone to verify a payment came in. Bitcoin is now easier to accept than cash or credit.
-4. **Create merchant incentives to help encourage adoption early on.** In El Zonte, there was a “cash back” program for a few weeks, where merchants earned 20% back on their bitcoin. This type of promotion helps drive trials and stimulate early growth of the circular economy.
+1. **Moenie handelaars aan valutaverhandeling laat dink nie.** Verminder die geestelike las wat nodig is om pryse te bereken deur beide dollar- (of plaaslike geldeenheid)-bedrae en bitcoin-bedrae oor saldo's, fakture en transaksiegeskiedenisskerms te wys.
+2. **Laat verskeie maniere toe waarmee handelaars betaal kan word.** Handelaars hoef nie fakture vir elke transaksie te skep nie. Deur die Bitcoin Beach-beursie te gebruik, kan klante betaal via gebruikersnaam, gedrukte QR-kode, die handelaar op 'n kaart kies, of die faktuurbladsye gebruik wat elke gebruiker kan deel by ln.bitcoinbeach.com/[gebruikersnaam].
+3. **Maak die proses minder tyd, aandag en klikke verg.** Die keerpunt vir El Zonte-handelaars het gekom toe Galoy kliënte in staat gestel het om die faktuurbedrag te stel. Handelaars hoef nie meer op te hou wat hulle doen om 'n faktuur te skep nie. Hulle kan eenvoudig na die opletnota op hul foon kyk om te verifieer dat 'n betaling ingekom het. Bitcoin is nou makliker om te aanvaar as kontant of krediet.
+4. **Skep handelaar-aansporings om van vroeg af ingebruikneming aan te moedig.** In El Zonte was daar 'n "kontantterug"-program vir 'n paar weke, waar handelaars 20% terug verdien het op hul bitcoin. Hierdie tipe bevordering help om beproewinge te dryf en vroeë groei van die sirkulêre ekonomie te stimuleer.
 
-Don’t lose focus on the important role that merchants play in supporting a Bitcoin economy. The needs of merchants across each community will be different, so be sure to spend time understanding and designing for them early on.
+Moenie fokus verloor op die belangrike rol wat handelaars speel om 'n Bitcoin-ekonomie te ondersteun nie. Die behoeftes van handelaars regoor elke gemeenskap sal anders wees, so maak seker dat jy van vroeg af tyd spandeer om vir hulle te verstaan en te ontwerp.
 
-## Lesson 4: User Experience Must be Developed Within the Context of the Community
+## Les 4: Gebruikerservaring moet binne die konteks van die gemeenskap ontwikkel word
+Bitcoin Beach bestaan op die grens van weerlignetwerkingebruikneming (Lightning Network adoption). Soos Mike dikwels sê: "Daar is klein kinders in El Zonte wat meer weerligtransaksies (Lightning transactions) doen as die meeste oorspronklike Bitcoiners."
 
-Bitcoin Beach exists at the frontier of Lightning Network adoption. As Mike often says “There are little kids in El Zonte who make more Lightning transactions than most OG Bitcoiners.”
-
-As the Bitcoin economy grew, the team took note of unmet needs and desired functionality that would help make life easier for the residents and merchants. Being on the ground in El Zonte provided invaluable insight to Nicolas as he was building the Bitcoin Beach Wallet.
+Soos die Bitcoin-ekonomie gegroei het, het die span kennis geneem van onvervulde behoeftes en gewenste funksionaliteit wat sou help om die lewe vir die inwoners en handelaars makliker te maak. Om op die grond in El Zonte te wees, het onskatbare insig aan Nicolas verskaf terwyl hy besig was om die Bitcoin Beach-beursie te bou.
 
 ![](./bitcoin-insights.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Watching people use Bitcoin at merchants across El Zonte surfaced helpful insights for product and service design. (Source: Galoy)</figcaption>
+  <figcaption>Om te kyk hoe mense Bitcoin by handelaars regoor El Zonte gebruik, het nuttige insigte vir produk- en diensontwerp opgeduik. (Bron: Galoy)</figcaption>
 </figure>
 </center>
 
-Note: Remember that it’s important to test your apps and services within the community for whom they’re intended. Do your own research.
+Let wel: Onthou dat dit belangrik is om jou programme en dienste te toets binne die gemeenskap vir wie dit bedoel is. Doen jou eie navorsing.
 
-Six user experience learnings from testing the Bitcoin Beach Wallet in the wild:
+Ses gebruikerservaringleerstellings deur die toets van die Bitcoin-beursie in die samelewing:
 
-1. **Don’t take a strong internet connection for granted.** Developing for areas with spotty connectivity may require optimization and fault tolerance at the network level that would typically not be needed in the United States.
-2. **App onboarding presents a perfect window for education.** The Bitcoin Beach Wallet has a built-in quiz that walks users through a brief introduction to Bitcoin. Each question rewards the user with sats to get them off zero from the very start.
-3. **“Sats is the standard,” but USD is still the unit of account.** People think in their local currency, not sats, when onboarding to Bitcoin. The transition to thinking in sats is gradual, the local currency should be the unit of account when bringing a new community onto the network.
-4. **Add interactions that connect customers to merchants.** The map tab in the Bitcoin Beach Wallet helps customers find places where they can spend Bitcoin. It also enables quick and easy transactions by allowing the customer to create and pay invoices.
-5. **Payment notes help with record keeping.** Both customers and merchants can benefit from being able to add notes to transactions. Based on community input the feature has evolved from private (at the user level) to shared. Now the sender and receiver can both see the note attached to the transaction.
-6. **Stay on top of how lightning payment formats are evolving.** New payment formats such as Lightning Address, static invoices and BOLT 12 are emerging at a rapid pace. Selecting which formats to adopt will depend on the use case. The Bitcoin Beach Wallet initially launched with a printed QR code that led to an invoice page (such as ln.bitcoinbeach.com/mamarosa). New formats are now being considered in order to reduce friction and improve interoperability.
+1. **Moenie 'n sterk internetverbinding as vanselfsprekend aanvaar nie.** Ontwikkeling vir gebiede met swak konneksie kan optimalisering en foutverdraagsaamheid op netwerkvlak vereis wat gewoonlik nie in die Verenigde State nodig sal wees nie.
+2. **Toepassingbyvoeging bied 'n perfekte venster vir opvoeding.** Die Bitcoin Beach-beursie het 'n ingeboude vasvra wat gebruikers deur 'n kort inleiding tot Bitcoin lei. Elke vraag beloon die gebruiker met sats om hulle van die begin af van nul af te kry.
+3. **“Sats is die standaard,” maar USD is steeds die rekeneenheid.** Mense dink in hul plaaslike geldeenheid, nie sats nie, wanneer hulle na Bitcoin bygevoeg word. Die oorgang na dink in sats is geleidelik, die plaaslike geldeenheid moet die rekeneenheid wees wanneer 'n nuwe gemeenskap op die netwerk gebring word.
+4. *Voeg interaksies by wat kliënte met handelaars verbind.** Die kaartoortjie in die Bitcoin Beach-beursie help kliënte om plekke te vind waar hulle Bitcoin kan spandeer. Dit maak ook vinnige en maklike transaksies moontlik deur die kliënt toe te laat om fakture te skep en te betaal.
+5. **Betalingsnotas help met rekordhouding.** Beide kliënte en handelaars kan baat by die vermoë om notas by transaksies te voeg. Op grond van gemeenskapsinsette het die kenmerk van privaat (op gebruikersvlak) na gedeeld ontwikkel. Nou kan die sender en ontvanger albei die nota sien wat aan die transaksie geheg is.
+6. **Bly op hoogte van hoe weerligsbetalingformate (lightning payment formats) ontwikkel.** Nuwe betaalformate soos weerligadres (Lightning Address), statiese fakture en BOLT 12 kom vinnig na vore. Die keuse van watter formate om te gebruik, sal afhang van die gebruiksgeval. Die Bitcoin Beach-beursie is aanvanklik bekendgestel met 'n gedrukte QR-kode wat gelei het tot 'n faktuurbladsy (soos ln.bitcoinbeach.com/mamarosa). Nuwe formate word nou oorweeg om wrywing te verminder en interoperabiliteit te verbeter.
 
-## Lesson 5: Community Custody is a Bridge to Self-custody
+## Les 5: Gemeenskapsbewaring is 'n brug na selfbewaring
+Selfbewaring is die gewenste eindtoestand vir elke persoon wat rykdom in bitcoin hou. Die nommer een reël van Bitcoin-bewaring is "Nie jou sleutels nie, nie jou munte nie."
 
-Self custody is the desired end state for every person holding wealth in bitcoin. The number one rule of Bitcoin custody is “Not your keys, not your coins.”
+Selfbewaring is nie die enigste manier nie, en ook nie die mees geskikte manier om gemeenskappe van die konsep en praktyk van Bitcoin-gebruik by te voeg nie.
 
-Self custody is not the only way, nor the most appropriate way to onboard communities to the concept and practice of using Bitcoin.
+>“Jy moet baba treetjies gee. As jy al hierdie hindernisse aan die begin sit, sal mense nooit die ekosisteem betree nie.” – Mike Peterson oor [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
+>### Die spektrum van Bitcoin-bewaring
+Bitcoin bewaringsmodelle sit langs 'n spektrum nie anders as die gerief-/privaatheidspektrum nie. Aan die een kant het jy eenvoudige UX, maklike toegang tot fondse en integrasie oor die fiat-bankekosisteem. Aan die ander kant het jy met die hand gestempelde metaal, geskeurde saadfrases en multihandtekening bewaringsmodelle wat veelvuldige stappe of veelvuldige mense vereis om fondse te skuif.
 
-> “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.” – Mike Peterson on [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
+Verskillende gebruiksgevalle het verskillende risikoscenario's wat afwegings aanvaarbaar maak. Byvoorbeeld, die berging van rykdom in 'n bankrekening word oor die algemeen as veiliger beskou as om dit as kontant in 'n beursie rond te dra, maar om klein hoeveelhede kontant vir daaglikse aankope rond te dra, bied gerief.
 
-### The spectrum of Bitcoin custody
-
-Bitcoin custody models sit along a spectrum not unlike the convenience/privacy spectrum. On one side, you have simple UX, easy access to funds and integration across the fiat banking ecosystem. On the other, you have hand-stamped metal, sharded seed phrases and multi-signature custody models that require multiple steps or multiple people to move funds.
-
-Different use cases have different risk scenarios that make trade-offs acceptable. For example, storing wealth in a bank account is generally considered safer than carrying it around as cash in a wallet, but carrying around small amounts of cash for daily purchases provides convenience.
 
 ![](./bitcoin-custody-self-shared-community-1024x384.png)
 
 <center v-pre>
 <figure>
-  <figcaption>The Bitcoin Beach Wallet provides a shared custody option where funds can be stored within a community.</figcaption>
+  <figcaption>Die Bitcoin Beach-beursie bied 'n gedeeltelike bewaringsopsie waar fondse binne 'n gemeenskap gestoor kan word.</figcaption>
 </figure>
 </center>
 
-Every model has value, so long as 1) it is used for a fitting purpose and 2) it guides people further to the right as they accumulate more of their wealth in bitcoin.
+Elke model het waarde, solank 1) dit vir 'n gepaste doel gebruik word en 2) dit mense verder na regs lei terwyl hulle meer van hul rykdom in bitcoin opgaar.
 
-### Community custody: harkening back to the days of union banks
 
-The custody model that we landed on for Bitcoin Beach is what Galoy refers to as “community custody.” It is a multi signature solution where the keys for the funds in cold storage are held by established members of the local community. This model reduces reliance on centralized companies outside of the community while also reducing friction of onboarding members to the network.
+### Gemeenskapsbewaring: terug na die dae van vakbondbanke
 
-### A note on community banking
+Die bewaringsmodel waarop ons beland het vir Bitcoin Beach, is waarna Galoy verwys as "gemeenskapsbewaring." Dit is 'n multihandtekeningoplossing waar die sleutels vir die fondse in koelberging gehou word deur gevestigde lede van die plaaslike gemeenskap. Hierdie model verminder die afhanklikheid van gesentraliseerde maatskappye buite die gemeenskap, terwyl dit ook die wrywing van lede wat by die netwerk bygevoeg word verminder.
 
-Community banks have existed around the world for hundreds of years. Their core purpose is to support the socio-economic needs of a group of people with a shared interest. Often the shared interest is centered around a geographic location. Funds held by community banks are sourced from and loaned to people within the community in a more relationship-driven manner than the typical universal bank.
 
-Community banks are especially important to communities like El Zonte because they enable decisions to be made locally with the best interests of community members in mind. The Galoy [open source Bitcoin banking solution](https://galoy.io/products/) is built to enable any community or institution around the world to self organize in this manner.
+### n Nota oor gemeenskapsbankdienste
 
-For more insight into the intersection between Bitcoin and community banking, see the Fulgur Ventures article “[The role of Bitcoin for community banking.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
+Gemeenskapsbanke bestaan al honderde jare regoor die wêreld. Hul kerndoel is om die sosio-ekonomiese behoeftes van 'n groep mense met 'n gedeelde belangstelling te ondersteun. Dikwels is die gedeelde belangstelling gesentreer rondom 'n geografiese ligging. Fondse wat deur gemeenskapsbanke gehou word, word verkry van en geleen aan mense binne die gemeenskap op 'n meer verhoudingsgedrewe wyse as die tipiese universele bank.
 
-### Bitcoin Beach Wallet as a community Bitcoin bank
+Gemeenskapsbanke is veral belangrik vir gemeenskappe soos El Zonte omdat hulle dit moontlik maak om besluite plaaslik te neem met die beste belange van gemeenskapslede in gedagte. Die Galoy [oopbron Bitcoin-bankoplossing](https://galoy.io/products/) is gebou om enige gemeenskap of instelling regoor die wêreld in staat te stel om self op hierdie manier te organiseer.
 
-Bitcoin Beach Wallet funds are managed by members within the community, providing a frictionless and cost-effective means of payment designed to support the local economy.
+Vir meer insig oor die interseksie tussen Bitcoin en gemeenskapsbankdienste, sien die Fulgur Ventures-artikel “[The role of Bitcoin for community banking.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
 
-Here’s why community custody works for Bitcoin Beach:
+### Bitcoin Beach-beursie as 'n gemeenskaplike Bitcoin-bank
+Bitcoin Beach-beursie se fondse word deur lede binne die gemeenskap bestuur, wat 'n wrywinglose en koste-effektiewe betaalmiddel bied wat ontwerp is om die plaaslike ekonomie te ondersteun.
 
-1. **Removing friction is the most important step to creating the network effects required for circularity in the economy.** Humans are naturally resistant to change and quick to reject new ideas or revert to old habits. As Mike Peterson said in his June 2020 interview with Marty Bent: “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.”
-2. **It can be hard to securely and reliably store seed phrases in remote and emerging communities.** For people that live in houses with dirt floors and tin roofs, there are not secure places to store written seed phrases. Using seed phrases also presents issues for people who can’t read or write, which is not uncommon in many parts of the world.
-3. **People who use Bitcoin become more comfortable with it over time.** Residents of El Zonte are now sending bitcoin over the Lightning Network on a daily basis. Some have begun stacking sats and have accumulated more wealth than they ever would have with US Dollars. This is an inspiring trend that Bitcoin Beach is supporting through education and training about self-custody. UX improvements will also continue to make self-custody more accessible to more users around the world.
+Hier is hoekom gemeenskapsbewaring vir Bitcoin Beach werk:
 
-Open source community custody solutions have emerged as a valuable model for onboarding communities to Bitcoin. We believe they will play a significant role in bringing Bitcoin to the first billion users.
+1. **Die verwydering van wrywing is die belangrikste stap om die netwerk-effekte te skep wat nodig is vir sirkulariteit in die ekonomie.** Mense het natuurlik weerstand teen verandering en is vinnig om nuwe idees te verwerp of na ou gewoontes terug te keer. Soos Mike Peterson in sy Junie 2020-onderhoud met Marty Bent gesê het: “Jy moet baba treetjies neem. As jy al hierdie hindernisse aan die begin sit, sal mense nooit die ekosisteem betree nie.”
+2. **Dit kan moeilik wees om saadfrases veilig en betroubaar in afgeleë en opkomende gemeenskappe te stoor.** Vir mense wat in huise met grondvloere en blikdakke woon, is daar nie veilige plekke om geskrewe saadfrases te stoor nie. Die gebruik van saadfrases bied ook probleme vir mense wat nie kan lees of skryf nie, wat nie ongewoon is in baie dele van die wêreld nie.
+3. **Mense wat Bitcoin gebruik, raak mettertyd gemakliker daarmee.** Inwoners van El Zonte stuur nou daagliks bitcoin oor die weerlignetwerk (Lightning Network). Sommige het begin om satse te stapel en het meer rykdom opgehoop as wat hulle ooit met Amerikaanse dollars sou hê. Dit is 'n inspirerende neiging wat Bitcoin Beach ondersteun deur opvoeding en opleiding oor selfbewaring. UX-verbeterings sal ook voortgaan om selfbewaring meer toeganklik te maak vir meer gebruikers regoor die wêreld.
 
-## Lesson 6: Start Small and Build Momentum Before Expanding
+Oopbron-gemeenskapsbewaringsoplossings het na vore gekom as 'n waardevolle model om gemeenskappe by Bitcoin by te voeg. Ons glo dat hulle 'n belangrike rol sal speel om Bitcoin na die eerste miljard gebruikers te bring.
 
-It is exciting to see the groundswell of communities around the world working to connect their towns and cities to the Bitcoin network. [Bitcoin Lake](https://twitter.com/LakeBitcoin) in Guatemala and [Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) are two early examples. Some Bitcoiners have started calling Tonga “Bitcoin Island” after hearing [Lord Fusitu’a’s](https://twitter.com/LordFusitua) four-part plan to bring Bitcoin to his country.
+## Les 6: Begin klein en bou momentum voordat jy uitbrei
+Dit is opwindend om te sien hoe gemeenskappe regoor die wêreld werk om hul dorpe en stede met die Bitcoin-netwerk te verbind. [Bitcoin Lake](https://twitter.com/LakeBitcoin) in Guatemala en [Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) is twee vroeë voorbeelde. Sommige Bitcoiners het Tonga "Bitcoin-eiland begin noem nadat hulle gehoor het van [Lord Fusitu'a se](https://twitter.com/LordFusitua) vierdelige plan om Bitcoin na sy land te bring.
 
 ![](./education-roman-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>One-on-one education is an ongoing part of the process of onboarding a community. (Source: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
+  <figcaption>Een-tot-een opvoeding is 'n deurlopende deel van die proses om 'n gemeenskap by te voeg. (Bron: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-To those just starting out we’d offer two main thoughts on scaling from an idea to an economy:
+Vir diegene wat net begin het, wil ons twee hoofgedagtes gee oor die skalering van 'n idee na 'n ekonomie:
 
-1. **Starting with a defined community helps to build a strong foundation.** Bitcoin Beach benefited from serving a population of 3,000 that was geographically separated from other villages. This narrow focus allowed us to capture and adapt to learnings in real time that prepared us for the exponential growth that followed.
-2. **Growth happens “gradually, then suddenly.”** When bringing a community onto Bitcoin, expect to spend as much effort and time onboarding the first 50 people than the next thousand. Because Bitcoin is a network, general rules of network effects will apply. Luckily, Bitcoin developers, educators and companies around the world are making tools to help any community get started.
+1. **Om met 'n gedefinieerde gemeenskap te begin, help om 'n sterk grondslag te bou.** Bitcoin Beach het baat gevind by die diens aan 'n bevolking van 3 000 wat geografies geskei was van ander dorpe. Hierdie noue fokus het ons in staat gestel om intydse leerstellings vas te lê en aan te pas wat ons voorberei het vir die eksponensiële groei wat gevolg het.
+2. **Groei gebeur "geleidelik, dan skielik."** Wanneer jy 'n gemeenskap na Bitcoin bring, verwag om soveel moeite en tyd aan die byvoeging van die eerste 50 mense te spandeer as die volgende duisend. Omdat Bitcoin 'n netwerk is, sal algemene reëls van netwerkeffekte geld. Gelukkig maak Bitcoin-ontwikkelaars, opvoeders en maatskappye regoor die wêreld gereedskap om enige gemeenskap te help om aan die gang te kom.
 
-Many people first heard about Bitcoin Beach in 2021, but the project has been years in the making. The Bitcoin Beach team who have dedicated thousands of hours teaching the basics, answering questions and troubleshooting issues are the linchpin of this entire project. Without them, Bitcoin Beach would not be the success story you read about today.
+Baie mense het die eerste keer van Bitcoin Beach gehoor in 2021, maar die projek is jare aan die gang. Die Bitcoin Beach-span wat duisende ure toegewy het om die basiese beginsels te leer, vrae te beantwoord en probleme op te los, is die spilpunt van hierdie hele projek. Sonder hulle sou Bitcoin Beach nie die suksesverhaal wees waaroor jy vandag lees nie.
 
-### Considerations for Starting a Bitcoin Bank
-
-Build a strong foundation with the right team, technology and training.
+### Oorwegings vir die begin van 'n Bitcoin Bank
+Bou 'n sterk fondasie met die regte span, tegnologie en opleiding.
 
 ![](./team-meeting-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>“We are a big family with a big dream.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
+  <figcaption>“Ons is 'n groot familie met 'n groot droom.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
 </figure>
 </center>
 
+1. **Stel jou span saam.** Identifiseer mense wat die gees, gretigheid en passie het om jou gemeenskap te lei deur die stelselverandering wat Bitcoin verteenwoordig. Daar is twee primêre hoeke om van die begin af te oorweeg:
+- **Gemeenskapsbetrokkenheid:** Om te verstaan hoe hierdie vlak van gemeenskapsorganisering lyk, volg en leer eenvoudig by [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), en [Mike] (https://twitter.com/Bitcoinbeach).
+- **Tegnologie:** Daar is baie faktore om in ag te neem wanneer jy die tegnologie-oplossings kies waarop jy jou Bitcoin-bank moet bou. Om toegang te hê tot iemand wat jou kan lei deur besluite rondom die spektrum van Bitcoin-bewaring, weerlignodus (Lightning node) en likiditeitsbestuur, warm en koue beursiegebruik en ander faktore sal jou help om 'n sterk grondslag vir groei neer te lê.
 
-1. **Assemble your team.** Identify people who have the spirit, grit and passion to lead your community through the system change that Bitcoin represents. There are two primary angles to consider from the start:
-    - **Community engagement:** To understand what this level of community organizing looks like, simply follow and learn from [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), and [Mike](https://twitter.com/Bitcoinbeach).
-    - **Technology:** There are many factors to consider when choosing the technology solutions on which to build your Bitcoin Bank. Having access to somebody who can guide you through decisions around the spectrum of Bitcoin custody, Lightning node and liquidity management, hot and cold wallet usage and other factors will help you lay a strong foundation for growth.
-2. **Find a source of funding.** Securing access to funding is an important step for onboarding a new community to Bitcoin, especially in poorer countries where residents do not have savings or disposable income. Having funds available to pay for materials and services will help to stand up operations, and distributing sats within the community at the outset will be required to stimulate circularity in the economy.
-3. **Find a technological solution.** The tools for providing financial services on top of Bitcoin are still emerging. Galoy [open source Bitcoin banking infrastructure](https://galoy.io/products/) is one solution that aims to make it easy for communities and institutions to offer financial services on Bitcoin and Lightning.
-4. **Define your custody model and plan for a multi-signature (multisig) setup.** Custody is a foundational topic that deserves attention to detail and understanding of your audience. For communities of experienced Bitcoiners, enabling self-custody is a must. When you’re onboarding an unbanked population, you may decide that a community custody model like the one designed for Bitcoin Beach is the appropriate starting point. Either way, be sure to plan to hold reserve funds within a multisig setup.
-5. **Develop a plan for community training and support.** The Bitcoin community is incredibly generous with educational materials and other resources, so look and ask around first. There may be no place better than “Bitcoin Twitter” to be connected with the videos, articles and assets you need to begin onboarding your community. Keep in mind that the usage of Twitter may be very low in the communities for which you are building.
-6. **Hit the streets!** Onboarding happens one person at a time, by getting out into the community and giving people the opportunity to receive and send their first sats.
+2. **Kry 'n bron van befondsing.** Om toegang tot befondsing te verseker is 'n belangrike stap om 'n nuwe gemeenskap by Bitcoin by te voeg, veral in armer lande waar inwoners nie spaargeld of besteebare inkomste het nie. Om fondse beskikbaar te hê om vir benodighede en dienste te betaal, sal help om bedrywighede op stand te bring, en die verspreiding van fondse binne die gemeenskap sal aan die begin nodig wees om sirkulariteit in die ekonomie aan te wakker.
+3. **Kry 'n tegnologiese oplossing.** Die gereedskap vir die verskaffing van finansiële dienste bo en behalwe Bitcoin is steeds besig om te ontstaan. Galoy [oopbron Bitcoin-bankinfrastruktuur](https://galoy.io/products/) is een oplossing wat daarop gemik is om dit vir gemeenskappe en instellings maklik te maak om finansiële dienste op Bitcoin en weerlig (Lightning) aan te bied.
+4. **Definieer jou bewaringsmodel en beplan vir 'n multihandtekeningopstelling (multisig).** Bewaring is 'n grondliggende onderwerp wat aandag aan detail en begrip van jou gehoor verdien. Vir gemeenskappe van ervare Bitcoiners is dit 'n moet om selfbewaring moontlik te maak. Wanneer jy 'n ongebankde bevolking byvoeg, kan jy besluit dat 'n gemeenskapsbewaringsmodel soos die een wat vir Bitcoin Beach ontwerp is, die gepaste beginpunt is. Hoe dit ook al sy, maak seker dat jy beplan om reserwefondse binne 'n multisig-opstelling te hou.
+5. **Ontwikkel 'n plan vir gemeenskapsopleiding en -ondersteuning.** Die Bitcoin-gemeenskap is ongelooflik vrygewig met opvoedkundige materiaal en ander hulpbronne, so kyk en vra eers rond. Daar is dalk geen beter plek as "Bitcoin Twitter" om gekoppel te wees aan die video's, artikels en bates wat jy nodig het om te begin om jou gemeenskap by te voeg. Hou in gedagte dat die gebruik van Twitter baie laag kan wees in die gemeenskappe waarvoor jy bou.
+6. **Vaar die strate in!** Byvoeging gebeur een persoon op 'n slag, deur uit te kom in die gemeenskap en mense die geleentheid te gee om hul eerste sats te ontvang en te stuur.
 
 ![](./jorge-bitcoin-beach-el-zonte-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Follow <a href="https://twitter.com/jorgebitcoinES">Jorge</a> (pictured), <a href="https://mobile.twitter.com/romanmartinezc">Chimbera</a> and Mike Peterson (<a href="https://twitter.com/Bitcoinbeach">@bitcoinbeach</a>) to stay connected to El Zonte’s journey.</figcaption>
+  <figcaption>Volg <a href="https://twitter.com/jorgebitcoinES">Jorge</a> (op die foto), <a href="https://mobile.twitter.com/romanmartinezc">Chimbera</a> en Mike Peterson (<a href="https://twitter.com/Bitcoinbeach">@bitcoinbeach</a>) om gekoppel te bly aan El Zonte se reis.</figcaption>
 </figure>
 </center>
 
-## Conclusion
+## Gevolgtrekking
+Dit is inspirerend om te sien hoe gemeenskappe en instellings regoor die wêreld saam met mekaar werk om Bitcoin na die eerste miljard mense te bring. Ons hoop dat hierdie gids help om leer te versnel en goeie bespreking aan te moedig.
 
-It is inspiring to see communities and institutions around the world working alongside each other to bring Bitcoin to the first Billion people. We hope that this guide helps accelerate learning and encourage good discussion.
+Galoy organiseer ook [Adopting Bitcoin: A Lightning Summit in El Salvador](https://adoptingbitcoin.org/) op 16-18 November as 'n bykomende manier om Bitcoin-ingebruikneming te ondersteun en die sukses van die Bitcoin Beach-span te vier. Ons is verootmoedig om in die geselskap van mense soos Jorge, Chimbera, Mike en talle ander te wees wat die visie van 'n sirkulêre Bitcoin-ekonomie tot lewe gebring het.
 
-Galoy is also organizing [Adopting Bitcoin: A Lightning Summit in El Salvador](https://adoptingbitcoin.org/) on November 16-18 as an additional way to support Bitcoin adoption and celebrate the success of the Bitcoin Beach team. We are humbled to be in the company of people like Jorge, Chimbera, Mike and countless others who brought the vision of a circular Bitcoin economy to life.
+As jy ons kode wil sien en wil gebruik, is dit gratis en oopbron op [GitHub](https://github.com/GaloyMoney/).
 
-If you’d like to see and use our code, it’s free and open source on [GitHub](https://github.com/GaloyMoney/).
+Jy kan ook uitreik op twitter [@galoymoney](https://twitter.com/GaloyMoney) en ons [openbare Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5
 
-You can also reach out on twitter [@galoymoney](https://twitter.com/GaloyMoney) and our [public Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).

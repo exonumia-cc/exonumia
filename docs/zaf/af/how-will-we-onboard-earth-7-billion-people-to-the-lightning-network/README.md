@@ -1,25 +1,25 @@
-# How Will We Onboard Earth’s 7.753 Billion People To The Lightning Network?
-
-by John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
+# Hoe sal ons aarde se 7,753 miljard mense na die weerlignetwerk (Lightning Network) byvoeg?
+deur John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
 
 <LanguageDropdown/>
 
-I ran the numbers, let’s see how we can onboard the entire population of Earth onto the Lightning Network, how long it might take, and what we can do to speed the process up.
+Ek het die syfers getoets, kom ons kyk hoe ons die hele bevolking van aarde na die weerlignetwerk (Lightning Network) kan byvoeg hoe lank dit kan neem en wat ons kan doen om die proses te bespoedig.
 
-To onboard onto the lightning network it requires sending btc into a 2-of-2 multisig funding transaction with your channel partner.  To optimize space in this transaction we want 1 native segwit input and a single channel funding output.  This produces a tx of roughly 121vbytes.
+Om by die weerlignetwerk (Lightning Network) by gevoeg te word, moet jy btc in 'n 2-van-2 multisig-befondsingstransaksie met jou kanaalvennoot stuur. Om spasie in hierdie transaksie te optimaliseer, wil ons 1 inheemse segwit-inset en 'n enkelkanaalbefondsingsuitset hê. Dit produseer 'n transaksie van ongeveer 121vgrepe.
 
-If 100% of the transactions in a block were these channel opening txs we could onboard about 8,264 people to lightning per block.  With a global population of 7.753 billion people it would take roughly 938,166 blocks or 17.8 YEARS for everyone on Earth to have a channel.
+As 100% van die transaksies in 'n blok hierdie kanaalopeningtransaksies was, kon ons ongeveer 8 264 mense per blok by die weerlignetwerk bygevoeg het. Met 'n wêreldbevolking van 7,753 miljard mense sal dit ongeveer 938,166 blokke of 17,8 JAAR neem vir almal op aarde om 'n kanaal te hê.
 
-Can we do any better? Thankfully, we have a couple options. One option that is possible today is to use batching! Batching means we can open more than one channel in a single transaction.  This means each additional channel can be represented by another output in the funding tx.
+Kan ons beter doen? Gelukkig het ons 'n paar opsies. Een opsie wat vandag moontlik is, is om groepering te gebruik! Saambondeling beteken dat ons meer as een kanaal in 'n enkele transaksie kan oopmaak. Dit beteken elke bykomende kanaal kan verteenwoordig word deur 'n ander uitset in die befondsingstransaksie.
 
-Each additional output we add consumes roughly 32vbytes.  With batching the best-case scenario is to fill the block with 1 transaction with 1 input and as many outputs as we can fit.  At 32vbytes per output this means we could open 31,247 channels per block!
+Elke bykomende uitset wat ons byvoeg, verbruik ongeveer 32vgrepe. Met saambondeling is die beste scenario om die blok te vul met 1 transaksie met 1 inset en soveel uitsette as wat ons kan inpas. Teen 32vgrepe per uitset beteken dit dat ons 31 247 kanale per blok kan oopmaak!
 
-Batching gets us a 3.78x improvement and drops the time to onboard the entire Earth to just 4.7 years. This isn’t terrible but it assumes we can use 100% of the block space for almost 5 years.  In reality it will happen slower over a longer time period.  Can we do even better?
+Saambondeling gee ons 'n verbetering van 3,78x en verminder die tyd om die hele aarde by te voeg tot net 4,7 jaar. Dit is nie vreeslik nie, maar dit neem aan dat ons 100% van die blokspasie vir byna 5 jaar kan gebruik. In werklikheid sal dit oor 'n langer tydperk stadiger gebeur. Kan ons nog beter doen?
 
-It turns out we can, just not (easily) today.  The next optimization would be to support more than two people per channel and use signature aggregation to keep the output size small.  A Multiparty Channel extends the 2-of-2 multisig to a larger N-of-N multisig.
+Dit blyk ons kan, net nie (maklik) vandag nie. Die volgende optimalisering sou wees om meer as twee mense per kanaal te ondersteun en handtekeningsamevoeging te gebruik om die uitsetgrootte klein te hou. 'n Veelvuldigepartykanaal brei die 2-van-2 multisig uit na 'n groter N-van-N multisig
 
-In theory this N could be 10, 100, maybe even 1000. At 10 people per channel we could onboard 312,470 people per block and the entire earth in just 172 days.  While batching gave us a modest improvement in efficiency, multiparty channels allow us to scale in orders of magnitude.
+In teorie kan hierdie N 10, 100, miskien selfs 1000 wees. Teen 10 mense per kanaal kon ons 312 470 mense per blok en die hele aarde in net 172 dae byvoeg. Terwyl groepering ons 'n beskeie verbetering in doeltreffendheid gegee het, stel veelvuldigepartykanale ons in staat om in grootteorde te skaleer.
 
-Theoretically they could be built today without any changes to Bitcoin but would require a massive engineering effort because of the complexities of lightning’s penalty mechanism.  Eltoo’s symmetric settlement txs greatly simplify the implementation of multiparty channels.
+Teoreties kan hulle vandag gebou word sonder enige veranderinge aan Bitcoin, maar sal 'n massiewe ingenieurspoging vereis as gevolg van die kompleksiteit van die weerlignetwerk se strafmeganisme. Eltoo se simmetriese vereffeningstransaksies vereenvoudig die implementering van veelvuldigepartykanale aansienlik.
 
-So can we onboard the entire population to lightning in a reasonable amount of time? It seems like the answer is yes, eventually we will get there. Will everyone on Earth want to be on lightning and need their own channel(s)? That’s not certain but I sure hope so!
+Kan ons dus die hele bevolking binne 'n redelike tyd na die weerlignetwerk byvoeg? Dit lyk of die antwoord ja is, uiteindelik sal ons daar kom. Sal almal op aarde op die weerlignetwerk (Lightning Network) wil wees en hul eie kanaal(e) nodig hê? Dit is nie duidelik nie, maar ek hoop so!
+

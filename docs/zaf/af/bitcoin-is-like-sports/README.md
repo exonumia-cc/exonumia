@@ -1,30 +1,30 @@
-# Bitcoin Is Like Sports
-
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+# Bitcoin is soos sport
+deur @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Ek het meer gereeld verduidelik hoe #bitcoin werk en gedesentraliseer is in konteks van 'n sportwedstryd. Ek het agtergekom dat dit help om baie van die algemene vrae te beantwoord:
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+V: Wie het bofbal uitgevind?
+A: Dit maak regtig nie saak nie. Enigiemand in die wêreld kan dit speel. Dit maak nie saak of die oorspronklike uitvinder die reëls wil verander of homself punte of enigiets anders wil beloon nie. Ons gee nie om wat hy van ons spel dink nie.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+V: Wie is in beheer van die spel?
+A: Niemand is in beheer nie, ons almal het net besluit om te speel. Ons almal ken en dwing die reëls af, en as iemand kul, word hulle uit die spel geskop. As iemand hulself onverdiende punte beloon, ignoreer ons dit net.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+V: Hoe weet ons dat die reëls nie sal verander nie?
+A: Ons het almal met die reëls ingestem toe ons begin speel het, en wie ook al met hierdie reëls wil aanhou speel, sal voortgaan, en as iemand dit wil verander, sal hulle iewers anders moet speel.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+V: Kan dit nie gekuberkraak word nie?
+A: Alles is in die openbaar sigbaar. Ons kan almal die hele veld en al die tellings sien. As iemand gekul het, sou ons almal weet en vir hulle gesê het om te verdwyn.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+V: Hoekom is dit enigiets werd?
+A: Ons het almal besluit om te speel, so dit is vir ons iets werd. As iemand wil aansluit, sal hulle moet instem om ons punte en waarde te erken.
 
-I value it, so it has value. Value is subjective.
+Ek waardeer dit, so dit het waarde. Waarde is subjektief.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
+V: Sal dit nie verban word nie?
+A: Miskien, maar dit is net sommige mense wat met 'n stok en 'n bal speel en niemand anders seermaak nie, so die regering kan jou dalk keer om dit te speel, maar hulle kan nie die konsep verban om 'n stok met 'n bal te slaan nie, die spel sal iewers voortgaan.
 
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+V: Moet ek aansluit?
+A: Doen wat jy wil. Ek geniet dit om bofbal te speel, jy kan aansluit of jy kan HFSP.
+
