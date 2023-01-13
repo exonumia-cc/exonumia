@@ -89,13 +89,13 @@ Bitikhoyini I n'wana wa tidyondzo to tala. Kufana na bonko ya bofu loko yi kambe
 
 Tidyondzo leti landzelaka ti mayelana na mikumbeteko yin'wana ya mina leswi Bitikhoyini yi nga yi susa, na Mahetelelo lawa ndzi nga fika eka wona. Swivutiso swa filosofi ya ku tsandzeka ku cica, ku kayivela, ndhawu, na ku tiva swa vangariwa eka tindyondzo ta mune to sungula.
 
-- [Dyondzo ya n'we: ku tsandzeka ku cica na ku cica](#dyondzo-ya-n'we-ku-tsandzeka-ku-cica-na-ku-cica)
-- [Dyondzo ya vumbirhi: Ku kayivela ka ku kayivela](#dyondzo-ya-vumbirhi-ku kayivela ka ku kayivela)
-- [Dyondzo ya Nharhu: Andziso na Ndhawu] (#dyondzo-ya-vunharhu-Andziso-na-ndhawu)
-- [Dyondzo ya vumune: Xiphiqo xa vun'winyi] (#dyondzo-ya-vumune-xiphiqo-xa-vun'winyi)
-- [Dyondzo ya Vutlhanu: Ku basa ka Nyimbo] (#dyondzo-ya-vumune-ku basa-ka-nyimbo)
-- [Dyondzo ya Ntsevu: Matimba ya Ntshuxeko wa Mbulavulo] (#dyondzo-ya-ntsevu-matimba-ya-ntshuxeko-wa-mbulavulo)
-- [Dyondzo ya Kombo: swipimelo ya vutivi] (#dyondzo-ya-kombo-swipimelo-swa-vutivi)
+- [Dyondzo ya n'we: ku tsandzeka ku cica na ku cica](#dyondzo-ya-n-we-ku-tsandzeka-ku-cica-na-ku-cica)
+- [Dyondzo ya vumbirhi: Ku kayivela ka ku kayivela](#dyondzo-ya-vumbirhi-nkayivelo-wa-nkayivelo)
+- [Dyondzo ya Vunharhu: Andziso na dyondzo](#dyondzo-ya-vunharhu-andziso-na-dyondzo)
+- [Dyondzo xa ku tiva: Xiphiqo xa vun'winyi](#dyondzo-xa-ku-tiva-xiphiqo-xa-vun-winyi)
+- [Dyondzo ya vutlhanu: Nyimbo wo basa](#dyondzo-ya-vutlhanu-nyimbo-wo-basa)
+- [Dyondzo ya vutsevu: Matimba ya ntshuxeko wa mbulavulo](#dyondzo-ya-vutsevu-matimba-ya-ntshuxeko-wa-mbulavulo)
+- [Dyondzo ya vukombo: Swipimelo swa vutivi](#dyondzo-ya-vukombo-swipimelo-swa-vutivi)
 
 Dyondzo ya Ntlhanu yi vangala leswi Xitori xa Bitikhoyini laha yi humaka kona xi nga tsakisiku ntsena kambe xi tlhea xi va xa nkoka eka sisiteme yo pfumala vurhangeri. Tidyondzo timbirhi ta le maheteleni ya Ndzima leyi ti vangala hi matimba ya ntshuxeko wa mbulavulo na swipimelo swa vutivi bya vanhu, swi kombisiwaka hi vuenti byo hlamarisa bya goji ra mpfundlha wa Bitikhoyini.
 
@@ -261,13 +261,13 @@ Bitikhoyini yi ndzi dyondzisile swotala hi mali ku tlula leswi a ndzi enhleketa 
 
 Eka tidyondzo ta kombo to sungula swin'wana swa swivutiso swa filosofi Bitikhoyini yi swi khumbaka swi hlamuseriwile. Tindyodzo ta kombo leti landzelaka ti ta langutisa ngopfu eka mali na swa ikhonomiki.
 
-- [Dyondzo ya Nhungu: Ku kala vutivi bya swa timali](#dyondzo-ya-nhungu-ku kala vutivi-bya-swa timali)
-- [Dyondzo ya Kaye: ku mixavo](#dyondzo-ya-kaye-ku tlakuka ka mixavo)
-- [Dyondzo ya khume: Nkoka] (#dyondzo-ya-khume-nkoka)
-- [Dyondzo ya Khume n'we: Mali](#dyondzo-ya-khume n'we-mali)
-- [Dyondzo ya Khume mbirhi: Matimu na ku wa ka mali](#dyondzo-ya-khume mbirhi-matimu-na-ku wa-ka-mali)
-- [Dyondzo ya khume nharhu: Vuhlayisi bya mali byo ka byi nga ri nene eka kwalomu ka matiko hinkwawo ya le misaveni](#dyondzo-ya-khume nharhu-vuhlayisi bya mali-byo ka byi nga ri nene-eka kwalomu ka matiko hinkwawo ya le misaveni)
-- [Dyondzo ya khome mune: Mali ya mpfumawulo](#dyondzo-yakhume-mune-mali-ya-mpfumawulo)
+- [Dyondzo ya Nhungu: Ku kala vutivi bya swa timali](#dyondzo-ya-nhungu-ku-kala-vutivi-bya-swa-timali)
+- [Dyondzo ya Kaye: Ku tlakuka ka Mixavo](#dyondzo-ya-kaye-ku-tlakuka-ka-mixavo)
+- [Dyondzo ya vukhume: Nkoka](#dyondzo-ya-vukhume-nkoka)
+- [Dyondzo ya Vukhume n'we: Mali](#dyondzo-ya-vukhume-n-we-mali)
+- [Dyondzo ya vukhume-mbirhi: Matimu na ku wa ka mali](#yondzo-ya-vukhume-mbirhi-matimu-na-ku-wa-ka-mali)
+- [Dyondzo ya vu khume nharhu: Vuhlayisi bya mali byo ka byi nga ri nene eka kwalomu ka matiko hinkwawo ya le misaveni](#dyondzo-ya-vu-khume-nharhu-vuhlayisi-bya-mali-byo-ka-byi-nga-ri-nene-eka-kwalomu-ka-matiko-hinkwawo-ya-le-misaveni)
+- [Dyondzo ya Khume mune: Mai ya mpfumawulo](#dyondzo-ya-khume-mune-mai-ya-mpfumawulo)
 
 Nakambe, ndzi ta kota ntsena ku n'waya vuandlalo. Bitikhoyini a yo ti yimisela ku humelela ntsena, kambe na ku anama na enta hi mpimo, leswi swi endlaka swi tika ku angarhela tihlokomhaka hinkwatu leti faneleke eka dyondzo yin'we, xitsalwana, atikili, kumbe buku. Ndza sola na kuri swa koteka hi ku hetiseka.
 
@@ -609,13 +609,13 @@ Ku lulamisa swiphiqo eka ndzawu ya ti hofisi to tala to lawuriwa na la ku nga na
 
 Khiripitogirafi hi leswi Bitikhoyini yi swi tirhisaka ku susa ku tshemba eka valawuri. Ematshan'wini yo tshembela eka mihlangano yo lawuriwa, sisteme yi tshembele eka vulawuri byo hetelela bya misava ya hina: fizika. Tindzoho tin'wana ta ku tshemba ta ha ri kona, hambiswiritano. Hi ta kambela tindzoho leti eka dyondzo ya vu,nirhi ya ndzima leyi.
 
-- [Dyondzo ya Khume nthanu: Matimba eka tihlayo] (#dyondzo-ya-khume ntlhanu-matima-eka-tihlayo)
-- [Dyondzo ya Khume ntsevu: miehleketo eka "u nga tshembi, tiyisisa"](#dyondzo-ya-ntsevu-miehleketo-eka-unga-tshembi-tiyisisa)
-- [Dyondzo ya Khumbe nkombo: Ku byeletela nkarhi swi teka ntirho](#dyondzo-ya-khume-nkombo-ku-byeletela-nkarhi-swi-teka-ntirho)
-- [Dyondzo ya khume nhungu: Famba hi ku nonoka na swona u nga fayi swilo](#dyondzo-ya-khume-nhungu-famba-kahle-naswona-u nga-fayi-swilo)
-- [Dyondzo ya khume kaye: Xihundla a xi fanga](#dyondzo-ya-khume kaye-xihundla-a xi-fanga)
-- [Ndyondzo ya makume mbirhi: Tisayifaphaki ti tsala khodi](#dyondzo-ya-makume mbirhi-tisayifaphaki-titsala-khodi)
-- [Dyondzo ya makumembirhi n'we: Swigego swa vumundzuku bya Bitikhoyini](#dyondzo-ya-makume-mbiehi n'we-swigego-swa-vumundzuku-bya-bitikhoyini)
+- [Dyondzo ya vu khume ntlhanu: Matimba eka tihlayo](#dyondzo-ya-vu-khume-ntlhanu-matimba-eka-tihlayo)
+- [Dyondzo ya Khome ntsevu: Miehleketo eka "U nga tshembi, tiyisisa"](#dyondzo-ya-khome-ntsevu-miehleketo-eka-u-nga-tshembi-tiyisisa)
+- [ Dyondzo ya Khume Nkombo: Ku byeletela nkarhi swi teka ntirho](#dyondzo-ya-khume-nkombo-ku-byeletela-nkarhi-swi-teka-ntirho)
+- [Dyondzo ya vu khume nhungu: Famba hi ku nonoka na swona u nga fayi swilo](#dyondzo-ya-vu-khume-nhungu-famba-hi-ku-nonoka-na-swona-u-nga-fayi-swilo)
+- [Dyondzo ya Vakhume kaye: Xihundla a xi fangi](#dyondzo-ya-vakhume-kaye-xihundla-a-xi-fangi)
+- [Dyondzo ya Khume mbirhi: Tisayifaphaki ti tsala khodi](#dyondzo-ya-khume-mbirhi-tisayifaphaki-ti-tsala-khodi)
+- [ Dyondzo ya Makume mbirhi n'we: Swigego swa vumundzuku bya Bitikhoyini](#dyondzo-ya-makume-mbirhi-n-we-swigego-swa-vumundzuku-bya-bitikhoyini)
 
 Tdyondzo to hlaya leti hi nga hundza hi le ka tona ti vangala hi tiethosi ta nhluvuko wa xitekinoloji wa Bitikhoyini, leti vuriwaka kuva ti ri na nkoka tanihi thekinoloji hi yoxe. Bitikhoyini a hi epe yin'wana yo hatima eka riqongho ra wena. I masungulo ya ntiyiso wa ikhonomic leyitshwa, leswi swi endlaka leswaku Bitikhoyini hi khomiwa tanihi sofuwere wa ntlawa wa vundzeni bya timali.
 
