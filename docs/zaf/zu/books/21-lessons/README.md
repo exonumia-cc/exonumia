@@ -15,7 +15,7 @@ Usulungele ukungena e-Wonderland? Landela unogwaja omhlophe →
 
 ## Isandulela
 
-<br> <center v-pre>U-Alice omncane wawa <br/> d <br/> o <br/> w <br/> n <br/> umgOdi, <br/> washaya ngekhanda <br/> futhi wawulimaza umphefumulo wakhe.</center>"
+<br> <center v-pre>U-Alice omncane wawa <br/> d <br/> o <br/> w <br/> n <br/> umgOdi, <br/> washaya ngekhanda <br/> futhi wawulimaza umphefumulo wakhe.</center>
 
 Uhambo lwami lwe-Bitcoin kuyinto engavamile. Njengabanye abaningi,
 ngizizwa sengathi ngifunde okuningi eminyakeni embalwa edlule ngifunda i-Bitcoin
@@ -46,7 +46,7 @@ Ngethemba ukuthi uzothola lezi zifundo ziwusizo nokuthi indlela yokuzifunda ngok
 ## Isingeniso
 
 <br />
-<center v-pre>"Kodwa angifuni ukuya phakathi kwabantu abahlanyayo," kuphawula u-Alice.<br /> "Oh, akukho ongakwenza ngalokho, kusho iKati: "sihlanya sonke lapha. Ngiyahlanya. Uyahlanya."<br /> ""Wazi kanjani ukuthi ngiyahlanya?"" kusho u-Alice.<br /> "Kufanele ube njalo," kusho iKati, "noma ubungeke uze lapha." "<br /> </center>"
+<center v-pre>"Kodwa angifuni ukuya phakathi kwabantu abahlanyayo," kuphawula u-Alice.<br /> "Oh, akukho ongakwenza ngalokho, kusho iKati: "sihlanya sonke lapha. Ngiyahlanya. Uyahlanya."<br /> ""Wazi kanjani ukuthi ngiyahlanya?"" kusho u-Alice.<br /> "Kufanele ube njalo," kusho iKati, "noma ubungeke uze lapha." "<br /> </center>
 
 Ngo-Okthoba 2018, u-Arjun Balaji wabuza umbuzo ongenacala, [*Ufundeni ku-Bitcoin?*](https://twitter.com/arjunblj/status/1050073234719293440) Ngemva kokuzama ukuphendula lo mbuzo ku-tweet emfushane, futhi ngehluleka ngokudabukisayo, ngabona ukuthi izinto engizifundile ziningi kakhulu ukuphendula ngokushesha, uma kunjalo.
 
@@ -82,7 +82,7 @@ Umgomo wami ukukwenza ucabange, futhi ngikubonise ukuthi kuningi okungaziwa nge-
 
 ## Isahluko I: Ifilosofi
 
-<br> <center v-pre>Igundane lambheka ngokufuna ukwazi, futhi kwabonakala sengathi licwayiza ngelinye lamehlo alo amancane, kodwa alishongo lutho.</center>"
+<br> <center v-pre>Igundane lambheka ngokufuna ukwazi, futhi kwabonakala sengathi licwayiza ngelinye lamehlo alo amancane, kodwa alishongo lutho.</center>
 
 Ukubheka i-Bitcoin kancane, umuntu angase aphethe ngokuthi ihamba kancane, iyamosha, ayinaso isidingo, futhi isabisa ngokweqile. Ukubheka i-Bitcoin ngokubuza,
 umuntu angase athole ukuthi izinto azihambi njengoba zibonakala ekuqaleni.
@@ -118,7 +118,7 @@ Ngiyethemba ukuthi uzothola umhlaba we-Bitcoin ufundisa, uthakazelisa futhi ujab
 --- 
 ### Isifundo 1: Ukungaguquki kanye noshintsho
 
-<br> <center v-pre>Ngiyazibuza ukuthi ngabe ngishintshiwe yini ebusuku. Ake ngicabange. Ngabe bengifana ngenkathi ngivuka namhlanje ekuseni? Cishe ngicabange ukuthi ngisakhumbula ngizizwa ngihlukile. Kodwa uma ngingefani, umbuzo olandelayo uthi 'Ngingubani mina emhlabeni?' Ah, indida enkulu leyo!</center>"
+<br> <center v-pre>Ngiyazibuza ukuthi ngabe ngishintshiwe yini ebusuku. Ake ngicabange. Ngabe bengifana ngenkathi ngivuka namhlanje ekuseni? Cishe ngicabange ukuthi ngisakhumbula ngizizwa ngihlukile. Kodwa uma ngingefani, umbuzo olandelayo uthi 'Ngingubani mina emhlabeni?' Ah, indida enkulu leyo!</center>
 
 Ngemvelo i-Bitcoin inzima ukuyichaza. Iyinto *entsha*, futhi nanoma iyiphi imizamo yokuqhathanisa imiqondo yangaphambilini --- noba ukuyibiza igolide ledijithali noma imale ye-inthanethi ---  nakanjani iyohluleka ukugcina izinga elithile ngokuphelele. Noma ngabe isifaniso osithandayo singaba yini, izici ezimbili
 ze-Bitcoin zibaluleke kakhulu: ukusabalalisa kanye nokungaguquki.
@@ -187,7 +187,7 @@ Ngesikhathi senala, i-Bitcoin ingifundise ukuthi ukushoda kwangempela kuyini.
 ### Isifundo 3: Ukuphindaphinda kanye nendawo
 
 <br> 
-<center v-pre>Kwalandela izwi elithukuthele—elikanogwaja—"Pat, Pat! ukuphi?""</center>"
+<center v-pre>Kwalandela izwi elithukuthele—elikanogwaja—"Pat, Pat! ukuphi?""</center>
 
 I-Quantum mechanics eceleni, indawo akuyona inkinga emhlabeni wenyama.
 Umbuzo othi *"Uphi u-X?"* ungaphendulwa ngendlela enomqondo, noma kukuthi u-X ungumuntu noma into. Emhlabeni wedijithali, umbuzo
@@ -218,7 +218,7 @@ I-Bitcoin ingifundise ukuthi indawo yakithi iyibhizinisi elinzinyana.
 ### Isifundo 4: Inkinga yobunikazi
 
 <br> 
-<center v-pre>"Ungubani wena?" kusho isibungu.</center>"
+<center v-pre>"Ungubani wena?" kusho isibungu.</center>
 
 U-Nic Carter, ubhale ucezu oluhle kakhulu ekhasini eliyisiqalo, ngendlela u-Thomas Nagel aphathe ngayo umbuzo ofanayo [ophathelene nelulwane] (https://en.wikipedia.org/wiki/What_Is_it_Like_to_Be_a_Bat%3F), lolucezu ludingida
 umbuzo olandelayo: [Kunjani ukuba yi-bitcoin?](https://medium.com/s/story/what-is-it-like-to-be-a-bitcoin-56109f3e6753). Ukhombisa ngokuhlakanipha ukuthi ama-blockchains avulekile, asesidlangalaleni ngokujwayelekile, kanye ne-Bitcoin
@@ -271,7 +271,7 @@ I-Bitcoin ingifundise ukuthi ukulandisa kubalulekile.
 ### Isifundo 6: Amandla wenkululeko yokukhuluma
 
 <br> 
-<center v-pre>"Ngicela uxolo?" kusho igundane, lishwabene, kodwa ngesizotha, "ukhulumile?"</center>"
+<center v-pre>"Ngicela uxolo?" kusho igundane, lishwabene, kodwa ngesizotha, "ukhulumile?"</center>
 
 I-Bitcoin ingumbono. Umbono lapho, ngendlela yawo manje, obonakaliswa ngumshini onikwe amandla ngumbhalo kuphela. Zonke izici ze-Bitcoin zingumbhalo: I-whitepaper ingumbhalo. Isofthiwe eqhutshwa
 amanodi awo ingumbhalo. Ileja iwumbhalo. Okwenziwayo kungumbhalo. Okhiye basesidlangalaleni kanye nabangasese bawumbhalo. Zonke izici ze-Bitcoin ziwumbhalo, futhi kanjalo zilingana nenkulumo.
@@ -297,7 +297,7 @@ I-Bitcoin ingifundise ukuthi emphakathini onenkululeko, inkulumo ekhululekile ka
 ### Isifundo 7: Imikhawulo yolwazi
 
 <br>
-<center v-pre>Phansi, phansi, phansi. Ingabe ukuwa bekungeke kuphele?</center>"
+<center v-pre>Phansi, phansi, phansi. Ingabe ukuwa bekungeke kuphele?</center>
 
 Ukungena ku-Bitcoin kuyinto ethobisayo. Ngangicabanga ukuthi ngazi
 izinto. Ngangicabanga ukuthi ngifundile. Bengicabanga ukuthi ngiyayazi ikhompuyutha yami
