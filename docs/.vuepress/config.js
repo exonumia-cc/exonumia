@@ -293,6 +293,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/int/en/books/',
                         children: [
+                            '/int/en/books/21-lessons/',
                             '/int/en/books/layered-money/'
                         ]
                     },
@@ -361,6 +362,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/ago/ng/books/',
                         children: [
+                            '/ago/ng/books/21-lessons/',
                             '/ago/ng/books/layered-money/'
                         ]
                     },
@@ -428,6 +430,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/bdi/rn/books/',
                         children: [
+                            '/bdi/rn/books/21-lessons/',
                             '/bdi/rn/books/layered-money/'
                         ]
                     },
@@ -495,6 +498,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/cod/ln/books/',
                         children: [
+                            '/cod/ln/books/21-lessons/',
                             '/cod/ln/books/layered-money/'
                         ]
                     },
@@ -562,6 +566,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/cog/ln/books/',
                         children: [
+                            '/cog/ln/books/21-lessons/',
                             '/cog/ln/books/layered-money/'
                         ]
                     },
@@ -629,6 +634,7 @@ module.exports = {
                         text: 'كتب',   // required
                         link: '/egy/ar/books/',
                         children: [
+                            '/egy/ar/books/21-lessons/',
                             '/egy/ar/books/layered-money/'
                         ]
                     },
@@ -696,6 +702,7 @@ module.exports = {
                         text: 'መጽሐፍት።',   // required
                         link: '/eth/am/books/',
                         children: [
+                            '/eth/am/books/21-lessons/',
                             '/eth/am/books/layered-money/'
                         ]
                     },
@@ -763,6 +770,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/gha/twi/books/',
                         children: [
+                            '/gha/twi/books/21-lessons/',
                             '/gha/twi/books/layered-money/'
                         ]
                     },
@@ -830,6 +838,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/ken/sw/books/',
                         children: [
+                            '/ken/sw/books/21-lessons/',
                             '/ken/sw/books/layered-money/'
                         ]
                     },
@@ -897,6 +906,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/mar/ber/books/',
                         children: [
+                            '/mar/ber/books/21-lessons/',
                             '/mar/ber/books/layered-money/'
                         ]
                     },
@@ -964,6 +974,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/mdg/mg/books/',
                         children: [
+                            '/mdg/mg/books/21-lessons/',
                             '/mdg/mg/books/layered-money/'
                         ]
                     },
@@ -1031,6 +1042,7 @@ module.exports = {
                         text: 'Mabuku',   // required
                         link: '/mwi/ny/books/',
                         children: [
+                            '/mwi/ny/books/21-lessons/',
                             '/mwi/ny/books/layered-money/'
                         ]
                     },
@@ -1098,6 +1110,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/nam/kj/books/',
                         children: [
+                            '/nam/kj/books/21-lessons/',
                             '/nam/kj/books/layered-money/'
                         ]
                     },
@@ -1166,6 +1179,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/nam/ng/books/',
                         children: [
+                            '/nam/ng/books/21-lessons/',
                             '/nam/ng/books/layered-money/'
                         ]
                     },
@@ -1234,6 +1248,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/nam/naq/books/',
                         children: [
+                            '/nam/naq/books/21-lessons/',
                             '/nam/naq/books/layered-money/'
                         ]
                     },
@@ -1301,6 +1316,7 @@ module.exports = {
                         text: 'Littattafai',   // required
                         link: '/nga/ha/books/',
                         children: [
+                            '/nga/ha/books/21-lessons/',
                             '/nga/ha/books/layered-money/'
                         ]
                     },
@@ -1368,6 +1384,7 @@ module.exports = {
                         text: 'Akwụkwọ',   // required
                         link: '/nga/ig/books/',
                         children: [
+                            '/nga/ig/books/21-lessons/',
                             '/nga/ig/books/layered-money/'
                         ]
                     },
@@ -1435,6 +1452,7 @@ module.exports = {
                         text: 'Awọn iwe ohun',   // required
                         link: '/nga/yo/books/',
                         children: [
+                            '/nga/yo/books/21-lessons/',
                             '/nga/yo/books/layered-money/'
                         ]
                     },
@@ -1502,6 +1520,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/rwa/rw/books/',
                         children: [
+                            '/rwa/rw/books/21-lessons/',
                             '/rwa/rw/books/layered-money/'
                         ]
                     },
@@ -1569,6 +1588,7 @@ module.exports = {
                         text: 'Buugaag',   // required
                         link: '/som/so/books/',
                         children: [
+                            '/som/so/books/21-lessons/',
                             '/som/so/books/layered-money/'
                         ]
                     },
@@ -1636,6 +1656,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/stp/cri/books/',
                         children: [
+                            '/stp/cri/books/21-lessons/',
                             '/stp/cri/books/layered-money/'
                         ]
                     },
@@ -1703,6 +1724,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/uga/lg/books/',
                         children: [
+                            '/uga/lg/books/21-lessons/',
                             '/uga/lg/books/layered-money/'
                         ]
                     },
@@ -1770,6 +1792,7 @@ module.exports = {
                         text: 'Boeke',   // required
                         link: '/zaf/af/books/',
                         children: [
+                            '/zaf/af/books/21-lessons/',
                             '/zaf/af/books/layered-money/'
                         ]
                     },
@@ -1838,6 +1861,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/zaf/nr/books/',
                         children: [
+                            '/zaf/nr/books/21-lessons/',
                             '/zaf/nr/books/layered-money/'
                         ]
                     },
@@ -1905,6 +1929,7 @@ module.exports = {
                         text: 'Dibuka',   // required
                         link: '/zaf/nso/books/',
                         children: [
+                            '/zaf/nso/books/21-lessons/',
                             '/zaf/nso/books/layered-money/'
                         ]
                     },
@@ -1972,6 +1997,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/zaf/ts/books/',
                         children: [
+                            '/zaf/ts/books/21-lessons/',
                             '/zaf/ts/books/layered-money/'
                         ]
                     },
@@ -2040,6 +2066,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/zaf/st/books/',
                         children: [
+                            '/zaf/st/books/21-lessons/',
                             '/zaf/st/books/layered-money/'
                         ]
                     },
@@ -2108,6 +2135,7 @@ module.exports = {
                         text: 'Books',   // required
                         link: '/zaf/ve/books/',
                         children: [
+                            '/zaf/ve/books/21-lessons/',
                             '/zaf/ve/books/layered-money/'
                         ]
                     },
@@ -2176,6 +2204,7 @@ module.exports = {
                         text: 'Izincwadi',   // required
                         link: '/zaf/xh/books/',
                         children: [
+                            '/zaf/xh/books/21-lessons/',
                             '/zaf/xh/books/layered-money/'
                         ]
                     },
@@ -2312,6 +2341,7 @@ module.exports = {
                         text: 'Mabhuku',   // required
                         link: '/zwe/sn/books/',
                         children: [
+                            '/zwe/sn/books/21-lessons/',
                             '/zwe/sn/books/layered-money/'
                         ]
                     },

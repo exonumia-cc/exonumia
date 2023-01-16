@@ -1,7 +1,7 @@
 ---
 translators: 
     - 
-        name: "Nxumalo"
+        name: "Xolile Nxumalo"
         href: "https://twitter.com/XolileNxumalo5"
 supporters: 
     - 
@@ -633,7 +633,7 @@ Xana hi le kwihi eka hundzukelo leri ra timali, swa rixaka na swa thekinoloji? T
 
 Ro hetelela, nghena ndzeni andswona u tiphina hi ndlela. Kufana na tithekinoloji to tlakuka swinene, hi la va ku humeseriwa erivaleni.
 --- 
-### Ndyondzo ya vu khume ntlhanu: Matimba eka tihlayo
+### Dyondzo ya vu khume ntlhanu: Matimba eka tihlayo
 
 <br>
 <center v-pre>Wo ni vona: ka mune ntlhanu I khume mbirhi, na ka mune ntsevu I khume nharhu, na ka mune nkombo I khume mune--Oho murhandziwa! Ndzi nga ka ndzi nga ha fiki eka makume mbirhi eka mpimo lowu!</center>
