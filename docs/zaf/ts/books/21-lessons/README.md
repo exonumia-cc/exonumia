@@ -19,9 +19,10 @@ Ximpfundlani xo basa xi ambala manghilazi ya mahlo. "Xana ndzi ta sungula kwihi,
 
 U lunghekeni ku nghena eka ndhwu ya tswamba na vulombe? Landzelela mpfundlha lowo basa →
 
-## Preface
+## Xirhanga-Mahlweni
 
-Xin'wanani Alice xi wile, xi ba ehansi hi nhloko kutani moya wa xona wu vaviseka.
+<br> 
+<center v-pre>Xin'wanani Alice xi wile, xi ba  <br/> e <br/> h <br/> a <br/> n <br/> s <br/> i <br/>  hi nhloko kutani moya wa xona wu vaviseka.</center>
 
 <!-- <br> -->
 <!-- <center v-pre>Little Alice fell <br/> d <br/> o <br/> w <br/> n <br/> the hOle, <br/> bumped her head <br/> and bruised her soul.</center> -->
@@ -49,7 +50,7 @@ Ndzi tshemba leswaku u ta kuma tidyondzo leti ti pfuna na leswaku madyondzeloya 
 
 ## Masungulo
 
-"Kambe a ndzi lavi ku famba exikarhi ka vanhu vo hlangana nhloko," Alice a vula. "Oho, u nge swi cici sweswo," ku vula Ximanga: "Hinkwenu hi hlangane tihloko laha. Ni hlangane nhloko. U hlangane nhloko." "U swi tiva njhani leswaku ni hlangane nhloko?" ku vula Alice. "U fanerile," ku vula Ximanga, "kumbe a wutava u nga tanga laha."
+<br> <center v-pre>"Kambe a ndzi lavi ku famba exikarhi ka vanhu vo hlangana nhloko," Alice a vula. "Oho, u nge swi cici sweswo," ku vula Ximanga: "Hinkwenu hi hlangane tihloko laha. Ni hlangane nhloko. U hlangane nhloko." "U swi tiva njhani leswaku ni hlangane nhloko?" ku vula Alice. "U fanerile," ku vula Ximanga, "kumbe a wutava u nga tanga laha."</center>
 
 <!-- <br /> -->
 <!-- <center v-pre>"But I don’t want to go among mad people," Alice remarked.<br /> "Oh, you can’t help that," said the Cat: "we’re all mad here. I’m mad. You’re mad."<br /> "How do you know I’m mad?" said Alice.<br /> "You must be," said the Cat, "or you wouldn’t have come here."<br /> </center> -->
