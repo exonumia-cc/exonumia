@@ -1,3 +1,13 @@
+---
+translators: 
+    - 
+        name: "Happy Mahlangu"
+        href: "https://twitter.com/SabeniHappy"
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://bitcoinmagazine.com/business/hrf-gifts-4-bitcoin-to-bitcoin-projects"
+---
 # Izifundo ezingamashumi amabili nanye
 #### Engikufundile kuhambo lami olungajwayelekile lwe-Bitcoin
 
