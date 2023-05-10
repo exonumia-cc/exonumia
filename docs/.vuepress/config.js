@@ -294,7 +294,8 @@ module.exports = {
                         link: '/int/en/books/',
                         children: [
                             '/int/en/books/21-lessons/',
-                            '/int/en/books/layered-money/'
+                            '/int/en/books/layered-money/',
+                            '/int/en/books/the-blocksize-war/'
                         ]
                     },
                     {
@@ -839,7 +840,8 @@ module.exports = {
                         link: '/ken/sw/books/',
                         children: [
                             '/ken/sw/books/21-lessons/',
-                            '/ken/sw/books/layered-money/'
+                            '/ken/sw/books/layered-money/',
+                            '/ken/sw/books/the-blocksize-war/'
                         ]
                     },
                     {
@@ -2275,6 +2277,7 @@ module.exports = {
                         children: [
                             '/zaf/zu/books/21-lessons/',
                             '/zaf/zu/books/layered-money/',
+                            '/zaf/zu/books/the-blocksize-war/',
                         ]
                     },
                     {
