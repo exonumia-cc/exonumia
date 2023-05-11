@@ -7,7 +7,7 @@
     "docs:dev-md": "vuepress check-md docs && vuepress dev docs",
     "docs:dev": "vuepress dev docs",
     "docs:build-md": "vuepress check-md docs && NODE_ENV=production vuepress build docs",
-    "docs:build": "NODE_ENV=production vuepress build docs"
+    "docs:build": "NODE_ENV=production NODE_OPTIONS=--max-old-space-size=4096 vuepress build docs"
   },
   "repository": {
     "type": "git",
