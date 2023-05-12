@@ -28,11 +28,11 @@
 
 <script setup lang="ts">
 import { useRouteLocale, useSiteLocaleData } from '@vuepress/client'
-import { isString } from '@vuepress/shared'
+import { isArray, isString } from '@vuepress/shared'
 import { computed } from 'vue'
 import type { ComputedRef } from 'vue'
 import { useRouter } from 'vue-router'
-import type { NavbarItem, NavbarGroup, ResolvedNavbarItem } from '@vuepress/theme-default/lib/shared'
+import type { NavbarItem, NavbarGroup, ResolvedNavbarItem, SidebarConfig } from '@vuepress/theme-default/lib/shared'
 import { useNavLink, useThemeLocaleData } from '@vuepress/theme-default/lib/client/composables'
 import DropdownLink from '@vuepress/theme-default/lib/client/components/DropdownLink.vue'
 
@@ -58,7 +58,41 @@ const useNavbarSelectLanguage = (): ComputedRef<ResolvedNavbarItem[]> => {
     const languageDropdown: ResolvedNavbarItem = {
       text: (currentPath.includes("/books/") ?  themeLocale.value.freelyAvailableTranslationsText : themeLocale.value.selectLanguageText) ?? 'unkown language',
       ariaLabel: themeLocale.value.selectLanguageAriaLabel ?? 'unkown language',
-      children: localePaths.map((targetLocalePath) => {
+      children: localePaths.filter((localePath) => {
+        if (currentPath.includes("/books/")) {
+          if (themeLocale.value.locales) {
+            const targetThemeLocale =
+            themeLocale.value.locales?.[localePath]
+            const sidebar = targetThemeLocale.sidebar
+            if (isArray(sidebar)) {
+              const bookSidebar = sidebar.find(a => a.link == `${localePath}books/` )
+
+              if (bookSidebar) {
+                const booksList = bookSidebar["children"] 
+                if (isArray(booksList)) {
+                  console.log("Current Path: ", currentPath)
+                  const bookTitleLink = currentPath.split("/books/")[1]
+
+                  const translation = booksList.filter((bookLink) => {
+                    const bookListTitle = bookLink.split("/books/")[1]
+                    if (bookListTitle == bookTitleLink) {
+                      console.log("Found")
+                      return true
+                    }
+                    return false
+                  })
+                  
+                  if (translation.length > 0) {
+                    return true
+                  }
+                }
+              }
+            }
+          }
+          return false
+        } 
+        return true
+      }).map((targetLocalePath) => {
         // target locale config of this langauge link
         const targetSiteLocale =
           siteLocale.value.locales?.[targetLocalePath] ?? {}
