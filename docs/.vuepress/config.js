@@ -628,7 +628,6 @@ module.exports = {
                         text: 'كتب',   // required
                         link: '/egy/ar/books/',
                         children: [
-                            '/egy/ar/books/21-lessons/',
                             '/egy/ar/books/layered-money/',
                             '/egy/ar/books/learn-bitcoin/'
                         ]
