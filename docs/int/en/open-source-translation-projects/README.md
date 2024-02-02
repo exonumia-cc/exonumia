@@ -2,7 +2,7 @@
 
 <LanguageDropdown/>
 
-There are a number of on going open source translation projects. Visit [localizebitcoin.com](https://localizebitcoin.com) for more.
+There are a number of on going open-source translation projects. Visit [localizebitcoin.com](https://localizebitcoin.com) for more.
 | Project | Description | How | Translate |
 |---------|-------------|-----|-----------|
 |![](/open-source-translation-projects/bisq.png) | Peer-to-peer Bitcoin exchange. | [Wiki](https://bisq.org) | [Website](https://www.transifex.com/bisq/bisq-website/) [Desktop](https://www.transifex.com/bisq/bisq-website/) [Subtitles](https://www.transifex.com/bisq/bisq-subtitles/) |
