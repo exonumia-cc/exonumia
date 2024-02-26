@@ -1,30 +1,36 @@
-# Bitcoin ni nko kwinonora
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://twitter.com/ck_SNARKs/status/1737110695907643491"
+translators: 
+    - 
+        name: "₿elyï No₿el"
+        href: "https://twitter.com/belyi_nobel"
+---
 
-by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
+# Bitcoin ninkimikino
+Yanditswe na @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-Kenshi na kenshi nasiguye uko #bitcoin ikora kandi ikegerezwa abanyagihugu murwego rwimikino. jewe mbona bifasha gusubiza vyinshi mubibazo bisanzwe
+Kenshi cane, ndasigura nigute #bitcoin ikora n'uko itwagwa naburiwese ngereranije n'imikino yokwinonora imitsi. Mbona ubwoburyo bufasha kwishura ibibazo bitaribike bikunda kubazwa
 
-Ikibazo: Ninde yatanguje umupira wa baseball?   
-Inyishu: Muvyukuri ntaco bitwaye. Umuntu wese kw'isi arashobora kuwukina. Ntacyo bitwaye ko uwawutanguje ubwambere ashaka guhindura amategeko canke uko amanoto atangwa canke ikindi kintu cose. Ntabwo turajwe ishinga nivyo yiyumvira kumikino yacu.
+IKIBAZO: Ninde yatanguje Baseball?   
+INYISHU : Ivyo mubisanzwe ntakamaro bifise. Burimuntu wese murinosi ashobora kuyikina. Ukwobiri kwose uwayitanguje yashaka guhindura amategeko canke kwiriha burikintu cose. Ntabwo biba bituraje ishinga ivyobibaza kurukino rwacu
+IKIBAZO: Ninde ajejwe umukino?                      INYISHU: Ntanumwe abijejwe, twese twahisemwo kuyikina. Turazi kandi turemera amategeko, iyo umuntu akoze ibidahuhe n'amategeko, aravamwo mumukino. Iyo umuntu yihaye amanota adakwiriye, ntaco bibabitubwiye mubisanzwe.
 
-Ikibazo: Ninde ajejwe uwo mukino?   
-Inyishu: Ntamuntu awujejwe, twese twahisemwo gukina. Twese turabizi kandi dushire mubikorwa amategeko, kandi nihagira umuntu yiba, kuko aca birukanwa mumikino. Nimba umuntu yihaye amanota atatsindi tuca tuyirengagiza.
+IKIBAZO: Nigute tumenyako amategeko atazohava ahinduka ?                       
+INYISHU: Twese twaremeye ayomategeko mugihe twemeye gutangura gukina hama abemeye kubandanya bakinira kurayo mategeko barabandanya, nimba haruwushaka kuyahindura azagukina ahandi.
 
-Ikibazo: N'iki kitumenyesha ko amategeko atazohinduka?   
-Inyishu: Twese twaravyemeye mugihe twatanguye gukina, kandi uwushaka kubandanya gukina na mategeko azakomeza, kandi nihagira ushaka guhindura, azosabwa gukinira ahandi.
+IKIBAZO: Mbega irashobora kugigwa iyamagendo?                                                 INYISHU: Vyose biraboneka kuri buriwese. Dushobora kubona ikibuga cose nokubona ibitsindo vyose, twoca tubimenya twese tugaca tubabwira bavemwo.
 
-Ikibazo: Ntishobora kwibwa?  
-Inyishu: Ibintu byose biragaragara kumugaragaro. Twese dushobora kubona ikibuga cose hamwe n amanota yose. Nimba umuntu yivye, twese turashobora kubibona tukanamubwira ko yananiwe
+IKIBAZO: None gute ivyo bifise agaciro kanaka?   
+INYISHU: Twahisemwo twese gukina, bisigura kobifise agaciro kuritwebwe. Nimba kanaka ahisemwo kwifadikanya natwe, ategerezwa kumenya ibitugenga nagaciro kacu.
 
-Ikibazo: Kubera iki ifise agaciro?  
-Inyishu: Twese twahisemo gukina, birafise ikintu bitumariye . Nimba umuntu ashaka kwinjiramwo, asabwa kwemeza ingingo zacu nagaciro.
+Ndayihaye agaciro, bisigurako ifise agaciro. Agaciro bivana nuko tubibona.
 
-Ndayiha agaciro, kuko ifise agaciro. Agaciro ni ikintu gifatika
+IKIBAZO: Ntizohava ihagarikwa?                         INYISHU: Birashika, ariko nabantu gusa bakinisha inkoni n'imipira, atawe barengeye numwe, bisigurako intwaro ishobora kubabuza kuyikina, ariko ntishobora guhagarika yuko umuntu akubita umupira n'inkoni, umukino urabandanya ahandi.
 
-Ikibazo: Ntibizo hagarikwa?  
-Inyishu: Birashoboka, ariko iyo abantu bamwe bariko barakinisha inkoni n'umupira, ntibagire uwo babaza , leta rero irashobora kukubuza kuyikina, ariko ntibashobora guhagarika iciyumviro co gukubita umupiran'inkoni, umukino uzobandanirizwa ahandi ahantu.
+IKIBAZO: Nanje nobijamwo ?                              INYISHU: Ukore ivyushaka. Jewe ndinezereza mugukina baseball, urashobora kwifadikanya natwe canke ushobora gukora ivyubona bibereye.
 
-Ikibazo: Ndakwiye kwinjiramo?   
-Inyishu: Kora ico wiyumvamwo. Jewe ndakunda gukina baseball, ushobora kwinjiramo canke ushobora HFSP.

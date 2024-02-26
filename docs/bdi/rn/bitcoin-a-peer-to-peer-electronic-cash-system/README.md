@@ -1,109 +1,110 @@
-# Bitcoin: Urungano rwurungano rwa sisitemu ya elegitoroniki
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://twitter.com/ck_SNARKs/status/1737110695907643491"
+translators: 
+    - 
+        name: "₿elyï No₿el"
+        href: "https://twitter.com/belyi_nobel"
+---
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+# Bitcoin: Ubuhinga ngurukana bumenyi bwokuriha amafaranga hagati y'abantu babiri
+
+Yanditswe na Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Ibisobanuro
+## Incamake
 
-Urungano rwurungano rwamafaranga ya elegitoronike yemerera kwishura kumurongo woherejwe muburyo butandukanye bitanyuze mubigo by'imari. Imikono ya digitale itanga igice cyigisubizo, ariko inyungu zingenzi ziratakara mugihe uwundi muntu wizewe agikenewe kugirango akumire kabiri. Turasaba igisubizo cyikibazo cyo gukoresha kabiri dukoresheje urungano rwurungano. Urusobekerane rwibihe byogukora mubisunika mumurongo uhoraho wa hash-ishingiye kubikorwa-byakazi, gukora inyandiko idashobora guhinduka utabanje kugabanya ibyemezo-byakazi. Urunigi rurerure ntabwo rukora gusa nk'ikimenyetso cyerekana uko ibintu byakurikiranye, ahubwo ni gihamya ko byaturutse muri pisine nini ya CPU. Mugihe cyose ubwinshi bwimbaraga za CPU bugenzurwa numutwe udafatanya gutera urusobe, bazabyara urunigi rurerure hamwe nabatera. Umuyoboro ubwawo usaba imiterere mike. Ubutumwa butangazwa ku mbaraga nziza, kandi imitwe irashobora kugenda kandi igasubira murusobe uko bishakiye, ikemera urunigi rurerure-rwerekana akazi nkikimenyetso cyibyabaye mugihe bagiye.
+Uburyo bufatiye kuwurungika n'uwakira bw'ukuriha amahera biciye kubuhinga ngurukana bumenyi vyokurungika vyihuse bivuye kugace kamwe bidaciye kwishirahamwe ry'ukuguranana. ibidodo bifatiye kuri mudasobwo bitanga igice c'inyishu, ariko uburusho nyamukuru buba bwatakaya nimba igice c'uruhande rw'icizere bukenewe kugira hirindwe  isasagura kabiri. Turashikiriza iciyumviro c'inyishu kungorane z'ugusesagura kabiri mugukoresha umuryango ushingiye kuribabiri. Umuryango ushingura irihwa n'irihishwa mugushirahamwe urukwirikirane rubandanya rw'iyemezwa y'ibikorwa bifatiye kw'ishingugwa, biba mugushingura ibidashobora guhindugwa iyo udasubiyemwo iyemezwa ry'ibikorwa. Urukwirikirane rurerure rufasha turetse gusa nk'icemeza c'uruhererekane rw'ivyabonetse, ariko nk'icemeza c'ivyavuye mw'ibenga rinini ry'ubushobozi bw'uguharura bwa CPU. Mugihe ivyinshi cane mubushobozi bw'uguharura bw CPU busuzumwa n'amapfundo budakorera hamwe mugutera kugira butere umuryango, bizotanga urukwirikirane rurerure cane hama birenge abatera. Umuryango wo ushaka urwubako ruto rushoboka. Ubutumwa busabikanirijwe kunushinge rw'uwukomeye, hama amapfundo ashobora kugenda hama agahamvya umuryango iyo ubishatse, ukemera urukwirikirane rw'iyemezwa ry'igikorwa kirekire nk'iyemezwa rw'ivyoshoboye gukorwa mugihe c'igisibo cayo.
 
-## Intangiriro
+## Intangamarara
+Urudandazwa bwokubuhinga ngurukana bumenyi nkabwose bwishimikije amashirahamwe yokuguranana akora nkamashirahamwe y'ivyabona yizewe kugira asuzume irihwa ryaciye kuri nyabwonnko. Nkuko ubuhinga bukora neza cane kenshi kwigura n'igurishwa, irafise ingorane bikoranye kurubwo buryo bushingiye kucizere. irihwa n'irihishwa umuntu atokwihenda nagato ntabwo ribaho nagato, kuko amashirahamwe yokuguranana ntashobora kureka gukosora amakosa. Igiciro c'uguhuza congereza amahera arihirwa mukurungika n'ukwakira, bikagabanya  igiciro c'ayarungikwa n'ayakirwa, kandi bigahagarika abarungika n'abakira make mugihe bavyipfuza,  kandi hari ibiciro binini umuntu agatakaza ubushobozi mugukora irihwa ridakosorwa mubufasha budakosorwa. Hamwe n'ubushobozi bwokudahindura, ugushaka icizerere birakwizwakwizwa. Abadanza bategerezwa kutizera  ababashora, bakabaza ibibazo vy'umurengera bitari bikenewe. urugezo kanaka rwa magendo ruremerwa nkurudashobora kwirindwa. Ivyobiciro hamwe n'ukutizera irihishwa bishobora kubuza umuntu gukoresha amafaranga y'ibipapuro, ariko ntabuhinga nabumwe bubaho kugira urihe biciye  kubuhinga bwogutumatumanako atagice c'ishirahamwe y'icizere.
 
-Ubucuruzi kuri interineti bwaje gushingira gusa kubigo by'imari bikora nk'abandi bantu bizewe kugirango bishyure hakoreshejwe ikoranabuhanga. Mugihe sisitemu ikora neza kubikorwa byinshi, iracyafite ibibazo byintege nke zicyitegererezo. Ibikorwa bidasubirwaho rwose ntibishoboka rwose, kubera ko ibigo byimari bidashobora kwirinda gukemura amakimbirane. Igiciro cyo kunga cyongera ibiciro byubucuruzi, bigabanya ingano yubucuruzi ifatika kandi bikagabanya amahirwe yo gucuruza bisanzwe, kandi harikiguzi kinini mugutakaza ubushobozi bwo kwishyura bidasubirwaho kuri serivisi zidasubirwaho. Hamwe nibishoboka byo guhinduka, gukenera kwizera gukwirakwira. Abacuruzi bagomba kwitondera abakiriya babo, bakabashakira ibisobanuro birenze ibyo bakeneye. Ijanisha runaka ryuburiganya ryemewe nkutakwirindwa. Ibi biciro hamwe no kutamenya neza ubwishyu birashobora kwirindwa imbonankubone ukoresheje ifaranga ryumubiri, ariko ntaburyo buhari bwo kwishyura muburyo bwitumanaho nta shyaka ryizewe.
+Igikenewe, n'uko ubuhinga bwokuriha biciye kuri nyabwonko banshingiye kuvyabona bukoranywe n'ubuhinga bwokunyegeza inyandiko, ahokuba bushingiye kucizere, bifasha abipfuza kurihwa n'ukurihisha vyihuse hatirirwa harifashishwa irindishirahamwe ry'icizere. Irihwa n'irihishwa bigoye cane gucurika n'ugucurura nivyovyokingira uwugurisha amayeri, hamwe nubuhinga bw'amayeri bugezweho bwoshobora gushigwaho kugira bukingire abagurisha. Muri runo rwandiko turabwira  inyishu kurizongorane z'ugusesagura kabiri mugukoresha ubushinguzi bwa timestamp basangijwe hagati ya babiri babiri kugira butange ivyemeza bitanzwa n'ubuhinga nyabwonko bifatiye kurukwirikirane rwirihwa n'irihishwa. Ubuhinga burakingiwe mugihe amapfundo y'icizere acunze icarimwe ubushobozi bwinshi bwa CPU kurusha uyundi mutigiri uwariwe wese ukoraniye kuyandi mapfundp y'abashaka gusambura.
 
-Igikenewe ni uburyo bwo kwishyura bwa elegitoronike bushingiye ku bimenyetso bifatika aho kwizerana, kwemerera impande zombi zishaka gukorana hagati yazo bitabaye ngombwa ko hagira undi muntu wizewe. Ihererekanyabubasha ridashobora guhindurwa ryarinda abagurisha uburiganya, kandi uburyo bwa escrow busanzwe bushobora gushyirwa mubikorwa kurinda abaguzi. Muri iyi nyandiko, turasaba igisubizo cyikibazo cyo gukoresha kabiri dukoresheje urungano rwurungano rwatanzwe na seriveri kugirango tubyare ibimenyetso byerekana uko ibihe byakurikiranye. Sisitemu ifite umutekano mugihe cyose inyangamugayo zishyize hamwe zigenzura imbaraga za CPU kuruta itsinda iryo ari ryo ryose rikorana.
-
-## Ibikorwa
-
-Turasobanura igiceri cya elegitoronike nkurunigi rwumukono wa digitale. Buri nyirubwite yimura igiceri kurikindi asinyisha digitale hash kumurongo wambere hamwe nurufunguzo rusange rwa nyirubwite hanyuma ukongeraho ibyo kurangiza igiceri. Uwishyuwe arashobora kugenzura imikono kugirango agenzure urunigi rwa nyirubwite.
+## Kurungika n'ukwakira
+Dutanga intangamarara y'amahera yokubuhinga ngurukana bumenyi: nkurukwirikirane rw'imikono yokurinyabwonko. Uwufise amahera arungika icabona kuyikwirikira mugeterako umukono w'inyabwonko ikoresheje ubuhinga bwa hachage bw'irungika n'iyakira biheruka hamwe n'urupfunguruzo rwa bose kuri kamere k'iyikwirikira, hama hakongengwa  kuyikwirikira. Nyene ikintu arashobora gusuzuma umukono kugira asuzume urukwirikirane rw'ibiwuranga
 
 ![](./transactions.svg)
 
-Ikibazo birumvikana ko uwishyuwe adashobora kugenzura ko umwe muri ba nyirayo atakoresheje inshuro ebyiri igiceri. Igisubizo rusange ni ukumenyekanisha ubuyobozi bukuru bwizewe, cyangwa mint, igenzura buri gikorwa cyo gukoresha kabiri. Nyuma ya buri gikorwa, igiceri kigomba gusubizwa mint kugirango gitange igiceri gishya, kandi ibiceri byonyine biva muntoki byizewe ko bitazakoreshwa kabiri. Ikibazo niki gisubizo nuko amaherezo ya sisitemu yimari yose biterwa nisosiyete ikora mint, hamwe nibikorwa byose bigomba kubinyuramo, nka banki.
+Ingorane vyukuri nuko banyenevyo badashobora gusuzuma ko imwe muri kamere itakoreceshejwe incuro zibiri kuri buri agace. Inyishu nshasha ifasha gushiraho ugwego nyamukuru rwizewe, canke amahera, ashobora gusuzuma buri kurungika n'ukwakira kugira irinde ugusesagura kabiri. Inyuma yaburi kurungika canke kwakira , burigice gitegerezwa guhindugwa mumafaranga kugira hasubire kurungikwa  ikindi gice, kandi gusa ibice vyarungitswe bivuye kumahera gusa, niko bimeze ntizishobora gukoreshwa kabiri. Ingorane murizonyishu n'uko kazoza kubwo buhinga bwamahera bufatiye gusa kwishirahamwe riziganya amahera, burikurungika canke kwakira bitegeza guca muriryo, kurya kw'ibanki
 
-Dukeneye inzira kugirango abishyuwe bamenye ko ba nyirubwite batigeze basinya ibyakozwe mbere. Kubwintego zacu, ibikorwa byambere byambere nibyo bibara, ntabwo rero twitaye kubigerageza nyuma yo gukoresha kabiri. Inzira yonyine yo kwemeza ko hatabayeho gucuruza ni ukumenya ibikorwa byose. Muri moderi ishingiye kuri mint, mint yari izi ibikorwa byose hanyuma ihitamo icyambere. Kugira ngo ibyo bigerweho nta shyaka ryizewe, ibikorwa bigomba gutangazwa kumugaragaro [1], kandi dukeneye sisitemu kugirango abitabiriye amahugurwa bumvikane kumateka imwe yuburyo bakiriye. Uwishyuwe akeneye gihamya ko mugihe cya buri gikorwa, ubwinshi bwumutwe bwemeye ko aribwo bwakiriwe bwa mbere.
+Turakeneye uburyo kugira banyene ikintu bashobora kumenya ko banyene ikintu baheruka batateye umukono kw'irungikwa n'iyakira riheruka. Mubihe vyacu, irihwa n'irihishwa ryakera niryo rikenewe kubwivyo ntituba tukicikeka ukugerageza ukw'ariko kwose kw'ugusesagura incuro zibiri. uburyo bwonyene bwo kwemeza ukutariha n'ukurihishwa n'ukumenya irihwa n'irihishwa iryariryo ryose. Muburyo bushingiye kumahera , amahera niyo yarazi burirungikwa n'iyakira kandi igahitamwo ayashika ubwambere. Kugira hashoboke kuba ivyo atagice c'icizere, irungikwa n'iyakira bitegerezwa kuvugigwa  kumugaragaro, kandi turakeneye ubuhinga kugira ababirimwo bemera inkuru imwe ryitegeko baronse. Nyene ikintu abakeneye icemeza kuri burirungikwa n'iyakira, hama amapfundo menshi akaba yemeranyako ariyambere yakiwe
 
-## Seriveri ya Timestamp
-
-Igisubizo dusaba gitangirana na seriveri ya timestamp. Seriveri ya timestamp ikora ifata hash kumurongo wibintu kugirango ushireho igihe kandi utangaze cyane hash, nko mubinyamakuru cyangwa kuri Usenet[2-5]. Ingengabihe yerekana ko amakuru agomba kuba yarabayeho icyo gihe, biragaragara, kugirango yinjire muri hash. Buri gihe cyagenwe kirimo igihe cyabanjirije igihe cyacyo, kigakora urunigi, hamwe na buri gihe cyongeweho gishimangira icyabanjirije.
+## Mudasobwa y'iyadika ry'ibihe (timestamp)
+Inyishu dushikiriza muntango hamwe n'izo nyabwoko zibika ibihe. inyabwonko ibika ibihe ikora mugufata ivyanditse vyose vyigice c'ivyanditse hama ikagisanzagiza kure hashoboka ivyovyanditse vyose, akarorero nko mukinyamakuru canke muri ingurukana bumenyi yakera, ibikwa ry'ibihe vyerekanako ibikoresho vyategezwa kubaho muricogihe, nyene kugira bibe murizo nyabwonko zibika ibihe. Buri herodatage irimwo herodatage ikwirikiranwa na hachage, hama bigakora urukwirikirane, hama buri hachage yiyongereyeko ikomeza iyo ikwirikira.
 
 ![](./timestamp-server.svg)
 
-## Icyemezo cy'akazi
+## Ivyemeza igikogwa
+Kugira dushireho mudasobwo zishobora gushirako ibidodo kubuhinga bushingiye hagati ya babiri, Dutegerezwa gukora ubuhinga bushingiye kw'iyemezwa ry'igikorwa bisa niy'iyinjizwa n'isohora ya Adam Back [6], ahogukoresha ibisa n'ugusabikanya ugusanzagiza amakuru canke ibinyamakuru vyakera. ivyemeze vyigikogwa bituma ubushakashatsi bwukurondera  agaciro, iyo ukwinjiza n'ugusohora, nkakarorero SHA-256, iyinjizwamwo ritanguzwa n'igiharuro kanaka gitanguzwa n'ubusa. igikwogwa kigeranye gikenewe kiraduga mugiharuro vy'ubusa gikenewe kandi gishobora gusuzumwa mugukora iyinjiza n'isohora rimwe.
 
-Kugirango dushyire mubikorwa seriveri yagabanijwe kuri urungano rwurungano, tuzakenera gukoresha sisitemu yakazi-isa na Hashcash ya Adam Back [6], aho gukoresha ibinyamakuru cyangwa Usenet. Icyemezo-cyakazi gikubiyemo gusikana agaciro iyo kwogeje, nka hamwe na SHA-256, hash itangirana numubare wa zeru. Impuzandengo yimirimo isabwa iragaragara mumibare ya zeru zisabwa kandi irashobora kugenzurwa no gukora hash imwe.
-
-Kumurongo wigihe cyigihe, dushyira mubikorwa ibyemezo-byakazi twongera nonce muri blok kugeza igihe habonetse agaciro gatanga hash hasabwa zeru zisabwa. Iyo imbaraga za CPU zimaze gukoreshwa kugirango zuzuze ibimenyetso-byakazi, guhagarika ntibishobora guhinduka utongeye imirimo. Nkuko nyuma ibice byafunzwe nyuma yacyo, akazi ko guhindura umurongo karimo kugabanya ibice byose nyuma yacyo.
+Kubw'umuryango wacu w'ugushirahamwe , dushiraho iyemezwa ry'igikorwa kugira dushireho igiharuro gikoreshwa rimwe gusa murukuta gushika igiciro gitowe butanga kw'ihirizwahamwe ry'ibikuta bitanga ubusa. iyo inguvu za CPU vyatanzwe kugira bitume isa n'agashiruka bute k'igikorwa, urukuta ntirushobora gusubirwamwo iyo hadahinduwe igikorwa. nkuko ibikuta bizagukwirikira bishobora gukwirikirana inyuma y'icambere, igikorwa kugira hahindugwe urukuta bisubizamwo ibikuta vyose inyuma y'ico.
 
 ![](./proof-of-work.svg)
 
-Icyemezo-cyakazi nacyo gikemura ikibazo cyo kumenya guhagararirwa mubyemezo byinshi. Niba ubwinshi bwari bushingiye kuri IP-imwe-imwe-imwe-imwe, birashobora guhindurwa numuntu wese ushobora gutanga IP nyinshi. Icyemezo-cyakazi ni kimwe-CPU-ijwi rimwe. Icyemezo cyinshi gihagarariwe nurunigi rurerure, rufite imbaraga zikomeye-zakazi-shoramari. Niba ubwinshi bwimbaraga za CPU bugenzurwa nu nyangamugayo, urunigi rwinyangamugayo ruzakura vuba kandi rusumba iminyururu irushanwa. Kugirango uhindure igice cyashize, uwagabye igitero yagomba kongera kwerekana-akazi-kahagaritswe na bice byose nyuma yacyo hanyuma agafata kandi akarenga kumurimo winyangamugayo. Tuzerekana nyuma ko amahirwe yo gutera gahoro gahoro gufata bigabanuka cyane nkuko byongeweho nyuma.
+Iyemezwa ry'igikorwa itanga inyishu kandi kungorane yokugena igifatirwako mugufata ingingo rusangi iyaba vyinshi vyaribifatiye kuguhitamwo bifatiye kundangakintu ya IP. Iyemezwa ry'igikogwa ryerekana uguhitamwo kwa UCP (Urugezo Nfatirwako rw'Ugusuzuma). Ingingo yabenshi ishushanijwe kurukwirikirane rurerure, ifise inguvu zirihamwe y'iyemezwa ry'igikorwa cakozwe. Nimba Inguvu zirihamwe z'ugusuzuma zihagarikiwe namapfundo yizewe, Urworukwirikirane rwizewe ruzoduga vyihuse, hama ruzorenge izindi nkwirikirane bikebana. kugira uhindure urunani ruheruka, uwuruteye ategerezwa gusubiramwo iyemezwa ry'igikorwa ry'urunani hama urunani rwose rugakwirikira, hama bigahamvya hama bikarengana amafundo yizewe. Tuzobereka hanyuma ko amahirwe kuwutera yitonze yo guhamvya bipunguka kumuvuduko muremure kuburyo inani zindi zongeweko.
 
-Kugirango wishyure byongera umuvuduko wibikoresho hamwe ninyungu zinyuranye mugukoresha umwanya mugihe, gihamya-y-akazi igenwa nimpuzandengo yimuka igereranya umubare ugereranije wahagaritswe kumasaha. Niba byabyaye vuba, ingorane ziriyongera.
+Kugira hasubirizwe iyongera ry'umuvuduko y'ikintu hamwe nihindagurika ryangurukana bumenyi mugukoresha amafundo burimwanya, ibibazo vy'ivyemeza vy'ibikorwa bishigwaho n'uburyo buhinduka bugamije igiharuro kanaka k'urunani burisaha. nimba bisabikanijwe hakirikare, ingorane ziriyongera .
 
-## Umuyoboro
+## Umuryango
+Imice ifasha gukora umuryango n'iyi ikwirikira:
 
-Intambwe zo kuyobora umuyoboro nizi zikurikira:
+1. Irungikwa n'iyakira rishasha rirakwirakwizwa kumapfundo yose.
+2. Buripfundo rihuza irungikwa n'iyakira rishasha k'urunani
+3. Buripfundo rikora kugira rironke iyemezwa ry'igikowa kigoye k'urunani
+4. Iyo ipfundo rironse ivyimezwa ry'igikorwa, irasabikanya urunani kamapfundo yose.
+5. Amapfundo ntiyemera urunani kiretse gusa iyo irungikwa n'iyakira birimwo vyemewe hama bikaba bitarasesagurwa.
+6. Amapfundo yerekana iyemezwa ry'urunani mukurema urundi runani bikwirikije urukwirikirane, mugukoresha hachage y'urunani rwemezwe nka hachage ikwirikira
 
-1. Ibikorwa bishya byerekanwa kuri node zose.
-2. Buri node ikusanya ibikorwa bishya mubice.
-3. Buri node ikora mugushakisha ibimenyetso bitoroshye-byakazi kubikorwa byayo.
-4. Iyo node ibonye gihamya-yakazi, isakaza umurongo kuri node.
-5. Umutwe wemera guhagarika gusa niba ibikorwa byose birimo bifite agaciro kandi bitarakoreshwa.
-6. Ipfundo ryerekana ko ryemera ko bahagarika akazi mugukora urwego rukurikiraho mumurongo, ukoresheje hash yahagaritswe nkuko byashize.
+Amapfundo imisi yose araba urukwirikirane rurerure nkuko arirwo rwukuri hama akabandanya akorera kukwaguka kwagwo. iyo amapfundo abiri arungitswe icarimwe, iyindi mice y'urunani irakwirikira, amapfundo amwamwe kwakira imwe canke iyindi ubwambere. Muri ico gihe, akorera kuyambere yakira, ariko akabika ayandi mashami mugihe yocika maremare kurusha. Uburinganire buzohagarara mugihe iyemezwa ry'igikorwa izoba yakiriwe hama ishami rikaba rirerire; amapfundo akora kuyandi mashami azoca rero kumashami maremare.
 
-Umutwe uhora utekereza urunigi rurerure kugirango arirwo rukwiye kandi ruzakomeza gukora kururambura. Niba imitwe ibiri isakaza verisiyo zitandukanye zumwanya ukurikira icyarimwe, imitwe irashobora kwakira imwe cyangwa iyindi mbere. Muricyo gihe, bakora kumurongo wambere bakiriye, ariko uzigame irindi shami mugihe bibaye birebire. Ikaruvati izavunika mugihe ubutaha ibimenyetso-byakazi bibonetse kandi ishami rimwe riba rirerire; imitwe yakoraga ku rindi shami izahita ihindura ndende.
+Irungikwa n'iyakira biheruka gukwiragizwa ntabwo biba bikeneye cane gushikira amapfundo. Mugihe zishikira amapfundo menshi, zizokwinjira murunani vuba canke kare. Isanzagizwa ry'urunani muri rusangi zirihoza ubutumwa bwatakaye. Iyo ipfundo ritaronse urunani, irarusaba mugihe izoba yaronse urunani rukwrikira, hama ikazakumenyako habuze imwe.
 
-Ibiganiro bishya byubucuruzi ntibikenewe byanze bikunze kugera kumurongo wose. Igihe cyose bageze kuri node nyinshi, bazinjira mumwanya muto. Guhagarika ibiganiro nabyo byihanganira ubutumwa bwataye. Niba node itakiriye blok, izabisaba mugihe yakiriye ahakurikira hanyuma ikamenya ko yabuze imwe.
+## Agashiruka bute 
+Kumasezerano, irungikwa n'iyakira ryambere niryo rikenewe cane ritanguza igiceri, gishasha c'amafaranga igabwa nyene urunani. Ivyo vyongera agashirukabute kumapfundo yogufata umuryango hama igatanga uburyo bwogutanga muntango ibiceri bizunguruka, kubera atantwaro ibijjwe vyose kugira izirungike. iyongerwa ridahinduka y'urugezo rudahinduka rw'ibiceri bishasha irakenewe kubacukuzi b'inzahabu basesagura uburyo kugira bashire inzahabu muruja n'uruza. Muribuno buryobwacu, ni umwanya CPU hamwe n'umuyagankuba biba vyasesagujwe.
 
-## Gutera inkunga
+Agashiruka bute gashobora gutangwa kandi n'amahera arihwa mw'irungikwa n'iyakirwa. Iyo agaciro kivyasohote, kwirungikwa n'iyakira kari musi y'agaciro k'ivyinjira, ikiyatandukanya kigira icobita amafaranga arihwa yiyongerwa kumafaranga y'agashiruka bute y'urunani arimwo irungikwa n'iyakirwa. iyo rero igiharuro cagenewe ibiceri yinjiye muruhererekane, agashiruka bute gashobora kurengana cane kumafaranga y'irungikwa n'iyakirwa hama akaba akingiwe itakazwa ry'agaciro.
 
-Mubisanzwe, igicuruzwa cyambere muguhagarika nigikorwa kidasanzwe gitangira igiceri gishya gifitwe nuwashizeho blok. Ibi byongeramo imbaraga zo gushyigikira urusobe, kandi bitanga uburyo bwo kubanza gukwirakwiza ibiceri mukuzunguruka, kubera ko nta bubasha bukuru bwo kubitanga. Kwiyongera guhoraho kwinshi kw ibiceri bishya birasa nabacukuzi ba zahabu bakoresha umutungo kugirango bongere zahabu mukuzenguruka. Ku bitureba, ni igihe cya CPU n'amashanyarazi bikoreshwa.
+Agashirukabute gashobora gufasha gutanga intege kumapfundo kugira agumane ubwizerwe. Nimba uwushaka kugiria nabi ashoboye gushira hamwe inguvu za gusuzuma amapfundo yose hamwe, ishobora guhitamwo hagati yogukoresha kugira agire magendo irihwa ryiwe, canke agakoresha mugutuma habaho ibiceri bishasha. Ategerezwa gutora ivyinjiza gusumba mugukinisha amategeko, amategeko amwongera ibiceri bishasha kurusha izindi zose zirihamwe, ahokwonona ubuhinga canke iyemezwa ryubutunzi bwiwe.
 
-Inkunga irashobora kandi guterwa amafaranga yo gucuruza. Niba ibyasohotse mubicuruzwa bitarenze agaciro kinjiza, itandukaniro ni amafaranga yubucuruzi yongewe kumurongo wo gushimangira urimo ibikorwa. Iyo umubare wateganijwe mbere yibiceri winjiye mu kuzenguruka, gushimangira birashobora guhinduka rwose kumafaranga yubucuruzi kandi bikaba ari inflation yuzuye.
-
-Inkunga irashobora gufasha gushishikarizwa gukomeza kuba inyangamugayo. Niba igitero kirarikira gishobora gukusanya imbaraga za CPU kuruta inyangamugayo zose, yagomba guhitamo hagati yo kuyikoresha kugirango abeshye abantu, cyangwa kuyikoresha kugirango atange ibiceri bishya. Agomba kubona ko gukinisha gukurikiza amategeko, amategeko nk'aya amutonesha ibiceri bishya kurusha abandi bose hamwe, kuruta guhungabanya gahunda n’ubutunzi bwe bwite.
-
-## Kugarura Umwanya wa Disiki
-
-Iyo igicuruzwa giheruka mugiceri gishyinguwe munsi ihagije, ibikorwa byakoreshejwe mbere yuko bijugunywa kugirango ubike umwanya wa disiki. Kugirango woroshye ibi utabanje kumeneka hash, ibikorwa byogejwe mugiti cya Merkle [7] [2] [5], hamwe numuzi gusa ushizemo hash. Ibice bishaje birashobora guhuzwa no gutema amashami yigiti. Imbere yimbere ntabwo ikeneye kubikwa.
+## Ukwakira ibibanza vy'imizingi
+Kuva irihwa n'irihishwa ryanyuma y'ibiceri ryahamwe bikwiye murunanini rukwiye, irihwa n'irihishwa vyakoreshejwe imbere yiyi bishobora guhebwa kugira haziganywe ikibanza c'ibibanza vyamadisike. Kugire horoshwe ibi ugushirahamwe kw'inani bitononekaye, irihwa n'irhishwa biba vyashizwe hamwe mugiti ca Merkle, hamwe gusa n'umuzi iri murunani rurihamwe. inani zakera zishobora kujahamwe muguhindura amashami y'igiti. inani zambere ntiziba zikenewe kubikwa.
 
 ![](./reclaiming-disk-space.svg)
 
-Guhagarika umutwe udafite ibikorwa byaba hafi 80 bytes. Niba dukeka ko bloks zikorwa buri minota 10, 80 bytes * 6 * 24 * 365 = 4.2MB kumwaka. Hamwe na sisitemu ya mudasobwa igurishwa hamwe na 2GB ya RAM guhera muri 2008, kandi Amategeko ya Moore avuga ko izamuka rya 1.2GB buri mwaka, ububiko ntibukwiye kuba ikibazo nubwo imitwe yo guhagarika igomba kubikwa mumutwe.
+Mumutwe umwe w'urunani atarihwa n'irihishwa yahabaye vyababa 80 Octets. Nimba dufasheko inani zikorwa muminota 10, 80 octets*6*24*365=4,2Mo kumwaka. Hamwe nubuhinga bw'inyabwonko bugurishwa murirusangi kuri 2Go ya RAM kuva mu 2008, hama amategeko ya Moore akaba ategekanya iyongerwa rya 1,2Go kumwaka, ishingugwa ryategerezwa gutuma hama ingorane naho umutwe w'urunani utegerezwa kubikwa mubushinguzi.
 
-## Kugenzura Kwishura Byoroheje
-
-Birashoboka kugenzura ubwishyu udakoresheje umurongo wuzuye. Umukoresha akeneye gusa kubika kopi yimitwe yimitwe miremire-yerekana-akazi, ashobora kubona mubaza imiyoboro kugeza igihe yizeye ko afite urunigi rurerure, kandi akabona ishami rya Merkle rihuza ibikorwa na blok ntishobora gushyirwaho igihe. Ntashobora kugenzura ibyakozwe wenyine, ariko muguhuza ahantu hamwe mumurongo, arashobora kubona ko umuyoboro wabyemeye, hanyuma ugahagarika nyuma yo kwemeza ko umuyoboro wemeye.
+## Isuzumwa ry'irihishwa ripfunyapfunye
+Birashoboka gusuzuma irihwa n'irihishwa atamapfundo yakozwe umuryango. Uwukoresha abakeneye gusa gushingura igipapuro c'umutwe w'urunani y'urukwirikirane rw'ivyemezwa vy'igikorwa kirekire, ishobora kuronka mukubaza amapfundo y'umuryango gushika aha iba yemejwe kuba ifise urukwirikirane rurerure, hama ikaronka ishami rya Merkle rihuza irihwa n'irihishwa kurunani aho zubakiye. ishobora kuraba k'ipfundo ryumuryango ryemewe, hama inani ryongeweko yemeza ko umuryango wayakiye.
 
 ![](./simplified-payment-verification.svg)
 
-Nkibyo, igenzura ryizewe mugihe cyose inyangamugayo zigenzura urusobe, ariko biroroshye cyane iyo umuyoboro utsinzwe nigitero. Mugihe imiyoboro y'urusobekerane ishobora kugenzura ibyakozwe ubwabo, uburyo bworoshe burashobora gushukwa nigitero cyibihimbano mugihe cyose uwagabye igitero ashobora gukomeza kunesha umuyoboro. Uburyo bumwe bwo kwirinda ibi byaba ari ukwemera imenyesha riva kumurongo mugihe babonye umurongo utemewe, bigatuma porogaramu yumukoresha ikuramo ibibujijwe byose hamwe nibikorwa byamenyeshejwe kugirango byemeze ko bidahuye. Abashoramari bakira ubwishyu kenshi birashoboka ko bazakomeza gukora imitwe yabo kubwumutekano wigenga no kugenzura byihuse.
+Nkuko, isuzumwa riba ryizewe mugihe amapfundo yizewe asuzuma umuryango, ariko ashobora kuba afise ubunenge iyo umuryango Urengewe n'awuteye. Nkuko amapfundo yumuryango ashobora gusuzuma irihwa n'irihisha yonyene, uburyo bupfunyapfunyijwe bushobora guhendwa n'irihwa n'irihishwa vyamagendo vy'uwutera Ibibishobora gutuma ibandanya isumba umuryango. Uburyo bushoboka kugira wikingira ivyo aba yokwemere igabishwa ry'umuryango iyo yumvise hari urunani atariwo, bituma inyabwonko ikoresha uburyo bwokubika urunani rwikwije hama irihwa n'irihishwa vyagabishijwe kugira hatogwe agahaze. Amashirahamwe aronka irihishwa kenshi azoshaka gushaka gukoresha amapfundo yabo kubw'umutekano wabo wigenga hamwe nugusuzuma vyihuta.
 
-## Guhuza no Gutandukanya Agaciro
-
-Nubwo byashoboka gutunganya ibiceri kugiti cyawe, ntibyoroshye gukora transaction itandukanye kuri buri ijana muri transfert. Kwemerera agaciro kugabanwa no guhuzwa, ibikorwa birimo ibyinjira byinshi nibisohoka. Mubisanzwe hazaba hari igitekerezo kimwe kiva mubikorwa binini byabanjirije cyangwa ibyinjijwe byinshi bihuza amafaranga make, kandi nibisohoka bibiri: kimwe cyo kwishyura, naho kimwe gisubiza impinduka, niba gihari, gusubira kubohereje.
+## Ihererekana n'igaburwa ry'agaciro
+Nkuko ivyobisoboka guhindagura ibiceri vyamahera vyaburimuntu, ntivyaribishoboka gukunda gukora irungika n'iyakira itandukanye kuriburi icijana iyo urungitse. Kugira ushobore igaburwa hamwe n'ihuza ry'ibiciro, irungikwa n'iyakira birimwo iyinjira n'iisohoka  vyinshi. Mubisanzwe, hoba hari iyinjira rimwe bivuye kwirungikwa n'iyakira riheruka rikenewe kurusha, canke ibwinjira bwinshi buhuza utugwi twinshi, canke ibirenga isohoka : Imwe mukuriha, hamwe n'iyindi kugira utange amahera, kuwoyahereyeko.
 
 ![](./combining-splitting-value.svg)
 
-Twabibutsa ko abafana, aho gucuruza biterwa nibikorwa byinshi, kandi ibyo bikorwa biterwa nibindi byinshi, ntabwo ari ikibazo hano. Ntabwo ari ngombwa gukuramo kopi yuzuye ya kopi yamateka yubucuruzi.
+Birakenewe kumenyako isanzagizwa, aho irungika n'iyakirwa bibabivana n'ibindi bintu, ntabwo aringorane hano. ntanarimwe bibabikenewe gukuramwo urwandiko rukwiye kandi rwigenga rwakahisa k'irungika n'iyakirwa.
 
 ## Amabanga
-
-Uburyo bwa banki gakondo bugera ku rwego rw’ibanga mu kugabanya amakuru ku baburanyi babigizemo uruhare ndetse n’abandi bantu bizewe. Gukenera gutangaza ibyakozwe byose birabuza ubu buryo, ariko ubuzima bwite burashobora gukomeza kuburizwamo amakuru mu rindi. ikibanza: mugukomeza urufunguzo rusange ntirumenyekana. Rubanda rushobora kubona ko umuntu yohereje amafaranga kubandi, ariko nta makuru ahuza ibikorwa numuntu uwo ariwe wese. Ibi bisa nurwego rwamakuru yatangajwe nivunjisha, aho umwanya nubunini bwa ubucuruzi ku giti cye, " kaseti ", bishyirwa ahagaragara, ariko utabwiye amashyaka abo ari bo.
+Uburyo bw'amabanki bwa kera bushobora gushika kumabanga kurugero rwamabanga utuma abarimwo canke amashirahamwe y'icizere aronka amakuru adakwiye. Igituma hatangazwa kumugaragaro burirungikwa n'irihishwa bituma bikuraho ubwoburyo, ariko amabanga arashobora kuguma aziganijwe agahagarika ihanahanwa ry'amakuru nokubindi bice: Mukugumana ukudatanga umwindondoro kurupfunguruzo rwokukarubanda. Abantu barashobora kubonako  harumuntu yarungitse amahera kuyundi, ariko bitazaguhuzwa nagato kwirugikwa n'iyakira ukobiri kwose. Ivyo birasa n'amakuru ryasabikanijwe n'amasoko y'agaciro, aho isaha n'ukobingana y'irungikwa n'iyakira ryaburi muntu " Agace" bibavyashizwe kukarubanda, ariko bitigeze vyerekana abari babirimwo.
 
 ![](./privacy.svg)
 
-Nka firewall yinyongera, urufunguzo rushya rugomba gukoreshwa kuri buri gikorwa kugirango birinde guhuzwa na nyirubwite. Guhuza bimwe biracyakwirindwa hamwe nibikorwa byinshi byinjiza, byanze bikunze byerekana ko inyongeramusaruro zabo zari nyirazo. Ingaruka ni uko niba nyir'urufunguzo agaragaye, guhuza bishobora guhishura ibindi bikorwa bya nyirabyo.
+Ukwikingira vyiyongerako, izindi mpfunguruzo ziri zitegerezwa gukoreshwa buri rungikwa n'iyakira kugira ntibihave bihurira kurinyenevyo umwe. Ihuzwa kanaka riba ridashobora kwirindwa hamwe n'irihwa n'iyakira bifise ubwinjiriro bwinshi, vyerekanako hakenewe ukwinjira kwayo vyaribifise kamere imwe. Igiteye ubwoba n'uko nimba kamere y'urufunguruzo ishizwe ahabona, ihuzwa rishobora kwerekana irindi rungikwa n'iyakira bivakuriyo kamere nyene.
 
-## Kubara
+## Uguharura 
 
-Twihweje ibintu byibitero bigerageza kubyara urunigi rwihuta kuruta urunigi rwinyangamugayo. Nubwo ibyo bigerwaho, ntabwo itera sisitemu gufungura impinduka uko bishakiye, nko guha agaciro umwuka mubi cyangwa gufata amafaranga atigeze aba uwagabye igitero. Umutwe ntushobora kwakira ibikorwa bitemewe nkubwishyu, kandi inyangamugayo ntizigera zemera guhagarika zirimo. Igitero gishobora kugerageza guhindura imwe mubikorwa bye kugirango agarure amafaranga aherutse gukoresha.
+Turasuzuma amahitamwo abiri y'uwusatira ashaka kugira urukwirikirane rwihuta cane, hamwe n'urukwirikirane rwizewe. Naho ivyo vyashitsweko, ivyo ntibituma hugurugwa uburyo bwoguhindura biboneka, mugushiraho agaciro ataco kavuyeko canke gufata amahera ageze aba ayumusatirizi. Amapfunda ntabwo yemera nagato irihwa n'irihishwa atarivyo , kandi amapfundo yizewe ntiyemera nagato urunanini harimwo ivyo. Umusatirizi ntashobora kugerageza guhindura imwe mukurungika n'ukwakira kwaryo kugira igaruze amahera ihejeje gukoresha.
 
-Irushanwa riri hagati yumunyangamugayo nuruhererekane rwibitero birashobora kurangwa nkurugendo rwa Binomial. Intsinzi yibikorwa ni urunigi rwinyangamugayo rwaguwe numurongo umwe, rwongera kuyobora kuri +1, naho ibyananiranye ni urunigi rwibitero byongerewe umurongo umwe, bigabanya icyuho -1.
+Ihiganwa hagati y'urukwirikirane rwizewe hamwe n'urukwirikirane rw'uwusatirira ishobora kuba nk'isoko ryuguhitamwo hagati yabibiri. iyiza gutsinda itegezwa kuba iy'urukwirikirane rwizewe ry'urunani, kwongerako ivyayibanjirije +1, hama iyitariy'amahirwe itegerezwa kuba urukwirikirane rw'uwasatiririye murunni, gukurako rimwe _1
 
-Birashoboka ko igitero cyafata icyuho cyatanzwe nikibazo cyumukino wumukino. Dufate ko umukinyi wumukino ufite inguzanyo itagira imipaka atangirira ku gihombo kandi akina ibigeragezo bitagira ingano kugirango agerageze kugera kumena. Turashobora kubara amahirwe ashobora kugera kuri breakeven, cyangwa ko igitero cyigeze gifata urunigi rw'inyangamugayo, nkibi bikurikira:
+Amahirwe y'uko uwukora ibitero yoguhamvya ugucererwa kanaka bisa n'uburyo bwakero bwogutuma ingorane zitembagaza umukinyi.Dufate umukinyi afise ingorane idahera agatangura hamwe n'igihombo kandi agakina n'igiharuru ntarengwa  kugira agerageze gushikira hagati na hagati. Dushobora guharura amihirwe y'ugushikira umusi wohagati nahagati, canke k'umusatirizi ahamvya umusi umwe urukwirikirane rwizewe, uku gukwirikira[8] :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -118,7 +119,7 @@ Birashoboka ko igitero cyafata icyuho cyatanzwe nikibazo cyumukino wumukino. Duf
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;birashoboka ko inyangamugayo inyangamugayo isanga ubutaha</mtext>
+        <mtext>&#xA0;probability an honest node finds the next block</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -132,7 +133,7 @@ Birashoboka ko igitero cyafata icyuho cyatanzwe nikibazo cyumukino wumukino. Duf
         <mo>=</mo>
       </mtd>
       <mtd>
-        <mtext>&#xA0;birashoboka ko uwagabye igitero abona ahakurikira</mtext>
+        <mtext>&#xA0;probability the attacker finds the next block</mtext>
       </mtd>
     </mtr>
     <mtr>
@@ -150,11 +151,11 @@ Birashoboka ko igitero cyafata icyuho cyatanzwe nikibazo cyumukino wumukino. Duf
       </mtd>
       <mtd>
         <mrow>
-          <mtext>&#xA0;birashoboka ko igitero kizigera gifata kuva&#xA0;</mtext>
+          <mtext>&#xA0;probability the attacker will ever catch up from&#xA0;</mtext>
           <mrow class="MJX-TeXAtom-ORD">
             <mi>z</mi>
           </mrow>
-          <mtext>&#xA0;guhagarika inyuma</mtext>
+          <mtext>&#xA0;blocks behind</mtext>
         </mrow>
       </mtd>
     </mtr>
@@ -213,20 +214,19 @@ Birashoboka ko igitero cyafata icyuho cyatanzwe nikibazo cyumukino wumukino. Duf
     </mrow>
   </mstyle>
 </math>
+       
 
-Ukurikije uko tubitekereza
-<math xmlns ="http://www.w3.org/1998/Math/MathML">
-<mi>p</mi>
-<mo>></mo>
-<mi>q</mi>
-</math>, ibishoboka bigabanuka cyane nkuko umubare wibibuza igitero ugomba gufata hamwe no kwiyongera. Hamwe n'ibibazo bimurwanya, niba adakoze amahirwe yo gutera imbere hakiri kare, amahirwe ye aba make uko agenda asubira inyuma.
+Bivyanye n'ukwibaza twihaye ko… 
 
-Ubu turasuzuma igihe uwakiriye ibikorwa bishya agomba gutegereza mbere yo kumenya neza ko uwayohereje adashobora guhindura ibikorwa. Turakeka ko uwayohereje ari igitero ashaka gutuma uwakiriye yemera ko yamwishyuye igihe gito, hanyuma akayihindura kugirango yishyure nyuma yigihe runaka. Uwakiriye azaburirwa igihe ibyo bibaye, ariko uwayohereje yizeye ko bizatinda.
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>p</mi>
+  <mo>&#x003E;<!-- > --></mo>
+  <mi>q</mi>
+</math>, Turasuzuma ubu, umwanya ungana gute uwarungikiwe canke irihwa rishasha ategerezwa kurindira kugira yizere k'uwarungitse adashobora guhindura irihwa canke irihishwa. Dufatako uwarungitse ari uwugira igitero ashaka kwizeza uwurungikiwe yamufashije kukiringo kanaka, hama agahindura kugira yisubirire wenyene inyuma yigihe kanaka carenganye. Uwarungikiwe azohabwa ubutumwa iyo ivyobibaye, ariko uwarungitse azokwizera kovyarengerekanye.
 
-Uwakiriye atanga urufunguzo rushya kandi atanga urufunguzo rusange kubohereje mbere yo gusinya. Ibi birinda uwagutumye gutegura urunigi rwibice mbere yigihe cyo kubikora kugeza igihe azagira amahirwe yo kugera kure bihagije, hanyuma agakora transaction muricyo gihe. Igicuruzwa kimaze koherezwa, uwakohereje ubuhemu atangira gukora rwihishwa kumurongo uringaniye urimo ubundi buryo bwo gucuruza.
+Uwakira atanga iyundi mugwi w'imfunguruzo zibiri zibonwa nabose z'uwutanga umwanya muto imbere y'ukurungika. Ivyobibuza uwurungika gutegura kwunguruza urukwirikirane rw'inkuta mugukorera kuriki gushika habaye amahirwe yogushika kure hashoboka, hama igakora iryorungikwa n'irihishwa muruyomwanya. iyo irungikwa n'iyakirwa ribaye, uwurungika atizewe atangura gukora mumpisho kurukwirikirane rubangabanganijwe rurimwo ayandi mahitamwe y'irungikwa n'iyakira
 
-Uyahawe arategereza kugeza igihe ibicuruzwa byongewe kuri blok na z
-guhagarika byahujwe nyuma yacyo. Ntazi umubare nyawo w'igitero uwateye yateye, ariko ukeka ko inyangamugayo zafashe igihe cyo kugereranya igihe cyari giteganijwe, igitero gishobora kuba igitero cya Poisson gifite agaciro kateganijwe:
+Uwarungikiwe ararindira gushika aho irungikwa canke iyakira riba ryongejwe kurukuta kandi ko urukuta Z rubarwahujwe inyuma y'urwo. Ntabazi igitigiri nyaco c'uwugira ibitero yagize, ariko rugafata ko igikuta cizewe cafashe umwanya wohagati urindiriwe n'ugusabikanya, iterambere rishoboka ry'uwugira ibitero bizoba arugusabikanya kwa Poisson hamwe n'agaciro karindiriwe.
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -240,7 +240,7 @@ guhagarika byahujwe nyuma yacyo. Ntazi umubare nyawo w'igitero uwateye yateye, a
   </mstyle>
 </math>
 
-Kugirango tubone ibishoboka uwagabye igitero ashobora gukomeza gufata ubu, tugwiza ubwinshi bwa Poisson kuri buri terambere yashoboraga gutera bitewe nibishoboka ashobora gufata kuva icyo gihe:
+Kugira haboneke amahirwe ko abagira ibitero bashobore gufata ubu, turarwiza igwirirana rya Poisson kuri buri terambere yashoboye gukora kumahirwe ashobora gutanga bihereye kuri ico kintu :
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -327,7 +327,7 @@ Kugirango tubone ibishoboka uwagabye igitero ashobora gukomeza gufata ubu, tugwi
   </mstyle>
 </math>
 
-Gutondekanya kugirango wirinde guteranya umurizo utagira ingano wo kugabura...
+Gusubira gutunganya kugira harindwe guteranywa imirongo idahera y'ugusabikanya…
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -390,7 +390,7 @@ Gutondekanya kugirango wirinde guteranya umurizo utagira ingano wo kugabura...
   </mstyle>
 </math>
 
-Guhindura kuri C code...
+Guhindura mubinyegezwa vya C…
 
 ```c
 #include 
@@ -410,8 +410,7 @@ double AttackerSuccessProbability(double q, int z)
 	return sum;
 }
 ```
-
-gukoresha ibisubizo bimwe na bimwe, turashobora kubona amahirwe yo kugabanuka hamwe na z.
+Mugutanga inyishu kanaka, dushobora kubonako amahirwe yagabanutse muburyo bwirasa bwampi hamwe na Z
 
 ```
 q=0.1
@@ -440,8 +439,7 @@ z=40   P=0.0000095
 z=45   P=0.0000024
 z=50   P=0.0000006
 ```
-
-Gukemura kuri P munsi ya 0.1% ...
+Gukosora P birimunsi ya  0.1%..
 
 ```
 P < 0.001
@@ -454,18 +452,17 @@ q=0.35   z=41
 q=0.40   z=89
 q=0.45   z=340
 ```
+## Ugusozera
 
-## Umwanzuro
+Twarashikirije ubuhiga bwokurungika n'ukwakira tutararinze gukoresha icizere. Twatanguye n'uburyo bumenyerewe bwogukoresha ibidodo vyangurukanabumenyi, bituma haba isuzumwa rikomeye ry'ubutunzi, ariko bituzuye neza ataburyo bwugushika gusesagura kabiri. Kugira dukosore ivyo, twarashikirije umuryango bwokuringurukana bumenyi ukoresha ubuhinga bushingiye kuri babiri bukoresha kuvyemeza vy'igikorwa bushingura kahise kirungikwa n'irihwa bituma bidashoboka guhindura kubitero iyo amapfundo yizewe ariyo asuzuma ubushobozi bwibiharuro nkavyose.  Umuryango urakomeye cane mukworosha kayo kutubatswe. Amapfundo akorera yose mumwanyumwe biyobowe gato. Zikenewe gusuzumwa, kuko ubutumwa ntibukenewe kwarekeza kukibanza kanaka kandi bukenewe gusa gutangwa muburyo bwikwije. Amapfundo ashobora kuhava canke akifadikanya n'umuryango ashatse, akemera uruhererekana rwiyemezwa ry'ibikorwa nk'icemeza ivyabaye mugihe c'ibisibo vyazo. Aracagura bivanye nubushobozi bw'uguharura, bikerekana iyemezwa vy'ivyemejwe mucikotuma bisanzagizwa hama bikirukana zitemejwe kuhakora. Amategeko yose hamwe n'igashirukabute gakenewe gashobora gushirwako ubwobuhinga buhirijweko nabose.
 
-Twasabye sisitemu yo gucuruza ibikoresho bya elegitoronike tutishingikirije ku kwizerana. Twatangiriye kumurongo usanzwe wibiceri bikozwe mumikono ya digitale, itanga igenzura rikomeye rya nyirubwite, ariko ntabwo ryuzuye nta buryo bwo gukumira amafaranga abiri. Kugira ngo iki kibazo gikemuke, twasabye urungano rwurungano rwifashishije gihamya-yakazi kugirango twandike amateka rusange yubucuruzi bihita bihinduka kubara bidashoboka ko igitero gihinduka niba imitwe inyangamugayo igenzura imbaraga nyinshi za CPU. Umuyoboro urakomeye muburyo bworoshye bwubatswe. Umutwe ukora icyarimwe hamwe no guhuza bike. Ntibakeneye kumenyekana, kubera ko ubutumwa buterekanwa ahantu runaka kandi bugomba gutangwa gusa kubikorwa byiza. Imyanya irashobora kugenda hanyuma igasubira murusobe uko bishakiye, ikemera icyemezo-cyakazi nkikimenyetso cyibyabaye mugihe bari bagiye. Batora n'imbaraga zabo za CPU, bagaragaza ko bemera guhagarika byemewe mugukora kubagura no kwanga kubuza kwanga kubakorera. Amategeko yose akenewe hamwe nubushake arashobora gukurikizwa hamwe nuburyo bwumvikanyweho.
-
-## Reba
-
+## Ivyitegererezo
 1. W. Dai, ["b-money,"](https://nakamotoinstitute.org/b-money/) [http://www.weidai.com/bmoney.txt](http://www.weidai.com/bmoney.txt), 1998.
-2. H. Massias, X.S. Avila, and J.-J. Quisquater, ["Design of a secure timestamping service with minimal trust requirements,"](https://nakamotoinstitute.org/secure-timestamping-service.pdf) In 20th Symposium on Information Theory in the Benelux, May 1999.
-3. S. Haber, W.S. Stornetta, ["How to time-stamp a digital document,"](https://nakamotoinstitute.org/time-stamp-digital-document.pdf) In Journal of Cryptology, vol 3, no 2, pages 99-111, 1991.
-4. D. Bayer, S. Haber, W.S. Stornetta, ["Improving the efficiency and reliability of digital time-stamping,"](https://nakamotoinstitute.org/improving-time-stamping.pdf) In Sequences II: Methods in Communication, Security and Computer Science, pages 329-334, 1993.
-5. S. Haber, W.S. Stornetta, ["Secure names for bit-strings,"](https://nakamotoinstitute.org/secure-names-bit-strings.pdf) In Proceedings of the 4th ACM Conference on Computer and Communications Security, pages 28-35, April 1997.
+2. H. Massias, X.S. Avila, and J.-J. Quisquater, ["Gukora ubuhinga bw'ugushirahamwe bukingiwe hamwe n'ibisabwa bike bishonoka kubijanye n'icizere,"](https://nakamotoinstitute.org/secure-timestamping-service.pdf) kw'ihwaniro kaminuza kumayarwa y'iherekana ryamakuru muri ry'Benelux, mukwagatanu 1999.
+3. S. Haber, W.S. Stornetta, ["Gute wohuriza hamwe idokima yokuri nyabwonko,"](https://nakamotoinstitute.org/time-stamp-digital-document.pdf) Mukinyamakuru ca Cryptology, iguc ca 3, kuri 2, impapuro za 99-111, 1991.
+4. D. Bayer, S. Haber, W.S. Stornetta, ["Kwongerezwa ubunyarutsitsi n'ubwizerwe bw'ihurzwa hamwe ryokuri mudasobwa,"](https://nakamotoinstitute.org/improving-time-stamping.pdf) Murukwirikirane rwa 2: Uburyo mwihana hana ry'amakuru, umuntekano hamwe nangurukana bumenyi, impapuro za 329-334, 1993.
+5. S. Haber, W.S. Stornetta, ["Amazina akingiwe kurukwirikirane bw'ubuhinga bufatiye kuri 0 na 1,"](https://nakamotoinstitute.org/secure-names-bit-strings.pdf) Mubikorwa vy'uhuriro rigira 4 rya ACM ryo kumutekano w'ubuhinga ngurukana bumenye n'uguhana hana amakuru, urupapuro rwa 28-35, Mukwakane 1997.
 6. A. Back, ["Hashcash - a denial of service counter-measure,"](https://nakamotoinstitute.org/hashcash.pdf) ][http://www.hashcash.org/papers/hashcash.pdf](http://www.hashcash.org/papers/hashcash.pdf), 2002.
-7. R.C. Merkle, ["Protocols for public key cryptosystems,"](https://nakamotoinstitute.org/public-key-cryptosystems.pdf) In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
-8. W. Feller, ["An introduction to probability theory and its applications,"](https://nakamotoinstitute.org/introduction-probability-theory-vol-i.pdf) 1957.
+7. R.C. Merkle, ["Uburyo bwashizweho kugira ubuhinganyegezwa bufise urupfunguruzo rurahabona,"](https://nakamotoinstitute.org/public-key-cryptosystems.pdf) In Proc. 1980Ihuriro kaminuza kumutekano hama n'ibanga, IEE Computer Society , p+B86ages 122-133, Mukwakane 1980.
+8. W. Feller, ["Intangamarara kumayarwa y'amahirwe n'ibikoreshwa,"](https://nakamotoinstitute.org/introduction-probability-theory-vol-i.pdf) 1957.
+
