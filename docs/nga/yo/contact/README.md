@@ -2,7 +2,7 @@
 
 <LanguageDropdown/>
 
-Twitter: @[exonumia280](https://twitter.com/exonumia280)
+Twitter: @[exonumiaAfrica](https://twitter.com/exonumiaAfrica)
 
 Instagram: @[exonumia.africa](https://www.instagram.com/exonumia.africa)
 
