@@ -1,4 +1,4 @@
-const { path } = require('@vuepress/utils')
+const path = require('path')
 
 const customTags = [
     'math',
@@ -20,19 +20,10 @@ const customTags = [
 
 module.exports = {
     theme: path.resolve(__dirname, './theme'),
-    bundler: '@vuepress/webpack',
-	bundlerConfig: {
-		vue: {
-			compilerOptions: {
-				isCustomElement: tag => {
-					return customTags.includes(tag)
-				}
-			}
-		}
-	},
-    extendsMarkdown: md => {
-        // use more markdown-it plugins!
-        md.use(require('markdown-it-footnote'))
+    markdown: {
+        extendMarkdown: md => {
+            md.use(require('markdown-it-footnote'))
+        }
     },
     head: [
         ['meta', { charset: "UTF-8"}],
@@ -42,9 +33,7 @@ module.exports = {
     ],
     dest: 'dist',
     plugins: [
-        [
-          '@vuepress/plugin-google-analytics',
-          {
+        ['@vuepress/google-analytics', {
             id: 'G-NY2PV8B0BG',
           },
         ],

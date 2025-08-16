@@ -1,0 +1,38 @@
+import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
+import footnote from 'markdown-it-footnote'
+
+const customTags = [
+    'math',
+    'mtable',
+    'mtr',
+    'mtd',
+    'mstyle',
+    'mi',
+    'mo',
+    'mtext',
+    'msub',
+    'mrow',
+    'mn',
+    'mspace',
+    'msup',
+    'mfrac',
+    'munderover'
+]
+
+export default defineUserConfig({
+    theme: defaultTheme(),
+    bundler: '@vuepress/webpack',
+    bundlerConfig: {
+        vue: {
+            compilerOptions: {
+                isCustomElement: tag => customTags.includes(tag)
+            }
+        }
+    },
+    markdown: {
+        extend: (md) => {
+            md.use(footnote)
+        }
+    }
+})
