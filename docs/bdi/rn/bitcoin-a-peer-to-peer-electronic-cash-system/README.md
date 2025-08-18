@@ -102,7 +102,7 @@ Ukwikingira vyiyongerako, izindi mpfunguruzo ziri zitegerezwa gukoreshwa buri ru
 
 Turasuzuma amahitamwo abiri y'uwusatira ashaka kugira urukwirikirane rwihuta cane, hamwe n'urukwirikirane rwizewe. Naho ivyo vyashitsweko, ivyo ntibituma hugurugwa uburyo bwoguhindura biboneka, mugushiraho agaciro ataco kavuyeko canke gufata amahera ageze aba ayumusatirizi. Amapfunda ntabwo yemera nagato irihwa n'irihishwa atarivyo , kandi amapfundo yizewe ntiyemera nagato urunanini harimwo ivyo. Umusatirizi ntashobora kugerageza guhindura imwe mukurungika n'ukwakira kwaryo kugira igaruze amahera ihejeje gukoresha.
 
-Ihiganwa hagati y'urukwirikirane rwizewe hamwe n'urukwirikirane rw'uwusatirira ishobora kuba nk'isoko ryuguhitamwo hagati yabibiri. iyiza gutsinda itegezwa kuba iy'urukwirikirane rwizewe ry'urunani, kwongerako ivyayibanjirije +1, hama iyitariy'amahirwe itegerezwa kuba urukwirikirane rw'uwasatiririye murunni, gukurako rimwe _1
+Ihiganwa hagati y'urukwirikirane rwizewe hamwe n'urukwirikirane rw'uwusatirira ishobora kuba nk'isoko ryuguhitamwo hagati yabibiri. iyiza gutsinda itegezwa kuba iy'urukwirikirane rwizewe ry'urunani, kwongerako ivyayibanjirije +1, hama iyitariy'amahirwe itegerezwa kuba urukwirikirane rw'uwasatiririye murunni, gukurako rimwe -1
 
 Amahirwe y'uko uwukora ibitero yoguhamvya ugucererwa kanaka bisa n'uburyo bwakero bwogutuma ingorane zitembagaza umukinyi.Dufate umukinyi afise ingorane idahera agatangura hamwe n'igihombo kandi agakina n'igiharuru ntarengwa  kugira agerageze gushikira hagati na hagati. Dushobora guharura amihirwe y'ugushikira umusi wohagati nahagati, canke k'umusatirizi ahamvya umusi umwe urukwirikirane rwizewe, uku gukwirikira[8] :
 
