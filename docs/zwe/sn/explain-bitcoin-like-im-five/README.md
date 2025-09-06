@@ -2,6 +2,8 @@
 translators: 
     - 
         name: "Tebogo Makgakga"
+        href: "https://www.instagram.com/ngomayatebo/"
+    - 
         name: "Mpho Makgakga"
         href: "https://twitter.com/empee_mpho"
 supporters: 
