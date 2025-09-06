@@ -3,7 +3,7 @@ translators:
     - 
         name: "Hilja Eelu"
         href: "https://twitter.com/youngish_human"
-    -
+    - 
         name: "Lazarus Uusiku"
         href: "https://twitter.com/ThisIsLarza"
 ---

@@ -4,7 +4,7 @@ translators:
     - 
         name: "أحمد الصيادي"
         href: "https://twitter.com/alsayadii"
-    -
+    - 
         name: "صلاح الدين محمد"
 ---
 # البيتكوين: نظام نقد الكتروني قائم على مبدأ الند للند
