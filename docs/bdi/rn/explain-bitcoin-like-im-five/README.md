@@ -54,7 +54,7 @@ Ico gitabo c'ukwuzuzwa, dusanzwe tuziko gishingiye kurinyabwonko, gitegezwa kuba
 
 Ibaze, dufate nko mwisi ya Warcraft. Blizzard, abantu bakoze imikino yokuri ngurukana bumenyi, bafise 'igitabo cokwuzuza kiri kurinyabwonko' kunkota zose zirimwo, kumiriro yakaka isanzwe iri mubuhinga bwayo. None, vyiza, Umuntu ameze nkabo ashobora gukwirikirana amapome yokuri nyabwonko yacu. Vyiza cane, twashoboye kubitorera inyishu ivyo!
 
-### Ingorane
+### Inyishu
 
 Harimwo akagorane gato:
 
