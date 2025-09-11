@@ -1,4 +1,4 @@
-# Bitcoin na kahise kubutegetsi bwa Kenya
+# Bitcoin na Kahise kubutegetsi bwa Kenya
 
 Yanditswe na Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
 
@@ -10,7 +10,7 @@ Uku niko i Banki nkuru ya Nijeriya 🇳🇬 ibibona, Nijeriya ihagarika amashira
 
 ![](./cbn-bar-bitcoin.jpg)
 
-Murabe iciyumviro gisa nico catanzwe na banki nkuru ya Kenya 🇰🇪irabuza amabanki gusuzuma irihwa ry'amashirahamwe akoresha amahera avuye kurinyabwonko. (https://www.centralbank.go.ke/uploads/banking_circulars/2075994161_Banking%20Circular%20No%2014%20of%202015%20-%20Virtual%20Currencies%20-%20Bitcoin.pdf)
+Murabe iciyumviro gisa nico catanzwe [na banki nkuru ya Kenya 🇰🇪irabuza amabanki gusuzuma irihwa ry'amashirahamwe akoresha amahera avuye kurinyabwonko](https://www.centralbank.go.ke/uploads/banking_circulars/2075994161_Banking%20Circular%20No%2014%20of%202015%20-%20Virtual%20Currencies%20-%20Bitcoin.pdf)
 
 ![](./cbk-bar-bitcoin.jpg)
 
