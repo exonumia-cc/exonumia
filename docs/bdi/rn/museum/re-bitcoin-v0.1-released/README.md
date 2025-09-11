@@ -1,59 +1,44 @@
-# Re: Bitcoin v0.1 released
+# Inyishu: Bitcoin v0.1 isabikanijwe
 
-by Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
+Yanditswe na Hal Finney [2009/01/11](https://web.archive.org/web/20190712071421/https://www.mail-archive.com/cryptography@metzdowd.com/msg10152.html)
 
 <LanguageDropdown/>
 
-Satoshi Nakamoto writes:
+Satoshi Nakamoto yanditse:
 
-> Announcing the first release of Bitcoin, a new electronic cash
-> system that uses a peer-to-peer network to prevent double-spending.
-> It's completely decentralized with no server or central authority.
+> Itangazwa ry'umuce wambere wa Bitcoin 
+> Ubuhinga bushasha bw'amafaranga bwokuri ngurukana bumenyi akoresha umuryago uri ku buhinga bwababiri kugira wirinde ukuriha kabiri.
+> Irasabikanijwe cane ataco ashingiweko canke ataho atwarirwa.
 >
-> See bitcoin.org for screenshots.
+> Suzuma kuri bitcoin.org kubwama sanamu afashwe n'ikiyo camudasobwa.
 >
-> Download link:
-> http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
+> Rahura uno muhora:
+http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
 
-Congratulations to Satoshi on this first alpha release.  I am looking
-forward to trying it out.
+Akezwe Satoshi kurino ntambwe yambere (alpha). Numva nipfuza cane kuyigerageza.
 
-> Total circulation will be 21,000,000 coins.  It'll be distributed
-> to network nodes when they make blocks, with the amount cut in half
-> every 4 years.
+> Ibizunguruka vyose bizoba 21,000,000 vy'ibingorongoro. 
+Bizosabikanywa biciye
+> kumapfundo y'umuryango iyo bishizwehamwe bigakora urukuta, igitigiri kikagabanurwamwo kabiri.
+> burimyaka 4.
 >
-> first 4 years: 10,500,000 coins  
-> next 4 years: 5,250,000 coins  
-> next 4 years: 2,625,000 coins  
-> next 4 years: 1,312,500 coins  
-> etc...
+> Imyaka 4 yambere: 10,500,000
+> myaka 4: 5,250,000
+> Iyindi myaka 4: 2,625,000  
+> Iyindi myaka 4: 1,312,500  
+> Bibandanya uko...
 
-It's interesting that the system can be configured to only allow a
-certain maximum number of coins ever to be generated. I guess the
-idea is that the amount of work needed to generate a new coin will
-become more difficult as time goes on.
+N'ivyakamaro ko ububuhinga bushobora gukorwa kuburyo hashobora kwemezwa gusa igitigiri ntarengwa c'ibingorongoro bishobora gushirwa hanze. Ndibazako iciyumviro aruko igitigiri c'ibikorwa bikenewe kugira bishire ahabona ibingorongoro bishasha bizotera bigenda giragorana uko ibihe vyiyongera.
 
-One immediate problem with any new currency is how to value it. Even
-ignoring the practical problem that virtually no one will accept it
-at first, there is still a difficulty in coming up with a reasonable
-argument in favor of a particular non-zero value for the coins.
+Ingorane yihuta kuriburi bwoko bw'amafaranga nigute yahabwa agaciro. Nomukwihoza ingorane yuko mu bisanzwe ata muntu ayemera mu ntango, hariho burigihe ingorane yogutorera insigro itahuritse kuvyerekeye agaciro katangana n'ubusa nacane cane kubingorongoro.
 
-As an amusing thought experiment, imagine that Bitcoin is successful and
-becomes the dominant payment system in use throughout the world.  Then the
-total value of the currency should be equal to the total value of all
-the wealth in the world. Current estimates of total worldwide household
-wealth that I have found range from $100 trillion to $300 trillion. With
-20 million coins, that gives each coin a value of about $10 million.
+Nk'ukugerageza kwo mu vyiyumviro bitwenza, iyumvireko Bitcoin yakunze kandi igacika ubuhinga bwo kuriha bukwiye isiyose. Muri ico gihe, agaciro k'amahera kose gategerezwa kuba kangana n'agaciro kari kuri ino si tubayeko. Ibiharuro ngereranyo vy'ubutunzi bwose hamwe bw'imiryango mwisi natoye buri hagati y'imiriyaridi 100 0000 hamwe n'imiriyaridi 300 000 y'amadorari. Hamwe nibingorongoro imiriyoni 20, ivyo bizotanga agaciro kuri buri kingorongoro kababa imiriyoni 10 y'amadorari.
 
-So the possibility of generating coins today with a few cents of compute
-time may be quite a good bet, with a payoff of something like 100 million
-to 1! Even if the odds of Bitcoin succeeding to this degree are slim,
-are they really 100 million to one against? Something to think about...
+Amahirwe yogusohora ibiceri ubu, mumwanya muto cane bishobora guharurwa neza cane, hamwe n'inyungu yababa imiriyoni 100 kumwaka ! Ariko amahirwe yuko Bitcoin yemezwa gushika kururwo rugezo nimake, yoba vy'ukuri ari imiriyoni 100 kuri imwe ? Nibintu vyogusuzuma...
 
 Hal
 
 ---------------------------------------------------------------------
-The Cryptography Mailing List
-Unsubscribe by sending "unsubscribe cryptography" to majord...@metzdowd.com
+Urutonde rw'irungikwa ry'uhinga bw'ukunyegeza. Mubanze mwikurureko mukurungika  " unsubscribe cryptography(Kwikurako kubuhinga bw'ukunyegezwa)" kwa majord...@metzdowd.com
 

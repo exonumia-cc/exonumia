@@ -64,7 +64,7 @@ Harimwo akagorane gato:
 
 > Hoba hariho uburyo bwogusubira gukora neza ryarungikwa n'iyakira kuntebeyo muri kagashamba, hagati yawe nanje, muburyo bwokuri nyabwonko ? Bisa nibimeze mkibigoye...
 
-### Igisubizo
+### Inyishu
 
 Wumva gute dutanze icogitabo c'ukwuzuzwa kuri bose ? Aho gufata icogitabo kikabikwa kurinyabwonko za Blizzard, Vyoba biri kuri mudasobwa zabose. Kwirungikwa n'iyakira ryose riba. mubihe vyose, icamwa ca pome cokuri mudasobwa kizokwandikwamwo.
 
