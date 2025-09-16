@@ -21,9 +21,10 @@
   "author": "Sigidli",
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^2.0.0-beta.25",
-    "@vuepress/plugin-register-components": "^2.0.0-beta.26",
+    "@vuepress/plugin-google-analytics": "1.9.9",
+    "@vuepress/plugin-register-components": "1.9.9",
+    "@vuepress/theme-default": "1.9.9",
     "markdown-it-footnote": "^3.0.3",
-    "vuepress": "^2.0.0-beta.25"
+    "vuepress": "1.9.9"
   }
 }

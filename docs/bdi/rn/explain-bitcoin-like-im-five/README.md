@@ -1,111 +1,107 @@
-# Explain Bitcoin Like I’m Five
+# Sigura Bitcoin nkuko umengo noba mfise imyaka 5
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+Yanditswe na Nik Custodio[2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Nimba mutarashobora gushika ayamango gutahura icarico Bitcoin…
 
-We’re sitting on a park bench. It’s a great day.
+Mfise icamwa ca pome. Ndakiguhaye.
 
-I have one apple with me. I give it to you.
+Ubu rero, urafise icamwa ca pome hama nanje, mfise ubusa.
 
-You now have one apple and I have zero.
+Biroroshe, sivyo none ?
 
-That was simple, right?
+### Turabire hagufi ivyabaye :
 
-### Let’s look closely at what happened:
+Icamwa canje ca pome nakiguhaye muminwe yawe.
 
-My apple was physically put into your hand.
+Uraziko vyabaye. Naringaha. Waringaha, Wagikozeko.
 
-You know it happened. I was there. You were there. You touched it.
+Ntitwari dukeneye umuntu agira gatatu kugira adufashe irungikwa. Ntitwaridukeneye kubizanamwo marume Tommy ( N'umucamanza rurangiranwa) kugira yicarane natwe kuntebe y'ikiranda, hama yemezeko icamwa ca pome cavuye iwanje kija iwawe.
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Icamwa ca pome n'icawe! Sinshobora kuguha ikindi camwa ca pome kuko ntaconkifise. Ntabushozi ndagifiseko. Icamwa ca pome cavuye mubushobozi bwanje bwose. Ubu urafise ubushobozi bwose kurico camwa ca pome. Urashobora kugiha umugenzi wawe ushatse, hama uyo mugenzi wawe akagiha umugenzi wiwe. Bikabandanya uko.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Rero nguko uko uguhanahana hagati yabantu biba bimeze. Ndibaza nicokimwe iyondaguhaye igitoke, igitabu, canke tuvuge icakane, canke inoti y'idorari…
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Mpagarare gato.
 
-But I’m getting ahead of myself.
+### Dusubire inyuma kuricacawa ca pome!
 
-### Back to apples!
+Ubu rero, tuvugeko mfise icamwa capome gikoreshwa n'inyabwonko. Raba, ndaguhaye pome yanje ikoreshwa na mudasobwa.
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Ah! Uburero biratanguye kuryoha.
 
-Ah! Now it gets interesting.
+Nigute uziko iyo pome yanje ikoreshwa nyabwoko yahoze ariyiwanje gusa ubu isigaye ariyawe, yiwawe gusa? Vyiyunvire isegonda.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+Biragoye gutahura, sivyo none ? Nigute uziko ntarungitse iyo pome kwa marume Tommy mugace kiyongera kubutumwa bwa imeyiri ubwambere ? Canke kwamugenzawe Joe ? Canke kumugenzi wanje Lisa kandi ?
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Birashoboka konoba nagize ibisa nico camwa ca pome gikoreshwa nyabwonko kuri mudasobwa. Birashoboka konoba nayishize kurimudasobwa hama abantu bangana n'umuriyoni bakaba bayirahuye.
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Nkuko mubibona, iryohanahanwa ryokuri nyabwonko riratera ingorane ntoyi. Kurungika ivyamwa vya pome vyokuri nyabwonko ntaho bisa bisaniye nokurungika ama pome asanzwe.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Abahinga bakoresha nyabwonko baratanze izina kuriyongorane. Nivyobita ingorane yokuriha kabiri.Ariko ntimuhagarikwe umutima nivyo. Ivyomutegezwa kumennya, N'uko ivyo vyabacanze igihe kinini hama ntibigeze babikosora.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Gushika ubu.
 
-Until now.
+Ariko reka twiyumvire inyishu twebwe nyene.
 
-But let’s try to think of a solution on our own.
+### Ibitabo vy'ukwuzuza.
 
-### Ledgers
+Birashobokako ivyovyamwa vya pome vyoba bitegezwa gukwirikiranwa mugitabu c'ukwuzuzwa. N'igitabo aho ushobora gukwirikirana irungikwa n'iyakira - Igitabo c'ivyinjira n'ibisohoka.
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Ico gitabo c'ukwuzuzwa, dusanzwe tuziko gishingiye kurinyabwonko, gitegezwa kuba mwisi yaco hama kikagira uwugikwirikirana.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Ibaze, dufate nko mwisi ya Warcraft. Blizzard, abantu bakoze imikino yokuri ngurukana bumenyi, bafise 'igitabo cokwuzuza kiri kurinyabwonko' kunkota zose zirimwo, kumiriro yakaka isanzwe iri mubuhinga bwayo. None, vyiza, Umuntu ameze nkabo ashobora gukwirikirana amapome yokuri nyabwonko yacu. Vyiza cane, twashoboye kubitorera inyishu ivyo!
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+### Inyishu
 
-### Problems
+Harimwo akagorane gato:
 
-There’s a bit of a problem though:
+1) Hobiki umuntu wo kwa Blizzard yozikora nyinshi cane ? Yokwongerako gusa ivyamwa vya pome bikoreshwa na nyabwonko kumitahe yiwe abishatse!
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+2) Ntabwo bisa bisana nagato nomuri cagihe twarikuri yantebe yikiranda wamusi. Yarijewe nawewe gusa. Uciye kuri Blizzard, ninkuko woba ubizanyemwo marume Tommy ( Uyundi muntu) womuri gasamburamanza ( Noba navuzeko arumucamanza rurangiranwa ?) Kwirungikwa n'iyakira ryose ryabereye kuntebe y'ikiranda mugashamba. Gute noshobora kuguha bisanzwe pome yanje yokuri nyabwonko, nkuko, ubizi muburyo busanzwe ?
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+> Hoba hariho uburyo bwogusubira gukora neza ryarungikwa n'iyakira kuntebeyo muri kagashamba, hagati yawe nanje, muburyo bwokuri nyabwonko ? Bisa nibimeze mkibigoye...
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+### Inyishu
 
-### The Solution
+Wumva gute dutanze icogitabo c'ukwuzuzwa kuri bose ? Aho gufata icogitabo kikabikwa kurinyabwonko za Blizzard, Vyoba biri kuri mudasobwa zabose. Kwirungikwa n'iyakira ryose riba. mubihe vyose, icamwa ca pome cokuri mudasobwa kizokwandikwamwo.
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Ntidushobora kwiba. Sinshobora kukurungikira ama pome ntafise, wanashima ivyo ntivyoshobora kwemezwa nabose icarimwe mubuhinga. Bwoba arubuhinga bugoye gukubita. Nacane cane n'ibubaye bunini.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+Vyongeye ntibugenzugwa n'umuntu umwe, rero ndaziko atamuntu n'umwe yoshobora gufata vyoroshe ko agomba yihe ama pome yokuri mudasobwa. Amategeko y'ubuhinga yamaze gushigwaho imbere y'igihe. Hama amategeko araguruye kuva muntango. Aringaho kugira abantu baciye ubwenge baterere, bagumye, bakingire, bongereko kandi basuzume.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Murashobora guterera muruwo muryango, gushira kugihe igitabo c'ukwuzuzwa, hama ugasuzuma kovyose biri mumategeko. Nk'ikiguzi, urashoboa kuronka amapome yokuri nyabwonko angana na 25 nkikiguzi. Hanyuma, nibwo buryo bwonyene bwogukora ama pome yokurimudasobwa murubwobuhinga.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+### Napfunyapfunyije cane
 
-### I simplified quite a bit
+… .... ariko ubuhinga nasiguye burabaho. Bwitwa urukwirikirane rwa Bitcoin. Hama ivyovyamwa vyokuri mudasobwa n'ama "bitcoins" murubwobuhinga. Biratangaje!
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+None, mwabonye ivyabaye ? Nibiki igitabu cokwuzuzwamwo nabose gifasha ?
 
-So, did you see what happened? What does the public ledger enable?
+1) Vyuguruye kuva muntango, muravyibuka ? Igitigiri cose c'ama pome carashizweho mugitabo c'ukwuzuza kuva muntango. Ndazi igiharuru ntarengwa kihari. Mubuhinga, ndazi kozifise aho zigarukira (z'agaciro).
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+2) Mugihe nagira ihanahanwa, ndazi ubu ko ipome yokuri nyabwonko yemejwe ikava muvyontunze hama ubu akaba ariyawe yose. Imbere, sinarigushora kuvuga ivyo kuvyerekeye ivyokuri nyabwonko. Ivyo vyoba vyashizwe kugihe hama bigasuzumwa n'igitabo c'ukwuzuzwa ca bose.
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+3) Kugugira kibe igitabu cokuri mudasobwa cabose, sinarinkeneye marume Tommy (Uyundi muntu) kugira menye kontohavuye niba, canke kontarigukora izindi zisanayo ziwanje nyene, canke nkarungika amapome incuro zibiri, canke zitatu…
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+    Mubuhinga, ihanwahanwa ry'ipome yokurimudasobwa ubu imenze nk'ihanahanwa ryipome isanzwe. Uburero biratahuritse kubona ipome bisanzwe iva mumaboko yanje ikaja mumaboko yawe. Nikumwe kwokuntebe y'ikiranda mugashamba, ihanwahanwe ryatumye habamwo gusa abantu babiri, wewe nanje - ntitwaridukeneye marume Tommy kugira yemeze.
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+Muyandi majambo, vyitwara nkibikoresho.
 
-In other words, it behaves like a physical object.
+Urazi igitangaje cane ? Nivyokuri mudasobwa. turashobora gukorera nokuma pome angana 1000, acanke umuriyoni 1 wamapome, canke wanashima amapome 0000001. ndashobora kuyarungika mfyonze gusa kuributo, kandi ndashobora kuzishira mumufuko wawe wokurimudasobwa nibereye muri Nikaragua hama ukaba wibereye i New York.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Ndashobora wanashima kurungika ibindi bintu kurinyabwonko kurizo pome zokuri nyabwonko ! Inyuma yavyose nivyokuri nyabwonko. Birashiko konshobora kwongerako inyandiko. Ivyandiko vyo kurinyabwonko. Canke nshobora kwongerako ibindi bintu vyagaciro; nkamasezerano, canke urupapuro rw'iyemezwa ry'imitahe, canke karangamuntu...
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Rero, Biratangaje ! Gute twoshobora gusuzuma canke tugaha agaciro izi 'pome zokuri mudasobwa' ? Zirakenewe cane, sivyonone ?
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Vyiza, abantu benshi barabiganira ubu. Hari uguharira hagati yiryoshure ry'ubutunzi hamwe n'iri. Hagati yabanye poritike. Hagati y'abahinga mugutunganya ivyamudasobwa. Ariko ntuzubumvirize bose. Abantu bamwe bamwe baraciye ubwenge. Abantu bamwe bafise amakuru atariyo. Abantu bamwe bavugako ubuhinga arubwagaciro cane, abandi ko atagacire nakamwe bufise. Abantu bamwe bamwe barashizeho igiharuru kizwi : Amadorari 1300 kuri pome imwe. abantu bamwe bamwe baravugako arinzahabu zokuri mudasobwa, abandi ko ari amafaranga. Abandi kandi baravugako bifise agacire nkumuyaga gusa. abantu bamwe bamwe baravugako ivyo bizohindura isi, abandi ko aribihita gusa.
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Ndafise iciyumviro canje kuvyerekeye ivyo.
 
-I have my own opinion about it.
+Niyindinkuru y'ikindigihe. Ariko, muntu wanje, gushika ubu urazi vyinshi cane kuri Bitcoin gusumba abandi bantu benshi.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+#### [“Ntutahura Bitcoin icarico kubera wibazako amafaranga arayukuri.”](https://medium.com/@mariabustillos/you-dont-understand-bitcoin-because-you-think-money-is-real-5aef45b8e952?source=linkShare-2d6f142ff3cc-1512362100) by [Maria Bustillos](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/undefined) Igisomwa gikwirikia ciza cogusoma.
 
-#### Recommend Reading (Updated 2017)
-
-[“You Don’t Understand Bitcoin Because You Think Money is Real”](https://medium.com/@mariabustillos/you-dont-understand-bitcoin-because-you-think-money-is-real-5aef45b8e952?source=linkShare-2d6f142ff3cc-1512362100) by [Maria Bustillos](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/undefined) is a good follow-up read.
-
-You can also read more about [Ethereum and Smart Contracts here](https://medium.freecodecamp.org/smart-contracts-for-dummies-a1ba1e0b9575?source=linkShare-2d6f142ff3cc-1512086124). Enjoy!
+Murashobora gusoma vyinshi kuvyerekeye [Ethereum hamwe namasezrano aciye ubwenge hano](https://medium.freecodecamp.org/smart-contracts-for-dummies-a1ba1e0b9575?source=linkShare-2d6f142ff3cc-1512086124). Enjoy!

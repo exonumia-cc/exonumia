@@ -1,72 +1,42 @@
-# Bitcoin v0.1 released
+# Bitcoin v0.1 isabikanijwe
 
-by Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
+Yanditswa na Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
 
 <LanguageDropdown/>
 
-Announcing the first release of Bitcoin, a new electronic cash
-system that uses a peer-to-peer network to prevent double-spending.
-It's completely decentralized with no server or central authority.
+Itangazwa ry'umuce wambere wa Bitcoin, ubuhinga bushasha bw'amafaranga bwokuri ngurukana bumenyi akoresha umuryago urikubuhinga bwababiri kugira wirinde ukuriha kabiri. Irasabikanijwe cane ataco ashingiweko canke ataho atwarirwa.
 
 
-See bitcoin.org for screenshots.
+Suzuma kuri bitcoin.org kubwama sanamu afashwe n'ikiyo camudasobwa.
 
-Download link:
-http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
+Rahura uno muhora:
+https://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-Windows only for now.  Open source C++ code is included.
+Kubuhinga bukoresho Windows gusa ubu. Vyuguruye kuvamuntango biciye muri code ya C++.
 
-- Unpack the files into a directory
+- Guhitamwo ibipapuro by'isuzumwa.
 - Run BITCOIN.EXE
-- It automatically connects to other nodes
+- Yiyunga vuba cane kuyandi mapfundo
 
-If you can keep a node running that accepts incoming connections,
-you'll really be helping the network a lot.  Port 8333 on your
-firewall needs to be open to receive incoming connections.
+Nimba ushobora kugumana amapfundo yemera ihuzwa rivuye hanze y'ubuhinga, muba mufashije vyukuri umuryango. Ikivuko 8333 c'umutekano gitegerezwa kuba citeguriye kwakira ihuzwa rivuye hanze y'ubuhinga.
 
-The software is still alpha and experimental.  There's no guarantee
-the system's state won't have to be restarted at some point if it
-becomes necessary, although I've done everything I can to build in
-extensibility and versioning.
+Mudasobwa iracari mugihe cambere kandi c'igeragezwa. Ntacemezwa na kimwe ko uko ubuhinga   butegerezwa gusubira kwatswa kugihe kanaka iyo bikenewe, nkuko nakoze ivyonshoye vyose kugira nshiremwo ishikanwa kure hamwe n'imbono.
 
-You can get coins by getting someone to send you some, or turn on
-Options->Generate Coins to run a node and generate blocks.  I made
-the proof-of-work difficulty ridiculously easy to start with, so
-for a little while in the beginning a typical PC will be able to
-generate coins in just a few hours.  It'll get a lot harder when
-competition makes the automatic adjustment drive up the difficulty.
-Generated coins must wait 120 blocks to mature before they can be
-spent.
+Urashobora kuronka ibingorongoro mugusaba umuntu akurungikire, canke mukwatsa Options->Gutanga ibingorongoro kugira utange ipfundo hama ugatanga ibikuta.  Naratume ibigoye vy'iyemezwa ry'igikorwa vyoroshwa cane mugutangura, rero mugihe kanaka canke muntango, inyabwonko yariyo yose irashobora gutanga ibingorongoro mumasaha makeyi gusa. Bizogorana cane nihaza abandi babikora  bizogoza ingorane z'ugusabikanya. Ibingorongoro vyakozwe bitegezwa gushika kubikuta 120 kugira bikomere imbere y'uko bizokoreshwa.
 
-There are two ways to send money.  If the recipient is online, you
-can enter their IP address and it will connect, get a new public
-key and send the transaction with comments.  If the recipient is
-not online, it is possible to send to their Bitcoin address, which
-is a hash of their public key that they give you.  They'll receive
-the transaction the next time they connect and get the block it's
-in.  This method has the disadvantage that no comment information
-is sent, and a bit of privacy may be lost if the address is used
-multiple times, but it is a useful alternative if both users can't
-be online at the same time or the recipient can't receive incoming
-connections.
+Hari uburyo bubiri bwokurungika amafaranga. Iyo uwo agenewe ari kumurongo, murashobora kwinjiza ibimuranga hama bikinjiramwo, bikaronka urupfunguruzo rushasha rwabose hama bikarungika irihwa n'iyakira hariko n'amajambo asigura. Iyo uwo yagenewe atari kumurongo, birashoboka kurungika kubimuranga vya Bitcoin, ari ihurizwa hamwe ry'ipfunguruzo zabose babaha. Azoronka irungikwa canke iyakirwa ikindigihe azoba asubiye kuja kumurongo hama aronke urukuta asanzwe arimwo. Ubwoburyo bufise ingarukambi zokutarungika amakuru canke ubutumwa busigura, hama icizere gito kikaba gitakaye iyo  ibibiranga bikoreshejwe incuro nyinshi, ariko nubundi buryo bukenewe iyo abobabiri babikoresha batari kumurongo igihe kimwe canke iyo uwo bigenewe adashobora kuronka  ihuzwa rivuye hanze.
 
-Total circulation will be 21,000,000 coins.  It'll be distributed
-to network nodes when they make blocks, with the amount cut in half
-every 4 years.
+Ibizunguruka vyose bizoba  21 000 000 vy'ibingorongoro. bizosabikanywa biciye kumapfundo y'umuryango iyo bishizwehamwe bigakora urukuta, igitigiri kikagabanurwamwo kabiri burimyaka 4.
 
-first 4 years: 10,500,000 coins  
-next 4 years: 5,250,000 coins  
-next 4 years: 2,625,000 coins  
-next 4 years: 1,312,500 coins  
-etc...
+>Imyaka 4 yambere :  ibingorongoro 10,500,000.  Iyindi myaka 4 :  Ibingorongoro 5,250,000
+>Iyindi myaka 4 : Ibingorongoro 2,625,000 
+>Iyindi myaka 4 :  Ibingorongoro  1,312,500
+Bibandanya uko…
 
-When that runs out, the system can support transaction fees if
-needed.  It's based on open market competition, and there will
-probably always be nodes willing to process transactions for free.
+Niyo ivyobizoba vyarangiye, ubuhinga buzoshobora gukoresha amafaranga y'irungikwa n'iyakira mugihe bikenewe. Ivyo bifatiye kwihiganwa ryokwisoko yuguruye, kandi hazoba hariho ukwobiri kwose amapfundo ashoboraa gusuzuma irihwo nirihishwa kubuntu.
 
 Satoshi Nakamoto
 
 ---------------------------------------------------------------------
-The Cryptography Mailing List
-Unsubscribe by sending "unsubscribe cryptography" to majord...@metzdowd.com
+Urutonde rw'irungikwa ry'uhinga bw'ukunyegeza. Mumanze mwikurureko mukurungika  " unsubscribe cryptography(Kwikurako kubuhinga bw'ukunyegezwa)" kwa majord...@metzdowd.com
 
