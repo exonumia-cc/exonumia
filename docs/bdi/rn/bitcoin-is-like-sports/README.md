@@ -17,7 +17,7 @@ Yanditswe na @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/s
 Kenshi cane, ndasigura nigute #bitcoin ikora n'uko itwagwa naburiwese ngereranije n'imikino yokwinonora imitsi. Mbona ubwoburyo bufasha kwishura ibibazo bitaribike bikunda kubazwa
 
 IKIBAZO: Ninde yatanguje Baseball?   
-INYISHU:Ivyo mubisanzwe ntakamaro bifise. Burimuntu wese murinosi ashobora kuyikina. Ukwobiri kwose uwayitanguje yashaka guhindura amategeko canke kwiriha burikintu cose. Ntabwo biba bituraje ishinga ivyobibaza kurukino rwacu
+INYISHU: Ivyo mubisanzwe ntakamaro bifise. Burimuntu wese murinosi ashobora kuyikina. Ukwobiri kwose uwayitanguje yashaka guhindura amategeko canke kwiriha burikintu cose. Ntabwo biba bituraje ishinga ivyobibaza kurukino rwacu
 
 IKIBAZO: Ninde ajejwe umukino?
 INYISHU: Ntanumwe abijejwe, twese twahisemwo kuyikina. Turazi kandi turemera amategeko, iyo umuntu akoze ibidahuhe n'amategeko, aravamwo mumukino. Iyo umuntu yihaye amanota adakwiriye, ntaco bibabitubwiye mubisanzwe.
