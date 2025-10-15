@@ -4,7 +4,11 @@ Yanditswa na Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/201906040
 
 <LanguageDropdown/>
 
-Itangazwa ry'umuce wambere wa Bitcoin, ubuhinga bushasha bw'amafaranga bwokuri ngurukana bumenyi akoresha umuryago urikubuhinga bwababiri kugira wirinde ukuriha kabiri. Irasabikanijwe cane ataco ashingiweko canke ataho atwarirwa.
+-Itangazwa ry'umuce wambere wa Bitcoin, ubuhinga bushasha bw'amafaranga 
+
+-bwokuri ngurukana bumenyi akoresha umuryago urikubuhinga bwababiri kugira wirinde ukuriha kabiri. 
+
+-Irasabikanijwe cane ataco ashingiweko canke ataho atwarirwa.
 
 
 Suzuma kuri bitcoin.org kubwama sanamu afashwe n'ikiyo camudasobwa.
