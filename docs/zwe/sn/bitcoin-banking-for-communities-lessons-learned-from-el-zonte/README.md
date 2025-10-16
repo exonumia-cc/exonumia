@@ -1,3 +1,14 @@
+---
+translators: 
+    - 
+        name: "Tebogo Makgakga"
+        href: "https://x.com/tebogo_makgakga/"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+
 # Mashandiro emabhanga emabitcoin kunharaunda dzakasiyana: 
 
 ## Zvidzidzo kubva kuBitcoin Beach
