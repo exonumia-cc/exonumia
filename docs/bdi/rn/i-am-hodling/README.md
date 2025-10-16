@@ -1,3 +1,14 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://twitter.com/ck_SNARKs/status/1737110695907643491"
+translators: 
+    - 
+        name: "₿elyï No₿el"
+        href: "https://twitter.com/belyi_nobel"
+---
+
 # MFISE ICIZERE
 
 Yanditswe na GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
