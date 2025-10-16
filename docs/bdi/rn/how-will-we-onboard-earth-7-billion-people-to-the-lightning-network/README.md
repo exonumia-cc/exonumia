@@ -1,3 +1,14 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://twitter.com/ck_SNARKs/status/1737110695907643491"
+translators: 
+    - 
+        name: "₿elyï No₿el"
+        href: "https://twitter.com/belyi_nobel"
+---
+
 # Ni gute tuzoshika imiriyaridi 7,753 yabantu bari kwisi mumuryango w'umuravyo(Lightning)?
 
 Yanditswe na John Cantrell [2022/01/05](https://twitter.com/JohnCantrell97/status/1478794692313632768)
