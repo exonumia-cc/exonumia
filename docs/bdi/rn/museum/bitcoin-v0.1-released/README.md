@@ -1,3 +1,14 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://twitter.com/ck_SNARKs/status/1737110695907643491"
+translators: 
+    - 
+        name: "₿elyï No₿el"
+        href: "https://twitter.com/belyi_nobel"
+---
+
 # Bitcoin v0.1 isabikanijwe
 
 Yanditswa na Satoshi Nakamoto [2009/01/09](https://web.archive.org/web/20190604064539/https://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html)
