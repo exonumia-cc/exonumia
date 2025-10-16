@@ -1,3 +1,14 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://twitter.com/ck_SNARKs/status/1737110695907643491"
+translators: 
+    - 
+        name: "₿elyï No₿el"
+        href: "https://twitter.com/belyi_nobel"
+---
+
 # Bitcoin na Kahise kubutegetsi bwa Kenya
 
 Yanditswe na Kimani Kioneki [2022/01/05](https://twitter.com/pesa_africa/status/1357938874845175809)
