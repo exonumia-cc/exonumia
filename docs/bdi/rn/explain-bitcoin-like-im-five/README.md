@@ -1,3 +1,14 @@
+---
+supporters: 
+    - 
+        name: "HRF"
+        href: "https://twitter.com/ck_SNARKs/status/1737110695907643491"
+translators: 
+    - 
+        name: "₿elyï No₿el"
+        href: "https://twitter.com/belyi_nobel"
+---
+
 # Sigura Bitcoin nkuko umengo noba mfise imyaka 5
 
 Yanditswe na Nik Custodio[2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
