@@ -106,6 +106,12 @@ contributors: false
 
 ---
 
+**[Tanzania](/tan/)**
+
+[Swahili](/tan/cri/)   
+
+---
+
 **[🇺🇬 Uganda](/uga/)**
 
 [Luganda](/uga/lg/)
