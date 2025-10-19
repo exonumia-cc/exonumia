@@ -1,3 +1,14 @@
+---
+translators: 
+    - 
+        name: "Tebogo Makgakga"
+        href: "https://x.com/tebogo_makgakga/"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+
 # Kunzwisisa Lightning Network tichishandisa Abacus
 
 by Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
