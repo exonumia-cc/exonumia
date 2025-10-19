@@ -1,40 +1,42 @@
-# Understanding Lightning Network using an Abacus
+# Kunzwisisa Lightning Network tichishandisa Abacus
 
 by Roy Sheinfeld [2018/03/25](https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4bs)
 
 <LanguageDropdown/>
 
 
-I’ve received a lot of positive feedback following my previous article, [Lighting Network is the Future of Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). However, while reading some of the feedback, it became clear to me that some people don’t fully understand how Lightning Network (LN) actually works. In this article, I will try to demystify the concept behind LN and its payment channels using an abacus analogy, without getting into the technical specifics of LN implementation.
+Ndakawana mhinduro dzakanaka dzakawanda mushure mechinyorwa changu chakapfuura,  [Lighting Network is the Future of Bitcoin](https://medium.com/@kingonly/the-future-of-bitcoin-3187aefe2746). Zvisinei, pandaiverenga dzimwe mhinduro, ndakaona kuti havasi vanhu vese vakanyatso nzwisisa kuti Lightning Network (LN) inonyatsoshanda sei. Muchinyorwa chino, ndichaedza kutsanangura zviri nyore pfungwa yeLN nekushanda kwe mapayment channel ayo, ndichishandisa ngano yeabacus, ndisinga nyanyo pindi mune zviri technical zvemashandisirwo eLN.
 
-This is an abacus:
+Iyi i abacus:
 
 ![](./abacus.png)
 
-Now, think of an [LN’s payment channel](https://cointelegraph.com/explained/lightning-network-explained#block-5) like one wire of an abacus, where the beads represent the bitcoins inside the channel. When Alice and Bob create a payment channel between them, Alice deposit bitcoins from the Blockchain inside the channel. For now, these bitcoins (e.g. 10 bits or 0.00001 BTC) belong to Alice. In this example, each bead equals one bit:
+Ikozvino, funga nezve [LN’s payment channel](https://cointelegraph.com/explained/lightning-network-explained#block-5) sekunge waya imwe ye-abacus, apo mabeads aripo anomiririra mabitcoins ari mukati mechannel. Kana Alice naBob vakagadzira payment channel(nzira yekubhadharisana) pakati pavo, Alice anoisa mabitcoins kubva kuBlockchain iri mukati mechannel. Parizvino, aya mabitcoins (semuenzaniso, 10bits kana 0.00001 BTC) ndeaAlice. Mumuenzaniso uyu, bead rimwe rine huremu hwakaenzana nebit rimwe:
 
 ![](./alice-bob-1.png)
 
-An abacus wire and a payment channel have shared characteristics:
+Waya yeabacus nepayment channel (nenzira yekubhadhara) zvine zvinhu zvakafanana:
 
-- **Bidirectional:** like beads on an abacus wire can be moved from left to right and vice-versa, bitcoins can be moved from Alice to Bob and vice-versa.
-- **Ownership:** in an abacus, beads can be either on the left or on the right, never in the middle of a wire. In the same manner, bitcoins in a payment channel can either belong to Alice or Bob.
-- **Fixed:** similar to the way beads cannot be added or removed from a wire, Alice and Bob can exchange bitcoins between them, up to the number that was set when opening the payment channel. If they want to exchange a larger number of bitcoins, they will have to perform another on-chain transaction.
+- **Inoshanda kumativi maviri (Bidirectional):** Semabeads aripa waya yeabacus anokwanisa kufambiswa kubva kuruboshwe(left) kuenda kurudyi(right) uye zvichipesana, mabitcoins anogona kuti atumirwe kubva kuna Alice achipihwa Bob kana kupesanisa matumiro acho pakati pavo zvakare.
+   
+- **Kuva muridzi:** Mukati meabacus, mabeads anogona kunge ari kuruboshwe(left) kana kurudyi(right), haangamboendi pakati pewaya chero zvadi. Saizvozvo, mabitcoins ari mupayment channel (nzira yekubhadharisana) anogona kunge ari aAlice kana aBob.
+  
+- **Huwandu husingapfurire zvakaiswa pekutanga:** Sezvo mabeads asingakwanise kuwedzerwa kana kubviswa pawaya, Alice naBob vanogona kuchinjana mabitcoins pakati pavo, asi vachingosvika kunhamba yakanga yaiswa pavakavhura payment channel. Kana vachida kuchinjana mabitcoins akawanda, vanofanira kuita imwe on-chain transaction. 
 
-This is how the payment channel looks like after Alice sends 2 bits to Bob:
+Aya ndiwo maratidziro epayment channel (nzira yekubhadhara) mushure mekunge Alice atumira 2 bits kuna Bob:
 
 ![](./alice-bob-2.png)
 
-Alice now has 8 beads and Bob has 2 beads. Now, let’s say that Bob is also connected in LN to Carol using a 10 bit payment channel:
+Alice ava nemabeads masere (8) naBob ava nemabeads maviri (2). Zvino, ngatitii Bob abatanidzwa muLN naCarol vachishandisa 10 bit payment channel (nzira yekubhadharisana):
 
 ![](./alice-bob-carol-1.png)
 
-With LN, Alice can pay Carol via Bob. In the abacus analogy, if Alice wants to send 2 bits to Carol, she moves 2 beads in Alice-Bob wire to the right (to Bob), and Bob moves 2 beads in Bob-Carol wire to the right (to Carol). This is how it looks like after Alice sends Carol 2 bits:
+NeLN, Alice anogona kubhadhara Carol kuburikidza naBob. Mumuenzaniso we abacus, kana Alice achida kutumira 2 bits kuna Carol, anofambisa mabeads maviri pawaya yaAlice-Bob achiendesa kurudyi (kuna Bob), uye Bob anofambisa mabeads maviri pawaya yaBob-Carol achiendesa kurudyi (kuna Carol). Aya ndiwo maratidziro ayo mushure mekunge Alice atumira Carol 2 bits:
 
 ![](./alice-bob-carol-2.png)
 
-It’s important to mention that if Bob agrees to participate in this transaction, he can’t accept Alice’s beads without moving the same number of beads to Carol.
+Zvakakosha kutaura kuti kana Bob akabvuma kuvamo mutransaction iyi, haachakwanisa kutora mabeads aAlice asina kufambisa mabeads akafanana kuna Carol.
 
-Using the abacus analogy, it’s easy to explain the nature of off-chain LN transactions in general, and specifically what are the requirements a payment channel needs to meet in order to process a transaction. For example, it’s easy to see how Alice can’t send Carol more beads than Bob can handle. Then again, maybe in the future she would be able to do it using [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), but that’s a story for another article…
+Kana tichishandisa ngano yeabacus, zvirinyore kutsanangura mamiriro e-off-chain LN transactions, uye   nezvinhu zvinodiwa kuti payment channel igone kuita transaction. Semuenzaniso, zvirinyore kuona kuti Alice haakwanise kutumira Carol mabeads akawanda kupfuura anogona kutambirwa naBob. Asi, pamwe mukufamba kwenguva anogona kuzvikwanisa achishandisa [AMPs](https://bitcoinist.com/atomic-multi-path-help-bitcoin-become-formidable-payment-instrument/), asi iyo yave nyaya yechimwe chinyorwa…
 
-**If you found this article helpful, please don’t forget to add claps (long press to add multiple claps) and share it.**
+**Kana wawana chinyorwa ichi chichibatsira kunzwisisa kwako, ndokumbirawo kuti usakanganwe kuombera uye nekutumira vamwe.**
