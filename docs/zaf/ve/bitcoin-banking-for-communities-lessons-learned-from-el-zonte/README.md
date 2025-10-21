@@ -1,61 +1,71 @@
-# Bitcoin Banking for Communities: Lessons Learned from Bitcoin Beach
+---
+translators: 
+    - 
+        name: "Munyai"
+        href: "https://x.com/pha2niser/"
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 
-by Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
+# U Bannga nga Bitcoin ya Zwitshavha: Ngudo dzo Gudwaho kha Bitcoin Beach
+
+nga Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
 
 <LanguageDropdown/>
 
-## Foreword
+## Marangaphanḓa
 
-Revolutionary change is usually sparked by those that are too young and naïve to understand that their undertaking is doomed to fail. While I cannot claim the excuse of youth, when Bitcoin Beach launched, thankfully I had not yet spent enough time on Twitter to “know” that Bitcoin would never be used by people to buy a cup of coffee. Had we done the prudent research or started with standard feasibility studies, we would have realized our folly. Thankfully most of you can now find El Salvador on a map because we were too stupid to know better.
+Tshanduko ya mutheo kanzhi i vhangwa nga vhane vha kha ḓi vha vhaṱuku vhukuma nahone vha sa ḓivhi tshithu uri vha pfesese uri mushumo wavho u ḓo kundelwa. Naho ndi sa koni u ḓivha nga ha vhaswa, musi Bitcoin Beach i tshi thomiwa, ndi livhuwa uri ndo vha ndi sa athu fhedza tshifhinga tsho eḓanaho kha Twitter u “ḓivha” uri Bitcoin a i nga ḓo vhuya ya shumiswa nga vhathu u renga khaphu ya gofhi. Arali ro vha ro ita ṱhoḓisiso ya vhuṱali kana ra thoma nga ngudo dzo ḓoweleaho dza u vhona uri zwi nga konadzea, ro vha ri tshi ḓo vha ro ṱhogomela vhutsilu hashu. Ri livhuwa vhunzhi haṋu zwino ni nga wana El Salvador kha mapa ngauri ro vha ri matsilu vhukuma uri ri kone u ḓivha khwine.
 
-In the case of Bitcoin Beach, truth really is often stranger than fiction. Nobody would have imagined that the first true Bitcoin economy would find its genesis in a small rural village in El Salvador. Led by a middle-aged expat that still uses Earthlink email, partnered with a young Salvadoran community leader who barely finished 6th grade.
+Kha mafhungo a Bitcoin Beach, ngoho vhukuma kanzhi i a ḓivhea u fhira ngano. A hu na muthu we a vha a tshi nga humbula uri ikonomi ya u thoma ya ngoho ya Bitcoin i ḓo wana mveledziso yayo  kha muvhundu muṱuku wa vhupo ha mahayani ngei El Salvador. U rangwa phanḓa nga mutsinda wa miṅwaha ya vhukati ane a kha ḓi shumisa imeiḽi ya Earthlink, o shumisana na murangaphanḓa wa tshitshavha wa Salvador muswa we a vha a tshi kha ḓi tou bva u fhedza gireidi ya vhu 6.
 
-In retrospect, the outcome was obvious: a population that struggles with poverty and lack of financial inclusion was always destined to see the value of Bitcoin before wealthy communities in Singapore or Silicon Valley. It seems divinely fitting – those who paved the first path started out so laughably unqualified that no community who follows needs to feel intimidated.
+Musi ri tshi sedza murahu, mvelelo yo vha i khagala: tshitshavha tshine tsha khou lwa na vhushai na u shaya u katelwa ha masheleni tsho vha tsho dzula tsho vhetshelwa u vhona ndeme ya Bitcoin phanḓa ha zwitshavha zwo pfumaho ngei Singapore kana Silicon Valley. Zwi vhonala zwo tea nga lwa ṱaḓulu – vhe vha vula nḓila ya u thoma vho thoma nga nḓila i seisaho vha songo fanelea lune a hu na tshitshavha tshine tsha tevhela tshine tsha ṱoḓa u pfa tsho shushedzwa.
 
-In El Salvador, Bitcoin is the money of the poor and financially excluded. For Salvadorans that are living in poverty, the debates between the digital gold and digital cash camps seem out of touch, and without practical relevance. For those who need Bitcoin most, it is both how they buy their daily bread and how they save for the future. They see no need to choose one or the other.
+Kha ḽa El Salvador, Bitcoin ndi tshelede ya vhashai na vhane vha sa dzhielwe nṱha nga zwa masheleni. Kha vhathu vha Salvador vhane vha khou tshila vhushaini, khanedzano vhukati ha gammba dza musuku wa didzhithala na tshelede ya didzhithala dzi vhonala dzi sa kwamani, nahone dzi si na vhushaka vhu shumaho. Kha vhane vha ṱoḓa Bitcoin nga maanḓa, ndi nḓila ine vha renga ngayo vhurotho havho ha ḓuvha na ḓuvha na nḓila ine vha vhulunga ngayo vhumatshelo. Vha vhona hu si na ṱhoḓea ya u khetha tshiṅwe kana tshiṅwe.
 
-So here in 2021 we see a small impoverished nation showing the world how Bitcoin levels the playing field for the poor. We know Bitcoin Beach is just a glimpse. But we hope it will be the spark that sets off fires around the world. We invite you to come visit El Zonte, and help us spread this vision of community Bitcoin Banking that is enabling financial inclusion around the world.
+Ngauralo fhano nga 2021 ri vhona lushaka luṱuku lwo shayaho lu tshi khou sumbedza ḽifhasi uri Bitcoin i linganisa hani fhethu ha u tamba ha vhashai. Ri a zwi ḓivha uri Bitcoin Beach ndi tshifanyiso tshiṱuku fhedzi. Fhedzi ri fulufhela uri hu ḓo vha tshedza tshine tsha ḓo fhisa mulilo u mona na shango. Ri vha ramba uri vha ḓe vha dalele El Zonte, na u ri thusa u phaḓaladza bono iḽi ḽa Bitcoin Banking ya tshitshavha ḽine ḽa khou konisa u katelwa ha masheleni u mona na ḽifhasi.
 
 – Mike Peterson ([@bitcoinbeach](http://twitter.com/bitcoinbeach))
 
-## From Local Project to Legal Tender in Two Years
+## U bva kha Phurojeke yapo u ya kha Thandela ya Mulayo nga Miṅwaha Mivhili
 
-The Bitcoin Beach project started with a simple yet aspirational question: Can we build a sustainable circular economy on Bitcoin?
+Phurojeke ya Bitcoin Beach yo thoma nga mbudziso yo leluwaho fhedzi i re na ndivho: Naa ri nga fhaṱa ikonomi i lalamaho kha Bitcoin?
 
-The answer is a resounding yes. What started as a community project in a remote town has evolved into a story about six million people showcasing to the world that Bitcoin is money.
+Phindulo ndi ee i pfalaho. Zwe zwa thoma sa phurojeke ya tshitshavha ḓoroboni i re kule zwo shanduka zwa vha tshiṱori nga ha vhathu vha miḽioni dza rathi vhane vha khou sumbedza ḽifhasi uri Bitcoin ndi tshelede.
 
-In this guide we cover six lessons learned developing the Bitcoin Beach Wallet and the underlying open source infrastructure that powers it. Our aim is to help communities around the world accelerate their own learning and adoption of Bitcoin and the Lightning Network.
+Kha ino ndaela ri katela ngudo dza rathi dzo gudwaho kha u bveledza Tshipatshi tsha Bitcoin Beach na themamveledziso ya fhasi ya nnyi na nnyi ine ya i ṋea maanḓa. Ndivho yashu ndi u thusa zwitshavha u mona na ḽifhasi u ṱavhanyedza u guda hazwo na u ṱanganedza Bitcoin na Netiweke ya u Badela.
 
-## What is Bitcoin Beach?
+## Bitcoin Beach ndi mini?
 
-On the Pacific Coast of El Salvador sits El Zonte, a small surf town with a population of 3,000. Its residents have been left out of the traditional banking system and have grappled with gang violence and a lack of financial inclusion for decades. Over the past ten years, a small group of individuals have been working to ignite change and bring hope back to El Zonte.
+Kha vhupo ha vhukovhela ha shango ha El Salvador ho dzula El Zonte, ḓorobo ṱhukhu ya u sefa ine ya vha na vhadzulapo vha 3 000. Vhadzulapo vha hone vho siiwa nnḓa ha sisiṱeme ya mvelele ya bannga nahone vho lwa na khakhathi dza tshigwada tsha vhathu vhane vha ita vhutshinyi na u shaya u sa katelwa ha masheleni lwa mahumi a miṅwaha. Kha miṅwaha ya fumi yo fhiraho, tshigwada tshiṱuku tsha vhathu tsho vha tshi tshi khou shuma u fhisa tshanduko na u vhuisa fulufhelo El Zonte.
 
-Jorge Valenzuela, Roman “Chimbera” Martinez and Mike Peterson began running youth programs around 2009 to give El Zonte’s kids the opportunity to play, learn and dream. From surf “para todo” (surf for everyone) to computer classes to paid community service projects, the programs have breathed new possibilities into a place that once felt like a dead end.
+Jorge Valenzuela, Roman “Chimbera” Martinez na Mike Peterson vho thoma u tshimbidza mbekanyamushumo dza vhaswa nga 2009 u itela u ṋea vhana vha El Zonte tshikhala tsha u tamba, u guda na u ḽora. bva kha u sefa ha vhoṱhe “para todo” (u efa ha muṅwe na muṅwe) u ya kha kilasi dza khomphyutha u ya kha phurojeke dza tshumelo ya tshitshavha dzi badelwaho, mbekanyamushumo dzo ṋetshedza khonadzeo ntswa fhethu he ha vha hu tshi pfala sa fhethu ho fhelelaho.
 
 ![](./bitcoin-beach-workouts.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Jorge, Chimbera and team have put fitness, education and community service at the center of daily life in El Zonte. (Source: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
+  <figcaption>Jorge, Chimbera na tshigwada vho vhea u ḓilugisa, pfunzo na tshumelo ya tshitshavha vhukati ha vhutshilo ha ḓuvha na ḓuvha ngei El Zonte. (Source: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-In 2019, Mike was approached by an individual who wanted to support their programs through a bitcoin donation. There was a catch, however: the donation must be spent within the community, instead of sold into fiat. The goal would be to create a sustainable circular Bitcoin economy where merchants and community members can exchange goods, services and labor for sats. Jorge and Mike accepted the challenge, and Bitcoin Beach was born.
+Nga 2019, Mike o swikeleliwa nga muthu we a vha a tshi ṱoḓa u tikedza mbekanyamushumo dzavho nga kha muṋeelo wa bitcoin. Ho vha na zwine zwa vha uri zwo farwa, naho zwo ralo: muṋeelo u fanela u shumiswa nga ngomu ha tshitshavha, nṱhani ha u rengiswa wa vha fiat. Tshipikwa tshi ḓo vha tsha u sika ikonomi ya Bitcoin i lalamaho hune vhavhambadzi na miraḓo ya tshitshavha vha nga tshintshana thundu, tshumelo na vhashumi vha sats. Jorge na Mike vho ṱanganedza khaedu, nahone Bitcoin Beach yo bveledzwa.
 
-From the start, it was clear that this project would challenge preconceived notions about Bitcoin:
+U bva mathomoni, zwo vha zwi khagala uri heyi phurojeke i ḓo itela khaedu mihumbulo yo ḓiimiselaho nga ha Bitcoin:
 
-1. **Bitcoin is a speculative asset for the wealthy.** If you tune into business news channels and sites, you’ll hear constant discussion about price, volatility, and comparison to other assets and investments like gold and stocks. You’ll hear about how banks are offering exposure to their high net worth clients. What you won’t hear is how Bitcoin is enabling economic empowerment in some of the poorest parts of the world.
+1. **Bitcoin ndi ndaka ya u humbulela ya vhapfumi.** Arali vha isa kha tshaneḽe dza mafhungo a mabindu na saithi, vha ḓo pfa nyambedzano i sa fheli nga ha mutengo, u shanduka, na u vhambedzwa na dziṅwe ndaka na vhubindudzi vhu ngaho musuku na zwiṱoko. Vha ḓo pfa nga ha uri bannga dzi khou ṋetshedza hani u bviselwa khagala kha vharengi vhadzo vha re na tshelede nnzhi. Zwine vha sa ḓo zwi pfa ndi uri Bitcoin i khou konisa hani maanḓa a ikonomi kha zwiṅwe zwipiḓa zwi shayaho zwa ḽifhasi.
 
-2. **Bitcoin is a store of value, not a medium of exchange.** While Bitcoin’s utility as a store of value is widely accepted, Bitcoin as a medium of exchange is a hotly contested topic to this day. The rationale goes; “If the price of bitcoin keeps growing at the current rate, nobody will ever want to spend it on goods and services.”
+2. **Bitcoin ndi vhengele ḽa ndeme, hu si tshishumiswa tsha u tshintshana.** Naho tshumiso ya Bitcoin sa vhengele ḽa ndeme i tshi ṱanganedzwa nga vhathu vhanzhi, Bitcoin sa tshishumiswa tsha u tshintshana ndi ṱhoho ine ya khou ṱaṱisana vhukuma u swika na ṋamusi. Muhumbulo u ya uri; “Arali mutengo wa bitcoin wa dzula u tshi khou aluwa nga tshikalo tsha zwino, a hu na muthu ane a ḓo vhuya a ṱoḓa u i shumisa kha zwithu na tshumelo.”
 
-As the project turned from idea into action, the growing team of Bitcoin Beach coordinators and students took note of the problems that Bitcoin might solve for their community:
+Musi phurojeke i tshi shanduka u bva kha muhumbulo u ya kha nyito, tshigwada tshine tsha khou aluwa tsha vhadzudzanyi vha Bitcoin Beach na matshudeni vho dzhiela nṱha thaidzo dzine Bitcoin ya nga dzi tandulula kha tshitshavha tshavho:
 
+1. **Bannga dzo ḓoweleaho a dzi iti mabindu kha zwitshavha zwi shayaho vhukuma.** El Salvador yo vha i kha sisiṱeme ya Doḽara ya US u bva nga 2001, zwine zwa ita uri sekithara yavho ya zwa masheleni i vhe nga fhasi ha milayo ya US. U ḓura hu hulwane ha u tevhedza ho vhewaho nga milayo iyi zwi ita uri bannga dzi sa ṱuṱuwedze u ṋetshedza zwiḽiwa vhathu vha mashangoni a shayaho. Sa tsumbo musi muṋe wa [Hodela ya Garten](https://www.gartenzonte.com/garten) a tshi lingedza u thoma vhashumi vha re na akhaunthu dza bannga na diphosithi yo livhaho, [o guda](https://youtu.be/RhoiOzhuBG4?t=1438) zwi ḓo ḓura $50 nga ṅwedzi, nga mushumi. Izwi zwi fhira 10% ya mbuelo ya ṅwedzi ya muthu ane a shuma nga muholo wa fhasisa.
 
-1. **Traditional banks don’t do business in the poorest communities.** El Salvador has been on the US Dollar system since 2001, which makes their financial sector subject to US regulations. The high cost of compliance imposed by these regulations disincentivizes banks from catering to people in poorer countries. For instance when the owner of [Garten Hotel](https://www.gartenzonte.com/garten) tried setting up employees with bank accounts and direct deposit, [he learned](https://youtu.be/RhoiOzhuBG4?t=1438) it would cost $50 per month, per employee. That amounts to more than 10% the monthly income of a person working on minimum wage.
+2. **U wana mbadelo dza u rumela tshelede kha vhathu vha El Zonte zwi a ḓura nahone zwi dzhia tshifhinga.** Mbadelo dza u rumela tshelede dza u pfuka mikano dzi tshi ya El Salvador dzo ita [23% ya GDP ya shango](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html) nga 2020. Zwi ḓura zwi fhiraho $3 kha mbadelo kha uri muthu a wane $10  u bva kha muraḓo wa muṱa a re seli. Ahuna Western Union kha ḽa El Zonte ngauralo zwi nga dzhia awara na u namela bisi nnzhi uri vhadzulapo vha swike ofisini hune vha nga wana tshelede yo rumelwaho. Hezwi zwi engedza kha maḓuvha ane a nga dzhia uri tshelede i swike El Salvador u bva kha muthu we a thoma u i rumela.
 
-2. **Getting remittance payments to people in El Zonte is expensive and time consuming.** Cross-border remittance payments into El Salvador made up [23% of the country’s GDP](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html) in 2020. It costs more than $3 in fees for somebody to receive $10 from a family member abroad. There is no Western Union in El Zonte so it can take hours and multiple bus rides for residents to get to an office where they can receive the remittance. This is in addition to the days it can take for the money to arrive in El Salvador from the person who initiated the transfer.
-
-3. **It’s hard to save without access to the banking system.** Being “unbanked” doesn’t just prevent somebody from having a bank account. It also excludes them from accessing the type of investments and assets that can protect them against inflation. An unanticipated impact of introducing Bitcoin was the number of people who began saving a meaningful portion of their income for the first time in their lives.
+3. **Zwi a konḓa u vhulunga u sa swikeleli sisiṱeme ya bannga.** U sa “bangiwa” a zwi sokou thivhela muthu u vha na akhaunthu ya bannga. Zwi dovha zwa vha bvisa kha u swikelela lushaka lwa vhubindudzi na thundu dzine dza nga vha tsireledza kha tshanduko ya mitengo. Masiandoitwa a songo lavhelelwaho a u ḓivhadza Bitcoin ho vha tshivhalo tsha vhathu vhe vha thoma u vhulunga tshipiḓa tshi re na ndivho tsha mbuelo yavho lwa u tou thoma vhutshiloni havho.
 
 ![](./bitcoin-beach-team.jpg)
 <center v-pre>
@@ -64,229 +74,229 @@ As the project turned from idea into action, the growing team of Bitcoin Beach c
 </figure>
 </center>
 
-With bitcoin to fuel the growth of their project the team got to work. They began to onboard the community one person at a time to the Bitcoin network. They learned, educated and adapted along the way. The pandemic’s arrival in early 2020 served as an accelerant for Bitcoin adoption. Residents in El Zonte who needed support were able to get bitcoin donations provided by the Bitcoin Beach project.
 
-A 2020 [Forbes article](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) thrust Bitcoin Beach into the spotlight and began attracting the support of other Bitcoiners who wanted to help. One of these Bitcoiners was Nicolas Burtey, co-founder of Galoy, who offered to come to El Zonte to develop a wallet tailored to the needs of Bitcoin Beach. Before long, the Bitcoin Beach Wallet was born and the Bitcoin Beach project was picking up momentum towards realizing its vision.
+Nga bitcoin u maanḓafhadza nyaluwo ya phurojeke ine tshigwada tshi ḓo thoma u shuma. Vho thoma u ita u dzhenele nga vhuḓalo nga tshitshavha nga muthu muthihi nga tshifhinga kha nethiweke ya Bitcoin. Vho guda, vha funza na u ḓiḓowedza nḓilani. U swika ha dwadze mathomoni a 2020 zwo shuma sa tshiṱavhanyisi tsha u ṱanganedzwa ha Bitcoin. Vhadzulapo vha El Zonte vhe vha vha vha tshi ṱoḓa thikhedzo vho kona u wana miṋeelo ya bitcoin yo ṋetshedzwaho nga phurojeke ya Bitcoin Beach.
 
-By now most people know the end of the story: El Salvador President Nayib Bukele announced on June 5, 2021 that Bitcoin would become legal tender in the country. Bukele related in a Twitter Spaces that the government was inspired by the Bitcoin Beach project and that the law’s goal was to replicate what had happened in El Zonte for the entire country. He specifically mentioned that financial inclusion of the poorest members of Salvadoran society was the driving motivation. On September 7 2021, La Ley Bitcoin (the “Bitcoin Law”) went into effect. Bitcoin Beach has since become a central part of the global Bitcoin adoption story. It has attracted Bitcoiners from around the world who want to see what it’s like to spend sats on coffee, surf lessons, and steak. It has also become a model for other communities to replicate.
+A 2020 [Athikili ya Forbes](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) u sukumedza Bitcoin Beach u  ya kha u vha khagala na u thoma u kunga thikhedzo ya vhaṅwe vha Bitcoin vhe vha vha vha tshi ṱoḓa u thusa. Muṅwe wa vhenevha vha Bitcoin o vha e Nicolas Burtey, muthomi wa Galoy, we a ḓi ṋekedza u ḓa El Zonte u bveledza tshipatshi tsho ṱanganelanaho na ṱhoḓea dza Bitcoin Beach. Hu sa athu fhela tshifhinga tshilapfu, Tshipathsi tsha Bitcoin Beach tsho bveledzwa nahone phurojeke ya Bitcoin Beach yo vha i tshi khou dzhia maanḓa a u bveledza bono ḽayo.
 
-Most importantly, Bitcoin Beach has created a community where the kids of El Zonte can dream and build their future.
+Nga zwino vhunzhi ha vhathu vha a ḓivha magumo a mafhungo: Muphuresidennde wa El Salvador Vho Nayib Bukele vho ḓivhadza nga ḽa 5 Fulwi, 2021 uri Bitcoin i ḓo vha thandela i re mulayoni kha shango. Bukele o anetshela kha Twitter Spaces uri muvhuso wo ṱuṱuwedzwa nga phurojeke ya Bitcoin Beach na uri tshipikwa tsha mulayo tsho vha tshi tsha u edzisa zwe zwa itea El Zonte kha shango ḽoṱhe. O amba nga ho livhaho uri u katelwa ha zwa masheleni ha miraḓo i shayaho vhukuma ya tshitshavha tsha Salvador ndi tshone tshiṱuṱuwedzi tshine tsha khou ṱuṱuwedza. Nga dzi 7 Khubvumedzi 2021, La Ley Bitcoin (“Mulayo wa Bitcoin”) wo thoma u shuma. Bitcoin Beach ubva tshe ya vha tshipiḓa tsha vhukati tsha nganea ya u ṱanganedzwa ha Bitcoin ḽifhasini ḽoṱhe. I kunga vha Bitcoiners u bva u mona na shango vhane vha ṱoḓa u vhona uri zwi nga vha hani u fhedza u shumisa kha gofhi, ngudo dza surf, na zwiḽiwa. Zwo dovha zwa vha tsumbo kha zwiṅwe zwitshavha uri zwi kone u edzisa.
 
-## The Bitcoin Beach Wallet
+Zwa ndeme vhukuma, Bitcoin Beach yo sika tshitshavha tshine vhana vha El Zonte vha nga lora na u fhaṱa vhumatshelo havho.
 
-The Bitcoin Beach Wallet is an open source Bitcoin community banking solution. One that was designed to meet the needs of the merchants and community members in El Zonte. It utilizes a multisig shared custody model that offers an alternative to the standard non-custodial and custodial solutions that are most widely available today.
+## Tshipatshi tsha Bitcoin Beach
+
+Tshipatshi tsha Bitcoin Beach ndi thandululo ya bannga ya tshitshavha ya Bitcoin ya tshiko tsha nnyi na nnyi. Iṅwe ye ya vha yo itelwa u swikelela ṱhoḓea dza vharengisi na miraḓo ya tshitshavha ngei El Zonte. I shumisa modele wa u vhulunga wo ṱanganelanaho wa multisig une wa ṋetshedza nḓila iṅwe ya thandululo dza maimo a nṱha dzi si dza u vhulunga na dza u vhulunga dzine dza wanala nga vhunzhi ṋamusi.
 
 ![](./bitcoin-beach-wallet-soaps.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Cristina uses the Bitcoin Beach Wallet to sell handmade soaps. Customers can pay her via username, by scanning an invoice on her phone, or by visiting her <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Source: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
+  <figcaption>Cristina u shumisa Tshipatshi tsha Bitcoin Beach u rengisa zwisibe zwo itwaho nga zwanḓa. Vharengi vha nga mu badela nga dzina ḽawe ḽa mushumisi, nga u ṱola invoyisi kha founu yawe, kana nga u mu dalela <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Source: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Within the Bitcoin Beach Wallet, capital is pooled and managed by the community. This provides benefits to all members within the community:
+Nga ngomu ha Bitcoin Beach Wallet, khaphithaḽa i ṱanganyiswa na u langiwa nga tshitshavha. Hezwi zwi ṋea mbuelo kha miraḓo yoṱhe nga ngomu ha tshitshavha:
 
-- Lightning channels are managed for members; there is no cost to open/close channels
-- Free and instant “intra ledger” transactions are made available within the community
-- Efficient use of online servers means lower costs per user compared to the alternative of each merchant having to have their own server
-- Fees can be reduced by batching on-chain transactions
+- Netiweke ya mbadelo i langiwa kha mirado;  ahuna mbadelo ya u vula/u vala tshaneḽe
+- Mbadelo dza mahala na dza u ṱavhanya dzaa “bugu ya mbadelo” dzi itwa uri dzi vhe hone nga ngomu ha tshitshavha
+- U shumisa zwavhuḓi seva dza inthanethe zwi amba u ḓura ha fhasi nga mushumisi musi hu tshi vhambedzwa na nḓila iṅwe ya uri murengisi muṅwe na muṅwe a tea u vha na seva yawe
+- Mbadelo dzi nga fhungudzwa nga u ṱanganya thengiselano kha mutevhe
 
-Additional features in the app help support efforts towards a sustainable Bitcoin economy:
+Zwiṅwe zwithu zwo engedzwaho kha app zwi thusa u tikedza vhuḓidini ha u livha kha ikonomi ya Bitcoin i bveledzaho:
 
-- Ability to pay via Bitcoin address, Lightning invoice or individual username
-- A unified balance of on-chain and Lightning, showing the balance in USD and sats
-- A transaction log displays a history of payments between users
-- The mobile friendly map displays all local businesses that accept Lightning payments
-- A web address users can share to receive bitcoin from anybody with a Lightning supported wallet (see: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
+- Vhukoni ha u badela nga ḓiresi ya Bitcoin, invoyisi ya Mbadelo kana dzina ḽa mushumisi nga eṱhe
+- Mbadelo yo ṱanganaho ya nmutevhe na Mbadelo, i sumbedzaho masheleni nga USD na sats
+- Rekhodo ya thengiselano i sumbedza ḓivhazwakale ya mbadelo vhukati ha vhashumisi
+-  Mapa wa luṱingo thendeleki wa vhukonani ha themamveledziso u sumbedza mabindu oṱhe apo ane a ṱanganedza mbadelo dza Netiweke ya mbadelo ya u ṱavhanya
+- Ḓiresi ya webusaithi vhashumisi vha nga i kovhelana u itela u wana bitcoin u bva kha muthu muṅwe na muṅwe a re na tshipatshi tshi tikedzwaho nga Netiweke ya mbadelo ya u ṱavhanya (vhonani: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
 
-If you’re interested in building a front end mobile application like the Bitcoin Beach Wallet you can access the [galoy-mobile](https://github.com/GaloyMoney/galoy-mobile) repository on GitHub.
+Arali vha na dzangalelo ḽa u fhaṱa tshumiso ya luṱingothendeleki lwa phanḓa sa Tshipatshi tsha Bitcoin Beach vha nga swikelela [lugaloy-luṱingothendeleki](https://github.com/GaloyMoney/galoy-mobile) fhethu kha GitHub.
 
-Without further ado, here are the top lessons Galoy learned from building in El Zonte.
+Hu si na u bvela phanḓa, hedzi ndi ngudo dza nṱha dze Galoy a dzi guda kha u fhaṱa ngei El Zonte.
 
-## Lesson 1: Education is Paramount
+## Ngudo 1: Pfunzo ndi ya ndeme
 
-Bitcoin is a difficult thing to understand. It cuts across computer science, economics, history, cryptography, monetary policy and more. Luckily, somebody does not need to fully grasp Bitcoin to use and benefit from it. How many people who have used fiat their entire lives actually understand how money works?
+Bitcoin ndi tshithu tshine tsha konḓa u pfesesa. I ṱanganya saintsi ya khomphyutha, ikonomi, ḓivhazwakale, cryptography, mbekanyamaitele ya masheleni na zwiṅwe. Mashudu mavhuya, muthu ha ṱoḓi u pfesesa nga vhuḓalo Bitcoin u itela u i shumisa na u vhuyelwa ngayo. Ndi vhangana vhathu vhe vha shumisa fiat vhutshilo havho hoṱhe vhane vha pfesesa zwa vhukuma uri tshelede i shuma hani?
 
 ![](./bitcoin-beach-teaching.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Showing Salvadorans how to use Bitcoin is an ongoing process for Jorge and the Bitcoin Beach team. (Source: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
+  <figcaption>U sumbedza vhathu vha Salvador nḓila ya u shumisa Bitcoin ndi maitele a bvelaho phanḓa kha Jorge na tshigwada tsha Bitcoin Beach. (Source: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are five tips to consider when educating your community:
+Hedzi ndi nyeletshedzo ṱhanu dzine na fanela u dzi ṱhogomela musi ni tshi khou gudisa tshitshavha tshavho:
 
-1. **Community organizers are key to the onboarding process.** Having an in-person onboarding team ensures people start off on the right foot. This is especially important in communities where Bitcoin presents the opportunity to transact digitally for the first time.
-2. **It’s more effective to show people how to use Bitcoin than to tell them about it.** Helping people download and interact with a wallet, and having them send and receive sats is more effective than trying to orange pill them with ideas.
-3. **Teach the kids. They will onboard their parents.** The kids of El Zonte were quick to learn how to use Bitcoin. They in turn helped their parents on board at home.
-4. **Bitcoin ATMs help connect the mental dots between Bitcoin and fiat.** A Bitcoin ATM turned out to be a helpful asset to the onboarding process. When people are able to exchange bitcoin in their mobile wallet for their local currency, they build a stronger relationship with the idea of Bitcoin as money.
-5. **Help people expect and plan for short term volatility.** Set expectations so your community can be prepared for drops in the Bitcoin price. Consider a program that compensates merchants whose account balance drops due to price fluctuations for an initial onboarding period until their comfort with Bitcoin is established.
+1. **Vhadzudzanyi vha tshitshavha ndi vhone vha ndeme kha mushumo wa u ḓivhadza.** U vha na tshigwada tsha u dzhena kha u ḓivhadza nga muthu nga eṱhe zwi khwaṱhisedza uri vhathu vha thoma nga mulenzhe wa tsha u ḽa. Hezwi ndi zwa ndeme nga maanḓa kha zwitshavha zwine Bitcoin ya ṋetshedza tshikhala tsha u rengiselana nga didzhithala lwa u tou thoma.
+2. **Zwi a shuma u sumbedza vhathu nḓila ya u shumisa Bitcoin u fhira u vha vhudza nga hazwo.** U thusa vhathu u ṱalutshedzela na u ṱanganelana na tshipatshi, na u ita uri vha rumele na u ṱanganedza sats zwi a shuma u fhira u lingedza u vha ṋea ngudo kana u ṱuṱuwedza muthu nga ha Bitcoin nga mihumbulo.
+3. **Gudisani vhana. Vha ḓo u ita uri vhabebi vhavho vha dzhenele.** Vhana vha El Zonte vho mbo ḓi ṱavhanya u guda u shumisa Bitcoin. Vhone vha dovha vha thusa vhabebi vhavho khakha u dzhenelela.
+4. **ATM dza Bitcoin dzi thusa u ṱumanya doto dza muhumbulo vhukati ha Bitcoin na fiat.** ATM ya Bitcoin yo bvelela sa ndaka i thusaho kha mushumo wa u dzhenelela. Musi vhathu vha tshi kona u tshintsha bitcoin kha tshipatshi tshavho tsha themamveledziso nga tshelede yavho yapo, vha fhaṱa vhushaka ho khwaṱhaho na muhumbulo wa Bitcoin sa tshelede.
+5. **Thusani vhathu u lavhelela na u pulana u shandukiswa ha tshifhinga tshiṱuku.** Vheani zwi lavhelelwa u itela uri tshitshavha tshaṋu tshi kone u ḓilugisela u tsa ha mutengo wa Bitcoin. Ṱhogomelani mbekanyamushumo ine ya lifha vharengisi vhane tshivhalo tsha akhaunthu dzavho tsha tsela fhasi nga ṅwambo wa u shandukiswa ha mitengo lwa tshifhinga tsha u thoma tsha u dzhenelela u swikela musi vhuḓifulufheli havho na Bitcoin vhu tshi thomiwa.
 
-As you build your community, take the time to connect with and learn from the people of [Bitcoin Beach](http://bitcoinbeach.com/). They are giants on whose shoulders you can stand. Their dedication to service existed before Bitcoin, and it transcends Bitcoin. Bitcoin has now become a medium through which they can bring opportunity and hope for the future of El Salvador.
+Musi ni tshi khou fhaṱa tshitshavha tshaṋu, dzhiani tshifhinga tsha u ṱumana na u guda kha vhathu vha [Bitcoin Beach](http://bitcoinbeach.com/). Ndi zwihali zwine wa nga ima kha mahaḓa azwo. U ḓi kumedzela havho kha tshumelo ho vha hone phanḓa ha Bitcoin, nahone zwi fhira Bitcoin. Bitcoin zwino yo no vha tshishumiswa tshine ngatsho vha nga ḓisa tshikhala na fulufhelo ḽa vhumatshelo ha El Salvador.
 
-## Lesson 2: Lightning is an Accelerant for Bitcoin as Money
+## Ngudo 2: Netiweke ya Mbadelo ya u ṱavhanya ndi Tshiṱavhanyisi tsha Bitcoin sa Tshelede
 
-The Lightning Network is the most underestimated protocol in the world. Just two years ago it was a #reckless way to transact. Now it’s being used by McDonalds, Starbucks and Pizza Hut in El Salvador. Growth of nodes, channels and capacity is happening at a mind-blowing pace. The recent Arcane Research report “[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)” provides a glimpse into some of the growth metrics and expectations.
+Nethiweke ya mbadelo ya u ṱavhanya ndi maitele ane a dzhielwa fhasi vhukuma kha ḽifhasi. Miṅwaha mivhili yo fhiraho fhedzi ho vha hu nḓila ya #u sa londa ya u rengiselana.   Zwino i khou shumiswa nga McDonalds, Starbucks na Pizza Hut ngei El Salvador. U hula ha dzi noudzu, dzi tshaneḽe na nḓadzo zwi khou itea nga luvhilo lune lwa ṱuṱuwedza muhumbulo.  Muvhigo wa zwene zwino wa Ṱhoḓisiso ya Arcane “[Tshiimo tsha Nethiweke ya Mbadelo](https://www.research.arcane.no/the-state-of-lightning)” u ṋea luvhonela lwa dziṅwe dza nḓila dza nyaluwo na zwi lavhelelwa.
 
-Bitcoin Beach initially used on-chain transactions to distribute bitcoin within the community. While on-chain worked for educational settings and to transfer sats to members of the community, its limitations became a barrier to progressing towards a circular economy.
+Bitcoin Beach mathomoni yo shumisa thengiselano kha mutevhe u itela u phaḓaladza bitcoin nga ngomu ha tshitshavha. Musi mutevhe u tshi shuma kha zwiimiswa zwa pfunzo na u fhirisela sats kha miraḓo ya tshitshavha, mikano yayo yo vha tshithivheli kha u bvela phanḓa u ya kha ikonomi.
 
-Salvadorans experienced how the utility of Bitcoin as a medium of exchange is limited without layer two networks like Lightning:
+Vhathu vha Salvador vho tshenzhela nḓila ine mushumo wa Bitcoin sa tshishumiswa tsha u tshintshana wa vha na mikano ngayo hu si na nethiweke dza leyara mbili dzi ngaho mbadelo ya u ṱavhanya:
 
 1. **On-chain fees were too expensive to facilitate daily spending.** Residents of El Zonte need to be able to spend small dollar amounts, such as 50 cents for pupusas.
-2. **Using on-chain bitcoin for retail transactions creates “dust.”** Bitcoin Beach experienced the “[dust transactions problem](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)” firsthand. Unspent transaction outputs (UTXOs) record how value is moved on the timechain. When the value of a UTXO becomes less than the cost of spending it, the bitcoin is considered unspendable “dust.”
-3. **In the retail setting, anything less than instant settlement creates friction for both the business and the consumer.** Bitcoin is built for security and incorruptibility on layer one. It is not meant for speed and transaction throughput.
+2. **U shumisa bitcoin kha tshene kha thengiselano ya u rengisa zwi sika “ṱhukhu.””** Bitcoin Beach yo tshenzhela “[thaidzo ya thengiselano ṱhukhu](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)” nga maṱo. Zwibveledzwa zwa thengiselano zwi songo shumiswaho (UTXO) zwi rekhoda nḓila ine ndeme ya tshimbidzwa ngayo kha timechain mutevhe wa tshifhinga. Musi ndeme ya UTXO i tshi vha fhasi ha mutengo wa u i shumisa, bitcoin i dzhiiwa sa “ṱhukhu” ḽi sa shumiswi.
+3. **Kha nyimele ya u rengisa, tshiṅwe na tshiṅwe tshi re fhasi ha u dzudzanya nga u ṱavhanya tshi sika vhuleme kha bindu na kha murengi.** Bitcoin yo fhaṱelwa tsireledzo na u sa tshinyala kha ḽeyara ya u thoma. A zwo ngo itelwa u ṱavhanya na u fhira ha thengiselano.
 
 ![](./merchant-lightning-payments.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Lightning enables the fast, easy-to-use and inexpensive payments that merchants require in a retail setting. (Source: Galoy)</figcaption>
+  <figcaption>Netiweke ya mbadelo ya u ṱavhanya i ita uri hu kone u badelwa nga u ṱavhanya, u leluwa u shumisa na u sa ḓura zwine vharengisi vha zwi ṱoḓa fhethu hune ha rengiswa hone. (Source: Galoy)</figcaption>
 </figure>
 </center>
 
-The layer two Lightning Network is the technology that could upend the legacy retail system and bring the promise of Bitcoin as money to the world. Our co-founders wrote about this in the 2020 article “[Lightning as a Retail Payment System?](https://galoy.io/lightning-as-a-retail-payment-system/)”
+Ḽeyara ya vhuvhili ya Netiweke ya Mbadelo ya u ṱavhanya ndi thekinoḽodzhi ine ya nga shandukisa sisiṱeme ya u rengisa ya kale na u ḓisa fulufhedziso ḽa Bitcoin sa tshelede kha ḽifhasi. Vhathomi vhashu vho ṅwala nga ha zwenezwi kha athikili ya 2020 “[Lightning as a Retail Payment System?](https://galoy.io/lightning-as-a-retail-payment-system/)”
 
-The Lightning Network served as an accelerant and an enabler of the vision of the Bitcoin Beach project. Without it, using Bitcoin as money in El Salvador would be more difficult and more expensive; it may have even derailed or at least delayed the project.
+Netiweke ya Mbadelo ya u ṱavhanya yo shuma sa tshiṱavhanyisi na tshikonḓisi tsha bono ḽa phurojeke ya Bitcoin Beach. Arali hu si na, u shumisa Bitcoin sa tshelede ngei El Salvador zwi ḓo konḓa vhukuma nahone zwi ḓo ḓura; zwi nga kha ḓi vha zwo ita uri mushumo u bve tshiporoni kana u lenga.
 
-Lightning Network integration has become table stakes for any wallet or financial services being built on Bitcoin. It unlocks vast potential for close-to-free, global, real-time, permissionless transactions.
+U ṱanganyiswa ha Netiweke ya Mbadelo ya u ṱavhanya wo no vha zwi lavhelelwa zwa mutheo zwa tshipatshi tshiṅwe na tshiṅwe kana tshumelo dza masheleni dzine dza khou fhaṱiwa kha Bitcoin. I vula khonadzeo khulwane ya thengiselano ya tsini na mahala, ya ḽifhasi, ya tshifhinga tsha vhukuma, i si na thendelo.
 
-## Lesson 3: Merchant Onboarding is Necessary to Foster a Local Circular Economy
+## Ngudo 3: U dzheniswa ha vharengisi ndi zwa ndeme u itela u ṱuṱuwedza Sekhuḽa ya Ikonomi ya yapo
 
-Standing up a circular Bitcoin economy presents a “chicken and egg” problem. Residents need places to use it, and merchants need customers who will spend it. Making it easy and desirable to accept Bitcoin is an important step in stimulating local community adoption.
+U ima na ikonomi ya Bitcoin ya tshitendeledzi zwi ḓisa thaidzo ya “khuhu na ṋawa”. Vhadzulapo vha ṱoḓa fhethu hune vha ḓo i shumisa hone, nahone vhavhambadzi vha ṱoḓa vharengi vhane vha ḓo i shumisa. U ita uri zwi leluwe na u takalelwa u ṱanganedza Bitcoin ndi vhukando ha ndeme ha u ṱuṱuwedza u ṱanganedzwa nga tshitshavha tshapo.
 
-The ultimate goal is to make receiving bitcoin faster, easier, and cheaper than any other currency or means of payment.
+Tshipikwa tshihulwane ndi u ita uri u ṱanganedza bitcoin zwi ṱavhanye, zwi leluwe, nahone zwi ḓure u fhira dziṅwe tshelede kana nḓila dza u badela.
 
 ![](./first-merchant.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Mama Rosa (pictured with her son Jorge) was the first merchant in El Zonte to accept Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
+  <figcaption>Mama Rosa (tshifanyisoni na mutukana wavho Jorge) ndi vhone muvhambadzi wa u thoma ngei El Zonte u ṱanganedza Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are some experiences that shaped how we design for merchants:
+Hedzi ndi dziṅwe tshenzhelo dze dza vhumba nḓila ine ra sika ngayo vharengisi:
 
-1. **Don’t make merchants think about currency conversion.** Reduce the mental load required to calculate prices by showing both dollar (or local currency) amounts and bitcoin amounts across balances, invoices and transaction history screens.
-2. **Enable multiple ways for merchants to get paid.** Merchants should not have to create invoices for each transaction. Using the Bitcoin Beach Wallet, customers can pay via username, printed QR code, selecting the merchant on a map, or using the invoice pages that each user can share at ln.bitcoinbeach.com/[username].
-3. **Make the process require less time, attention and clicks.** The turning point for El Zonte merchants came when Galoy enabled customers to set the invoice amount. Merchants no longer have to stop what they are doing to create an invoice. They can simply look at the alert on their phone to verify a payment came in. Bitcoin is now easier to accept than cash or credit.
-4. **Create merchant incentives to help encourage adoption early on.** In El Zonte, there was a “cash back” program for a few weeks, where merchants earned 20% back on their bitcoin. This type of promotion helps drive trials and stimulate early growth of the circular economy.
+1. **Ni songo ita uri vharengisi vha humbule nga ha u shandukisa tshelede.** Fhungudzani muhwalo wa muhumbulo une wa ṱoḓea u itela u vhalela mitengo nga u sumbedza zwoṱhe zwikalo zwa dolara (kana tshelede yapo) na zwikalo zwa bitcoin kha masheleni, invoyisi na zwikirini zwa ḓivhazwakale ya thengiselano.  
+2. **U konisa nḓila nnzhi dza uri vharengisi vha badelwe.** Merchants should not have to create invoices for each transaction. Vharengisi a vho ngo fanela u sika dzi invoice dza thengiselano iṅwe na iṅwe. U shumisa Bitcoin Beach Wallet, vharengi vha nga badela nga dzina ḽa mushumisi, khoudu ya QR yo gandiswaho, u nanga murengisi kha mapa, kana u shumisa masiaṱari a invoyisi ane mushumisi muṅwe na muṅwe a nga a kovhelana kha ln.bitcoinbeach.com/[dzina ḽa mushumisi].
+3. **Itani uri mushumo u ṱoḓe tshifhinga tshiṱuku, u ṱhogomelo na u puṱedzwa.** Tshifhinga tsha tshanduko kha vharengisi vha El Zonte tsho ḓa musi Galoy a tshi konisa vharengi u vhea tshelede ya invoice. Vhavhambadzi a vha tsha tea u litsha zwine vha khou ita u itela u sika invoyisi. Vha nga sokou sedza kha nḓivhadzo kha founu yavho u itela u khwaṱhisedza uri mbadelo yo dzhena.Bitcoin zwino zwo leluwa u ṱanganedza u fhira tshelede kana tshikolodo.
+4. **U sika ṱhuṱhuwedzo dza vharengisi u itela u thusa u ṱuṱuwedza u ṱanganedzwau ṱavhanya.** Kha ḽa El Zonte, ho vha na mbekanyamushumo ya “u bvisa tshelede” lwa vhege dzi si gathi, hune vharengisi vha wana 20% murahu kha bitcoin yavho. Lushaka ulu lwa u ṱuṱuwedza lu thusa u ṱuṱuwedza milingo na u ṱuṱuwedza nyaluwo ya u ṱavhanya ya sekhuḽa ya ikonomi.
 
-Don’t lose focus on the important role that merchants play in supporting a Bitcoin economy. The needs of merchants across each community will be different, so be sure to spend time understanding and designing for them early on.
+Vha songo litsha u sedza nga maanḓa ha mushumo wa ndeme une vhavhambadzi vha u ita kha u tikedza ikonomi ya Bitcoin. Ṱhoḓea dza vharengisi kha tshitshavha tshiṅwe na tshiṅwe dzi ḓo fhambana, ngauralo khwaṱhisedzani u fhedza tshifhinga ni tshi khou pfesesa na u vhumba hu tshe na tshifhinga. 
 
-## Lesson 4: User Experience Must be Developed Within the Context of the Community
+## Ngudo 4: Tshenzhemo ya Mushumisi I Tea u Bveledzwa Nga Ngomu ha Nyimele ya Tshitshavha
 
-Bitcoin Beach exists at the frontier of Lightning Network adoption. As Mike often says “There are little kids in El Zonte who make more Lightning transactions than most OG Bitcoiners.”
+Bitcoin Beach i hone kha mukano wa u ṱanganedzwa ha Nethiweke ya Mbadelo ya u ṱavhanya. Sa zwe Mike a anzela u amba “Hu na vhana vhaṱuku ngei El Zonte vhane vha ita thengiselano nnzhi dza Mbadelo nga u ṱavhanya u fhira vhunzhi ha OG Bitcoiners.”
 
-As the Bitcoin economy grew, the team took note of unmet needs and desired functionality that would help make life easier for the residents and merchants. Being on the ground in El Zonte provided invaluable insight to Nicolas as he was building the Bitcoin Beach Wallet.
+Musi ikonomi ya Bitcoin i tshi khou aluwa, tshigwada tsho dzhiela nṱha ṱhoḓea dzi sa swikeleliwi na mushumo wo ṱoḓeaho une wa ḓo thusa u leludza vhutshilo ha vhadzulapo na vhavhambadzi. U vha fhasi ha El Zonte zwo ṋea nḓivho ya ndeme vhukuma kha Nicolas musi a tshi khou fhaṱa Tshipatshi tsha Bitcoin Beach.
 
 ![](./bitcoin-insights.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Watching people use Bitcoin at merchants across El Zonte surfaced helpful insights for product and service design. (Source: Galoy)</figcaption>
+  <figcaption>U ṱalela vhathu vha tshi shumisa Bitcoin kha vharengisi u mona na El Zonte zwo bveledza nḓivho dzi thusaho dza u ḓivhadza zwibveledzwa na tshumelo. (Source: Galoy)</figcaption>
 </figure>
 </center>
 
-Note: Remember that it’s important to test your apps and services within the community for whom they’re intended. Do your own research.
+Nḓivhadzo: Humbulani uri ndi zwa ndeme u linga dzi-app na tshumelo dzaṋu kha tshitshavha tshe dza itelwa tshone. Itani ṱhoḓisiso yaṋu.
 
-Six user experience learnings from testing the Bitcoin Beach Wallet in the wild:
+Tshenzhemo dza vhashumisi vha rathi dzi gudwa nga u linga Tshipatshi tsha Bitcoin Beach ḓakani:
 
-1. **Don’t take a strong internet connection for granted.** Developing for areas with spotty connectivity may require optimization and fault tolerance at the network level that would typically not be needed in the United States.
-2. **App onboarding presents a perfect window for education.** The Bitcoin Beach Wallet has a built-in quiz that walks users through a brief introduction to Bitcoin. Each question rewards the user with sats to get them off zero from the very start.
-3. **“Sats is the standard,” but USD is still the unit of account.** People think in their local currency, not sats, when onboarding to Bitcoin. The transition to thinking in sats is gradual, the local currency should be the unit of account when bringing a new community onto the network.
-4. **Add interactions that connect customers to merchants.** The map tab in the Bitcoin Beach Wallet helps customers find places where they can spend Bitcoin. It also enables quick and easy transactions by allowing the customer to create and pay invoices.
-5. **Payment notes help with record keeping.** Both customers and merchants can benefit from being able to add notes to transactions. Based on community input the feature has evolved from private (at the user level) to shared. Now the sender and receiver can both see the note attached to the transaction.
-6. **Stay on top of how lightning payment formats are evolving.** New payment formats such as Lightning Address, static invoices and BOLT 12 are emerging at a rapid pace. Selecting which formats to adopt will depend on the use case. The Bitcoin Beach Wallet initially launched with a printed QR code that led to an invoice page (such as ln.bitcoinbeach.com/mamarosa). New formats are now being considered in order to reduce friction and improve interoperability.
+1. **Ni songo dzhia vhuṱumani ho khwaṱhaho ha inthanethe sa tshithu tshi sa ṱoḓei.** U bveledza fhethu hune ha vha na vhuṱumani vhu si havhuḓi zwi nga ṱoḓa u khwinisa na u konḓelela vhukhakhi kha ḽeveḽe ya nethiweke zwine nga nḓila yo ḓoweleaho zwi nga si ṱoḓee kha ḽa United States.
+2. **U dzhena kha app zwi ṋea tshikhala tsho fhelelaho tsha pfunzo.** Tshipatshi tsha Bitcoin Beach tshi na mbudziso yo fhaṱiwaho ine ya tshimbidza vhashumisi kha ṱhalutshedzo pfufhi ya Bitcoin. Mbudziso iṅwe na iṅwe i lambedza mushumisi nga sats uri vha bve kha zero u bva mathomoni.
+3. **“Sats ndi tshilinganyo,” fhedzi USD i kha ḓi vha yuniti ya akhaunthu.** Vhathu vha humbula nga tshelede yavho yapo, hu si sats, musi vha tshi dzhena kha Bitcoin. U shandukiswa ha u humbula nga sats ndi nga zwiṱuku nga zwiṱuku, tshelede yapo i fanela u vha yuniti ya akhaunthu musi hu tshi ḓiswa tshitshavha tshiswa kha nethiweke.
+4. **Engedzani vhukwamani vhune ha ṱumanya vharengi na vharengisi.** Thebu ya mapa kha Tshipatshi tsha Bitcoin Beach tshi thusa vharengi u wana fhethu hune vha nga shumisa Bitcoin hone. I dovha ya ita uri hu vhe na thengiselano nga u ṱavhanya na nga nḓila i leluwaho nga u tendela khasiṱama u sika na u badela invoyisi.
+5. **.Notsi dza mbadelo dzi thusa kha u vhulunga rekhodo.** Vharengi na vharengisi vha nga vhuelwa nga u kona u engedza notsi kha thengiselano. U ya nga ṱhuṱhuwedzo ya tshitshavha tshivhumbeo tsho bvelela u bva kha tsha phuraivethe (kha ḽeveḽe ya mushumisi) u ya kha u kovhekana. Zwino murumeli na muṱanganedzi vhoṱhe vha nga kona u vhona notsi yo nambatedzwaho kha thengiselano.
+6. **Dzulani ni tshi ḓivha uri zwivhumbeo zwa mbadelo dza u ṱavhanya zwi khou bvelela hani. **Tshivhumbeo tshiswa tsha mbadelo tshi ngaho Ḓiresi ya Netiweke ya Mbadelo ya u ṱavhanya, invoyisi dzi sa shanduki na BOLT 12 dzi khou bvelela nga luvhilo luhulu. U nanga uri ndi zwivhumbeo zwifhio zwine zwa ḓo shumiswa zwi ḓo ḓitika nga nyimele ya u shumisa. Tshipatshi tsha Bitcoin Beach tsho thoma nga u thomiwa nga khoudu ya QR yo gandiswaho ye ya isa kha siaṱari ḽa invoyisi (sa ln. ln.bitcoinbeach.com/mamarosa). Zwino hu khou sedzwa zwivhumbeo zwiswa u itela u fhungudza u ṱangana na u khwinisa u shumisana.
 
-## Lesson 5: Community Custody is a Bridge to Self-custody
+## Lesson 5: Community Custody is a Bridge to Self-custodyNgudo 5: U Ḓi ṱhogomela ha Tshitshavha ndi Nḓila ya u Ḓiṱhogomela 
 
-Self custody is the desired end state for every person holding wealth in bitcoin. The number one rule of Bitcoin custody is “Not your keys, not your coins.”
+U ḓi ṱhogomela ndi tshiimo tsha u fhedzisela tshine tsha ṱoḓea kha muthu muṅwe na muṅwe o faraho lupfumo kha bitcoin. Mulayo wa nomboro nthihi wa u vhulunga Bitcoin ndi “A si khii dzaṋu, a si tshelede dzaṋu dza tsimbi.”
 
-Self custody is not the only way, nor the most appropriate way to onboard communities to the concept and practice of using Bitcoin.
+U ḓi ṱhogomela a si yone nḓila nthihi fhedzi, kana nḓila yo teaho vhukuma ya u dzhenisa zwitshavha kha muhumbulo na maitele a u shumisa Bitcoin.
 
-> “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.” – Mike Peterson on [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
+> Ni fanela u dzhia maga a vhana. Arali na vhea zwithivheli zwoṱhe hezwi mathomoni, vhathu a vha nga ḓo vhuya vha dzhena kha ikhosisiṱeme." – Mike Peterson kha [Nganea dzi bvaho kha Crypt  #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
 
-### The spectrum of Bitcoin custody
+### Tshipiḓa tsha u vhulunga Bitcoin
 
-Bitcoin custody models sit along a spectrum not unlike the convenience/privacy spectrum. On one side, you have simple UX, easy access to funds and integration across the fiat banking ecosystem. On the other, you have hand-stamped metal, sharded seed phrases and multi-signature custody models that require multiple steps or multiple people to move funds.
+Modele dza u vhulunga Bitcoin dzi dzula tsini na tshipiḓa tshi sa fani na tshipiḓa tsha u leludza/tshiphiri. Kha ḽiṅwe sia, u na UX yo leluwaho, tswikelelo yo leluwaho ya masheleni na u ṱanganelana kha ikhosisiṱeme ya bannga ya fiat. Kha ḽiṅwe sia, u na tsimbi dzo ṱamiwaho nga zwanḓa, mafhungo a mbeu o fhandekanaho na modele dza u vhulunga dza u saina nnzhi dzine dza ṱoḓa maga manzhi kana vhathu vhanzhi u itela u tshimbidza masheleni.
 
-Different use cases have different risk scenarios that make trade-offs acceptable. For example, storing wealth in a bank account is generally considered safer than carrying it around as cash in a wallet, but carrying around small amounts of cash for daily purchases provides convenience.
+Milandu yo fhambanaho ya u shumisa i na zwiimo zwo fhambanaho zwa khombo zwine zwa ita uri u rengiselana zwi ṱanganedzee. Sa tsumbo, u vhulunga lupfumo kha akhaunthu ya bannga nga u tou angaredza zwi dzhiiwa zwo tsireledzea u fhira u lu hwala sa tshelede kha tshipatshi, fhedzi u hwala tshelede ṱhukhu ya u renga ḓuvha na ḓuvha zwi ita uri zwi leluwe.
 
 ![](./bitcoin-custody-self-shared-community-1024x384.png)
 
 <center v-pre>
 <figure>
-  <figcaption>The Bitcoin Beach Wallet provides a shared custody option where funds can be stored within a community.</figcaption>
+  <figcaption>Tshipatshi tsha Bitcoin Beach tshi ṋetshedza khetho ya u vhulunga yo ṱanganelanaho hune masheleni a nga vhewa nga ngomu ha tshitshavha.</figcaption>
 </figure>
 </center>
 
-Every model has value, so long as 1) it is used for a fitting purpose and 2) it guides people further to the right as they accumulate more of their wealth in bitcoin.
+Modeḽe muṅwe na muṅwe u na ndeme, arali fhedzi 1) u tshi shumiselwa ndivho yo teaho na 2) u livhisa vhathu phanḓa kha tsha u ḽa musi vha tshi kuvhanganya lupfumo lwavho lunzhi kha bitcoin.
 
-### Community custody: harkening back to the days of union banks
+### Vhuṱhogwa ha tshitshavha: u vhuyelela murahu kha maḓuvha a bannga dza madzangano
 
-The custody model that we landed on for Bitcoin Beach is what Galoy refers to as “community custody.” It is a multi signature solution where the keys for the funds in cold storage are held by established members of the local community. This model reduces reliance on centralized companies outside of the community while also reducing friction of onboarding members to the network.
+Modeḽe wa u vhulunga we ra wela khawo wa Bitcoin Beach ndi zwine Galoy a zwi vhidza “u vhulunga ha tshitshavha.” Ndi thandululo ya tsaino nnzhi hune khii dza masheleni kha vhupo ha u vhulungela zwithu zwi rotholaho dza farwa nga miraḓo yo thomiwaho ya tshitshavha tshapo. Modeḽe uyu u fhungudza u ḓitika nga khamphani dzo ṱanganaho nnḓa ha tshitshavha ngeno u tshi dovha wa fhungudza u ṱangana ha miraḓo ya u dzhena kha nethiweke.
 
-### A note on community banking
+### Notsi nga ha bannga ya tshitshavha
 
-Community banks have existed around the world for hundreds of years. Their core purpose is to support the socio-economic needs of a group of people with a shared interest. Often the shared interest is centered around a geographic location. Funds held by community banks are sourced from and loaned to people within the community in a more relationship-driven manner than the typical universal bank.
+Bannga dza tshitshavha dzo no vha hone u mona na shango lwa miṅwaha ya maḓana. Ndivho yavho khulwane ndi u tikedza ṱhoḓea dza matshilisano na ikonomi dza tshigwada tsha vhathu vha re na dzangalelo ḽi fanaho. Kanzhi dzangalelo ḽo ṱanganelanaho ḽi vha ḽo sendeka kha fhethu hune ha vha hone. Tshelede yo farwaho nga bannga dza tshitshavha i bva kha na u hadzimiwa vhathu vha re ngomu ha tshitshavha nga nḓila ine ya ṱuṱuwedzwa nga vhushaka u fhira bannga yo ḓoweleaho ya ḽifhasi ḽoṱhe.
 
-Community banks are especially important to communities like El Zonte because they enable decisions to be made locally with the best interests of community members in mind. The Galoy [open source Bitcoin banking solution](https://galoy.io/products/) is built to enable any community or institution around the world to self organize in this manner.
+Bannga dza tshitshavha ndi dza ndeme nga maanḓa kha zwitshavha zwi ngaho El Zonte ngauri dzi ita uri tsheo dzi kone u dzhiiwa henefho fhethu hu tshi humbulelwa madzangalelo a khwine a miraḓo ya tshitshavha.  Galoy [thandululo ya bannga ya Bitcoin ya tshiko tsha nnyi na nnyi](https://galoy.io/products/) yo fhaṱiwa u itela uri tshitshavha tshiṅwe na tshiṅwe kana tshiimiswa u mona na ḽifhasi tshi kone u ḓidzudzanya nga nḓila iyi.
 
-For more insight into the intersection between Bitcoin and community banking, see the Fulgur Ventures article “[The role of Bitcoin for community banking.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
+U itela u wana nḓivho yo engedzeaho nga ha u ṱangana vhukati ha Bitcoin na bannga ya tshitshavha, sedzani athikhiḽi ya Fulgur Ventures “[Mushumo wa Bitcoin kha u bannga ha tshitshavha.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
 
-### Bitcoin Beach Wallet as a community Bitcoin bank
+### Tshipatshi tsha Bitcoin Beach sa bannga ya tshitshavha ya Bitcoin
 
-Bitcoin Beach Wallet funds are managed by members within the community, providing a frictionless and cost-effective means of payment designed to support the local economy.
+Tshelede ya Tshipatshi tsha Bitcoin Beach tshi langiwa nga miraḓo nga ngomu ha tshitshavha, i ṋetshedza nḓila ya mbadelo i si na vhuleme na i sa ḓuriho yo itelwaho u tikedza ikonomi yapo.
 
-Here’s why community custody works for Bitcoin Beach:
+Ndi ngazwo vhuṱhogwa ha tshitshavha vhu tshi shuma kha Bitcoin Beach:
 
-1. **Removing friction is the most important step to creating the network effects required for circularity in the economy.** Humans are naturally resistant to change and quick to reject new ideas or revert to old habits. As Mike Peterson said in his June 2020 interview with Marty Bent: “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.”
-2. **It can be hard to securely and reliably store seed phrases in remote and emerging communities.** For people that live in houses with dirt floors and tin roofs, there are not secure places to store written seed phrases. Using seed phrases also presents issues for people who can’t read or write, which is not uncommon in many parts of the world.
-3. **People who use Bitcoin become more comfortable with it over time.** Residents of El Zonte are now sending bitcoin over the Lightning Network on a daily basis. Some have begun stacking sats and have accumulated more wealth than they ever would have with US Dollars. This is an inspiring trend that Bitcoin Beach is supporting through education and training about self-custody. UX improvements will also continue to make self-custody more accessible to more users around the world.
+1. **U bvisa u ṱangana ndi vhukando ha ndeme vhukuma ha u sika mvelelo dza nethiweke dzine dza ṱoḓea kha u tshimbidzana kha ikonomi.** Vhathu nga mvelo vha a hanedza tshanduko na u ṱavhanya u hana mihumbulo miswa kana u vhuyelela kha nḓowelo ya kale. Sa zwe Mike Peterson a amba kha nyambedzano yawe ya Fulwi 2020 na Marty Bent: "Ni fanela u dzhia vhukando ha vhana. Arali na vhea zwithivheli zwoṱhe hezwi mathomoni, vhathu a vha nga ḓo vhuya vha dzhena kha sisiṱeme ya ikonomi."
+2. **Zwi nga konḓa u vhulunga mafhungo a mbeu nga nḓila yo tsireledzeaho na i fulufhedzeaho kha zwitshavha zwi re kule na zwine zwa khou bvelela.** Kha vhathu vhane vha dzula nnḓuni dzi re na mavu na ṱhanga dza mathini, a hu na fhethu ho tsireledzeaho ha u vhulunga mafhungo a mbeu o ṅwaliwaho. U shumisa mafhungo a mbeu zwi dovha zwa ḓisa mafhungo kha vhathu vhane vha sa kone u vhala kana u ṅwala, zwine a zwo ngo ḓowelea kha zwipiḓa zwinzhi zwa ḽifhasi.
+3. **Vhathu vhane vha shumisa Bitcoin vha a ḓi fara zwavhuḓi nga murahu ha tshifhinga.** Vhadzulapo vha El Zonte zwino vha khou rumela bitcoin nga kha Netiweke ya Mbadelo ya u ṱavhanya ḓuvha na ḓuvha. Vhaṅwe vho thoma u ṱanganya sats nahone vho kuvhanganya lupfumo lunzhi u fhira lwe vha vha vha tshi ḓo vha nalwo nga Doḽara dza Amerika. Heyi ndi nḓowelo i ṱuṱuwedzaho ine Bitcoin Beach ya khou i tikedza nga pfunzo na vhugudisi nga ha u ḓi ṱhogomela. U khwiniswa ha UX zwi ḓo dovha zwa isa phanḓa na u ita uri u ḓi ṱhogomela zwi swikelelee kha vhashumisi vhanzhi u mona na ḽifhasi.
 
-Open source community custody solutions have emerged as a valuable model for onboarding communities to Bitcoin. We believe they will play a significant role in bringing Bitcoin to the first billion users.
+Thandululo dza u vhulunga tshitshavha dza nnyi na nnyi dzo bvelela sa modele wa ndeme wa u dzhenisa zwitshavha kha Bitcoin. Ri tenda uri vha ḓo tamba mushumo wa ndeme kha u ḓisa Bitcoin kha vhashumisi vha u thoma vha biḽioni.
 
-## Lesson 6: Start Small and Build Momentum Before Expanding
+## Ngudo 6: Thomani nga Zwiṱuku nahone ni Fhaṱe Maanḓa ni Sa athu u Ṱanḓavhudza 
 
-It is exciting to see the groundswell of communities around the world working to connect their towns and cities to the Bitcoin network. [Bitcoin Lake](https://twitter.com/LakeBitcoin) in Guatemala and [Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) are two early examples. Some Bitcoiners have started calling Tonga “Bitcoin Island” after hearing [Lord Fusitu’a’s](https://twitter.com/LordFusitua) four-part plan to bring Bitcoin to his country.
+Zwi a takadza u vhona groundswell ya zwitshavha u mona na ḽifhasi zwi tshi khou shuma u ṱumanya ḓorobo na ḓorobo dzazwo na nethiweke ya Bitcoin. [Isha ḽa Bitcoin](https://twitter.com/LakeBitcoin) ngei Guatemala na [Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) ndi tsumbo mbili dza u thoma. Some Bitcoiners have started calling Tonga “Bitcoin Island” after hearing Vhaṅwe vha Bitcoin vho thoma u vhidza Tonga “Tshiṱangadzime tsha Bitcoin” nga murahu ha u pfa pulane ya zwipiḓa zwiṋa zwa [Lord Fusitu’a’s](https://twitter.com/LordFusitua) ya u ḓisa Bitcoin shangoni ḽawe.
 
 ![](./education-roman-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>One-on-one education is an ongoing part of the process of onboarding a community. (Source: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
+  <figcaption>Pfunzo ya muthu nga muthu ndi tshipiḓa tshi bvelaho phanḓa tsha maitele a u dzhenisa tshitshavha. (Source: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-To those just starting out we’d offer two main thoughts on scaling from an idea to an economy:
+Kha vhane vha kha ḓi tou bva u thoma ri ḓo ṋetshedza mihumbulo mivhili mihulwane nga ha u bva kha muhumbulo u ya kha ikonomi:
 
-1. **Starting with a defined community helps to build a strong foundation.** Bitcoin Beach benefited from serving a population of 3,000 that was geographically separated from other villages. This narrow focus allowed us to capture and adapt to learnings in real time that prepared us for the exponential growth that followed.
-2. **Growth happens “gradually, then suddenly.”** When bringing a community onto Bitcoin, expect to spend as much effort and time onboarding the first 50 people than the next thousand. Because Bitcoin is a network, general rules of network effects will apply. Luckily, Bitcoin developers, educators and companies around the world are making tools to help any community get started.
+1. **U thoma nga tshitshavha tsho ṱalutshedzwaho zwi thusa u fhaṱa mutheo wo khwaṱhaho.** Bitcoin Beach yo vhuelwa nga u shumela vhathu vha 3,000 vhe vha vha vho fhambana nga dzingu na miṅwe miḓi. U livhiswa uhu huṱuku ho ri tendela u fara na u ṱanganedza ngudo nga tshifhinga tsha vhukuma zwe zwa ri lugisela nyaluwo ya u ṱavhanya ye ya tevhela. 
+2.**U aluwa hu itea “nga zwiṱuku nga zwiṱuku, nga murahu nga u ṱavhanya."** Musi ni tshi ḓisa tshitshavha kha Bitcoin, lavhelelani u shumisa vhuḓidini vhunzhi na tshifhinga tshi fanaho na tsha u dzhenisa vhathu vha 50 vha u thoma u fhira tshigidi tshi tevhelaho. Ngauri Bitcoin ndi nethiweke, milayo yo ḓoweleaho ya mvelelo dza nethiweke i ḓo shuma. Mashudu mavhuya, vhabveledzi vha Bitcoin, vhagudisi na khamphani u mona na shango vha khou ita zwishumiswa zwa u thusa tshitshavha tshiṅwe na tshiṅwe uri tshi thome.
 
-Many people first heard about Bitcoin Beach in 2021, but the project has been years in the making. The Bitcoin Beach team who have dedicated thousands of hours teaching the basics, answering questions and troubleshooting issues are the linchpin of this entire project. Without them, Bitcoin Beach would not be the success story you read about today.
+Vhathu vhanzhi vho thoma u pfa nga ha Bitcoin Beach nga 2021, fhedzi phurojeke yo no fhedza miṅwaha i tshi khou itwa. Tshigwada tsha Bitcoin Beach tshe tsha ṋekedza awara dza zwigidi tshi tshi khou funza zwithu zwa mutheo, u fhindula mbudziso na mafhungo a u tandulula thaidzo ndi linchpin ya heyi phurojeke yoṱhe. Arali vha siho, Bitcoin Beach yo vha i sa ḓo vha nganea ya u bvelela ine na vhala nga hayo ṋamusi. 
 
-### Considerations for Starting a Bitcoin Bank
+### Zwine zwa fanela u dzhielwa nṱha musi hu tshi thoma Bannga ya Bitcoin
 
-Build a strong foundation with the right team, technology and training.
+U fhaṱa mutheo wo khwaṱhaho nga tshigwada tsho teaho, thekhinoḽodzhi na ngudo.
 
 ![](./team-meeting-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>“We are a big family with a big dream.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
+  <figcaption>“Ri muta muhulu une wa vha na muloro muhulu.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
 </figure>
 </center>
 
-
-1. **Assemble your team.** Identify people who have the spirit, grit and passion to lead your community through the system change that Bitcoin represents. There are two primary angles to consider from the start:
-    - **Community engagement:** To understand what this level of community organizing looks like, simply follow and learn from [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), and [Mike](https://twitter.com/Bitcoinbeach).
-    - **Technology:** There are many factors to consider when choosing the technology solutions on which to build your Bitcoin Bank. Having access to somebody who can guide you through decisions around the spectrum of Bitcoin custody, Lightning node and liquidity management, hot and cold wallet usage and other factors will help you lay a strong foundation for growth.
-2. **Find a source of funding.** Securing access to funding is an important step for onboarding a new community to Bitcoin, especially in poorer countries where residents do not have savings or disposable income. Having funds available to pay for materials and services will help to stand up operations, and distributing sats within the community at the outset will be required to stimulate circularity in the economy.
-3. **Find a technological solution.** The tools for providing financial services on top of Bitcoin are still emerging. Galoy [open source Bitcoin banking infrastructure](https://galoy.io/products/) is one solution that aims to make it easy for communities and institutions to offer financial services on Bitcoin and Lightning.
-4. **Define your custody model and plan for a multi-signature (multisig) setup.** Custody is a foundational topic that deserves attention to detail and understanding of your audience. For communities of experienced Bitcoiners, enabling self-custody is a must. When you’re onboarding an unbanked population, you may decide that a community custody model like the one designed for Bitcoin Beach is the appropriate starting point. Either way, be sure to plan to hold reserve funds within a multisig setup.
-5. **Develop a plan for community training and support.** The Bitcoin community is incredibly generous with educational materials and other resources, so look and ask around first. There may be no place better than “Bitcoin Twitter” to be connected with the videos, articles and assets you need to begin onboarding your community. Keep in mind that the usage of Twitter may be very low in the communities for which you are building.
-6. **Hit the streets!** Onboarding happens one person at a time, by getting out into the community and giving people the opportunity to receive and send their first sats.
+1. **Kuvhanganyani tshigwada tshaṋu.** Tolani vhathu vhane vha vha na muya, tshivhindi na lutamo lwa u ranga phanḓa tshitshavha tshaṋu nga kha tshanduko ya sisiṱeme ine Bitcoin ya imela. Huna zwithu zwivhili zwa ndeme zwine zwa fanela u sedziwa u bva mathomoni:
+    - **U ṱanganelana ha tshitshavha:** U itela u pfesesa uri ḽeveḽe iyi ya u dzudzanya tshitshavha i vhonala hani, kha vha sokou tevhela na u guda u bva [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), and [Mike](https://twitter.com/Bitcoinbeach).
+    - **Thekhinoḽodzhi:** Hu na zwithu zwinzhi zwine na fanela u zwi ṱhogomela musi ni tshi khetha thandululo dza thekhinoḽodzhi dzine na ḓo fhaṱa khadzo Bannga yaṋu ya Bitcoin. U vha na tswikelelo kha muthu ane a nga ni livhisa kha tsheo dzo ṱanganaho na tshipiḓa tsha u vhulunga Bitcoin, noudu ya Mbadelo ya u ṱavhanya na ndaulo ya u fhungudzea ha masheleni, u shumiswa ha tshipatshi tshi fhisaho na tshi rotholaho na zwiṅwe zwithu zwi ḓo ni thusa u vhea mutheo wo khwaṱhaho wa nyaluwo.
+2. **Wanani tshiko tsha masheleni.** U tsireledza tswikelelo ya masheleni ndi vhukando ha ndeme ha u dzhenisa tshitshavha tshiswa kha Bitcoin, nga maanḓa kha mashango a shayaho hune vhadzulapo vha si vhe na tshelede yo vhulungwaho kana mbuelo ine ya nga shumiswa. U vha na masheleni ane a vha hone a u badela zwishumiswa na tshumelo zwi ḓo thusa u imisa mishumo, na u phaḓaladza sats nga ngomu ha tshitshavha mathomoni zwi ḓo ṱoḓea u itela u ṱuṱuwedza u tshimbidzana kha ikonomi. 
+3. **Find a technological solution.Wanani thandululo ya thekhinoḽodzhi.** Zwishumiswa zwa u ṋetshedza tshumelo dza masheleni nṱha ha Bitcoin zwi kha ḓi bvelela. Galoy [themamveledziso ya bannga ya Bitcoin ya tshiko tsha nnyi na nnyi](https://galoy.io/products/) ndi thandululo nthihi ine ya sedza kha u ita uri zwi lelutshele zwitshavha na zwiimiswa u ṋetshedza tshumelo dza masheleni kha Bitcoin na Netiweke ya mbadelo ya u ṱavhanya.
+4. **Ṱalutshedzani modele waṋu wa u vhulunga na pulane ya nzudzanyo ya zwiga zwinzhi (multisig).** U vhulunga ndi ṱhoho ya mutheo ine ya tea u dzhielwa nṱha kha zwidodombedzwa na u pfesesa ha vhathetshelesi vhaṋu. Kha zwitshavha zwa Bitcoiner vha re na tshenzhemo, u konisa u ḓi ṱhogomela ndi zwa ndeme. Musi ni tshi khou dzhena kha vhathu vha si na bannga, ni nga dzhia tsheo ya uri modele wa u vhulunga tshitshavha u fana na wo itelwaho Bitcoin Beach ndi mathomo o teaho. Nga nḓila ifhio na ifhio, khwaṱhisedzani u dzudzanya u fara masheleni a reserve nga ngomu ha nzudzanyo ya multisig.
+5. **Bveledzani pulane ya u gudisa na thikhedzo ya tshitshavha.** Tshitshavha tsha Bitcoin tshi na mafunda a sa tendisei nga zwishumiswa zwa pfunzo na zwiṅwe zwishumiswa, ngauralo sedzani na u vhudzisa hoṱhe phanḓa. Hu nga kha ḓi vha hu si na fhethu ha khwine u fhira “Bitcoin Twitter” u itela u ṱumana na vidio, athikiḽi na thundu dzine na dzi ṱoḓa u thoma u dzhena kha tshitshavha tshaṋu. Ni humbule uri u shumiswa ha Twitter zwi nga vha fhasi vhukuma kha zwitshavha zwine na khou zwi fhaṱela.
+6. **Shelani mulenzhe nga ho livhaho!** U dzhenelela hu itea muthu muthihi nga tshifhinga, nga u bvela nnḓa kha tshitshavha na u ṋea vhathu tshikhala tsha u ṱanganedza na u rumela sats dzavho dza u thoma. 
 
 ![](./jorge-bitcoin-beach-el-zonte-1024x768.jpg)
 
@@ -296,12 +306,12 @@ Build a strong foundation with the right team, technology and training.
 </figure>
 </center>
 
-## Conclusion
+## Magumo
 
-It is inspiring to see communities and institutions around the world working alongside each other to bring Bitcoin to the first Billion people. We hope that this guide helps accelerate learning and encourage good discussion.
+Zwi a ṱuṱuwedza u vhona zwitshavha na zwiimiswa u mona na ḽifhasi zwi tshi khou shumisana u ḓisa Bitcoin kha vhathu vha Biḽioni vha u thoma. Ri fulufhela uri ndaela iyi i thusa u ṱavhanyedza u guda na u ṱuṱuwedza nyambedzano yavhuḓi.
 
-Galoy is also organizing [Adopting Bitcoin: A Lightning Summit in El Salvador](https://adoptingbitcoin.org/) on November 16-18 as an additional way to support Bitcoin adoption and celebrate the success of the Bitcoin Beach team. We are humbled to be in the company of people like Jorge, Chimbera, Mike and countless others who brought the vision of a circular Bitcoin economy to life.
+Galoy i dovha ya dzudzanya [U ṱanganedza Bitcoin: Buthano ḽa Netiweke ya mbadelo ya u ṱavhanya ngei El Salvador](https://adoptingbitcoin.org/) nga dzi 16-18 Ḽara sa nḓila yo engedzeaho ya u tikedza u ṱanganedzwa ha Bitcoin na u pembelela u bvelela ha tshigwada tsha Bitcoin Beach. Ri a ḓiṱukufhadza u vha kha tshigwada tsha vhathu vha ngaho Jorge, Chimbera, Mike na vhaṅwe vha sa vhalei vhe vha ḓisa bono ḽa ikonomi ya Bitcoin ya tshitendeledzi vhutshiloni.
 
-If you’d like to see and use our code, it’s free and open source on [GitHub](https://github.com/GaloyMoney/).
+Arali ni tshi ṱoḓa u vhona na u shumisa khoudu yashu, ndi ya mahala nahone ndi ya tshiko tsha nnyi na nnyi [GitHub](https://github.com/GaloyMoney/).
 
-You can also reach out on twitter [@galoymoney](https://twitter.com/GaloyMoney) and our [public Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).
+Ni nga dovha na swikelela kha twitter [@galoymoney](https://twitter.com/GaloyMoney) and our [public Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).
