@@ -139,7 +139,7 @@ Pakuvaka kwamunoita nharaunda ,torai nguva yekuziva nekudzidza kubva kuvanhu vek
 
 ## Chidzidzo chechipiri: Lightning chinhu chinobatsira kuita kuti Bitcoin ishandiswe semari
 
-Lightning Network haionekwi pachinhanho chainofanira kuonekwa sezvo vanhu vachiitarirsira pasi. Makore maviri apfura  yaive #nzira isina kurongeka yekutengeserana nekutenga zvinhu. Iye zvino yakushandiswa nemashopu akaita seMcDonalds, Starbucks  nePizza Hut muEl Salvador. Kukura kwe manode, machannel nekushandika nayo kwayo  kwakuitika nekukasika kwakanyanya. Chinyorwa cheArcane Research “[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)” kunopa chidimbu chekukura kwechirongwa ichi  pamametrics netarisiro.
+Lightning Network haionekwi pachinhanho chainofanira kuonekwa sezvo vanhu vachiitarisira pasi. Makore maviri apfura  yaive #nzira isina kurongeka yekutengeserana nekutenga zvinhu. Iye zvino yakushandiswa nemashopu akaita seMcDonalds, Starbucks  nePizza Hut muEl Salvador. Kukura kwe manode, machannel nekushandika nayo kwayo  kwakuitika nekukasika kwakanyanya. Chinyorwa cheArcane Research “[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)” kunopa chidimbu chekukura kwechirongwa ichi  pamametrics netarisiro.
 
 Bitcoin Beach yakatanga  nekushandisa maon-chain transaction kupa mabitcoin kuvanhu munharaunda iyi. Apo on-chain yaishandiswa kuita masettings ezvidzidzo nekutumira maSATS kunhengo dzenharaunda, zvinonetsa zvayo zvakabva zvaita  kuti  zvinonotse  kusvitsa chirongwa  panhanho rwekushandisa mabitcoin aya munharaunda zvakareruka uye zvinoramba zvichienderera nekusingaperi.
 
