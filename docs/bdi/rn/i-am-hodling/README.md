@@ -9,22 +9,28 @@ translators:
         href: "https://twitter.com/belyi_nobel"
 ---
 
-# MFISE ICIZERE
+# NDIKO MBANDANYA KUBIKA
 
-Yanditswe na GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+Yanditswe na GameKyuubi itariki ya [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-Nanditse uwomutwe wamajambo incuro zibiri kuko narinzi katariwo incuro yambere. Burigihe atariyo. Ariko ukobirikwose.
+Nanditse uwo mutwe w'igisomwa  incuro zibiri kuko nari nzi ko atariwo ubwa mbere. Kandi n'ubu wanditse siwo. Ariko nta kibazo.
 
-Umukunzi wanje asohokeye mukabare kabahuza ibitsina babisangiye babagore, Bitcoin iratakaza agaciro. KUKI NIZERA CANE ? NGOMBA NDAKUBWIRE IGITUMA.
+Umukunzi wanje yasohokeye mu kabare k’abakobwa bakundana bahuje ibitsina, Bitcoin iriko irakoroka  KUBERIKI NONE NGUMA NDAZIBITSE? REKA NDAKUBWIRE IGITUMA.
 
-Nikubera ndi umudandaza mubi kandi NDAZI NDI UMUDANDAZA MUBI. Inde, wewe, umushoramari mwiza, ushobora kurobanura amasonga hamwe n'ivyerekana amerekezo y'isoko wihuse nkuko kandi ugatsindira umuriyoni wamadorari, atangorane, ncuti.
+N’uko ndi umudandaza mubi, kandi NDABIZI KO NDI UMUDANDAZA MUBI.
+Erega mwebwe abadandaza beza murashobora kubona igihe igiciro kiduga hejuru n'igihe kimanuka  pit pat piffy wing wong wang  mukaronka imiriyoni z’amadolari, nta kibazo, mugenzi.
 
-Cokimwe, iminwe yoroshe ninkakurya kwa OYA BIZAKUNSHIRA HASI NGOMBA NDANDAZE hi hi hi, hama ninkakurya kwa YO MANAYANJE UMUBIRI WANJE mugihe abashoramari BACIYE UBWENGE BAZI IVYOBAKORA barasubira kuzigura, urazi none ? Sindi muri uyo mutigiri. Iyo abashoramari basubiye kugura, mbanzandi mumutahe w'isoko, none IYUMVIRE UWO URIKO URABESHA, abashoramari baburimusi ATARIJEWE~!
+Abafise imitima idakomeye bo bagira bati: « OYA BIMANUTSE, NTEGEREZWA KUGURISHA » hihihi… hanyuma bakagira bati: « KARABAYE MANA YANJE » ni mu gihe abdandaza B’INKEREBUTSI bazi neza IVYO BARIKO BARAKORA baba bariko baragira muri uwo mwanya nyene.
+Ariko uzi iki? Jewe sindi mu mugwi wabo.
+Igihe abo badandaza basubira kugura, jewe mba namaze kuba mu masoko, ni ukuvuga ngo NI BANDE MUHENDA, iyo hageze ko mugura? SI JEWE!
 
-Urwo rukwirikirane rwibiyago vyagahemo bivuga 'YO WARIKUBA WADANDAJE' EGO ATARI UMWANDA. ATARI UMWANDA, NARIKUBA NANDANDAJE. NARIKUBA NANDANDAJE IMBERE YA BURI GURISHWA HAMA NKAGURA BURI IMBERE Y'IGURISHWA ARIKO URAZI ABANTU BOSE NTABWO BAMEZE NEZA NKAWE.
+Abo bandika bavuga ngo: « OOH WARI UKWIYE KUGURISHA »  EGO, NTACO MUBA MUBESHE.
+EGO NARI NKWIYE KUGURISHA.
+NARI NKWIYE KUGURISHA IMBERE Y’UKO ISOKO RISUBIRA HASI no kugura IMBERE Y’UKO RISUBIRA HEJURU, ARIKO UZI IKI? SIKO BOSE BAKOZE NK’UKO WE UKORA.
 
-Mudandaza gusa mugihe isoko ririko rimanuka iyo muri abashoramari ba buri musi beza canke uri uwutangura afise ivyijiji. Abantu barihagati nibo babitahura.
+Ugurisha gusa mu gihe isoko riri mu kugwa (bear market) nimba uri umudandaza w’umuhinga w’amatungo y’isoko rya buri munsi (day trader) canke uri umunyeshure atazi ico ariko arakora.
+Abo hagati y’abo bose  barabika (barafata).
 
-Mumukino uteranijwe ungana n'ubusa nkuyu, abashoramari ntibashobora gufata amafaranga yanyu kiretse iyo mudandaje.
+Mu gakino nk’aka hatagira uwo usigarana inyungu (zero-sum game), abadandaza bashobora kukwaka amafaranga gusa iyo ugurishije.
