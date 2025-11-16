@@ -1,19 +1,34 @@
-# I AM HODLING
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Ange Tuyizere"
+        email: "angetuyizere39@gmail.com"
+---
 
-by GameKyuubi [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
+# MBITSE (MBITSE NTEGEREJE IYONGERA R'AGACIRO)
+
+Yanditswe na GameKyuubi itariki ya [2013/12/18](https://bitcointalk.org/index.php?topic=375643.0)
 
 <LanguageDropdown/>
 
-I type d that tyitle twice because I knew it was wrong the first time. Still wrong.  w/e.  
+Nanditse uwo mutwe w'igisomwa inshuro ebyiri kuko nari nzi ko atariwo ubwa mbere. Kandi n'ubu wanditse siwo. Ariko nta kibazo.  
 
-GF's out at a lesbian bar, BTC crashing WHY AM I HOLDING? I'LL TELL YOU WHY.
+Umukunzi wanjye yansohokeye mu kabari k’abakobwa bakundana bahuje ibitsina, Bitcoin irimo iramanuka KUBERIKI NGUMA NZIBITSE? REKA NKUBWIRE IMPAMVU.
 
-It's because I'm a bad trader and I KNOW I'M A BAD TRADER.  Yeah you good traders can spot the highs and the lows pit pat piffy wing wong wang just like that and make a millino bucks sure no problem bro.  
+N’uko ndi umucuruzi mubi, kandi NDABIZI KO NDI UMUCURUZI MUBI.
+Erega mwebwe abacuruzi beza mushobora kubona igihe igiciro kigiye hejuru n'igihe kimanuka pit pat piffy wing wong wang mukunguka miriyoni z’amadolari, nta kibazo, muntu.  
 
-Likewise the weak hands are like OH NO IT'S GOING DOWN I'M GONNA SELL he he he and then they're like OH GOD MY ASSHOLE when the SMART traders who KNOW WHAT THE FUCK THEY'RE DOING buy back in but you know what?  I'm not part of that group.  When the traders buy back in I'm already part of the market capital so GUESS WHO YOU'RE CHEATING day traders NOT ME~!  
+Abanyantege nke bo bagira bati: "OYA BIRAMANUTSE, NGIYE KUGURISHA" hehehe… hanyuma bakagira bati:  KARABAYE MANA YANJE  ni mu gihe abacuruzi bajijutse B’INTYOZA BAZI ICYOBAKORA barabigura bagurira babandi babanyantege nke bari kugurisha ariko urabizi? Njyewe sindi nkabo.
+Igihe abo bacuruzi basubira kugura, njyewe mba namaze kuba mu masoko, ni ukuvuga ngo NI BANDE MUHENDA, iyo hageze ko mugura? SI NJYEWE!
 
-Those taunt threads saying "OHH YOU SHOULD HAVE SOLD" YEAH NO SHIT.  NO SHIT I SHOULD HAVE SOLD.  I SHOULD HAVE SOLD MOMENTS BEFORE EVERY SELL AND BOUGHT MOMENTS BEFORE EVERY BUY BUT YOU KNOW WHAT NOT EVERYBODY IS AS COOL AS YOU.  
+Abo bandika bavuga ngo: "OOH WARI UKWIYE KUGURISHA" YEGO, NTACYO MUBA MUBESHYE.
+YEGO NARI NKWIYE KUGURISHA.
+NARI NKWIYE KUGURISHA MBERE Y’UKO ISOKO RISUBIRA HASI no kugura MBERE Y’UKO RISUBIRA HEJURU, ARIKO URABIZI? NTABWO ABANTU BOSE BAKORA NKUKO UKORA.
 
-You only sell in a bear market if you are a good day trader or an illusioned noob.  The people inbetween hold.  
+Ugurisha gusa mu gihe isoko ry'imigabane ryaguye nimba uri umucuruzi urema isoko rya burimunsi,ucuruza burimunsi cyangwa uri umwiga utazi icyogukora. Abo hagati yabo bose barafata.
 
-In a zero-sum game such as this, traders can only take your money if you sell.
+Ugukira kwa umwe uguhomba kundi mu mukino umuntu arunguka undi agahomba ni nkibi rero, abacuruzi bashobo gufata amafaranga yawe mugihe ugurishije.
