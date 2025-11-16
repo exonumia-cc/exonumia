@@ -1,109 +1,120 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Ange Tuyizere"
+        email: "angetuyizere39@gmail.com"
+---
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+# Bitcoin: Uburyo bw'ikoranabuhanga bwo guherekanya amafaranga hifashishijwe abantu babiri
+
+yanditswe na  Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
-## Abstract
+## Inshamake
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Uburyo bwite bw'ikoranabuhanga hifashishijwe abantu ku bandi yemerera kwishyura kumurongo koherezwa biturutse ku ruhande rumwe bijya ku rundi bitanyuze mubigo by'imari. Imikono nyambere(digital signatures) itanga igice cy'igisubizo, ariko inyungu nyamukuru zirabura niba umunyamabanga wizewe agikenewe kugirango akureho ikibazo cyo gukoresha amafaranga kabiri. Turagira inama igisubizo cy'ikibazo cyo gukoresha kabiri amafaranga dukoresheje urusobe rw'ikoranabuhanga bwo guhererekanya. sisitemu itanga igihe kuri buri gikorwa mu guhindura amakuru mu kode idasanzwe bityo bigafatanya n'ibindi bikorwa bikabamo urunigi rudacika rwubatswe kugihamya cy'umurimo wakozwe, gukora inyandiko idashobora guhinduka hatongeye gukora uburyo bwo kwemeza umurimo. Urunigi rurerure ntirukora gusa nk'ikimenyetso cyerekana uko ibintu byakurikiranye, ahubwo ni gihamya ko byaturutse muri pisine nini ya CPU. Igihe cyose imbaraga nyinshi za CPU zigenzurwa nu node zidafatanya gutera umuyoboro, zizabyara urunigi rurerure kandi rwiruka. Umuyoboro ubwawo usaba imiterere mike. Ubutumwa butangazwa ku mbaraga nziza, kandi ibikoresho birashobora kugenda no kongera guhuza umuyoboro uko bishakiye, ikemera urukurikirane rurerure rw'akazi nk'ikimenyetso cy'ibyabaye igihe bagiye.
 
-## Introduction
+## Intangiriro
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+Ubucuruzi ku mbuga nkoranyambaga bwaje gushingira gusa kubigo by'imari bikora nkabandi bantu bizewe gutunganya ubwishyu bw'ikoranabuhanga. Mugihe sisitemu ikora neza bihagije mubikorwa byinshi, iracyafite intege nke zisanzwe z'icyitegererezo gishingiye. Ibikorwa bidasubirwaho rwose ntibishoboka rwose, kubera ko ibigo by'imari bidashobora kwirinda gukemura amakimbirane. Igiciro cy'abunzi cyongera ibiciro by'ubucuruzi, bikagabanya ingano ntarengwa y'ubucuruzi ifatika kandi bikagabanya amahirwe yo gucuruza ibintu bisanzwe, kandi hari ikiguzi kinini mugutakaza ubushobozi bwo kwishyura bidasubirwaho serivisi zidasubirwaho. Hamwe nibishoboka byo guhinduka, gukenera ikizere birakwirakwira. Abacuruzi bagomba kwitondera abakiriya babo, bakababaza amakuru menshi kurenza uko babikeneye. Ijanisha runaka ry'uburiganya ryemewe nkaho ritakwirindwa. Ibi biciro hamwe no kutishyura neza bishobora kwirindwa imbonankubone ukoresheje amafaranga, ariko ntaburyo bubaho bwo kwishyura hejuru y'umuyoboro witumanaho udafite ishyaka ryizewe.
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Igikenewe ni uburyo bwo kwishyura hakoreshejwe ikoranabuhanga bushingiye ku bimenyetso bifatika aho kwizerana, bituma impande zombi zishaka gukorana mu buryo butaziguye bitabaye ngombwa ko umuntu wa gatatu yizewe. Ibicuruzwa bidashoboka kubara guhinduka byarinda abagurisha uburiganya, kandi uburyo busanzwe bwo guhunga bushobora gushyirwa mubikorwa byoroshye kurinda abaguzi. Muri iyi nyandiko, turasaba igisubizo cyikibazo cyo gukoresha kabiri dukoresheje ihererekana umuntu ku wumdi ryagabanijwe igihe cyagenwe kugirango tubyare ibimenyetso byerekana kubara ibihe byakurikiranye. Sisitemu ifite umutekano mugihe cyose inyangamugayo zishyize hamwe zigenzura imbaraga za CPU kuruta itsinda iryo ariryo ryose rikorana ry'ibitero.
 
-## Transactions
+## Kohereza no kwakira
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+Dusobanura  ifaranga koranabuhanga nkurunigi rw'imikono koranabuhanga . Buri nyirubwite yimura ifaranga kurindi mugusinya muburyo bw'ikoranabuhanga ku kimenyetso cyihariye cya burigikorwa  cyabanje n'urufunguzo rusange rwa nyiri ukurikira no kubyongera kumpera y'ifaranga. Uwishyuwe ashobora kugenzura imikono kugirango yemeze urukurikirane rwa nyirubwite.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Ikibazo birumvikana ko uwishyuwe adashobora kugenzura ko umwe mubafite atakoresheje kabiri ifaranga. Igisubizo rusange ni ukumenyekanisha ubuyobozi bukuru bwizewe, cyangwa ahakorerwa amafaranga(mint), bugenzura buri gikorwa cyo gukoresha kabiri. Nyuma ya buri gikorwa, ifaranga rigomba gusubizwa muri aho rikorerwa kugirango batange ifaranga rishya, kandi amafaranga yonyine yatanzwe biturutse kuri mint byizewe ko atazakoreshwa kabiri. Ikibazo niki gisubizo nuko amaherezo ya sisitemu y'amafaranga yose biterwa na sosiyete ikora mint, hamwe nibikorwa byose bigomba kubinyuramo, kimwe na banki.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Dukeneye uburyo uwishyuwe amenya ko ba nyirubwite batigeze basinya mubikorwa byabanje. Ku ntego zacu, ibikorwa byambere nibyo bibara, ntabwo rero twita kubigerageza nyuma yo gukoresha kabiri. Inzira yonyine yo kwemeza ko hatabayeho gucuruza ni ukumenya ibikorwa byose. Muri moderi ishingiye kuri mint, mint yari izi ibikorwa byose maze ifata icyemezo cyahageze mbere. Kugira ngo ibyo bigerweho nta muburanyi wizewe, ibikorwa bigomba gutangazwa kumugaragaro [1], kandi dukeneye uburyo abitabiriye amahugurwa bumvikana ku mateka amwe y’itegeko bakiriwe. Uwishyuwe akeneye gihamya ko mugihe cya buri gikorwa, ubwinshi bw'umutwe bwemeje ko aribwo bwa mbere bwakiriwe.
 
-## Timestamp Server
+## Mudasobwa y'iyandika ry'ibihe
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Igisubizo twatanze gitangirana na seriveri ibika igihe. Seriveri ibika igihe ikora ifata ibyanditse byose k'ibintu byinshi byegeranyijwe bigomba gushyirirwaho igihe ,maze igatangaza akogaciro hose, nko mubinyamakuru cyangwa inyandiko yo murandasi ya kera [2-5]. Ingengabihe yerekana ko amakuru agomba kuba yarabayeho icyo gihe, biragaragara, kugirango yinjire muri seriveri ibika igihe. Buri gihe cyagenwe kirimo ingengabihe yabanjirije muri hash, ikora uruhererekane, hamwe na buri gihe cyongeweho gishimangira icyambere.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Ibyemeza igikorwa
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Kugirango dushyire mubikorwa seriveri zibika igihe itanga ikimenyetso cy'igihe yakwirakwijwe ishingiye kuburyo bwihererekanwa, tuzakenera gukoresha sisitemu yerekana akazi gasa na Hashcash ya Adam Back [6], aho gukoresha ibinyamakuru cyangwa murandasi ya kera Icyemezo cy'igikorwa bituma ubushakashatsi bwongera agaciro, nka hamwe na SHA-256, iyinjizwamo itangirana numubare wa zeru. Impuzandengo y'akazi isabwa iragaragara mumibare ya zeru isabwa kandi irashobora kugenzurwa no gukora iyinjiza nisorora  rimwe.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Ku muyoboro w'igihe cyacu, dushyira mubikorwa gihamya yigikorwa twongera umubare ukoreshwa rimwe murukuta  kugeza igihe habonetse agaciro gaha urukuta  kw'izihizwa hamwe ry'ibikuta bitanga ubusa. Iyo imbaraga za CPU zimaze gukoreshwa kugirango zuzuze gihamya y'igikorwa, guhagarika ntibishobora guhinduka utagabanije igikorwa. Nkuko ibikuta bizagukwirakwira bishobora gukurikirana inyuma y'icyambere, igikorwa kugira hahindurwe urukuta rusubizamo ibikuta byose inyuma y'icyo.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Icyemezwa ry'igikorwa nacyo gikemura ikibazo cyo kumenya guhagararirwa mu gufata ibyemezo byinshi. Niba benshi bari bashingiye kuri IP aderesi imwe imwe, ishobora guhindurwa n'umuntu wese ushoboye gutanga IP nyinshi. Icyemezwabikorwa ni kimwe CP ijwi rimwe. Icyemezo kinini kigaragazwa n'umurongo muremure, ufite imbaraga zikomeye zerekana akazi zashowe muri yo. Niba ubwinshi bw'imbaraga za CPU bugenzurwa n'inyangamugayo, uruhererekane rw'inyangamugayo ruzakura vuba kandi rusumba abobarushanwa. Kugirango uhindure ibice byashize, uwagabye igitero yagomba kugabanya gihamya y'imirimo yo guhagarika hamwe n'ibice byose nyuma yacyo hanyuma agafata akanarenga imirimo y'imyumvire. Tuzerekana nyuma ko amahirwe yo gutera buhoro gufata agabanuka cyane nkuko ibice byakurikiyeho byongeweho.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Kugirango wishyure kongera umuvuduko w'ibikoresho hamwe n'inyungu zinyuranye zo gukora node mugihe, iyemezabikorwa bigoye bigenwa n'impuzandengo yimuka igamije umubare ugereranije wahagaritswe kumasaha. Niba byakozwe vuba cyane, ingorane ziriyongera.
 
-## Network
+## Umuyoboro
 
-The steps to run the network are as follows:
+Uburyo bwo gukoresha umuyoboro nuburyo bukurikira:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Ibikorwa bishya byerekanwa kuri kumapfundo(node) yose.
+2. Buri pfundo rikusanya ibikorwa bishya mubice.
+3. Buri pfundo rikora mugushakisha ibimenyetso bigoye byakazi kubikorwa byayo.
+4. Iyo ipfundo ribonye gihamya yakazi, risakaza umurongo kumapfondo yose.
+5. Amapfundo yemera guhagarika gusa niba ibikorwa byose birimo bifite ishingiro kandi bitarakoreshwa.
+6. Amapfundo yerekana ko bemera guhagarika bakora mugukora igikurikira mumurongo, ukoresheje hash ya block yemewe nkuko hash yabanje.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Amapfundo (nodes) azahora afata uruhererekane rurerure nk'ukuri kandi bagumye bakora kugirango barwongere. Niba imitwe ibiri yerekana verisiyo zitandukanye zuruhande rukurikira icyarimwe, imitwe imwe irashobora kwakira imwe cyangwa indi mbere. Muri icyo gihe, bakora ku ya mbere bakiriye, ariko bakiza irindi shami mu gihe riba rirerire. Ikaruvati izacika mugihe ibimenyetso bikurikira byakazi bibonetse kandi ishami rimwe riba rirerire; imitwe yakoraga ku rindi shami noneho izahindukira kuri ndende.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Ibiganiro bishya byubucuruzi ntibikeneye byanze bikunze kugera kuri buri pfundo zose. Mugihe bashikiriza amapfundo menshi, bazinjira muri blok mbere yigihe kirekire. Guhagarika ibiganiro nabyo byihanganira ubutumwa bwamanutse. Niba node itakiriye blok, izabisaba mugihe yakiriye blok ikurikira ikamenya ko yabuze imwe.
 
-## Incentive
+## Gushimangira
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Mubisanzwe, igicuruzwa cya mbere muri block ni igikorwa kidasanzwe gitangira ifaranga rishya rifitwe nuwashizeho blcok. Ibi byongeramo imbaraga zo gushyigikira umuyoboro, kandi bitanga uburyo bwo kubanza gukwirakwiza ifaranga mukuzenguruka, kubera ko nta bubasha bukuru bwo kubitanga. Kwiyongera guhoraho kw'amafaranga y'ibiceri bishya birasa n'abacukuzi ba zahabu bakoresha umutungo kugirango bongere zahabu mukuzenguruka. Kuri twe, igihe cya CPU n'amashanyarazi ni byo bikoreshwa.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Agahimbazamusyi gashobora no guterwa inkunga n'amafaranga y'ibikorwa. Niba ibisohoka agaciro k'ibikorwa biri munsi y'agaciro kinjiza, itandukaniro ni amafaranga y'ubucuruzi yongewe kubiciro byo gushimangira guhagarika birimo ibikorwa. Iyo umubare wateganijwe mbere y'amafaranga winjiye mukuzenguruka,agahimbazamusyi gashobora kuba ikiguzi cy'ibikorwa rwose,bityo ntihabeho ifaranga ryiyongera.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Agahimbazamusyi (inkunga) gashobora gufasha gushishikariza imitwe gukomeza kuba inyangamugayo. Niba igitero cy'umururumba gishoboye guteranya imbaraga za CPU kurenza imitwe yose y'inyangamugayo, yagomba guhitamo hagati yo kuyikoresha kugirango abeshye abantu amwiba amafaranga, cyangwa kuyakoresha kugirango atange amafaranga mashya. Agomba gusanga ari byiza cyane gukurikiza amategeko, amategeko nkaya amutonesha amafaranga mashya kurusha abandi bose bahurije hamwe, kuruta guhungabanya sisitemu n’agaciro k’ubutunzi bwe bwite.
 
-## Reclaiming Disk Space
+## Kugarura Umwanya wa Disiki
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Iyo ibikorwa bya vuba by'amafaranga bimaze kwemezwa n'umubare uhagije wa blocks, ibikorwa byakoreshejwe mbere bishobora kujugunywa kugirango habikwe umwanya wa disiki. Kugirango byoroherezwe utabanje kumena hash, ibicuruzwa byogejwe mubiti bya Merkle [7] [2] [5], gusa umuzi washyizwe muri hash. Ibice bishaje birashobora guhuzwa no kunangira amashami yigiti. Imberentabwo ikeneye kubikwa.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Block header idafite ibikorwa byaba hafi 80 bytes. Niba twibwira ko block zikorwa buri minota ikumi, 80 bytes * 6 * 24 * 365 = 4.2MB ku mwaka. Hamwe na sisitemu ya mudasobwa isanzwe igurishwa hamwe na 2GB ya RAM guhera mu 2008, kandi Itegeko rya Moore rivuga ko izamuka rya 1.2GB ku mwaka, ububiko ntibwagombye kuba ikibazo nubwo block headers zabikwa muri memori.
 
-## Simplified Payment Verification
+## Kugenzura Kwishura Byoroheje
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Birashoboka kugenzura ubwishyu udakoresheje umuyoboro wuzuye. Umukoresha akeneye gusa kubika kopi ya block headers  y'umurongo muremure wakazi, ashobora kubona abaza imiyoboro y'urusobe kugeza igihe yizeye ko afite uruhererekane rurerure, akabona ishami rya Merkle rihuza ibikorwa na block ni igihe cyagenwe. Ntashobora kugenzura ibyakozwe kuri we, ariko mu kubihuza n’ahantu mu mumurongo ashobora kubona ko umuyoboro w’urusobe wabyemeye, kandi uhagarika wongeyeho nyuma yo kwemeza ko umuyoboro wabyemeye.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Nkibyo, kugenzura byizewe mugihe cyose inyangamugayo zigenzura umuyoboro, ariko birashoboka kuba byoroha kuyinjiramo kurushaho iyo imiyoboro y'urusobe yatsinzwe n'igitero. Mugihe imiyoboro y'urusobe ishobora kugenzura ibyakozwe ubwabo, uburyo bworoshye bushobora gushukwa nigikorwa cyahimbwe n,igitero mugihe cyose uwagabye igitero ashobora gukomeza gutsinda umuyoboro. Ingamba imwe yo kwirinda ibi ni ukwemera imenyesha riva kumurongo mugihe babonye block itemewe, bigatuma software yumukoresha ikuramo blok yuzuye kandi ikaburira ibikorwa kugirango hemezwe ko bidahuye. Abashoramari bakira ubwishyu kenshi birashoboka ko bazashaka gukora imitwe yabo kubwumutekano wigenga no kugenzura byihuse.
 
-## Combining and Splitting Value
+## Guhuza no Gutandukanya iby' Agaciro
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Nubwo byashoboka gukoresha amafaranga kugiti cye, ntibyaba byoroshye gukora ibikorwa bitandukanye kuri buri cent (faranga) mu guhererekanya. Kwemerera agaciro kugabanywa no guhuzwa, ibikorwa birimo inyongeramusaruro nyinshi n'ibisohoka. Mubisanzwe hazabaho ibitekerezo bimwe bivuye mubikorwa binini byabanjirije cyangwa inyongeramusaruro nyinshi zihuza amafaranga make, kandi byibuze ibisubizo bibiri: kimwe cyo kwishyura, ikindi gisubiza impinduka, niba gihari, gisubira kubohereje.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Bizagaragara ko gusakara, aho gucuruza biterwa n'ubucuruzi bwinshi, kandi ibyo bikorwa biterwa n'ibindi byinshi, ntabwo arikibazo hano. Nta na rimwe bikenewe gukuramo kopi yuzuye yihariye y'amateka y'ubucuruzi.
 
-## Privacy
+## Ibanga
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Icyitegererezo cy'amabanki gakondo kigera kurwego rw'ibanga mwigabanya uburyo bwo kubona amakuru kubabigizemo uruhare nundi muntu wizewe(inyangamugayo). Gukenera gutangaza ibikorwa byose bibuza kumugaragaro ubu buryo, ariko ubuzima bwite burashobora gukomeza kubungabungwa muguhagarika amakuru ahandi hantu: mugukomeza urufunguzo rusange. Abaturage barashobora kubona ko umuntu yohereza amafaranga kubandi, ariko nta makuru ahuza ibikorwa numuntu uwo ari we wese. Ibi bisa nurwego rwamakuru yatangajwe n’ivunjisha, aho igihe nubunini bwubucuruzi bwa buri muntu, "kaseti", bishyirwa ahagaragara, ariko utabwiye ababuranyi abo ari bo.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+Ukwinkingira  byinyongera, urufunguzo rushya rugomba gukoreshwa kuri buri gikorwa kugirango birinde guhuzwa na nyirubwite. Guhuza bimwe biracyakwirindwa hamwe nibikorwa byinshi byinjiza, byanze bikunze byerekana ko inyongeramusaruro zabo zari zifite nyirazo umwe. Ingaruka nuko niba nyir'urufunguzo agaragaye, guhuza bishobora kwerekana ibindi bikorwa bya nyirabyo.
 
-## Calculations
+## Ibaruramari
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Turasuzuma ibintu byuwateye agerageza kubyara uruhererekane rwihuse kuruta uruhererekane rw'inyangamugayo. Nubwo ibi byagerwaho, ntabwo itera sisitemu gufungura impinduka uko bishakiye, nko kurema agaciro mu kirere cyoroshye cyangwa gufata amafaranga atigeze aba ayuwagabye igitero. Node ntabwo igiye kwemera ibikorwa bitemewe nk'ubwishyu, kandi inyangamugayo ntizigera zemera block irimo. Igitero gishobora kugerageza gusa guhindura kimwe mubikorwa bye kugirango agarure amafaranga aherutse gukoresha.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Irushanwa riri hagati y'uruhererekane w'inyangamugayo n'uruhererekane rw'ibitero rishobora nk'isoko yuguhitamo hagati yababiri. Intsinzi yibyabaye ni uruhererekane rw'inyangamugayo rwongerwa kumurongo umwe, rwongera kuyobora kuri +1, kandi ibyabaye byatsinzwe ni uruhererekane rw'ibitero rwongerwa kumurongo umwe, bikagabanya icyuho -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+"Birashoboka ko uwagabye igitero yakura mu gihombo runaka birasa n'ikibazo cyo Kurimbuka kwa Gambler. Dufate ko urusimbi rufite inguzanyo zitagira imipaka rutangirira ku gihombo kandi rugakina ibigeragezo bitagira ingano kugirango ugerageze kugera ku cyuho. Dushobora kubara amahirwe ashobora kugera ku gihe cyo kwinjiza angana n'ibyatanzwe , cyangwa ko uwagabye igitero yigeze gufata uruhererekane rw,inyangamugayo, nkibi bikurikira[8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -214,20 +225,19 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Urebye ibyo twibwira
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+, ibishoboka bigabanuka cyane nkumubare wibitero uwagabye igitero agomba gufata hamwe no kwiyongera. Hamwe no kutamurwanya, niba adakoze amahirwe yo gutera imbere hakiri kare, amahirwe ye aba make cyane kuko asubiye inyuma.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Ubu turasuzuma igihe uwahawe ibikorwa bishya agomba gutegereza mbere yo kumenya neza ko uwayohereje adashobora guhindura ibikorwa. Turakeka ko uwayohereje ari igitero gishaka gutuma uyahawe yemera ko yamwishyuye igihe gito, hanyuma akayihindura kugirango yishyure nyuma y'igihe runaka. Uwakiriye azamenyeshwa igihe ibyo bizabera, ariko uwayohereje yizeye ko bizatinda.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
+Uwakiriye atanga urufunguzo rushya kandi atanga urufunguzo rusange kubohereje mbere gato yo gusinya. Ibi birinda uwayohereje gutegura urunigi rw'ibice mbere yigihe abikoraho ubudahwema kugeza igihe azaba afite amahirwe yo kugera kure bihagije, hanyuma agakora ibikorwa muricyo gihe. Igicuruzwa kimaze koherezwa, uwayohereje utari inyangamugayo atangira gukora rwihishwa kumurongo ugereranije urimo ubundi buryo bwibikorwa bye.
 
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Uyahawe arategereza kugeza igihe ibikorwa byongewe kuri block na z block  zahujwe nyuma yazo. Ntabwo azi umubare nyawo w’igitero yateye, ariko ukeka ko blocks z’inyangamugayo zafashe igihe cyari giteganijwe kuri buri gice, igitero gishobora gutera ni ugukwirakwiza poisson bifite agaciro kateganijwe:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -241,7 +251,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Kugirango tubone amahirwe uwagabye igitero ashobora gukomeza gufata nonaha, tugwiza ubucucike bwa Poisson kuri buri terambere yashoboraga gutera bitewe nuko ashobora gufata kuva icyo gihe:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -328,7 +338,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Guhindura uburyo bwo kwirinda kubara igice cy'imibare kidafite iherezo...
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -391,7 +401,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+Guhindura kuri C code...
 
 ```c
 #include 
@@ -411,8 +421,7 @@ double AttackerSuccessProbability(double q, int z)
 	return sum;
 }
 ```
-
-Running some results, we can see the probability drop off exponentially with z.
+Gukoresha ibisubizo bimwe, turashobora kubona ibishoboka bigabanuka cyane hamwe na z.
 
 ```
 q=0.1
@@ -441,8 +450,7 @@ z=40   P=0.0000095
 z=45   P=0.0000024
 z=50   P=0.0000006
 ```
-
-Solving for P less than 0.1%...
+Gusubiza kuri P munsi ya 0.1%...
 
 ```
 P < 0.001
@@ -456,17 +464,17 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Umwanzuro
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Twasabye sisitemu yo gucuruza hakoreshejwe ikoranabuhanga tutishingikirije ku cyizere. Twatangiriye kumurongo usanzwe w'amafaranga bikozwe mu mikono ya digitale, itanga igenzura rikomeye rya nyirubwite, ariko ntabwo yuzuye nta buryo bwo gukumira amafaranga abiri. Kugira ngo iki kibazo gikemuke, twasabye umuyoboro w'urungano dukoresheje gihamya y'akazi kugira ngo twandike amateka rusange y'ibikorwa bihita bibarwa bidashoboka ko uwagabye igitero ahinduka niba imitwe y'inyangamugayo igenzura imbaraga nyinshi za CPU. Umuyoboro urakomeye muburyo bworoshye butubatswe. Node ikora icyarimwe hamwe no guhuza bike. Ntibakeneye kumenyekana, kubera ko ubutumwa buterekejwe ahantu runaka kandi bugomba gutangwa gusa ku mbaraga nziza. Umutwe urashobora kugenda no kongera guhuza umuyoboro uko bishakiye, ukemera ibimenyetso by'akazi nkikimenyetso cy'ibyabaye mugihe bagiye. Batora bafite imbaraga za CPU, bagaragaza ko bemera ibibujijwe byemewe bakora kugirango babagure kandi bange ibibujijwe bitemewe banga kubikoraho. Amategeko yose akenewe hamwe nogushigikira birashobora gukurikizwa hamwe nubu buryo bwumvikanyweho.
 
-## References
+## Ibitekerezo
 
 1. W. Dai, ["b-money,"](https://nakamotoinstitute.org/b-money/) [http://www.weidai.com/bmoney.txt](http://www.weidai.com/bmoney.txt), 1998.
-2. H. Massias, X.S. Avila, and J.-J. Quisquater, ["Design of a secure timestamping service with minimal trust requirements,"](https://nakamotoinstitute.org/secure-timestamping-service.pdf) In 20th Symposium on Information Theory in the Benelux, May 1999.
-3. S. Haber, W.S. Stornetta, ["How to time-stamp a digital document,"](https://nakamotoinstitute.org/time-stamp-digital-document.pdf) In Journal of Cryptology, vol 3, no 2, pages 99-111, 1991.
-4. D. Bayer, S. Haber, W.S. Stornetta, ["Improving the efficiency and reliability of digital time-stamping,"](https://nakamotoinstitute.org/improving-time-stamping.pdf) In Sequences II: Methods in Communication, Security and Computer Science, pages 329-334, 1993.
-5. S. Haber, W.S. Stornetta, ["Secure names for bit-strings,"](https://nakamotoinstitute.org/secure-names-bit-strings.pdf) In Proceedings of the 4th ACM Conference on Computer and Communications Security, pages 28-35, April 1997.
+2. H. Massias, X.S. Avila, and J.-J. Quisquater, ["Gukora serivise yo gushyiraho ikimenyetso cy'igihe cyizewe kandi idasaba icyizere kinini ibisabwa,"](https://nakamotoinstitute.org/secure-timestamping-service.pdf) Mu nama nyungurabitekerezo ya 20 ku nyigisho z'amakuru muri  Benelux, Gicurasi 1999.
+3. S. Haber, W.S. Stornetta, ["Nigute wahuriza hamwe inyandiko ya digitale,"](https://nakamotoinstitute.org/time-stamp-digital-document.pdf) Mu kinyamakuru cya Cryptology, vol 3, no 2, urupapuro99-111, 1991.
+4. D. Bayer, S. Haber, W.S. Stornetta, ["Kunoza imikorere n'ubwizerwe bwigihe cya digitale,"](https://nakamotoinstitute.org/improving-time-stamping.pdf) Muburyo bwa II: Uburyo mu itumanaho,umutekano na siyanse ya mudasobwa, urupapuro rwa 329-334, 1993.
+5. S. Haber, W.S. Stornetta, ["Amazina yizewe kumirongo ibiri,"](https://nakamotoinstitute.org/secure-names-bit-strings.pdf) Mubikorwa by'inama ya 4 ACMkuri mudasobwa n'itumanahon'umutekano , urupapuro rwa 28-35, April 1997.
 6. A. Back, ["Hashcash - a denial of service counter-measure,"](https://nakamotoinstitute.org/hashcash.pdf) ][http://www.hashcash.org/papers/hashcash.pdf](http://www.hashcash.org/papers/hashcash.pdf), 2002.
 7. R.C. Merkle, ["Protocols for public key cryptosystems,"](https://nakamotoinstitute.org/public-key-cryptosystems.pdf) In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
-8. W. Feller, ["An introduction to probability theory and its applications,"](https://nakamotoinstitute.org/introduction-probability-theory-vol-i.pdf) 1957.
+8. W. Feller, ["Intangiriro kubitekerezo bishoboka kandi bikoreshwa,"](https://nakamotoinstitute.org/introduction-probability-theory-vol-i.pdf) 1957.
