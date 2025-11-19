@@ -1,8 +1,11 @@
 ---
 translators: 
     - 
-        href: "maipatodsello@gmail.com
-        href: "bonolomafoyane.work@gmail.com
+        name: "Bonoloma Foyane"
+        href: "bonolomafoyane.work@gmail.com/"
+    -
+        name: "Maipa Todsello"
+        href: "maipatodsello@gmail.com/"
 supporters: 
     - 
         name: "BitMEX"
