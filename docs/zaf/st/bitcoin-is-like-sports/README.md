@@ -1,7 +1,7 @@
 ---
 translators: 
     - 
-        name: "Bonoloma Foyane"
+        href: "maipatodsello@gmail.com
         href: "bonolomafoyane.work@gmail.com
 supporters: 
     - 
