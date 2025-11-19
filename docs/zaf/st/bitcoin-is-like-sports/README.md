@@ -1,30 +1,39 @@
-# Bitcoin Is Like Sports
+---
+translators: 
+    - 
+        name: "Bonoloma Foyane"
+        href: "bonolomafoyane.work@gmail.com
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
+
+# Bitcoin e tshwoana le Lipapali
 
 by @thebitcoinrabbi [2021/01/13](https://twitter.com/thebitcoinrabbi/status/1349445548500262916)
 
 <LanguageDropdown/>
 
-More often I have been explaining how #bitcoin works and is decentralized in context of a sports game. I find that it helps to answer a lot of the common questions:
+Hangata re sebelisa papali ho thusa batho ho utloisisa hore #Bitcoin e sebetsa joang, le hore ha ho se na setsi se le seng sa taolo ho sebetsa joang.Ke fumana hore sena se thusa ho araba lipotso tse ngata tse tloaelehileng:
+Potso: Ke mang ya qalileng baseball?
+Karabo: Ha ho na taba haholo. Mang kapa mang lefatšeng a kae bapala. Ha ho na taba hore motho ya qalileng a batla ho fetola melao kapa ho ipha lintlha kapa eng kapa eng. Ha re sa tsotella hore o nahana eng ka papadi ya rona.
 
-Q: Who invented baseball?  
-A: It really doesn't matter. Anybody in the world can play. It doesn't matter if the original inventor wants to change the rules or reward himself points or anything else. We don't care what he thinks of our game.
+Potso: Ke mang ya laolang papadi?
+Karabo: Ha ho motho ya laolang, bohle re ile ra etsa qeto ya ho bapala. Kaofela rea tseba le ho latela melao, mme haeba motho ha a latele melao eo, oa tloswa papading. Ha motho a itlhomella lintlha tseo a sa li tšoanelang, re mo hlokomoloha feela.
 
-Q: Who is in charge of the game?  
-A: Nobody is in charge, we all just decided to play. We all know and enforce the rules, and if somebody cheats, they get kicked out of the game. If somebody rewards themselves unearned points, we just ignore them.
+Potso: Re tseba joang hore melao ha e fetohe?
+Karabo: Kaofela re ile ra lumellana ka melao ena ha re qala ho bapala, mme mang kapa mang ya batla ho tsoela pele ho bapala ka melao ena o tla tsoela pele, mme haeba motho a batla ho fetola melao, o tla tlameha ho bapala sebakeng se seng.
 
-Q: How do we know the rules won't change?  
-A: We all agreed to them when we started playing, and whoever wants to continue playing with these rules will continue, and if someone wants to change, they will need to play somewhere else.
+Potso: Ha e ka hapuoa ke mashodu a marang-rang?
+Karabo: Ntho tsohle li bonahala ho bohle. Re ka bona lebala kaofela le lintlha tsohle. Ha motho a qhekela, kaofela re tla tseba 'me re tla mo bolella hore a tlosoa papading.
 
-Q: Can't it be hacked?  
-A: Everything is publicly visible. We can all see the entire field and all the scores. If someone were cheating, we would all know and tell them to get lost.
+Potso: Hobaneng e le bohlokoa hakaalo?
+Karabo: Kaofela re ile ra etsa qeto ya ho bapala, kahoo e na le boleng ho rona. Haeba motho a batla ho kenela, Ba tla tlameha ho amohela lintlha le boleng ba rona.
 
-Q: Why is it worth anything?  
-A: We all decided to play, so it's worth something to us. If somebody wants to join, they will have to agree to acknowledge our points and value.
+Ke e hlompha, kahoo e na le boleng. Boleng bo latela maikutlo a motho.
 
-I value it, so it has value. Value is subjective.
+Potso:Na ha e ke ea thibeloa?                                        
+Karabo: Mohlomong, empa ho joalo ka batho feela ba bapalang ka thupa le bolo, ha ba utloise motho e mong bohloko, kahoo mmuso mohlomong o ka emisa ho bapala, empa ha ba kgone ho thibela ho otla thupa ka bolo — papadi e tla tsoela pele sebakeng se seng.
 
-Q: Won't it get banned?  
-A: Maybe, but it's just some people playing with a stick and a ball, not hurting anybody else, so the government could maybe stop you from playing it, but they can't ban the concept of hitting a stick with a ball, the game will continue somewhere.
-
-Q: Should I join?  
-A: Do whatever you want. I'm having fun playing baseball, you could join or you could HFSP.
+Potso: Na ke lokela ho kenya letsoho? Karabo: Etsa eng kapa eng eo o e batlang. Ke thabela ho bapala baseball, o ka kenya letsoho kapa wa qeta nako ya hao ka tsela eo o e ratang (HFSP).
