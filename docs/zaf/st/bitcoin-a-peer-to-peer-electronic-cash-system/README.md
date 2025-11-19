@@ -1,109 +1,125 @@
-# Bitcoin: A Peer-to-Peer Electronic Cash System
+---
+translators: 
+    -   
+        name: "Maipa Todsello"
+        href: "maipatodsello@gmail.com/"
+    -
+        name: "Bonoloma Foyane"
+        href: "bonolomafoyane.work@gmail.com/"
+        
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 
-by Satoshi Nakamoto [2008/10/31](/bitcoin.pdf)
+# Bitcoin: Tsamaiso ea Chelete ea Marang rang e Sebetsang Pakeng tsa Batho ka Bobona.”
+
+E ngotsoe ke Satoshi Nakamoto [31 Mphalane 2008](/bitcoin.pdf)
 
 <LanguageDropdown/>
 
 ## Abstract
 
-A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+Bitcoin ke mofuta oa chelete e sa bonahaleng, empa e sebetsang ka marang-rang, oo batho ba ka o sebelisang ho lefa kapa ho amohela tefo ka kotloloho ho tloha ho motho e mong ho ea ho e mong — ntle le banka kapa mokhatlo oa dichelete bohareng. Ha motho a romela Bitcoin, sistimi e sebelisa matshwao a dijithale ho netefatsa hore ke eena ka ’nete ea romellang. Ho na le tsela e ikhetang e bitsoang Pontsho ea mosebetsi, e fanang ka tsela ea ho netefatsa hore phetiso e 'ngoe le e'ngoe e nepile. 'me ha ho motho ea ka qhekellang ka ho sebedisa chelete e le'ngoe habedi. Ho e-na le hore banka e netefatse ditšebedisano, Bitcoin e sebedisa marang-rang a batho ba hokahaneng. Batho bana bohle ba nang le khomphutha e hokahaneng marang-rang a Bitcoin ba thusa ho boloka direkoto tsa ditshebelisano. Ketane eo e telele e bontša hore litšebelisano tsohle li etsahetse hantle, ’me hore batho ba sebelisitseng matla a lik’homphieutha ba entse mosebetsi o nepahetseng. Ha feela batho ba bangata ba sebelisang marang-rang ana ba sa batle ho a senya, ketane ena e lula e le matla ’me e sireletsehile. Sistimi ena ha e hloke sebopeho se rarahaneng — melaetsa e romelloa ho mang kapa mang ea hokahaneng, ’me motho a ka kena kapa a tsoa neng kapa neng. Ha a khutla, o fumana ketane e telele ka ho fetisisa, e bontšang hore na se etsahetseng ha a ne a le sieo.
 
-## Introduction
 
-Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
+## Selelekela
 
-What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+Khoebo ea inthaneteng e se e itshetlehile haholo ka mekhatlo ea lichelete e sebetsang e le batho ba boraro ba tšeptjoang ho tsamaisa litefo tsa marang rang. Le hoja tsamaiso ena e sebetsa hantle maemong a mangata, e ntse e e-na le bofokoli bo tlisoang ke hore e ipapisitse le tshepo. Ho ke ke ha khoneha ho etsa litshebelisano tse ke keng tsa khutliswa ka botlalo, hobane mekhatlo ea lichelete e tlameha ho kenella ha ho ka hlaha likhohlano. Ho kenella hona ho eketsa litshenyehelo, ho etsa hore litshebelisano tse nyenyane li be thata kapa li se ke tsa khoneha, ’me ho senya monyetla oa hore ho ka etsoa litefo tse nyane kapa tse bonolo. Hape, ho lahleheloa ke bokhoni ba ho etsa litefo tse ke keng tsa khutliswa bakeng sa lits'ebeletso tse ke keng tsa fetoloa ho hlahisa litshenyehelo tse pharaletseng. Ha litefo li ka khutlisoa, tlhoko ea tshepo e eketseha. Barekisi ba tlameha ho ba hlokolosi ka bareki ba bona, ’me hangata ba ba kopa tlhahisoleseling e ngata ho feta kamoo ho hlokahalang. Le ha ho le joalo, palo e itseng ea bomenemene e nkoa e le ntho e ke keng ea qojoa. Litshenyehelo tsena le ho se tsitse ha litefo li ka qojoa ha batho ba sebelisana ka chelete ea 'nete, empa ha ho na mokhoa o lumellang hore litefo li etsoe ka marang-rang ntle le motho oa boraro ea tsheptjoang.
 
-## Transactions
+Seo se hlokahalang ke tsamaiso ea tefo ea elektroniki e thehiloeng bopaking ba mahlale a lekunutu (cryptographic proof), eseng tshepo. Tsamaiso ena e tla dumella batho ba babeli ba ikemetseng ho etsa tefo ka kotloloho pakeng tsa bona, ntle le ho sebelisa motho oa boraro ea tshepahalang. Litefo tse ke keng tsa khutlisoa habonolo ka khomputara li tla sireletsa barekisi khahlanong le boshodu. Ka nako e tshwanang, ho ka sebedisoa mokhoa o tloaelehileng oa escrow ho sireletsa bareki, ho etsa bonnete ba hore tefo e etsoa ka mokhoa o sireletsehileng le o hlakileng. Ka pampiri ena, re fana ka tharollo bakeng sa bothata ba ho sebedisa chelete habedi, ka ho sebedisa seva sa nako se ajoang pakeng tsa batho (peer-to-peer distributed timestamp server). Sena se thusa ho etsa bopaki ba khomputara bo bontshang tatellano e nepahetseng ea litefo ka nako. Tsamaiso ena e bolokehile ha feela likhomphutha tse tšepahalang li sebedisa matla a mangata a CPU ho feta sehlopha leha e le sefe sa likhomphutha tse kopaneng tse lekang ho e hlasela.
 
-We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
+## litshebelisano
+
+Re hlalosa chelete ea elektroniki e le ketane ea Tshoaetso tsa dijithale. Mong’a chelete o fetisetsa chelete ho ea mong’a e latelang ka tshoaetso ea dijithale hash ea tšebelisano e fetileng hammoho le senotlolo sa sechaba (public key) sa emong’a mocha, ebe o li kenya qetellong ea ketane ea chelete. Motho ea amohelang tefo (payee) a ka netefatsa lipontšo tsena tsa dijithale ho tiisa hore ketane ea beng ba chelete e nepahetse ebile e tsamaile ka tatellano e nepahetseng.
 
 ![](./transactions.svg)
 
-The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
+Bothata, ehlile, ke hore motho ea amohelang tefo ha a khone ho netefatsa hore mong’a chelete eo ha aa ka a sebelisa chelete eo habeli. Tharollo e tloaelehileng ke ho kenya mokhatlo o bohareng o tshepahalang, kapa sebaka se bitsoang mint, se hlahlobang litshebelisano tsohle ho bona hore ha ho na chelete e sebelisoang habeli. Ka mor’a tshebelisano e ’ngoe le e ’ngoe, chelete e tlameha ho khutlisetsoa ho mint hore ho hlahisoe chelete e ncha, ’me feela chelete e tsoang ka kotloloho ho mint e nkoa e le e tshepahalang hore ha e sebelisoe habeli. Bothata ba tharollo ena ke hore tsamaiso eohle ea chelete e itshetlehile ka khampani e tsamaisang mint eo, kaha litshebelisano tsohle li tlameha ho feta ho bona — joalo ka ha ho sebetsa banka.
 
-We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.
+Re hloka mokhoa oo motho ea amohelang tefo a ka netefatsang hore beng ba pele ha baa ka ba saena litshebelisano tse ling pele. Tabeng ena, tshebelisano ea pele ke eona e nkoang e le ea bohlokoa, kahoo ha re tsotelle boiteko ba morao ba ho sebelisa chelete habeli (double-spend). Tsela feela ea ho tiisa hore ha ho na tshebelisano e ’ngoe e patiloeng ke ho tseba ka litshebelisano tsohle. Mokhoeng oa khale oa mint, sebaka seo se ne se tseba ka litshebelisano tsohle ’me se etsa qeto ea hore na ke efe e fihlileng pele. Ho etsa sena ntle le motho oa boraro ea tshepahalang, litshebelisano li tlameha ho phatlalatsoa hore bohle ba li bone, ’me ho hlokahala tsamaiso e lumellang barupeluoa ho lumellana ka histori e le ’ngoe ea hore na litshebelisano li amohetsoe ka tatellano efe. Motho ea amohelang tefo o hloka bopaki ba hore ka nako eo tšebelisano e etsahalang, boholo ba nodes (likhomphutha tse hokahaneng marang-rang) bo ne bo lumellana hore ke eona e fihlileng pele.
 
-## Timestamp Server
+## Seva ea setempe sa nako
 
-The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+Tharollo eo re e sisinyang e qala ka seva sa nako (timestamp server). Seva sa nako se sebetsa ka ho nka hash ea blokhi ea lintho tse tla fuoa nako ea tsona (timestamp) le ho phatlalatsa hash eo haholo, joalo ka ka koranta kapa poso ho Usenet[2-5]. Nako e bontša hore data e tlameha ebe e e ntse e le teng ka nako eo, ho hlakile, e le hore e ka kenella ho hash. Nako e ’ngoe le e ’ngoe e kenyelletsa nako e fetileng ho hash ea eona, e theha ketane, moo nako e ’ngoe le e ’ngoe e ekelitsoeng e matlafatsang tseo tse fetileng.
 
 ![](./timestamp-server.svg)
 
-## Proof of Work
+## Bopaki ba Mosebetsi
 
-To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+Ho sebelisa seva sa nako se arolelletsoeng ka mokhoa oa peer-to-peer, re tla sebelisa tsamaiso ea bopaki-ba-mosebetsi (proof-of-work) e tshoanang le Hashcash ea Adam Back[6], eseng ka koranta kapa liposo tsa Usenet. Tsamaiso ena e sebetsa ka ho batla palo e khethiloeng eo, ha e hash-oa (joalo ka SHA-256), hash e qalang ka li-zero bits tse itseng. Boholo ba mosebetsi o hlokahalang bo eketseha ka palo ea li-zero bits, ’me ho netefatsa hore mosebetsi o entsoe u ka etsa hash e le ’ngoe feela.
 
-For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+Bakeng sa marang-rang a rona a nako, re kenya tshebetsong bopaki-ba-mosebetsi (proof-of-work) ka ho eketsa nonce ka blokeng ho fihlela ho fumanoa boleng bo fanang ka li-zero bits tse hlokahalang ho hash ea blokeng. Ha CPU e se e entse mosebetsi oo ho fihlela e khotsofatsa bopaki-ba-mosebetsi, blokeng ha e sa ka ea fetoloa ntle le ho pheta mosebetsi oo. Ha li-block tse latelang li hokeloa ka mor’a eona, mosebetsi oa ho fetola blokeng o tla kenyelletsa ho pheta mosebetsi oa li-block tsohle tse latelang ka mor’a eona.
 
 ![](./proof-of-work.svg)
 
-The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+Bopaki-ba-mosebetsi bo thusa ho rarolla bothata ba ho tseba ke mang ea nang le boemeli bo boholo ha liqeto li etsoa. Haeba boemeli bo ne bo itshetlehile ka IP e le ’ngoe – votu e le ’ngoe, mang kapa mang ea ka abelang li-IP tse ngata a ka fetoha molao. Bopaki-ba-mosebetsi bo sebetsa joaloka CPU e le ’ngoe – votu e le ’ngoe. Ketane e telele ka ho fetisisa e bontsha qeto ea boholo-holo hobane e na le mosebetsi o moholo ka ho fetisisa oa bopaki-ba-mosebetsi. Haeba boholo-holo ba matla a CPU bo laoloa ke li-node tse tshepahalang, ketane e tshepahalang e hōla kapele ’me e feta liketane tse ling tsohle. Ha mohanyetsi a batla ho fetola blokeng ea khale, o tla tlameha ho pheta mosebetsi oa blokeng eo le oa li-block tsohle tse latelang, ebe a tlisa mosebetsi oa li-node tse tshepahalang. Ha li-block tse ling li ntse li eketsoa, monyetla oa hore mohanyetsi a fihle ka morao o fokotseha haholo.
 
-To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+Ho leka ho leka-lekanya lebelo le eketsehang la lisebelisoa le thahasello e fapaneng ea ho tsamaisa li-node ka nako, bothata ba bopaki-ba-mosebetsi bo khethoa ka karolelano e tsamaeang, e shebiloeng ho fumana palo e tloaelehileng ea li-block ka hora. Ha li hlahisoa ka potlako haholo, bothata bo eketseha.
 
-## Network
+## Marang-rang
 
-The steps to run the network are as follows:
+Mekhoa ea ho tsamaisa marang-rang e latelang ke ena:
 
-1. New transactions are broadcast to all nodes.
-2. Each node collects new transactions into a block.
-3. Each node works on finding a difficult proof-of-work for its block.
-4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
-5. Nodes accept the block only if all transactions in it are valid and not already spent.
-6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+1. Litshebelisano tse ncha li phatlalatsoa ho li-node tsohle.
+2. Node e ’ngoe le e ’ngoe e bokella litshebelisano tse ncha ka har’a blokeng.
+3. Node e ’ngoe le e ’ngoe e sebetsa ho fumana bopaki-ba-mosebetsi bo thata bakeng sa blokeng ea eona.
+4. Ha node e fumana bopaki-ba-mosebetsi, e phatlalatsa blokeng ho li-node tsohle.
+5. Li-node li amohela blokeng feela haeba litshebelisano tsohle ka har’a eona li nepahetse ’me li sa sebelisoe pele.
+6. Li-node li bontsha hore li amohetse blokeng ka ho sebetsa ho etsa blokeng e latelang ketaneng, li sebelisa hash ea blokeng e amohetsoeng e le hash ea pele.
 
-Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+Li-node kamehla li nka ketane e telele ka ho fetisisa e le ’nete. Ha li-node tse peli li phatlalatsa li-block tse fapaneng ka nako e le ’ngoe, tse ling li ka amohela e ’ngoe pele. Li sebetsa ho blokeng eo li e amohetseng qalong, empa li boloka e ’ngoe ka morao haeba e ka hōla ho feta. Ha bopaki-ba-mosebetsi bo latelang bo fumanoa, lekala le leng le hōla ho feta, ’me li-node tsohle li fetela ho lekala le lelelele, li tsoelapele ho haha ketane e kholo.
 
-New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+Litshebelisano tse ncha ha lia tlameha ho fihla ho li-node tsohle hang-hang. Ha feela li fihla ho li-node tse ngata, li tla kena ka har’a blokeng haufinyane. Ho phatlalatsa li-block ho boetse ho mamella melaetsa e lahlehileng. Haeba node e sa amohele blokeng, e tla e kopa ha e amohela blokeng e latelang ’me e hlokomela hore e ile ea fosa blokeng e ’ngoe.
 
-## Incentive
+## khothatso
 
-By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+Ka tloaelo, tshebelisano ea pele ka har’a blokeng ke tshebelisano e ikhethang e qalang chelete e ncha e seng ea motho ea e entseng. Sena se fa li-node khothatso ea ho tshehetsa marang-rang, ’me se fana ka tsela ea ho abela chelete pele e kenella tshebedisong, kaha ha ho na puso e kholo e e hlahisang. Ho eketsoa ha chelete e ncha ka mokhoa o tsitsitseng ho tshwana le ho kuta khauta moo balemi ba khauta ba sebelisang lisebelisoa ho eketsa khauta tshebedisong. Tabeng ea rona, ke nako ea CPU le motlakase o sebelisoang.
 
-The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+Khothatso e ka fuoa chelete hape ka litefiso tsa litshebelisano. Ha boleng ba tsoelo-pele ea tshebelisano bo le tlase ho boleng ba eona bo kenang, phapang eo ke tefiso ea tshebelisano e eketsoang khothatsong ea blokeng e nang le tshebelisano eo. Ha palo e itseng ea li-coin e se e kenile tshebedisong, khothatso e ka fetoha ka botlalo hore e be litefiso tsa litshebelisano feela ’me e se na tshusumetso ea ho eketsa chelete.
 
-The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
+Khothatso e ka thusa ho khothaletsa li-node ho lula li tshepahala. Haeba mohanyetsi ea hlohlorang a khona ho bokella matla a CPU a fetang a li-node tsohle tse tshepahalang, o tla tlameha ho khetha pakeng tsa ho sebelisa matla ao ho utsisa batho ka ho khutlisa litefo tsa hae, kapa ho a sebelisa ho hlahisa li-coin tse ncha. Ho molemo ho hae ho bapala ka melao, hobane melao e mo fa li-coin tse ncha tse ngata ho feta tseo bohle ba li kopantseng, ho feta ho senya tsamaiso le ho lahleheloa ke chelete ea hae.
 
-## Reclaiming Disk Space
+## Ho fumana sebaka se setseng ho disk
 
-Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+Hang ha tshebelisano ea morao-rao ka har’a chelete e se e koahetsoe ke li-block tse ngata, litshebelisano tse sebelisitsoeng pele li ka lahleloa ho boloka sebaka sa disk. Ho etsa sena ntle le ho senya hash ea blokeng, litshebelisano li hash-oa ka har’a Merkle Tree [7][2][5], ’me feela motso o kenngoa ho hash ea blokeng. Li-block tse khale li ka fokotsoa ka ho khaola makala a sefate. Li-hash tse ka hare ha lia hlokahala hore li bolokehe.
 
 ![](./reclaiming-disk-space.svg)
 
-A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
+Hore blokeng e be le hlooho feela ntle le litshebelisano, e ka ba ka boholo ba 80 bytes. Haeba re nahana hore li-block li hlahisoa nako e ’ngoe le e ’ngoe metsotso e 10, 80 bytes * 6 * 24 * 365 = 4.2MB ka selemo. Ka sistimi tsa khomphutha tse tloaelehileng tse rekisoang ka 2GB RAM ho tloha ka 2008, le Molao oa Moore o hakanya kholo ea 1.2GB ka selemo, polokelo ha e lokela ho ba bothata leha hlooho tsa li-block li bolokoa ka memori.
 
-## Simplified Payment Verification
+## Netefatso e Nolofalitsoeng ea Tefo
 
-It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+Ho ka khoneha ho netefatsa litefo ntle le ho tsamaisa node e felletseng ea marang-rang. Mo sebelisa feela o hloka ho boloka kopi ea hlooho tsa li-block tsa ketane e telele ka ho fetisisa ea bopaki-ba-mosebetsi, eo a ka e fumanang ka ho botsa li-node tsa marang-rang ho fihlela a kholisehile hore o na le ketane e telele. O boetse o fumana lekala la Merkle le hokahanyang tshebelisano le blokeng eo e fanoeng ka nako. Ha a khone ho hlahloba tshebelisano ka boeena, empa ka ho e hokahanya le sebaka ka har’a ketane, o bona hore node ea marang-rang e e amohetse, ’me li-block tse latelang li netefatsa hore marang-rang a e amohetse.
 
 ![](./simplified-payment-verification.svg)
 
-As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+Ka hona, ho netefatsa litefo ho tshepahala haeba li-node tse tshepahalang li laola marang-rang, empa ho ka ba bonolo ho kenngoa kotsi haeba mohanyetsi a matla ho feta marang-rang. Ha li-node tsa marang-rang li ka hlahloba litshebelisano ka bo tsona, mokhoa o bonolo o ka hlokomolisoa ke litshebelisano tse entsoeng ke mohanyetsi ho fihlela a sa ntse a matla ho feta marang-rang. Leano le le leng la ho itšireletsa ke ho amohela tsebiso ho li-node tsa marang-rang ha li bona blokeng e fosahetseng, e lebisang software ea mosebelisi ho jarolla blokeng e felletseng le litshebelisano tse tsebisitsoeng ho netefatsa hore ho na le phoso. Likhoebo tse amohelang litefo khafetsa li tla ntse li batla ho tsamaisa li-node tsa tsona bakeng sa polokeho e ikemetseng le netefatso e potlakileng.
 
-## Combining and Splitting Value
+## Ho Kopanya le ho Arola Boleng
 
-Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+Le hoja ho ka khoneha ho sebetsana le li-coin ka ’ngoe, ho ne ho tla ba bothata ho etsa tshebelisano e ikemetseng bakeng sa sente e ’ngoe le e ’ngoe ea phetisetso. Ho lumella boleng ho aroloa le ho kopanngoa, litshebelisano li na le mehloli le liphello tse ngata. Ka tloaelo, ho tla ba le mohloli o le mong ho tsoa tshebelisanong e kholo e fetileng, kapa mehloli e mengata e kopanyang litefiso tse nyane, ’me hangata ho tla ba le liphello tse peli feela: e le ’ngoe bakeng sa tefo, le e ’ngoe e khutlisang chelete e setseng, haeba e le teng, ho romelli.
 
 ![](./combining-splitting-value.svg)
 
-It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+Ho lokela ho hlokomeloa hore “fan-out,” moo tshebelisano e itshetlehileng ka litshebelisano tse ngata, ’me litshebelisano tseo li itshetlehileng ka tse ling tse ngata haholo, ha se bothata mona. Ha ho na tlhoko ea ho fumana kopi e felletseng ea nalane ea tshebelisano ka bo eona.
 
-## Privacy
+## Lekunutu
 
-The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+Mokhoa oa banka oa setso o boloka leeme ka ho lekanya boitsebiso feela ho batho ba amehang le motho oa boraro ea tshepahalang. Ho tlaleha litshebelisano tsohle ka ho phatlalatsa ho thibela mokhoa ona, empa boitsebiso bo ka bolokoa ka ho thibela phallo ea tlhaiso-leseling sebakeng se seng: ka ho boloka linotlolo tsa sechaba li sa tsejoe. Batho ba ka bona hore motho o romela chelete ho motho e mong, empa ntle le tlhaiso-leseling e hokahanyang tshebelisano le mang kapa mang. Sena se tshwana le boitsebiso bo hlahisoang ke li-stock exchange, moo nako le boholo ba khoebo e ’ngoe le e ’ngoe, e bitsoang “tape”, e phatlalatsoang, empa ntle le ho bua hore ke mang batho ba amehang.
 
 ![](./privacy.svg)
 
-As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
+E le sesebelisoa se eketsehileng sa tshireletso, setlhopha se secha sa linotlolo se lokela ho sebelisoa ho tshebelisano e ’ngoe le e ’ngoe ho thibela hore li hokahanye le mong’a tsona ea tshwanang. Leha ho le joalo, ho ka ’na ha hlahella ho hokahana ka litshebelisano tse nang le mehloli e mengata, hobane ho bontsha hore mehloli eohle e ne e le ea mong’a e le ’ngoe. Kotsi ke hore haeba mong’a senotlolo a senoloa, ho hokahana ho ka bontsha litshebelisano tse ling tse neng li le tsa mong’a o tshwanang.
 
-## Calculations
+## Lipalo
 
-We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
+Re nahana ka boemo boo mohanyetsi a lekang ho hlahisa ketane e fapaneng kapele ho feta ketane e tshepahalang. Le hoja sena se ka khoneha, ha se folele tsamaiso hore e lumelle liphetoho tse sa laoleheng, joalo ka ho hlahisa chelete e sa teng kapa ho nka chelete e seng ea mohanyetsi. Li-node ha li tla amohela tshebelisano e fosahetseng e le tefo, ’me li-node tse tshepahalang ha li tla amohela blokeng e nang le tsona. Mohanyetsi a ka leka feela ho fetola e ’ngoe ea litshebelisano tsa hae ho khutlisa chelete eo a e sebelisitseng morao tjena.
 
-The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+Mokete pakeng tsa ketane e tshpahalang le ketane ea mohanyetsi o ka hlalosoa e le Binomial Random Walk. Tshebeliso e atlehileng ke ha ketane e tshepahalang e atolosoa ka blokeng e le ’ngoe, e eketsang phapang ka +1, ’me tshebeliso e hlolehileng ke ha ketane ea mohanyetsi e atolosoa ka blokeng e le ’ngoe, e fokotsang phapang ka -1.
 
-The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[8] :
+Monyetla oa mohanyetsi oa ho fihlela ketane e tshepahalang ha a qala a le ka morao o tshwana le bothata ba “Gambler's Ruin”. Nahana ka sebapali sa lipapali se nang le mokoloto o sa lekanyetsoang se qalang se le ka morao ’me se bapala liteko tse sa lekanyetsoang ho leka ho fihlela tekano. Re ka bala monyetla oa hore a ka fihlela tekano, kapa hore mohanyetsi a ka lula a latela ketane e tshepahalang, ka tsela e latelang[8]:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable columnalign="right center left" rowspacing="3pt" columnspacing="0 thickmathspace" displaystyle="true">
@@ -214,21 +230,20 @@ The probability of an attacker catching up from a given deficit is analogous to 
   </mstyle>
 </math>
 
-Given our assumption that
+Ho latela maikutlo a rona a joalo
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>p</mi>
   <mo>&#x003E;<!-- > --></mo>
   <mi>q</mi>
 </math>
 
-, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+, Monyetla oa mohanyetsi o theoha ka potlako ha palo ea li-block tseo a tlamehang ho li latela e ntse e eketseha. Ka maemo a khahlano le eena, haeba a sa atlehe ho tsamaea ka lehlohonolo qalong, menyetla ea hae e tla fokola haholo ha a ntse a qeta ho siea ka morao.
 
-We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
+Joale re nahana hore na moamoheli oa tshebelisano e ncha o lokela ho emela nako e kae pele a kholiseha hore mo romellang ha a ka fetola tshebelisano. Re nka hore mo romellang ke mohanyetsi ea batlang ho etsa moamoheli a nahane hore o se a lefa, ebe ka mora nako a fetola tshebelisano hore a khutlisetse chelete ho eena. Moamoheli o tla tsebisoa ha sena se etsahala, empa mo romellang o tshepa hore ho tla se be teng nako e nepahetseng.
 
-The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
+Moamoheli o hlahisa setlhopha se secha sa linotlolo ’me a fa a mo romellang senotlolo sa sechaba hanyane pele a saena. Sena se thibela mo romellang ho lokisetsa ketane ea li-block pele ka ho sebetsa ho eona ka mokhoa o tsoelang pele ho fihlela a le lehlohonolo a feta pele, ebe a phetha tshebelisano ka nako eo. Hang ha tshebelisano e romelloa, mo romellang ea sa tshepahaleng o qala ho sebetsa ka botsebi ho ketane e tshwanang e nang le mofuta o fapaneng oa tshebelisano ea hae.
 
-The recipient waits until the transaction has been added to a block and z
-blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+Moamoheli o emela ho fihlela tshebelisano e se e kentsoe ka har’a blokeng ’me li-block tse z li hokahantsoe kamora eona. Ha a tsebe hantle hore na mohanyetsi o fihletse kae, empa haeba re nka hore li-block tse tshepahalang li nkile nako e tloaelehileng ka blokeng, tsoelo-pele e ka bang teng ea mohanyetsi e tla latela phallo ea Poisson ka boleng bo lebeletsoeng:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -242,7 +257,7 @@ blocks have been linked after it. He doesn't know the exact amount of progress t
   </mstyle>
 </math>
 
-To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
+Ho fumana monyetla oa hore mohanyetsi a ka ntse a fihla hona joale, re eketsa khatello ea Poisson bakeng sa boholo bo fapaneng ba tsoelo-pele eo a ka e entseng ka monyetla oa hore a ka fihla ho tloha moo:
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -329,7 +344,7 @@ To get the probability the attacker could still catch up now, we multiply the Po
   </mstyle>
 </math>
 
-Rearranging to avoid summing the infinite tail of the distribution...
+Ho hlophisa hape ho qoba ho bokella karolo e sa feleng ea phallo ea monyetla…
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mstyle mathsize="1.2em">
@@ -392,7 +407,7 @@ Rearranging to avoid summing the infinite tail of the distribution...
   </mstyle>
 </math>
 
-Converting to C code...
+E fetolela ho khoutu ea C..
 
 ```c
 #include 
@@ -413,7 +428,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with z.
+Ha re sebelisa liphetho tse ling, re ka bona monyetla o theoha haholo ka z.
 
 ```
 q=0.1
@@ -443,7 +458,7 @@ z=45   P=0.0000024
 z=50   P=0.0000006
 ```
 
-Solving for P less than 0.1%...
+Ho rarolla P ka tlase ho 0.1%.
 
 ```
 P < 0.001
@@ -457,11 +472,11 @@ q=0.40   z=89
 q=0.45   z=340
 ```
 
-## Conclusion
+## Qetello
 
-We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
+Re hlahisitse tsamaiso ea litshebelisano tsa elektroniki ntle le ho itshetleha ka tshepo. Re qala ka moelelo oa setso oa li-coin tse entsoeng ka li-signature tsa dijithale, tse fanang ka taolo e matla ea boemo, empa ha e phetheloe ntle le tsela ea ho thibela ho sebelisa chelete ka makhetlo a mabeli. Ho rarolla sena, re hlahisitse marang-rang a peer-to-peer a sebelisang bopaki-ba-mosebetsi ho ngola nalane ea litshebelisano e phatlalalitsoeng, eo mohanyetsi a sa khoneng ho e fetola kapele haeba li-node tse tshepahalang li laola karolo e kholo ea matla a CPU. Marang-rang a matla ka mokhoa oa ona o bonolo, oo o se nang sebopeho. Li-node li sebetsa ka nako e le ’ngoe ntle le tsamaiso e ngata. Ha li hloke ho tsejoa, hobane melaetsa ha e tsamaisoe sebakeng se itseng feela ’me e hloka feela ho afuoa ka boiteko bo botle. Li-node li ka tlohela ’me tsa khutlela marang-rang ha li batla, li amohela ketane ea bopaki-ba-mosebetsi e le bopaki ba se etsahalang ha li ne li le sieo. Li lōtleloa ka matla a tsona a CPU, li bontša hore li amohetse li-block tse nepahetseng ka ho sebetsa ho li atolosa, ’me li hana li-block tse fosahetseng ka ho hana ho li sebetsa. Melao le khothatso e hlokahalang e ka phethahala ka tsamaiso ena ea tumellano.
 
-## References
+## litshupiso
 
 1. W. Dai, ["b-money,"](https://nakamotoinstitute.org/b-money/) [http://www.weidai.com/bmoney.txt](http://www.weidai.com/bmoney.txt), 1998.
 2. H. Massias, X.S. Avila, and J.-J. Quisquater, ["Design of a secure timestamping service with minimal trust requirements,"](https://nakamotoinstitute.org/secure-timestamping-service.pdf) In 20th Symposium on Information Theory in the Benelux, May 1999.
