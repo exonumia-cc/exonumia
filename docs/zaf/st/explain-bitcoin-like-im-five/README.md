@@ -1,111 +1,126 @@
-# Explain Bitcoin Like I’m Five
+---
+translators: 
+    -   
+        name: "Maipa Todsello"
+        href: "maipatodsello@gmail.com/"
+    -
+        name: "Bonoloma Foyane"
+        href: "bonolomafoyane.work@gmail.com/"
+        
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+---
 
-by Nik Custodio [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
+## Hlalosa Bitcoin joalo eka ke lilemo tse hlano.
+
+e ngotsoe ke Nik Custodio  [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
 <LanguageDropdown/>
 
-### If you still can’t figure out what the heck a bitcoin is…
+### Ha o sa ntse o sa utlwisise hore Bitcoin ke eng… ha ho bothata!”Re tlo e hlalosa ka tsela e bonolo
 
-We’re sitting on a park bench. It’s a great day.
+Re dutse bencheng ya paka. Ke letsatsi le letle haholo
 
-I have one apple with me. I give it to you.
+Ke na le apole e le nngwe. Ke a o nea yona
 
-You now have one apple and I have zero.
+Jwale o na le apole e le nngwe, mme nna ha ke na letho
 
-That was simple, right?
+Ho ne ho le bonolo, na ha ho jwalo?
 
-### Let’s look closely at what happened:
+### A re shebeng ka hloko se etsahetseng:
 
-My apple was physically put into your hand.
+Apole ya ka e ile ya bewa ka letsohong la hao ka sebele
 
-You know it happened. I was there. You were there. You touched it.
+O tseba hore se etsahetse. Nna ke ne ke le teng, le wena o ne o le teng. O ile wa e thetsa
 
-We didn’t need a third person there to help us make the transfer. We didn’t need to pull in Uncle Tommy (who’s a famous judge) to sit with us on the bench and confirm that the apple went from me to you.
+Ha rea hloka motho wa boraro hore a re thuse ho fetisetsa apole. Ha rea hloka ho bitsa Malome Tommy (e eleng moahloli ya tummeng) hore a dule le rona setulong mme a netefatse hore apole e tswile ho nna e ya ho wena.
 
-The apple’s yours! I can’t give you another apple because I don’t have any left. I can’t control it anymore. The apple left my possession completely. You have full control over that apple now. You can give it to your friend if you want, and then that friend can give it to his friend. And so on.
+Apole ke ya hao! Ha ke sa kgona ho o nea apole e nngwe hobane ha ke sa na e nngwe. Ha ke sa e laola apole e keo fileng. Apole e tswile matsohong a ka, ka botlalo. Jwale wena o na le taolo e felletseng hodima apole eo. O ka e nea motswalle wa hao haebe o batla, mme motswalle eo a ka e nea motswalle wa hae hape. Mme jwalo le jwalo.
 
-So that’s what an in-person exchange looks like. I guess it’s really the same, whether I’m giving you a banana, a book, or say a quarter, or a dollar bill….
+Kahoo, ke hona kamoo phetisetso e etswang ka seqo e shebahalang kateng. Ho jwalo le haeba nka be ke o neile banana, buka, kapa chelete e nyane — jwalo ka ranta e le 'ngoe kapa liranta tse leshome....
 
-But I’m getting ahead of myself.
+Empa se ke feteletsi.
 
-### Back to apples!
+### Re khutlela ho liapole!
 
-Now say, I have one digital apple. Here, I’ll give you my digital apple.
+Ke na le apole e le nngwe ya lijithale. Teng mona, ke tla o fa apole ya ka ya lijithale.
 
-Ah! Now it gets interesting.
+Aha! Jwale ho a kgahlisa.
 
-How do you know that that digital apple that used to be mine, is now yours, and only yours? Think about it for a second.
+O tseba joang hore apole eo ea lijithale e neng e le ea ka, joale ke ea hao - 'me ke ea hao feela? Nahana ka motsotsoana.
 
-It’s more complicated, right? How do you know that I didn’t send that apple to Uncle Tommy as an email attachment first? Or your friend Joe? Or my friend Lisa too?
+Ho thata, akere? U tseba joang hore ha kea romela apole eo ho Malome Tommy pele, ka imeile? Kapa ho motsoalle oa hao Joe? Kapa motsoalle oa ka Lisa le eena?
 
-Maybe I made a couple of copies of that digital apple on my computer. Maybe I put it up on the internet and one million people downloaded it.
+Mohlomong ke ka pheta pheta liapole tsa lijithale ho khomphutha ya ka. Ka e phatlalatsa Inthaneteng mme batho ba milione e le nngwe ba e hapa.
 
-As you see, this digital exchange is a bit of a problem. Sending digital apples doesn’t look like sending physical apples.
+Joalokaha u bona, phapanyetsano ena ea  lijithale ke bothata bo itseng. Ho romela liapole tsa lijithale ha ho tshwane le ho romela liapole tsa nnete.
 
-Some brainy computer scientists actually have a name for this problem: it’s called the double-spending problem. But don’t worry about it. All you need to know is that, it’s confused them for quite some time and they’ve never solved it.
+Bahlale ba bo ramahlale ba likhomphutha ba ile ba fa bothata bona lebitso: bo bitswa bothata ba ho sebelisa ntho habeli. Empa o se ke wa tshwenyeha ka hona. Se bohlokwa hore o se tsebe, ke hore bothata bona bo ba refekantse haholo ka lilemo tse ngata, ’me ho fihlela jwale ha ba eso fumane tsela ya ho bo lokisa
 
-Until now.
+Ho fihlela jwale.
 
-But let’s try to think of a solution on our own.
+Empa a re leke ho nahana ka tharollo re le bang.
 
-### Ledgers
+### libuka tsa Rekoto
 
-Maybe these digital apples need to be tracked in a ledger. It’s basically a book where you track all transactions — an accounting book.
+Mohlomong liapole tsena tsa lijithale li lokela ho ngolwa bukeng ya rekoto. Ke bukana e bontshang hore ke mang ya fileng mang diapole tsohle — jwalo ka bukana ya ditjhelete.
 
-This ledger, since it’s digital, needs to live in its own world and have someone in charge of it.
+Bukana ena, kaha e le ya lijithale, e lokela ho phela ka yona lefatse la yona mme ho be le motho ya e shebileng.
 
-Say, just like World of Warcraft. Blizzard, the guys who created the online game, have a “digital ledger” of all the rare flaming fire swords that exist in their system. So, cool, someone like them could keep track of our digital apples. Awesome — we solved it!
+Jwalo ka papadi ya World of Warcraft. Blizzard, banna ba entseng papadi ena ya inthanete, ba na le “bukana ya lijithale” ya litjhwele tse futhumetseng tse hlwahlwa kaofela tse teng tsamaisong ya bona. Ka hona, ho monate — motho jwalo ka bona a ka boloka tlaleho ea liapole tsa rona tsa lijithale. Hantle - re rarotse bothata!
 
-### Problems
+### Mathata
 
-There’s a bit of a problem though:
+Empa ho na le bothata bo bonyenyane:
 
-1) What if some guy over at Blizzard created more? He could just add a couple of digital apples to his balance whenever he wants!
+1) Haeba motho e mong ho Blizzard a hlahisa tse ngata? A ka eketsa liapole tse ling bukeng ya hae ya lijithale neng kapa neng ha a batla!
 
-2) It’s not exactly like when we were on the bench that one day. It was just you and me then. Going through Blizzard is like pulling in Uncle Tommy(a third-party) out of court(did I mention he’s a famous judge?) for all our park bench transactions. How can I just hand over my digital apple to you, like, you know— the usual way?
+2) Ha ho tshwane le ha re ne re lutse bencheng ka letsatsi lele. E ne e le rona feela ba babeli. Ho fetisa liapole ka Blizzard ho tshwana le ho bitsa Malome Tommy (Ke la cho ka re ke moahloli ya tummeng?) ho tla shebella liphapanyetsano tsohle tsa rona, tse etsahetseng bencheng. Jwale nka o fa apole ya ka ya lijithale jwang, jwalo ka ha re etsa kamehla?
 
-> Is there any way to closely replicate our park bench, just you-and-me, transaction digitally? Seems kinda tough…
+> Na ho na le tsela eo re ka etsang hore ho tshwane le ha re lutse bencheng, ke rona feela ba babeli, re phapanyetsana liapole tsa lijithale? Ho bonahala ho le thata hanyane…
 
-### The Solution
+### Tharollo
 
-What if we gave this ledger — to everybody? Instead of the ledger living on a Blizzard computer, it’ll live in everybody’s computers. All the transactions that have ever happened, from all time, in digital apples will be recorded in it.
+Ha re ka fa bukana ena ho batho bohle? Ho fapana le ho phela ho khomphutha ya Blizzard, e tla phela ho khomphutha tsohle tsa batho. liphapanyetsano tsohle tseo li kileng tsa etsahala, ho tloha mehleng ya kgale, ka liapole tsa lijithale di tla ngolwa bukaneng.
 
-You can’t cheat it. I can’t send you digital apples I don’t have, because then it wouldn’t sync up with everybody in the system. It’d be a tough system to beat. Especially if it got really big.
+O ka se jale ka tsela e mpe. Ha ke khone ho o fa liapole tsa lijithale tseo ke se nang tsona, hobane di ke ke tsa lumellana le bukana ya batho bohle tsamaisong. E tla ba tsamaiso e thata ho hlola. Hape haholo haeba e ka hola haholo hoa eketseha batho.
 
-Plus it’s not controlled by one person, so I know there’s no one that can just decide to give himself more digital apples. The rules of the system were already defined at the beginning. And the code and rules are open-source. It’s there for the smart people to contribute to, maintain, secure, improve on, and check on.
+Hape ha e laoloe ke motho a le mong, kahoo ke tseba hore ha ho motho ya ka ipha liapole tse ngata. Melao ya tsamaiso e ne e se e hlalositsoe qalong. Mme molaotheo o fumaneha ho bohle. E teng bakeng sa batho ba bohlale ho kenya letsoho, ho e boloka, ho e sireletsa, ho e ntlafatsa le ho e hlahloba.
 
-You could participate in this network too and update the ledger and make sure it all checks out. For the trouble, you could get like 25 digital apples as a reward. In fact, that’s the only way to create more digital apples in the system.
+Le wena o ka ba karaolo ea marangrang ao le batho bao, mme o thuse ho ntjhafatsa bukana ya lijithale le ho etsa bonnete ba hore tsohle li lokile. Ka lebaka la mosebetsi oo, o ka fumana moputso oa liapole tse 25 tsa litjithale. Ebile, ke yona feela tsela eo diapole tse ntjha tsa dijithale di hlahiswang ka yona tsamaisong ena.
 
-### I simplified quite a bit
+### Ke e nolofaditse ha nyane
 
-… but that system I explained exists. It’s called the Bitcoin protocol. And those digital apples are the *“bitcoins”* within the system. Fancy!
+… empa tsamaiso eo ke e hlalositseng e teng. E bitswa Bitcoin protocol. Mme liapole tseo tsa lijithale ke di “bitcoins” tsamaisong ena!
 
-So, did you see what happened? What does the public ledger enable?
+Jwale, na o bone se entsheng? Bukana ya sechaba e lumella eng?
 
-1) It’s open source remember? The total number of apples was defined in the public ledger at the beginning. I know the exact amount that exists. Within the system, I know they are limited(scarce).
+1) E fumaneha ho bohle, o hopola? Palo yohle ya liapole e ne e ngotswe bukeng ya sechaba qalong. Ke tseba hantle palo e teng. Tsamaisong, ke tseba hore li lekanyelitsoe (ha ho na tse ngata haholo).
 
-2) When I make an exchange I now know that digital apple certifiably left my possession and is now completely yours. I used to not be able to say that about digital things. It will be updated and verified by the public ledger.
+2) Ha ke etsa phapanyetsano, jwale ke tseba hore apole ya lijithale e se e tswa ho nna hantle ebile joale ke ya hao ka botlalo. Pele ke ne ke sa kgone ho bolela jwalo ka lintho tsa lijithale. E tla ntjhafatshwa mme ya netefatshwa ke bukana ya sechaba.
 
-3) Because it’s a public ledger, I didn’t need Uncle Tommy(third-party) to make sure I didn’t cheat, or make extra copies for myself, or send apples twice, or thrice…
+3) Hobane ke bukana ya sechaba,  Malome Tommy ha a hlokahale (motho wa boraro) ho etsa bonnete ba hore ha ke jale ka tsela e mpe, kapa ka iketsetsa liapole tse ding ho dima tse kenang le tsona, kapa ho romela liapole habeli, kapa lekhetlo la bararo…
 
-    Within the system, the exchange of a digital apple is now just like the exchange of a physical one. It’s now as good as seeing a physical apple leave my hand and drop into your pocket. And just like on the park bench, the exchange involved two people only. You and me — we didn’t need Uncle Tommy there to make it valid.
+    Ka hare ho tsamaiso ena, ho fapanyetsana apole ya lijithale ho tshwana hantle le ho fapanyetsana apole ya nnete. Ho tshwana le ha o bona apole ya nnete e tswa letsohong la ka e kena ka pokothong ya hao. Mme jwalo ka ha re ne re lutse bencheng, phapanyetsano ena e ne e le pakeng tsa batho ba babeli feela — nna le wena. Ha re a hloka Malome Tommy ho e nnetefatsa.
 
-In other words, it behaves like a physical object.
+Ka mantsoe a mang, E sebetsa joaloka ha e le ea ’nete.
 
-But you know what’s cool? It’s still digital. We can now deal with 1,000 apples, or 1 million apples, or even .0000001 apples. I can send it with a click of a button, and I can still drop it in your digital pocket if I was in Nicaragua and you were all the way in New York.
+Empa o tseba se monate? E sa ntse e le lijithale. Jwale re ka sebetsa ka liapole tse 1,000 (sekete), kapa milione e le nngwe, kapa esita le karolo e nyane haholo ya apole (.0000001). Ke ka romela ka ho tobetsa konopo feela, mme ke ntse ke ka e kenya ka pokothong ya hao ya lijithale leha nka be ke le Gauteng mme wena o le Lesotho.
 
-I can even make other digital things ride on top of these digital apples! It’s digital after-all. Maybe I can attach some text on it — a digital note. Or maybe I can attach more important things; like say a contract, or a stock certificate, or an ID card…
+Ke ka etsa hore lintho tse ling tsa lijithale li tsamaesane le liapole tsena tsa lijithale! Ke lijithale, qetellong ha ho jwalo! Mohlomong nka kenya molaetsa holima yona — jwalo ka Lengoloana la lijithale. Kapa mohlomong nka kenya ntho e bohlokwa haholo — jwalo ka konteraka, kapa setifikeiti sa liabo, kapa karete ya boitsebiso…
 
-So this is great! How should we treat or value these “digital apples”? They’re quite useful aren’t they?
+Jwale sena se monate hakaakang! Re lokela ho hlompha kapa ho nka liapole tsena tsa lijithale jwang? li thusa haholo, na ha ho jwalo?
 
-Well, a lot of people are arguing over it now. There’s debate between this and that economic school. Between politicians. Between programmers. Don’t listen to all of them though. Some people are smart. Some are misinformed. Some say the system is worth a lot, some say it’s actually worth zero. Some guy actually put a hard number: $1,300 per apple. Some say it’s digital gold, some a currency. Other say they’re just like tulips. Some people say it’ll change the world, some say it’s just a fad.
+Hantle, batho ba bangata ba a ferekana ka sena jwale. Ho na le mekgwa e fapaneng ya ho nahana ka tjhelete le moruo. Pakeng tsa bapolotiki le pakeng tsa baqapi ba mananeo. Empa o se ke wa mamela bohle. Ba bang ba bohlale. Ba bang ha ba tsebe hantle. Ba bang ba re tsamaiso ena e na le boleng bo boholo, ba bang ba re ha e na boleng ho hang. Motho e mong a ka beha R1,300 e le theko ea apole e le ’ngoe. Ba bang ba re ke khauta ya lijithale, ba bang ba re ke tjhelete. Ba bang ba re ke lipalesa. Ba bang ba re e tla fetola lefatse, ba bang ba re ke ntho feela e ncha
 
-I have my own opinion about it.
+Ke na le maikutlo a ka ka yona.
 
-That’s a story for another time though. But kid, you now know more about Bitcoin than most.
+Eo ke pale bakeng sa nako e nngwe, empa ngoaneso, jwale o tseba haholo ka Bitcoin ho feta batho ba bangata.
 
-#### Recommend Reading (Updated 2017)
+#### Libuka Tse Kgothaletswang ho di Bala (E ntlafalitswe 2017)
 
-[“You Don’t Understand Bitcoin Because You Think Money is Real”](https://medium.com/@mariabustillos/you-dont-understand-bitcoin-because-you-think-money-is-real-5aef45b8e952?source=linkShare-2d6f142ff3cc-1512362100) by [Maria Bustillos](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/undefined) is a good follow-up read.
+[“You Don’t Understand Bitcoin Because You Think Money is Real”](https://medium.com/@mariabustillos/you-dont-understand-bitcoin-because-you-think-money-is-real-5aef45b8e952?source=linkShare-2d6f142ff3cc-1512362100) by [Maria Bustillos](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/undefined) Ke phetiso e ntle ea ho e bala kamora ena.
 
-You can also read more about [Ethereum and Smart Contracts here](https://medium.freecodecamp.org/smart-contracts-for-dummies-a1ba1e0b9575?source=linkShare-2d6f142ff3cc-1512086124). Enjoy!
+O ka boela wa bala haholoanyane ho [Ethereum and Smart Contracts here](https://medium.freecodecamp.org/smart-contracts-for-dummies-a1ba1e0b9575?source=linkShare-2d6f142ff3cc-1512086124). Ithabise!
