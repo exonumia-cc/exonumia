@@ -13,7 +13,7 @@ supporters:
         href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
 ---
 
-## Hlalosa Bitcoin joalo eka ke lilemo tse hlano.
+# Hlalosa Bitcoin joalo eka ke lilemo tse hlano.
 
 e ngotsoe ke Nik Custodio  [2013/12/12](https://www.freecodecamp.org/news/explain-bitcoin-like-im-five-73b4257ac833/)
 
