@@ -1,61 +1,71 @@
-# Bitcoin Banking for Communities: Lessons Learned from Bitcoin Beach
+---
+supporters: 
+    - 
+        name: "BitMEX"
+        href: "https://blog.bitmex.com/bitmex-grant-translation-of-bitcoin-content-into-african-languages/"
+translators: 
+    - 
+        name: "Ange Tuyizere"
+        email: "angetuyizere39@gmail.com"
+---
 
-by Galoy Money [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
+# Gukoresha serivise za Bitcoin mugufasha ibikorwa by'amabanki no guhuza imiryango y'abaturage : Amasomo yizwe muri Bitcoin Beach.
+
+Ukoresheje Galoy Money  [2021/11/10](https://galoy.io/bitcoin-banking-for-communities-lessons-learned-from-el-zonte/)
 
 <LanguageDropdown/>
 
-## Foreword
+## Ijambo ry'ibanze
 
-Revolutionary change is usually sparked by those that are too young and naïve to understand that their undertaking is doomed to fail. While I cannot claim the excuse of youth, when Bitcoin Beach launched, thankfully I had not yet spent enough time on Twitter to “know” that Bitcoin would never be used by people to buy a cup of coffee. Had we done the prudent research or started with standard feasibility studies, we would have realized our folly. Thankfully most of you can now find El Salvador on a map because we were too stupid to know better.
+Impinduka z'impinduramatwara mubisanzwe ziterwa nabakiri bato cyane kandi badafite ubwenge bwo kumva ko ibyo bakora byanze bikunze. Nubwo ntashobora gusaba urwitwazo rwurubyiruko, igihe Bitcoin Beach yatangizaga, dushimire ko ntari maze igihe gihagije kuri Twitter kugirango “menya” ko Bitcoin itazigera ikoreshwa nabantu kugura ikawa. Iyaba twarakoze ubushakashatsi bwubushishozi cyangwa twatangiranye nubushakashatsi busanzwe bushoboka, twari kumenya ubupfu bwacu. Twishimye ko benshi muri mwe bashobora kubona El Salvador ku ikarita kuko twari ibicucu kuburyo tutamenya neza.
 
-In the case of Bitcoin Beach, truth really is often stranger than fiction. Nobody would have imagined that the first true Bitcoin economy would find its genesis in a small rural village in El Salvador. Led by a middle-aged expat that still uses Earthlink email, partnered with a young Salvadoran community leader who barely finished 6th grade.
+Kubireba Bitcoin Beach, ukuri mubyukuri ntikumenyerewe kuruta ibihimbano. Ntamuntu numwe wigeze atekereza ko ubukungu bwa mbere bwa Bitcoin bwasanga inkomoko yabyo mumudugudu muto wo mucyaro muri Salvador. Bayobowe n’umunyamahanga ufite imyaka yo hagati ugikoresha imeri ya Earthlink, yafatanije n’umuyobozi w’umuryango wa Salvadoran ukiri muto warangije icyiciro cya 6.
+Iyo usubije amaso inyuma, ibizavamo byagaragaye: abaturage bahanganye n'ubukene no kutagira amafaranga buri gihe bagenewe kubona agaciro ka Bitcoin mbere y'imiryango ikize muri Singapuru cyangwa mu kibaya cya Silicon. Birasa nkaho bikwiranye n'Imana – abashyizeho inzira yambere batangiye bisekeje kuburyo batujuje ibisabwa kuburyo ntamuntu ukurikira ukeneye kumva afite ubwoba.
 
-In retrospect, the outcome was obvious: a population that struggles with poverty and lack of financial inclusion was always destined to see the value of Bitcoin before wealthy communities in Singapore or Silicon Valley. It seems divinely fitting – those who paved the first path started out so laughably unqualified that no community who follows needs to feel intimidated.
+Muri Salvador, Bitcoin ni amafaranga y’abakene kandibadafite amafaranga.kuba salvadoran babayeho mubukene, impaka hagatiya zahabu ya digitale ningando z'amafaranga zisa nkaho zidahuye, kandi ntaho zihuriye. 
+Ku bakeneye Bitcoin cyane, ni uburyo bagura imigati yabo ya buri munsi n'uburyo babikira ejo hazaza. Babona bidakenewe guhitamo umwe cyangwa undi.
 
-In El Salvador, Bitcoin is the money of the poor and financially excluded. For Salvadorans that are living in poverty, the debates between the digital gold and digital cash camps seem out of touch, and without practical relevance. For those who need Bitcoin most, it is both how they buy their daily bread and how they save for the future. They see no need to choose one or the other.
-
-So here in 2021 we see a small impoverished nation showing the world how Bitcoin levels the playing field for the poor. We know Bitcoin Beach is just a glimpse. But we hope it will be the spark that sets off fires around the world. We invite you to come visit El Zonte, and help us spread this vision of community Bitcoin Banking that is enabling financial inclusion around the world.
+Hano rero muri 2021 tubona igihugu gito gikennye cyereka isi uburyo Bitcoin iringaniza ikibuga cyo gukiniramo abakene.. Turazi ko Bitcoin Beach ari ukureba gusa. Ariko turizera ko bizaba urumuri rutangiza umuriro ku isi yose. Turabatumiriye kuza gusura El Zonte no kudufasha  gukwirakwiza ikerekezo  cya banki ya Bitcoin ifasha kwinjiza amafaranga ku isi yose. 
 
 – Mike Peterson ([@bitcoinbeach](http://twitter.com/bitcoinbeach))
 
-## From Local Project to Legal Tender in Two Years
+## Kuva ku mushinga waho kugeza amasoko yemewe mu myaka ibiri
 
-The Bitcoin Beach project started with a simple yet aspirational question: Can we build a sustainable circular economy on Bitcoin?
+Umushinga  wa Bitcoin Beach watangiranye n'ikibazo mu kabazo cyoroshye ariko cyifuzwa : dushobora kubaka ubukungu burambye buzenguruka kuri Bitcoin ?
 
-The answer is a resounding yes. What started as a community project in a remote town has evolved into a story about six million people showcasing to the world that Bitcoin is money.
+Igisubizo ni yego yumvikana. Icyatangiye nk'umuganda rusange mu mujyi wa kure cyahindutse inkuru abantu bagera kuri miriyoni esheshatu bereka isi ko Bitcoin ari amafaranga.
 
-In this guide we cover six lessons learned developing the Bitcoin Beach Wallet and the underlying open source infrastructure that powers it. Our aim is to help communities around the world accelerate their own learning and adoption of Bitcoin and the Lightning Network.
+Muri iki gitabo hakubiyemo amasomo atandatu twize yo guteza imbere Bitcoin Beach Wallet hamwe n'ibikorwaremezobifungura isoko biha imbaraga.Intego yacu ni ugufasha abaturage  ku isi kwihutisha imyigire yabo no kwemeza  Bitcoin  Lightning Network.
 
-## What is Bitcoin Beach?
+## Bitcoin Beach ni iki?
 
-On the Pacific Coast of El Salvador sits El Zonte, a small surf town with a population of 3,000. Its residents have been left out of the traditional banking system and have grappled with gang violence and a lack of financial inclusion for decades. Over the past ten years, a small group of individuals have been working to ignite change and bring hope back to El Zonte.
+Ku nkombe y’inyanja ya Pacifique mu gihugu cya El Salvador hicaye El Zonte, umujyi muto wa Surf utuwe n'abantu bagera ku 3,000 . Ni abaturage basigaye muri gahunda gakondo y'amabanki kandi bahanganye n'ihohoterwa ry'agatsiko ndetse no kutagira amafaranga mu myaka mirongo. Mu myaka 10 ishize, itsinda rito ry'abantu bagiye bakorakugirango bakongere impinduka kandi bagarure ibyiringiro muri El Zonte.
 
-Jorge Valenzuela, Roman “Chimbera” Martinez and Mike Peterson began running youth programs around 2009 to give El Zonte’s kids the opportunity to play, learn and dream. From surf “para todo” (surf for everyone) to computer classes to paid community service projects, the programs have breathed new possibilities into a place that once felt like a dead end.
+Jorge Valenzuela, Roman "Chimbera" Martinez hamwe na Mike Peterson batangiye kuyobora gahunda z'urubyiruko ahagana 2009 kugira ngo bahe abana bo muri El Zonte amahirwe yo gukina, kwiga no kugira inzozi. Bahereye ku mugambi "Ubuhanga bwa none kuri bose",bahereye ku masomo ya mudasobwa kumishinga ifasha abaturage, porogaramu zahumekeye ibintu bishya ahantu hahoze humvako hapfuye. 
 
 ![](./bitcoin-beach-workouts.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Jorge, Chimbera and team have put fitness, education and community service at the center of daily life in El Zonte. (Source: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
+  <figcaption>Jorge, Chimbera hamwe nitsinda bashyize imyitozo ngororamubiri , uburezi n'umuganda rusange mubuzima bwaburimunsi muri El Zonte. (Inkomoko: <a href="https://twitter.com/romanmartinezc/status/1429081008012505091?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-In 2019, Mike was approached by an individual who wanted to support their programs through a bitcoin donation. There was a catch, however: the donation must be spent within the community, instead of sold into fiat. The goal would be to create a sustainable circular Bitcoin economy where merchants and community members can exchange goods, services and labor for sats. Jorge and Mike accepted the challenge, and Bitcoin Beach was born.
+Muri 2019, Mike yegerejwe n'umuntu kugiti cye wifuzaga gushyigikira gahunda zabo binyuze mumpano ya Bitcoin. habayeho gufata, ariko :impano igimba gukoreshwa mubaturage, aho kugurishwa.intego yaba iyo gushyiraho ubukungu burambye bwa Bitcoin aho abacuruzin'abaturage bashobora guhana ibicuruzwa, serivise n'akazi bagahembana bakoresheje ama Satoshi.  Jorge na Mike bemeye ikibazo , maze Bitcoin Beach iravuka. 
 
-From the start, it was clear that this project would challenge preconceived notions about Bitcoin:
+Kuva mu ntangiriro, byagaragaye ko uyu mushinga uzahangana n'ibihugu byateganijwe mbere ya  Bitcoin :
 
 1. **Bitcoin is a speculative asset for the wealthy.** If you tune into business news channels and sites, you’ll hear constant discussion about price, volatility, and comparison to other assets and investments like gold and stocks. You’ll hear about how banks are offering exposure to their high net worth clients. What you won’t hear is how Bitcoin is enabling economic empowerment in some of the poorest parts of the world.
 
-2. **Bitcoin is a store of value, not a medium of exchange.** While Bitcoin’s utility as a store of value is widely accepted, Bitcoin as a medium of exchange is a hotly contested topic to this day. The rationale goes; “If the price of bitcoin keeps growing at the current rate, nobody will ever want to spend it on goods and services.”
+2. **Bitcoin ibitse agaciro, ntabwo ari uburyo bwo zkuvunja.** Mugihe ibikorwa bya Bitcoin nkububiko bwagaciro bwemewe cyane, Bitcoin ni uburyo guhanahana amakuru ni ingingo zishyushye kugeza nanubu. Impamvu igenda; “Niba igiciro cya Bitcoin gikomeje kwiyongera kugipimo kiriho, ntamuntu numwe uzigera yifuza kugikoresha mubicuruzwa na serivise.”
 
-As the project turned from idea into action, the growing team of Bitcoin Beach coordinators and students took note of the problems that Bitcoin might solve for their community:
+Mugihe umushinga wahindutse uva mubitekerezo ujya mubikorwa, itsinda ryiyongera ryabahuzabikorwa ba Bitcoin Beach nabanyeshuri bitaye kubibazo Bitcoin ishobora gukemura kubaturage babo:
 
+1. **Amabanki gakondo ntabwo akora ubucuruzi mumiryango ikennye cyane.** El Salvador iri kuri sisitemu y’amadolari y’Amerika kuva mu 2001, bigatuma urwego rw’imari rushingiye ku mabwiriza y’Amerika. Igiciro kinini cyo kubahiriza aya mabwiriza kibuza amabanki kugaburira abantu bo mu bihugu bikennye. Kurugero mugihe nyiri[Garten Hotel](https://www.gartenzonte.com/garten) yagerageje gushinga abakozi bafite konti za banki no kubitsa mu buryo butaziguye, [yamenye](https://youtu.be/RhoiOzhuBG4?t=1438) byatwara amadorari 50 buri kwezi, kuri buri mukozi. Ibyo bingana na 10% byinjiza buri kwezi byumuntu ukora kumushahara muto.
 
-1. **Traditional banks don’t do business in the poorest communities.** El Salvador has been on the US Dollar system since 2001, which makes their financial sector subject to US regulations. The high cost of compliance imposed by these regulations disincentivizes banks from catering to people in poorer countries. For instance when the owner of [Garten Hotel](https://www.gartenzonte.com/garten) tried setting up employees with bank accounts and direct deposit, [he learned](https://youtu.be/RhoiOzhuBG4?t=1438) it would cost $50 per month, per employee. That amounts to more than 10% the monthly income of a person working on minimum wage.
+2. **Kubona amafaranga yoherejwe kubantu bo muri El Zonte birahenze kandi bitwara igihe.** Kwishyura amafaranga yoherezwa ku mipaka muri El Salvador byari [23% by'igihugu ni GDP](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html) muri 2020. Bisaba amadolari arenga 3 kugirango umuntu yakire amadorari 10 kumuryango wumuryango mumahanga. Nta Western Union ihari muri El Zonte kuburyo bishobora gufata amasaha no gutwara bisi nyinshi kugirango abaturage bagere ku biro bashobora kwakira amafaranga. Ibi byiyongera kumunsi bishobora gufata kugirango amafaranga agere muri Salvador uhereye kumuntu watangije iyimurwa.
 
-2. **Getting remittance payments to people in El Zonte is expensive and time consuming.** Cross-border remittance payments into El Salvador made up [23% of the country’s GDP](https://www.cnbc.com/2021/09/09/el-salvador-bitcoin-move-could-cost-western-union-400-million-a-year.html) in 2020. It costs more than $3 in fees for somebody to receive $10 from a family member abroad. There is no Western Union in El Zonte so it can take hours and multiple bus rides for residents to get to an office where they can receive the remittance. This is in addition to the days it can take for the money to arrive in El Salvador from the person who initiated the transfer.
-
-3. **It’s hard to save without access to the banking system.** Being “unbanked” doesn’t just prevent somebody from having a bank account. It also excludes them from accessing the type of investments and assets that can protect them against inflation. An unanticipated impact of introducing Bitcoin was the number of people who began saving a meaningful portion of their income for the first time in their lives.
+3. **Biragoye kuzigama utabonye sisitemu ya banki.** Kuba “unbanked” ntibibuza umuntu kugira konti ya banki. Irababuza kandi kubona ubwoko bwishoramari n'umutungo ushobora kubarinda ifaranga. Ingaruka zitari ziteganijwe zo kumenyekanisha Bitcoin ni umubare wabantu batangiye kuzigama igice kinini cy'amafaranga binjiza bwa mbere mubuzima bwabo.
 
 ![](./bitcoin-beach-team.jpg)
 <center v-pre>
@@ -64,229 +74,245 @@ As the project turned from idea into action, the growing team of Bitcoin Beach c
 </figure>
 </center>
 
-With bitcoin to fuel the growth of their project the team got to work. They began to onboard the community one person at a time to the Bitcoin network. They learned, educated and adapted along the way. The pandemic’s arrival in early 2020 served as an accelerant for Bitcoin adoption. Residents in El Zonte who needed support were able to get bitcoin donations provided by the Bitcoin Beach project.
+Hamwe na bitcoin kugirango yongere iterambere ry'umushinga wabo itsinda ryabonye akazi. Batangiye kwurira abaturage umuntu umwe icyarimwe kumurongo wa Bitcoin. Bize, barize kandi bahuza inzira. Kugera kwa pandemic’s mu ntangiriro za 2020 byabaye nk'umuvuduko wo kurera Bitcoin. Abatuye muri El Zonte bakeneye inkunga bashoboye kubona inkunga ya bitcoin itangwa n'umushinga wa Bitcoin Beach.
 
-A 2020 [Forbes article](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) thrust Bitcoin Beach into the spotlight and began attracting the support of other Bitcoiners who wanted to help. One of these Bitcoiners was Nicolas Burtey, co-founder of Galoy, who offered to come to El Zonte to develop a wallet tailored to the needs of Bitcoin Beach. Before long, the Bitcoin Beach Wallet was born and the Bitcoin Beach project was picking up momentum towards realizing its vision.
+Umwaka wa 2020 [Ingingo ya Forbes](https://www.forbes.com/sites/tatianakoffman/2020/07/14/this-el-salvador-village-adopts-bitcoin-as-money/?sh=723af6ac2044) yajugunye Bitcoin Beach mu mucyo maze atangira gukurura inkunga y'abandi ba Bitcoiners bifuzaga gufasha. Umwe muri aba Bitcoiners ni Nicolas Burtey, washinze Galoy, wemeye kuza muri El Zonte gukora wallet ijyanye n'ibikenewe na Bitcoin Beach. Bidatinze, Bitcoin Beach Wallet yavutse kandi umushinga wa Bitcoin Beach wagendaga utera imbaraga zo kumenya icyerekezo cyacyo.
 
-By now most people know the end of the story: El Salvador President Nayib Bukele announced on June 5, 2021 that Bitcoin would become legal tender in the country. Bukele related in a Twitter Spaces that the government was inspired by the Bitcoin Beach project and that the law’s goal was to replicate what had happened in El Zonte for the entire country. He specifically mentioned that financial inclusion of the poorest members of Salvadoran society was the driving motivation. On September 7 2021, La Ley Bitcoin (the “Bitcoin Law”) went into effect. Bitcoin Beach has since become a central part of the global Bitcoin adoption story. It has attracted Bitcoiners from around the world who want to see what it’s like to spend sats on coffee, surf lessons, and steak. It has also become a model for other communities to replicate.
+Kugeza ubu abantu benshi bazi iherezo ry'inkuru: Perezida wa Salvador, Nayib Bukele, yatangaje ku ya 5 Kamena 2021 ko Bitcoin izaba isoko ryemewe n'amategeko muri iki gihugu. Bukele yavuze mu rubuga rwa Twitter ko guverinoma yatewe inkunga n'umushinga wa Bitcoin Beach kandi ko intego y'amategeko yari iyo kwigana ibyabereye muri El Zonte mu gihugu cyose. Yavuze cyane cyane ko kwinjiza amafaranga mu baturage bakennye cyane bo muri sosiyete ya Salvadoran ari byo byateye imbaraga. Ku ya 7 Nzeri 2021, La Ley Bitcoin (“Bitcoin Law”) yatangiye gukurikizwa. Kuva Bitcoin Beach yahindutse igice cyingenzi cyinkuru yo kurera Bitcoin kwisi yose. Yakwegereye Bitcoiners baturutse hirya no hino ku isi bashaka kureba icyo ari cyo gukoresha sats kuri kawa, amasomo ya surf, na stak. Byahindutse kandi icyitegererezo kubandi baturage kwigana.
 
-Most importantly, Bitcoin Beach has created a community where the kids of El Zonte can dream and build their future.
+Icy'ingenzi cyane, Bitcoin Beach yashizeho umuryango aho abana ba El Zonte bashobora kugira indoto no kubaka ejo hazaza habo. 
 
-## The Bitcoin Beach Wallet
+## Ububiko bwa Bitcoin Beach
 
-The Bitcoin Beach Wallet is an open source Bitcoin community banking solution. One that was designed to meet the needs of the merchants and community members in El Zonte. It utilizes a multisig shared custody model that offers an alternative to the standard non-custodial and custodial solutions that are most widely available today.
+Ububiko bwa Bitcoin Beach ni isoko ifunguye Bitcoin igisubizo cyamabanki yabaturage. Imwe yashizweho kugirango ihuze ibyifuzo byabacuruzi nabaturage muri El Zonte. Ikoresha uburyo bwinshi bwo gusangira uburyo bwo gutanga butanga ubundi buryo busanzwe bwo kudacunga no gucunga ibisubizo biboneka cyane muri iki gihe.
 
 ![](./bitcoin-beach-wallet-soaps.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Cristina uses the Bitcoin Beach Wallet to sell handmade soaps. Customers can pay her via username, by scanning an invoice on her phone, or by visiting her <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Source: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
+  <figcaption>Cristina akoresha  Bitcoin Beach wallet kugurisha amasabune yakozwe n'intoki. Abakiriya barashobora kumwishura bakoresheje izina ryumukoresha, mugusuzuma fagitire kuri terefone ye, cyangwa kumusura <a href="https://ln.bitcoinbeach.com/Jackie_Valenzuela">invoice page</a>. (Source: <a href="https://twitter.com/romanmartinezc/status/1446661818735288320?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Within the Bitcoin Beach Wallet, capital is pooled and managed by the community. This provides benefits to all members within the community:
+Mu bubiko bwa Bitcoin Beach, umurwa mukuru urahujwe kandi ucungwa n'abaturage. Ibi bitanga inyungu kubanyamuryango bose:
 
-- Lightning channels are managed for members; there is no cost to open/close channels
-- Free and instant “intra ledger” transactions are made available within the community
-- Efficient use of online servers means lower costs per user compared to the alternative of each merchant having to have their own server
-- Fees can be reduced by batching on-chain transactions
+- Imiyoboro y'umurabyo icungwa kubanyamuryango; nta kiguzi cyo gufungura/gufunga imiyoboro
+- Ubuntu kandi ako kanya “intra ledger” ibikorwa bikorwa biboneka mubaturage
+- Gukoresha neza seriveri kumurongo bisobanura ibiciro biri hasi k'umukoresha ugereranije nubundi buryo bwa buri mucuruzi ugomba kugira seriveri ye
+- ibiciro bishobora kugabanuka mugutondekanya kumurongo
 
-Additional features in the app help support efforts towards a sustainable Bitcoin economy:
+Ibintu byiyongereye muri porogaramu bifasha gushyigikira imbaraga zigana ubukungu burambye bwa Bitcoin:
 
-- Ability to pay via Bitcoin address, Lightning invoice or individual username
-- A unified balance of on-chain and Lightning, showing the balance in USD and sats
-- A transaction log displays a history of payments between users
-- The mobile friendly map displays all local businesses that accept Lightning payments
-- A web address users can share to receive bitcoin from anybody with a Lightning supported wallet (see: [ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
+- Ubushobozi bwo kwishyura ukoresheje aderesi ya Bitcoin, inyemezabuguzi y'umurabyo cyangwa izina ry'umukoresha kugiti cye
+- Ubutunzi bwashizwe hamwe bw’amafaranga ari ku murongo wa blockchain hamwe na Lightning, bwerekana uko amafaranga angana mu madolari ya Amerika (USD) no mu masatoshi (sats).
+- Aherekana ibyagiye birakorwa, abakoresha bashobora kureba uko bagiye barishyurana.
+- Ikarita ya gicuti igendanwa yerekana ubucuruzi bwaho bwose bwemera kwishyura hakoreshejwe Lightining.
+- Abakoresha aderesi y'urubuga barashobora gusangira kwakira bitcoin kubantu bose bafite ububiko(wallet) ishyigikiwe na Lightning (reba:[ln.bitcoinbeach.com/bitcoinbeach](http://ln.bitcoinbeach.com/bitcoinbeach))
 
-If you’re interested in building a front end mobile application like the Bitcoin Beach Wallet you can access the [galoy-mobile](https://github.com/GaloyMoney/galoy-mobile) repository on GitHub.
+Niba ushishikajwe no kubaka porogaramu yimbere yimbere nka Bitcoin Beach Wallet urashobora kugera kuri [galoy-mobile](https://github.com/GaloyMoney/galoy-mobile) kuri GitHub.
 
-Without further ado, here are the top lessons Galoy learned from building in El Zonte.
+Nta yandi mananiza, dore amasomo yo hejuru Galoy yakuye mu kubaka muri El Zonte.
 
-## Lesson 1: Education is Paramount
+## Isomo rya 1: Uburezi ni Icyambere
 
-Bitcoin is a difficult thing to understand. It cuts across computer science, economics, history, cryptography, monetary policy and more. Luckily, somebody does not need to fully grasp Bitcoin to use and benefit from it. How many people who have used fiat their entire lives actually understand how money works?
+Bitcoin nikintu kigoye kubyumva. Igabanya ubumenyi bwa mudasobwa, ubukungu, amateka, kriptografiya, politiki yifaranga nibindi. Kubwamahirwe, umuntu ntakeneye gusobanukirwa neza Bitcoin kugirango ayikoreshe kandi ayungukiremo. Ni bangahe bakoresheje fiat ubuzima bwabo bwose bumva neza uko amafaranga akora?
 
 ![](./bitcoin-beach-teaching.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Showing Salvadorans how to use Bitcoin is an ongoing process for Jorge and the Bitcoin Beach team. (Source: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
+  <figcaption>Kwerekana abanya Salvador uburyo bwo gukoresha Bitcoin ninzira ikomeje kuri Jorge hamwe nitsinda rya Bitcoin Beach. (Inkomoko: <a href="https://twitter.com/romanmartinezc/status/1420951261675929601?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are five tips to consider when educating your community:
+Dore inama eshanu ugomba gusuzuma mugihe wigisha umuryango wawe:
 
-1. **Community organizers are key to the onboarding process.** Having an in-person onboarding team ensures people start off on the right foot. This is especially important in communities where Bitcoin presents the opportunity to transact digitally for the first time.
-2. **It’s more effective to show people how to use Bitcoin than to tell them about it.** Helping people download and interact with a wallet, and having them send and receive sats is more effective than trying to orange pill them with ideas.
-3. **Teach the kids. They will onboard their parents.** The kids of El Zonte were quick to learn how to use Bitcoin. They in turn helped their parents on board at home.
-4. **Bitcoin ATMs help connect the mental dots between Bitcoin and fiat.** A Bitcoin ATM turned out to be a helpful asset to the onboarding process. When people are able to exchange bitcoin in their mobile wallet for their local currency, they build a stronger relationship with the idea of Bitcoin as money.
-5. **Help people expect and plan for short term volatility.** Set expectations so your community can be prepared for drops in the Bitcoin price. Consider a program that compensates merchants whose account balance drops due to price fluctuations for an initial onboarding period until their comfort with Bitcoin is established.
+1. **Abategura ihuriro ni urufunguzo rwibikorwa.** Kugira itsinda ry'umuntu winjiramo byemeza ko abantu batangirirak' ukuguru kwiburyo. Ibi ni ingenzi cyane mubaturage aho Bitcoin itanga amahirwe yo gucuruza muburyo bwa mbere.
 
-As you build your community, take the time to connect with and learn from the people of [Bitcoin Beach](http://bitcoinbeach.com/). They are giants on whose shoulders you can stand. Their dedication to service existed before Bitcoin, and it transcends Bitcoin. Bitcoin has now become a medium through which they can bring opportunity and hope for the future of El Salvador.
+2. **Nibyiza cyane kwereka abantu uburyo bwo gukoresha Bitcoin kuruta kubabwira.** Gufasha abantu gukuramo no gukorana numufuka, no kubohereza no kwakira sats bisumba kugerageza kwumvisha abantu ibiri mu mvugo gusa. 
 
-## Lesson 2: Lightning is an Accelerant for Bitcoin as Money
+3. **Kwigisha abana. Bazinjira mu babyeyi babo.** Abana ba El Zonte bihutiye kwiga gukoresha Bitcoin. Na bo bafashaga ababyeyi babo kwinjira mu muryango..
 
-The Lightning Network is the most underestimated protocol in the world. Just two years ago it was a #reckless way to transact. Now it’s being used by McDonalds, Starbucks and Pizza Hut in El Salvador. Growth of nodes, channels and capacity is happening at a mind-blowing pace. The recent Arcane Research report “[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)” provides a glimpse into some of the growth metrics and expectations.
+4. **ATM ya Bitcoin ifasha guhuza utudomo two mumutwe hagati ya Bitcoin na fiat.** ATM ya Bitcoin yaje kuba umutungo ufasha inzira yo kwinjira. Iyo abantu bashoboye guhana ibiceri mu gikapu cyabo kigendanwa ku ifaranga ryabo, bubaka umubano ukomeye nigitekerezo cya Bitcoin nkamafaranga.
 
-Bitcoin Beach initially used on-chain transactions to distribute bitcoin within the community. While on-chain worked for educational settings and to transfer sats to members of the community, its limitations became a barrier to progressing towards a circular economy.
+5. **Gufasha abantu gutegereza no gutegura gahunda yo guhindagurika mugihe gito.** Shiraho ibyateganijwe kugirango umuryango wawe ubashe kwitegura kugabanuka kubiciro bya Bitcoin. Tekereza kuri porogaramu yishyura abacuruzi amafaranga asigaye kuri konti agabanuka bitewe n’imihindagurikire y’ibiciro mu gihe cyambere cyo gufata indege kugeza igihe ihumure ryabo na Bitcoin rishyizweho.
 
-Salvadorans experienced how the utility of Bitcoin as a medium of exchange is limited without layer two networks like Lightning:
+Mugihe wubaka umuryango wawe, fata umwanya wo guhuza no kwigira kubantu ba [Bitcoin Beach](http://bitcoinbeach.com/). Nibihangange ku bitugu ushobora guhagarara. Ubwitange bwabo muri serivisi bwabayeho mbere ya Bitcoin, kandi burenga Bitcoin. Bitcoin ubu yahindutse uburyo bashobora kuzana amahirwe n'ibyiringiro by'ejo hazaza ha El Salvador.
 
-1. **On-chain fees were too expensive to facilitate daily spending.** Residents of El Zonte need to be able to spend small dollar amounts, such as 50 cents for pupusas.
-2. **Using on-chain bitcoin for retail transactions creates “dust.”** Bitcoin Beach experienced the “[dust transactions problem](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)” firsthand. Unspent transaction outputs (UTXOs) record how value is moved on the timechain. When the value of a UTXO becomes less than the cost of spending it, the bitcoin is considered unspendable “dust.”
-3. **In the retail setting, anything less than instant settlement creates friction for both the business and the consumer.** Bitcoin is built for security and incorruptibility on layer one. It is not meant for speed and transaction throughput.
+## Isomo rya 2: Umurabyo (lightining)  ni ikintu gituma ikoreshwa rya Bitcoin nk’amafaranga rinyaruka
+
+Umuyoboro wa Lightning ni porotocole idahabwa agaciro kwisi. Imyaka ibiri gusa irashize byari inzira ya #reckless yo gucuruza. Ubu irakoreshwa na McDonalds, Starbucks na Pizza Hut muri El Salvador. Gukura kwimyanya, imiyoboro n'ubushobozi bibaho kumuvuduko wibitekerezo. Raporo y'ubushakashatsi bwa Arcane iheruka “[The State of the Lightning Network](https://www.research.arcane.no/the-state-of-lightning)” itanga incamake kuri bimwe mubipimo byiterambere ndetse nibiteganijwe.
+
+Bitcoin Beach yabanje gukoresha ibicuruzwa kumurongo kugirango ikwirakwize bitcoin mubaturage. Mu gihe urunigi rwakoraga mu burezi no kohereza sats ku baturage, aho ubushobozi bwarwo bwabaye inzitizi yo gutera imbere mu bukungu buzenguruka.
+
+Abanya Salvador biboneye uburyo akamaro ka Bitcoin nkuburyo bwo guhanahana amakuru kugarukira nta miyoboro ibiri nk'Umurabyo( Lightning):
+
+1. **Amafaranga kumurongo yari ahenze cyane kuburyo byorohereza gukoresha buri munsi.** Abatuye El Zonte bakeneye gushobora gukoresha amadorari make, nk'amafaranga(cents) 50 kuri pupusas.
+2. **Gukoresha kumurongo wa bitcoin mubikorwa byo kugurisha bitera umukungugu wa “.”** Bitcoin Beach yahuye na “[ikibazo cyo gucuruza umukungugu](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)” imbonankubone. Ibicuruzwa bitakoreshejwe bisohoka (UTXOs) byandika uburyo agaciro kagenda mugihe cyagenwe. Iyo agaciro ka UTXO kahindutse munsi yikiguzi cyo kuyikoresha, bitcoin ifatwa nk'"umukungugu " udakoreshwa.
+3. **Mugihe cyo kugurisha, ikintu cyose kitari ugukemura ako kanya gitera ubushyamirane kubucuruzi ndetse nabaguzi.** Bitcoin yubatswe kubwumutekano no kutabora kurwego rwa mbere. Ntabwo igenewe umuvuduko no kwinjiza ibicuruzwa.
+
 
 ![](./merchant-lightning-payments.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Lightning enables the fast, easy-to-use and inexpensive payments that merchants require in a retail setting. (Source: Galoy)</figcaption>
+  <figcaption>Lightning ituma kwishyura byihuta, byoroha gukoresha kandi bikaba ku giciro gito, ibyo abacuruzi baba bakeneye mu bucuruzi bwabo rutoruto. (inkomoko: Galoy)</figcaption>
 </figure>
 </center>
 
-The layer two Lightning Network is the technology that could upend the legacy retail system and bring the promise of Bitcoin as money to the world. Our co-founders wrote about this in the 2020 article “[Lightning as a Retail Payment System?](https://galoy.io/lightning-as-a-retail-payment-system/)”
+Igice cya kabiri cy'umurabyo ( Lightning) ni ubuhanga bushobora kuzamura sisitemu yo kugurisha umurage no kuzana amasezerano ya Bitcoin nkamafaranga kwisi. Abashinze imishinga yacu banditse kuri ibi mu ngingo ya 2020 “[Umurabyo nka sisitemu yo kwishyura ibicuruzwa?](https://galoy.io/lightning-as-a-retail-payment-system/)”
 
-The Lightning Network served as an accelerant and an enabler of the vision of the Bitcoin Beach project. Without it, using Bitcoin as money in El Salvador would be more difficult and more expensive; it may have even derailed or at least delayed the project.
+Umuyoboro w'umurabyo( Lightning) wabaye umuvuduko kandi ushoboza icyerekezo cyumushinga wa Bitcoin Beach. Bitabaye ibyo, gukoresha Bitcoin nk'amafaranga muri El Salvador byaba bigoye kandi bihenze; birashobora no kuba byacitse intege cyangwa byibuze byatinze umushinga.
 
-Lightning Network integration has become table stakes for any wallet or financial services being built on Bitcoin. It unlocks vast potential for close-to-free, global, real-time, permissionless transactions.
+Guhuza imiyoboro y'umurabyo ( Lightning)byahindutse imbonerahamwe y'umufuka( wallet) cyangwa serivisi zimari zubakwa kuri Bitcoin. Ifungura amahirwe menshi yo kuba hafi-yubusa, isi yose, igihe-nyacyo, ibikorwa bitemewe.
 
-## Lesson 3: Merchant Onboarding is Necessary to Foster a Local Circular Economy
+## Isomo rya 3: Gushyira abacuruzi mu bikorwa birakenewe kugirango tuzamure ubukungu bwibanze
 
-Standing up a circular Bitcoin economy presents a “chicken and egg” problem. Residents need places to use it, and merchants need customers who will spend it. Making it easy and desirable to accept Bitcoin is an important step in stimulating local community adoption.
+Gushinga ubutunzi bwisubiriza na Bitcoin bituma haba cyakibazo : hagati y’inkoko n’irigi ni ikihe cyatangiye kubaho ? Ababa mu gihugu barakeneye aho boshorera ama Bitcoin yabo, mu gihe abacuruzi bakeneye abaguzi bashaka kuyakoresha. Kuborohereza kandi byifuzwa kwakira Bitcoin nk'intambwe yingenzi mugukangurira abaturage kurera.
 
-The ultimate goal is to make receiving bitcoin faster, easier, and cheaper than any other currency or means of payment.
+Intego nyamukuru nugukora kwakira bitcoin byihuse, byoroshye, kandi bihendutse kuruta andi mafranga cyangwa uburyo bwo kwishyura.
 
 ![](./first-merchant.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Mama Rosa (pictured with her son Jorge) was the first merchant in El Zonte to accept Bitcoin. (Source: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
+  <figcaption>Mama Rosa (ifoto ari kumwe n'umuhungu we Jorge) yabaye umucuruzi wambere yemeye Bitcoin muri El Zonte.  (Inkomoko: <a href="https://twitter.com/romanmartinezc/status/1387105142030352387?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-Here are some experiences that shaped how we design for merchants:
+Hano hari uburambe bwashizeho uburyo dushushanya kubacuruzi:
 
-1. **Don’t make merchants think about currency conversion.** Reduce the mental load required to calculate prices by showing both dollar (or local currency) amounts and bitcoin amounts across balances, invoices and transaction history screens.
-2. **Enable multiple ways for merchants to get paid.** Merchants should not have to create invoices for each transaction. Using the Bitcoin Beach Wallet, customers can pay via username, printed QR code, selecting the merchant on a map, or using the invoice pages that each user can share at ln.bitcoinbeach.com/[username].
-3. **Make the process require less time, attention and clicks.** The turning point for El Zonte merchants came when Galoy enabled customers to set the invoice amount. Merchants no longer have to stop what they are doing to create an invoice. They can simply look at the alert on their phone to verify a payment came in. Bitcoin is now easier to accept than cash or credit.
-4. **Create merchant incentives to help encourage adoption early on.** In El Zonte, there was a “cash back” program for a few weeks, where merchants earned 20% back on their bitcoin. This type of promotion helps drive trials and stimulate early growth of the circular economy.
+1. **Nti mutume abacuruzi batekereza kubijyanye no guhindura amafaranga.** Mugabanye umutwaro wo mumutwe usabwa kugirango ubare ibiciro werekana amadorari yombi (cyangwa ifaranga ryaho) hamwe na bitcoin ingana kuringaniza, inyemezabuguzi hamwe namateka yubucuruzi.
 
-Don’t lose focus on the important role that merchants play in supporting a Bitcoin economy. The needs of merchants across each community will be different, so be sure to spend time understanding and designing for them early on.
+2.  **Korohereza abacuruzi guhembwa mu buryo bwinshi.** Abacuruzi ntibagomba gukora inyemezabuguzi kuri buri gikorwa. Ukoresheje umufuka wa Bitcoin Beach, abakiriya barashobora kwishyura bakoresheje izina ryumukoresha, kode ya QR yanditse, guhitamo umucuruzi ku ikarita, cyangwa gukoresha impapuro za fagitire buri mukoresha ashobora gusangira kuri ln.bitcoinbeach.com/[izina ryumukoresha].
 
-## Lesson 4: User Experience Must be Developed Within the Context of the Community
+3. **Kora inzira bisaba igihe gito, kwitondera no gukanda.** Impinduka kubacuruzi ba El Zonte yaje igihe Galoy yatumaga abakiriya bashiraho inyemezabuguzi. Abacuruzi ntibagikeneye guhagarika ibyo bakora kugirango bakore inyemezabuguzi. Barashobora gusa kureba kuri terefone yabo kugirango barebe ko ubwishyu bwinjiye. Bitcoin ubu iroroshye kubyemera kuruta amafaranga cyangwa inguzanyo.
 
-Bitcoin Beach exists at the frontier of Lightning Network adoption. As Mike often says “There are little kids in El Zonte who make more Lightning transactions than most OG Bitcoiners.”
+4. **Shiraho abashoramari bashishikarizwa gufasha gushishikariza kurera hakiri kare.** Muri El Zonte, habaye gahunda ya “cash back” ibyumweru bike, aho abacuruzi binjije 20% kuri bitcoin yabo. Ubu bwoko bwo kuzamurwa bufasha gutwara ibigeragezo no kuzamura iterambere ryambere ryubukungu buzenguruka.
 
-As the Bitcoin economy grew, the team took note of unmet needs and desired functionality that would help make life easier for the residents and merchants. Being on the ground in El Zonte provided invaluable insight to Nicolas as he was building the Bitcoin Beach Wallet.
+Ntutakaze kwibanda ku ruhare rukomeye abacuruzi bagira mu gushyigikira ubukungu bwa Bitcoin. Ibikenerwa n'abacuruzi muri buri muryango bizaba bitandukanye, bityo rero menya neza ko umara igihe ubyumva kandi ubishyire mungiro hakiri kare.
+
+## Isomo rya 4: Inararibonye zabakoresha zigomba gutezwa imbere murwego rwabaturage
+
+Bitcoin Beach ibaho kumupaka w'umurabyo( Lightning). Nkuko Mike akunze kuvuga “Hariho abana bato muri El Zonte bakora ibikorwa byinshi by'umurabyo( Lightning) kurusha OG Bitcoiners.”
+
+Uko ubukungu bwa Bitcoin bwagendaga bwiyongera, itsinda ryitaye ku bikenewe bidakenewe ndetse n’imikorere yifuzwa byafasha koroshya ubuzima ku baturage n’abacuruzi. Kuba hasi muri El Zonte byatanze ubushishozi butagereranywa kuri Nicolas ubwo yubakaga ububiko bwa Bitcoin Beach.
 
 ![](./bitcoin-insights.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>Watching people use Bitcoin at merchants across El Zonte surfaced helpful insights for product and service design. (Source: Galoy)</figcaption>
+  <figcaption>kureba abantu bakoresha Bitcoin kubacuruzi muri El Zonte byagaragaje ubushishozi bufasha kubicuruzwa no gukora serivise. (inkomoko: Galoy)</figcaption>
 </figure>
 </center>
 
-Note: Remember that it’s important to test your apps and services within the community for whom they’re intended. Do your own research.
+Icyitonderwa: Wibuke ko ari ngombwa kugerageza porogaramu na serivisi zawe mu baturage byagenewe. Kora ubushakashatsi bwawe.
 
-Six user experience learnings from testing the Bitcoin Beach Wallet in the wild:
+Abakoresha batandatu bafite uburambe bwo kwiga kugerageza Bitcoin Beach Wallet ku rubuga:
 
-1. **Don’t take a strong internet connection for granted.** Developing for areas with spotty connectivity may require optimization and fault tolerance at the network level that would typically not be needed in the United States.
-2. **App onboarding presents a perfect window for education.** The Bitcoin Beach Wallet has a built-in quiz that walks users through a brief introduction to Bitcoin. Each question rewards the user with sats to get them off zero from the very start.
-3. **“Sats is the standard,” but USD is still the unit of account.** People think in their local currency, not sats, when onboarding to Bitcoin. The transition to thinking in sats is gradual, the local currency should be the unit of account when bringing a new community onto the network.
-4. **Add interactions that connect customers to merchants.** The map tab in the Bitcoin Beach Wallet helps customers find places where they can spend Bitcoin. It also enables quick and easy transactions by allowing the customer to create and pay invoices.
-5. **Payment notes help with record keeping.** Both customers and merchants can benefit from being able to add notes to transactions. Based on community input the feature has evolved from private (at the user level) to shared. Now the sender and receiver can both see the note attached to the transaction.
-6. **Stay on top of how lightning payment formats are evolving.** New payment formats such as Lightning Address, static invoices and BOLT 12 are emerging at a rapid pace. Selecting which formats to adopt will depend on the use case. The Bitcoin Beach Wallet initially launched with a printed QR code that led to an invoice page (such as ln.bitcoinbeach.com/mamarosa). New formats are now being considered in order to reduce friction and improve interoperability.
+1. **Nti mwizereko muzahorana interinete ihagije**. Gutezimbere kubice bifite aho bihurira birashobora gusaba gutezimbere no kwihanganira amakosa kurwego rwurusobe rusanzwe rudakenewe muri Amerika.
+2. **Gushyiraho agaterabwenge( Onboarding)ni inzira nziza ku nyigisho.** Ububiko bwa Bitcoin Beach bushyimo utubazo dufasha ababukoresha kunguka ubumenye bw'ibanze muri Bitcoin. Ikibazo cyose gihemba uwacyishyuye ama sats kugirango ntahere ku busa kuva muntangiriro.
+3.  **“Sats irakomeye (irarenze),” ariko USD iracyari igice cya konti.** Abantu batekereza mumafaranga yaho, ntabwo ari sats, mugihe binjiye muri Bitcoin. Inzibacyuho yo gutekereza muri sats gahoro gahoro, ifaranga ryaho rigomba kuba igice cya konti mugihe uzanye umuryango mushya kumurongo.
+4. **Ongeraho imikoranire ihuza abakiriya nabacuruzi.** Ikarita  muri Bitcoin Beach Wallet ifasha abakiriya kubona aho bashobora gukoresha Bitcoin. Ishobora kandi gukora byihuse kandi byoroshye mukwemerera umukiriya gukora no kwishyura inyemezabuguzi.
+5. **Inyandiko zo kwishyura zifasha kubika inyandiko.** Abakiriya n'abacuruzi bombi barashobora kungukirwa no kuba bashobora kongeramo inyandiko mubikorwa. Ukurikije ibitekerezo byabaturage ibiranga byahindutse kuva mwiherero (kurwego rwabakoresha) kugeza gusangira. Noneho uwayohereje nuwakiriye arashobora kubona inoti ijyanye n'ubucuruzi.
+6. **Ntimucikwe  imiterere yo kwishyura hakoresheke Lightning .** Imiterere mishya yo kwishyura nka Aderesi yumurabyo, inyemezabuguzi zihamye na BOLT 12 zigaragara kumuvuduko wihuse. Guhitamo imiterere yo kwemeza bizaterwa nurubanza rwo gukoresha. Umufuka wa Bitcoin Beach wabanje gutangiza hamwe na kode ya QR yanditse iganisha kurupapuro rwa fagitire (nka ln.bitcoinbeach.com/mamarosa). Imiterere mishya ubu irasuzumwa hagamijwe kugabanya ubushyamirane no kunoza imikoranire.
 
-## Lesson 5: Community Custody is a Bridge to Self-custody
+## Isomo rya 5: Umuganda rusange ni Ikiraro cyo Kwiyobora
 
-Self custody is the desired end state for every person holding wealth in bitcoin. The number one rule of Bitcoin custody is “Not your keys, not your coins.”
+Kwirwanaho ku bijanye n’umutekano w’amafaranga yawe ni intambwe ya nyuma yifuzwa ku muntu wese ufite ubutunzi bwa Bitcoin. Itegeko rya mbere mu bijanye no kubika Bitcoin ni iri: "Ntawufite imfunguruzo, ntafite n’amafaranga".
 
-Self custody is not the only way, nor the most appropriate way to onboard communities to the concept and practice of using Bitcoin.
+Kwirwanako si yo nzira yonyene, kandi si yo ibereye kurusha izindi, mu gushakana ku bwitonzi bw’amashirahamwe ku bijanye n’ibyiyumviro n’ukumenyera gukoresha Bitcoin.
 
-> “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.” – Mike Peterson on [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
+> "Ugomba kugenda buhoro buhoro. Niba ushyizeho izombogamizi zose mugutangira,  abantu ntibazigera binjira mubidukikije." – Mike Peterson kuri: [Tales from the Crypt #173](https://open.spotify.com/episode/6jyXUPu4n3nYDi4jbDFYBd?si=gSLNHJpUQk2ASevhiSBz-A)
 
-### The spectrum of Bitcoin custody
+### Ikirangantego cyo kubika Bitcoin
 
-Bitcoin custody models sit along a spectrum not unlike the convenience/privacy spectrum. On one side, you have simple UX, easy access to funds and integration across the fiat banking ecosystem. On the other, you have hand-stamped metal, sharded seed phrases and multi-signature custody models that require multiple steps or multiple people to move funds.
+Moderi yo kubika Bitcoin yicaye kumurongo utameze nkibyoroshye/ibanga. Kuruhande rumwe, ufite UX yoroshye, kubona byoroshye amafaranga no kwishyira hamwe muri ecosystem ya banki ya fiat. Kurundi ruhande, ufite kashe yintoki, interuro yimbuto zigabanijwe hamwe nuburyo bwo kubika imikono myinshi bisaba intambwe nyinshi cyangwa abantu benshi kwimura amafaranga.
 
-Different use cases have different risk scenarios that make trade-offs acceptable. For example, storing wealth in a bank account is generally considered safer than carrying it around as cash in a wallet, but carrying around small amounts of cash for daily purchases provides convenience.
+Uburyo butandukanye bwo gukoresha ibintu butanga ivyiyumviro bitandukanye vy’ingaruka, bigatuma hari aho kwemera guhinduranya biba vyemewe. Nk’akarorero, kubika ubutunzi kuri konte y’ibanki bifatwa nk’uburyo bwizewe kurusha kuyatemberana mu ngodo, ariko gutwara amafaranga make mu ngodo ku bijanye n’ukugura ibintu vya bura umunsi biroroha.
 
 ![](./bitcoin-custody-self-shared-community-1024x384.png)
 
 <center v-pre>
 <figure>
-  <figcaption>The Bitcoin Beach Wallet provides a shared custody option where funds can be stored within a community.</figcaption>
+  <figcaption>ububiko bwa Bitcoin Beach butanga uburyo bwo kubika bw’ihuriro aho amafaranga ashobora kubikwa hagati y’abantu bo mu muryango umwe</figcaption>
 </figure>
 </center>
 
-Every model has value, so long as 1) it is used for a fitting purpose and 2) it guides people further to the right as they accumulate more of their wealth in bitcoin.
+Buri cyitegererezo gifite agaciro, mugihe cyose 1) gikoreshwa muburyo bukwiye na 2) kiyobora abantu iburyo kuko bakusanya byinshi mubutunzi bwabo muri bitcoin.
 
-### Community custody: harkening back to the days of union banks
+### Umuganda rusange: gusubira mu minsi ya banki yubumwe
 
-The custody model that we landed on for Bitcoin Beach is what Galoy refers to as “community custody.” It is a multi signature solution where the keys for the funds in cold storage are held by established members of the local community. This model reduces reliance on centralized companies outside of the community while also reducing friction of onboarding members to the network.
+Icyitegererezo cyo kurera twaguye kuri Bitcoin Beach nicyo Galoy avuga nka “umuganda.” Nibisubizo byinshi byasinywe aho urufunguzo rw'amafaranga mububiko bukonje rufitwe n'abanyamuryango bashinzwe. Iyi moderi igabanya kwishingikiriza kumasosiyete ahuriweho hanze yabaturage mugihe nayo igabanya ubushyamirane bwabanyamuryango binjira kumurongo.Icyitegererezo cyo kurera twaguye kuri Bitcoin Beach nicyo Galoy avuga nka “umuganda.” Nibisubizo byinshi byasinywe aho urufunguzo rw'amafaranga mububiko bukonje rufitwe n'abanyamuryango bashinzwe. Iyi moderi igabanya kwishingikiriza kumasosiyete ahuriweho hanze yabaturage mugihe nayo igabanya ubushyamirane bwabanyamuryango binjira kumurongo.
 
-### A note on community banking
+### Insiguro ku mabanki y’ihuriro
 
-Community banks have existed around the world for hundreds of years. Their core purpose is to support the socio-economic needs of a group of people with a shared interest. Often the shared interest is centered around a geographic location. Funds held by community banks are sourced from and loaned to people within the community in a more relationship-driven manner than the typical universal bank.
+Amabanki y'abaturage yabayeho ku isi yose mumyaka amagana. Intego yabo nyamukuru ni ugushyigikira imibereho n'ubukungu bikenerwa n'itsinda ryabantu bafite inyungu basangiye. Akenshi inyungu zisangiwe zishingiye kumwanya wa geografiya. Amafaranga afitwe na banki zabaturage akomoka kandi agurizwa kubantu mubaturage muburyo bushingiye kumibanire kuruta banki isanzwe.
 
-Community banks are especially important to communities like El Zonte because they enable decisions to be made locally with the best interests of community members in mind. The Galoy [open source Bitcoin banking solution](https://galoy.io/products/) is built to enable any community or institution around the world to self organize in this manner.
+Amabanki y'abaturage ni ingenzi cyane ku baturage nka El Zonte kuko atuma ibyemezo bifatwa mugace hitawe ku nyungu zabaturage. Galoy [open source Bitcoin banking solution](https://galoy.io/products/) yubatswe kugirango umuryango cyangwa ikigo icyo aricyo cyose kwisi bitegure murubu buryo.
 
-For more insight into the intersection between Bitcoin and community banking, see the Fulgur Ventures article “[The role of Bitcoin for community banking.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
+Ushaka kumenya neza isano iri hagati ya Bitcoin na banki y'abaturage, reba ingingo ya Fulgur Ventures “[Uruhare rwa Bitcoin muri banki yabaturage.](https://medium.com/@fulgur.ventures/the-role-of-bitcoin-for-community-banking-623068c59882)”
 
-### Bitcoin Beach Wallet as a community Bitcoin bank
+### Bitcoin Beach Wallet nkumuryango wa banki ya Bitcoin
 
-Bitcoin Beach Wallet funds are managed by members within the community, providing a frictionless and cost-effective means of payment designed to support the local economy.
+Amafaranga ya Bitcoin Beach Wallet acungwa n'abanyamuryango mu baturage, atanga uburyo bwo guterana amagambo kandi buhendutse bwo kwishyura bugamije gushyigikira ubukungu bwaho.
 
-Here’s why community custody works for Bitcoin Beach:
+Ibi ni Byo bituma uburinzi bw’ihuriro bukora neza kuri Bitcoin Beach:
 
-1. **Removing friction is the most important step to creating the network effects required for circularity in the economy.** Humans are naturally resistant to change and quick to reject new ideas or revert to old habits. As Mike Peterson said in his June 2020 interview with Marty Bent: “You have to take baby steps. If you put up all these hurdles in the beginning, people will never enter the ecosystem.”
-2. **It can be hard to securely and reliably store seed phrases in remote and emerging communities.** For people that live in houses with dirt floors and tin roofs, there are not secure places to store written seed phrases. Using seed phrases also presents issues for people who can’t read or write, which is not uncommon in many parts of the world.
-3. **People who use Bitcoin become more comfortable with it over time.** Residents of El Zonte are now sending bitcoin over the Lightning Network on a daily basis. Some have begun stacking sats and have accumulated more wealth than they ever would have with US Dollars. This is an inspiring trend that Bitcoin Beach is supporting through education and training about self-custody. UX improvements will also continue to make self-custody more accessible to more users around the world.
+1. **Gukuraho ubushyamirane nintambwe yingenzi yo gushiraho ingaruka zurusobe zisabwa kugirango umuzenguruko mubukungu.** Abantu mubisanzwe barwanya impinduka kandi bihutira kwanga ibitekerezo bishya cyangwa gusubira mumico ishaje. Nkuko Mike Peterson yabivuze mu kiganiro yagiranye na Kamena 2020 na Marty Bent: “Ugomba gutera intambwe z'abana. Niba ushyizeho izo mbogamizi zose mugitangira, abantu ntibazigera binjira mubidukikije.
 
-Open source community custody solutions have emerged as a valuable model for onboarding communities to Bitcoin. We believe they will play a significant role in bringing Bitcoin to the first billion users.
+2. **Birashobora kugorana kubika neza kandi neza kubika interuro yimbuto mumiryango ya kure kandi igaragara.** Kubantu baba mumazu afite amagorofa hasi hamwe nigisenge cyamabati, ntahantu hizewe ho kubika interuro yimbuto yanditse. Gukoresha interuro yimbuto birerekana kandi ibibazo kubantu badashobora gusoma cyangwa kwandika, ibyo ntibisanzwe mubice byinshi byisi.                
 
-## Lesson 6: Start Small and Build Momentum Before Expanding
+3. **Abantu bakoresha Bitcoin barushaho kworoherwa nigihe.** Abatuye El Zonte ubu bohereza bitcoin hejuru yumurabyo burimunsi. Bamwe batangiye gutondekanya sats kandi bakusanyije ubutunzi burenze ubwo bari bafite hamwe namadorari y'Amerika. Iyi ni inzira ishimishije Bitcoin Beach itera inkunga binyuze mu burezi n'amahugurwa ajyanye no kwikenura. Iterambere rya UX naryo rizakomeza gutuma kwikenura byoroha kubakoresha benshi kwisi.
 
-It is exciting to see the groundswell of communities around the world working to connect their towns and cities to the Bitcoin network. [Bitcoin Lake](https://twitter.com/LakeBitcoin) in Guatemala and [Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) are two early examples. Some Bitcoiners have started calling Tonga “Bitcoin Island” after hearing [Lord Fusitu’a’s](https://twitter.com/LordFusitua) four-part plan to bring Bitcoin to his country.
+Gufungura isoko yo kubungabunga abaturage byagaragaye n'kicyitegererezo cyagaciro cyo kwinjirira abaturage muri Bitcoin. Twizera ko bazagira uruhare runini mu kuzana Bitcoin kubakoresha miliyari ya mbere.
+
+## Isomo rya 6: Tangira nutuntu duto kandi Wubake Umwanya Mbere yo Kwaguka
+
+Birashimishije kubona ikibanza cy'abaturage ku isi bakora kugirango bahuze imijyi yabo n'imijyi yabo n'umuyoboro wa Bitcoin. [Bitcoin Lake](https://twitter.com/LakeBitcoin) muri Guatemala na [Bitcoin Beach Brasil](https://twitter.com/bitcoinbeachbr) ni ingero ebyiri za mbere. Bamwe mu Bitcoiners batangiye guhamagara Tonga “Bitcoin Island” nyuma yo kumva [Lord Fusitu’a’s](https://twitter.com/LordFusitua) gahunda y'ibice bine byo kuzana Bitcoin mu gihugu cye.
 
 ![](./education-roman-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>One-on-one education is an ongoing part of the process of onboarding a community. (Source: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
+  <figcaption>
+uburezi k'umuntu umwe n'igice gikomye cy'ibikorwa byo kwinjiza mu muryango. (Inkomoko: [Twitter] (Source: <a href="https://twitter.com/romanmartinezc/status/1432898996113133570?s=20">Twitter</a>)</figcaption>
 </figure>
 </center>
 
-To those just starting out we’d offer two main thoughts on scaling from an idea to an economy:
+Kubatangiye gusa turatanga ibitekerezo bibiri byingenzi kubijyanye no gupima kuva mubitekerezo kugeza m'ubukungu:
 
-1. **Starting with a defined community helps to build a strong foundation.** Bitcoin Beach benefited from serving a population of 3,000 that was geographically separated from other villages. This narrow focus allowed us to capture and adapt to learnings in real time that prepared us for the exponential growth that followed.
-2. **Growth happens “gradually, then suddenly.”** When bringing a community onto Bitcoin, expect to spend as much effort and time onboarding the first 50 people than the next thousand. Because Bitcoin is a network, general rules of network effects will apply. Luckily, Bitcoin developers, educators and companies around the world are making tools to help any community get started.
+1. **Gutangirana numuryango wasobanuwe bifasha kubaka umusingi ukomeye.** Bitcoin Beach yungukiwe no gukorera abaturage 3,000 batandukanijwe n’uturere n’indi midugudu. Uku kwibandaho kwatwemereye gufata no guhuza imyigire mugihe nyacyo cyaduteguriye gukura kugaragara gukurikira.
 
-Many people first heard about Bitcoin Beach in 2021, but the project has been years in the making. The Bitcoin Beach team who have dedicated thousands of hours teaching the basics, answering questions and troubleshooting issues are the linchpin of this entire project. Without them, Bitcoin Beach would not be the success story you read about today.
+2. **Gukura bibaho “buhoro buhoro, mugihe gitunguranye.”** Iyo uzanye umuganda kuri Bitcoin, tegereza gukoresha imbaraga nigihe kinini mubwato bwabantu 50 ba mbere kurenza igihumbi kiri imbere. Kuberako Bitcoin numuyoboro, amategeko rusange yingaruka zurusobe azakoreshwa. Ku bw'amahirwe, abategura Bitcoin, abarezi n'amasosiyete ku isi barimo gukora ibikoresho bifasha abaturage bose gutangira.
 
-### Considerations for Starting a Bitcoin Bank
+Abantu benshi bumvise bwa mbere ibya Bitcoin Beach mu 2021, ariko umushinga umaze imyaka ukora. Ikipe ya Bitcoin Beach yatanze amasaha ibihumbi yigisha ibyibanze, gusubiza ibibazo nibibazo byo gukemura ibibazo ni linchpin yuyu mushinga wose. Bitabaye ibyo, Bitcoin Beach ntabwo yaba inkuru nziza wasomye uyumunsi.
 
-Build a strong foundation with the right team, technology and training.
+### Ibitekerezo byo Gutangiza Banki ya Bitcoin
+
+Kubaka umusingi ukomeye hamwe n'itsinda ryiza, ikoranabuhanga n'amahugurwa.
 
 ![](./team-meeting-1024x768.jpg)
 
 <center v-pre>
 <figure>
-  <figcaption>“We are a big family with a big dream.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
+  <figcaption>“Turi umuryango munini ufite indoto nini.” – <a href="https://twitter.com/romanmartinezc/status/1406411850170912769?s=20">@romanmartinezc</a></figcaption>
 </figure>
 </center>
 
+1. **Guteranya ikipe yawe.** Menya abantu bafite umwuka, uburakari nishyaka ryo kuyobora umuryango wawe binyuze muri sisitemu ihinduka Bitcoin ihagarariye. Hariho impande ebyiri zibanze tugomba gusuzuma kuva mugitangira:
+    - **Gusezerana kwabaturage:** Gusobanukirwa uko uru rwego rwo gutegura umuganda rusa, kurikira gusa no kwigira kuri [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), and [Mike](https://twitter.com/Bitcoinbeach).
+    - **Ubuhinga:** Hari ibintu vyinshi nyamukuru vyo kuzirikana igihe uriko urahitamwo inyishu z’ubuhinga zokwubakirwako ibanki ya Bitcoin. Kugira umuntu ashobora kugufasha gufata ingingo ku bijanye n’uburyo bwo kubika Bitcoin (garde), kugenzura umuyoboro wa Lightning hamwe n’ukugenga amafaranga ahari (liquidité), uko ukoresha ububiko bushushe n’ubukanye (hot and cold wallets), hamwe n’ibindi bintu nyamukuru bizogufasha gushiraho ishingiro rikomeye ryo gukura kw’iyo banki.
 
-1. **Assemble your team.** Identify people who have the spirit, grit and passion to lead your community through the system change that Bitcoin represents. There are two primary angles to consider from the start:
-    - **Community engagement:** To understand what this level of community organizing looks like, simply follow and learn from [Jorge](https://twitter.com/jorgebitcoinES), [Chimbera](https://twitter.com/romanmartinezc), and [Mike](https://twitter.com/Bitcoinbeach).
-    - **Technology:** There are many factors to consider when choosing the technology solutions on which to build your Bitcoin Bank. Having access to somebody who can guide you through decisions around the spectrum of Bitcoin custody, Lightning node and liquidity management, hot and cold wallet usage and other factors will help you lay a strong foundation for growth.
-2. **Find a source of funding.** Securing access to funding is an important step for onboarding a new community to Bitcoin, especially in poorer countries where residents do not have savings or disposable income. Having funds available to pay for materials and services will help to stand up operations, and distributing sats within the community at the outset will be required to stimulate circularity in the economy.
-3. **Find a technological solution.** The tools for providing financial services on top of Bitcoin are still emerging. Galoy [open source Bitcoin banking infrastructure](https://galoy.io/products/) is one solution that aims to make it easy for communities and institutions to offer financial services on Bitcoin and Lightning.
-4. **Define your custody model and plan for a multi-signature (multisig) setup.** Custody is a foundational topic that deserves attention to detail and understanding of your audience. For communities of experienced Bitcoiners, enabling self-custody is a must. When you’re onboarding an unbanked population, you may decide that a community custody model like the one designed for Bitcoin Beach is the appropriate starting point. Either way, be sure to plan to hold reserve funds within a multisig setup.
-5. **Develop a plan for community training and support.** The Bitcoin community is incredibly generous with educational materials and other resources, so look and ask around first. There may be no place better than “Bitcoin Twitter” to be connected with the videos, articles and assets you need to begin onboarding your community. Keep in mind that the usage of Twitter may be very low in the communities for which you are building.
-6. **Hit the streets!** Onboarding happens one person at a time, by getting out into the community and giving people the opportunity to receive and send their first sats.
+2. **Kurondera aho amafaranga yova.** Kuronka uburyo bwo gutunganya amafaranga ni intambwe ikomeye mu kwinjiza umuryango mushasha muri Bitcoin, na cane cane mu bihugu bikiri mu nzira y’amajambere aho ababa baho badafise uburyo bwo kwizigira canke amafaranga y’ingwati. Kugira amafaranga ahari yo kuriha ibikoresho n’ivyo gukoresha bizofasha gutangura ibikorwa, kandi gutanga utuntu twa Bitcoin (sats) mu ntango muri uwo muryango bizoba ngombwa kugira dutere intege ugusubiranamwo kw’amafaranga mu butunzi.
+
+3. **Shakisha igisubizo cyikoranabuhanga.** Ibikoresho byo gutanga serivise yimari hejuru ya Bitcoin biracyagaragara. Galoy[open source Bitcoin banking infrastructure](https://galoy.io/products/) n'igisubizo kimwe kigamije korohereza abaturage n'inzego gutanga serivisi z'imari kuri Bitcoin n'umurabyo( Lightning)
+
+4. **Sobanura uburyo bwawe bwo kurera hanyuma utegure umukono-mwinshi (multisig).** Custody ni ingingo shingiro ikwiye kwitondera amakuru arambuye no gusobanukirwa nabakwumva. Kubaturage bafite uburambe bwa Bitcoiners, gushoboza kwiyobora ni ngombwa. Iyo winjiye mubaturage badafite amabanki, urashobora guhitamo ko uburyo bwo kurera abaturage nkubwagenewe Bitcoin Beach aribwo buryo bwiza bwo gutangiriraho. Ibyo ari byo byose, menya neza ko uteganya gufata amafaranga yabigenewe muburyo butandukanye.
+
+5. **Gutegura gahunda yo guhugura abaturage no gushyigikirwa.** Umuryango wa Bitcoin utanga bidasanzwe hamwe nibikoresho byuburezi nibindi bikoresho, reba rero ubaze mbere. Ntabwo hashobora kuba ahantu heza kuruta “Bitcoin Twitter” kugirango uhuze na videwo, ingingo n'umutungo ukeneye gutangira kwinjira mumuryango wawe. Wibuke ko imikoreshereze ya Twitter ishobora kuba mike cyane mubaturage wubaka.
+
+6. ** Kanda umuhanda!** Kwinjira bibaho umuntu umwe icyarimwe, mugusohoka mubaturage no guha abantu amahirwe yo kwakira no kohereza sats zabo za mbere.
 
 ![](./jorge-bitcoin-beach-el-zonte-1024x768.jpg)
 
@@ -296,12 +322,12 @@ Build a strong foundation with the right team, technology and training.
 </figure>
 </center>
 
-## Conclusion
+## Umwanzuro
 
-It is inspiring to see communities and institutions around the world working alongside each other to bring Bitcoin to the first Billion people. We hope that this guide helps accelerate learning and encourage good discussion.
+Birashimishije kubona abaturage ninzego kwisi yose bakorana kugirango bazane Bitcoin kubantu ba mbere ba miliyari. Turizera ko iki gitabo gifasha kwihutisha kwiga no gushishikariza ibiganiro byiza.
 
-Galoy is also organizing [Adopting Bitcoin: A Lightning Summit in El Salvador](https://adoptingbitcoin.org/) on November 16-18 as an additional way to support Bitcoin adoption and celebrate the success of the Bitcoin Beach team. We are humbled to be in the company of people like Jorge, Chimbera, Mike and countless others who brought the vision of a circular Bitcoin economy to life.
+Galoy arategura kandi [Kwemeza Bitcoin: Inama y’umurabyo muri El Salvador](https://adoptingbitcoin.org/) ku ya 16-18 Ugushyingo nk'uburyo bw'inyongera bwo gushyigikira iyemezwa rya Bitcoin no kwishimira intsinzi y'ikipe ya Bitcoin Beach. Twicishijwe bugufi kuba turi kumwe nabantu nka Jorge, Chimbera, Mike nabandi batabarika bazanye icyerekezo cyubukungu bwa Bitcoin buzenguruka mubuzima.
 
-If you’d like to see and use our code, it’s free and open source on [GitHub](https://github.com/GaloyMoney/).
+Niba ukunda kubona no gukoresha code yacu, ni ubuntu kandi bufungura isoko kuri [GitHub](https://github.com/GaloyMoney/).
 
-You can also reach out on twitter [@galoymoney](https://twitter.com/GaloyMoney) and our [public Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).
+Urashobora kandi kugera kuri twitter [@galoymoney](https://twitter.com/GaloyMoney) and our [public Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA).
